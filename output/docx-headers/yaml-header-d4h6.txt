@@ -1,0 +1,11 @@
+---
+title: Schaalvergroting en maatschappelijke integratie| Binnenvaart in de twintigste eeuw
+author: Ruud Filarski
+part: 4
+chapter: 6
+summary: Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.
+publication_date: 29 oktober 2024
+doi: 10.5281/zenodo.14010291
+doi_url: 
+status: development
+---

@@ -1,0 +1,11 @@
+---
+title: Binnenvaart in de zeventiende en achttiende eeuw| Innovatie en marktintegratie
+author: André van Holk
+part: 2
+chapter: 6
+summary: Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.
+publication_date: 29 november 2022
+doi: 10.5281/zenodo.7377863
+doi_url: https://zenodo.org/record/7377863#.Y5B_17LMKBR
+status: development
+---

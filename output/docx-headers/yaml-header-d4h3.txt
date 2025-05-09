@@ -1,0 +1,11 @@
+---
+title: Koopvaardij buiten Europa
+author: 
+part: 4
+chapter: 3
+summary: Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.
+publication_date: 
+doi: doi: aangevraagd
+doi_url: 
+status: development
+---

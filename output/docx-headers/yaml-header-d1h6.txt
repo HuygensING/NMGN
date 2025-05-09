@@ -1,0 +1,11 @@
+---
+title: Maritieme cultuur| in de middeleeuwen
+author: Remmelt Daalder
+part: 1
+chapter: 6
+summary: In de middeleeuwen had de zee uiteenlopende betekenissen: een bedreigende ruimte, vol monsters. Maar scheepvaart stond ook voor rijkdom, macht en moed. Verhalen en afbeeldingen tonen het schip als metafoor voor een groep mensen, zoals het narrenschip, een vaartuig vol zondaars.
+publication_date: 27 mei 2019
+doi: 10.5281/zenodo.5150427
+doi_url: https://zenodo.org/record/5150427#.YQVw1o4zaUk
+status: development
+---

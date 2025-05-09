@@ -1,0 +1,30 @@
+{
+  "name": "nmgn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "config": {},
+  "scripts": {
+    "start": "node app/convert-nmgn-files.js",
+    "docx headers": "node app/generate-docx-headers.js",
+    "poststart": "",
+    "tw": "npx tailwindcss -i ./$npm_package_config_project/css/input-$npm_package_config_project.css -o ./$npm_package_config_project/_dist/css/style.css --watch",
+    "nodemon": "nodemon -e js,html,md,json -x  npm run build"
+  },
+  "author": "Bas Doppen",
+  "license": "ISC",
+  "nodemonConfig": {
+    "ignore": []
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss": "^3.4"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "handlebars": "^4.7.7",
+    "node-pandoc": "^0.3.0",
+    "nodemon": "^3.0.1",
+    "xml2js": "^0.6.2"
+  }
+}

@@ -1,0 +1,11 @@
+---
+title: Een veelkoppig monster| De Nederlandse zeemacht, 1568-1780
+author: Victor Enthoven, Marc van Alphen en Remmelt Daalder
+part: 2
+chapter: 4
+summary: Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.
+publication_date: 14 mei 2024
+doi: 10.5281/zenodo.11179423
+doi_url: https://zenodo.org/records/11179423
+status: development
+---

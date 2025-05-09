@@ -1,0 +1,11 @@
+---
+title: Aarzelende modernisering| Binnenvaart in de negentiende eeuw
+author: Ruud Filarski
+part: 3
+chapter: 6
+summary: In de negentiende eeuw veranderde de binnenvaart van karakter, zonder dat het traditionele, ambachtelijke vervoer met zeilschepen en trekschuiten geheel verdween. De belangrijkste aandachtspunten in dit hoofdstuk zijn de opkomst van de stoom- en de sleepvaart, de invloed van de stoomvaartdiensten op de reismogelijkheden, de concurrentie van de binnenvaart met de spoorwegen en het wegvervoer, de opkomst van de Rijnvaart, de ontwikkeling van het binnenlands vervoer, de organisatie van de vervoersdiensten, de opkomst van de eerste grote binnenvaartondernemingen, de verbetering van het vaarwegennet, de samenstelling van de vloot en de overgang van houten naar ijzeren vaartuigen. Het hoofdstuk eindigt in 1880, kort voordat het veranderingsproces zijn hoogtepunt zou bereiken.  
+publication_date: 30 juni 2021
+doi: 10.5281/zenodo.5150447
+doi_url: https://zenodo.org/record/5150447#.YQV2wo4zaUk
+status: development
+---

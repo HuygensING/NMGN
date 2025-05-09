@@ -1,0 +1,11 @@
+---
+title: Geweld en oorlogvoering ter zee, 1018-1568
+author: Louis Sicking en Ronald de Graaf
+part: 1
+chapter: 4
+summary: In de middeleeuwen was geweld op de zeeën rondom Europa endemisch. Piraterij was de norm. Scheepvaart en geweld gingen hand in hand. In de Lage Landen was het niet anders. Vanaf de vorming van de kustgraafschappen tot aan de Nederlandse Opstand waren handel, zeeroof en maritieme oorlogvoering onlosmakelijk met elkaar verbonden. In de middeleeuwse Nederlanden kwamen de admiraliteit, de vlootorganisatie, het bouwen en uitrusten van oorlogsschepen, maritieme tactieken en strategische functies van de marine tot ontwikkeling. Wie de opkomst van de Nederlandse Republiek als zeemogendheid wil begrijpen ontkomt er niet aan verder terug te kijken dan de watergeuzen.
+publication_date: 29 september 2022
+doi: 10.5281/zenodo.7120714
+doi_url: https://zenodo.org/record/7120714#.YzRu-VJByBQ
+status: development
+---

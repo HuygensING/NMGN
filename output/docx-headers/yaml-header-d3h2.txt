@@ -1,0 +1,11 @@
+---
+title: De koopvaardij binnen Europa, 1780-1870
+author: Jan Willem Veluwenkamp
+part: 3
+chapter: 2
+summary: Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.
+publication_date: 28 maart 2022
+doi: 10.5281/zenodo.6360653
+doi_url: https://doi.org/10.5281/zenodo.6360653
+status: development
+---

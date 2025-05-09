@@ -1,0 +1,11 @@
+---
+title: Bakens uit het veilige verleden| Maritieme cultuuruitingen| in de ‘eeuw van uitersten’
+author: Sara Keijzer
+part: 4
+chapter: 8
+summary: In de twintigste eeuw veranderde de Nederlandse samenleving ingrijpend. De ‘eeuw van uitersten’ bracht grote omwentelingen en massabewegingen die het eigene onder druk zetten. In perioden van onzekerheid kon de eeuwenoude binding van Nederland met het water houvast bieden. Maritieme cultuuruitingen herbergden een idee van continuïteit en fungeerden als solide constanten tussen een veilig verleden en een ongewis verschiet.
+publication_date: 20 augustus 2020
+doi: DOI 10.5281/zenodo.5150458
+doi_url: https://zenodo.org/record/5150458#.YQV6Lo4zaUk
+status: development
+---

@@ -1,0 +1,11 @@
+---
+title: Maritieme cultuur| in de negentiende eeuw
+author: Remmelt Daalder
+part: 3
+chapter: 7
+summary: In het nationalisme van de negentiende eeuw speelde het maritieme verleden een grote rol. Schilders, schrijvers en beeldhouwers, maar ook historici lieten zich inspireren door de daden van zeehelden uit de Gouden Eeuw, zoals Michiel de Ruyter.
+publication_date: 31 oktober 2019
+doi: DOI 10.5281/zenodo.51510456
+doi_url: https://zenodo.org/record/5150456#.YQV4144zaUk
+status: development
+---
