@@ -13,6 +13,11 @@ const replaceSpaces = (str) => {
 const saveTitle = (str) => {
     return str.replaceAll(" ","-").replaceAll("|","").replaceAll(",","").toLowerCase();
 };
-module.exports = {createFile, replaceSpaces, saveTitle};
+
+const navigationData = (indexJson) => {
+    
+};
+
+module.exports = {createFile, replaceSpaces, saveTitle, navigationData};
 
 

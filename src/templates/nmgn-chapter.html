@@ -1,0 +1,74 @@
+{{> general/html-header}}
+
+<header class="w-full bg-[#032939] text-white p-3">
+    <div class="max-w-[1900px] mx-auto">
+        <a href="/"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
+    </div>
+</header>
+
+<div class="flex justify-center items-center min-h-[30vh] xl:min-h-[50vh] bg-[#053a51] px-6">
+    <h1 class="text-2xl md:text-3xl xl:text-6xl font-bold text-[#2bf6d7] text-center">Een veelkoppig monster:<br>De Nederlandse zeemacht, 1568-1780</h1>
+
+
+    <div class="hidden">Deel 2 De vaart in en buiten Europa 1600 - 1780</div>
+    <div class="hidden">Door Victor Enthoven, Marc van Alphen en Remmelt Daalder</div>
+
+</div>
+
+
+
+<div class="w-full  grid grid-cols-8 gap-4">
+
+
+    <div class="hidden lg:col-span-2  pt-16 border-r border-neutral-200">
+        <nav class="text-xs flex flex-col gap-2 w-full *:no-underline *:text-neutral-600 sticky top-8 max-h-screen overflow-y-auto pb-16 pl-8 pr-4">
+            <div class="flex justify-between mb-4 border-b pb-2">
+                <em>Inhoud</em>
+                <a href="#top" class="no-underline">&#8593; top</a>
+            </div>
+            {{> content/nmgn-inner-nav}}
+        </nav>
+    </div>
+
+
+    <div class="col-span-8 lg:col-span-4 pt-12 lg:pt-32 px-6">
+        <div class="max-w-xl mx-auto font-serif prose text-lg" id="top">
+
+                {{#each content}}
+                    <p class="py-3">{{{htmlRaw}}}</p>
+                {{/each}}
+
+        </div>
+    </div>
+
+
+    <div class="hidden lg:col-span-2 bg-neutral-50">
+        <div class=" sticky top-0 h-full max-h-screen flex justify-center items-start lg:items-center pr-8 pl-4">
+            <div class="flex flex-col gap-4 w-96">
+                <img src="images/d1h3/d1h3-600/2-8_Medemblik.jpg" class="w-full" alt="" loading="lazy">
+                <div class="text-sm">
+                    <div class="captionTitle">Plattegrond van Medemblik, circa 1560</div><span class="openCaption">[i]</span>
+
+                    <div class="moreCaption">Deze plattegrond van Medemblik aan de vooravond van de Opstand is vervaardigd
+                        door Jacob van Deventer. Als haven fungeert de gracht aan de oostzijde
+                        (boven). Aan de havenmond ligt ter bescherming kasteel Radboud. De plattegrond
+                        van Paulus Utenwaal laat zien dat in 1599 aan de westzijde (onder) een
+                        grote nieuwe haven is gegraven met scheepswerven. Een bolwerk naast het
+                        kasteel beschermt de havenmond.
+                        <br>Rijksmuseum, Amsterdam.</div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</main>
+
+{{> general/html-footer}}

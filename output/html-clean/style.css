@@ -2,16 +2,39 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container, header {
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container>* {
     width: 100%;
-    max-width: 650px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 2rem;
+
     box-sizing: border-box;
     line-height: 1.5rem;
 }
 
 h1 {
     line-height: 2.5rem; 
+}
+
+.imgBlock {
+    padding: .5rem;
+    background-color: #eee;
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+.footnote-ref {
+    text-decoration: none;
+    color: #888;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
 }

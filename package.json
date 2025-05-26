@@ -5,10 +5,12 @@
   "main": "",
   "config": {},
   "scripts": {
-    "start": "node app/convert-nmgn-files.js",
+    "start": "npm run buildWebsite",
+    "convertData": "node app/build.js",
+    "buildWebsite": "node app/build-website.js",
     "docx headers": "node app/generate-docx-headers.js",
-    "poststart": "",
-    "tw": "npx tailwindcss -i ./$npm_package_config_project/css/input-$npm_package_config_project.css -o ./$npm_package_config_project/_dist/css/style.css --watch",
+    "poststart": "npm run tw",
+    "tw": "npx tailwindcss -i ./src/css/nmgn-tw.css -o ./output/html-site/css/style-tw.css --watch",
     "nodemon": "nodemon -e js,html,md,json -x  npm run build"
   },
   "author": "Bas Doppen",
@@ -18,13 +20,15 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9",
-    "tailwindcss": "^3.4"
+    "tailwindcss": "^4"
   },
   "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
     "fs-extra": "^11.1.1",
     "handlebars": "^4.7.7",
     "node-pandoc": "^0.3.0",
     "nodemon": "^3.0.1",
+    "turndown": "^7.2.0",
     "xml2js": "^0.6.2"
   }
 }

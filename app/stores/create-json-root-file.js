@@ -1,9 +1,9 @@
 let parseString = require('xml2js').parseString;
+const utilFunc = require('../utils.js');
 
-module.exports = function(importedHtmlContent) {
+module.exports = function([importedHtmlContent, isLast]) {
 
         return new Promise((resolve, reject) => {
-            //console.log(importedHtmlContent);
 
             let jsonDoc = {"chapterMetadata": {}, "content": [], "footNotes": []}
 
@@ -156,14 +156,13 @@ module.exports = function(importedHtmlContent) {
                             }
                         }
 
-                        
-                        //currentFootNote
+
                     }
                     
                 });
             });
-            
-            resolve(jsonDoc)
+            utilFunc.createFile('./output/json/d'+jsonDoc.chapterMetadata.part+'h'+jsonDoc.chapterMetadata.chapter+'.json', JSON.stringify(jsonDoc))
+            resolve([jsonDoc, isLast])
     
         })
 

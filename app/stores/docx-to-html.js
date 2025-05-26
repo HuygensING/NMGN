@@ -2,22 +2,21 @@ let pandoc = require('node-pandoc');
 const utility = require('../utils.js');
 
 
-module.exports = function(file) {
+module.exports = function(file, isLast) {
 	src = './content/word/'+file+'.docx',
   args = '-f docx -t html5';
 
     return new Promise((resolve, reject) => {
 
         callback = function (err, htmlContent) {
+          
           if (err) console.error('Oh Nos: ',err);
-          utility.createFile('z5-test-'+Date.now ( )+'.html', htmlContent)
-          //console.log(htmlContent);
-          //console.log('444');
+          //utility.createFile('0---'+file+'.html', htmlContent)
+
 
           // new lines handling
-          
           const returnTags = ['<p>','<li','</li','<ol>','</ol>', '<ul>','</ul>', '<blockquote>','</blockquote>', '<h1','<h2','<h3','<h4','<h5','<h6','<table>','<section','</section>']
-          
+
           htmlContent = htmlContent.replace(/(?:\r\n|\r|\n)/g, ' ');
         
           returnTags.forEach(replaceString => {
@@ -31,9 +30,15 @@ module.exports = function(file) {
           htmlContent = htmlContent.replaceAll('.gif<br />', '.gif</p>\n<p>');
           htmlContent = htmlContent.replaceAll('<hr />', '');
           htmlContent = htmlContent.replaceAll('<em><br /> Tabel', '<em>Tabel');
-          htmlContent = htmlContent.replaceAll('@i@[[[', '');
+          //htmlContent = htmlContent.replaceAll('@i@[[[', '\n');
           htmlContent = htmlContent.replaceAll(']]]@/i@', '');
           htmlContent = htmlContent.replaceAll(']]] [[[', '</p>\n<p>');
+
+
+          htmlContent = htmlContent.replaceAll('@i@[[[', '</p>\n<p>');
+          htmlContent = htmlContent.replaceAll(']]]', '</p>\n<p>##');
+
+
           htmlContent = htmlContent.replaceAll('@q@', '');
           htmlContent = htmlContent.replaceAll('@/q@', '');
           htmlContent = htmlContent.replaceAll(':<span dir="rtl">±</span>', '|');
@@ -41,12 +46,9 @@ module.exports = function(file) {
           htmlContent = htmlContent.replaceAll('&gt;@/h@', '');
 
 
+          //utility.createFile('1---'+file+'.html', htmlContent)
 
-        
-
-          //utility.createFile('z2-test-'+Date.now ( )+'.html', htmlContent)
-
-          resolve(htmlContent);
+          resolve([htmlContent, isLast]);
           
         };
          

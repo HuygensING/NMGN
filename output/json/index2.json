@@ -1,0 +1,145 @@
+[
+    [
+        {
+            "title": "Home",
+            "part": "0",
+            "chapter": "0",
+            "status": "development",
+            "part2Nr": "2",
+            "part1Title": "Opkomst van de rivier- en zeehandel",
+            "part1YearRange": "1100 - 1600",
+            "part1Editors": "Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond",
+            "part1Isbn": "9789052162003",
+            "part2Title": "De vaart in en buiten Europa",
+            "part2YearRange": "1600 - 1780",
+            "part2Editors": "Els M. Jacobs, Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond",
+            "part2Isbn": "9789052162010",
+            "part3Nr": "3",
+            "part3Title": "Tijd van de grote zeilvaart",
+            "part3YearRange": "1780 - 1870",
+            "part3Editors": "Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond",
+            "part3Isbn": "9789052162027",
+            "part4Nr": "4",
+            "part4Title": "Mechanisering en schaalvergroting",
+            "part4YearRange": "1870 - 2020",
+            "part4Editors": "Wouter Heijveld, Anita van Dissel, Christiaan van Bochove, Henk Dessens, Henk den Heijer, Els M. Jacobs en Peter Sigmond",
+            "part4Isbn": "9789052162034"
+        }
+    ],
+    [
+        {
+            "title": "Het land, het water en de binnenvaart",
+            "author": "Thijs J. Maarleveld ✝",
+            "part": "1",
+            "chapter": "2",
+            "summary": "In geen land ter wereld was vervoer over water belangrijker voor de ontwikkeling dan in Nederland. Varen was er een landschappelijke noodzaak, al vanaf de eerste bewoning van de delta, het veenlandschap en het zeekleigebied. In de middeleeuwen kwam de binnenvaart tot grote ontwikkeling, zowel op lokaal niveau als op de lange afstand. De opkomst van de steden bracht bovendien een geregeld onderling verkeer tot stand. Tot nog toe verwaarloosd in de geschiedschrijving komt de binnenvaart in beeld door landschapsontwikkeling, historische geografie en archeologie te combineren met ontginnings- en waterstaatsgeschiedenis. Binnenvaart vormt daarmee de basis van de maritieme geschiedenis.",
+            "publication_date": "30 juni 2021",
+            "doi": "10.5281/zenodo.5150412",
+            "doi_url": "https://zenodo.org/record/5150412#.YQVrjo4zaUk",
+            "status": "development"
+        },
+        {
+            "title": "Het schip",
+            "author": "Richard W. Unger",
+            "part": "1",
+            "chapter": "3",
+            "summary": "De geschiedenis van de scheepsbouw in de Nederlanden tot ongeveer 1600 is een indrukwekkend verhaal over evolutie, aanpassing en verbetering over de hele linie.",
+            "publication_date": "28 januari 2025",
+            "doi": "-",
+            "status": "development"
+        },
+        {
+            "title": "Geweld en oorlogvoering ter zee, 1018-1568",
+            "author": "Louis Sicking en Ronald de Graaf",
+            "part": "1",
+            "chapter": "4",
+            "summary": "In de middeleeuwen was geweld op de zeeën rondom Europa endemisch. Piraterij was de norm. Scheepvaart en geweld gingen hand in hand. In de Lage Landen was het niet anders. Vanaf de vorming van de kustgraafschappen tot aan de Nederlandse Opstand waren handel, zeeroof en maritieme oorlogvoering onlosmakelijk met elkaar verbonden. In de middeleeuwse Nederlanden kwamen de admiraliteit, de vlootorganisatie, het bouwen en uitrusten van oorlogsschepen, maritieme tactieken en strategische functies van de marine tot ontwikkeling. Wie de opkomst van de Nederlandse Republiek als zeemogendheid wil begrijpen ontkomt er niet aan verder terug te kijken dan de watergeuzen.",
+            "publication_date": "29 september 2022",
+            "doi": "10.5281/zenodo.7120714",
+            "doi_url": "https://zenodo.org/record/7120714#.YzRu-VJByBQ",
+            "status": "development"
+        },
+        {
+            "title": "Maritieme cultuur| in de middeleeuwen",
+            "author": "Remmelt Daalder",
+            "part": "1",
+            "chapter": "6",
+            "summary": "In de middeleeuwen had de zee uiteenlopende betekenissen",
+            "publication_date": "27 mei 2019",
+            "doi": "10.5281/zenodo.5150427",
+            "doi_url": "https://zenodo.org/record/5150427#.YQVw1o4zaUk",
+            "status": "development"
+        }
+    ],
+    [
+        {
+            "title": "Een veelkoppig monster| De Nederlandse zeemacht, 1568-1780",
+            "author": "Victor Enthoven, Marc van Alphen en Remmelt Daalder",
+            "part": "2",
+            "chapter": "4",
+            "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
+            "publication_date": "14 mei 2024",
+            "doi": "10.5281/zenodo.11179423",
+            "doi_url": "https://zenodo.org/records/11179423",
+            "status": "development"
+        },
+        {
+            "title": "Binnenvaart in de zeventiende en achttiende eeuw| Innovatie en marktintegratie",
+            "author": "André van Holk",
+            "part": "2",
+            "chapter": "6",
+            "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
+            "publication_date": "29 november 2022",
+            "doi": "10.5281/zenodo.7377863",
+            "doi_url": "https://zenodo.org/record/7377863#.Y5B_17LMKBR",
+            "status": "development"
+        },
+        {
+            "title": "De wereld op zee| De maritieme cultuur van de Gouden Eeuw",
+            "author": "Michiel van Groesen",
+            "part": "2",
+            "chapter": "7",
+            "summary": "In de vroegmoderne tijd bevoeren schepen uit de Nederlandse Republiek de wereldzeeën. Reizigers, kunstenaars en cartografen construeerden een canoniek zelfbeeld dat een belangrijk onderdeel werd van de nationale identiteit, en een wereldbeeld dat ook internationaal herkenbaarheid genoot. Soms liepen daarin feit en fictie naadloos in elkaar over.",
+            "publication_date": "20 augustus 2020",
+            "doi": "10.5281/zenodo.5150437",
+            "doi_url": "https://zenodo.org/record/5150437#.YQV0hY4zaUk",
+            "status": "development"
+        }
+    ],
+    [
+        {
+            "title": "Aarzelende modernisering| Binnenvaart in de negentiende eeuw",
+            "author": "Ruud Filarski",
+            "part": "3",
+            "chapter": "6",
+            "summary": "In de negentiende eeuw veranderde de binnenvaart van karakter, zonder dat het traditionele, ambachtelijke vervoer met zeilschepen en trekschuiten geheel verdween. De belangrijkste aandachtspunten in dit hoofdstuk zijn de opkomst van de stoom- en de sleepvaart, de invloed van de stoomvaartdiensten op de reismogelijkheden, de concurrentie van de binnenvaart met de spoorwegen en het wegvervoer, de opkomst van de Rijnvaart, de ontwikkeling van het binnenlands vervoer, de organisatie van de vervoersdiensten, de opkomst van de eerste grote binnenvaartondernemingen, de verbetering van het vaarwegennet, de samenstelling van de vloot en de overgang van houten naar ijzeren vaartuigen. Het hoofdstuk eindigt in 1880, kort voordat het veranderingsproces zijn hoogtepunt zou bereiken.",
+            "publication_date": "30 juni 2021",
+            "doi": "10.5281/zenodo.5150447",
+            "doi_url": "https://zenodo.org/record/5150447#.YQV2wo4zaUk",
+            "status": "development"
+        },
+        {
+            "title": "Maritieme cultuur| in de negentiende eeuw",
+            "author": "Remmelt Daalder",
+            "part": "3",
+            "chapter": "7",
+            "summary": "In het nationalisme van de negentiende eeuw speelde het maritieme verleden een grote rol. Schilders, schrijvers en beeldhouwers, maar ook historici lieten zich inspireren door de daden van zeehelden uit de Gouden Eeuw, zoals Michiel de Ruyter.",
+            "publication_date": "31 oktober 2019",
+            "doi": "DOI 10.5281/zenodo.51510456",
+            "doi_url": "https://zenodo.org/record/5150456#.YQV4144zaUk",
+            "status": "development"
+        }
+    ],
+    [
+        {
+            "title": "Schaalvergroting en maatschappelijke integratie| Binnenvaart in de twintigste eeuw",
+            "author": "Ruud Filarski",
+            "part": "4",
+            "chapter": "6",
+            "summary": "Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.",
+            "publication_date": "29 oktober 2024",
+            "doi": "10.5281/zenodo.14010291",
+            "status": "development"
+        }
+    ]
+]
