@@ -9,14 +9,16 @@
     "convertData": "node app/build.js",
     "buildWebsite": "node app/build-website.js",
     "docx headers": "node app/generate-docx-headers.js",
-    "poststart": "npm run tw",
+    "poststart": "npm run nodemon & npm run tw",
     "tw": "npx tailwindcss -i ./src/css/nmgn-tw.css -o ./output/html-site/css/style-tw.css --watch",
-    "nodemon": "nodemon -e js,html,md,json -x  npm run build"
+    "nodemon": "nodemon -e js,html,md,json -x  npm run buildWebsite"
   },
   "author": "Bas Doppen",
   "license": "ISC",
   "nodemonConfig": {
-    "ignore": []
+    "ignore": [
+      "./output/*"
+    ]
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9",

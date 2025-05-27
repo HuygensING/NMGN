@@ -24,6 +24,33 @@ function build() {
         // });
 }
 
+handlebars.registerHelper('split', function (str) {
+  return str.split(';');
+});
+
+handlebars.registerHelper('removeCapSpace', function (str) {
+  return str.replaceAll(' ', '_').toLowerCase();
+});
+
+
+handlebars.registerHelper('ifSame', function (val1, val2) {
+  let out = false;
+  if (val1 == val2) {
+    out = true;
+  }
+  return out;
+});
+
+
+handlebars.registerHelper('randomBetween', function (min, max) {
+  min = parseInt(min);
+  max = parseInt(max);
+  return (Math.floor(Math.random()*(max-min+1)+min));
+});
+
+handlebars.registerHelper('replaceStr', function (str, replce, replceWith) {
+  return str.replaceAll(replce, replceWith);
+});
 
 
 function generateHtml() {
