@@ -22,10 +22,12 @@
     --color-blue-100: oklch(93.2% 0.032 255.585);
     --color-blue-200: oklch(88.2% 0.059 254.128);
     --color-purple-200: oklch(90.2% 0.063 306.703);
+    --color-pink-800: oklch(45.9% 0.187 3.815);
     --color-neutral-50: oklch(98.5% 0 0);
     --color-neutral-100: oklch(97% 0 0);
     --color-neutral-200: oklch(92.2% 0 0);
     --color-neutral-600: oklch(43.9% 0 0);
+    --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
     --container-xl: 36rem;
@@ -44,6 +46,8 @@
     --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
     --font-weight-bold: 700;
@@ -256,8 +260,14 @@
   .row-span-2 {
     grid-row: span 2 / span 2;
   }
+  .row-start-1 {
+    grid-row-start: 1;
+  }
   .row-start-2 {
     grid-row-start: 2;
+  }
+  .row-start-3 {
+    grid-row-start: 3;
   }
   .container {
     width: 100%;
@@ -384,6 +394,9 @@
   .grid-rows-\[3rem_auto\] {
     grid-template-rows: 3rem auto;
   }
+  .grid-rows-\[auto_auto_auto\] {
+    grid-template-rows: auto auto auto;
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -399,6 +412,9 @@
   .justify-center {
     justify-content: center;
   }
+  .justify-start {
+    justify-content: flex-start;
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
@@ -410,6 +426,9 @@
   }
   .overflow-y-auto {
     overflow-y: auto;
+  }
+  .scroll-smooth {
+    scroll-behavior: smooth;
   }
   .rounded {
     border-radius: 0.25rem;
@@ -454,6 +473,9 @@
   .bg-amber-300 {
     background-color: var(--color-amber-300);
   }
+  .bg-black {
+    background-color: var(--color-black);
+  }
   .bg-blue-100 {
     background-color: var(--color-blue-100);
   }
@@ -471,6 +493,9 @@
   }
   .bg-neutral-100 {
     background-color: var(--color-neutral-100);
+  }
+  .bg-pink-800 {
+    background-color: var(--color-pink-800);
   }
   .bg-red-200 {
     background-color: var(--color-red-200);
@@ -644,6 +669,11 @@
       display: flex;
     }
   }
+  .md\:justify-center {
+    @media (width >= 48rem) {
+      justify-content: center;
+    }
+  }
   .md\:text-3xl {
     @media (width >= 48rem) {
       font-size: var(--text-3xl);
@@ -724,6 +754,12 @@
   .xl\:gap-10 {
     @media (width >= 80rem) {
       gap: calc(var(--spacing) * 10);
+    }
+  }
+  .xl\:text-5xl {
+    @media (width >= 80rem) {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
   .xl\:text-6xl {
