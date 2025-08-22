@@ -2,7 +2,12 @@ const utility = require('../utils.js');
 let TurndownService = require('turndown')
 
 
-module.exports = function([jsonDoc, isLast]) {
+module.exports = function(resolveData) {
+  let jsonDoc = resolveData[0]
+  let isLast = resolveData[1]
+  let file = resolveData[2]
+
+  
 
 	return new Promise((resolve, reject) => {
 		let turndownService = new TurndownService()
@@ -30,7 +35,11 @@ module.exports = function([jsonDoc, isLast]) {
 					
 
 					if (contentBlock.type == 'img') {
-						outputMardown += '![Alt text todo]('+contentBlock.htmlRaw+')\n\n';
+						let imgDescription = ''
+						if (contentBlock.imagedata !== undefined) {
+							imgDescription = contentBlock.imagedata.title+'. '+contentBlock.imagedata.description+' '+contentBlock.imagedata.description2+' '+contentBlock.imagedata.description3+' '
+						}
+						outputMardown += '!['+imgDescription+']('+contentBlock.htmlRaw+')\n\n';
 						
 					} else if ((contentBlock.type == 'h1') || (contentBlock.type == 'h2') || (contentBlock.type == 'h3') || (contentBlock.type == 'h4') || (contentBlock.type == 'h5') || (contentBlock.type == 'h6') ) {
 						outputMardown += markDownHeader(contentBlock.type, contentBlock.htmlRaw)+'\n\n';
@@ -44,10 +53,11 @@ module.exports = function([jsonDoc, isLast]) {
 					
 				});
 
-
 		utility.createFile('./output/markdown/d'+jsonDoc.chapterMetadata.part+'h'+jsonDoc.chapterMetadata.chapter+'-'+utility.saveTitle(jsonDoc.chapterMetadata.title)+'.md', outputYaml+outputMardown)
 
-		resolve([jsonDoc, isLast])
+	
+      resolve([htmlJson, isLast]);
+
 	})
 }
 

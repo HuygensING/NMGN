@@ -29,7 +29,16 @@ const htmlChapterHeaderMinimal = (part, chapter, title, author) => {
     return pageHeader;
 };
 
+const htmlinlineNoteMarker = (nr) => {
+    const inlineNoteMarker = `
+    <button id="noteRef${nr}" data-noteNumber="${nr}"
+    class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
+    ${nr}
+    </button>`;
+    return inlineNoteMarker;
+};
 
-module.exports = {htmlHeader, htmlFooter, htmlChapterHeaderMinimal};
+
+module.exports = {htmlHeader, htmlFooter, htmlChapterHeaderMinimal,htmlinlineNoteMarker};
 
 

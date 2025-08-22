@@ -1,0 +1,37 @@
+[
+        ["<sup>1</sup>/<sub>3</sub>", "&frac13;"],
+        ["<sup>1</sup>/<sub>8</sub>", "&frac18;"],
+        ["<sup>1</sup>/<sub>3</sub>", "&frac13;"],
+        ["<sup>1</sup>/<sub>8</sub>", "&frac18;"],
+        ["<sup>3</sup>/<sub>8</sub>", "&frac38;"],
+
+        ["<p>Gereed 1967</p>\n\n\n", "<p>Gereed 1967<br><br></p>\n\n\n"],
+        ["\n\n\n<p>Gereed 1969</p>\n\n\n<p>1970</p>\n\n\n", "\n\n\n<p>Gereed 1969</p>\n\n\n<p>1970<br><br></p>\n\n\n"],
+        ["\n\n\n<p>1970</p><p>\n1976</p>\n\n\n", "\n\n\n<p>1970</p><p>\n1976<br><br></p>\n\n\n"],
+        ["\n\n\n<p>-</p>\n\n\n<p>1982</p>\n\n\n", "\n\n\n<p>-<br><br></p>\n\n\n<p>1982</p>\n\n\n"],
+        ["\n\n\n<p>1990/1999</p>\n\n\n", "\n\n\n<p>1990/1999<br><br></p>\n\n\n"],
+        ["\n\n\n<p>Gereed 1975</p>\n\n\n", "\n\n\n<p>Gereed 1975<br><br></p>\n\n\n"],
+        ["\n<p>1956-1970</p>\n\n\n", "\n<p><br>1956-1970</p>\n\n\n"],
+        ["\n\n\n<p>1959-1961</p>\n\n\n", "\n\n\n<p>1959-1961<br><br><br></p>\n\n\n"],
+        ["\n<p>Voltooid</p>\n\n\n", "\n<p><br>Voltooid<br><br></p>\n\n\n"],
+        ["\n\n\n<p>Jaren 1970</p>\n\n\n", "\n\n\n<p><br>Jaren 1970</p>\n\n\n"],
+        ["\n\n\n<p>ca. 1978-1990</p>\n\n\n", "\n\n\n<p><br>ca. 1978-1990<br><br></p>\n\n\n"],
+        ["\n\n\n<p>ca. 1981-1993</p>\n\n\n", "\n\n\n<p>ca. 1981-1993<br><br></p>\n\n\n"],
+        ["Mark en Dintel (klasse IV).</p>\n\n\n", "Mark en Dintel <br>(klasse IV).</p>\n\n\n"],
+        ["Oosterhout (klasse IV).</p>\n\n\n", "Oosterhout <br>(klasse IV).</p>\n\n\n"],
+        ["\n\n\n<p>Gereed 1990</p>\n\n\n", "\n\n\n<p>Gereed 1990<br><br></p>\n\n\n"],
+        ["Sluis Panheel, tweede schutkolk.</p>\n\n\n", "Sluis Panheel, <br>tweede schutkolk.</p>\n\n\n"],
+        ["\n\n\n<p>2003-2010</p>\n\n\n", "\n\n\n<p><br>2003-2010<br><br></p>\n\n\n"],
+        ["\n\n\n<p>1954-1957</p>\n\n\n", "\n\n\n<p><br>1954-1957</p>\n\n\n"],
+        ["\n\n\n<p>1951-ca. 1970</p>\n\n\n", "\n\n\n<p><br>1951-ca. 1970</p>\n\n\n"],
+        ["\n\n\n<p>1964-1988</p>\n\n\n", "\n\n\n<p><br>1964-1988</p>\n\n\n"],
+        ["\n\n\n<p>ca. 2003</p>\n\n\n<p>In uitvoering</p>\n\n\n", "\n\n\n<p>ca. 2003</p>\n\n\n<p><br>In uitvoering<br><br></p>\n\n\n"],
+        ["\n\n\n<p>2014</p>\n\n\n", "\n\n\n<p><br>2014</p>\n\n\n"],
+        ["Wilhelminasluis Zaandam.</p>\n\n\n", "Wilhelminasluis <br>Zaandam.</p>\n\n\n"],
+        ["\n\n\n<p>1964</p>\n\n\n<p>1964</p>\n\n\n", "\n\n\n<p><br>1964</p>\n\n\n<p>1964</p>\n\n\n"]
+
+
+        
+
+
+]

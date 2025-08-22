@@ -11,7 +11,7 @@ const replaceSpaces = (str) => {
 };
 
 const saveTitle = (str) => {
-    return str.replaceAll(" ","-").replaceAll("|","").replaceAll(",","").toLowerCase();
+    return str.replaceAll(" ","-").replaceAll("|","").replaceAll(",","").replaceAll("(","").replaceAll(")","").replaceAll(":±","").replaceAll("‘","").replaceAll("’","").replaceAll("±","").toLowerCase();
 };
 
 const navigationData = (indexJson) => {

@@ -1,0 +1,81 @@
+[
+    ["<strong><br /> </strong>", "</p><p>"],
+    ["<strong><br /></strong>", "</p><p>"],
+    ["<strong><br> </strong>", "</p><p>"],
+    ["<strong><br></strong>", "</p><p>"],
+    ["<strong><br />\n</strong>", "</p><p>"],
+    ["<strong><br /> \n</strong>", "</p><p>"],
+    ["<strong><del><br /> </del></strong>", "</p><p>"],
+    ["<strong> </strong>", ""],
+
+    ["Schuth2016.jpg\n19_WestelijkHalfrond", "Schuth2016.jpg 19_WestelijkHalfrond"],
+    
+    ["18_OostelijkHalfrond _MaartenSchuth2016.jpg", "18_OostelijkHalfrond_MaartenSchuth2016.jpg"],
+    ["19_WestelijkHalfrond _MaartenSchuth2016.jpg", "19_WestelijkHalfrond_MaartenSchuth2016.jpg"],
+
+    [".jpg ", ".jpg</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
+    [".JPG ", ".jpg</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
+    [".jpeg ", ".jpeg</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
+    [".png ", ".png</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
+    
+
+    ["<br />", "</p><p>"],
+    [".jpg<br />", ".jpg</p><p>"],
+    [".jpeg<br />", ".jpeg</p><p>"],
+    [".png<br />", ".png</p><p>"],
+    [".gif<br />", ".gif</p><p>"],
+
+    ["]]] [[[", "</p><p>"],
+    ["@i@[[[", "</p><p>"],
+    ["]]]", "</p><p>"],
+    ["[[[", ""],
+    ["<hr>", ""],
+    ["<hr/>", ""],
+    ["@i@", ""],
+    [" @/i@", ""],
+    [" @/i@", ""],
+    ["&gt;@/h@", ""],
+    ["@/h@", ""],
+
+    ["<p><span data-custom-style=\"None\"></span></p>", ""],
+    ["<p></p>", ""],
+    ["<div data-custom-style=\"Body A\">", ""],
+    ["<div data-custom-style=\"Body\">", ""],
+    ["<div data-custom-style=\"Normal\">", ""],
+    ["<div data-custom-style=\"footnote text\">", ""],
+    ["<div data-custom-style=\"Plain Text\">", ""],
+    ["<div data-custom-style=\"endnote text\">", ""],
+    ["<div data-custom-style=\"Normal (Web)\">", ""],
+    ["<div data-custom-style=\"Quote\">", ""],
+    ["<div data-custom-style=\"No Spacing\">", ""],
+    ["<div data-custom-style=\"annotation text\">", ""],
+    ["<div data-custom-style=\"Kop 41\">", ""],
+
+    ["<div data-custom-style=\"Default\">", ""],
+    ["<div data-custom-style=\"testProfile\">", ""],
+    ["<div data-custom-style=\"Table Style 3\">", ""],
+
+    ["<td><div data-custom-style=\"tabelKop\">", "<td class=\"tabelKop\">"],
+    ["<td><div data-custom-style=\"tabelNummers\">", "<td class=\"tabelNummers\">"],
+    ["<td><div data-custom-style=\"TabelKopLinks\">", "<td class=\"TabelKopLinks\">"],
+    ["<td><div data-custom-style=\"TabelKopRechts\">", "<td class=\"TabelKopRechts\">"],
+    ["<td><div data-custom-style=\"TabelNummersCentreren\">", "<td class=\"TabelNummersCentreren\">"],
+
+    ["<div data-custom-style=\"tabelNummers\">", ""],
+    ["</div>", ""],
+
+    ["<td class=\"tabelKop\"> <p>", "<td class=\"tabelNummers\">"],
+    ["<td class=\"tabelNummers\"> <p>", "<td class=\"tabelNummers\">"],
+    ["<td class=\"TabelKopLinks\"> <p>", "<td class=\"TabelKopLinks\">"],
+    ["<td class=\"TabelKopRechts\"> <p>", "<td class=\"TabelKopRechts\">"],
+    ["<td class=\"TabelNummersCentreren\"> <p>", "<td class=\"TabelNummersCentreren\">"],
+    ["</p> </td>", "</td>"],
+
+
+    
+
+    ["(1945-2020).<a href=\"#fn147\" class=\"footnote-ref\"\nid=\"fnref147\" role=\"doc-noteref\"><sup>147</sup></a></h2>", "(1945-2020).</h2><p><a href=\"#fn147\" class=\"footnote-ref\"\nid=\"fnref147\" role=\"doc-noteref\"><sup>147</sup></a></p>"],
+    ["werden\ngesloten.<a href=\"#fn148\" class=\"footnote-ref\" id=\"fnref148\"\nrole=\"doc-noteref\"><sup>148</sup></a></h2>", "werden\ngesloten.</h2><p><a href=\"#fn148\" class=\"footnote-ref\" id=\"fnref148\"\nrole=\"doc-noteref\"><sup>148</sup></a></p>"]
+
+    
+]
