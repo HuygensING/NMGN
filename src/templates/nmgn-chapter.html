@@ -1,159 +1,23 @@
 {{> general/html-header}}
 
-<header class="w-full bg-[#032939] text-white p-3">
-    <div class="max-w-[1900px] mx-auto">
-        <a href="/"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
-    </div>
-</header>
+{{> interface/page-header }}
 
-<div class="grid grid-rows-[auto_auto_auto] grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-[#053a51] px-6">
-    <div class="hidden col-start-2 xl:col-start-6 row-start-1 col-span-6 text-white items-center justify-start">Deel {{chapterMetadata.part}} hoofdstuk {{chapterMetadata.chapter}}</div>
+{{> interface/content-header }}
+
+<div class="flex flex-col px-6 lg:px-0 lg:grid gap-4 xl:gap-10  grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] w-full relative">
+
+    {{> interface/aside-nav             gridClass="hidden xl:flex col-start-1 col-span-2"}}
+
+    {{> interface/page-content          gridClass=" md:col-start-2 md:col-span-3 xl:col-start-3" }}
     
-    <div class="col-start-2 row-start-2 col-span-6 flex items-center justify-start md:justify-center">
-        <h1 class="text-2xl md:text-3xl xl:text-5xl font-bold text-[#2bf6d7] text-center">{{{replaceStr chapterMetadata.title "|" "<br>"}}}</h1>
-    </div>
-    <div class="hidden col-start-2 xl:col-start-6 row-start-3 col-span-6 text-white items-center justify-start">Door {{chapterMetadata.author}}</div>
+    {{> interface/aside-image           gridClass="hidden md:block col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-0" }}
+
+    {{> interface/aside-notes-popup     gridClass="col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-10" }} 
 
 </div>
 
-
-<div class="grid gap-4 xl:gap-10 grid-rows-[3rem_auto] grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] w-full relative">
-
-    <!-- Nagivation -->
-    <div class="hidden xl:flex col-start-2 col-span-1 row-span-2 pt-16 border-r border-neutral-200">
-        
-        <nav class="text-xs flex flex-col gap-2 w-full *:no-underline *:text-neutral-600 sticky top-8 max-h-screen overflow-y-auto pb-16 pr-2">
-            <div class="flex justify-between mb-4 border-b border-neutral-200 pb-2">
-                <em>Inhoud</em>
-                <a href="#top" class="no-underline">&#8593; top</a>
-            </div>
-            <div class="flex flex-col gap-2 justify-between mb-4 pb-2">
-            {{#each content}}
-
-                {{#if (ifSame type "h2") }}
-                    <a href="#{{id}}" class="" id="a{{id}}">{{{htmlRaw}}}</a>
-                {{/if}}
-
-                {{#if (ifSame type "h3") }}
-                    <a href="#{{id}}" class="" id="a{{id}}">{{{htmlRaw}}}</a>
-                {{/if}}
-
-                {{#if (ifSame type "h4") }}
-                    <a href="#{{id}}" class="" id="a{{id}}">{{{htmlRaw}}}</a>
-                {{/if}}
-            {{/each}}
-            </div>
-            
-            
+{{> general/page-footer}}
 
 
-        </nav>
-    </div>
-
-    <!-- content -->
-    <div class="col-start-2 col-span-6 md:col-span-3 row-span-2  xl:col-start-3 xl: pt-12 lg:pt-32">
-        <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto" id="top">
-
-                {{#each content}}
-                {{#if (ifSame type "p") }}
-                    <p class="py-3">{{{htmlRaw}}}</p>
-                {{/if}}
-
-                {{#if (ifSame type "h2") }}
-                    <h2 class="py-3 text-3xl" id="{{id}}">{{{htmlRaw}}}</h2>
-                {{/if}}
-
-                {{#if (ifSame type "h3") }}
-                    <h3 class="py-3 text-2xl" id="{{id}}">{{{htmlRaw}}}</h3>
-                {{/if}}
-
-                {{#if (ifSame type "h4") }}
-                    <h4 class="py-3 text-xl font-bold font-sans" id="{{id}}">{{{htmlRaw}}}</h4>
-                {{/if}}
-
-                {{#if (ifSame type "img") }}
-                    <img src="images/d{{@root.chapterMetadata.part}}h{{@root.chapterMetadata.chapter}}/d{{@root.chapterMetadata.part}}h{{@root.chapterMetadata.chapter}}-170/{{{htmlRaw}}}" class="h-44" alt="" loading="lazy">
-                {{/if}}
-
-                {{#if (ifSame type "table") }}
-                    <div class="py-3 text-sm font-sans">{{{htmlRaw}}}</div>
-                {{/if}}
-
-                {{/each}}
-
-                <div class="flex flex-col gap-6 font-sans">
-                    {{#each footNotes}}
-                    <div class="">
-                        <div class="font-bold">{{noteId}}</div>
-                        <div class="">{{{noteContent}}}</div>
-                        
-                    </div>
-                    {{/each}}
-                </div>
-                
-
-                
-
-
-        </div>
-    </div>
-
-    <!-- image -->
-    <div class="hidden md:block col-start-5 col-span-3 row-start-2 xl:col-start-6 xl:col-span-2 relative z-0">
-        <div class="min-h-screen sticky top-0 flex justify-center items-center px-6 bg-neutral-50">
-
-            <div class="flex flex-col">
-                <img src="images/d1h3/d1h3-600/2-8_Medemblik.jpg" class="w-full border" alt="" loading="lazy">
-                <div class="text-sm">
-                    <div class="captionTitle">Plattegrond van Medemblik, circa 1560</div><span class="openCaption">[i]</span>
-
-                    <div class="moreCaption">Deze plattegrond van Medemblik aan de vooravond van de Opstand is vervaardigd
-                        door Jacob van Deventer. Als haven fungeert de gracht aan de oostzijde
-                        (boven). Aan de havenmond ligt ter bescherming kasteel Radboud. De plattegrond
-                        van Paulus Utenwaal laat zien dat in 1599 aan de westzijde (onder) een
-                        grote nieuwe haven is gegraven met scheepswerven. Een bolwerk naast het
-                        kasteel beschermt de havenmond.
-                        <br>Rijksmuseum, Amsterdam.</div>
-                    </div>
-                </div>
-
-        </div>
-    </div>
-
-    <div class="hidden md:flex gap-6 col-start-5 col-span-3 bg-neutral-100  w-full h-9 p-2 relative z-20">
-        <button class="">Site navigatie</button>
-        <button class="">Afbeelding</button>
-        <button class="">Noten</button>
-    </div>
-
-
-    <div class="hidden lg:col-span-2 bg-neutral-50">
-        <div class=" sticky top-0 h-full max-h-screen flex justify-center items-start lg:items-center pr-8 pl-4">
-            <div class="flex flex-col gap-4 w-96">
-                <img src="images/d1h3/d1h3-600/2-8_Medemblik.jpg" class="w-full" alt="" loading="lazy">
-                <div class="text-sm">
-                    <div class="captionTitle">Plattegrond van Medemblik, circa 1560</div><span class="openCaption">[i]</span>
-
-                    <div class="moreCaption">Deze plattegrond van Medemblik aan de vooravond van de Opstand is vervaardigd
-                        door Jacob van Deventer. Als haven fungeert de gracht aan de oostzijde
-                        (boven). Aan de havenmond ligt ter bescherming kasteel Radboud. De plattegrond
-                        van Paulus Utenwaal laat zien dat in 1599 aan de westzijde (onder) een
-                        grote nieuwe haven is gegraven met scheepswerven. Een bolwerk naast het
-                        kasteel beschermt de havenmond.
-                        <br>Rijksmuseum, Amsterdam.</div>
-                    </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-</main>
 
 {{> general/html-footer}}

@@ -5,11 +5,12 @@ part: 0
 chapter: 0
 publication_date:: undefined
 status: development
-part2Nr: 2
+part1Nr: 1
 part1Title: Opkomst van de rivier- en zeehandel
 part1YearRange: 1100 - 1600
 part1Editors: Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond
 part1Isbn: 9789052162003
+part2Nr: 2
 part2Title: De vaart in en buiten Europa
 part2YearRange: 1600 - 1780
 part2Editors: Els M. Jacobs, Christiaan van Bochove, Henk Dessens, Anita van Dissel, Henk den Heijer en Peter Sigmond
@@ -30,7 +31,7 @@ Nederland is gevormd door het water. Vanaf de twaalfde eeuw nam het belang van d
 
 **De Nieuwe Maritieme Geschiedenis van Nederland laat in woord en beeld zien hoe de verschillende scheepvaartsectoren zich sinds de late middeleeuwen hebben ontwikkeld. Dat verhaal gaat over de binnenvaart, maar ook over de visserij, de koopvaardij, de marine en de recente offshore activiteiten op zee.**
 
-Maritieme geschiedenis gaat niet alleen over de bouw en het gebruik van schepen in de zeil-, stoom- en motorvaart, maar ook over mensen in ondernemingen die de scheepvaart organiseerden en bemanningen aan boord. Scheepvaart heeft tevens een stempel gedrukt op de Nederlandse cultuur van de schilderkust tot aan woorden en uitdrukkingen in onze taal. Ook dat komt in dit vierdelige standaardwerk aan bod.
+Maritieme geschiedenis gaat niet alleen over de bouw en het gebruik van schepen in de zeil-, stoom- en motorvaart, maar ook over mensen in ondernemingen die de scheepvaart organiseerden en bemanningen aan boord. Scheepvaart heeft tevens een stempel gedrukt op de Nederlandse cultuur van de schilderkunst tot aan woorden en uitdrukkingen in onze taal. Ook dat komt in dit vierdelige standaardwerk aan bod.
 
 Deze site is in aanbouw
 

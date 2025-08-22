@@ -1,1 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --breakpoint-3xl: 1920px;
+  --color-nmgnBlue-50:  hsl(198, 18%, 95%);
+  --color-nmgnBlue-100: hsl(198, 18%, 90%);
+  --color-nmgnBlue-200: hsl(198, 18%, 80%);
+  --color-nmgnBlue-300: hsl(198, 18%, 70%);
+  --color-nmgnBlue-400: hsl(198, 18%, 60%);
+  --color-nmgnBlue-500: hsl(198, 18%, 50%);
+  --color-nmgnBlue-600: hsl(198, 88%, 40%);
+  --color-nmgnBlue-700: hsl(198, 88%, 30%);
+  --color-nmgnBlue-800: hsl(198, 88%, 17%);
+  --color-nmgnBlue-900: hsl(198, 88%, 10%);
+  --color-nmgnBlue-950: hsl(198, 88%, 5%);
+
+  --color-nmgnGreen-50:  hsl(171, 92%, 95%);
+  --color-nmgnGreen-100: hsl(171, 92%, 90%);
+  --color-nmgnGreen-200: hsl(171, 92%, 80%);
+  --color-nmgnGreen-300: hsl(171, 92%, 70%);
+  --color-nmgnGreen-400: hsl(171, 92%, 60%);
+  --color-nmgnGreen-500: hsl(171, 92%, 50%);
+  --color-nmgnGreen-600: hsl(171, 52%, 40%);
+  --color-nmgnGreen-700: hsl(171, 52%, 30%);
+  --color-nmgnGreen-800: hsl(171, 52%, 20%);
+  --color-nmgnGreen-900: hsl(171, 92%, 10%);
+  --color-nmgnGreen-950: hsl(171, 92%, 5%);
+
+ --font-merriweather: "merriweather", serif;
+
+}
+
+td {
+  vertical-align: top;
+}
+
+.tabelKop {
+  width: 100%;
+  text-align: center;
+  font-weight: 700; }
+
+.tabelNummers {
+  width: 100%;
+  text-align: right; }
+
+  .tabelKopLinks {
+  text-align: left;
+  width: 100%;
+  font-weight: 700;
+}
+
+.tabelKopRechts{
+  text-align: right;
+  width: 100%;
+  font-weight: 700;
+}
+
+.tabelNummersCentreren{
+  text-align: center;
+  width: 100%;
+}
+
+table {
+  @apply mt-4 w-full border border-nmgnBlue-300;
+  }
+
+tr:first {
+    @apply bg-nmgnBlue-950;
+  }
+
+td {
+  @apply p-2 border-l border-nmgnBlue-300;
+}
+
+.odd {
+    @apply bg-nmgnBlue-50;
+  }
+
+figure.zoom {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  cursor: zoom-in; }
+  figure.zoom .imgFillH {
+    height: calc(100vh - 2rem) !important;
+    max-height: none;
+    width: auto !important; }
+  figure.zoom .imgFillW {
+    width: calc(100vw - 2rem) !important;
+    max-width: none;
+    height: auto !important; }
+
+figure.zoom img:hover {
+  opacity: 0; }
+
+figure.zoom img {
+  transition: opacity .5s;
+  display: block;
+  width: 100%; }

@@ -1,12 +1,12 @@
 ---
-title: Maritieme cultuur| in de negentiende eeuw
+title: Maritieme cultuur in de negentiende eeuw
 author: Remmelt Daalder
 part: 3
 chapter: 7
-summary: In het nationalisme van de negentiende eeuw speelde het maritieme verleden een grote rol. Schilders, schrijvers en beeldhouwers, maar ook historici lieten zich inspireren door de daden van zeehelden uit de Gouden Eeuw, zoals Michiel de Ruyter.
-publication_date: 31 oktober 2019
-doi: DOI 10.5281/zenodo.51510456
-doi_url: https://zenodo.org/record/5150456#.YQV4144zaUk
+summary<em>:</em> In het nationalisme van de negentiende eeuw speelde het maritieme verleden een grote rol. Schilders, schrijvers en beeldhouwers, maar ook historici lieten zich inspireren door de daden van zeehelden uit de Gouden Eeuw, zoals Michiel de Ruyter.: undefined
+publication_date: 31 oktober 2019 (31 juli 2021 doi toegevoegd)
+doi: <a href="https://zenodo.org/record/5150456#.YQV4144zaUk"><span data-custom-style="Hyperlink">10.5281/zenodo.51510456</span></a>
+doi_url: <a href="https://zenodo.org/records/5150456"><span data-custom-style="Hyperlink">https://zenodo.org/records/5150456</span></a>
 status: development
 ---
 
@@ -16,9 +16,9 @@ Veruit de bekendste zeeheld van de negentiende eeuw was Michiel de Ruyter. Natuu
 
 Op een schilderij uit 1832 beeldde de Amsterdamse schilder Hendrik Breukelaar (1809-1839) de ongeveer twaalfjarige Jan Carel Josephus van Speijk (1802-1831) af, staande voor het graf van Michiel de Ruyter in de Nieuwe Kerk in Amsterdam. Volgens een tijdgenoot staart de jongen ‘met zigtbare aandoening op de marmeren beeltenis van de Ruyter, en schijnt door de verhevene gedachte, van eenmaals diens grooten zeeheldspoor te zullen betreden, geheel bezield en als in verrukking opgetogen te zijn’.[2](#fn2) Van Speijk komt hierna nog aan de orde, maar hier gaat het om de directe relatie, in dit geval hoogstwaarschijnlijk achteraf verzonnen, die men zag tussen het heldendom van de Gouden Eeuw en de eigen tijd. Dat nostalgisch en zuchtend terugblikken op het maritieme verleden begon al tientallen jaren voor Breukelaar zijn schilderij vervaardigde. Vooral de niet zo voorspoedig verlopen Vierde Engelse Oorlog (1780-1784) deed menigeen verlangen naar de maritieme successen in de drie voorgaande oorlogen met de erfvijand van de overkant van de Noordzee. Het is veelzeggend dat het vlaggenschip van schout-bij-nacht Johan Arnold Zoutman (1724-1793), de Nederlandse bevelhebber tijdens de Zeeslag bij de Doggersbank in 1781, _Admiraal de Ruyter_ heette. Sommigen, onder wie de dichter Jan Frederik Helmers (1767-1813) schreven het (vermeende) succes in deze zeeslag zelfs voornamelijk toe aan de goddelijke inspiratie door De Ruyter, die ‘de zegepalm aan onze wimpels \[deed\] hechten’.[3](#fn3)
 
-![Alt text todo](2_Van_Speijk_bij_graf_De_Ruyter.jpg)
+![Van Speijk bij graf De Ruyter. De jonge wees Van Speijk, mijmerend over toekomstige heldendaden op zee, staat bij het praalgraf van zijn voorbeeld admiraal Michiel de Ruyter. Schilderij door Hendrik Breukelaar, 1832.  ](2_Van_Speijk_bij_graf_De_Ruyter.jpg)
 
-![Alt text todo](17_verering_doggersbank.jpg)
+![Prins Willem V beloont schout-bij-nacht Johan Zoutman en de andere Doggerbankhelden met eretekens, 30 november 1781.  Prent door Reinier Vinkeles naar een tekening van Jacobus Buys, 1788.  ](17_verering_doggersbank.jpg)
 
 De ‘historiezucht’ nam na de Bataafse Revolutie van 1795 alleen maar toe. Helmers, tegenwoordig vooral bekend van de naar hem genoemde straten, schreef in 1812 een uitgebreid dichtwerk in ‘zes zangen’, _De Hollandsche natie_.[4](#fn4) Twee daarvan zijn aan de scheepvaart gewijd, de derde, _Heldenmoed ter zee_, gevolgd door de vierde zang met de eenvoudige titel _Zeevaart._ De onderwerpen lijken wel de inhoudsopgave van een negentiende-eeuws handboek over zeegeschiedenis, met paragrafen als ‘De zee is het lauwerveld der Hollanders’, en ’s Lands zeevaart uit kleine beginselen groot geworden’. In de vierde zang komen de overzeese heldendaden ter sprake, met onder meer ‘De Nederlandsche Maagd ontvangt de schatting van het Oost en West’. Om een idee te geven van Helmers’ ietwat gezwollen stijl hier enkele regels uit de derde zang, over de familie Evertsen:
 
@@ -28,15 +28,15 @@ Zag nooit een’ eedler drom verzameld aan zijn strand.
 
 Hier nadert Evertsen! – verheft u, landgenooten!
 
-Voelt d’adeldom des stams, waaruit gij zijt gesproten!
+Voelt d’adeldom des stams, waaruit gij zijt gesproten! ­­
 
 Hier nadert Evertsen! In ’s Lands vergaderzaal,
 
 Alom omhangen met der Britten wapenpraal,
 
-Spreekt hij: “o! Laat mij de eer, de onschatbare eer verwerven,
+Spreekt hij: ‘o! Laat mij de eer, de onschatbare eer verwerven,
 
-Om voor de Vrijheid van mijn Vaderland te sterven”’![5](#fn5)
+Om voor de Vrijheid van mijn Vaderland te sterven’![5](#fn5)
 
 Het was begrijpelijk dat schrijvers tijdens de Franse overheersing teruggrepen op de ‘goede oude tijd’. Dat deed ook Adriaan Loosjes (1761-1818) in de prozaroman _Het leven van_ _Maurits Lijnslager,_ _eene Hollandsche familie-geschiedenis uit de zeventiende eeuw_ (1808), waarin de gelijknamige hoofdpersoon door Europa en de Republiek reist.[6](#fn6) Onder de vele helden uit betere tijden die hij ontmoet, zijn ook Michiel de Ruyter en Cornelis Tromp. Over de eerste schrijft Loosjes: ‘Lijnslager stond versteld over de gemeenzame vriendelijkheid, die de Ruiter zelfs omtrent gemeenen \[eenvoudige mensen\] in acht nam’, maar ook over diens ‘adeldom van ziel’.[7](#fn7) Loosjes en Helmers hadden nogal wat last van de censuur bij de publicatie van hun nationalistische werken. De keizerlijke autoriteiten begrepen maar al te goed dat schrijvers en dichters de geschiedenis gebruikten om het heden te bekritiseren.[8](#fn8)
 
@@ -44,15 +44,13 @@ Het was begrijpelijk dat schrijvers tijdens de Franse overheersing teruggrepen o
 
 Na het vertrek van de Fransen konden de werken van Helmers en Loosjes opnieuw, en met succes, worden uitgegeven. In het nieuwe, met de zuidelijke provincies verenigde Koninkrijk der Nederlanden ontstond de behoefde om de nationale identiteit te schragen met grote daden ter zee. Kleine militaire acties werden opgeblazen tot mythische proporties, zoals al eerder was gebeurd met de Zeeslag bij de Doggersbank.[9](#fn9) Zo leidde het bombardement van Algiers in 1816 tot uitbundige heldenverering. Deze strafexpeditie door een Brits-Nederlands eskader, ook bekend als de ‘tuchtiging van Algiers’, moest voorgoed een einde maken aan de activiteiten van de Barbarijse zeerovers. Het Nederlandse aandeel was overigens zeer beperkt: vijf betrekkelijk kleine schepen met weinig vuurkracht, naast 21 grote schepen van de Royal Navy.[10](#fn10) Toch werd ‘Algiers’ gevierd als een kranig staaltje, bijvoorbeeld met een _Lauwerkroon voor de Nederlandsche zeehelden, bij hunne betoonde moed en dapperheid in den zeeslag voor Algiers den 28sten van oogstmaand 1816_, alweer een werk van Adriaan Loosjes. De Nederlandse eskadercommandant, viceadmiraal jhr. Th.F. van de Capellen (1761-1824), heeft zich desondanks geen blijvende plaats verworven onder de vaderlandse zeehelden. Een zelfde korte golf van enthousiasme ontstond na de verovering van Palembang op Sumatra, zeven jaar later. Deze amfibische actie was gericht tegen de plaatselijke sultan die niet inzag dat hij het Nederlandse gezag diende te erkennen. In Nederland verscheen onmiddellijk een _Zegezang ter eere der Nederlandsche helden op Palembang_ (1821), maar ook die helden waren snel vergeten.[11](#fn11)
 
-![Alt text todo](11_Meijer_Overmeestering_van_Palembang _14 juni_1821.jpg)
-
-![Alt text todo](3_Schouman_bombardementSK-A-1395.jpg)
+![undefined. undefined undefined undefined ](11_Meijer_Overmeestering_van_Palembang_14 juni_1821.jpg
+3_Schouman_bombardementSK-A-1395.jpg)
 
 De behoefte aan eigentijdse maritieme helden leek meer te worden bevredigd door een voorval in 1831: de zogenaamde zelfopoffering van Jan van Speijk, die op 5 februari van dat jaar zijn kanonneerboot _Nr. 2_ liever met bemanning incluis liet ontploffen dan het vaartuig en de Nederlandse vlag in handen van de oproerige Belgen te laten vallen. Van Speijks daad had alles in zich om uitbundig gevierd en herdacht te worden: dichter bij huis dan Algiers en Palembang, en een troostende gebeurtenis op een moment dat het toch al zo kleine Nederland bezig was de helft van zijn grondgebied voorgoed te verliezen. De euforie was groot, een lawine van eerbewijzen volgde direct na de knal op de Schelde: gedichten en liederen, waaronder een _declamatorium_ ‘De heldendood van J.C.J. van Speyk’[12](#fn12), penningen en sculpturen, prenten en schilderijen, en, later in de negentiende eeuw, straatnamen in tal van steden. Al zes dagen na de dood van Van Speijk, nog voor de staatsbegrafenis in Amsterdam van de bijeengeraapte stoffelijke resten van de jonge officier, had koning Willem I zijn befaamde Koninklijk Besluit genomen. Dat hield in dat er ‘voortaan bij de Nederlandsche Zeemagt altijd een der schepen of vaartuigen van oorlog den naam zal voeren van Van Speijk’.[13](#fn13) Tot op heden is dat ietwat overhaaste decreet van kracht gebleven. Een monument kwam er ook. Behalve de tombe in de Nieuwe Kerk in Amsterdam, niet ver van het graf van Van Speijks idool Michiel de Ruyter, kwam er een stenen herinnering die letterlijk een lichtend voorbeeld moest zijn voor zeevarenden: de monumentale vuurtoren in Egmond aan Zee, gereedgekomen in 1834. De kosten werden bestreden uit de verkoop van de brokstukken van de kanonneerboot _Nr. 2_. De euforie rond Van Speijk was enorm, maar zwakte ook snel af. Na 1835 werden er vrijwel geen schilderijen meer gewijd aan zijn heldendaad.[14](#fn14) Alleen de Koninklijke Marine zette de Van Speijk-cultus consequent voort. Het Koninklijk Instituut voor de Marine (KIM) in Den Helder ontving het ene aandenken na het andere, zoals schilderijen en relikwieën, waaronder fragmenten van de ontplofte kanonneerboot. Opmerkelijk is ook het Adelborstenlied uit 1887 waarin, naast verwijzingen naar De Ruyter en Tromp ook deze regels voorkomen: ‘’t Voorbeeld door Van Speijk gegeven / Volgen wij met hart en hand’.
 
-![Alt text todo](1_uitsnkleur_van_speijk_Daalder_Dubois_HSM.jpg)
-
-![Alt text todo](18_Van_Speyk_Vuurtoren.jpg)
+![undefined. undefined undefined undefined ](1_uitsnkleur_van_speijk_Daalder_Dubois_HSM.jpg
+18_Van_Speyk_Vuurtoren.jpg)
 
 Het lied wordt nog altijd gezongen door aankomende marineofficieren op het KIM. Of deze belofte nog helemaal past bij de hedendaagse krijgsmacht, wordt in de eenentwintigste eeuw sterk betwijfeld.[15](#fn15) In de meest recente biografie is de auteur van mening dat men Van Speijk niet langer als held zou moeten gedenken, maar als ‘historische persoonlijkheid die het een en ander op zijn kerfstok heeft’.[16](#fn16)
 
@@ -62,13 +60,15 @@ De Belgische Opstand confronteerde de Nederlandse samenleving opnieuw met haar z
 
 Dat De Ruyter de eerste zeeheld op een sokkel was, lag voor de hand. Hij verenigde alles wat Nederland nodig had in die jaren: gestorven in het harnas voor het vaderland, een vroom christen en ook nog van eenvoudige komaf, ideaal om je mee te identificeren dus. Wat Nederland vooral zo in hem aantrok was zijn vaderlijke imago. Huiselijke helden passen bij de Nederlandse identiteit, heel anders dan de ‘strong, masculine heroes’ die Thomas Carlyle in zijn beroemde lezingenserie over _Hero-Worship and the Heroic in History_ (1841) zag als de beslissende krachten in het historische proces.[18](#fn18) In ons land had men volgens Herman Pleij liever een ‘bijbellezende huisvader’, en zo werd De Ruyter ook afgebeeld.[19](#fn19) Die paste toch beter bij de Nederlandse identiteit dan een onbezonnen jongeman, als Van Speijk die 25 medeopvarenden de dood had ingejaagd, alleen om de eer van de vlag te redden.
 
-![Alt text todo](8_standbeeldpa4672.jpg)
+![Standbeeld van Michiel de Ruyter op het Keizersbolwerk in Vlissingen. Het gietijzeren standbeeld stond vanaf 1841 op het De Ruyterplein, maar verhuisde in 1894 naar het Keizersbolwerk, Boulevard de Ruyter. De twee bronzen kanonnen, ernaast gezet in 1905, behoorden toe aan de vloot waarmee De Ruyter zijn laatste zeeslag uitvocht. In de Slag van Agosta, op 22 april 1676, raakte hij dodelijk gewond. 
+
+ Standbeeld door Louis Royer, 1841.  ](8_standbeeldpa4672.jpg)
 
 ## Tsaar en timmerman
 
 Die sentimentele voorkeur voor huiselijkheid is ook te bespeuren in andere culturele uitingen die refereren aan de maritieme geschiedenis, zoals het populaire dichtwerk _De overwintering der Hollanders op Nova Zembla_ (1820) door Hendrik Tollens (1780-1856). Het is een uitgebreid verslag – meer dan zevenhonderd dichtregels – van de laatste reis van Jacob van Heemskerck en Willem Barentsz naar het Hoge Noorden, op zoek naar een route naar Azië.[20](#fn20) Zelfs de ontberingen in het ‘Behouden Huys’ krijgen bij Tollens iets knus:
 
-![Alt text todo](21_uitsDe_Haas_J._Nova_Zembla.jpg)
+![Deze kinderprent bevat een aantal gedenkwaardige scènes uit de overwintering van Barentsz en Heemskerck op Nova Zembla.  Kleurenlitho door Jan de Haas, 1875-1903.  ](21_uitsDe_Haas_J._Nova_Zembla.jpg)
 
 ‘Zoo wordt hun nood gerekt en ’t harde brood gegeten.
 
@@ -82,11 +82,10 @@ Geen kruimel wordt verspild, geen spaander wordt vertreden’.
 
 Een vergelijkbaar huiselijk element is te vinden in het enthousiasme voor tsaar Peter de Grote, die tijdens zijn bezoek aan ons land in 1697 als een eenvoudige scheepstimmerman meewerkte op de Amsterdamse VOC-werf. De woning in Zaandam waar hij enige dagen doorbracht, werd kort voor het jaar 1800 nog net op tijd gered van de sloop en later gekoesterd als een heiligdom. Dat de Oranjes verwant waren aan de Romanov-familie heeft bijgedragen aan het behoud van het Tsaar Peterhuisje. Anna Paulowna, echtgenote van de latere koning Willem II betaalde in 1823 de eerste overkapping van het bouwvallige houten huisje, nadien vervangen door een bakstenen omhulsel, ditmaal op kosten van tsaar Alexander III (1893). De cultus rond de Peter de Grote ging gepaard met de gebruikelijke elementen, zoals volksprenten voor de jeugd en uiteindelijk zelfs, in 1911, een standbeeld in Zaandam. Het verhaal van de timmerende tsaar vond niet alleen in Nederland en Rusland, maar ook elders in Europa weerklank. Zo verwerkte de Duitse componist Albert Lortzing (1801-1851) deze geschiedenis tot de komische opera _Zar und Zimmermann_ (1837), die ook in Nederland volle zalen trok.[21](#fn21) Dat een Russische tsaar en de Zeeuwse zeeheld Michiel de Ruyter zo populair waren lijkt geen verband met elkaar te hebben, afgezien van de maritieme context. Wat hen mogelijk wel verbindt is hun ‘gewoonheid’: de ene was een eenvoudig lijnbaansknechtje dat het schopte tot de hoogste positie bij de zeemacht, de ander een machtige potentaat die niet te beroerd was om op een scheepswerf samen te werken met gewone ambachtslieden, die hem bij zijn voornaam aanspraken.
 
-![Alt text todo](10_Backer_De_Ruyter_als_gezinshoofd.jpg)
+![Michiel de Ruyter als huisvader. Zo zag men Michiel de Ruyter het liefst in de negentiende eeuw: een gemoedelijke vaderfiguur, omringd door zijn liefhebbende familie. Prent door Hilmar Johannes Backer, ca. 1845.  ](10_Backer_De_Ruyter_als_gezinshoofd.jpg)
 
-![Alt text todo](16_Czaar Peterhuisje.jpg)
-
-![Alt text todo](19_papierenmodelhuisje.jpg)
+![undefined. undefined undefined undefined ](16_Czaar Peterhuisje.jpg
+19_papierenmodelhuisje.jpg)
 
 Het theater bood een aantrekkelijke gelegenheid om moraliserend terug te blikken op de geschiedenis. De Amsterdamse schouwburg bracht in de hele negentiende eeuw tal van voorstellingen die handelden over vaderlandse helden, waaronder ook zeehelden. Tot ver in de eeuw bracht men hier stukken van Johannes Nomsz (1739-1803), een toneelschrijver die in zijn jeugd nog zeeman was geweest.[22](#fn22) Zijn drama over Michiel de Ruyter uit 1780 werd nog lang na zijn dood met succes op de planken gebracht, vooral in de jaren dertig, kort na de Belgische Opstand. Andere maritieme figuren en overzeese gebeurtenissen die hij omwerkte tot toneelstukken zijn de Slag bij de Doggersbank en de geschiedenis van dominee Hambroek, die in 1663 werd geëxecuteerd bij de ondergang van de VOC-vestiging op Formosa.[23](#fn23) Vooral dat laatste drama werd nog jarenlang gespeeld, net als andere voorstellingen over De Ruyter en over Piet Hein.[24](#fn24) Zulke stukken werden in de Amsterdamse schouwburg in de jaren na 1831 vaak gecombineerd met een opvoering van een _Hulde, aan de nagedachtenis van Hollandsch zeeheld J.C.J. van Speijk_, een bombastisch zangspel op tekst van Jacob van Lennep (1801-1868), met versregels als:
 
@@ -100,35 +99,36 @@ En klautert reeds op ’t dek met oorlogstromp en wapen.
 
 “Geeft, geeft uw bodem op. Omlaag gesjord die vlag!”’
 
-## Geschilderde maritieme historie 
+## Geschilderde maritieme historie
 
 Van alle kunstvormen die in de negentiende eeuw werden beoefend is de schilderkunst misschien wel het meest doortrokken van scheepvaart en de zee. Er zijn twee vormen van maritieme schilderkunst te onderscheiden. Allereerst de werken van historieschilders, kunstenaars die de maritieme gebeurtenissen uit de lokale en vaderlandse geschiedenis vastlegden. Daarnaast waren er schilders, die schepen, zee- en riviergezichten vastlegden, zonder directe verwijzing naar het roemrijke verleden. De eerste categorie was goed vertegenwoordigd in de Historische Galerij, die van 1862 tot 1889 te zien was in de expositiezalen van de kunstenaarssociëteit Arti et Amicitiae in Amsterdam. Dit overzicht van de vaderlandse geschiedenis telde 102 schilderijen.[25](#fn25) Ongeveer een kwart daarvan had een maritiem of aanverwant thema, als we dat begrip ruim opvatten. De catalogus vermeldt bijvoorbeeld ‘Het oprichten van een stenen Baken op de Zeeuwsche duinen, 1351’ (Johannes Hilverdink (1813-1902)), maar ook ‘Peter de Grote, afgebeeld als scheepstimmerman op de VOC-werf in Amsterdam’, door Johannes Bosboom (1817-1891). De gebruikelijke zeehelden, Piet Hein, Maerten Tromp en Michiel de Ruyter waren eveneens vertegenwoordigd. Origineel is het tafereel van ‘Heemskerck en Barentsz, hun tweede togt naar het hoge Noorden voorbereidende’. Op dit fictieve interieurstuk door Christoffel Bisschop (1828-1904) zijn de twee zeevaarders te zien voor hun vertrek naar Nova Zembla, te midden van kaarten, gidsen, een scheepsmodel en een globe.[26](#fn26)
 
-![Alt text todo](9_uitsnHeemskerckHSM.jpg)
+![Jacob van Heemskerck en Willem Barentsz beramen hun tweede tocht naar het Noorden, 1595. Links van de zittende Heemskerck hangt een ijsberenhuid, een verwijzing naar de eerste expeditie, toen een ijsbeer werd geschoten bij Nova Zembla. Voor de meeste andere attributen in het vertrek koos de schilder voorwerpen uit een veel latere periode. Schilderij door Christoffel Bisschop, 1860-1862.  ](9_uitsnHeemskerckHSM.jpg)
 
-![Alt text todo](4_bosboom_Tsaar_Peter.jpg)
+![Tsaar Peter de Grote op de Oost-Indische werf in Amsterdam. Peters korte periode als scheepstimmerman bij de VOC kreeg vooral in de negentiende eeuw mythische proporties. Schilderij door Johannes Bosboom, 1866-1871.  ](4_bosboom_Tsaar_Peter.jpg)
 
 Naast deze historische voorstellingen was er een enorme productie van zeestukken die waren gebaseerd op de scheepvaart van de eigen tijd. Al aan het einde van de achttiende eeuw herleefde de maritieme schilderkunst die een eeuw eerder zo’n bloei had gekend. Ten tijde van de Vierde Engelse Oorlog (1780-1784) en daarna bracht Engel Hoogerheyden (1740-1807) bijvoorbeeld de activiteit van de oorlogsvloot in Zeeland in beeld.[27](#fn27) Gerrit Groenewegen (1754-1826) liet zich bij het maken van tekeningen en etsen inspireren door de drukke scheepvaart rond zijn woonplaats Rotterdam. Veel kunstenaars zagen weer brood in het vervaardigen van ‘marines’, zoals Johannes Hermanus Koekkoek (1778-1851), de stamvader van een groot aantal gelijknamige romantische schilders.
 
-![Alt text todo](12_Koekkoek_Beurtschip_Bestellijst.jpg)
+![Beurtschip aan lager wal. Een beurtschip raakt in moeilijkheden na de afvaart. Werklui aan wal snellen toe om te helpen. Schilderij door Hermanus Koekkoek, 1849.  ](12_Koekkoek_Beurtschip_Bestellijst.jpg)
 
 Romantische kunstenaars lieten zich inspireren door de overweldigende kracht en schoonheid van de zee, met taferelen waarin de mens vaak een speelbal van de elementen is. Heel duidelijk is dat bij de Dordtse zeeschilder Johannes Cornelis Schotel (1787-1838). Bij hem waren gebeurtenissen uit de Gouden Eeuw niet het onderwerp voor schilderijen, zoals bij de echte historieschilders. Wel is zijn bewondering voor de zeeschilders uit die periode, Willem van de Velde de Jonge (1633-1707) en Ludolf Backhuysen (1630-1708), af te lezen in zijn stijl en onderwerpskeuze.[28](#fn28)
 
-![Alt text todo](20_uitsnfregatIJssela4750_M_clip.jpg)
+![Het fregat Zr.Ms. <em>IJssel</em> onder noodtuig, tijdens een zware storm, 27 december 1814.  Schilderij door Johannes Christiaan Schotel, 1814. 
+
+  ](20_uitsnfregatIJssela4750_M_clip.jpg)
 
 De waardering voor de zeeschilderkunst leidde zelfs tot een voor Nederland unieke vorm van officiële erkenning. In de jaren dertig en veertig van de negentiende eeuw voerde Prins Hendrik van Oranje-Nassau (1820-1879) het bevel over een marine-eskader dat elk jaar enige maanden oefende in de Middellandse Zee. Op deze reizen nodigde deze Nederlandse ‘Hendrik de Zeevaarder’ jonge kunstenaars uit om aan boord inspiratie op te doen voor schilderijen, onder wie Petrus Johannes Schotel (1808-1865), zoon van J.C. Schotel, Albertus van Beest (1820-1880) en Louis Meijer (1809-1866). Het resultaat was een aantal spectaculaire doeken met de schepen van het eskader, waaronder Hendriks vlaggenschip _Rijn_.
 
-![Alt text todo](7_uitsnEskader_ZKH.jpg)
+![Het eskader van Prins Hendrik der Nederlanden met slecht weer in het Kanaal, oktober 1843.  Schilderij door Petrus Schotel, 1843.  ](7_uitsnEskader_ZKH.jpg)
 
 De hernieuwde waardering voor de maritieme schilderkunst in de negentiende eeuw heeft tot duizenden werken door grote en kleine meesters geleid met titels als ‘binnenwater met tjalken’, ‘woelende (of kalme) zee’, en ontelbare strand- en riviergezichten, schipbreuken, overzetveren en pittoreske vissersfamilies.[29](#fn29) Sommige van die zee- en rivierschilders genoten in hun tijd grote bekendheid of behoorden zelfs tot de avant-garde van de kunst. Jozef Israels (1824-1911), geen zeeschilder pur sang, werd ook buiten Nederland geprezen om zijn verhalende, nogal sentimentele werken over het harde leven van de vissers aan de Noordzeekust. Zijn collega Hendrik Willem Mesdag (1831-1915), een vertegenwoordiger van de Haagse School, was wel een echte specialist, tot in het extreme: zijn oeuvre bestaat vrijwel uitsluitend uit schilderijen van bomschuiten op of bij het strand van Scheveningen.
 
-![Alt text todo](6_ Nuijen_W._Schipbreuk.jpg)
+![undefined. undefined undefined undefined ](6_Nuijen_W._Schipbreuk.jpg)
 
-![Alt text todo](25_uitsnMesdag20020634_lst_M_clip.jpg)
+![Klaar voor vertrek. Twee Scheveningse bomschuiten in de branding, de linker gereed om te vertrekken, de rechter bezig met het lossen van een lading verse vis.  Schilderij door Hendrik Willem Mesdag, 1893. ](25_uitsnMesdag20020634_lst_M_clip.jpg)
 
-![Alt text todo](13_uitsnMesdag_atelierRP-F-00-6970.jpg)
-
-![Alt text todo](5_uitsnIsraels_Langsmoedersgraf.jpg)
+![undefined. undefined undefined undefined ](13_uitsnMesdag_atelierRP-F-00-6970.jpg
+5_uitsnIsraels_Langsmoedersgraf.jpg)
 
 Men zou verwachten dat al die schilderijen uit de negentiende eeuw een redelijk adequaat beeld geven van de Nederlandse scheepvaartgeschiedenis. Dat is maar gedeeltelijk het geval. Verreweg de meeste kunstenaars kozen onderwerpen waarin de eigen tijd slechts een ondergeschikte rol speelde. Liever vulden zij hun doeken met een nostalgisch aandoende zeilende tjalk op een met bomen gestoffeerd binnenwatertje dan met een raderstoomschip op een modern kanaal. Zelfs Mesdag, die ons zo’n indringend en correct beeld voorschotelt van de bommen en de vissers op het strand filterde in zijn laatste jaren als het ware zijn eigen tijd weg. Terwijl de logger de ouderwetse bom al had vervangen en de nieuwe Scheveningse haven vanaf 1904 het centrum van de plaatselijke visserij was geworden, bleef hij bommen in de branding schilderen, ook al lagen er geen bomschuiten meer op het strand. In dat opzicht was ook hij, net als zo vele vakgenoten een soort historieschilder geworden.
 
@@ -140,26 +140,31 @@ Sinds de tijd van de ontdekkingsreizen waren verhalen over zeereizen en zeehelde
 
 De hang naar het maritieme verleden had ook een wetenschappelijke kant. De negentiende eeuw was de periode waarin de wetenschappelijke geschiedbeoefening tot ontwikkeling kwam, met zorgvuldig controleerbaar bronnenonderzoek als uitgangspunt. Het was de rijksarchivaris Johannes Cornelis de Jonge (1793-1853) die als eerste de zeegeschiedenis op deze manier aan een uitgebreid onderzoek onderwierp, wat meteen tot een kloek overzichtswerk heeft geleid. Zijn _Geschiedenis van het Nederlandsche zeewezen_ verscheen tussen 1833 en 1848 in zes delen.[34](#fn34) Onder dat ‘zeewezen’ verstond De Jonge uitsluitend de marine, die hij beschrijft vanaf de middeleeuwen tot 1810. Zijn werk is uiterst gedetailleerd en daardoor van blijvende waarde, mede omdat hij vele bronnen kon raadplegen die niet meer bestaan. Bij de brand die op 8 januari 1844 woedde in het ministerie van Marine in Den Haag, gingen namelijk grote delen van de admiraliteitsarchieven verloren.
 
-14\_PortretbusteKl.\_B\_2667.jpg  
+![Portretbuste J.C. de Jonge. Dit portret van de historicus Johannes Cornelis de Jonge (1793-1853) stond oorspronkelijk in deel 5 van zijn werk <em>Geschiedenis van het Nederlandsche zeewezen</em> (tweede druk; Haarlem 1862). Litho door Frederik Hendrik Weissenbruch naar de portretbuste door Eugene Lacombé, 1860.  ](14_PortretbusteKl._B_2667.jpg)
+
 De Jonge had, blijkens het voorwoord van zijn zoon bij de tweede druk van 1858, het vaste voornemen om zich niet ‘door deze of gene staatspartij te laten medeslepen, of blindelings het ééne of het andere stelsel in bescherming te nemen. Eén spoor volgde hij: het was het spoor der waarheid; daarvan liet hij zich door geene dwaallichten afleiden’.[35](#fn35) Toch ontkwam De Jonge niet aan een zekere nationalistische vooringenomenheid. In de eigen voorrede bij de eerste editie verklaart hij bijvoorbeeld dat de Nederlandse natie ‘hare vrijheid, haren roem, haren luister, hare welvaart, ja zelfs haar aanzijn aan dat zeewezen grootendeels heeft te danken’.
 
 De Jonges werk markeert de toenemende aandacht voor een serieuze benadering van de maritieme geschiedenis. J.J. Backer Dirks (1825-1893), docent aan het Koninklijk Instituut voor de Marine, volgde zijn voorbeeld met een vrije bewerking van en aanvulling op het werk van De Jonge.[36](#fn36) Ook de opkomst van periodieken over de zeevaart, zoals de _Verhandelingen en berigten betrekkelijk het zeewezen_ (vanaf 1840)[37](#fn37) en de oprichting van het eerste scheepvaartmuseum van Nederland, het Maritiem Museum ‘Prins Hendrik’ in Rotterdam (1874), zijn tekenen van de bredere, wetenschappelijk gefundeerde belangstelling voor het ‘zeewezen’ in de loop van de negentiende eeuw.
 
 Historiezucht was ook een van de drijfveren voor de organisatoren van de Nederlandse wetenschappelijke expedities naar de noordelijke poolstreken, in de jaren 1878-1884. Aanleiding voor de zeven reizen die het Hoofdcomité voor de IJszeevaart organiseerde met de schoener _Willem Barents,_ was de vondst van restanten van het ‘Behouden Huys’ op Nova Zembla. Dat de ontdekker een Noor was, de walrusjager Elling Carlsen, deed in Nederland een golf van nationaal bewustzijn ontwaken: Nederland moest weer een rol gaan spelen in het wetenschappelijk onderzoek van de poolstreken! Een van de initiatiefnemers voor de tochten was Jan Karel Jacob de Jonge (1828-1880), zoon van de hiervoor genoemde historicus J.C. de Jonge, adjunct- rijksarchivaris en later directeur van het Mauritshuis. Op plaatsen waar Nederlanders in het verleden actief waren geweest, zoals Nova Zembla en Spitsbergen moest de bemanning van de poolschoener gedenkstenen plaatsen. Van meer praktisch belang was echter het wetenschappelijk onderzoek door onderzoekers aan boord, met specialismen als geografie, oceanografie, meteorologie en zoölogie.[38](#fn38) Naast wetenschappelijke informatie hebben de reizen belangwekkend beeldmateriaal opgeleverd door de aanwezigheid van een fotograaf, de Engelsman William Grant (1851-1935) en, tijdens de reis van 1880, een beeldend kunstenaar, Louis Apol (1850-1936). Apol stond bekend om zijn wintergezichten, en kon nu, in de arctische zomer, vergelijkbare sneeuw- en ijslandschappen vastleggen. De foto’s van Grant en Apols tekeningen kregen grote bekendheid, onder meer door reproducties in populaire bladen als _Eigen Haard_.[39](#fn39) Apol schilderde ook een doek voor het Panoramagebouw in Amsterdam met een 360° gezicht op Nova Zembla, dat vanaf 1896 voor het publiek te zien was.[40](#fn40)
 
-![Alt text todo](24_modernes0090(02)098_remast_L.jpg)
+![Een deel van de bemanning aan dek van de schoener <em>Willem Barents</em>.  Glasnegatief, vervaardigd door William Grant, 1879.  ](24_modernes0090(02)098_remast_L.jpg)
 
-![Alt text todo](22_poolsch apol auqaa5536_picP.jpg)
+![undefined. undefined undefined undefined ](22_poolsch apol
+auqaa5536_picP.jpg)
 
-![Alt text todo](23_uitsnkust NZ Apolrb0528_M_clip.jpg)
-
-![Alt text todo](26_Apol_L._Panorama_Nova_Zembla.jpg)
+![undefined. undefined undefined undefined ](23_uitsnkust NZ Apolrb0528_M_clip.jpg
+26_Apol_L._Panorama_Nova_Zembla.jpg)
 
 ## Conclusie
 
 Vaderlandse geschiedenis in al zijn facetten was gedurende de hele negentiende eeuw een soort nationale rage. Zelfs toen het land in de loop van de eeuw steeds moderner en welvarender werd bleef de blik gericht op de achteruitkijkspiegel. In die ‘historiezucht’ hadden scheepvaart en maritiem heldendom een prominente plaats. Opvallend is daarbij dat men telkens teruggreep op een beperkt aantal vaderlandse helden, Michiel de Ruyter voorop. Ook de roem van een eigentijdse held, J.C.J. van Speijk, werd meteen in een historische context geplaatst, opnieuw met De Ruyter als referentiepunt. De zeeheldencultus had een functie in het creëren en versterken van het nationale zelfbewustzijn. Nog tot ver na de negentiende eeuw bleven die zeehelden deel uitmaken van de informele canon waarvan het onderwijs en de jeugdliteratuur zich bediende. Liedjes over De Ruyter en Piet Hein, waaronder het bekende Zilvervloot-lied door Jan Pieter Heije (1809-1876) en kinderboeken over hun dapperheid bleven ook in de twintigste eeuw populair.[41](#fn41) Kritiek op die in hedendaagse ogen overdreven heldenverering was er maar weinig. Slechts een enkele tijdgenoot durfde het bijvoorbeeld aan om de zelfmoord van Van Speijk te kwalificeren als een daad die strijdig was met het christendom.[42](#fn42) Dat Multatuli (1820-1887) weinig op had met maritiem heldendom zal niemand verbazen. Dat blijkt wel uit een gedicht op Michiel de Ruyter, dat Leentje de Haas, een klasgenootje van Woutertje Pieterse in de gelijknamige roman, inlevert bij Meester Pennewip. In zes coupletten vatte zij hierin het leven van de zeeheld bondig samen, waaronder deze drie:
 
-![Alt text todo](15_Baai_Matanzasb672.jpg)
+![De verovering van de Spaanse Zilvervloot in de Baai van Matanzas, 10 september 1628.  Litho door Petrus Johannes Schotel, uit: J.C. de Jonge, <em>Geschiedenis van het Nederlandsche zeewezen</em> (Amsterdam 1850).
+
+
+
+  ](15_Baai_Matanzasb672.jpg)
 
 ‘Hy is op een toren geklommen,
 
@@ -185,7 +190,7 @@ En was als Christen groot.
 
 Toen kreeg hy door zyn kleren
 
-Een kogel, en was dood’.[43](#fn43)
+Een kogel, en was dood.[43](#fn43)
 
 Ook een manier om een held te gedenken!
 

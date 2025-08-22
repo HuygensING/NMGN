@@ -1,0 +1,11 @@
+<div class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative">
+    <div class="col-start-2 xl:col-start-6 row-start-1 col-span-6 text-white items-start justify-center flex flex-col gap-2">
+        <span class="">Deel {{chapterMetadata.part}} <em>{{chapterMetadata.partTitle}}</em></span> 
+        <strong>Hoofdstuk {{chapterMetadata.chapter}}</strong></div>
+    
+    <div class="col-start-2 row-start-2 col-span-6 flex items-center justify-start md:justify-center">
+        <h1 class="text-2xl md:text-3xl xl:text-5xl font-bold text-nmgnGreen-500 text-center">{{{replaceStr chapterMetadata.title "±" "<br>"}}}</h1>
+    </div>
+    <div class="col-start-2 xl:col-start-6 row-start-3 col-span-6 text-white items-center justify-start">Door {{chapterMetadata.author}}</div>
+    <!-- <div class="col-start-2 xl:col-start-2 row-start-4 text-white  absolute left-[20vw] hidden xl:flex"><img src="images/chapterImages/d{{chapterMetadata.part}}h{{chapterMetadata.chapter}}.png" class="w-24 h-24 2xl:w-36 2xl:h-36" alt=""></div> -->
+</div>

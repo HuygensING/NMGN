@@ -1,15 +1,27 @@
-<div class="flex flex-col gap-4 w-full sticky top-8 max-h-screen px-4 pt-20">
-    <img src="images/d1h3/d1h3-600/2-8_Medemblik.jpg" class="w-full" alt="" loading="lazy">
-    <div class="text-sm">
-        <div class="captionTitle">Plattegrond van Medemblik, circa 1560</div><span class="openCaption">[i]</span>
+<!-- image -->
+<aside class="relative z-0 {{gridClass}}">
+    {{> utils/contentNavagationPanel }}
 
-        <div class="moreCaption">Deze plattegrond van Medemblik aan de vooravond van de Opstand is vervaardigd
-            door Jacob van Deventer. Als haven fungeert de gracht aan de oostzijde
-            (boven). Aan de havenmond ligt ter bescherming kasteel Radboud. De plattegrond
-            van Paulus Utenwaal laat zien dat in 1599 aan de westzijde (onder) een
-            grote nieuwe haven is gegraven met scheepswerven. Een bolwerk naast het
-            kasteel beschermt de havenmond.
-            <br>Rijksmuseum, Amsterdam.
-        </div>
+    
+    <div class="min-h-screen sticky top-0 flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0">
+
+         <figure class="flex flex-col">
+            <img id="asideImg" src="images/d{{chapterMetadata.part}}h{{chapterMetadata.chapter}}/d{{chapterMetadata.part}}h{{chapterMetadata.chapter}}-600/{{firstImage.htmlRaw}}" class="w-full border" alt="{{firstImage.imagedata.description}}" loading="lazy">
+            <div class="flex justify-end">
+                <button onclick="bigImageViewer();return false;" class="bg-nmgnBlue-800 p-2 rounded text-white text-sm -mt-1 cursor-pointer">Vergroten</button>
+            </div>
+            <figcaption  class="text-sm max-w-xl mx-auto">
+                <strong class="mt-4 block" id="asideImgTitle">{{firstImage.imagedata.title}}</strong>
+                <span id="asideCaption">
+                    {{firstImage.imagedata.description}}
+                    {{firstImage.imagedata.description2}}
+                    {{firstImage.imagedata.description3}}
+                    <br>{{firstImage.imagedata.location}}
+                </span>
+                
+            </figcaption>
+        </figure> 
+        
+
     </div>
-</div>
+</aside>
