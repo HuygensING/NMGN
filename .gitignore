@@ -139,3 +139,7 @@ test-output
 output/test
 markdown.txt
 app/old
+
+app-old
+output/html-site/images/
+.DS_Store
