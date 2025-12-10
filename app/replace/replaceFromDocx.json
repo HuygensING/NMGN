@@ -8,11 +8,16 @@
     ["<strong><del><br /> </del></strong>", "</p><p>"],
     ["<strong> </strong>", ""],
 
+
     ["Schuth2016.jpg\n19_WestelijkHalfrond", "Schuth2016.jpg 19_WestelijkHalfrond"],
+    [".jpg\n", ".jpg  "],
     
     ["18_OostelijkHalfrond _MaartenSchuth2016.jpg", "18_OostelijkHalfrond_MaartenSchuth2016.jpg"],
     ["19_WestelijkHalfrond _MaartenSchuth2016.jpg", "19_WestelijkHalfrond_MaartenSchuth2016.jpg"],
 
+    ["<p>13a_Amsterdam.jpg 13b_Biervliet_1307.jpg 13c_Harderwijk_2de\nhelft_13_eeuw.jpg</p>\n<p>13d_Kuinre_1400.jpg 13e_Medemblik_dertiende.jpg\n13f_Monnikendam_2dehelft13de.jpg</p>\n<p>13g_Stavoren_2dehelft14eeuw.jpg 13h_Veere_vijftiende.jpg\n13i_Vlaardingen_ca.1300.jpg</p>\n<p>13j_IJlst_vijftiende_eeuw.jpg</p>",
+     "<p>13a_Amsterdam.jpg  13b_Biervliet_1307.jpg  13c_Harderwijk_2dehelft_13_eeuw.jpg  13d_Kuinre_1400.jpg 13e_Medemblik_dertiende.jpg  13f_Monnikendam_2dehelft13de.jpg  13g_Stavoren_2dehelft14eeuw.jpg  13h_Veere_vijftiende.jpg  13i_Vlaardingen_ca.1300.jpg  13j_IJlst_vijftiende_eeuw.jpg</p>"],
+    ["88-2.67a_Schutters.jp", "88-2.67a_Schutters.jpg"],
     [".jpg ", ".jpg</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
     [".JPG ", ".jpg</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
     [".jpeg ", ".jpeg</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
@@ -54,22 +59,29 @@
     ["<div data-custom-style=\"Default\">", ""],
     ["<div data-custom-style=\"testProfile\">", ""],
     ["<div data-custom-style=\"Table Style 3\">", ""],
+    ["<span data-custom-style=\"Heading 3 Char\">", ""],
+
+    
 
     ["<td><div data-custom-style=\"tabelKop\">", "<td class=\"tabelKop\">"],
+    ["<td colspan=\"7\"><div data-custom-style=\"tabelKop\">", "<td colspan=\"7\" class=\"tabelKop\">"],
     ["<td><div data-custom-style=\"tabelNummers\">", "<td class=\"tabelNummers\">"],
-    ["<td><div data-custom-style=\"TabelKopLinks\">", "<td class=\"TabelKopLinks\">"],
-    ["<td><div data-custom-style=\"TabelKopRechts\">", "<td class=\"TabelKopRechts\">"],
-    ["<td><div data-custom-style=\"TabelNummersCentreren\">", "<td class=\"TabelNummersCentreren\">"],
+    ["<td colspan=\"2\"><div data-custom-style=\"tabelNummers\">", "<td colspan=\"2\" class=\"tabelNummers\">"],
+    ["<td><div data-custom-style=\"TabelKopLinks\">", "<td class=\"tabelKopLinks\">"],
+    ["<td><div data-custom-style=\"TabelKopRechts\">", "<td class=\"tabelKopRechts\">"],
+    ["<td><div data-custom-style=\"TabelNummersCentreren\">", "<td class=\"tabelNummersCentreren\">"],
+    
 
-    ["<div data-custom-style=\"tabelNummers\">", ""],
+    
     ["</div>", ""],
 
     ["<td class=\"tabelKop\"> <p>", "<td class=\"tabelNummers\">"],
     ["<td class=\"tabelNummers\"> <p>", "<td class=\"tabelNummers\">"],
-    ["<td class=\"TabelKopLinks\"> <p>", "<td class=\"TabelKopLinks\">"],
-    ["<td class=\"TabelKopRechts\"> <p>", "<td class=\"TabelKopRechts\">"],
-    ["<td class=\"TabelNummersCentreren\"> <p>", "<td class=\"TabelNummersCentreren\">"],
+    ["<td class=\"TabelKopLinks\"> <p>", "<td class=\"tabelKopLinks\">"],
+    ["<td class=\"TabelKopRechts\"> <p>", "<td class=\"tabelKopRechts\">"],
+    ["<td class=\"TabelNummersCentreren\"> <p>", "<td class=\"tabelNummersCentreren\">"],
     ["</p> </td>", "</td>"],
+    ["zee uiteenlopende betekenissen:", "zee uiteenlopende betekenissen;"],
 
 
     

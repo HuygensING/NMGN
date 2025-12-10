@@ -1,7 +1,10 @@
 let focusRuler = setFocusRuler()
-let currentHeader = document.querySelectorAll("h2,h3,h3,h4,h5")[0].getAttribute("id")
+const headerElementsInit = document.querySelectorAll("h2,h3,h4,h5")
+let currentHeader = headerElementsInit.length > 0 ? headerElementsInit[0].getAttribute("id") : null
 checkHeaderFocus()
-setCurrentHeader(currentHeader)
+if (currentHeader) {
+  setCurrentHeader(currentHeader)
+}
 
 window.onresize = function() { 
   focusRuler = setFocusRuler()
@@ -25,6 +28,7 @@ function checkHeaderFocus() {
     
   });
   if (allAboveArr.length != 0) {
+    console.log(allAboveArr[allAboveArr.length - 1].getAttribute("id"));
     setCurrentHeader(allAboveArr[allAboveArr.length - 1].getAttribute("id"))
   }
 }
@@ -52,9 +56,14 @@ window.onscroll = function() {
 
 
 function setCurrentHeader(headerId) {
+    if (!headerId) return;
     const allEmen = document.querySelectorAll(".contentNavigationItem");
+    
     allEmen.forEach(header => {
       header.classList.remove('font-bold')
     });
-    document.getElementById('a'+headerId).classList.add('font-bold')
+    const target = document.getElementById('a'+headerId)
+    if (target) {
+      target.classList.add('font-bold')
+    }
 }

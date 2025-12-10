@@ -1,16 +1,17 @@
 ---
+chapterId: d2h4
 title: Een veelkoppig monster:± De Nederlandse zeemacht, 1568-1780
 author: Victor Enthoven, Marc van Alphen en Remmelt Daalder
 part: 2
 chapter: 4
-summary: Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.
-publication_date: 14&nbsp;mei&nbsp;2024
+summary: De Republiek der Verenigde Nederlanden was in de zeventiende eeuw een van de belangrijkste maritieme mogendheden ter wereld. Daarna werd die rol een stuk bescheidener. De zeehelden en zeeslagen zijn algemeen bekend, maar daarachter ging een zeer gelaagde, gedecentraliseerde organisatie schuil. De soevereine gewesten kenden bijvoorbeeld niet één gezamenlijk apparaat voor de defensie ter zee. Er waren maar liefst vijf admiraliteitscolleges, verspreid over drie gewesten. Die hadden tal van vestigingen en schepen in vele soorten en maten. Private organisaties waren ook betrokken bij de zeeoorlog, bijvoorbeeld voor het konvooieren van koopvaarders. Kaperschepen leverden bovendien een (legale) bijdrage aan de oorlog ter zee. Die vermenging van private en publieke belangen kwam op vele niveaus voor. Zo regelden de commandanten zelf de werving en voeding van hun bemanning. Oorlogsschepen werden vaak gehuurd of gebouwd op particuliere werven. Deze verbrokkelde organisatie stond militaire successen en innovaties niet in de weg. Dat verklaart dat het hele systeem tot aan het einde van de achttiende eeuw standhield.
+publication_date: 14 mei 2024
 doi: 10.5281/zenodo.11179423
 doi_url: <a href="https://zenodo.org/records/11179423"><span data-custom-style="Hyperlink">https://zenodo.org/records/11179423</span></a>
 status: published
 ---
 
-## Inleiding
+### Inleiding
 
 De Gouden Eeuw – wat men de lange zeventiende eeuw noemt, van globaal 1590 tot 1713 – vormde het hoogtepunt van de Nederlandse macht ter zee.[1](#fn1) Daarvoor en daarna was de Nederlandse oorlogsvloot nooit zo dominant. Dit is door Joost van den Vondel treffend verwoord bij een afbeelding van luitenant-admiraal Cornelis Tromp: ‘Dan voert hy op den mast den bezem’ waarmee hij de zeeën schoonveegde. Tromps bezem is een Engelse mythe, maar wel een die we koesteren: de Republiek der Verenigde Nederlanden als heerser over de wereldzeeën met een pantheon van zeehelden.[2](#fn2) Voor veel buitenlanders echter was de Republiek, in de woorden van de toenmalige Engelse ambassadeur William Temple: ‘the fear of some, the envy of others and the wonder of all their neighbours’.[3](#fn3) De Republiek week in veel opzichten af van wat destijds in Europa gangbaar was; voor vergelijkbare problemen kwamen andere oplossingen.[4](#fn4)
 
@@ -28,11 +29,11 @@ Tenslotte was de Republiek een continentale mogendheid, weliswaar met belangrijk
 
 De unieke inrichting en constellatie van de Republiek hadden verstrekkende gevolgen voor het maritieme veiligheidsbeleid en de uitvoering ervan. De Nederlandse zeemacht was vanaf 1568 tot 1780, zoals gezegd, een veelkoppig monster. De term marine, die de suggestie van een gecentraliseerde organisatie wekt, zal in dit deel niet worden gebruikt. De schepen uitgerust door de admiraliteitscolleges, inclusief gehuurde schepen, worden daarom als oorlogsvloot aangemerkt.
 
-### 1 VRIJHEIDSSTRIJD, ORGANISATIE EN OPERATIONEEL OPTREDEN
+## 1 VRIJHEIDSSTRIJD, ORGANISATIE EN OPERATIONEEL OPTREDEN
 
 In de Republiek vormde de oorlogsvloot een politiek machtsmiddel en een instrument voor het veiligheidsbeleid. Dus we moeten allereerst weten wie het maritieme veiligheidsbeleid formuleerde en wie het bevoegd gezag over de oorlogsvloot had. Andere belangrijke vragen zijn: hoe werd de oorlogsvloot gefinancierd; wie voerde het beleid uit; wat waren de taken en hoe werd de vloot ingezet? En ten slotte: wat was het operationeel optreden van de vloot? Omdat deze zaken een lange aanloop kende – pas met het Provisioneel Reglement van 1597 kwam er min of meer een vaste structuur – zal met de eerste drie decennia van vrijheidsstrijd tegen de Spaanse overheerser worden begonnen, waarna de overige thema’s aan bod komen.[21](#fn21)
 
-## Opstand en vrijheidsstrijd
+### Opstand en vrijheidsstrijd
 
 Het gistte al langer in de zeventien gewesten van de Lage Landen, het gebied dat grofweg het huidige Luxemburg, België en Nederland omvatte. Het volk morde over de lage levensstandaard door economische malaise, de elite verzette zich tegen het centralistische optreden van het landsheerlijke (het Habsburgse of Spaanse) gezag in Brussel en er bestond een diepgaande religieuze onrust. De vrijheidsstrijd die in 1568 onder leiding van Willem van Oranje (1533-1584) tegen het Habsburgs gezag uitbrak, het begin van de Tachtigjarige Oorlog (1568-1648), had het karakter van een burgeroorlog. Eerst nogal irregulier door de Watergeuzen in het noorden en in Holland, later, nadat de opstandelingen in 1572 vaste voet aan de grond kregen, meer regulier, waarbij het zwaartepunt van de strijd naar de Scheldedelta verschoof. Dit duurde tot en met de Pacificatie van Gent in 1576, die een tijdelijk eind maakte aan de burgeroorlog. Met de Unies van Atrecht en Utrecht in 1579 werd de definitieve scheuring tussen noord en zuid ingezet.
 
@@ -86,7 +87,7 @@ Naast de strijd om territorium woedde er op en rond de Schelde ook een economisc
 
 Met de Unies van Atrecht en Utrecht barstte in 1579 de burgeroorlog weer in alle hevigheid los, waardoor de Lage Landen definitief scheurden. De strijd te water bleef echter kleinschalig en de opstandelingen hanteerde kaapvaart met een veel grotere voorzichtigheid dan in de jaren 1572-1576 om minder schade aan de handel toe te brengen. Belangrijke handelscentra als Antwerpen, Middelburg en Amsterdam stonden nu aan de zijde van Oranje en de omvangrijke handel met de vijand ging gewoon door. Pas met het beleg van Antwerpen vanaf 1583 door het leger van Alexander Farnese, de hertog van Parma, sloeg de sfeer om. Tijdens het beleg was de handel met de Habsburgse gebieden verboden. De Schelde was afgesloten en een Oranjegezinde vloot sloot de vijandelijke Vlaamse havens af. Maar het lukte niet Antwerpen te ontzetten en op 17 augustus 1585 gaf de Scheldestad zich over. De scheiding tussen noord en zuid was bezegeld.
 
-## Bevoegd gezag en beleid
+### Bevoegd gezag en beleid
 
 De Republiek, voortgekomen uit de Unie van Utrecht, bestond uit acht soevereine gewesten die wat defensie betreft samenwerkten in de Staten-Generaal. Voor belangrijke zaken lieten de Staten-Generaal zich adviseren. Voor de zeezaken kwamen er twee adviesorganen: de Raad van State die voor het meer algemeen belang via een Staat van Oorlog fondsen in de vorm van subsidies ter beschikking kon stellen en het Haags Besogne dat via de Ordre op de Beveiliging der Zee de besteding van de convooien en licenten regelde.[38](#fn38)
 
@@ -108,381 +109,15 @@ De Zeeuwen vormden een derde machtsblok. De lijnen in Zeeland waren kort omdat G
 
 De Republiek is nooit een eenheidsstaat geweest, maar een bondgenootschap van soevereine gewesten, waarbij gemeenschappelijke belangen vaak samengingen met gewestelijke belangen, maar soms ook niet. Illustratief is de Zeeuwse expeditie naar Suriname en Virginia in 1667 om de Zeeuwse handelsbelangen in de Atlantische wereld te versterken. Op 30 december 1666 voer ‘capiteijn commandeur’ Abraham Crijnssen met drie fregatten, een jacht, een fluitschip, een hoeker en een snauw richting Suriname uit. Dit was een ‘particuliere’ Zeeuwse oorlogsvloot die uitvoer zonder bemoeienis van het Haags Besogne, de Raad van State of de Staten-Generaal.[45](#fn45)
 
-## Middelen
+### Middelen
 
-De financiering van de oorlogsvloot bestond uit twee delen. Voor de meer gemeenschappelijke operaties waren er de subsidies, toegekend door de Staten-Generaal en te betalen door de gewesten. Voor de regionale belangen beschikten de admiraliteitscolleges over eigen middelen. De eigen inkomsten lagen net iets hoger dan de subsidies. Leningen speelden een kleine rol bij de financiering van de oorlogsvloot. Beide financieringsvormen kenden vele verschillende potjes (zie tabel 1 en 2).
+De financiering van de oorlogsvloot bestond uit twee delen. Voor de meer gemeenschappelijke operaties waren er de subsidies, toegekend door de Staten-Generaal en te betalen door de gewesten. Voor de regionale belangen beschikten de admiraliteitscolleges over eigen middelen. De eigen inkomsten lagen net iets hoger dan de subsidies. Leningen speelden een kleine rol bij de financiering van de oorlogsvloot. Beide financieringsvormen kenden vele verschillende potjes (zie de tabellen 1 en 2).
 
-
-<colgroup>
-<col style="width: 15%">
-<col style="width: 18%">
-<col style="width: 15%">
-<col style="width: 16%">
-<col style="width: 15%">
-<col style="width: 17%">
-<col style="width: 1%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>&nbsp;</th>
-<th colspan="2"><div data-custom-style="tabelKop">
-<p>Inkomsten</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Subsidies</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Leningen</p>
-</div></th>
-<th colspan="2"><div data-custom-style="tabelKop">
-<p>Totaal</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td class="TabelNummersCentreren">
-<p>Convooien en</p><p>
-licenten</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>Overig</p>
-</td>
-<td colspan="3">&nbsp;</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1681-1690</td>
-<td class="tabelNummers">
-<p>25.984.333</p>
-</td>
-<td class="tabelNummers">
-<p>3.832.680</p>
-</td>
-<td class="tabelNummers">
-<p>11.095.404</p>
-</td>
-<td class="tabelNummers">
-<p>1.600</p>
-</td>
-<td class="tabelNummers">
-<p>40.914.018</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>1691-1700</td>
-<td class="tabelNummers">
-<p>35.469.963</p>
-</td>
-<td class="tabelNummers">
-<p>7.215.513</p>
-</td>
-<td class="tabelNummers">
-<p>42.013.406</p>
-</td>
-<td class="tabelNummers">
-<p>1.526.000</p>
-</td>
-<td class="tabelNummers">
-<p>86.224.880</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1701-1710</td>
-<td class="tabelNummers">
-<p>28.031.419</p>
-</td>
-<td class="tabelNummers">
-<p>6.812.420</p>
-</td>
-<td class="tabelNummers">
-<p>30.388.084</p>
-</td>
-<td class="tabelNummers">
-<p>1.632.000</p>
-</td>
-<td class="tabelNummers">
-<p>66.863.923</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>1711-1720</td>
-<td class="tabelNummers">
-<p>25.749.613</p>
-</td>
-<td class="tabelNummers">
-<p>6.751.871</p>
-</td>
-<td class="tabelNummers">
-<p>5.961.254</p>
-</td>
-<td class="tabelNummers">
-<p>2.575.900</p>
-</td>
-<td class="tabelNummers">
-<p>41.038.637</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1721-1730</td>
-<td class="tabelNummers">
-<p>24.540.210</p>
-</td>
-<td class="tabelNummers">
-<p>6.970.847</p>
-</td>
-<td class="tabelNummers">
-<p>5.667.806</p>
-</td>
-<td class="tabelNummers">
-<p>2.388.200</p>
-</td>
-<td class="tabelNummers">
-<p>39.567.064</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>1731-1740</td>
-<td class="tabelNummers">
-<p>21.008.180</p>
-</td>
-<td class="tabelNummers">
-<p>6.782.144</p>
-</td>
-<td class="tabelNummers">
-<p>1.740.287</p>
-</td>
-<td class="tabelNummers">
-<p>834.648</p>
-</td>
-<td class="tabelNummers">
-<p>30.365.259</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1741-1750</td>
-<td class="tabelNummers">
-<p>20.125.342</p>
-</td>
-<td class="tabelNummers">
-<p>5.916.495</p>
-</td>
-<td class="tabelNummers">
-<p>11.457.530</p>
-</td>
-<td class="tabelNummers">
-<p>3.067.400</p>
-</td>
-<td class="tabelNummers">
-<p>40.566.765</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>1751-1760</td>
-<td class="tabelNummers">
-<p>19.616.071</p>
-</td>
-<td class="tabelNummers">
-<p>5.962.259</p>
-</td>
-<td class="tabelNummers">
-<p>11.624.247</p>
-</td>
-<td class="tabelNummers">
-<p>1.894.982</p>
-</td>
-<td class="tabelNummers">
-<p>39.097.559</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1761-1770</td>
-<td class="tabelNummers">
-<p>20.894.705</p>
-</td>
-<td class="tabelNummers">
-<p>6.342.766</p>
-</td>
-<td class="tabelNummers">
-<p>13.921.265</p>
-</td>
-<td class="tabelNummers">
-<p>165.600</p>
-</td>
-<td class="tabelNummers">
-<p>41.324.337</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>1771-1780</td>
-<td class="tabelNummers">
-<p>17.415.438</p>
-</td>
-<td class="tabelNummers">
-<p>5.662.414</p>
-</td>
-<td class="tabelNummers">
-<p>13.726.040</p>
-</td>
-<td class="tabelNummers">
-<p>815.278</p>
-</td>
-<td class="tabelNummers">
-<p>37.619.168</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1781-1790</td>
-<td class="tabelNummers">
-<p>16.341.551</p>
-</td>
-<td class="tabelNummers">
-<p>7.604.529</p>
-</td>
-<td class="tabelNummers">
-<p>73.457.207</p>
-</td>
-<td class="tabelNummers">
-<p>6.898.177</p>
-</td>
-<td class="tabelNummers">
-<p>104.301.466</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>1791-1794</td>
-<td class="tabelNummers">
-<p>6.250.761</p>
-</td>
-<td class="tabelNummers">
-<p>2.398.569</p>
-</td>
-<td class="tabelNummers">
-<p>14.462.541</p>
-</td>
-<td class="tabelNummers">
-<p>396.500</p>
-</td>
-<td class="tabelNummers">
-<p>23.508.372</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Totaal</td>
-<td class="tabelNummers">
-<p>261.427.586</p>
-</td>
-<td class="tabelNummers">
-<p>72.252.507</p>
-</td>
-<td class="tabelNummers">
-<p>235.515.071</p>
-</td>
-<td class="tabelNummers">
-<p>22.196.285</p>
-</td>
-<td class="tabelNummers">
-<p>591.391.448</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Gem. per jaar</td>
-<td class="tabelNummers">
-<p>2.293.224</p>
-</td>
-<td class="tabelNummers">
-<p>633.794</p>
-</td>
-<td class="tabelNummers">
-<p>2.065.922</p>
-</td>
-<td class="tabelNummers">
-<p>194.704</p>
-</td>
-<td class="tabelNummers">
-<p>5.187.644</p>
-</td>
-<td></td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 15%"><col style="width: 18%"><col style="width: 15%"><col style="width: 16%"><col style="width: 15%"><col style="width: 17%"><col style="width: 1%"></colgroup><thead><tr class="header"><th>&nbsp;</th><th colspan="2"><div data-custom-style="tabelKop">Inkomsten</div></th><th><div data-custom-style="tabelKop">Subsidies</div></th><th><div data-custom-style="tabelKop">Leningen</div></th><th colspan="2"><div data-custom-style="tabelKop">Totaal</div></th></tr></thead><tbody><tr class="odd"><td></td><td class="tabelNummersCentreren">Convooien enlicenten</td><td class="tabelNummersCentreren">Overig</td><td colspan="3">&nbsp;</td><td></td></tr><tr class="even"><td>1681-1690</td><td class="tabelNummers">25.984.333</td><td class="tabelNummers">3.832.680</td><td class="tabelNummers">11.095.404</td><td class="tabelNummers">1.600</td><td class="tabelNummers">40.914.018</td><td></td></tr><tr class="odd"><td>1691-1700</td><td class="tabelNummers">35.469.963</td><td class="tabelNummers">7.215.513</td><td class="tabelNummers">42.013.406</td><td class="tabelNummers">1.526.000</td><td class="tabelNummers">86.224.880</td><td></td></tr><tr class="even"><td>1701-1710</td><td class="tabelNummers">28.031.419</td><td class="tabelNummers">6.812.420</td><td class="tabelNummers">30.388.084</td><td class="tabelNummers">1.632.000</td><td class="tabelNummers">66.863.923</td><td></td></tr><tr class="odd"><td>1711-1720</td><td class="tabelNummers">25.749.613</td><td class="tabelNummers">6.751.871</td><td class="tabelNummers">5.961.254</td><td class="tabelNummers">2.575.900</td><td class="tabelNummers">41.038.637</td><td></td></tr><tr class="even"><td>1721-1730</td><td class="tabelNummers">24.540.210</td><td class="tabelNummers">6.970.847</td><td class="tabelNummers">5.667.806</td><td class="tabelNummers">2.388.200</td><td class="tabelNummers">39.567.064</td><td></td></tr><tr class="odd"><td>1731-1740</td><td class="tabelNummers">21.008.180</td><td class="tabelNummers">6.782.144</td><td class="tabelNummers">1.740.287</td><td class="tabelNummers">834.648</td><td class="tabelNummers">30.365.259</td><td></td></tr><tr class="even"><td>1741-1750</td><td class="tabelNummers">20.125.342</td><td class="tabelNummers">5.916.495</td><td class="tabelNummers">11.457.530</td><td class="tabelNummers">3.067.400</td><td class="tabelNummers">40.566.765</td><td></td></tr><tr class="odd"><td>1751-1760</td><td class="tabelNummers">19.616.071</td><td class="tabelNummers">5.962.259</td><td class="tabelNummers">11.624.247</td><td class="tabelNummers">1.894.982</td><td class="tabelNummers">39.097.559</td><td></td></tr><tr class="even"><td>1761-1770</td><td class="tabelNummers">20.894.705</td><td class="tabelNummers">6.342.766</td><td class="tabelNummers">13.921.265</td><td class="tabelNummers">165.600</td><td class="tabelNummers">41.324.337</td><td></td></tr><tr class="odd"><td>1771-1780</td><td class="tabelNummers">17.415.438</td><td class="tabelNummers">5.662.414</td><td class="tabelNummers">13.726.040</td><td class="tabelNummers">815.278</td><td class="tabelNummers">37.619.168</td><td></td></tr><tr class="even"><td>1781-1790</td><td class="tabelNummers">16.341.551</td><td class="tabelNummers">7.604.529</td><td class="tabelNummers">73.457.207</td><td class="tabelNummers">6.898.177</td><td class="tabelNummers">104.301.466</td><td></td></tr><tr class="odd"><td>1791-1794</td><td class="tabelNummers">6.250.761</td><td class="tabelNummers">2.398.569</td><td class="tabelNummers">14.462.541</td><td class="tabelNummers">396.500</td><td class="tabelNummers">23.508.372</td><td></td></tr><tr class="even"><td>Totaal</td><td class="tabelNummers">261.427.586</td><td class="tabelNummers">72.252.507</td><td class="tabelNummers">235.515.071</td><td class="tabelNummers">22.196.285</td><td class="tabelNummers">591.391.448</td><td></td></tr><tr class="odd"><td>Gem. per jaar</td><td class="tabelNummers">2.293.224</td><td class="tabelNummers">633.794</td><td class="tabelNummers">2.065.922</td><td class="tabelNummers">194.704</td><td class="tabelNummers">5.187.644</td><td></td></tr></tbody>
 
 _Tabel 1: Besteedbare gelden van de gezamenlijke admiraliteitscolleges, 1681-1794 (gulden)._[46](#fn46)
 
-
-<colgroup>
-<col style="width: 64%">
-<col style="width: 35%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><div data-custom-style="TabelKopLinks">
-<p>Inkomsten</p>
-</div></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>Gulden</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Convooien en licenten</td>
-<td class="tabelNummers">
-<p>4.382.000</p>
-</td>
-</tr>
-<tr class="even">
-<td>Derde Verhoging</td>
-<td class="tabelNummers">
-<p>1.103.500</p>
-</td>
-</tr>
-<tr class="odd">
-<td>VOC</td>
-<td class="tabelNummers">
-<p>594.500</p>
-</td>
-</tr>
-<tr class="even">
-<td>Last- en Veilgeld</td>
-<td class="tabelNummers">
-<p>4.867.300</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Subsidies</td>
-<td class="tabelNummers">
-<p>7.000.000</p>
-</td>
-</tr>
-<tr class="even">
-<td>Niet nader gespecificeerd</td>
-<td class="tabelNummers">
-<p>3.000.000</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Totaal</td>
-<td class="tabelNummers">
-<p>20.947.300</p>
-</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 64%"><col style="width: 35%"></colgroup><thead><tr class="header"><th><div data-custom-style="TabelKopLinks">Inkomsten</div></th><th><div data-custom-style="TabelKopRechts">Gulden</div></th></tr></thead><tbody><tr class="odd"><td>Convooien en licenten</td><td class="tabelNummers">4.382.000</td></tr><tr class="even"><td>Derde Verhoging</td><td class="tabelNummers">1.103.500</td></tr><tr class="odd"><td>VOC</td><td class="tabelNummers">594.500</td></tr><tr class="even"><td>Last- en Veilgeld</td><td class="tabelNummers">4.867.300</td></tr><tr class="odd"><td>Subsidies</td><td class="tabelNummers">7.000.000</td></tr><tr class="even"><td>Niet nader gespecificeerd</td><td class="tabelNummers">3.000.000</td></tr><tr class="odd"><td>Totaal</td><td class="tabelNummers">20.947.300</td></tr></tbody>
 
 _Tabel 2: Financiering van de oorlogsvloot tijdens de Eerste Engelse Oorlog, 1652-1654 (gulden)._[47](#fn47)
 
@@ -492,9 +127,9 @@ De eigen inkomsten van de admiraliteitscolleges worden vaak aangeduid met convoo
 
 ![Detail van grenspaal van de convooien en licenten. De stenen paal markeert de grens van het ressort (gebied) waarover de Admiraliteit op de Maze de heffingen inde op de convooien en licenten (douanerechten). Deze paal staat in Budel, Noord-Brabant. Foto Heemkundekring ‘De Baronie van Cranendonck’, Budel.  ](08-1.12_Douanepaal.jpg)
 
-Dat de Republiek uit soevereine gewesten bestond, met ieder hun eigen belangen illustreert de controverse eind jaren tachtig van de zestiende eeuw over de inning van de licenten, een geschil dat bijna tot het uiteenvallen van de Unie leidde. De drie admiraliteitscolleges in Holland inden het licentgeld in het eigen resort, terwijl de Zeeuwen dit nogmaals aan de grens met de Zuidelijke Nederlanden deden. Hollandse schippers betaalden dus dubbel. Pas in 1596 werd het compromis van het half licent overeengekomen. De Hollanders inden de helft aan de grens met de vijand en de Zeeuwen inden de andere helft in Holland. Dit compromis leidde een jaar later tot het Provisioneel Accoord.[49](#fn49)
-
 ![Veiling van mogelijk van door een van de admiraliteiten geconfisqueerde goederen. De admiraliteitscolleges verkregen op verschillende manieren goederen, zoals via inbeslagnames bij de convooien en licenten en de goederen van buitgemaakte schepen. Regelmatig vonden er veilingen van (buit)goederen plaats. De prent is gevoegd bij een aankondiging van een veiling door de Admiraliteit van Friesland, 1721. Anonieme prent.  ](08a-1.12A_Veiling.jpg)
+
+Dat de Republiek uit soevereine gewesten bestond, met ieder hun eigen belangen illustreert de controverse eind jaren tachtig van de zestiende eeuw over de inning van de licenten, een geschil dat bijna tot het uiteenvallen van de Unie leidde. De drie admiraliteitscolleges in Holland inden het licentgeld in het eigen resort, terwijl de Zeeuwen dit nogmaals aan de grens met de Zuidelijke Nederlanden deden. Hollandse schippers betaalden dus dubbel. Pas in 1596 werd het compromis van het half licent overeengekomen. De Hollanders inden de helft aan de grens met de vijand en de Zeeuwen inden de andere helft in Holland. Dit compromis leidde een jaar later tot het Provisioneel Accoord.[49](#fn49)
 
 Vanwege toegenomen spanningen met Engeland werden vanaf 1651 de tarieven van de convooien en licenten met een derde (33⅓%) verhoogd: de derde verhoging. Daarnaast kwamen er nog andere heffingen, zoals het last- en veilgeld bestemd voor de beveiliging (vandaar de term veilgeld) van visserij en koopvaardij. Het extra-ordinaris last- en veilgeld van 1696-1697 was bedoeld ter stimulering van de kaapvaart om de Franse handel te treffen. Gedurende de achttiende eeuw gebruikten de admiraliteitscolleges het fonds van het verhoogde last- en veilgeld ter financiering van zogenaamde buitengewone equipages (uitrustingen), zoals eskaders naar de Oostzee en de Middellandse Zee, waarbij op grote schaal geld werd geleend. De Orizontse Tol, vanaf 1649 opgebracht door Nederlandse schippers werd gebruikt om de Deense Sonttol af te kopen. Vanaf 1683 kocht de VOC de in- en uitgaande rechten van de convooien en licenten met een vast bedrag af. Het bedrag werd als volgt over de admiraliteitscolleges verdeeld: Amsterdam ½, Zeeland ¼, het Noorderkwartier en de Admiraliteit op de Maze elk ⅛. Met uitzondering van de beginjaren van de Opstand speelden inkomsten uit buitgoederen en de kaapvaart slechts een bescheiden rol.[50](#fn50)
 
@@ -502,231 +137,7 @@ Vanwege toegenomen spanningen met Engeland werden vanaf 1651 de tarieven van de 
 
 Vanaf 1599 bleken de convooien en licenten onvoldoende om alle taken van de oorlogsvloot te financieren. In zogenaamde Extra-Ordinaris Petities vroeg de Raad van State de Staten-Generaal de admiraliteitscolleges met subsidies voor duidelijk omschreven taken financieel te ondersteunen. Om dit advies te kunnen geven, had de Raad van State een aparte Commissie tot de Zeezaken die de Staat van Oorlog ter Zee opstelde. Daarin waren minutieus de behoeften uitgewerkt, de kosten en hoeveel elk gewest, volgens de gebruikelijke verdeelsleutel, moest betalen (zie tabel 3). Nadat de gewesten de Staat van Oorlog ter Zee hadden goedgekeurd, werden deze voornemens doorgaans vele jaren achtereen herhaald. Hierdoor zijn er maar enkele Staten van Oorlog ter Zee opgesteld.[51](#fn51) Tabel 3 geeft de Staat van Oorlog ter Zee van 1629, waarbij de gewesten de gage en de kost­penningen (vergoeding voor de voeding) voor de blokkadevloot subsidiëren met een maandelijks bedrag van ruim ƒ82.000.
 
-
-<colgroup>
-<col style="width: 13%">
-<col style="width: 11%">
-<col style="width: 5%">
-<col style="width: 0%">
-<col style="width: 7%">
-<col style="width: 14%">
-<col style="width: 9%">
-<col style="width: 18%">
-<col style="width: 10%">
-<col style="width: 8%">
-<col style="width: 0%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>&nbsp;</th>
-<th colspan="2"><div data-custom-style="tabelKop">
-<p>Bedrag</p>
-</div></th>
-<th colspan="7"><div data-custom-style="tabelKop">
-<p>Schepen</p>
-</div></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>Gulden</td>
-<td colspan="2">%</td>
-<td>Maze</td>
-<td>Amsterdam</td>
-<td>Zeeland</td>
-<td>Noorder-kwartier</td>
-<td>Friesland</td>
-<td colspan="2">Totaal</td>
-</tr>
-<tr class="even">
-<td>Gelderland</td>
-<td class="tabelNummers">
-<p>3.572</p>
-</td>
-<td colspan="2">
-<p>4</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>&nbsp;</p>
-</td>
-<td class="tabelNummers">
-<p>&nbsp;</p>
-</td>
-<td class="tabelNummers">
-<p>&nbsp;</p>
-</td>
-<td class="tabelNummers">
-<p>&nbsp;</p>
-</td>
-<td colspan="2">
-<p>2,0</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Holland</td>
-<td class="tabelNummers">
-<p>48.028</p>
-</td>
-<td colspan="2">
-<p>58</p>
-</td>
-<td class="tabelNummers">
-<p>7</p>
-</td>
-<td class="tabelNummers">
-<p>20</p>
-</td>
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2">
-<p>27,0</p>
-</td>
-</tr>
-<tr class="even">
-<td>Zeeland</td>
-<td class="tabelNummers">
-<p>7.564</p>
-</td>
-<td colspan="2">
-<p>9</p>
-</td>
-<td></td>
-<td></td>
-<td class="tabelNummers">
-<p>3,5</p>
-</td>
-<td></td>
-<td></td>
-<td colspan="2">
-<p>3,5</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Utrecht</td>
-<td class="tabelNummers">
-<p>4.802</p>
-</td>
-<td colspan="2">
-<p>6</p>
-</td>
-<td></td>
-<td></td>
-<td class="tabelNummers">
-<p>2,5</p>
-</td>
-<td></td>
-<td></td>
-<td colspan="2">
-<p>2,5</p>
-</td>
-</tr>
-<tr class="even">
-<td>Friesland</td>
-<td class="tabelNummers">
-<p>9.606</p>
-</td>
-<td colspan="2">
-<p>12</p>
-</td>
-<td></td>
-<td class="tabelNummers">
-<p>5</p>
-</td>
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2">
-<p>5,0</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Overijssel</td>
-<td class="tabelNummers">
-<p>1.891</p>
-</td>
-<td colspan="2">
-<p>2</p>
-</td>
-<td></td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2">
-<p>1,0</p>
-</td>
-</tr>
-<tr class="even">
-<td>Groningen</td>
-<td class="tabelNummers">
-<p>4.803</p>
-</td>
-<td colspan="2">
-<p>6</p>
-</td>
-<td></td>
-<td></td>
-<td class="tabelNummers">
-<p>3,0</p>
-</td>
-<td></td>
-<td></td>
-<td colspan="2">
-<p>3,0</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Generaliteit</td>
-<td class="tabelNummers">
-<p>2.101</p>
-</td>
-<td colspan="2">
-<p>3</p>
-</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td colspan="2"></td>
-</tr>
-<tr class="even">
-<td>Totaal</td>
-<td class="tabelNummers">
-<p>82.367</p>
-</td>
-<td colspan="2">
-<p>100</p>
-</td>
-<td class="tabelNummers">
-<p>9</p>
-</td>
-<td class="tabelNummers">
-<p>26</p>
-</td>
-<td class="tabelNummers">
-<p>9,0</p>
-</td>
-<td class="tabelNummers">
-<p>&nbsp;</p>
-</td>
-<td class="tabelNummers">
-<p>&nbsp;</p>
-</td>
-<td colspan="2">
-<p>44,0</p>
-</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 13%"><col style="width: 11%"><col style="width: 5%"><col style="width: 0%"><col style="width: 7%"><col style="width: 14%"><col style="width: 9%"><col style="width: 18%"><col style="width: 10%"><col style="width: 8%"><col style="width: 0%"></colgroup><thead><tr class="header"><th>&nbsp;</th><th colspan="2"><div data-custom-style="tabelKop">Bedrag</div></th><th colspan="7"><div data-custom-style="tabelKop">Schepen</div></th><th></th></tr></thead><tbody><tr class="odd"><td></td><td>Gulden</td><td colspan="2">%</td><td>Maze</td><td>Amsterdam</td><td>Zeeland</td><td>Noorder-kwartier</td><td>Friesland</td><td colspan="2">Totaal</td></tr><tr class="even"><td>Gelderland</td><td class="tabelNummers">3.572</td><td colspan="2" class="tabelNummers">4</td><td class="tabelNummers">2</td><td class="tabelNummers">&nbsp;</td><td class="tabelNummers">&nbsp;</td><td class="tabelNummers">&nbsp;</td><td class="tabelNummers">&nbsp;</td><td colspan="2" class="tabelNummers">2,0</td></tr><tr class="odd"><td>Holland</td><td class="tabelNummers">48.028</td><td colspan="2" class="tabelNummers">58</td><td class="tabelNummers">7</td><td class="tabelNummers">20</td><td></td><td></td><td></td><td colspan="2" class="tabelNummers">27,0</td></tr><tr class="even"><td>Zeeland</td><td class="tabelNummers">7.564</td><td colspan="2" class="tabelNummers">9</td><td></td><td></td><td class="tabelNummers">3,5</td><td></td><td></td><td colspan="2" class="tabelNummers">3,5</td></tr><tr class="odd"><td>Utrecht</td><td class="tabelNummers">4.802</td><td colspan="2" class="tabelNummers">6</td><td></td><td></td><td class="tabelNummers">2,5</td><td></td><td></td><td colspan="2" class="tabelNummers">2,5</td></tr><tr class="even"><td>Friesland</td><td class="tabelNummers">9.606</td><td colspan="2" class="tabelNummers">12</td><td></td><td class="tabelNummers">5</td><td></td><td></td><td></td><td colspan="2" class="tabelNummers">5,0</td></tr><tr class="odd"><td>Overijssel</td><td class="tabelNummers">1.891</td><td colspan="2" class="tabelNummers">2</td><td></td><td class="tabelNummers">1</td><td></td><td></td><td></td><td colspan="2" class="tabelNummers">1,0</td></tr><tr class="even"><td>Groningen</td><td class="tabelNummers">4.803</td><td colspan="2" class="tabelNummers">6</td><td></td><td></td><td class="tabelNummers">3,0</td><td></td><td></td><td colspan="2" class="tabelNummers">3,0</td></tr><tr class="odd"><td>Generaliteit</td><td class="tabelNummers">2.101</td><td colspan="2" class="tabelNummers">3</td><td></td><td></td><td></td><td></td><td></td><td colspan="2"></td></tr><tr class="even"><td>Totaal</td><td class="tabelNummers">82.367</td><td colspan="2" class="tabelNummers">100</td><td class="tabelNummers">9</td><td class="tabelNummers">26</td><td class="tabelNummers">9,0</td><td class="tabelNummers">&nbsp;</td><td class="tabelNummers">&nbsp;</td><td colspan="2" class="tabelNummers">44,0</td></tr></tbody>
 
 _Tabel 3: Verdeling van ƒ82.367 per maand in de Staat van Oorlog ter Zee van 1629 (gulden)_.[52](#fn52)
 
@@ -740,7 +151,7 @@ Het aangaan van leningen vormde een laatste mogelijkheid voor de admiraliteitsco
 
 In vergelijking met het Staatse leger werd de oorlogsvloot maar voor een klein deel door de gewesten gesubsidieerd. De oorlogsvloot had met de convooien en licenten een inkomstenbron die los stond van gewestelijke bemoeienissen. Het grote voordeel dat de vloot boven het leger had, was dat de convooien en licenten grotendeels buiten het besluitvormingsproces van de Generaliteit omgingen. Was door de Staten-Generaal één keer een tarieflijst vastgesteld, dan bleef deze jaren achtereen van kracht. Over deze middelen hoefde in Den Haag niet jaarlijks te worden gebakkeleid. De zwakte van de convooien en licenten was de afhankelijkheid daarvan van de handel. Terwijl in tijden van oorlog de oorlogsvloot de grootste behoefte aan geld had, stagneerde dan juist de handel en daalden dus de inkomsten aan convooien en licenten. Wel hebben de Staten-Generaal verschillende keren geprobeerd de inkomsten uit de convooien en licenten te verhogen, zoals in de jaren 1625-1639 en 1687-1690. Ten slotte was er in de jaren zeventig van de achttiende eeuw de discussie over vlootherstel of legeraugmentatie: moest het leger of de vloot worden versterkt? Dit leidde niet tot aanpassingen van de convooien en licenten, maar wel tot enkele belangrijke subsidies om de oorlogsvloot financieel te steunen, maar het was _too little, too late_. Tijdens de Vierde Engelse Oorlog was de Nederlandse oorlogsvloot geen partij voor de Royal Navy.[55](#fn55)
 
-## De Raden ter Admiraliteit
+### De Raden ter Admiraliteit
 
 Vijf admiraliteitscolleges – drie in Holland, één in Zeeland en één in Friesland – rustten de oorlogsvloot uit; het zogenaamd equiperen. Het Admiraliteitscollege op de Maze in Rotterdam was het oudste, opgericht in 1575, en gold als eerste onder zijn gelijken, dat ook het vlaggenschip uitrustte. Wanneer bijvoorbeeld de gezamenlijke admiraliteitscolleges met elkaar overlegden, was De Maze de spreekbuis. Rotterdam bekleedde ook het voorzitterschap van het Haags Besogne.[56](#fn56) Het Admiraliteitscollege te Middelburg was in 1586 opgericht en stond bekend als de Admiraliteit van Zeeland. In Zeeland waren Gecommitteerde Raden eveneens Raden ter Admiraliteit waardoor de zeezaken in Zeeland een sterk gewestelijk karakter hadden.[57](#fn57) Het Admiraliteitscollege van Friesland was pas in 1597 opgericht. Dit college heeft de minste activiteiten ontplooid en liet zijn deel in de equipage vaak aan Amsterdam over.[58](#fn58) De Admiraliteit van het Noorderkwartier was in 1586 opgericht en stond bekend als de Admiraliteit van West-Friesland of de Admiraliteit van het Hollands Noorderkwartier. Het college vergaderde driemaandelijks bij toerbeurt in Hoorn en Enkhuizen.[59](#fn59) Het Admiraliteitscollege van Amsterdam, opgericht in 1588, was veruit het belangrijkste.[60](#fn60)
 
@@ -748,7 +159,7 @@ Vijf admiraliteitscolleges – drie in Holland, één in Zeeland en één in Fri
 
 ![Kussenovertrek met het wapen van de Admiraliteit van Zeeland. Op dergelijke kussens zaten de Raden ter Admiraliteit tijdens vergaderingen. Behalve het wapen van Zeeland zijn twee gekruiste ankers (symbool van de oorlogsvloot) met ankerkabels afgebeeld en de letters A(dmiraliteit) en Z(eeland). Het kussen is in 1670 gemaakt voor Gerard Bors van Waveren, Raad ter Admiraliteit van Zeeland, namens Amsterdam. Anoniem tapisserieweefsel, 1670.  ](09b-1.14b_KussenZeeland.jpg)
 
-![undefined. undefined undefined undefined ](09c-1.14c_WapenkussenAA.jpg)
+![Kussenovertrek van de Admiraliteit van Amsterdam. Rond het wapen van Holland met gekruiste ankers (symbool van de oorlogsvloot) is de Hollandse Tuin afgebeeld, symbool voor de verdediging van het grondgebied van de Republiek. Bovenaan twee keer de letter A: Admiraliteit van Amsterdam. Anoniem tapisserieweefsel, tweede helft zeventiende eeuw.  ](09c-1.14c_WapenkussenAA.jpg)
 
 ![Zeeland Veredelt: de machthebbers van Zeeland. Willem III van Oranje, stadhouder (1672-1702), zit onder een baldakijn met naast hem het wapen van Zeeland en aan weerszijden de vertegenwoordigers van de zeven Zeeuwse steden en de representant van de Eerste Edele, de stadhouder. Op de voorgrond, bovenste rij, de wapens van Gecommiteerde Raden van Zeeland, tevens Raden ter Admiraliteit. Ingekleurde gravure Joseph Mulder naar Gerard de Lairesse, ca. 1695. Uit: M. Smallegange, <em>NIeuwe Cronyk van Zeeland</em> (Amsterdam 1696). ](09d-1.14d_GecommitteerdeRaden.jpg)
 
@@ -760,316 +171,7 @@ Het fundament van de admiraliteitscolleges was de Instructie van de Staten-Gener
 
 Een admiraliteitscollege bestond uit een collegiaal bestuur van tien tot twaalf leden, benoemd door de Staten-Generaal op voordracht van de gewesten die zij vertegenwoordigden.[64](#fn64) De Raden kwamen uit de bestuurlijke elite van de Republiek. De helft of iets meer van de leden kwam uit het eigen gewest, aangevuld met bestuurders uit andere gewesten. De afvaardiging van zowel de ‘eigen’ leden als de buitenleden weerspiegelt de complexe bestuurlijke inrichting van de Republiek (zie tabel 4). Deze nogal ingewikkelde structuur zorgde er wel voor dat de gewesten van elkaars zeezaken op de hoogte waren en dat de landgewesten bij de oorlogsvloot betrokken waren. Sommige leden zaten voor het leven, anderen slechts enkele jaren. De invloed van de buitenleden wisselde nogal. Sommigen woonden slechts sporadisch vergaderingen bij, anderen namen juist actief deel.[65](#fn65)
 
-
-<colgroup>
-<col style="width: 7%">
-<col style="width: 9%">
-<col style="width: 8%">
-<col style="width: 55%">
-<col style="width: 18%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Vanaf</strong></th>
-<th><div data-custom-style="tabelKop">
-<p>Gewest</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Aantal</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Zetelverdeling tussen kwartieren/standen</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Zittingstermijn</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="5"><strong>Op de Maze</strong></td>
-</tr>
-<tr class="odd">
-<td>1597</td>
-<td>Gelderland</td>
-<td>1</td>
-<td>Beurtelings de kwartieren Nijmegen, Zutphen en de Veluwe</td>
-<td>Drie jaar</td>
-</tr>
-<tr class="even">
-<td>1597</td>
-<td>Holland</td>
-<td>6/7</td>
-<td>Ridderschap, Dordrecht, Delft, Rotterdam, Gorinchem (vanaf 16251),
-Schiedam, Den Briel</td>
-<td>Drie jaar (sinds 1622)</td>
-</tr>
-<tr class="odd">
-<td>1597</td>
-<td>Zeeland</td>
-<td>1</td>
-<td>Vlissingen</td>
-<td>Voor het leven</td>
-</tr>
-<tr class="even">
-<td>1597</td>
-<td>Utrecht</td>
-<td>1</td>
-<td>Beurtelings Ridderschap, Geëligeerden (kerkelijke afgevaardigden) en
-Utrecht voor de Steden</td>
-<td>Zes jaar</td>
-</tr>
-<tr class="odd">
-<td>1627</td>
-<td>Overijssel</td>
-<td>1</td>
-<td>Beurtelings de Ridderschap namens de drie plattelandskwartieren en
-de drie steden in de volgorde Salland, Deventer, Twente, Kampen,
-Vollenhove en Zwolle</td>
-<td>Drie jaar</td>
-</tr>
-<tr class="even">
-<td>1644</td>
-<td>Friesland</td>
-<td>1</td>
-<td>Oostergo, bij toerbeurt tussen de grietenijen, voor het eerst in
-1669</td>
-<td>Drie jaar</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="5"><strong>Amsterdam</strong></td>
-</tr>
-<tr class="odd">
-<td>1597</td>
-<td>Gelderland</td>
-<td>1</td>
-<td>Beurtelings de kwartieren Nijmegen, Zutphen en Veluwe</td>
-<td>Drie jaar, later zes jaar</td>
-</tr>
-<tr class="even">
-<td>1597</td>
-<td>Holland</td>
-<td>4/6</td>
-<td>Ridderschap (vanaf 1601), Haarlem (vanaf 1606), Leiden, Amsterdam,
-Gouda, Schiedam (tot 1601), Edam</td>
-<td>Drie jaar. Lid Ridder­schap voor het leven</td>
-</tr>
-<tr class="odd">
-<td>1597</td>
-<td>Zeeland</td>
-<td>1</td>
-<td>Middelburg</td>
-<td>Voor het leven</td>
-</tr>
-<tr class="even">
-<td>1597</td>
-<td>Utrecht</td>
-<td>1</td>
-<td>Beurtelings Ridderschap, Geëligeerden en Utrecht voor de Steden</td>
-<td>Zes jaar</td>
-</tr>
-<tr class="odd">
-<td>1597</td>
-<td>Overijssel</td>
-<td>1</td>
-<td>Beurtelings de Ridderschap namens de drie plattelandskwartieren en
-de drie steden in de volgorde Salland, Deventer, Twente, Kampen,
-Vollenhove en Zwolle</td>
-<td>Drie jaar</td>
-</tr>
-<tr class="even">
-<td>1597</td>
-<td>Groningen</td>
-<td>1</td>
-<td>Beurtelings Stad en Ommelanden. De zetel van de Ommelanden
-beurtelings voor de kwartieren Hunsingo, Fivelgo en Westerkwartier</td>
-<td>Lid stad één jaar en lid Ommelanden twee jaar</td>
-</tr>
-<tr class="odd">
-<td>1606</td>
-<td>Friesland</td>
-<td>1</td>
-<td>Beurtelings Zevenwolden en Steden</td>
-<td>Drie jaar</td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td colspan="5"><strong>Zeeland</strong></td>
-</tr>
-<tr class="even">
-<td>1597</td>
-<td>Zeeland</td>
-<td>6/7</td>
-<td>De zeven (in stadhouderloze tijdvakken zes) leden van Gecommitteerde
-Raden (het verschil is de vertegenwoordiger van Eerste
-Edele/stadhouder)</td>
-<td>Voor het leven</td>
-</tr>
-<tr class="odd">
-<td>1597</td>
-<td>Holland</td>
-<td>2</td>
-<td>Eén zetel permanent voor Amsterdam. De andere zetel beurtelings voor
-Dordrecht, Delft en Rotterdam</td>
-<td>Het Amsterdamse lid voor het leven. De overige leden voor zeven
-jaar</td>
-</tr>
-<tr class="even">
-<td>1597</td>
-<td>Utrecht</td>
-<td>1</td>
-<td>Beurtelings Ridderschap, Geëligeerden en Utrecht voor de Steden</td>
-<td>Voor zeven jaar</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="5"><strong>Noorderkwartier</strong></td>
-</tr>
-<tr class="odd">
-<td>1597</td>
-<td>Holland</td>
-<td>6</td>
-<td>Amsterdam (vanaf 1625), Gorinchem (tot 1625)1, Alkmaar, Hoorn,
-Enkhuizen, Monnickendam en Medemblik ieder één zetel.</td>
-<td>Meeste Hollandse leden voor drie jaar; het Noorderkwartier twee
-jaar; Amsterdam voor het leven</td>
-</tr>
-<tr class="even">
-<td>1597</td>
-<td>Zeeland</td>
-<td>1</td>
-<td>Zierikzee (formeel vanaf 1711, daarvoor doorgaans al toebedeeld aan
-iemand uit die stad).</td>
-<td>Het Zeeuwse lid voor het leven</td>
-</tr>
-<tr class="odd">
-<td>1597</td>
-<td>Utrecht</td>
-<td>1</td>
-<td>Beurtelings Ridderschap, Geëligeerden en de Steden. De zetel van de
-Steden voor Utrecht tot 1623, daarna beurtelings voor Amersfoort,
-Rhenen, Wijk bij Duurstede en Montfoort.</td>
-<td>Voor drie jaar</td>
-</tr>
-<tr class="even">
-<td>1597</td>
-<td>Overijssel</td>
-<td>1</td>
-<td>Beurtelings de Ridderschap namens de drie plattelandskwartieren en
-de drie steden in de volgorde Salland, Deventer, Twente, Kampen,
-Vollenhove en Zwolle</td>
-<td>Voor drie jaar</td>
-</tr>
-<tr class="odd">
-<td>1603</td>
-<td>Gelderland</td>
-<td>1</td>
-<td>Beurtelings ridderschap en steden van elk kwartier. De stedelijke
-zetel beurtelings voor Nijmegen, Tiel en Zaltbommel (kwartier Nijmegen),
-Zutphen, Doesburg, Doetinchem, Lochem en Groenlo (graaf­schap Zutphen; de
-stad Zutphen had vaker de beurt), Arnhem, Harderwijk, Wageningen, Hattem
-en Elburg (kwartier Veluwe; Arnhem had vaker de beurt).</td>
-<td>Voor drie jaar</td>
-</tr>
-<tr class="even">
-<td>1606</td>
-<td>Friesland</td>
-<td>1</td>
-<td>Westergo, bij toerbeurt tussen de grietenijen (dorpen), voor het
-eerst in 1671</td>
-<td>Voor drie jaar</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="5"><strong>Friesland</strong></td>
-</tr>
-<tr class="odd">
-<td>1597</td>
-<td>Friesland</td>
-<td>4</td>
-<td>Één zetel per kwartier (Oostergo, Westergo, Zevenwolden en de
-Steden). Binnen de kwartieren bij toerbeurt tussen de grietenijen. De
-stedelijke zetel werd door de stadhouder begeven</td>
-<td>Eerst twee jaar, later drie jaar</td>
-</tr>
-<tr class="even">
-<td>1597</td>
-<td>Holland</td>
-<td>1</td>
-<td>Beurtelings tussen Schoonhoven en Purmerend</td>
-<td>Drie jaar</td>
-</tr>
-<tr class="odd">
-<td>1597</td>
-<td>Utrecht</td>
-<td>1</td>
-<td>Beurtelings Ridderschap, Geëligeerden en de Steden. De zetel van de
-Steden voor Utrecht tot 1623, daarna beurtelings voor Amersfoort,
-Rhenen, Wijk bij Duurstede en Montfoort</td>
-<td>Zes jaar</td>
-</tr>
-<tr class="even">
-<td>1597</td>
-<td>Groningen</td>
-<td>2</td>
-<td>Stad en Ommelanden ieder één zetel. De zetel van de Ommelanden
-beurtelings voor de kwartieren Hunsingo, Fivelgo en Westerkwartier</td>
-<td>Lid stad één, lid Omme­landen twee jaar</td>
-</tr>
-<tr class="odd">
-<td>1647</td>
-<td>Gelderland</td>
-<td>1</td>
-<td>Beurtelings ridderschap en steden van elk kwartier. De stedelijke
-zetel beurtelings voor Nijmegen, Tiel en Zaltbommel (kwartier Nijmegen),
-Zutphen, Doesburg, Doetinchem, Lochem en Groenlo (graafschap Zutphen; de
-stad Zutphen had vaker de beurt), Arnhem, Harderwijk, Wageningen, Hattem
-en Elburg (kwartier Veluwe; Arnhem had vaker de beurt)</td>
-<td>Één of anderhalf jaar</td>
-</tr>
-<tr class="even">
-<td>1647</td>
-<td>Overijssel</td>
-<td>1</td>
-<td>Beurtelings de Ridderschap namens de drie plattelandskwartieren en
-de drie steden in de volgorde Salland, Deventer, Twente, Kampen,
-Vollenhove en Zwolle</td>
-<td>Drie jaar</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 7%"><col style="width: 9%"><col style="width: 8%"><col style="width: 55%"><col style="width: 18%"></colgroup><thead><tr class="header"><th><strong>Vanaf</strong></th><th><div data-custom-style="tabelKop">Gewest</div></th><th><div data-custom-style="tabelKop">Aantal</div></th><th><div data-custom-style="tabelKop">Zetelverdeling tussen kwartieren/standen</div></th><th><div data-custom-style="tabelKop">Zittingstermijn</div></th></tr></thead><tbody><tr class="odd"><td></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td colspan="5"><strong>Op de Maze</strong></td></tr><tr class="odd"><td>1597</td><td>Gelderland</td><td>1</td><td>Beurtelings de kwartieren Nijmegen, Zutphen en de Veluwe</td><td>Drie jaar</td></tr><tr class="even"><td>1597</td><td>Holland</td><td>6/7</td><td>Ridderschap, Dordrecht, Delft, Rotterdam, Gorinchem (vanaf 16251),Schiedam, Den Briel</td><td>Drie jaar (sinds 1622)</td></tr><tr class="odd"><td>1597</td><td>Zeeland</td><td>1</td><td>Vlissingen</td><td>Voor het leven</td></tr><tr class="even"><td>1597</td><td>Utrecht</td><td>1</td><td>Beurtelings Ridderschap, Geëligeerden (kerkelijke afgevaardigden) enUtrecht voor de Steden</td><td>Zes jaar</td></tr><tr class="odd"><td>1627</td><td>Overijssel</td><td>1</td><td>Beurtelings de Ridderschap namens de drie plattelandskwartieren ende drie steden in de volgorde Salland, Deventer, Twente, Kampen,Vollenhove en Zwolle</td><td>Drie jaar</td></tr><tr class="even"><td>1644</td><td>Friesland</td><td>1</td><td>Oostergo, bij toerbeurt tussen de grietenijen, voor het eerst in1669</td><td>Drie jaar</td></tr><tr class="odd"><td></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td colspan="5"><strong>Amsterdam</strong></td></tr><tr class="odd"><td>1597</td><td>Gelderland</td><td>1</td><td>Beurtelings de kwartieren Nijmegen, Zutphen en Veluwe</td><td>Drie jaar, later zes jaar</td></tr><tr class="even"><td>1597</td><td>Holland</td><td>4/6</td><td>Ridderschap (vanaf 1601), Haarlem (vanaf 1606), Leiden, Amsterdam,Gouda, Schiedam (tot 1601), Edam</td><td>Drie jaar. Lid Ridder­schap voor het leven</td></tr><tr class="odd"><td>1597</td><td>Zeeland</td><td>1</td><td>Middelburg</td><td>Voor het leven</td></tr><tr class="even"><td>1597</td><td>Utrecht</td><td>1</td><td>Beurtelings Ridderschap, Geëligeerden en Utrecht voor de Steden</td><td>Zes jaar</td></tr><tr class="odd"><td>1597</td><td>Overijssel</td><td>1</td><td>Beurtelings de Ridderschap namens de drie plattelandskwartieren ende drie steden in de volgorde Salland, Deventer, Twente, Kampen,Vollenhove en Zwolle</td><td>Drie jaar</td></tr><tr class="even"><td>1597</td><td>Groningen</td><td>1</td><td>Beurtelings Stad en Ommelanden. De zetel van de Ommelandenbeurtelings voor de kwartieren Hunsingo, Fivelgo en Westerkwartier</td><td>Lid stad één jaar en lid Ommelanden twee jaar</td></tr><tr class="odd"><td>1606</td><td>Friesland</td><td>1</td><td>Beurtelings Zevenwolden en Steden</td><td>Drie jaar</td></tr><tr class="even"><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd"><td colspan="5"><strong>Zeeland</strong></td></tr><tr class="even"><td>1597</td><td>Zeeland</td><td>6/7</td><td>De zeven (in stadhouderloze tijdvakken zes) leden van GecommitteerdeRaden (het verschil is de vertegenwoordiger van EersteEdele/stadhouder)</td><td>Voor het leven</td></tr><tr class="odd"><td>1597</td><td>Holland</td><td>2</td><td>Eén zetel permanent voor Amsterdam. De andere zetel beurtelings voorDordrecht, Delft en Rotterdam</td><td>Het Amsterdamse lid voor het leven. De overige leden voor zevenjaar</td></tr><tr class="even"><td>1597</td><td>Utrecht</td><td>1</td><td>Beurtelings Ridderschap, Geëligeerden en Utrecht voor de Steden</td><td>Voor zeven jaar</td></tr><tr class="odd"><td></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td colspan="5"><strong>Noorderkwartier</strong></td></tr><tr class="odd"><td>1597</td><td>Holland</td><td>6</td><td>Amsterdam (vanaf 1625), Gorinchem (tot 1625)1, Alkmaar, Hoorn,Enkhuizen, Monnickendam en Medemblik ieder één zetel.</td><td>Meeste Hollandse leden voor drie jaar; het Noorderkwartier tweejaar; Amsterdam voor het leven</td></tr><tr class="even"><td>1597</td><td>Zeeland</td><td>1</td><td>Zierikzee (formeel vanaf 1711, daarvoor doorgaans al toebedeeld aaniemand uit die stad).</td><td>Het Zeeuwse lid voor het leven</td></tr><tr class="odd"><td>1597</td><td>Utrecht</td><td>1</td><td>Beurtelings Ridderschap, Geëligeerden en de Steden. De zetel van deSteden voor Utrecht tot 1623, daarna beurtelings voor Amersfoort,Rhenen, Wijk bij Duurstede en Montfoort.</td><td>Voor drie jaar</td></tr><tr class="even"><td>1597</td><td>Overijssel</td><td>1</td><td>Beurtelings de Ridderschap namens de drie plattelandskwartieren ende drie steden in de volgorde Salland, Deventer, Twente, Kampen,Vollenhove en Zwolle</td><td>Voor drie jaar</td></tr><tr class="odd"><td>1603</td><td>Gelderland</td><td>1</td><td>Beurtelings ridderschap en steden van elk kwartier. De stedelijkezetel beurtelings voor Nijmegen, Tiel en Zaltbommel (kwartier Nijmegen),Zutphen, Doesburg, Doetinchem, Lochem en Groenlo (graaf­schap Zutphen; destad Zutphen had vaker de beurt), Arnhem, Harderwijk, Wageningen, Hattemen Elburg (kwartier Veluwe; Arnhem had vaker de beurt).</td><td>Voor drie jaar</td></tr><tr class="even"><td>1606</td><td>Friesland</td><td>1</td><td>Westergo, bij toerbeurt tussen de grietenijen (dorpen), voor heteerst in 1671</td><td>Voor drie jaar</td></tr><tr class="odd"><td></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td colspan="5"><strong>Friesland</strong></td></tr><tr class="odd"><td>1597</td><td>Friesland</td><td>4</td><td>Één zetel per kwartier (Oostergo, Westergo, Zevenwolden en deSteden). Binnen de kwartieren bij toerbeurt tussen de grietenijen. Destedelijke zetel werd door de stadhouder begeven</td><td>Eerst twee jaar, later drie jaar</td></tr><tr class="even"><td>1597</td><td>Holland</td><td>1</td><td>Beurtelings tussen Schoonhoven en Purmerend</td><td>Drie jaar</td></tr><tr class="odd"><td>1597</td><td>Utrecht</td><td>1</td><td>Beurtelings Ridderschap, Geëligeerden en de Steden. De zetel van deSteden voor Utrecht tot 1623, daarna beurtelings voor Amersfoort,Rhenen, Wijk bij Duurstede en Montfoort</td><td>Zes jaar</td></tr><tr class="even"><td>1597</td><td>Groningen</td><td>2</td><td>Stad en Ommelanden ieder één zetel. De zetel van de Ommelandenbeurtelings voor de kwartieren Hunsingo, Fivelgo en Westerkwartier</td><td>Lid stad één, lid Omme­landen twee jaar</td></tr><tr class="odd"><td>1647</td><td>Gelderland</td><td>1</td><td>Beurtelings ridderschap en steden van elk kwartier. De stedelijkezetel beurtelings voor Nijmegen, Tiel en Zaltbommel (kwartier Nijmegen),Zutphen, Doesburg, Doetinchem, Lochem en Groenlo (graafschap Zutphen; destad Zutphen had vaker de beurt), Arnhem, Harderwijk, Wageningen, Hattemen Elburg (kwartier Veluwe; Arnhem had vaker de beurt)</td><td>Één of anderhalf jaar</td></tr><tr class="even"><td>1647</td><td>Overijssel</td><td>1</td><td>Beurtelings de Ridderschap namens de drie plattelandskwartieren ende drie steden in de volgorde Salland, Deventer, Twente, Kampen,Vollenhove en Zwolle</td><td>Drie jaar</td></tr></tbody>
 
 _Tabel 4: Samenstelling Raden ter Admiraliteit per admiraliteitscollege, 1597-1795._[66](#fn66)
 
@@ -1101,7 +203,7 @@ De rekeningen te water (de inkomsten en uitgaven betreffende de oorlogsvloot) mo
 
 De bouw en uitrusting van schepen in eigen beheer was toevertrouwd aan de equipagemeester. Die had de leiding over een uiteenlopend aantal personeelsleden, te beginnen met de scheepstimmerbaas en dan nog allerlei ambachtslieden, zoals timmerlieden, schilders en zeilmakers en verder sjouwers en andere ongeschoolde werkers. De equipagemeester moest ervoor zorgen dat de arsenalen en werven over voldoende materialen beschikten voor de equipage (uitrusting) van de oorlogsschepen: scheepshout, ijzerwerk voor bouten en spijkers, rondhouten, touwwerk, zeilen, geschut, ankers, vet, teer, pek, harpuis en kaarsen. Daarnaast was hij verantwoordelijk voor het transport van de goederen naar de werf en de magazijnen en van daar naar de schepen. De eigenlijke werkzaamheden werden door opzichters en knechten gedaan. De bouw van de schepen op de werf werd toevertrouwd aan de meester-scheeps­timmerbaas. Vijftig man konden in vijf maanden een scheepshol van 180 voet in elkaar timmeren. De afbouw van het schip duurde ongeveer even lang.[78](#fn78)
 
-## Taken en inzet<p></p><p> </p>
+### Taken en inzet
 
 Voor de Republiek was de inzet van de krijgsmacht, in de woorden van legerofficier Carl von Clausewitz (1870-1831) ‘niets anders dan de voortzetting van de politiek met andere middelen’: de politiek bepaalt, de militair voert uit.[79](#fn79) Oorlogsschepen vormden in dit verband een veelzijdig en flexibel machtsmiddel, die dicht bij huis als kustwacht of logistieke ondersteuning van het Staatse leger dienden, ver weg expeditionair konden optreden, maar ook defensief vrachtvaarders begeleidden of offensief slag leverden met de vijand. Globaal kon de zeemacht als volgt worden ingezet: 1) op en in de binnen- en kustwateren bij wat men tegenwoordig _brown water (littoral) operations_ noemt;[80](#fn80) 2) bij economische oorlogvoering zoals konvooiering, blokkades en kaapvaart; 3) expeditionair bij _power projection from the sea_;[81](#fn81) 4) als vloot om slag met de vijand te leveren. Als handelsnatie zette de Republiek de zeemacht vooral in om haar economische belangen te beschermen.
 
@@ -1147,125 +249,7 @@ Een goedkope manier, althans voor de overheid, om de veiligheid op zee te vergro
 
 Gedurende de lange zeventiende eeuw van globaal 1590 tot 1713 bestond de zeemacht deels uit particuliere ondernemers in geweld (zie tabel 5). Deze zogenaamde kaapvaart, het nemen van handelsschepen om de vijand economisch te treffen en om met de verkoop van buitgoederen inkomsten voor de oorlogsschepen te genereren, mocht uitsluitend in tijden van oorlog plaatsvinden met toestemming van het bevoegd gezag, anders was het zeeroof. Kaapvaart kon zowel door oorlogsschepen als door particulieren worden gebezigd. Het tweede wordt ook wel commissievaart of ‘vaart ter vrije neringe’ genoemd. Door de Watergeuzen was de Nederlandse oorlogsvloot vanaf het begin diep geworteld in deze vorm van oorlogvoering.
 
-
-<colgroup>
-<col style="width: 17%">
-<col style="width: 31%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>&nbsp;</th>
-<th><div data-custom-style="TabelKopLinks">
-<p>Conflict</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Commissies</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Prijzen</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Opbrengst</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1572-1609</td>
-<td>Opstand</td>
-<td class="TabelNummersCentreren">
-<p>?</p>
-</td>
-<td class="tabelNummers">
-<p>450</p>
-</td>
-<td class="tabelNummers">
-<p>1.307.167</p>
-</td>
-</tr>
-<tr class="even">
-<td>1621-1648</td>
-<td>Opstand</td>
-<td class="TabelNummersCentreren">
-<p>?</p>
-</td>
-<td class="tabelNummers">
-<p>1.400</p>
-</td>
-<td class="tabelNummers">
-<p>55.000.000</p>
-</td>
-</tr>
-<tr class="odd">
-<td>1652-1654</td>
-<td>Eerste Engelse Oorlog</td>
-<td class="TabelNummersCentreren">
-<p>?</p>
-</td>
-<td class="tabelNummers">
-<p>99</p>
-</td>
-<td class="tabelNummers">
-<p>520.400</p>
-</td>
-</tr>
-<tr class="even">
-<td>1664-1667</td>
-<td>Tweede Engelse Oorlog</td>
-<td class="TabelNummersCentreren">
-<p>35</p>
-</td>
-<td class="tabelNummers">
-<p>573</p>
-</td>
-<td class="tabelNummers">
-<p>4.316.700</p>
-</td>
-</tr>
-<tr class="odd">
-<td>1672-1678</td>
-<td>Hollandse Oorlog</td>
-<td class="TabelNummersCentreren">
-<p>274</p>
-</td>
-<td class="tabelNummers">
-<p>1.119</p>
-</td>
-<td class="tabelNummers">
-<p>10.893.326</p>
-</td>
-</tr>
-<tr class="even">
-<td>1688-1697</td>
-<td>Negenjarige Oorlog</td>
-<td class="TabelNummersCentreren">
-<p>400-500</p>
-</td>
-<td class="tabelNummers">
-<p>1.107</p>
-</td>
-<td class="tabelNummers">
-<p>13.544.136</p>
-</td>
-</tr>
-<tr class="odd">
-<td>1702-1713</td>
-<td>Spaanse Successieoorlog</td>
-<td class="TabelNummersCentreren">
-<p>623</p>
-</td>
-<td class="tabelNummers">
-<p>1.759</p>
-</td>
-<td class="tabelNummers">
-<p>22.747.762</p>
-</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 17%"><col style="width: 31%"><col style="width: 17%"><col style="width: 17%"><col style="width: 17%"></colgroup><thead><tr class="header"><th>&nbsp;</th><th><div data-custom-style="TabelKopLinks">Conflict</div></th><th><div data-custom-style="tabelKop">Commissies</div></th><th><div data-custom-style="tabelKop">Prijzen</div></th><th><div data-custom-style="tabelKop">Opbrengst</div></th></tr></thead><tbody><tr class="odd"><td>1572-1609</td><td>Opstand</td><td class="tabelNummersCentreren">?</td><td class="tabelNummers">450</td><td class="tabelNummers">1.307.167</td></tr><tr class="even"><td>1621-1648</td><td>Opstand</td><td class="tabelNummersCentreren">?</td><td class="tabelNummers">1.400</td><td class="tabelNummers">55.000.000</td></tr><tr class="odd"><td>1652-1654</td><td>Eerste Engelse Oorlog</td><td class="tabelNummersCentreren">?</td><td class="tabelNummers">99</td><td class="tabelNummers">520.400</td></tr><tr class="even"><td>1664-1667</td><td>Tweede Engelse Oorlog</td><td class="tabelNummersCentreren">35</td><td class="tabelNummers">573</td><td class="tabelNummers">4.316.700</td></tr><tr class="odd"><td>1672-1678</td><td>Hollandse Oorlog</td><td class="tabelNummersCentreren">274</td><td class="tabelNummers">1.119</td><td class="tabelNummers">10.893.326</td></tr><tr class="even"><td>1688-1697</td><td>Negenjarige Oorlog</td><td class="tabelNummersCentreren">400-500</td><td class="tabelNummers">1.107</td><td class="tabelNummers">13.544.136</td></tr><tr class="odd"><td>1702-1713</td><td>Spaanse Successieoorlog</td><td class="tabelNummersCentreren">623</td><td class="tabelNummers">1.759</td><td class="tabelNummers">22.747.762</td></tr></tbody>
 
 _Tabel 5: Overzicht van de Nederlandse kaapvaart, 1572-1713 (gulden)._[94](#fn94)
 
@@ -1309,128 +293,11 @@ Ondanks de zwaarste nederlaag uit haar geschiedenis tijdens de Slag bij Lowestof
 
 Met de Hollandse Oorlog (1672-1678), inclusief de Derde Engelse Oorlog (1672-1674) was het weer gedaan met het Nederlandse navalisme. De Republiek vocht op zee niet alleen tegen een numeriek sterkere tegenstander, de gecombineerde Engels/Franse vloot, maar tegelijkertijd werd de Republiek door Frankrijk en enkele Duitse staten over land aangevallen. Die veroverden grote delen van de Republiek. Michiel de Ruyter wist zijn slagvloot intact te houden. Na 1676 was er weer sprake van een meer continentale politiek: eerst offensief door stadhouder/koning Willem III, later defensief in de vorm van neutraliteit.[118](#fn118)
 
-## Operaties
+### Operaties
 
 De inzet van de Nederlandse zeemacht tussen circa 1590 en 1780 is globaal te verdelen in drie periodes.[119](#fn119) Tot het uitbreken van de Hollandse Oorlog in 1672 ging het vooral om economische oorlogvoering: embargo’s tegen de Zuidelijke Nederlanden, het beveiligen van de handelsvaart, en handelsexpansie ten kostte van de Portugezen en na 1650 het veiligstellen van de Nederlandse handelsbelangen tegen de Engelse rivaal. Tijdens dat laatste veranderde het zeegevecht van mêlee naar kiellinie. Tussen 1672 en 1713, waarvan tussen 1672 en 1674 ook tegen Engeland, werd de oorlogsvloot door stadhouder Willem III, later koning van Engeland, ingezet tegen Frankrijk omwille van het machtsevenwicht op het Continent. Na 1713 zakte de Republiek als maritieme mogendheid weg en wilde zij neutraal blijven ten opzichte van antagonisten Frankrijk en Groot-Brittannië (zie tabel 6).
 
-
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Jaar</strong></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>&lt;80</p>
-</div></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>81-200</p>
-</div></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>&gt;200</p>
-</div></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>Totaal</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1587</td>
-<td class="tabelNummers">
-<p>58</p>
-</td>
-<td class="tabelNummers">
-<p>42</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>102</p>
-</td>
-</tr>
-<tr class="even">
-<td>1596</td>
-<td class="tabelNummers">
-<p>49</p>
-</td>
-<td class="tabelNummers">
-<p>77</p>
-</td>
-<td class="tabelNummers">
-<p>14</p>
-</td>
-<td class="tabelNummers">
-<p>140</p>
-</td>
-</tr>
-<tr class="odd">
-<td>1616</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>34</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>34</p>
-</td>
-</tr>
-<tr class="even">
-<td>1621</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>18</p>
-</td>
-<td class="tabelNummers">
-<p>68</p>
-</td>
-<td class="tabelNummers">
-<p>86</p>
-</td>
-</tr>
-<tr class="odd">
-<td>1628<sup>a</sup></td>
-<td class="tabelNummers">
-<p>21</p>
-</td>
-<td class="tabelNummers">
-<p>17</p>
-</td>
-<td class="tabelNummers">
-<p>57</p>
-</td>
-<td class="tabelNummers">
-<p>124</p>
-</td>
-</tr>
-<tr class="even">
-<td>1642<sup>b</sup></td>
-<td class="tabelNummers">
-<p>3</p>
-</td>
-<td class="tabelNummers">
-<p>57</p>
-</td>
-<td class="tabelNummers">
-<p>34</p>
-</td>
-<td class="tabelNummers">
-<p>143</p>
-</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 20%"><col style="width: 20%"><col style="width: 20%"><col style="width: 20%"><col style="width: 20%"></colgroup><thead><tr class="header"><th><strong>Jaar</strong></th><th><div data-custom-style="TabelKopRechts">&lt;80</div></th><th><div data-custom-style="TabelKopRechts">81-200</div></th><th><div data-custom-style="TabelKopRechts">&gt;200</div></th><th><div data-custom-style="TabelKopRechts">Totaal</div></th></tr></thead><tbody><tr class="odd"><td>1587</td><td class="tabelNummers">58</td><td class="tabelNummers">42</td><td class="tabelNummers">2</td><td class="tabelNummers">102</td></tr><tr class="even"><td>1596</td><td class="tabelNummers">49</td><td class="tabelNummers">77</td><td class="tabelNummers">14</td><td class="tabelNummers">140</td></tr><tr class="odd"><td>1616</td><td class="tabelNummers">0</td><td class="tabelNummers">34</td><td class="tabelNummers">0</td><td class="tabelNummers">34</td></tr><tr class="even"><td>1621</td><td class="tabelNummers">0</td><td class="tabelNummers">18</td><td class="tabelNummers">68</td><td class="tabelNummers">86</td></tr><tr class="odd"><td>1628<sup>a</sup></td><td class="tabelNummers">21</td><td class="tabelNummers">17</td><td class="tabelNummers">57</td><td class="tabelNummers">124</td></tr><tr class="even"><td>1642<sup>b</sup></td><td class="tabelNummers">3</td><td class="tabelNummers">57</td><td class="tabelNummers">34</td><td class="tabelNummers">143</td></tr></tbody>
 
 _Tabel 6: Samenstelling en omvang oorlogsvloot, 1587-1642 (ton)._[120](#fn120) _a = Voor 1628 ontbreken de wachtschepen van Amsterdam en is de tonnage van de Zeeuwse schepen niet gespecificeerd; b = Van Amsterdam en Zeeland is in 1642 het tonnage niet gespecificeerd._
 
@@ -1474,290 +341,21 @@ Toen in 1652 de oorlog uitbrak beschikten de Engelsen over ruim tachtig schepen 
 
 ![Zeeslagen tijdens de Eerste Engelse oorlog, 1652-1654.  Cartografie Olav Odé, 2022.  ](30-1.41_Kaart03_zeeslagen1653.jpg)
 
-
-<colgroup>
-<col style="width: 29%">
-<col style="width: 11%">
-<col style="width: 58%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><div data-custom-style="TabelKopLinks">
-<p>Omschrijving</p>
-</div></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>Aantal</p>
-</div></th>
-<th><div data-custom-style="TabelKopLinks">
-<p>Financiering</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Konvooiers</td>
-<td class="tabelNummers">
-<p>41</p>
-</td>
-<td>Convooien en licenten</td>
-</tr>
-<tr class="even">
-<td>Schepen uit Brazilië</td>
-<td class="tabelNummers">
-<p>10</p>
-</td>
-<td>Subsidie van de Unie</td>
-</tr>
-<tr class="odd">
-<td>Kruisers</td>
-<td class="tabelNummers">
-<p>36</p>
-</td>
-<td>Derde Verhoging der convooien en licenten</td>
-</tr>
-<tr class="even">
-<td>Directieschepen</td>
-<td class="tabelNummers">
-<p>50</p>
-</td>
-<td>Last- en Veilgeld</td>
-</tr>
-<tr class="odd">
-<td>Gehuurde schepen</td>
-<td class="tabelNummers">
-<p>100</p>
-</td>
-<td>Subsidie van de Unie</td>
-</tr>
-<tr class="even">
-<td>Totaal</td>
-<td class="tabelNummers">
-<p>237</p>
-</td>
-<td>&nbsp;</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 29%"><col style="width: 11%"><col style="width: 58%"></colgroup><thead><tr class="header"><th><div data-custom-style="TabelKopLinks">Omschrijving</div></th><th><div data-custom-style="TabelKopRechts">Aantal</div></th><th><div data-custom-style="TabelKopLinks">Financiering</div></th></tr></thead><tbody><tr class="odd"><td>Konvooiers</td><td class="tabelNummers">41</td><td>Convooien en licenten</td></tr><tr class="even"><td>Schepen uit Brazilië</td><td class="tabelNummers">10</td><td>Subsidie van de Unie</td></tr><tr class="odd"><td>Kruisers</td><td class="tabelNummers">36</td><td>Derde Verhoging der convooien en licenten</td></tr><tr class="even"><td>Directieschepen</td><td class="tabelNummers">50</td><td>Last- en Veilgeld</td></tr><tr class="odd"><td>Gehuurde schepen</td><td class="tabelNummers">100</td><td>Subsidie van de Unie</td></tr><tr class="even"><td>Totaal</td><td class="tabelNummers">237</td><td>&nbsp;</td></tr></tbody>
 
 _Tabel 7: Sterkte en financiering van de oorlogsvloot, 1652-1654_.[133](#fn133)
 
 Op instigatie van raadpensionaris Johan de Witt besloten de Staten-Generaal in februari 1653 om met ettelijke miljoenen subsidie dertig linieschepen te bouwen. In de zomer volgden nog eens dertig schepen. Ten opzichte van een decennium eerder verdubbelde de bewapening en deze schepen mochten niet zoals in 1648 worden afgedankt. Het inhuren van koopvaarders voor de oorlogsvloot behoorde tot het verleden, zwaarbewapende VOC-schepen uitgezonderd. Toen een tweede oorlog tegen Engeland begin jaren zestig onvermijdelijk leek, werden voor acht miljoen gulden nog eens zestig linieschepen gebouwd (tabel 8).[134](#fn134)
 
-
-<colgroup>
-<col style="width: 7%">
-<col style="width: 24%">
-<col style="width: 12%">
-<col style="width: 14%">
-<col style="width: 13%">
-<col style="width: 16%">
-<col style="width: 0%">
-<col style="width: 9%">
-<col style="width: 0%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><div data-custom-style="TabelKopLinks">
-<p>Jaar</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Kleine vaartuigen</p>
-</div></th>
-<th colspan="2"><div data-custom-style="tabelKop">
-<p>Kruisers (fregatten)</p>
-</div></th>
-<th colspan="3"><div data-custom-style="tabelKop">
-<p>Linieschepen</p>
-</div></th>
-<th colspan="2"><div data-custom-style="TabelKopRechts">
-<p>Totaal</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td class="TabelNummersCentreren">
-<p>&lt;300</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>301-500</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>500-1.500</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>500-1.500</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>1.500-2.500</p>
-</td>
-<td colspan="2"></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1650</td>
-<td class="TabelNummersCentreren">
-<p>20</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>21</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>21</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>62</p>
-</div></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>1660</td>
-<td class="TabelNummersCentreren">
-<p>16</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>17</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>64</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>97</p>
-</div></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1670</td>
-<td class="TabelNummersCentreren">
-<p>17</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>17</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>92</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>3</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>129</p>
-</div></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>1680</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>16</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>7</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>60</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>2</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>85</p>
-</div></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1690</td>
-<td class="TabelNummersCentreren">
-<p>1</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>12</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>9</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>41</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>11</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>74</p>
-</div></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>1700</td>
-<td class="TabelNummersCentreren">
-<p>1</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>11</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>68</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>15</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>113</p>
-</div></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1710</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>15</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>73</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>13</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>119</p>
-</div></td>
-<td></td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 7%"><col style="width: 24%"><col style="width: 12%"><col style="width: 14%"><col style="width: 13%"><col style="width: 16%"><col style="width: 0%"><col style="width: 9%"><col style="width: 0%"></colgroup><thead><tr class="header"><th><div data-custom-style="TabelKopLinks">Jaar</div></th><th><div data-custom-style="tabelKop">Kleine vaartuigen</div></th><th colspan="2"><div data-custom-style="tabelKop">Kruisers (fregatten)</div></th><th colspan="3"><div data-custom-style="tabelKop">Linieschepen</div></th><th colspan="2"><div data-custom-style="TabelKopRechts">Totaal</div></th></tr></thead><tbody><tr class="odd"><td></td><td class="tabelNummersCentreren">&lt;300</td><td class="tabelNummersCentreren">301-500</td><td class="tabelNummersCentreren">500-1.500</td><td class="tabelNummersCentreren">500-1.500</td><td class="tabelNummersCentreren">1.500-2.500</td><td colspan="2"></td><td></td></tr><tr class="even"><td>1650</td><td class="tabelNummersCentreren">20</td><td class="tabelNummersCentreren">21</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">21</td><td class="tabelNummersCentreren">0</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">62</div></td><td></td></tr><tr class="odd"><td>1660</td><td class="tabelNummersCentreren">16</td><td class="tabelNummersCentreren">17</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">64</td><td class="tabelNummersCentreren">0</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">97</div></td><td></td></tr><tr class="even"><td>1670</td><td class="tabelNummersCentreren">17</td><td class="tabelNummersCentreren">17</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">92</td><td class="tabelNummersCentreren">3</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">129</div></td><td></td></tr><tr class="odd"><td>1680</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">16</td><td class="tabelNummersCentreren">7</td><td class="tabelNummersCentreren">60</td><td class="tabelNummersCentreren">2</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">85</div></td><td></td></tr><tr class="even"><td>1690</td><td class="tabelNummersCentreren">1</td><td class="tabelNummersCentreren">12</td><td class="tabelNummersCentreren">9</td><td class="tabelNummersCentreren">41</td><td class="tabelNummersCentreren">11</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">74</div></td><td></td></tr><tr class="odd"><td>1700</td><td class="tabelNummersCentreren">1</td><td class="tabelNummersCentreren">11</td><td class="tabelNummersCentreren">18</td><td class="tabelNummersCentreren">68</td><td class="tabelNummersCentreren">15</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">113</div></td><td></td></tr><tr class="even"><td>1710</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">15</td><td class="tabelNummersCentreren">18</td><td class="tabelNummersCentreren">73</td><td class="tabelNummersCentreren">13</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">119</div></td><td></td></tr></tbody>
 
 _Tabel 8: Samenstelling en omvang oorlogsvloot, 1650-1710 (ton)._[135](#fn135)
 
 Nog voordat de oorlog in maart 1665 uitbrak, werd Michiel de Ruyter eind augustus 1664 met dertien schepen naar West-Afrika gestuurd om er de belangen van de WIC tegen de Engelsen veilig te stellen, onder meer door een aantal WIC-forten, zoals Gorée en Elmina, op de Engelsen te heroveren. Zeeland stelde geen schepen beschikbaar.[136](#fn136) Op 24 september 1666 namen de Engelsen Nieuw-Nederland (ruwweg de huidige staat New York) in, terwijl in februari 1667 een Zeeuws eskader onder leiding van Abraham Crijnssen Suriname op de Engelsen veroverde.[137](#fn137) In Europa werd de oorlogsvloot niet ingezet ter bescherming van de handelsvaart, maar zocht zij de vijand op. Tijdens de Slag bij Lowestoft van 13 juni 1665 beschikte Obdam over 81 linieschepen, 11 VOC-schepen, 9 fregatten en 6 kleinere vaartuigen, maar door gebrek aan leiderschap liep die zeeslag uit op een deceptie: zeventien schepen gingen verloren. Na zijn terugkeer uit het Atlantisch gebied nam De Ruyter het opperbevel over. De Vierdaagse Zeeslag van 11-14 juni 1666 was een duidelijke, maar geen beslissende zege: de Nederlanders verloren vier en de Engelsen tien schepen. De Tweedaagse Zeeslag (Saint James’s Day Battle) van 4-5 augustus 1666 verliep voor de Nederlanders minder gunstig en leidde tot Holmes’ Bonfire. Op 19 augustus vernietigde een Engels eskader onder leiding van Robert Holmes een omvangrijke Nederlandse koopvaardijvloot en legde de volgende dag het dorp West-Terschelling in as. In Engeland raakte echter het geld op. Onder leiding van een zieke De Ruyter arriveerden in juni 1667 de vloot met tachtig oorlogsbodems en twintig branders bij de Thames. Een deel van de schepen voer de Medway op en bij Chatham werden vijftien Engelse oorlogsbodems vernietigd of meegenomen, waaronder het vlaggenschip _Royal Charles_. De tocht naar Chatham was een fraai staaltje _sea power_ dat de Tweede Engelse Oorlog besliste.[138](#fn138)
 
-![undefined. undefined undefined undefined ](31a-1.43d_TochtChatham.jpg
-31b-1.43a_Spiegelversiering.jpg)
+![Tocht naar Chatham, 1667. In juni 1667 verraste een oorlogsvloot onder leiding van Michiel de Ruyter de Engelsen die voor anker lagen bij Chatham. Op de voorgrond is het fort bij Sheerness te zien, dat in vlammen opgaat; stroomopwaarts stijgen rookkolommen op van Engelse schepen die door de Nederlanders in brand zijn gestoken. Schilderij door Willem Schellinks, ca. 1668.  ](31a-1.43d_TochtChatham.jpg)
+
+![Spiegelversiering van de <em>Royal Charles</em>. De <em>Royal Charles</em> werd buitgemaakt tijdens de Tocht naar Chatham in 1667. Het Engelse vlaggenschip lag enige tijd als bezienswaardigheid in Hellevoetsluis tot het werd gesloopt. Alleen de spiegelversiering van het hakkebord bleef bewaard. Gepolychromeerd snijwerk in hout, ca. 1663.  ](31b-1.43a_Spiegelversiering.jpg)
 
 ![De heroverde <em>Unity</em> op sleeptouw in de Medway, 1667. De Engelse vlag hangt vanaf het achterdek naar beneden, ten teken dat de rollen zijn omgedraaid. De <em>Unity</em> werd net als de <em>Royal Charles</em> buitgemaakt bij Chatham. Het schip was eerder veroverd door de Engelsen, die de oorspronkelijke naam <em>Eendracht</em> vertaalden in <em>Unity</em>. Schilderij door Jacob Bellevois, 1670.  ](31d-1.43c_Unity.jpg)
 
@@ -1767,207 +365,7 @@ Nog voordat de oorlog in maart 1665 uitbrak, werd Michiel de Ruyter eind augustu
 
 De tweede periode die we kunnen onderscheiden begint met de Hollandse Oorlog (1672-1678). Het conflict was aan de ene kant een voortzetting van de strijd tegen Engeland om de handelshegemonie, maar vormde ook een kantelpunt voor de Republiek als continentale mogendheid. Met de benoeming van Willem III tot stadhouder in de zomer van 1672 raakten de Nederlandse maritieme belangen ondergeschikt aan diens dynastieke ambities.[139](#fn139)
 
-
-<colgroup>
-<col style="width: 7%">
-<col style="width: 22%">
-<col style="width: 12%">
-<col style="width: 15%">
-<col style="width: 13%">
-<col style="width: 14%">
-<col style="width: 0%">
-<col style="width: 13%">
-<col style="width: 0%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><div data-custom-style="TabelKopLinks">
-<p>Jaar</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Kleine vaartuigen</p>
-</div></th>
-<th colspan="2"><div data-custom-style="tabelKop">
-<p>Kruisers (fregatten)</p>
-</div></th>
-<th colspan="2"><div data-custom-style="tabelKop">
-<p>Linieschepen</p>
-</div></th>
-<th colspan="2"><div data-custom-style="TabelKopRechts">
-<p>Totaal</p>
-</div></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&nbsp;</td>
-<td class="TabelNummersCentreren">
-<p>&lt;300</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>301-500</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>500-1.500</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>500-1.500</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>1.500-2.500</p>
-</div></td>
-<td colspan="2"></td>
-</tr>
-<tr class="even">
-<td>1720</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>5</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>13</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>50</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>6</p>
-</div></td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>74</p>
-</div></td>
-</tr>
-<tr class="odd">
-<td>1730</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>33</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>5</p>
-</div></td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>56</p>
-</div></td>
-</tr>
-<tr class="even">
-<td>1740</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>5</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>19</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>31</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>4</p>
-</div></td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>59</p>
-</div></td>
-</tr>
-<tr class="odd">
-<td>1750</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>6</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>14</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>30</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>4</p>
-</div></td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>54</p>
-</div></td>
-</tr>
-<tr class="even">
-<td>1760</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>5</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>24</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>23</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>5</p>
-</div></td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>57</p>
-</div></td>
-</tr>
-<tr class="odd">
-<td>1770</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>4</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>40</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>24</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>7</p>
-</div></td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>75</p>
-</div></td>
-</tr>
-<tr class="even">
-<td>1780</td>
-<td class="TabelNummersCentreren">
-<p>0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>1</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>39</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18</p>
-</td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>8</p>
-</div></td>
-<td colspan="2"><div data-custom-style="TabelNummersCentreren">
-<p>66</p>
-</div></td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 7%"><col style="width: 22%"><col style="width: 12%"><col style="width: 15%"><col style="width: 13%"><col style="width: 14%"><col style="width: 0%"><col style="width: 13%"><col style="width: 0%"></colgroup><thead><tr class="header"><th><div data-custom-style="TabelKopLinks">Jaar</div></th><th><div data-custom-style="tabelKop">Kleine vaartuigen</div></th><th colspan="2"><div data-custom-style="tabelKop">Kruisers (fregatten)</div></th><th colspan="2"><div data-custom-style="tabelKop">Linieschepen</div></th><th colspan="2"><div data-custom-style="TabelKopRechts">Totaal</div></th><th></th></tr></thead><tbody><tr class="odd"><td>&nbsp;</td><td class="tabelNummersCentreren">&lt;300</td><td class="tabelNummersCentreren">301-500</td><td class="tabelNummersCentreren">500-1.500</td><td class="tabelNummersCentreren">500-1.500</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">1.500-2.500</div></td><td colspan="2"></td></tr><tr class="even"><td>1720</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">5</td><td class="tabelNummersCentreren">13</td><td class="tabelNummersCentreren">50</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">6</div></td><td colspan="2"><div data-custom-style="TabelNummersCentreren">74</div></td></tr><tr class="odd"><td>1730</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">18</td><td class="tabelNummersCentreren">33</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">5</div></td><td colspan="2"><div data-custom-style="TabelNummersCentreren">56</div></td></tr><tr class="even"><td>1740</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">5</td><td class="tabelNummersCentreren">19</td><td class="tabelNummersCentreren">31</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">4</div></td><td colspan="2"><div data-custom-style="TabelNummersCentreren">59</div></td></tr><tr class="odd"><td>1750</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">6</td><td class="tabelNummersCentreren">14</td><td class="tabelNummersCentreren">30</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">4</div></td><td colspan="2"><div data-custom-style="TabelNummersCentreren">54</div></td></tr><tr class="even"><td>1760</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">5</td><td class="tabelNummersCentreren">24</td><td class="tabelNummersCentreren">23</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">5</div></td><td colspan="2"><div data-custom-style="TabelNummersCentreren">57</div></td></tr><tr class="odd"><td>1770</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">4</td><td class="tabelNummersCentreren">40</td><td class="tabelNummersCentreren">24</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">7</div></td><td colspan="2"><div data-custom-style="TabelNummersCentreren">75</div></td></tr><tr class="even"><td>1780</td><td class="tabelNummersCentreren">0</td><td class="tabelNummersCentreren">1</td><td class="tabelNummersCentreren">39</td><td class="tabelNummersCentreren">18</td><td colspan="2"><div data-custom-style="TabelNummersCentreren">8</div></td><td colspan="2"><div data-custom-style="TabelNummersCentreren">66</div></td></tr></tbody>
 
 _Tabel 9: Samenstelling en omvang oorlogsvloot, 1720-1780 (ton)._[140](#fn140)
 
@@ -1975,9 +373,9 @@ Nog voordat de Engelse en Franse schepen tot één vlootverband waren samengevoe
 
 ![Slag bij Kijkduin, 1673. De slag vond plaats op 21 augustus 1673, voor de kust bij Kijkduin, onder Den Helder. Te zien is de eerste fase van de slag. In het midden het vlaggenschip van Cornelis Tromp, de <em>Gouden Leeuw</em>, geheel rechts de <em>Royal Prince</em>, het vlaggenschip van zijn Engelse rivaal Edward Spragge. Deze laatste zeeslag van de Derde Engelse Oorlog voorkwam een invasie van Engelse troepen op de Hollandse kust. Schilderij door Willem van de Velde de Jonge, ca. 1687.  ](33-1.46_ZeeslagKijkduin.jpg)
 
-![Zeeslagen tijdens de Derde Engelse Oorlog, 1672-1673.  Cartografie Olav Odé, 2022.  ](34-1.46a_KaartDerdeEngelseoorlog_Kaart05b.jpg)
+![undefined. undefined undefined undefined ](34-1.46a_KaartDerdeEngelseoorlog_Kaart05b.jpg)
 
-![Vlootoperaties in West-Indië en Noord-Amerika, 1673-1676.  Cartografie Olav Odé, 2022.  ](35-1.46b_KaartExpeditiesWest_Kaart05a.jpg)
+![undefined. undefined undefined undefined ](35-1.46b_KaartExpeditiesWest_Kaart05a.jpg)
 
 De ambities van Willem III reikten echter verder dan alleen maar de Republiek. In 1688 wist hij zijn aanspraken op de Engelse troon te verzilveren met een grootschalige landing bij Torbay. Om politieke redenen stond de Nederlandse invasievloot onder leiding van de Engelman Arthur Herbert, graaf van Torrington. Een gevolg van deze Glorious Revolution was dat de Republiek als bondgenoot van Engeland in twee slepende oorlogen tegen Frankrijk zou worden meegezogen, de Negenjarige Oorlog (1689-1697) en de Spaanse Successieoorlog (1702-1713). De strijd ter zee werd in de jaren daarna gekenmerkt door een Nederlandse oorlogsvloot die ondergeschikt was aan de Royal Navy en een _guerre de course_ met particuliere kapers.
 
@@ -2007,13 +405,13 @@ Voor deze periode gold: _Rule, Britannia! Britannia, rule the waves_! De Royal N
 
 Met de Amerikaanse Onafhankelijkheidsoorlog (1775-1783) herhaalde dit dilemma zich, vooral toen Frankrijk in 1778 betrokken raakte bij het conflict. Om de Fransen te vriend te houden gingen Nederlandse schepen de Franse scheepstimmerwerven bevoorraden, met als gevolg dat Britse kapers de koopvaarders weer opbrachten. Toen de Nederlandse schepen in konvooi en onder begeleiding van oorlogsschepen gingen varen, greep de Royal Navy in en viel in januari 1780 een Nederlands konvooi aan. De Staten-Generaal zagen geen andere uitweg dan zich aan te sluiten bij het Verbond van Gewapende Neutraliteit tussen Zweden, Denemarken en Rusland, ter bescherming van de koopvaardij tegen de strijdende partijen. Voor de Britten was dit onacceptabel omdat er dan op zee in feite een tegenstander bijkwam. Het resultaat was dat op 20 december 1780 de Britse regering de Staten-Generaal de oorlog verklaarde.[150](#fn150)
 
-### 2 OORLOGSSCHEPEN, SCHEEPSBOUW EN OORLOGSVLOOT
+## 2 OORLOGSSCHEPEN, SCHEEPSBOUW EN OORLOGSVLOOT
 
 Van een lineaire ontwikkeling van ‘het’ oorlogsschip is in de hier behandelde periode, vanaf het begin van de Opstand tot aan het einde van de Republiek, geen sprake. Voor de vele taken van de admiraliteitscolleges werd een veelheid aan vaartuigen ingezet, in het begin niet meer dan bewapende koopvaarders of aangepaste vissersschepen, later specifieke oorlogsbodems. Slechts langzaam ontwikkelde zich het typische oorlogsschip. Een staande vloot van slagschepen kwam er pas na het midden van de zeventiende eeuw en ook toen was er nog geen sprake van eenheid in vorm en bewapening. Pas toen de zeemacht, ooit een van de grootste en meest gevreesde in Europa, was gereduceerd tot een tweederangs vloot werden ontwerp en bouw van schepen onderwerp van serieuze studie.[151](#fn151)
 
 Dit deel gaat over de schepen die door de admiraliteitscolleges werden gebruikt en hoe deze werden gebouwd en hoe ze werden ingezet. Centraal staat daarbij de vraag waarom en op welke wijze specialisatie en uiteindelijk ook standaardisatie optrad bij de bouw van oorlogsschepen. De eerste paragrafen geven een min of meer chronologisch overzicht van de ontwikkelingen van de verschillende (typen) oorlogsschepen. De laatste paragrafen zijn meer thematisch, waarbij onder andere aandacht wordt besteed aan scheepssier, tuigage, geschut en hulpvaartuigen.
 
-## <span data-custom-style="Heading 2 Char">De eerste oorlog</span>s<span data-custom-style="Heading 2 Char">schepen, 1568-1576</span>
+### <span data-custom-style="Heading 2 Char">De eerste oorlog</span>s<span data-custom-style="Heading 2 Char">schepen, 1568-1576</span>
 
 In de zestiende eeuw bestond er in de Lage Landen nauwelijks een traditie van een staande oorlogsvloot. Als admiraal der Nederlanden en heer, later markies, van Veere, richtten de Bourgondische landsheren Veere als vlootbasis in. Gedurende de jaren vijftig van de zestiende eeuw werd een tiental schepen aangekocht. Het waren meest karveelgebouwde scheepjes, dus met een gladboordige huid, waarbij de huidplanken elkaar niet overlapten, maar koud tegen elkaar aan lagen. De sterkte van de romp kwam door de zware inhouten waaruit de spanten waren samengesteld. Het waren vooral (bewapende) boeiers, hulken en boten. De _Zwaluw_ bijvoorbeeld, een van de schepen van de Habsburgse vloot, mat 18-20 last en zal mogelijk een pink zijn geweest.[152](#fn152) Boeiers en raboeiers, kleine vrachtvaarders met een rond achterschip en een dwarsgetuigd razeil, maten 30 tot 60 last.[153](#fn153) Op de voorplecht van deze eenmastscheepjes was een stuk geschut op een veldaffuit geplaatst. Alleen de _Valk_ was met 150 last een groot zeegaand oorlogsschip en deed dienst als vlaggenschip.[154](#fn154)
 
@@ -2041,7 +439,7 @@ Met de Pacificatie van Gent (1576) kwam er tijdelijk een einde aan de burgeroorl
 
 ![Slag op de Zuiderzee, 1573. De zeeslag vond plaats voor de Hoornse Hop. De vloot onder leiding van Maximiliaan de Hennin, heer van Bossu, werd op 11 oktober 1573 verslagen door de Watergeuzen onder bevel van Cornelis Dircksz. Afgebeeld is het moment waarop het vlaggenschip van Bossu, de Inquisitie, wordt geënterd. De lijst bevat trofeeën, stadswapens en allerlei attributen van de scheepvaart en oorlog op zee. Schilderij door Jan Theunisz Blanckerhoff, 1663. Lijstenmaker J. Kinnema. ](42-2.05_SlagZuiderzeemetlijst.jpg)
 
-## <span data-custom-style="Heading 2 Char">Va</span>n de binnenwateren, via de Vlaamse kust en open zee naar verre wateren, 1580-1609
+### <span data-custom-style="Heading 2 Char">Va</span>n de binnenwateren, via de Vlaamse kust en open zee naar verre wateren, 1580-1609
 
 De komst in 1578 van Alexander Farnese, hertog van Parma en landvoogd van de Nederlanden van 1578 tot 1592, gevolgd door zijn bijna onstuitbare opmars naar het noorden, veranderden de inzet van de oorlogsvloot. Allereerst kwamen er meer taken op en rond de Schelde. Ten tweede kwam er een blokkadevloot in de Vlaamse kustwateren voor het handhaven van de licenten en om het uitvaren van vijandelijke kapers en oorlogsschepen te beletten. Ten derde was er de inzet van kruisers en konvooiers om vissers- koopvaardijschepen tegen doorgebroken vijandelijke schepen te beschermen. En ten vierde gingen de Staatsen expeditionair optreden in verre wateren zoals de expeditie naar Brazilië en West Indië in 1603-1605.
 
@@ -2053,15 +451,13 @@ De verscheidenheid in inzet van de oorlogsvloot leidde tot een differentiatie va
 
 Een veel voorkomende rompvorm in de zestiende eeuw was een hybridevorm: een tussenvorm tussen een spiegelschip, met een groot plat vlak als achterschip, en een rondgebouwd schip met zogenaamde ‘billen’. Bij de hybride vorm liepen de huidplanken van het vlak (de bodem) aan de achterkant omhoog om boven de waterlijn min of meer verticaal aan een haaks op de achterstevenbalk geplaatste balk te worden bevestigd. Deze zogenaamde geveegde kont liet het water goed los waardoor er minder weerstand was. Boven de verticale stagiebalk/staatsbalk bevond zich een plat vlak, schilt genaamd, met enkele ramen en/of geschutpoorten, met daarboven een dwarsgeplaatste hekbalk. Van klein tot groot hadden veel oorlogsschepen een dergelijke hybridevorm.[161](#fn161)
 
-![undefined. undefined undefined undefined ](<strong>
-</strong>44-2.07_HulkBoeier.jpg)
+![Een bewapende hulk en boeier. Een bewapende hulk en op de achtergrond een boeier op de Zuiderzee. Bij de hulk lopen aan weerskanten van de achterstevenbalk de huidplanken omhoog naar de staatsbalk. Tussen de staatsbalk en de hekbalk zijn een raam en een geschutspoort te zien. Gravure door Frans Huys naar Pieter Bruegel de Oude, 1564.  ](44-2.07_HulkBoeier.jpg)
 
 Maar gedurende de laatste decennia van de zestiende eeuw vond er vanuit deze hybridevorm een divergerende ontwikkeling plaats van uitgesproken rondgebouwde schepen, zoals het fluitschip, en het typische spiegelschip met een hekbalk en een groot plat vlak, de spiegel, tot onder de waterlijn.
 
 Bij een groot karveelgebouwd schip met zware en brede huidplanken is een rond achterschip moeilijker te maken, omdat bij een sterke buiging de planken eerder zullen breken. Na de overgang van overnaads- naar karveelbouw betekende technisch gesproken de overgang van een rondgebouwd achterschip naar een platte spiegel slechts een kleine stap.[162](#fn162) In plaats van de boorden rond te buigen over een bol spantenraam, bouwde men deze spanten in een hoek. De beplanking wordt op deze hoek afgezaagd en zonder buigen op de rantsoenhouten bevestigd, waardoor een plat achterschip ontstaat: de spiegel. Vanaf de rantsoenhouten liepen diagonaal de spiegelplanken naar de dwarsgeplaatste hekbalk.[163](#fn163) Boven de hekbalk bevond zich het rijk versierde hakkebord. De spiegel liep door tot onder de waterlijn. Nadeel is dat een platte spiegel het water minder goed loslaat. In het kielzog wordt de waterstroom ernstig verstoord, waardoor meer weerstand ontstaat. Spiegelschepen hadden minder goede vaareigenschappen, maar vanwege de relatief brede spiegel beschikten ze over ruimere dekken, geschikt om veel geschut te voeren. Hoe belangrijker het geschut, hoe breder het schip. Is daarentegen snelheid belangrijk, dan zal het schip smaller zijn.[164](#fn164) De bouwwijze met spiegel werd zo algemeen dat dit vanaf het begin van de zeventiende eeuw het standaardmodel werd voor grote en kleine oorlogsschepen, maar ook voor de grote VOC-retourschepen.[165](#fn165)
 
-![undefined. undefined undefined undefined ](<strong>
-</strong>45-2.09_dezeSpiegelconstructie.jpg)
+![Schematische voorstelling van de belangrijkste constructieonderdelen van een spiegel.  Illustratie uit: A. Hoving, <em>Nicolaes Witsens scheeps-bouw-konst open-gestelt</em> (Franeker 1994).  ](45-2.09_dezeSpiegelconstructie.jpg)
 
 De karakteristieken van het rondgebouwde fluitschip waren: relatief licht en daarmee goedkoop gebouwd, een rond achterschip met een grote slankheid, een lengte/breedte verhouding van minimaal 4:1, een van boven ingesnoerde romp en een peervormig achterschip met gewrongen billen, waarbij de huidplaten min of meer horizontaal aansluiten op de achterstevenbalk. Vanwege de lichte constructie en de smalle dekken waren fluitschepen, anders dan in een ondersteunende functie als bevoorradings- of troepentransportschip, niet geschikt om als oorlogsschip te worden ingezet. Ook maakte het uit of er oorlog of vrede heerste. Tijdens de bestandsjaren werden weer smallere fluitschepen gebouwd. Bredere fluitschepen konden meer en zwaarder geschut voeren.[166](#fn166)
 
@@ -2107,133 +503,7 @@ Het standaardschip voor de blokkadevloot werd de driemast vlieboot met twee door
 
 Vlaamse kapers maakten met succes gebruik van onder andere kleine roeijachten. Ze waren in staat vrij eenvoudig de diepstekende Staatse vlieboten dicht onder de kust al roeiende ontlopen. De Vlaamse jachten konden het beste met gelijksoortige schepen worden bestreden, zodat de Staten van Holland in 1587 besloten dat aan iedere blokkadevloot twee of drie jachten moesten worden toegevoegd. Dit waren kleine vaartuigen, met een kielbalk van 35-37 voet lang, van twaalf tot twintig last, en mogelijk niet veel groter dan een sloep. Vanaf 1598 gingen de admiraliteitscolleges tot de bouw van grotere jachten over, die ook wel roeipinassen werden genoemd. Deze waren 17 meter lang en hadden een bemanning van tachtig tot negentig koppen. Het grotere jacht was daarmee een kruising van een roeijacht en een zeilpinas (zie tabel 10).[176](#fn176)
 
-
-<colgroup>
-<col style="width: 18%">
-<col style="width: 22%">
-<col style="width: 22%">
-<col style="width: 35%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><div data-custom-style="tabelKop">
-<p>Ton</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>1589</p>
-</div></th>
-<th colspan="2"><div data-custom-style="tabelKop">
-<p>1596</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&nbsp;</td>
-<td>Blokkadevloot</td>
-<td>Blokkadevloot</td>
-<td>Kruisers en konvooiers</td>
-</tr>
-<tr class="even">
-<td class="TabelNummersCentreren">
-<p>38-40</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>-</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>2<sup>a</sup></p>
-</td>
-<td class="TabelNummersCentreren">
-<p>-</p>
-</td>
-</tr>
-<tr class="odd">
-<td class="TabelNummersCentreren">
-<p>60-80</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>2<sup>a</sup></p>
-</td>
-<td class="TabelNummersCentreren">
-<p>14</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>-</p>
-</td>
-</tr>
-<tr class="even">
-<td class="TabelNummersCentreren">
-<p>80-100</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>-</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>8</p>
-</td>
-</tr>
-<tr class="odd">
-<td class="TabelNummersCentreren">
-<p>100-120</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>-</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>-</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>6</p>
-</td>
-</tr>
-<tr class="even">
-<td class="TabelNummersCentreren">
-<p>120-140</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>9</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>6</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>4</p>
-</td>
-</tr>
-<tr class="odd">
-<td class="TabelNummersCentreren">
-<p>140-160</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>2</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>-</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>-</p>
-</td>
-</tr>
-<tr class="even">
-<td class="TabelNummersCentreren">
-<p>Totaal</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>31</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>22</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18</p>
-</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 18%"><col style="width: 22%"><col style="width: 22%"><col style="width: 35%"></colgroup><thead><tr class="header"><th><div data-custom-style="tabelKop">Ton</div></th><th><div data-custom-style="tabelKop">1589</div></th><th colspan="2"><div data-custom-style="tabelKop">1596</div></th></tr></thead><tbody><tr class="odd"><td>&nbsp;</td><td>Blokkadevloot</td><td>Blokkadevloot</td><td>Kruisers en konvooiers</td></tr><tr class="even"><td class="tabelNummersCentreren">38-40</td><td class="tabelNummersCentreren">-</td><td class="tabelNummersCentreren">2<sup>a</sup></td><td class="tabelNummersCentreren">-</td></tr><tr class="odd"><td class="tabelNummersCentreren">60-80</td><td class="tabelNummersCentreren">2<sup>a</sup></td><td class="tabelNummersCentreren">14</td><td class="tabelNummersCentreren">-</td></tr><tr class="even"><td class="tabelNummersCentreren">80-100</td><td class="tabelNummersCentreren">18</td><td class="tabelNummersCentreren">-</td><td class="tabelNummersCentreren">8</td></tr><tr class="odd"><td class="tabelNummersCentreren">100-120</td><td class="tabelNummersCentreren">-</td><td class="tabelNummersCentreren">-</td><td class="tabelNummersCentreren">6</td></tr><tr class="even"><td class="tabelNummersCentreren">120-140</td><td class="tabelNummersCentreren">9</td><td class="tabelNummersCentreren">6</td><td class="tabelNummersCentreren">4</td></tr><tr class="odd"><td class="tabelNummersCentreren">140-160</td><td class="tabelNummersCentreren">2</td><td class="tabelNummersCentreren">-</td><td class="tabelNummersCentreren">-</td></tr><tr class="even"><td class="tabelNummersCentreren">Totaal</td><td class="tabelNummersCentreren">31</td><td class="tabelNummersCentreren">22</td><td class="tabelNummersCentreren">18</td></tr></tbody>
 
 _Tabel 10: Samenstelling blokkadevloot, kruisers en konvooiers, 1589 en 1596 (ton)._[177](#fn177) _a = jachten._
 
@@ -2259,7 +529,7 @@ Vanaf de laatste jaren van de zestiende eeuw vonden er enkele grote en kleine op
 
 ![Slag bij Gibraltar, 1607. Het ontploffen van het Spaanse admiraalsschip tijdens de Slag bij Gibraltar (25 april 1607) op het moment dat het Spaanse oorlogsschip wordt geramd door een Staats schip. Door de ontploffing worden mensen in de lucht geslingerd. Op de voorgrond proberen zeelieden zich in sloepen te redden, anderen zwemmen in het water. Het doek is geschilderd als proefstuk voor het grote schilderij De  Slag bij Gibraltar, vervaardigd in opdracht van de Admiraliteit van Amsterdam in 1622. Schilderij door Cornelis Caesz van Wieringen, 1621.  ](58-2.25b_SlagGibraltar.jpg)
 
-## Economische oorlogvoering, 1621-1648
+### Economische oorlogvoering, 1621-1648
 
 De strijd in verre en exotische wateren was in Azië en in het Atlantisch gebied aan respectievelijk de VOC en de WIC uitbesteed. Voor de Vlaamse kust en op de Noordzee werd de oorlogsvloot, vergelijkbaar met de periode vóór 1609, voor de economische oorlogvoering ingezet: blokkadevloot, kruisers en konvooidiensten, dit laatste in toenemende mate samen met de konvooiers van de stedelijke directies. Pas aan het eind van de periode vonden er enkele grote vlootoperaties plaats: de Slag bij Duins (1639), het openen van de Sont (1644 en 1645) en steun aan de WIC in 1648-1649 met de expeditie van Witte de With naar Brazilië.[182](#fn182)
 
@@ -2271,9 +541,9 @@ Het bovenste doorlopende dek was het verdek. Het was het hoogste spuiende dek da
 
 ![Zijaanzicht van een oorlogsschip met 46 stukken. Verticale langsdoorsnede van een oorlogsschip van 46 stukken, lang 136 voet. Tekening door Johannes Sturckenburgh, ca. 1650-1670.  ](59-2.28_goedZijaanzicht.jpg)
 
-Op het achterschip was gaandeweg een doorlopend balkon ontstaan, de galerij, die over de volle breedte van het hakkebord liep en aan beide zijden van het achterschip. Doorgaans eindigde dit balkon ter hoogte van de achterste of de bezaansmast. De binnenruimten in het achterschip die door de opstapeling van de verschillende dekken ontstonden, werden geleidelijk steeds meer afgesloten en boden daarmee plaats aan de vertrekken waar de commandant en de officieren verbleven. In de loop van de tijd werd de open galerij in de opbouw van het achterschip verwerkt. Deze gesloten galerij werd vervolgens aan de achterzijde voorzien van meerdere ramen die zorgden voor licht en frisse lucht. Aan beide zijkanten bleef de galerij nog als twee aparte uitbouwtjes bestaan waarin de plees van de officieren werden ondergebracht. Op de grotere schepen, die als vlaggenschip dienden, deden de achtergelegen verblijfsruimten en de kajuit tevens dienst voor het bijeenroepen van de krijgsraad en voor de ontvangst van belangrijke gasten. Onder deze vertrekken lagen de voorraadruimtes.
-
 ![Tweedekker. Aan de vlaggen is te zien dat dit een portret is van een schip van de Admiraliteit van Zeeland. Het schip ligt voor anker op een rede. Schilderij door Abraham Willaerts, 1643.  ](60-2.29_Tweedekker.jpg)
+
+Op het achterschip was gaandeweg een doorlopend balkon ontstaan, de galerij, die over de volle breedte van het hakkebord liep en aan beide zijden van het achterschip. Doorgaans eindigde dit balkon ter hoogte van de achterste of de bezaansmast. De binnenruimten in het achterschip die door de opstapeling van de verschillende dekken ontstonden, werden geleidelijk steeds meer afgesloten en boden daarmee plaats aan de vertrekken waar de commandant en de officieren verbleven. In de loop van de tijd werd de open galerij in de opbouw van het achterschip verwerkt. Deze gesloten galerij werd vervolgens aan de achterzijde voorzien van meerdere ramen die zorgden voor licht en frisse lucht. Aan beide zijkanten bleef de galerij nog als twee aparte uitbouwtjes bestaan waarin de plees van de officieren werden ondergebracht. Op de grotere schepen, die als vlaggenschip dienden, deden de achtergelegen verblijfsruimten en de kajuit tevens dienst voor het bijeenroepen van de krijgsraad en voor de ontvangst van belangrijke gasten. Onder deze vertrekken lagen de voorraadruimtes.
 
 Aan de voorzijde van het schip bevond zich het galjoen. Hier was de ‘plonsplee’ te vinden waar de varensgasten ver boven het water hun behoefte deden. Overkomend zeewater spoelde het galjoen schoon. Verder vergemakkelijkte het galjoen het bedienen van de voorste zeilen. Het galjoen stak ver over de voorsteven naar voren en werd om die reden extra ondersteund door de schegbalk. Het uiteinde van de schegbalk werd versierd met een gebeeldhouwd figuur.
 
@@ -2281,238 +551,7 @@ Aan de voorzijde van het schip bevond zich het galjoen. Hier was de ‘plonsplee
 
 De grotere oorlogsschepen waren in deze jaren tweedeks schepen van tussen de 120 en 160 voet lang (34-45½ meter), 100 of meer last groot, bewapend met 25 tot 40 kanonnen, met een bemanning van rond de honderd man. De achterstevenbalk stond min of meer rechtop en de spiegel maakte een grote, bijna haakse, hoek ten opzichte van het water (zie tabel 11).[184](#fn184)
 
-
-<colgroup>
-<col style="width: 14%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 9%">
-<col style="width: 10%">
-<col style="width: 9%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 8%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><div data-custom-style="TabelKopLinks">
-<p>Ton</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Kanonnen</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Man-schappen</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>De</p>
-
-<div data-custom-style="tabelKop">
-<p>Maze</p>
-</div></div></th>
-<th><div data-custom-style="tabelKop">
-<p>Amster-dam</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Zeeland</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Noorder-kwartier</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Friesland</p>
-</div></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>Totaal</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td class="TabelNummersCentreren">
-<p>&gt;400</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>39-40</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>&gt;100</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>-</p>
-</td>
-<td class="tabelNummers">
-<p>9</p>
-</td>
-<td class="tabelNummers">
-<p>-</p>
-</td>
-<td class="tabelNummers">
-<p>11</p>
-</td>
-</tr>
-<tr class="odd">
-<td class="TabelNummersCentreren">
-<p>240-400</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>26-34</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>80-100</p>
-</td>
-<td class="tabelNummers">
-<p>4</p>
-</td>
-<td class="tabelNummers">
-<p>6</p>
-</td>
-<td class="tabelNummers">
-<p>6</p>
-</td>
-<td class="tabelNummers">
-<p>9</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>26</p>
-</td>
-</tr>
-<tr class="even">
-<td class="TabelNummersCentreren">
-<p>200-240</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>16-22</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>75-80</p>
-</td>
-<td class="tabelNummers">
-<p>6</p>
-</td>
-<td class="tabelNummers">
-<p>20</p>
-</td>
-<td class="tabelNummers">
-<p>6</p>
-</td>
-<td class="tabelNummers">
-<p>-</p>
-</td>
-<td class="tabelNummers">
-<p>-</p>
-</td>
-<td class="tabelNummers">
-<p>32</p>
-</td>
-</tr>
-<tr class="odd">
-<td class="TabelNummersCentreren">
-<p>100-200</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>12-14</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>60-75</p>
-</td>
-<td class="tabelNummers">
-<p>3</p>
-</td>
-<td class="tabelNummers">
-<p>13</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>-</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>18</p>
-</td>
-</tr>
-<tr class="even">
-<td class="TabelNummersCentreren">
-<p>&lt;100 wachtschepen</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>&lt;12</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>&lt;60</p>
-</td>
-<td class="tabelNummers">
-<p>10</p>
-</td>
-<td class="tabelNummers">
-<p>9</p>
-</td>
-<td class="tabelNummers">
-<p>16</p>
-</td>
-<td class="tabelNummers">
-<p>4</p>
-</td>
-<td class="tabelNummers">
-<p>7</p>
-</td>
-<td class="tabelNummers">
-<p>46</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Totaal</td>
-<td class="tabelNummers">
-<p>&nbsp;</p>
-</td>
-<td class="tabelNummers">
-<p>&nbsp;</p>
-</td>
-<td class="tabelNummers">
-<p>24</p>
-</td>
-<td class="tabelNummers">
-<p>49</p>
-</td>
-<td class="tabelNummers">
-<p>29</p>
-</td>
-<td class="tabelNummers">
-<p>22</p>
-</td>
-<td class="tabelNummers">
-<p>9</p>
-</td>
-<td class="tabelNummers">
-<p>133</p>
-</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 14%"><col style="width: 12%"><col style="width: 12%"><col style="width: 9%"><col style="width: 10%"><col style="width: 9%"><col style="width: 11%"><col style="width: 11%"><col style="width: 8%"></colgroup><thead><tr class="header"><th><div data-custom-style="TabelKopLinks">Ton</div></th><th><div data-custom-style="tabelKop">Kanonnen</div></th><th><div data-custom-style="tabelKop">Man-schappen</div></th><th><div data-custom-style="tabelKop">De<div data-custom-style="tabelKop">Maze</div></div></th><th><div data-custom-style="tabelKop">Amster-dam</div></th><th><div data-custom-style="tabelKop">Zeeland</div></th><th><div data-custom-style="tabelKop">Noorder-kwartier</div></th><th><div data-custom-style="tabelKop">Friesland</div></th><th><div data-custom-style="TabelKopRechts">Totaal</div></th></tr></thead><tbody><tr class="odd"><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td class="tabelNummersCentreren">&gt;400</td><td class="tabelNummersCentreren">39-40</td><td class="tabelNummersCentreren">&gt;100</td><td class="tabelNummers">1</td><td class="tabelNummers">1</td><td class="tabelNummers">-</td><td class="tabelNummers">9</td><td class="tabelNummers">-</td><td class="tabelNummers">11</td></tr><tr class="odd"><td class="tabelNummersCentreren">240-400</td><td class="tabelNummersCentreren">26-34</td><td class="tabelNummersCentreren">80-100</td><td class="tabelNummers">4</td><td class="tabelNummers">6</td><td class="tabelNummers">6</td><td class="tabelNummers">9</td><td class="tabelNummers">1</td><td class="tabelNummers">26</td></tr><tr class="even"><td class="tabelNummersCentreren">200-240</td><td class="tabelNummersCentreren">16-22</td><td class="tabelNummersCentreren">75-80</td><td class="tabelNummers">6</td><td class="tabelNummers">20</td><td class="tabelNummers">6</td><td class="tabelNummers">-</td><td class="tabelNummers">-</td><td class="tabelNummers">32</td></tr><tr class="odd"><td class="tabelNummersCentreren">100-200</td><td class="tabelNummersCentreren">12-14</td><td class="tabelNummersCentreren">60-75</td><td class="tabelNummers">3</td><td class="tabelNummers">13</td><td class="tabelNummers">1</td><td class="tabelNummers">-</td><td class="tabelNummers">1</td><td class="tabelNummers">18</td></tr><tr class="even"><td class="tabelNummersCentreren">&lt;100 wachtschepen</td><td class="tabelNummersCentreren">&lt;12</td><td class="tabelNummersCentreren">&lt;60</td><td class="tabelNummers">10</td><td class="tabelNummers">9</td><td class="tabelNummers">16</td><td class="tabelNummers">4</td><td class="tabelNummers">7</td><td class="tabelNummers">46</td></tr><tr class="odd"><td>Totaal</td><td class="tabelNummers">&nbsp;</td><td class="tabelNummers">&nbsp;</td><td class="tabelNummers">24</td><td class="tabelNummers">49</td><td class="tabelNummers">29</td><td class="tabelNummers">22</td><td class="tabelNummers">9</td><td class="tabelNummers">133</td></tr></tbody>
 
 _Tabel 11: Samenstelling en omvang oorlogsvloot, 1628 (ton)._[185](#fn185)
 
@@ -2532,11 +571,11 @@ De fregatschepen van de jaren dertig en veertig waren enkeldeks spiegelschepen v
 
 ![Twee fregatten. De fregatten behoorden tot het vlootbouwprogramma waarmee in de Eerste Engelse Oorlog (1652-1654) werd begonnen. Het onderschrift ‘Twee Nieuwe Fregatten, gerust ten Oorloogh, tegen t’ Parlement van Engelandt’ verwijst naar die oorlog. Prent door Reinier Nooms, ca. 1654.  ](63-2.33_Fregatten.jpg)
 
-Het succes van het fregatschip leidde vanaf 1636 tot de zogenaamde ‘fregattering’ van de vloot, waarbij het aantal grote of kapitale schepen afnam ten gunste van meer, maar wel kleine fregatten en de grootste schepen ook de langgerekte trekken van het nieuwe fregattype overnamen. Het onderwaterschip werd scherper en ook de achterstevenbalk kreeg een kleinere hoek. De tweedekker _Aemilia_, het vlaggenschip van Maerten Tromp in de jaren dertig, is een goed voorbeeld van een gefregatteerd oorlogsschip.[192](#fn192)
-
 ![De <em>Aemilia</em> en andere schepen voor Duinkerke. Het schip diende als vlaggenschip van luitenant-admiraal Maerten Tromp tijdens de twee zeeslagen met de Spaanse vloot die in 1639 plaatsvonden bij Duinkerke en bij Duins (The Downs), voor de Engelse kust. Schilderij door Adam Willaerts, naar een prent van Willem van de Velde de Oude, 1640.  ](64-2.34_Aemilia.jpg)
 
-## De slagvloot, 1648 tot ca. 1715
+Het succes van het fregatschip leidde vanaf 1636 tot de zogenaamde ‘fregattering’ van de vloot, waarbij het aantal grote of kapitale schepen afnam ten gunste van meer, maar wel kleine fregatten en de grootste schepen ook de langgerekte trekken van het nieuwe fregattype overnamen. Het onderwaterschip werd scherper en ook de achterstevenbalk kreeg een kleinere hoek. De tweedekker _Aemilia_, het vlaggenschip van Maerten Tromp in de jaren dertig, is een goed voorbeeld van een gefregatteerd oorlogsschip.[192](#fn192)
+
+### De slagvloot, 1648 tot ca. 1715
 
 De strijd op zee werd geleverd tussen individuele schepen, waarbij de artillerie onderschikt was aan het enteren en veroveren van de vijand. Het onoverzichtelijke strijdgewoel dat hierdoor ontstond, werd de mêlee genoemd. Met de inmiddels omvangrijke oorlogsvloten aan beide zijden met tot wel 140-150 schepen leidde dit tot gevechten die zich uitstrekten over een groot gebied.
 
@@ -2566,132 +605,7 @@ De Republiek begon de Tweede Engelse Oorlog (1665-1667) beter voorbereid dan de 
 
 Met de schaalvergroting namen ook de kosten toe. Kostte een romp van een oorlogschip in 1632 nog tussen de ƒ19.000 en ƒ22.000 gulden, tegen 1652 was dat ƒ60.000. Rond 1653-1654 was de gemiddelde lengte van een tweedekker 132 voet, tegen 1665-1666 was dit 146½ voet. De kosten van de bouw van een schip namen, afgezet tegen de lengte, exponentieel toe. Nam de lengte bijvoorbeeld toe van 155 voet tot 160 voet (3%), dan steeg het bedrag voor het scheepshol van ƒ65.000 tot ruim ƒ75.000 (16½%) (zie tabel 12).[199](#fn199)
 
-
-<colgroup>
-<col style="width: 35%">
-<col style="width: 12%">
-<col style="width: 40%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><div data-custom-style="TabelKopLinks">
-<p>Omschrijving</p>
-</div></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>Bedrag</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Omschrijving</p>
-</div></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>Bedrag</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Het scheepshol</td>
-<td class="tabelNummers">
-<p>19.000</p>
-</td>
-<td>Blokken, pompen, marsen</td>
-<td class="tabelNummers">
-<p>1.200</p>
-</td>
-</tr>
-<tr class="even">
-<td>IJzerwerk</td>
-<td class="tabelNummers">
-<p>6.000</p>
-</td>
-<td>Kompassen, vlaggen, lantarens</td>
-<td class="tabelNummers">
-<p>1.200</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Beschieten kajuit</td>
-<td class="tabelNummers">
-<p>1.500</p>
-</td>
-<td>Kombuis en gereedschap</td>
-<td class="tabelNummers">
-<p>1.000</p>
-</td>
-</tr>
-<tr class="even">
-<td>3 ankers</td>
-<td class="tabelNummers">
-<p>2.465</p>
-</td>
-<td>Zeilen</td>
-<td class="tabelNummers">
-<p>6.000</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Masten en rondhouten</td>
-<td class="tabelNummers">
-<p>2.500</p>
-</td>
-<td>Kuipwerk</td>
-<td class="tabelNummers">
-<p>700</p>
-</td>
-</tr>
-<tr class="even">
-<td>Teer, pek en werk</td>
-<td class="tabelNummers">
-<p>500</p>
-</td>
-<td>12 metalen (bronzen) kanonnen</td>
-<td class="tabelNummers">
-<p>20.160</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Kleine onkosten</td>
-<td class="tabelNummers">
-<p>200</p>
-</td>
-<td>28 ijzeren kanonnen</td>
-<td class="tabelNummers">
-<p>7.712</p>
-</td>
-</tr>
-<tr class="even">
-<td>Beeld- en schilderwerk</td>
-<td class="tabelNummers">
-<p>800</p>
-</td>
-<td>Rolpaarden</td>
-<td class="tabelNummers">
-<p>1.520</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Kabels en tuiwerk</td>
-<td class="tabelNummers">
-<p>5.760</p>
-</td>
-<td>Ammunitie</td>
-<td class="tabelNummers">
-<p>4.000</p>
-</td>
-</tr>
-<tr class="even">
-<td>Staand en lopend want</td>
-<td class="tabelNummers">
-<p>7.590</p>
-</td>
-<td>Totaal</td>
-<td class="tabelNummers">
-<p>90.582</p>
-</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 35%"><col style="width: 12%"><col style="width: 40%"><col style="width: 12%"></colgroup><thead><tr class="header"><th><div data-custom-style="TabelKopLinks">Omschrijving</div></th><th><div data-custom-style="TabelKopRechts">Bedrag</div></th><th><div data-custom-style="tabelKop">Omschrijving</div></th><th><div data-custom-style="TabelKopRechts">Bedrag</div></th></tr></thead><tbody><tr class="odd"><td>Het scheepshol</td><td class="tabelNummers">19.000</td><td>Blokken, pompen, marsen</td><td class="tabelNummers">1.200</td></tr><tr class="even"><td>IJzerwerk</td><td class="tabelNummers">6.000</td><td>Kompassen, vlaggen, lantarens</td><td class="tabelNummers">1.200</td></tr><tr class="odd"><td>Beschieten kajuit</td><td class="tabelNummers">1.500</td><td>Kombuis en gereedschap</td><td class="tabelNummers">1.000</td></tr><tr class="even"><td>3 ankers</td><td class="tabelNummers">2.465</td><td>Zeilen</td><td class="tabelNummers">6.000</td></tr><tr class="odd"><td>Masten en rondhouten</td><td class="tabelNummers">2.500</td><td>Kuipwerk</td><td class="tabelNummers">700</td></tr><tr class="even"><td>Teer, pek en werk</td><td class="tabelNummers">500</td><td>12 metalen (bronzen) kanonnen</td><td class="tabelNummers">20.160</td></tr><tr class="odd"><td>Kleine onkosten</td><td class="tabelNummers">200</td><td>28 ijzeren kanonnen</td><td class="tabelNummers">7.712</td></tr><tr class="even"><td>Beeld- en schilderwerk</td><td class="tabelNummers">800</td><td>Rolpaarden</td><td class="tabelNummers">1.520</td></tr><tr class="odd"><td>Kabels en tuiwerk</td><td class="tabelNummers">5.760</td><td>Ammunitie</td><td class="tabelNummers">4.000</td></tr><tr class="even"><td>Staand en lopend want</td><td class="tabelNummers">7.590</td><td>Totaal</td><td class="tabelNummers">90.582</td></tr></tbody>
 
 _Tabel 12: Kosten van een oorlogsschip van 134 voet, 1.652 (gulden)._[200](#fn200)
 
@@ -2699,398 +613,7 @@ De kern van de slagvloot bestond uit linieschepen bewapend met 50 tot 80 vuurmon
 
 ![De <em>Hollandia</em>, 1665. De terugkomst van de <em>Hollandia</em> in het Landsdiep bij Huisduinen, 3 november 1665. Op de gloednieuwe <em>Hollandia</em> had raadpensionaris Johan de Witt een geheime verkenningstocht gemaakt in de monding van de Theems, ter voorbereiding van wat de Tocht naar Chatham in 1667 zou worden. Schilderij door Ludolf Backhuysen, 1666-1667.  ](71-2.43_TerugkeerHollandia.jpg)
 
-
-<colgroup>
-<col style="width: 14%">
-<col style="width: 12%">
-<col style="width: 15%">
-<col style="width: 11%">
-<col style="width: 22%">
-<col style="width: 13%">
-<col style="width: 9%">
-<col style="width: 0%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><div data-custom-style="TabelKopLinks">
-<p>Kanonnen</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>De Maze</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Amsterdam</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Zeeland</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Noorderkwartier</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Friesland</p>
-</div></th>
-<th><div data-custom-style="tabelKop">
-<p>Totaal</p>
-</div></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td colspan="7"><div data-custom-style="tabelKop">
-<p>Linieschepen</p>
-</div></td>
-</tr>
-<tr class="odd">
-<td class="TabelNummersCentreren">
-<p>&gt;80</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>3</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td class="TabelNummersCentreren">
-<p>70-79</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>7</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>3</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>16</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td class="TabelNummersCentreren">
-<p>60-69</p>
-</td>
-<td class="tabelNummers">
-<p>7</p>
-</td>
-<td class="tabelNummers">
-<p>6</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>5</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>21</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td class="TabelNummersCentreren">
-<p>50-59</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>6</p>
-</td>
-<td class="tabelNummers">
-<p>3</p>
-</td>
-<td class="tabelNummers">
-<p>3</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>16</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td class="TabelNummersCentreren">
-<p>40-49</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>4</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>8</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>Totaal</strong></td>
-<td class="tabelNummers">
-<p>13</p>
-</td>
-<td class="tabelNummers">
-<p>23</p>
-</td>
-<td class="tabelNummers">
-<p>7</p>
-</td>
-<td class="tabelNummers">
-<p>15</p>
-</td>
-<td class="tabelNummers">
-<p>6</p>
-</td>
-<td class="tabelNummers">
-<p>64</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td colspan="7"><div data-custom-style="tabelKop">
-<p>Fregatten</p>
-</div></td>
-</tr>
-<tr class="odd">
-<td class="TabelNummersCentreren">
-<p>30-39</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>4</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>8</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td class="TabelNummersCentreren">
-<p>20-29</p>
-</td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>4</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>7</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Totaal</strong></td>
-<td class="tabelNummers">
-<p>3</p>
-</td>
-<td class="tabelNummers">
-<p>8</p>
-</td>
-<td class="tabelNummers">
-<p>3</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>15</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td colspan="7"><div data-custom-style="tabelKop">
-<p>Adviesjachten</p>
-</div></td>
-</tr>
-<tr class="odd">
-<td class="TabelNummersCentreren">
-<p>&gt;10</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>4</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>6</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td class="TabelNummersCentreren">
-<p>&lt;10</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>3</p>
-</td>
-<td class="tabelNummers">
-<p>3</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>7</p>
-</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Totaal</strong></td>
-<td class="tabelNummers">
-<p>2</p>
-</td>
-<td class="tabelNummers">
-<p>7</p>
-</td>
-<td class="tabelNummers">
-<p>3</p>
-</td>
-<td class="tabelNummers">
-<p>0</p>
-</td>
-<td class="tabelNummers">
-<p>1</p>
-</td>
-<td class="tabelNummers">
-<p>13</p>
-</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Totaal</td>
-<td class="tabelNummers">
-<p>18</p>
-</td>
-<td class="tabelNummers">
-<p>38</p>
-</td>
-<td class="tabelNummers">
-<p>31</p>
-</td>
-<td class="tabelNummers">
-<p>15</p>
-</td>
-<td class="tabelNummers">
-<p>8</p>
-</td>
-<td class="tabelNummers">
-<p>92</p>
-</td>
-<td></td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 14%"><col style="width: 12%"><col style="width: 15%"><col style="width: 11%"><col style="width: 22%"><col style="width: 13%"><col style="width: 9%"><col style="width: 0%"></colgroup><thead><tr class="header"><th><div data-custom-style="TabelKopLinks">Kanonnen</div></th><th><div data-custom-style="tabelKop">De Maze</div></th><th><div data-custom-style="tabelKop">Amsterdam</div></th><th><div data-custom-style="tabelKop">Zeeland</div></th><th><div data-custom-style="tabelKop">Noorderkwartier</div></th><th><div data-custom-style="tabelKop">Friesland</div></th><th><div data-custom-style="tabelKop">Totaal</div></th><th></th></tr></thead><tbody><tr class="odd"><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td></td><td colspan="7" class="tabelKop">Linieschepen</td></tr><tr class="odd"><td class="tabelNummersCentreren">&gt;80</td><td class="tabelNummers">1</td><td class="tabelNummers">2</td><td class="tabelNummers">0</td><td class="tabelNummers">0</td><td class="tabelNummers">0</td><td class="tabelNummers">3</td><td></td></tr><tr class="even"><td class="tabelNummersCentreren">70-79</td><td class="tabelNummers">2</td><td class="tabelNummers">7</td><td class="tabelNummers">2</td><td class="tabelNummers">3</td><td class="tabelNummers">2</td><td class="tabelNummers">16</td><td></td></tr><tr class="odd"><td class="tabelNummersCentreren">60-69</td><td class="tabelNummers">7</td><td class="tabelNummers">6</td><td class="tabelNummers">1</td><td class="tabelNummers">5</td><td class="tabelNummers">2</td><td class="tabelNummers">21</td><td></td></tr><tr class="even"><td class="tabelNummersCentreren">50-59</td><td class="tabelNummers">2</td><td class="tabelNummers">6</td><td class="tabelNummers">3</td><td class="tabelNummers">3</td><td class="tabelNummers">2</td><td class="tabelNummers">16</td><td></td></tr><tr class="odd"><td class="tabelNummersCentreren">40-49</td><td class="tabelNummers">1</td><td class="tabelNummers">2</td><td class="tabelNummers">1</td><td class="tabelNummers">4</td><td class="tabelNummers">0</td><td class="tabelNummers">8</td><td></td></tr><tr class="even"><td><strong>Totaal</strong></td><td class="tabelNummers">13</td><td class="tabelNummers">23</td><td class="tabelNummers">7</td><td class="tabelNummers">15</td><td class="tabelNummers">6</td><td class="tabelNummers">64</td><td></td></tr><tr class="odd"><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td></td><td colspan="7" class="tabelKop">Fregatten</td></tr><tr class="odd"><td class="tabelNummersCentreren">30-39</td><td class="tabelNummers">1</td><td class="tabelNummers">4</td><td class="tabelNummers">2</td><td class="tabelNummers">0</td><td class="tabelNummers">1</td><td class="tabelNummers">8</td><td></td></tr><tr class="even"><td class="tabelNummersCentreren">20-29</td><td class="tabelNummers">2</td><td class="tabelNummers">4</td><td class="tabelNummers">1</td><td class="tabelNummers">0</td><td class="tabelNummers">0</td><td class="tabelNummers">7</td><td></td></tr><tr class="odd"><td><strong>Totaal</strong></td><td class="tabelNummers">3</td><td class="tabelNummers">8</td><td class="tabelNummers">3</td><td class="tabelNummers">0</td><td class="tabelNummers">1</td><td class="tabelNummers">15</td><td></td></tr><tr class="even"><td></td><td colspan="7" class="tabelKop">Adviesjachten</td></tr><tr class="odd"><td class="tabelNummersCentreren">&gt;10</td><td class="tabelNummers">1</td><td class="tabelNummers">4</td><td class="tabelNummers">0</td><td class="tabelNummers">0</td><td class="tabelNummers">1</td><td class="tabelNummers">6</td><td></td></tr><tr class="even"><td class="tabelNummersCentreren">&lt;10</td><td class="tabelNummers">1</td><td class="tabelNummers">3</td><td class="tabelNummers">3</td><td class="tabelNummers">0</td><td class="tabelNummers">0</td><td class="tabelNummers">7</td><td></td></tr><tr class="odd"><td><strong>Totaal</strong></td><td class="tabelNummers">2</td><td class="tabelNummers">7</td><td class="tabelNummers">3</td><td class="tabelNummers">0</td><td class="tabelNummers">1</td><td class="tabelNummers">13</td><td></td></tr><tr class="even"><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr class="odd"><td>Totaal</td><td class="tabelNummers">18</td><td class="tabelNummers">38</td><td class="tabelNummers">31</td><td class="tabelNummers">15</td><td class="tabelNummers">8</td><td class="tabelNummers">92</td><td></td></tr></tbody>
 
 _Tabel 13: De Nederlandse vloot tijdens de Slag bij Solebay, 7 juni 1672._[202](#fn202)
 
@@ -3102,7 +625,7 @@ Het toenemende belang van het liniegevecht en de samenwerking met de Engelse vlo
 
 ![Model van een driedekker. Getuigd model van een Nederlandse driedekker van 94 stukken. Anoniem, 1682-1721.  ](73-2.45_Driedekker.jpg)
 
-## Een tweederangs vloot, ca. 1715 tot 1780
+### Een tweederangs vloot, ca. 1715 tot 1780
 
 De vanaf 1713 gevoerde neutraliteitspolitiek had gevolgen voor de samenstelling en omvang van de Staatse vloot. Gedurende de achttiende eeuw raakte deze achterop. Nu had de oorlogsvloot, vanwege het verdrag met Engeland van 1674, later Groot-Brittannië, op zee ook niet veel te duchten. Wel dienden de (economische) belangen in de Middellandse Zee en de West te worden beschermd.[205](#fn205)
 
@@ -3116,7 +639,7 @@ Tegen de jaren zeventig werd het linieschip van 74 stukken beschouwd als de rugg
 
 ![Model van een linieschip. Het linieschip <em>Vrijheid</em>, 179 voet lang en 74 stukken, werd in 1782 in Amsterdam gebouwd onder leiding van Willem Lodewijk van Gent. De <em>Vrijheid</em> was het vlaggenschip van de Nederlandse vloot tijdens de Slag bij Kamperduin (11 oktober 1797) onder bevel van schout-bij-nacht Jan Willem de Winter en werd na zware schade en zware verliezen veroverd door de Britten. Anoniem model, ca. 1782.  ](75-2.48_Modellinieschip.jpg)
 
-## Traditie en innovatie
+### Traditie en innovatie
 
 Voor 1800 was het grote zeegaande oorlogsschip technologisch gezien het meest complexe product van de mens. Schepen bouwen is compromissen sluiten. Het is de kunst om een optimaal draagvermogen te koppelen aan een zo groot mogelijke snelheid, waarbij ook sterkte, stabiliteit, gewicht, duurzaamheid, en bouw- en exploitatiekosten belangrijk zijn. Scheepsrompen zijn zeer complexe constructies en de tuigage is een samenspel van rondhouten, zeilen, blokken en lijnen. Beide zijn onderhevig aan grote krachten, waarbij het eindproduct afhing van technische eisen, militaire behoeften en scheepsbouwkundige tradities.[209](#fn209)
 
@@ -3158,7 +681,7 @@ Eén van de eerste schepen die op de Amsterdamse Admiraliteitswerf naar Brits on
 
 ![Spiegel van een oorlogsschip. Afgebeeld is de <em>Provincie Utrecht</em>, een schip van 156 voet, met 64 stukken, gebouwd in Amsterdam door Thomas Davis. Het was het eerste oorlogsschip in de achttiende eeuw in Nederland met een ronde achtersteven. Anonieme tekening, 1728.  ](81-2.53_SpiegelOorlogsschip.JPG)
 
-## Scheepssier
+### Scheepssier
 
 De pracht en praal te water was bedoeld om te imponeren. De scheepssier op oorlogsschepen week overigens niet af van wat gebruikelijk was bij koopvaardijschepen. Het beeldwerk volgde daarbij de algemeen heersende smaak van die tijd.[220](#fn220) Naast de versiering van het galjoen en de spiegel waren ook allerlei andere sierstukken op een schip te vinden. De kosten van de scheepssier besloegen in totaal toch niet meer dan 0,4% van de totale bouwkosten.[221](#fn221)
 
@@ -3166,7 +689,7 @@ Het uiteinde van de schegbalk werd bij alle grotere schepen versierd met een geb
 
 ![Hoekman. Deze hoekman, een wrakvondst, was een deel van de spiegelversiering van een groot schip. De krijgshaftige uitdossing van de man doet vermoeden dat dit snijwerk ooit een oorlogsschip sierde. Anoniem beeldhouwwerk, ca. 1650.  ](82-2.55_Hoekman.jpg)
 
-## Tuigage
+### Tuigage
 
 Zeilschepen worden voortgestuwd door windkracht. Samen met de rondhouten (masten en ra’s), het staand want (de tuien of verstaging), het lopend want om de zeilen mee te hijsen en om de stand ervan aan te passen, lijnen en honderden blokken, vormden de zeilen de tuigage van het schip. Door het zeil een profiel te geven, vergelijkbaar met een vliegtuigvleugel, ontstaat een voorwaartse kracht. Globaal bestaan er voor de tuigage twee hoofdvormen: zeilen in de lengterichting van de romp of dwars op het schip. Langsscheepse zeilen zijn efficiënter bij meer aan de windse koersen, zeilen meer in de richting van de wind, maar het schip is minder goed onder controle te houden. Zo is het lastig om het schip stil te leggen. Dwarsscheepse zeilen zijn efficiënter op ruimere koersen, varend meer met de wind mee. Ze zijn ook geschikter, bijvoorbeeld door zeilen tegen te brassen, om het schip stil te leggen, iets wat voor een oorlogsschip wenselijk was, bijvoorbeeld bij het enfileren, een vijandelijke schip in de lengte met artillerievuur bestoken via de zwakke voor- of achterkant.[223](#fn223)
 
@@ -3180,18 +703,17 @@ Aan het begin van de Opstand bestond de oorlogsvloot uit tamelijk kleine schepen
 
 ![Slag bij Terheide, 1653. De Slag bij Terheide (10 augustus 1653) vond plaats tijdens de Eerste Engelse Oorlog (1652-1654). De tekenaar Willem van de Velde de Oude voer mee op een klein vaartuig, een galjoot. Hij legde het gevecht vast op tekeningen die hij later uitwerkte tot een penschilderij. In de galjoot, links op de voorgrond, is de tekenaar te zien, rechts van het grootzeil. Penschilderij door Willem van de Velde de Oude, 1657.  ](85-2.59_ZeeslagTerheide57.jpg)
 
-Galeien hadden het driehoekige langsscheepse latijnzeil met de karakteristieke lange schuin staande ra en een korte mast. Het latijnzeil werd overigens bij dwarsgetuigde schepen gebruikt aan de achterste mast.[226](#fn226)
-
 ![Slag bij Sluis, 1603. Slag in de Scheldemonding, voor de kust bij Sluis, 26 mei 1603. De acht Spaanse galeien onder Federico Spinola (die toen sneuvelde) worden verslagen door de Staatse vloot onder de Zeeuwse viceadmiraal Joos de Moor, bestaande uit drie schepen en twee galeien uit Zeeland en Holland. Prent door Johannes Rem, 1603.  ](86-2.60_ZeeslagSluis.jpg)
+
+Galeien hadden het driehoekige langsscheepse latijnzeil met de karakteristieke lange schuin staande ra en een korte mast. Het latijnzeil werd overigens bij dwarsgetuigde schepen gebruikt aan de achterste mast.[226](#fn226)
 
 Vanaf het einde van de zestiende eeuw werd het dwarsgetuigde driemasttuig de standaard, met van voor naar achter de fokkemast, de grote mast en de bezaan. Ook oorlogsscheepjes van rond de twintig meter werden als driemasters getuigd. Viermasters zoals de _Hollandse Tuin_ kenden nog een zogenaamde bonaventuramast, ook getuigd met een latijnzeil. Zestiende-eeuwse raboeiers hadden aan de grote mast een dwarsscheeps zeil en een klein mastje met een bezaan achterop. Aan de dwars op de mast bevestigde rahouten hingen de zeilen. Om meer zeil te kunnen voeren werd op de ondermast een mars geplaatst, met daarboven eventueel een steng. Bij een zogenaamde ‘polakker’ bestond de mast uit één stuk met daaraan twee razeilen boven elkaar. Aangenomen wordt dat de steng aanvankelijk min of meer permanent was aangebracht, later kon bij zwaar weer of in de haven de steng worden gestreken. De marszeilen zijn aanvankelijk nog bescheiden en zeer trapeziumvormig omdat het zeiloppervlak vooral door het aanbrengen van zeer lange onderra’s door het schover- of grootzeil (onderste razeil aan de grote mast) en de fok (onderste razeil aan de fokkemast) wordt geleverd. Gedurende de eerste helft van de zeventiende eeuw worden de onderra’s korter en de marsra’s langer. Om het zeilpunt (de balans tussen zeilen) voldoende naar voren te brengen, hadden de schepen een lange boegspriet nodig met aan het einde de onhandige bovenblinde. Tegen 1660 verschenen langsscheepse zeilen tussen de masten en werden de marszeilen vrijwel rechthoekig. Het was toen mogelijk om met zogenaamde reven aan de bovenzijde bij meer wind het zeiloppervlak van die marszeilen te verkleinen. De bonetten onder de schoverzeilen, waarmee in de voorgaande periode het zeiloppervlak kon worden verkleind zonder een zeil geheel weg te nemen, werden daardoor overbodig. Bij toenemende wind konden de marsra’s lager gevoerd worden, zonder dat de onderra’s hoeven te worden verlaagd. Het marszeil is tegen die tijd het belangrijkste zeil geworden.[227](#fn227)
 
-![undefined. undefined undefined undefined ](<strong>
-</strong>87-2.60_SlagCadiz.jpg)
+![Slag bij Cadiz, 1596. Tijdens de Slag bij Cadiz (1 juli 1596) vochten de Nederlanders en de Engelsen samen tegen de Spanjaarden. De Hollandse viermaster <em>Neptunus</em> van admiraal Johan van Duivenvoorde, geheel links, valt samen met de Engelse <em>Ark Royal</em> de Spaanse <em>San Felipe</em> (rechts) aan. In werkelijkheid nam het Engelse schip geen deel aan de slag. De marszeilen zijn trapeziumvormig, waarbij de banen niet recht lopen, maar eindigen bij het staande lijk (de verticale rand van het zeil). De viermaster voert een langsscheeps bezaanzeil en een zelfde bonavanturazeil. Rechts twee galeien met driehoekige langsscheepse latijnzeilen met de karakteristieke lange schuin staande ra en een korte mast. Schilderij door Aert Anthonisz, 1608.  ](87-2.60_SlagCadiz.jpg)
 
 Vanaf het midden van de zeventiende eeuw kwamen langsscheepse stagzeilen in gebruik, eerst tussen de masten, later steeds meer op het voorschip en vooral aan de boegspriet, waar dan de blinde verdwijnt. Bramzeilen en lijzeilen waren al vóór 1600 bekend, maar werden zelden gevoerd. Pas na ongeveer 1670 lijken de bramstengen soms min of meer permanent aanwezig. Vóór die tijd worden ze alleen aangebracht wanneer een langere periode van gematigde constante wind was te verwachten. De bezaan is altijd als een langscheeps zeil gevoerd. Een gaffel vervangt tegen het eind van de zeventiende eeuw de bezaansroede, waarmee het zeilgedeelte van de bezaan voor de mast verdwijnt en deze een vierhoekige vorm krijgt. Op den duur wordt aan de onderzijde een giek aangebracht. In de loop van de achttiende eeuw verlengt een kluiverboom de boegspriet om meer voorzeilen te kunnen voeren.[228](#fn228)
 
-## Geschut
+### Geschut
 
 Het meeste scheepsgeschut werd over de volle lengte van het schip verdeeld: laag genaamd. Twee vuurmonden in de boeg waren bedoeld om vuur naar voren uit te brengen bij een op te jagen vijandelijk schip. Op het onderste geschutdek (de overloop) was tot het derde kwart van de achttiende eeuw een extra geschutpoort aangebracht, waar niet permanent een kanon achter stond. Ook deze poort werd gebruikt tijdens het jagen. Voor deze poort werd, indien nodig, het eerste kanon uit de laag gedraaid. Tussen 1757 en 1775 werd deze boegpoort in de geschutslaag opgenomen. Op schepen met twee lagen geschut waren verder doorgaans twee zogenaamde ‘jagers’ op de bak en enkele lichte stukken op het halfdek geplaatst. Aan de achterzijde hadden schepen in totaal vier geschutpoorten, toch werden hier zelden meer dan twee vuurmonden geplaatst.[229](#fn229)
 
@@ -3211,135 +733,19 @@ Een linieschip voerde over twee doorlopende dekken geschut, waarbij op het onder
 
 Vanaf 1615 had de Admiraliteit van Amsterdam een eigen geschutgieterij. Voor deze gieterij gold, net als andere door de overheid gestichte geschutgieterijen, dat de exploitant voor eigen rekening en risico werkte.[234](#fn234) In Rotterdam was dat Jan Cornelisz Ouderogge (ca. 1573/1574-1625), afkomstig uit een Amsterdamse gietersfamilie. Later werd hij opgevolgd door zijn zoons Cornelis en Jan en kleinzoon Johannes.[235](#fn235) Behalve scheepsgeschut goten ze onder andere klokken, koperen kaarsenkronen en apothekersvijzels. Diezelfde combinatie, geschut als nevenproduct van de bronsgieterij, was eveneens in andere steden te vinden, zoals in Amsterdam bij de beroemde klokkengieters François en Pierre Hemony.[236](#fn236)
 
-![undefined. undefined undefined undefined ](<strong>
-</strong>91-2.69_Kanon.jpg)
+![Rotterdams scheepsgeschut. De bronzen vuurbuis is gegoten door de Rotterdamse gieters Cornelis en Dirk Ouderogge voor de Admiraliteit op de Maze. Op de vuurmond staan de teksten: ‘D’ ADMIRALITEYT / TOT ROTTERDAM’ en ‘CORNELIS . OVDEROGGE . FECIT . EN D.I.O. ROTTERDAM’ (Cornelis Ouderogge heeft (mij) gemaakt en Dirk Jansz Ouderogge te Rotterdam). Kanon, gedateerd 1645.  ](91-2.69_Kanon.jpg)
 
 ![Graf van geschutgieter. Deze zerk in de Laurenskerk te Rotterdam bedekt het graf van Jan Cornelisz Ouderogge (1573 of 1574-1625), geschutgieter voor de Admiraliteit op de Maze. Ouderogge goot ook andere bronzen voorwerpen, onder meer het bekende standbeeld van Erasmus naast de kerk waar hij is begraven. Hardstenen zerk met bronzen beslag, 1625.  ](92-2.70_Grafzerk.JPG)
 
 Het benodigde buskruit werd betrokken uit verschillende kruithuizen in de Republiek. Om verzekerd te zijn van een tijdige levering legden de admiraliteiten zelf de benodigde voorraden salpeter aan, een grondstof voor buskruit die uit het buitenland moest worden geïmporteerd, onder meer uit Lotharingen of via Danzig.[237](#fn237) Ver buiten de bebouwde kom bij de Oostzaner Overtoom stond buskruitmolen De Bom.[238](#fn238)
 
-## Hulpvaartuigen
+### Hulpvaartuigen
 
 Naast zwaar bewapende oorlogsschepen hadden de admiraliteitscolleges nog een scala aan kleinere en grotere hulpvaartuigen in dienst.
 
 Elk oorlogsschip had wel enkele boten en sloepen aan boord (zie tabel 14). Het waren hulpvaartuigen voor goederen- of personenvervoer, die aan dek werden gesjord of meegesleept. Ze konden geroeid en gezeild worden. De boot was een platboomd vaartuig met een kromme voorsteven en een rechte achtersteven. De sloep had een ronde gladboordige bodem, maar was verder overnaads en vaak versierd.[239](#fn239)
 
-
-<colgroup>
-<col style="width: 25%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-<col style="width: 14%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>&nbsp;</th>
-<th><div data-custom-style="tabelKop">
-<p>Lang</p>
-</div></th>
-<th colspan="2"><div data-custom-style="tabelKop">
-<p>Wijd</p>
-</div></th>
-<th colspan="2"><div data-custom-style="tabelKop">
-<p>Hol</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td class="TabelNummersCentreren">
-<p>voet</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>voet</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>duim</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>voet</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>duim</p>
-</td>
-</tr>
-<tr class="even">
-<td>Boot</td>
-<td class="TabelNummersCentreren">
-<p>34,0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>8</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>6,5</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>3</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>5</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Grote sloep</td>
-<td class="TabelNummersCentreren">
-<p>34,5</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>7</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>-</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>3</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>3</p>
-</td>
-</tr>
-<tr class="even">
-<td>Hollandse sloep</td>
-<td class="TabelNummersCentreren">
-<p>28,5</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>6</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>8,0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>2</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>10</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Groenlandse sloep</td>
-<td class="TabelNummersCentreren">
-<p>21,5</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>6</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>9,0</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>2</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>9</p>
-</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 25%"><col style="width: 14%"><col style="width: 14%"><col style="width: 14%"><col style="width: 14%"><col style="width: 14%"></colgroup><thead><tr class="header"><th>&nbsp;</th><th><div data-custom-style="tabelKop">Lang</div></th><th colspan="2"><div data-custom-style="tabelKop">Wijd</div></th><th colspan="2"><div data-custom-style="tabelKop">Hol</div></th></tr></thead><tbody><tr class="odd"><td></td><td class="tabelNummersCentreren">voet</td><td class="tabelNummersCentreren">voet</td><td class="tabelNummersCentreren">duim</td><td class="tabelNummersCentreren">voet</td><td class="tabelNummersCentreren">duim</td></tr><tr class="even"><td>Boot</td><td class="tabelNummersCentreren">34,0</td><td class="tabelNummersCentreren">8</td><td class="tabelNummersCentreren">6,5</td><td class="tabelNummersCentreren">3</td><td class="tabelNummersCentreren">5</td></tr><tr class="odd"><td>Grote sloep</td><td class="tabelNummersCentreren">34,5</td><td class="tabelNummersCentreren">7</td><td class="tabelNummersCentreren">-</td><td class="tabelNummersCentreren">3</td><td class="tabelNummersCentreren">3</td></tr><tr class="even"><td>Hollandse sloep</td><td class="tabelNummersCentreren">28,5</td><td class="tabelNummersCentreren">6</td><td class="tabelNummersCentreren">8,0</td><td class="tabelNummersCentreren">2</td><td class="tabelNummersCentreren">10</td></tr><tr class="odd"><td>Groenlandse sloep</td><td class="tabelNummersCentreren">21,5</td><td class="tabelNummersCentreren">6</td><td class="tabelNummersCentreren">9,0</td><td class="tabelNummersCentreren">2</td><td class="tabelNummersCentreren">9</td></tr></tbody>
 
 _Tabel 14: Afmetingen van de boten en sloepen van een linieschip, 1781._[240](#fn240)
 
@@ -3351,22 +757,19 @@ In hun respectieve ressorten waren de admiraliteitscolleges verantwoordelijk voo
 
 Bij het zeegevecht kenden vuurschepen of branders een specifieke inzet. Deze kleine bemande vaartuigen werden geladen met brandbare stoffen en bij een gunstige wind op de vijandelijke schepen afgestuurd. Voor dit doel werden vaak oudere vaartuigen gebruikt, maar vanaf de tweede helft van de zeventiende eeuw werden ook speciale branders gebouwd.[242](#fn242)
 
-![undefined. undefined undefined undefined ](<strong>
-</strong>96-2.80b_ZeeslagSolebay.jpg)
-
-Bij grote vlootoperaties verzorgden adviesjachten tussen de schepen het vervoer van personen, berichten en goederen. Hoewel het om een functie gaat, die door uiteenlopende schepen uitgevoerd kon worden, is het adviesjacht als type een klein spiegelschip van ongeveer 30 meter. In de achttiende eeuw werden hiervoor kotters gebruikt.[243](#fn243)
+![Branderaanval, 1672. Tijdens de Slag bij Solebay (7 juni 1672) vielen Nederlandse branders van de vloot van Michiel de Ruyter de <em>Royal James</em> aan, het vlaggenschip van de Engelse viceadmiraal Edward Montagu, Earl of Sandwich. Het schip zonk en Sandwich verdronk. Schilderij door Willem van de Velde de Jonge, ca. 1675.  ](96-2.80b_ZeeslagSolebay.jpg)
 
 ![Oorlogskotter. Model van de <em>Kemphaan</em>, een kotter met 18 kanonnen en 4 carronades (kleine stukken, eenvoudig te bedienen). Kenmerkend voor dit scheepstype is de scherpe V-vorm van de romp. Hierdoor kon het schip scherp aan de wind zeilen en een grote snelheid bereiken. De kotter was daardoor geschikt voor bewaking en voor het overbrengen van berichten. Anoniem model, ca. 1775-1800.  ](97-2.81_Oorlogskotter.jpg)
 
+Bij grote vlootoperaties verzorgden adviesjachten tussen de schepen het vervoer van personen, berichten en goederen. Hoewel het om een functie gaat, die door uiteenlopende schepen uitgevoerd kon worden, is het adviesjacht als type een klein spiegelschip van ongeveer 30 meter. In de achttiende eeuw werden hiervoor kotters gebruikt.[243](#fn243)
+
 Om langer op zee te kunnen opereren werden (bewapende) rondgebouwde vrachtvaarders met veel laadvermogen aan de eskaders toegevoegd. Ze zijn herkenbaar aan de vlag van de Staten-Generaal of de twee gekruiste ankers naast het roer. Vaak werden ze gehuurd, maar de admiraliteitscolleges lieten ze ook speciaal bouwen. In 1645 liet de Zeeuwse Admiraliteit een ‘boodt ter coopvaarde’ van 92 voet (26 meter) timmeren.[244](#fn244)
 
-![undefined. undefined undefined undefined ](<strong>
-</strong>98-2.82_fluit.jpg)
+![Bewapend fluitschip. Op de tekening staat het jaartal 1642, mogelijk het bouwjaar van het schip. Tekening door Willem van de Velde de Oude, ca. 1650.  ](98-2.82_fluit.jpg)
 
 De Raden ter Admiraliteit lieten zich met een zogenaamd statenjacht naar de oorlogsschepen op de rede en de vergaderingen in Den Haag vervoeren. Het was een comfortabel en misschien zelfs luxueus vervoermiddel. Statenjachten waren eenmastscheepjes van 60-62 voet (17 meter) met een rijkversierde spiegel. Kenmerkend is het paviljoen met grote ramen in het achterschip. Via een wenteltrap bereikte je de grote salon een dek lager waar werd gegeten en geslapen.[245](#fn245)
 
-![undefined. undefined undefined undefined ](<strong>
-</strong>99-2.84_Spiegelpaviljoenjacht.jpg)
+![Statenjacht. Algemeen plan met achteraanzicht, bovenaanzicht, grootspant, spantenraam van een statenjacht van 62 voet, met op de spiegel het wapen van de provincie Zeeland. De heren verbleven overdag voornamelijk in het paviljoen dat een mooi uitzicht op de omgeving bood. Tekening door Jacobus Storck, 1678.  ](99-2.84_Spiegelpaviljoenjacht.jpg)
 
 Bij de scheepstimmerwerven lagen enkele onderleggers, platte schuiten met een kaapstander (lier). Van de kaapstander liep een zware kabel naar een groot blok in de zware maar korte mast om grote krachten te kunnen ontwikkelen. Onderleggers werden gebruikt om de ondermasten in de schepen te hijsen en om de oorlogsschepen te krengen, schuin op de zij te leggen, om aan het onderwaterschip te kunnen werken.[246](#fn246)
 
@@ -3374,7 +777,7 @@ Bij de scheepstimmerwerven lagen enkele onderleggers, platte schuiten met een ka
 
 Berucht was de ondiepte Pampus ten noorden van het Muiderzand in de IJ-monding voor Amsterdam. Om de zeer diepstekende oorlogsschepen, en dan vooral de grote linieschepen, over de ondiepte te krijgen, werden scheepskamelen ontwikkeld: afzinkbare caissons die aan weerskanten van de scheepsromp werden bevestigd en vervolgens leeggepompt om het schip om hoog te brengen. De schepen werden zo licht mogelijk gemaakt en dan bij springtij (wanneer er het meeste water stond) met behulp van twee kamelen en waterschepen over de ondiepte gesleept (zie paragraaf 4 van dit hoofdstuk).[247](#fn247)
 
-### 3 ZEEVARENDEN OP DE OORLOGSVLOOT
+## 3 ZEEVARENDEN OP DE OORLOGSVLOOT
 
 In de geschiedschrijving van de vroegmoderne Nederlandse oorlogsvaart kregen lange tijd alleen succesvolle vlootvoogden en heldhaftige scheepscommandanten aandacht. De rest van de bemanning werd pas in de tweede helft van de twintigste eeuw ontdekt.[248](#fn248)
 
@@ -3382,7 +785,7 @@ De eerste paragraaf gaat nader op die bemanning in. Daarna is er aandacht voor v
 
 ![Matrozen in het want. In het want is een aantal matrozen te zien. Het retourschip <em>Pieter en Paul</em>, hier afgebeeld tijdens de proefvaart op het IJ, werd gebouwd op de VOC-werf in Amsterdam. Czaar Peter de Grote werkte mee aan de bouw, de naam van het schip was een eerbetoon aan hem. Schilderij door Abraham Storck, 1698.  ](101-3.01_Retourschip.jpg)
 
-## Arbeidsmarkt, herkomst en werving
+### Arbeidsmarkt, herkomst en werving
 
 De Republiek ontwikkelde zich tijdens de Tachtigjarige Oorlog tot een zeevarende natie van de eerste orde. Menige inwoner van de Republiek was dan ook werkzaam op het water. Maar zonder de inbreng van buitenlandse arbeidskrachten had de Nederlandse scheepvaart het nooit zover gebracht. Dat gold vooral voor de qua bezoldiging en overlevingskans minder aantrekkelijke scheepvaarttakken, waartoe ook de oorlogsvaart behoorde.
 
@@ -3390,78 +793,7 @@ De Republiek ontwikkelde zich tijdens de Tachtigjarige Oorlog tot een zeevarende
 
 In tegenstelling tot de visserij, walvisvaart en koopvaardij, ondervond de oorlogsvloot zowel in de zeventiende als de achttiende eeuw regelmatig problemen bij de personeelsvoorziening. Alleen aan officieren bestond nooit een gebrek. De oorlogsvaart was in vergelijking met andere scheepvaarttakken in vredestijd geen grote werkgever. Met een jaarlijks gemiddelde van circa 3.000 schepelingen was zij doorgaans goed voor niet meer dan 7 à 8% van het totaal.[249](#fn249) Maar een groot deel van die twee eeuwen was de Republiek in oorlog. Alleen de achttiende eeuw kende enige langere periodes van vrede. Tot 1715 werd vrijwel continu gevochten. Dan hadden de admiraliteiten behoefte aan een veelvoud van hun reguliere personeelsbestand en waren voor het bemannen van de oorlogsvloot in korte tijd soms meer dan 20.000 zeevarenden vereist (zie tabel 15). Om in die explosief gestegen vraag te voorzien, werden de gages en premies eventueel tussentijds verhoogd en andere scheepvaarttakken tijdelijk stilgelegd en indien nodig onder druk gezet om personeel af te staan.[250](#fn250) Het overgrote deel van het vereiste scheepsvolk kwam echter op eigen gelegenheid of via particuliere bemiddelaars aan boord. Deze arbeidsbemiddelaars waren in de regel logementhouders die optraden als ronselaar voor impopulaire scheepvaarttakken en werden volkhouders, slaapbazen, drogasterijhouders of zielverkopers genoemd.[251](#fn251)
 
-
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><div data-custom-style="TabelKopLinks">
-<p>Jaar</p>
-</div></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>Aantal</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1615</td>
-<td class="tabelNummers">
-<p>2.000</p>
-</td>
-</tr>
-<tr class="even">
-<td>1642</td>
-<td class="tabelNummers">
-<p>11.000</p>
-</td>
-</tr>
-<tr class="odd">
-<td>1665</td>
-<td class="tabelNummers">
-<p>21.500</p>
-</td>
-</tr>
-<tr class="even">
-<td>1680</td>
-<td class="tabelNummers">
-<p>3.500</p>
-</td>
-</tr>
-<tr class="odd">
-<td>1694</td>
-<td class="tabelNummers">
-<p>10.000</p>
-</td>
-</tr>
-<tr class="even">
-<td>1696</td>
-<td class="tabelNummers">
-<p>24.000</p>
-</td>
-</tr>
-<tr class="odd">
-<td>1725</td>
-<td class="tabelNummers">
-<p>3.500</p>
-</td>
-</tr>
-<tr class="even">
-<td>1770</td>
-<td class="tabelNummers">
-<p>2.000</p>
-</td>
-</tr>
-<tr class="odd">
-<td>1782</td>
-<td class="tabelNummers">
-<p>19.000</p>
-</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 50%"><col style="width: 50%"></colgroup><thead><tr class="header"><th><div data-custom-style="TabelKopLinks">Jaar</div></th><th><div data-custom-style="TabelKopRechts">Aantal</div></th></tr></thead><tbody><tr class="odd"><td>1615</td><td class="tabelNummers">2.000</td></tr><tr class="even"><td>1642</td><td class="tabelNummers">11.000</td></tr><tr class="odd"><td>1665</td><td class="tabelNummers">21.500</td></tr><tr class="even"><td>1680</td><td class="tabelNummers">3.500</td></tr><tr class="odd"><td>1694</td><td class="tabelNummers">10.000</td></tr><tr class="even"><td>1696</td><td class="tabelNummers">24.000</td></tr><tr class="odd"><td>1725</td><td class="tabelNummers">3.500</td></tr><tr class="even"><td>1770</td><td class="tabelNummers">2.000</td></tr><tr class="odd"><td>1782</td><td class="tabelNummers">19.000</td></tr></tbody>
 
 _Tabel 15: Geschatte aantallen zeevarenden op de oorlogsvloot, 1615-1782_.[252](#fn252)
 
@@ -3483,7 +815,7 @@ In de belangrijkste Nederlandse havensteden werd ook voor buitenlandse zeemachte
 
 Een volkhouderij was in de regel een familiebedrijf, vaak geleid door de vrouw des huizes. Zij was doorgaans de echtgenote of weduwe van een zeeman of van iemand die handelde in benodigdheden voor aan boord, zoals scheepskleding. Na aanmonstering betaalde de logementsgast de slaapbazin of volkhouder bij wie hij in het krijt stond met een schuldbekentenis. Dit kon een onderhandse of notarieel vervaardigde obligatie zijn, een door de admiraliteit verstrekte maandbrief of een door de VOC opgemaakte maand- of transportceel. Met een dergelijke schuldbrief beloofde de zeeman in kwestie het schuldbedrag te zullen voldoen uit zijn toekomstige verdiensten. De uitbetaling hiervan door de desbetreffende admiraliteit liet maanden op zich wachten. Bij de VOC was het zelfs een kwestie van jaren. De meeste volkhouders konden zo lang niet wachten en wilden evenmin tussentijds het risico lopen dat zij door sterfte of desertie van hun schuldenaren weinig of niets van hun investering terug zouden zien. Zij verkochten de schuldbrieven voortijdig tegen een gereduceerd tarief en werden ceelverkopers genoemd. Degenen die de schuldcelen of -brieven opkochten stonden bekend als ceel- of transportkopers.[261](#fn261) Deze beroepsgroep werd eveneens gedomineerd door zeemansvrouwen. Zowel ceelverkopers als transportkopers stonden maatschappelijk gezien laag aangeschreven. Zij waren in de Republiek echter onmisbaar bij de werving van scheepsvolk. Ook de zeemacht kon niet zonder hen.
 
-Soms fungeerde het woonhuis van de commandant of een lokale herberg als aanmonsteringskantoor, maar meestal werd het admiraliteitshof of -huis daarvoor gebruikt. In dit kantoorgebouw van de admiraliteit kwamen alle gegadigden op de aangekondigde dag samen om ten overstaan van de commandant, en vaak in aanwezigheid van een paar leden van de admiraliteitsraad, hun naam, functie en gage door de schrijver van het oorlogsschip op te laten nemen in de monsterrol. Deze lijst met daarop alle bemanningsleden behoorde tot de kerndocumenten van de scheepsadministratie. Wie niet als beginneling, maar als ervaren matroos of als onderofficier aangenomen wilde worden, moest dat nu kenbaar maken. Iedereen die werd aangenomen, ontving direct een voorschot ter hoogte van één maandloon, de zogeheten ‘gage op de hand’ of ‘monstermaand’. Mocht de zeeman in kwestie daarnaast ook nog behoefte hebben aan een zogeheten ‘maentcedule’, waarmee hij beloofde een kwart van zijn verdiensten te laten uitkeren aan derden, dan werd dat ook meteen bij de aanmonstering geregeld.[262](#fn262) Het overgrote deel van de bemanning maakte gebruik van deze financiële regeling. Met een maandbrief kon het thuisfront geldelijk worden ondersteund, een uitrusting betaald of schulden afgelost voor genoten onderdak bij een logementhouder. Aangezien een maandbrief alleen vaak niet toereikend was, werden er door de net aangemonsterde zeelieden buiten de admiraliteit om vaak ook nog aanvullende onderhandse of notarieel vervaardigde schuldbekentenissen opgemaakt.
+Soms fungeerde het woonhuis van de commandant of een lokale herberg als aanmonsteringskantoor, maar meestal werd het admiraliteitshof of -huis daarvoor gebruikt. In dit kantoorgebouw van de admiraliteit kwamen alle gegadigden op de aangekondigde dag samen om ten overstaan van de commandant, en vaak in aanwezigheid van een paar leden van de admiraliteitsraad, hun naam, functie en gage door de schrijver van het oorlogsschip op te laten nemen in de monsterrol. Deze lijst met daarop alle bemanningsleden behoorde tot de kerndocumenten van de scheepsadministratie. Wie niet als beginneling, maar als ervaren matroos of als onderofficier aangenomen wilde worden, moest dat nu kenbaar maken. Iedereen die werd aangenomen, ontving direct een voorschot ter hoogte van één maandloon, de zogeheten ‘gage op de hand’ of ‘monstermaand’. Mocht de zeeman in kwestie daarnaast ook nog behoefte hebben aan een zogeheten ‘maentcedule’, waarmee hij beloofde een kwart van zijn verdiensten te laten uitkeren aan derden, dan werd dat ook meteen bij de aanmonstering geregeld.[262](#fn262) Het overgrote deel van de bemanning maakte gebruik van deze financiële regeling. Met een maandbrief kon het thuisfront geldelijk worden ondersteund, een uitrusting betaald of schulden afgelost voor genoten onderdak bij een logementhouder. Aangezien een maandbrief alleen vaak niet toereikend was, werden er door de net aangemonsterde zeelieden buiten de admiraliteit om vaak ook nog aanvullende onderhandse of notarieel vervaardigde schuldbekentenissen opgemaakt
 
 ![Het Prinsenhof in Amsterdam. In het Prinsenhof aan de Oudezijds Voorburgwal zetelde de Admiraliteit van Amsterdam. Op de binnenplaats heerste vaak grote drukte van mannen die wilden aanmonsteren bij de oorlogsvloot. Tekening door Reinier Vinkeles, 1765.  ](103-3.04_Admiraliteitshof.jpg)
 
@@ -3497,7 +829,7 @@ Alleen de commandant verbleef al die tijd aan land. Hij was het enige bemannings
 
 De boven de kapiteins geplaatste vlagofficieren (schout-bij-nacht, viceadmiraal en luitenant-admiraal) kregen bij inactiviteit wel betaald. Zij gaven leiding aan de grotere vlooteenheden, zoals eskaders, en waren net als de kapiteins-ordinaris in vaste dienst van hun admiraliteit, met een vast salaris. De rest van de bemanning werd aangenomen voor een reis of expeditie, en de duur daarvan was altijd ongewis. Het dienstverband kon afhankelijk van de operationele inzet van het oorlogsschip variëren van ongeveer drie maanden om de uit Azië komende VOC-schepen te begeleiden, tot bijna twee of drie jaar voor expedities naar andere continenten.[264](#fn264) Voorbeelden van zulke lange dienstverbanden waren de expeditie van Witte de With naar Brazilië van eind december 1647 tot eind april 1650 en de aan de VOC geboden jarenlange bijstand van oorlogsschepen in Azië in de periode 1784-1795. Maar dit waren uitzonderingen. De reizen duurden zowel in oorlogs- als vredestijd doorgaans niet langer dan een à anderhalf jaar.
 
-## Samenhang, motivatie, bezoldiging en bezit van de bemanning
+### Samenhang, motivatie, bezoldiging en bezit van de bemanning
 
 Het was een hele prestatie dat de Nederlandse oorlogsvloot lange tijd voldoende zeevarenden verkreeg om zich te kunnen meten met de oorlogsvloten van landen die een veel grotere bevolking bezaten. Maar het werven van voldoende zeevarenden verklaarde slechts een deel van het succesvol optreden ter zee. Het behouden van ervaren krachten was minstens zo belangrijk. Een relatief kort dienstverband in combinatie met een redelijke beloning die bovendien op tijd werd uitbetaald, waren belangrijke redenen voor zeevarenden om een hernieuwd dienstverband op de oorlogsvloot aan te gaan. Ook de hechte onderlinge band en de kans op een uitkering bij verwonding of invaliditeit maakten het werk aantrekkelijk.
 
@@ -3531,7 +863,7 @@ Onderofficieren waren vaak getrouwd. Hun gage was meestal hoog genoeg om een gez
 
 ![Woonhuis van Engel de Ruyter. Gezicht op de buitenplaats Boom en Bosch aan de Vecht, eerder bekend als Ruytervecht. In 1680 kocht Engel de Ruyter, zoon van luitenant-admiraal Michiel de Ruyter, het huis voor ƒ16.220. Engel was viceadmiraal van Holland en West-Friesland. Prent door Daniël Stopendaal, 1790.  ](110-3.11b_Huisboomb.jpg)
 
-![Trompenburgh. Cornelis Tromp kon zich, dank zij het vermogen van zijn vrouw Margaretha van Raephorst, een buitenplaats in ’s Graveland veroorloven. Het landhuis heeft enigszins de vorm van een schip en is omgeven door water. Het interieur werd gesierd met schilderijen van zeeslagen en andere maritieme voorstellingen. Foto H.M. Sigmond.  ](111-3.12_Trompenburgh_H.M.Sigmond.JPG)
+![Trompenburgh. Cornelis Tromp kon zich, dank zij het vermogen van zijn vrouw Margaretha van Raephorst, een buitenplaats in ’s Graveland veroorloven. Het landhuis heeft enigszins de vorm van een schip en is omgeven door water. Het interieur werd gesierd met schilderijen van zeeslagen en andere maritieme voorstellingen. Foto H.M. Sigmond.  ](111-3.12_Trompenburgh_H.M.Sigmond.jpg)
 
 ![Bank van Cornelis Tromp (1629-1691), luitenant-admiraal. De bank is beschilderd met een afbeelding van de Slag bij Öland in juni 1676. Cornelis Tromp had bij deze slag de leiding over een Deens-Nederlandse vloot. Hij kreeg deze bank van de Admiraliteit van Amsterdam als dank voor zijn aandeel in de slag. Anonieme maker en schilder, na 1676 en voor 1691.  ](112-3.13_Bank.jpg)
 
@@ -3543,378 +875,7 @@ Het hogere kader aan boord bestond naast de commandant uit alle officieren en de
 
 Bijna alle dek- en onderofficieren gingen er vanaf het eind van de zestiende eeuw financieel op vooruit. In de loop van de zeventiende en achttiende eeuw kregen zij een steeds hoger inkomen.[279](#fn279) Voor hen maakte het bovendien uit waar zij aanmonsterden, want de vijf admiraliteiten hanteerden voor hen lang niet altijd precies dezelfde gage-tarieven. Dat deden de admiraliteiten doorgaans wel voor al hun officieren, matrozen en zeesoldaten. Er waren in de Republiek altijd meer dan genoeg zeeofficieren beschikbaar en onder druk van de Staten-Generaal probeerden de admiraliteiten elkaar hier onderling niet te beconcurreren bij de werving van de benodigde soldaten en matrozen. Hun gages ondergingen dan ook twee eeuwen lang weinig verandering (zie tabel 16).
 
-
-<colgroup>
-<col style="width: 39%">
-<col style="width: 18%">
-<col style="width: 19%">
-<col style="width: 22%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Functie</strong></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>17e eeuw</p>
-</div></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>18e eeuw</p>
-</div></th>
-<th><div data-custom-style="TabelKopRechts">
-<p>Status</p>
-</div></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Bottelier</td>
-<td class="TabelNummersCentreren">
-<p>12-22</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18-20</p>
-</td>
-<td class="tabelNummers">
-<p>onderofficier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Botteliersmaat</td>
-<td class="TabelNummersCentreren">
-<p>10-15</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>14-16</p>
-</td>
-<td class="tabelNummers">
-<p>onderofficier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Chirurgijn (opper)</td>
-<td class="TabelNummersCentreren">
-<p>15-36</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>30-32</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier***</p>
-</td>
-</tr>
-<tr class="even">
-<td>Chirurgijn (onder-)</td>
-<td class="TabelNummersCentreren">
-<p>16-30</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>15-32</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Commandeur v.d. soldaten</td>
-<td class="TabelNummersCentreren">
-<p>14</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>14-18</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Dominee</td>
-<td class="TabelNummersCentreren">
-<p>14</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>14</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Hoogbootsman</td>
-<td class="TabelNummersCentreren">
-<p>14-22</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>20-28</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Hoogbootsmansmaat</td>
-<td class="TabelNummersCentreren">
-<p>10-15</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>13-20</p>
-</td>
-<td class="tabelNummers">
-<p>onderofficier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Kok</td>
-<td class="TabelNummersCentreren">
-<p>12-21</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18-20</p>
-</td>
-<td class="tabelNummers">
-<p>onderofficier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Koksmaat</td>
-<td class="TabelNummersCentreren">
-<p>10-15</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>14-16</p>
-</td>
-<td class="tabelNummers">
-<p>onderofficier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Konstabel</td>
-<td class="TabelNummersCentreren">
-<p>13-22</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>20-26</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Konstabelsmaat</td>
-<td class="TabelNummersCentreren">
-<p>10-18</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>15-26</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Kuiper</td>
-<td class="TabelNummersCentreren">
-<p>12-14</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>12-14</p>
-</td>
-<td class="tabelNummers">
-<p>onderofficier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Kwartiermeester</td>
-<td class="TabelNummersCentreren">
-<p>12-14</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>13-18</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Provoost</td>
-<td class="TabelNummersCentreren">
-<p>12-14</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>12-14</p>
-</td>
-<td class="tabelNummers">
-<p>onderofficier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Schieman</td>
-<td class="TabelNummersCentreren">
-<p>15-16</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>15-22</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier*</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Schiemansmaat</td>
-<td class="TabelNummersCentreren">
-<p>13</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>13-18</p>
-</td>
-<td class="tabelNummers">
-<p>onderofficier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Schipper</td>
-<td class="TabelNummersCentreren">
-<p>22-30</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>22-30</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Schrijver (eerste)</td>
-<td class="TabelNummersCentreren">
-<p>12-20</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>15-36</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier**</p>
-</td>
-</tr>
-<tr class="even">
-<td>Schrijver (tweede)</td>
-<td class="TabelNummersCentreren">
-<p>16</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Stuurman (opper)</td>
-<td class="TabelNummersCentreren">
-<p>24-36</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>34-42</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Stuurman (onder)</td>
-<td class="TabelNummersCentreren">
-<p>30</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>30-36</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Stuurman (derde)</td>
-<td class="TabelNummersCentreren">
-<p>30</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18-32</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Tamboer</td>
-<td class="TabelNummersCentreren">
-<p>12</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>12-14</p>
-</td>
-<td class="tabelNummers">
-<p>onderofficier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Timmerman (opper)</td>
-<td class="TabelNummersCentreren">
-<p>16-30</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>16-46</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Timmerman (onder-)</td>
-<td class="TabelNummersCentreren">
-<p>15-16</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>15</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Trompetter</td>
-<td class="TabelNummersCentreren">
-<p>14-22</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18-20</p>
-</td>
-<td class="tabelNummers">
-<p>onderofficier</p>
-</td>
-</tr>
-<tr class="even">
-<td>Zeilmaker (opper)</td>
-<td class="TabelNummersCentreren">
-<p>14-18</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>18-25</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-<tr class="odd">
-<td>Zeilmaker (onder-)</td>
-<td class="TabelNummersCentreren">
-<p>14</p>
-</td>
-<td class="TabelNummersCentreren">
-<p>14-22</p>
-</td>
-<td class="tabelNummers">
-<p>dek-officier</p>
-</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 39%"><col style="width: 18%"><col style="width: 19%"><col style="width: 22%"></colgroup><thead><tr class="header"><th><strong>Functie</strong></th><th><div data-custom-style="TabelKopRechts">17e eeuw</div></th><th><div data-custom-style="TabelKopRechts">18e eeuw</div></th><th><div data-custom-style="TabelKopRechts">Status</div></th></tr></thead><tbody><tr class="odd"><td>Bottelier</td><td class="tabelNummersCentreren">12-22</td><td class="tabelNummersCentreren">18-20</td><td class="tabelNummers">onderofficier</td></tr><tr class="even"><td>Botteliersmaat</td><td class="tabelNummersCentreren">10-15</td><td class="tabelNummersCentreren">14-16</td><td class="tabelNummers">onderofficier</td></tr><tr class="odd"><td>Chirurgijn (opper)</td><td class="tabelNummersCentreren">15-36</td><td class="tabelNummersCentreren">30-32</td><td class="tabelNummers">dek-officier***</td></tr><tr class="even"><td>Chirurgijn (onder-)</td><td class="tabelNummersCentreren">16-30</td><td class="tabelNummersCentreren">15-32</td><td class="tabelNummers">dek-officier</td></tr><tr class="odd"><td>Commandeur v.d. soldaten</td><td class="tabelNummersCentreren">14</td><td class="tabelNummersCentreren">14-18</td><td class="tabelNummers">dek-officier</td></tr><tr class="even"><td>Dominee</td><td class="tabelNummersCentreren">14</td><td class="tabelNummersCentreren">14</td><td class="tabelNummers">dek-officier</td></tr><tr class="odd"><td>Hoogbootsman</td><td class="tabelNummersCentreren">14-22</td><td class="tabelNummersCentreren">20-28</td><td class="tabelNummers">dek-officier</td></tr><tr class="even"><td>Hoogbootsmansmaat</td><td class="tabelNummersCentreren">10-15</td><td class="tabelNummersCentreren">13-20</td><td class="tabelNummers">onderofficier</td></tr><tr class="odd"><td>Kok</td><td class="tabelNummersCentreren">12-21</td><td class="tabelNummersCentreren">18-20</td><td class="tabelNummers">onderofficier</td></tr><tr class="even"><td>Koksmaat</td><td class="tabelNummersCentreren">10-15</td><td class="tabelNummersCentreren">14-16</td><td class="tabelNummers">onderofficier</td></tr><tr class="odd"><td>Konstabel</td><td class="tabelNummersCentreren">13-22</td><td class="tabelNummersCentreren">20-26</td><td class="tabelNummers">dek-officier</td></tr><tr class="even"><td>Konstabelsmaat</td><td class="tabelNummersCentreren">10-18</td><td class="tabelNummersCentreren">15-26</td><td class="tabelNummers">dek-officier</td></tr><tr class="odd"><td>Kuiper</td><td class="tabelNummersCentreren">12-14</td><td class="tabelNummersCentreren">12-14</td><td class="tabelNummers">onderofficier</td></tr><tr class="even"><td>Kwartiermeester</td><td class="tabelNummersCentreren">12-14</td><td class="tabelNummersCentreren">13-18</td><td class="tabelNummers">dek-officier</td></tr><tr class="odd"><td>Provoost</td><td class="tabelNummersCentreren">12-14</td><td class="tabelNummersCentreren">12-14</td><td class="tabelNummers">onderofficier</td></tr><tr class="even"><td>Schieman</td><td class="tabelNummersCentreren">15-16</td><td class="tabelNummersCentreren">15-22</td><td class="tabelNummers">dek-officier*</td></tr><tr class="odd"><td>Schiemansmaat</td><td class="tabelNummersCentreren">13</td><td class="tabelNummersCentreren">13-18</td><td class="tabelNummers">onderofficier</td></tr><tr class="even"><td>Schipper</td><td class="tabelNummersCentreren">22-30</td><td class="tabelNummersCentreren">22-30</td><td class="tabelNummers">dek-officier</td></tr><tr class="odd"><td>Schrijver (eerste)</td><td class="tabelNummersCentreren">12-20</td><td class="tabelNummersCentreren">15-36</td><td class="tabelNummers">dek-officier**</td></tr><tr class="even"><td>Schrijver (tweede)</td><td class="tabelNummersCentreren">16</td><td class="tabelNummersCentreren">18</td><td class="tabelNummers">dek-officier</td></tr><tr class="odd"><td>Stuurman (opper)</td><td class="tabelNummersCentreren">24-36</td><td class="tabelNummersCentreren">34-42</td><td class="tabelNummers">dek-officier</td></tr><tr class="even"><td>Stuurman (onder)</td><td class="tabelNummersCentreren">30</td><td class="tabelNummersCentreren">30-36</td><td class="tabelNummers">dek-officier</td></tr><tr class="odd"><td>Stuurman (derde)</td><td class="tabelNummersCentreren">30</td><td class="tabelNummersCentreren">18-32</td><td class="tabelNummers">dek-officier</td></tr><tr class="even"><td>Tamboer</td><td class="tabelNummersCentreren">12</td><td class="tabelNummersCentreren">12-14</td><td class="tabelNummers">onderofficier</td></tr><tr class="odd"><td>Timmerman (opper)</td><td class="tabelNummersCentreren">16-30</td><td class="tabelNummersCentreren">16-46</td><td class="tabelNummers">dek-officier</td></tr><tr class="even"><td>Timmerman (onder-)</td><td class="tabelNummersCentreren">15-16</td><td class="tabelNummersCentreren">15</td><td class="tabelNummers">dek-officier</td></tr><tr class="odd"><td>Trompetter</td><td class="tabelNummersCentreren">14-22</td><td class="tabelNummersCentreren">18-20</td><td class="tabelNummers">onderofficier</td></tr><tr class="even"><td>Zeilmaker (opper)</td><td class="tabelNummersCentreren">14-18</td><td class="tabelNummersCentreren">18-25</td><td class="tabelNummers">dek-officier</td></tr><tr class="odd"><td>Zeilmaker (onder-)</td><td class="tabelNummersCentreren">14</td><td class="tabelNummersCentreren">14-22</td><td class="tabelNummers">dek-officier</td></tr></tbody>
 
 _Tabel 16: Gages dek- en onderofficieren op de oorlogsvloot, 1621-1795 (in guldens per maand)._[280](#fn280) _\*= tot 1652 onderofficier; \*\*= vanaf 1781 officier; \*\*\*= vanaf 1797 officier._
 
@@ -3928,89 +889,7 @@ De waarde van de nagelaten persoonlijke eigendommen van aan boord overleden matr
 
 Onderofficieren vormden de ruggengraat van de vloot. Zij zorgden ervoor dat de bevelen van de officieren werden uitgevoerd. In tegenstelling tot de officieren waren zij vaak meer zee- of ambachtsman dan militair. Het waren veelal opgeklommen matrozen of andere schepelingen. Zij lieten bij overlijden aan boord scheepskleding, beddengoed en andere persoonlijke spullen na met een totale waarde van enige tientallen guldens. De nalatenschappen van bepaalde onderofficieren die over een eigen instrumentarium beschikten, zoals stuurlieden en chirurgijns, brachten bij verkoop nog aanzienlijk meer op. Dan ging het vaak om een paar honderd gulden.[285](#fn285) Het instrumentarium van een overleden onderofficier werd meestal opgekocht door zijn opvolger (zie tabel 17).
 
-
-<colgroup>
-<col style="width: 31%">
-<col style="width: 68%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Functie</strong></th>
-<th><strong>Primaire taken</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Bottelier</td>
-<td>Beheer levensmiddelen</td>
-</tr>
-<tr class="even">
-<td>Chirurgijn</td>
-<td>Medische zorg</td>
-</tr>
-<tr class="odd">
-<td><p>Commandeur</p>
-<p>van de soldaten</p></td>
-<td>Leiding over ingescheepte (zee)soldaten</td>
-</tr>
-<tr class="even">
-<td>Dominee</td>
-<td>Geestelijke verzorging</td>
-</tr>
-<tr class="odd">
-<td>Hoogbootsman</td>
-<td>Toezicht op lopend- en staand want; leiding over alle matrozen</td>
-</tr>
-<tr class="even">
-<td>Konstabel</td>
-<td>Zorg voor het geschut, het kruit en de munitie</td>
-</tr>
-<tr class="odd">
-<td>Kok</td>
-<td>Bereiding maaltijden</td>
-</tr>
-<tr class="even">
-<td>Kwartiermeester</td>
-<td>Leiding over een deel van de matrozen</td>
-</tr>
-<tr class="odd">
-<td>Provoost</td>
-<td>Handhaving orde en tucht</td>
-</tr>
-<tr class="even">
-<td>Schieman</td>
-<td>Zorg voor de takelage van de fokkemast en de boegspriet</td>
-</tr>
-<tr class="odd">
-<td>Schipper</td>
-<td>Hoofd interne scheepsdienst en beheer scheepsbenodigdheden</td>
-</tr>
-<tr class="even">
-<td>Schrijver</td>
-<td>Verzorgen scheepsadministratie</td>
-</tr>
-<tr class="odd">
-<td>Stuurman</td>
-<td>Zorg voor de navigatie</td>
-</tr>
-<tr class="even">
-<td>Tamboer</td>
-<td>Geven van signalen</td>
-</tr>
-<tr class="odd">
-<td>Timmerman</td>
-<td>Zorg voor onderhoud en reparatie schip en hulpvaartuigen</td>
-</tr>
-<tr class="even">
-<td>Trompetter</td>
-<td>Geven van signalen</td>
-</tr>
-<tr class="odd">
-<td>Zeilmaker</td>
-<td>Reparatie en onderhoud zeilen</td>
-</tr>
-</tbody>
-
+<colgroup><col style="width: 31%"><col style="width: 68%"></colgroup><thead><tr class="header"><th><strong>Functie</strong></th><th><strong>Primaire taken</strong></th></tr></thead><tbody><tr class="odd"><td>Bottelier</td><td>Beheer levensmiddelen</td></tr><tr class="even"><td>Chirurgijn</td><td>Medische zorg</td></tr><tr class="odd"><td>Commandeurvan de soldaten</td><td>Leiding over ingescheepte (zee)soldaten</td></tr><tr class="even"><td>Dominee</td><td>Geestelijke verzorging</td></tr><tr class="odd"><td>Hoogbootsman</td><td>Toezicht op lopend- en staand want; leiding over alle matrozen</td></tr><tr class="even"><td>Konstabel</td><td>Zorg voor het geschut, het kruit en de munitie</td></tr><tr class="odd"><td>Kok</td><td>Bereiding maaltijden</td></tr><tr class="even"><td>Kwartiermeester</td><td>Leiding over een deel van de matrozen</td></tr><tr class="odd"><td>Provoost</td><td>Handhaving orde en tucht</td></tr><tr class="even"><td>Schieman</td><td>Zorg voor de takelage van de fokkemast en de boegspriet</td></tr><tr class="odd"><td>Schipper</td><td>Hoofd interne scheepsdienst en beheer scheepsbenodigdheden</td></tr><tr class="even"><td>Schrijver</td><td>Verzorgen scheepsadministratie</td></tr><tr class="odd"><td>Stuurman</td><td>Zorg voor de navigatie</td></tr><tr class="even"><td>Tamboer</td><td>Geven van signalen</td></tr><tr class="odd"><td>Timmerman</td><td>Zorg voor onderhoud en reparatie schip en hulpvaartuigen</td></tr><tr class="even"><td>Trompetter</td><td>Geven van signalen</td></tr><tr class="odd"><td>Zeilmaker</td><td>Reparatie en onderhoud zeilen</td></tr></tbody>
 
 _Tabel 17: Overzicht primaire taken dek- en onderofficieren op de oorlogsvloot, 1597-1795._[286](#fn286)
 
@@ -4022,7 +901,7 @@ Als de commandant of een andere officier aan boord stierf, werd zijn nalatenscha
 
 Zeeofficieren stierven zelden berooid. Het hebben van bezit waren zij meestal al van huis uit gewend. Hun keuze voor de zeemacht kwam dan ook niet voort uit armoede, werkloosheid of een gebrek aan andere opties, zoals bij het ‘gewone’ scheepsvolk dat doorgaans juist weinig bezat, maar was vaak geënt op een bestaande familietraditie, waarbij het beroep van zeeofficier overging van (groot)vader op (klein)zoon of van oom op neef. Het onderscheid tussen de zeeofficier enerzijds en zijn onderofficieren en manschappen anderzijds ging echter veel verder dan de reden van aanmonstering en het grote verschil in bezit. Eigenlijk waren het twee gescheiden werelden.
 
-## Rangen en standen aan boord en aan de wal
+### Rangen en standen aan boord en aan de wal
 
 De bemanning van een oorlogsschip kende een strikte hiërarchie. Als er geen vlagofficier aan boord was, oefende de scheepscommandant, een kapitein, kapitein-luitenant of commandeur het hoogste gezag uit.[288](#fn288) Hij werd hierin bijgestaan door zijn plaatsvervanger en de overige aan hem ondergeschikte officieren. Het daarop aansluitende kader bestond uit de onderofficieren. Van al deze leidinggevenden maakten vooral de officieren en een paar hogere onderofficieren in de loop der tijd ingrijpende veranderingen door in hun positie, status en professionaliteit.
 
@@ -4062,7 +941,7 @@ De toegankelijkheid en het carrièreperspectief van het verdeftigde officierskor
 
 ![Woekeraar. Een woekeraar bij wie maandbrieven van zeelieden beleend konden worden, tegen ongunstige voorwaarden. Links een huilende zeemansvrouw. Prent en gedicht door Chr. Huyberts, ca. 1750.  ](123-3.26_Woekeraar.jpg)
 
-## Varen in dienst van de admiraliteitscolleges
+### Varen in dienst van de admiraliteitscolleges
 
 #### Medische zorg en militaire jurisdictie aan boord
 
@@ -4082,8 +961,7 @@ Zo beschreef een nog maar dertienjarige jongen, Pool geheten, die op 5 augustus 
 
 Wie tijdens de strijd ter zee sneuvelde, ging zonder plichtplegingen overboord. De officieren werden echter, al dan niet teruggevoerd naar de Republiek, altijd aan land begaven. Wie van de officieren, onderofficieren of manschappen het overleefde maar verminkt raakte, had recht op een door de Staten-Generaal vastgestelde uitkering**.** De hoogte was afhankelijk van de aard van de verwonding of invaliditeit en kon bij verlies van ogen en ledematen oplopen tot 1500 gulden.[307](#fn307) In plaats van een bedrag ineens kon ook gekozen worden voor een levenslange uitkering van ongeveer drie gulden per week. Ondanks de soms dramatisch hoge verliezen en vele ernstige verminkingen, stierven er aan boord van de Nederlandse oorlogsschepen in de zeventiende en achttiende eeuw toch nog altijd meer schepelingen door ziekten en ongevallen, inclusief scheepsrampen, dan door strijd.[308](#fn308) Uit de scheepsjournalen van de admiraliteiten blijkt dat zowel in vredes- als oorlogstijd er aan boord van vrijwel elk oorlogsschip opvarenden stierven door ongevallen en ziekten. In de zeventiende en achttiende eeuw werd de Nederlandse oorlogsvloot bovendien verscheidene keren getroffen door uitbraken van _febris nautica_ (vlektyfus).[309](#fn309) In diezelfde twee eeuwen gingen tientallen Nederlandse oorlogsschepen door storm verloren, vaak met man en muis**.**
 
-![undefined. undefined undefined undefined ](<strong>
-</strong>129-3.33_Schedel.jpg)
+![Verminkt tijdens een zeeslag. Schedel van matroos Frans Marcus die de Slag bij de Doggersbank (1781) ondanks zware verwonding ruim zestien jaar overleefde en op 28 januari 1798 overleed.   ](129-3.33_Schedel.jpg)
 
 ![Uitkeringen aan zeevarenden. Lijst met tarieven voor vergoedingen bij invaliditeit of verminkingen van zeevarenden bij de zeemacht. Handschrift, 11 maart 1665.  ](130-3.34_Tarieven.jpg)
 
@@ -4129,15 +1007,15 @@ Voor Nederlandse krijgsgevangenen van Noord-Afrikaanse steden bleef dwangarbeid 
 
 ![Drama rond het <em>Huys in ’t Bosch</em>. Voor de kust van Marokko nabij Ceuta leed het fregat <em>Huys in ’t Bosch</em> op 20 december 1751 schipbreuk. De bemanning wist zich te redden maar werd daarna door Noord-Afrikaanse kapers tot slaaf gemaakt. Boven: de schipbreuk; onder: de terugkeer van de uit slavernij losgekochte bemanning bij de Admiraliteitswerf te Amsterdam op 23 februari 1753. Prent door Simon Fokke, 1753-1754.  ](139-3.44_SchipbreukFokke.jpg)
 
-### 4 INFRASTRUCTUUR EN VEILIGHEIDHEID
+## 4 INFRASTRUCTUUR EN VEILIGHEIDHEID
 
-Om een oorlogsvloot in de vaart te brengen en te houden zijn aan de vaste wal allerlei voorzieningen nodig.[323](#fn323) Schepen moeten worden gebouwd, uitgerust en gerepareerd. Het belangrijkste kenmerk van de walorganisatie was een extreme mate van decentralisatie. De vijf admiraliteitscolleges, die tezamen verantwoordelijk waren voor de organisatie en uitrusting van de oorlogsvloot, waren niet alleen gespreid over drie gewesten, maar hadden een nog veel groter aantal werven met bijbehorende kantoren en pakhuizen. Bovendien werden werkzaamheden voor een deel uitbesteed aan particuliere toeleveranciers, zoals het bouwen van schepen en het gieten van geschut. Daarnaast maakte de oorlogsvloot gebruik van voorzieningen die ook ten goede kwamen aan andere takken van scheepvaart, zoals loodsdiensten, bebakening en onderhoud van vaarwegen, sleepdiensten en scheepskamelen. Deze maritieme infrastructuur ressorteerde doorgaans onder het gezag van andere overheidsorganen, zoals havensteden en gewestelijke besturen. Ook consuls in buitenlandse havens –vertegenwoordigers van de Staten-Generaal – behoorden tot de infrastructuur die bijdroeg aan het varende houden van de oorlogsschepen van de Republiek.
+Om een oorlogsvloot in de vaart te brengen en te houden zijn aan de vaste wal allerlei voorzieningen nodig.[323](#fn323) Schepen moeten worden gebouwd, uitgerust en gerepareerd. Het belangrijkste kenmerk van de walorganisatie was een extreme mate van decentralisatie. De vijf admiraliteitscolleges, die tezamen verantwoordelijk waren voor de organisatie en uitrusting van de oorlogsvloot, waren niet alleen gespreid over drie gewesten, maar hadden een nog veel groter aantal werven met bijbehorende kantoren en pakhuizen. Bovendien werden werkzaamheden voor een deel uitbesteed aan particuliere toeleveranciers, zoals het bouwen van schepen en het gieten van geschut. Daarnaast maakte de oorlogsvloot gebruik van voorzieningen die ook ten goede kwamen aan andere takken van scheepvaart, zoals loodsdiensten, bebakening en onderhoud van vaarwegen, sleepdiensten en scheepskamelen. Deze maritieme infrastructuur ressorteerde doorgaans onder het gezag van andere overheidsorganen, zoals havensteden en gewestelijke besturen. Ook consuls in buitenlandse havens – vertegenwoordigers van de Staten-Generaal – behoorden tot de infrastructuur die bijdroeg aan het varende houden van de oorlogsschepen van de Republiek.
 
 De omvang van de activiteiten verschilde sterk per admiraliteitscollege, en per periode. Gedurende de Opstand tegen het Habsburgs gezag, en vooral in de periode tot het Twaalfjarig Bestand vond de strijd vooral plaats op de binnenwateren, in de Maasmond en de Schelde en voor de Vlaamse kust. De twee zuidelijke admiraliteiten, Zeeland en Rotterdam, hadden daar een groot aandeel in. Na 1648 kwam het accent te liggen bij de slagvloot. Tot aan het einde van de Republiek hadden de admiraliteiten in Rotterdam en in Amsterdam veruit het grootste aandeel in de uitreding van oorlogsschepen. Zeeland speelde een kleinere rol, en de twee kleinste admiraliteitscolleges, het Noorderkwartier en Friesland, hadden vanaf het einde van de zeventiende eeuw nog maar een minimaal aandeel in de bouw en uitreding van oorlogsschepen. Niettemin beschikte elk van de vijf admiraliteiten over eigen etablissementen met pakhuizen, scheepshellingen en andere faciliteiten en toeleveringsbedrijven.
 
 ![’s Lands Zeemagazijn Amsterdam. ’s Lands Zeemagazijn met de scheepstimmerwerf van de Admiraliteit van Amsterdam. Hier werden benodigdheden voor de oorlogsvloot, zoals zeilen, touwwerk en proviand opgeslagen. Prent door Joseph Mulder, ca. 1700.  ](140-4.01_Zeemagazijn.jpg)
 
-## ‘Weitse gebouwen met lustige kamers’
+### ‘Weitse gebouwen met lustige kamers’
 
 De kantoren en vergaderruimten van de admiraliteiten werden in Holland aangeduid als het Prinsenhof, een verwijzing naar de prins van Oranje, die als admiraal-generaal de opperbevelhebber van de oorlogsvloot was. In de meeste gevallen waren die Prinsenhoven oorspronkelijk kloosters geweest, die na de overgang naar het protestantisme nieuwe bestemmingen kregen. Alleen Friesland richtte seculiere gebouwen in als onderkomen. Zo was de vergaderplaats van de Rotterdamse Admiraliteitsheren het voormalige Agnietenklooster aan de Botersloot, een gebouw dat ook onderdak bood aan een ‘artilleriehuis’, een opslag voor scheepsgeschut en andere wapens. In de jaren veertig van de zeventiende eeuw verhuisde de Admiraliteit op de Maze naar een nieuw gebouwd onderkomen, uitgevoerd in classicistische stijl, het nieuwe Prinsenhof, dichter bij de Nieuwe Maas, op de hoek van de Spaansekade en het Haringvliet.[324](#fn324) Stadsgeschiedschrijver Gerard van Spaan beschreef het gebouw in 1698 als:
 
@@ -4177,7 +1055,7 @@ Aanvankelijk was de Friese Admiraliteit in Dokkum gevestigd. Aan de Diepswal aan
 
 ![’s Lands Zeemagazijn te Harlingen. In het ’s Lands Zeemagazijn werden benodigdheden zoals zeilen, touwwerk en proviand voor de schepen van de Admiraliteit van Friesland opgeslagen. Prent door Carel Frederik Bendorp (I), naar Jan Bulthuis, 1786-1792.  ](152-4.12_GezichtHarlingen.jpg)
 
-## Bouw en onderhoud van schepen
+### Bouw en onderhoud van schepen
 
 Bouw en uitrusting van schepen werden, zeker in de eerste jaren, uitbesteed aan particulieren, maar vonden geleidelijk meer plaats op eigen werven, zij het niet uitsluitend. Dat de verschillende admiraliteiten over eigen ‘landswerven’ beschikten, betekende dat daar schepen konden worden onderhouden en uitgerust, maar niet dat daar ook alle schepen werden gebouwd. De aanwezigheid van een admiraliteitswerf was een stimulans voor de lokale economie, zeker in perioden van grote activiteiten op het gebied van bouw en uitrusting van schepen. Het leverde werk op voor scheepstimmerlieden en opdrachten voor kuipers, ankersmeden, houthandelaren en zeilmakers. Ook bierbrouwers, gortmakers en leveranciers van andere victualie profiteerden hiervan. Zelfs notarissen kregen extra inkomsten, bijvoorbeeld door het opstellen van testamenten voor schepelingen.[330](#fn330)
 
@@ -4205,7 +1083,7 @@ De onpraktische ligging van Rotterdam ten opzichte van de zee werkte de groei va
 
 Zeeland had geen centrale admiraliteitswerf. Zeeuwse oorlogsschepen werden uitgerust in vier verschillende steden: Middelburg, Veere, Vlissingen en Zierikzee. Van die vier waren Vlissingen en Veere de belangrijkste, al kon die laatste havenstad – ooit de plaats waar de Bourgondische oorlogsvloot haar thuishaven had – het op den duur niet bolwerken tegen het gunstiger gelegen Vlissingen, dat aan dieper water lag en over betere havenfaciliteiten beschikte. In deze twee steden had de admiraliteit eigen werven, elders maakte zij gebruik van particulieren, waar onder toezicht van de plaatselijke equipagemeester oorlogsschepen werden uitgerust en soms ook gebouwd. Die equipagemeesters beschikten over een arsenaal of magazijn voor de opslag van materialen en gereedschap. Alleen in Zierikzee moest de equipagemeester zich behelpen met gehuurde opslagplaatsen.[334](#fn334)
 
-![De ’s Lands Werf in Vlissingen. De timmerwerf van de Admiraliteit van Zeeland te Vlissingen. Op het schilderij zijn drie fasen van de scheepsbouw te zien: in het midden een scheepshol op de helling, links de tewaterlating en rechts de afbouw. Anoniem schilderij, vermoedelijk oorspronkelijk een bovendeurstuk, eind achttiende eeuw.  ](161-4.21_VlissingenWerf.jpg)
+![’s Lands Werf in Vlissingen. De timmerwerf van de Admiraliteit van Zeeland te Vlissingen. Op het schilderij zijn drie fasen van de scheepsbouw te zien: in het midden een scheepshol op de helling, links de tewaterlating en rechts de afbouw. Anoniem schilderij, vermoedelijk oorspronkelijk een bovendeurstuk, eind achttiende eeuw.  ](161-4.21_VlissingenWerf.jpg)
 
 ![’s Lands Werf te Vlissingen. Op de voorgrond een oorlogsschip in aanbouw. Prent door Jan Arends, 1780.  ](162-4.22_GezichtVlissingen.jpg)
 
@@ -4233,9 +1111,9 @@ De Admiraliteit van Amsterdam was, op Friesland na, de jongste, maar wel veruit 
 
 ![Plattegrond ’s Lands Zeemagazijn Amsterdam. Op de plattegrond van de eerste verdieping (tegenwoordig beschouwd als de begane grond) zijn de functies van verschillende ruimtes aangegeven, zoals de opslagplaats voor ‘zwaaren touwen’ en de ‘spykerkamer’. Plattegrond, 1814.  ](170-4.30_PlattegrondZeemagazijn.jpg)
 
-Achter het nieuwe magazijn lagen de werfterreinen. Afhankelijk van de periode waren er drie of vier hellingen voor grote schepen en nog een zelfde aantal voor kleinere vaartuigen. Bij graafwerkzaamheden in de jaren zestig van de twintigste eeuw kwamen de zware houten vloeren van enkele hellingen tevoorschijn.[341](#fn341) Het deel van het IJ dat aan de werf grensde werd aangeduid als ’s Lands Hok (of Dock). Afgescheiden door een palenrij van de overige scheepvaart was dit een ruimte waar oorlogsschepen konden worden afgebouwd of opgelegd.
-
 ![Onderlegger. Voor ’s Lands Zeemagazijn (rechts) in Amsterdam bevond zich Het Hok, de ligplaats voor oorlogsschepen. Op de voorgrond ligt een onderlegger, waarmee masten en zware voorwerpen, zoals kanonnen, in een schip werden gehesen. De onderlegger werd ook gebruikt om een schip te krengen, om het onderwaterschip schoon te maken en te herstellen Anonieme prent, achttiende eeuw.  ](171-4.31_ZeemagazijnHok.jpg)
+
+Achter het nieuwe magazijn lagen de werfterreinen. Afhankelijk van de periode waren er drie of vier hellingen voor grote schepen en nog een zelfde aantal voor kleinere vaartuigen. Bij graafwerkzaamheden in de jaren zestig van de twintigste eeuw kwamen de zware houten vloeren van enkele hellingen tevoorschijn.[341](#fn341) Het deel van het IJ dat aan de werf grensde werd aangeduid als ’s Lands Hok (of Dock). Afgescheiden door een palenrij van de overige scheepvaart was dit een ruimte waar oorlogsschepen konden worden afgebouwd of opgelegd.
 
 Meer dan van de andere admiraliteitswerven is er bekend over de dagelijkse gang van zaken op de werf in Amsterdam. De equipagemeester was de algemeen directeur en verantwoordelijk de hele gang van zaken op de werf. De feitelijke leiding over de scheepsbouw lag bij de scheepsbouwmeester. Verder waren er nog tientallen bazen van de verschillende afdelingen van het bedrijf. Het personeelsbestand fluctueerde sterk, afhankelijk van de activiteiten van de oorlogsvloot. Vaak waren er meer dan duizend werknemers. In de achttiende eeuw lag dat aantal lager, 744 in 1744. Dat steeg weer naar 1.200 in 1781, tijdens de Vierde Engelse Oorlog. Daaronder waren 728 scheepstimmerlieden, in de volksmond bekend als de ‘Bijltjes’, naar hun belangrijkste gereedschap.[342](#fn342) Verder werkten er zeilmakers, blokmakers, rolpaardenmakers, pompboorders, smeden, schilders en zelfs metselaars voor het maken van de kombuizen. Voor al die werkzaamheden was het terrein bebouwd met werkplaatsen en magazijnen. De meeste werfarbeiders waren mannen en jongens van tien jaar en ouder, maar er werkten ook enkele vrouwen voor schoonmaakwerk en de was. Werktijden waren precies vastgelegd. Volgens een reglement uit het einde van de achttiende eeuw werd er in de zomer van vijf uur ’s ochtend tot zes uur ’s avonds gewerkt, onderbroken door in totaal anderhalf uur schaft. Werkdagen van 11,5 uur dus, maar dat was in andere jaargetijden korter. In de winter werkte men nog maar krap 8 uur. Een deel van het volk had in die tijd helemaal geen werk en ontving dan ook geen loon. Niettemin kon een geschoolde scheepstimmerman in de achttiende eeuw, als hij het hele jaar werk had wat zelden het geval was, wel vijfhonderd gulden verdienen. Bovendien had hij, als hij door ouderdom niet meer kon werken, ook nog recht op een klein ouderdomspensioen, van drie gulden per week.
 
@@ -4257,7 +1135,7 @@ In Amsterdam en Rotterdam had de admiraliteit een eigen lijnbaan, respectievelij
 
 De nieuwe Amsterdamse Admiraliteitswerf was uitstekend toegerust voor de nieuwbouw van oorlogsschepen, maar het duurde nog tot 1662 voor het eerste schip, de _Harderwijk_ (133 voet, 46 stukken) hier van stapel liep. Ook na die tijd werden nog regelmatig schepen aanbesteed bij particuliere werven in en om Amsterdam. In totaal zijn er tot 1790 op de werf te Kattenburg 284 oorlogsschepen gebouwd.[344](#fn344)
 
-## De weg naar zee
+### De weg naar zee
 
 Met uitzondering van Vlissingen en Veere lagen de admiraliteitswerven ver van open zee. Dat garandeerde weliswaar veiligheid – een aanval als die op Chatham heeft in de hier behandelde periode nimmer plaatsgevonden –, maar zorgde ook voor de nodige problemen.[345](#fn345) Het was heel lastig om Rotterdam met een groot oorlogsschip te bereiken of te verlaten. De Maasmond verzandde al sinds de zestiende eeuw en schepen met grote diepgang waren gedwongen tot een flinke omweg, via de Oude Maas langs Dordrecht, het Hollands Diep en het Haringvliet. Net als voor de grote Oost-Indiëvaarders was een grote omweg noodzakelijk. Voor grote oorlogsschepen uit de noordelijke oorlogshavens vormde de Zuiderzee, met zijn smalle vaargeulen en ondieptes, eveneens een lastig obstakel.[346](#fn346)
 
@@ -4265,7 +1143,7 @@ Met uitzondering van Vlissingen en Veere lagen de admiraliteitswerven ver van op
 
 #### Bakens en loodswezen
 
-Oorlogsschepen maakten op deze wateren gebruik van algemene voorzieningen voor de scheepvaart, zoals de betonning en bebakening, loodsen en sleepdiensten. Het plaatsen en onderhoud van tonnen en bakens viel in verschillende regio’s onder uiteenlopende overheden. Zo bezat Enkhuizen het paalrecht, het recht om schepen een heffing op te leggen voor onderhoud van de tonnen in het Marsdiep, het Vlie en op de Zuiderzee en onderhield de stad Amsterdam een aantal vuurbakens. Op Urk brandde ’s nachts een vuur ten behoeve van de scheepvaart. De bouw daarvan werd in 1617 bekostigd door de Amsterdamse burgemeester Gerrit Jacob Witsen, lid van het college van Commissarissen van de Pilotage benoorden de Maze. Behalve enkele vuren aan de ‘Zijde’ (de Hollandse kust aan de kant van de Noordzee) en op de Waddeneilanden, waaronder de Brandaris op Terschelling, waren er ook vuurbakens langs de Zuiderzeekust. Dat was een uitvloeisel van een besluit van de Staten van Holland van 1699 om bij Enkhuizen, op Marken en bij Durgerdam een vuurbaak te bouwen. Het College van de Pilotage, aangesteld door de Staten van Holland, bestond uit vertegenwoordigers van de steden Amsterdam, Hoorn, Enkhuizen en Medemblik. Zij hielden toezicht op het loodswezen, stelden loodsen aan en controleerden de vuurbaken langs de kust.[347](#fn347) In de winter en bij oorlogsgevaar werden de vuren gedoofd en de tonnen weggehaald. Daarmee werd Michiel de Ruyter geconfronteerd toen hij met zijn vloot in augustus 1665 terugkeerde, na een lange tocht naar Afrika en het Caribisch gebied. Tijdens zijn afwezigheid was de Tweede Engelse Oorlog uitgebroken en bij aankomst in de Eemsmonding bleek hoe riskant de situatie was:
+Oorlogsschepen maakten op deze wateren gebruik van algemene voorzieningen voor de scheepvaart, zoals de betonning en bebakening, loodsen en sleepdiensten. Het plaatsen en onderhoud van tonnen en bakens viel in verschillende regio’s onder uiteenlopende overheden. Zo bezat Enkhuizen het paalrecht, het recht om schepen een heffing op te leggen voor onderhoud van de tonnen in het Marsdiep, het Vlie en op de Zuiderzee en onderhield de stad Amsterdam een aantal vuurbakens. Op Urk brandde ’s nachts een vuur ten behoeve van de scheepvaart. De bouw daarvan werd in 1617 bekostigd door de Amsterdamse burgemeester Gerrit Jacob Witsen, lid van het college van Commissarissen van de Pilotage benoorden de Maze. Behalve enkele vuren aan de ‘Zijde’ (de Hollandse kust aan de kant van de Noordzee) en op de Waddeneilanden, waaronder de Brandaris op Terschelling, waren er ook vuurbakens langs de Zuiderzeekust. Dat was een uitvloeisel van een besluit van de Staten van Holland van 1699 om bij Enkhuizen, op Marken en bij Durgerdam een vuurbaak te bouwen. Het College van de Pilotage, aangesteld door de Staten van Holland, bestond uit vertegenwoordigers van de steden Amsterdam, Hoorn, Enkhuizen en Medemblik. Zij hielden toezicht op het loodswezen, stelden loodsen aan en controleerden de vuurbaken langs de kust.[347](#fn347) In de winter en bij oorlogsgevaar werden de vuren gedoofd en de tonnen weggehaald. Daarmee werd Michiel de Ruyter geconfronteerd toen hij met zijn vloot in augustus 1665 terugkeerde, na een lange tocht naar Afrika en het Caribisch gebied. Tijdens zijn afwezigheid was de Tweede Engelse Oorlog uitgebroken en bij aankomst in de Eemsmonding bleek hoe riskant de situatie was
 
 ‘Kort naa den middagh gingen ze met den voorvloedt, inwaart aan, t’zeil: maar met groot gevaar van al t’zaamen schip en leeven te verliezen: want zy hadden geen lootsluiden, en al de tonnen en baakens, merkteekenen om naar te zeilen, en de drooghten te myden, waaren door last der Hooge Overheit opgenoomen; op dat d’Engelschen niet binnen gaats zouden koomen’.[348](#fn348)
 
@@ -4297,7 +1175,7 @@ Naast de buitenloodsen, die werkzaam waren in de zeegaten en voor de kust, waren
 
 Waar zoet en zout elkaar ontmoeten, slaat sediment neer. In de Republiek monden Schelde, Maas en Rijn in de Noordzee. De geringe en wisselende diepte van veel vaarwateren en zeegaten was op zichzelf al een probleem, maar voor diepstekende oorlogsschepen kwam daar nog bij dat havens en haventoegangen dichtslibden of verzandden. Voor de bestrijding van dit euvel waren de stedelijke autoriteiten verantwoordelijk. Een gebruikelijke methode was het benutten van de getijden voor het spuien van de haven. Bij afgaand getij werd de haven, inclusief slib, dan als het ware doorgespoeld. Bij Vlissingen, Middelburg en in Hellevoetsluis werkte dat redelijk. Waar het verval echter klein was, in Rotterdam, maar vooral bij de Zuiderzeehavens, moest men andere methoden toepassen: een moddermolen, aangedreven met menskracht of paarden. Na Amsterdam, waar al in 1575 een moddermolen werd ingezet, volgden ook Enkhuizen, Hoorn en Harlingen.[354](#fn354)
 
-![Moddermolen. De moddermolen werd aangedreven door een paard. Het model, een type dat rond 1650 werd gebuikt, is gebouwd op basis van oude afbeeldingen. Model door Mees Toxopeus, 1972.  ](188-4.48_Volmodel.JPG)
+![Moddermolen. De moddermolen werd aangedreven door een paard. Het model, een type dat rond 1650 werd gebuikt, is gebouwd op basis van oude afbeeldingen. Model door Mees Toxopeus, 1972.  ](188-4.48_Volmodel.jpg)
 
 ![Amsterdamse modderschouw. De schouw diende om de modder die door een moddermolen was opgebaggerd af te voeren. In 1664 kreeg scheepmaker Jan Lucas Root opdracht om honderd schouwen te bouwen op de Stadsschuitenmakerswerf van Amsterdam. Deze draagt het nummer 33. Het wrak OB19 is in 1966 opgegraven in Lelystad.   ](189-4.49_Wrakvondst.jpg)
 
@@ -4307,7 +1185,7 @@ Waar zand- of modderbanken de toegang tot de haven belemmerden was een ingrijpen
 
 ![Scheepskameel. Prent in twee delen. Boven: een (halve) scheepskameel schuin van achter, gezien aan de buitenkant; onder: de binnenkant, in vorm aangepast aan de scheepsromp. Bovenop de kamelen bevinden zich handpompen om de kameel leeg te pompen en zo met het schip op te lichten. Rechtsachter een door een scheepskameel opgelicht schip. Prent uit C. van Yk, <em>De Nederlandsche scheeps-bouw-konst open gestelt</em> (Amsterdam 1697).  ](191-4.51_CameelSchip.jpg)
 
-## Buitengaats
+### Buitengaats
 
 Voordat de oorlogsvloot of een eskader in zee stak, verzamelden de schepen zich op verschillende punten aan de Hollandse Noordzeekust: bij Texel en op de Vlierede in het noorden, bij Goeree en in het Vlacke in de monding van de Westerschelde bij fort Rammekens.[356](#fn356) Daar kwamen een groot deel van de bemanning en de laatste voorraden aan boord en begon het wachten op gunstige wind om uit te zeilen. Raden van de betrokken admiraliteiten begaven zich vlak voor vertrek van de vloot eveneens met het admiraliteitsjacht naar deze plaatsen. Een aantal functionarissen was permanent gestationeerd bij de genoemde verzamelplaatsen. Daaronder waren de commissarissen van de monstering die de belangrijke taak hadden om voor vertrek en meteen na terugkeer op de rede de monsterrol te controleren. Commissarissen van verschillende admiraliteiten waren te vinden op Texel en Oost-Vlieland, in Hellevoetsluis, Den Briel en Vlissingen, kortom, overal waar oorlogsschepen de landsgrenzen passeerden.[357](#fn357) Deze functionarissen combineerden vaak meerdere ambten. Zo benoemde de Rotterdamse Admiraliteit Cornelis Symonszoon Overzee in 1655 niet alleen tot ‘commissaris ter monsteringhe van de oorlochschepen’ in Hellevoetsluis, hij was ook opzichter van ’s Lands Magazijn aldaar en hij inde de convooien en licenten in het Goereese Gat.[358](#fn358)
 
@@ -4321,11 +1199,11 @@ Na het uitzeilen waren oorlogsschepen grotendeels op zichzelf aangewezen. Advies
 
 ![Dwangarbeid in Noord-Afrika. Tot slaaf gemaakte Nederlandse zeelieden, zogenaamde Christenslaven, aan het werk, in de omgeving van Algiers. De mannen trekken een kar met stenen. Tekening door de chirurgijn Johannes Veltkamp, 1759.  ](196-4.55_Christenslaven.jpg)
 
-## Innovatie
+### Innovatie
 
 De decentrale walorganisatie bleef in de achttiende eeuw voortbestaan, al liep de omvang van de vloot sterk terug. In totaal beschikte de Republiek omstreeks 1750 nog over niet meer dan 53 oorlogsbodems, waarvan zestien zware linieschepen. Vooral op de kleinere vestigingen, in Friesland, het Noorderkwartier en in Zeeland was het jarenlang doodstil, door gebrek aan nieuwbouw en uitredingen. Dat neemt niet weg dat er wel enkele innovaties plaatsvonden. Hiervoor is al de uitvinding van de scheepskamelen genoemd en ook de verbetering van de opleiding van stuurlieden en officieren rond het midden van de achttiende eeuw was een wezenlijke, dringend noodzakelijke vernieuwing.
 
-Het opleiden en trainen van de bemanning voor de oorlogsvloot zagen de admiraliteiten als iets wat de beginnende zeeman wel in de praktijk leerde of had geleerd bij een andere tak van scheepvaart of ambacht. Een formele opleiding aan de wal was er nog niet in de hier beschreven periode. Specifiek geschoold personeel had de oorlogsvloot nodig voor het navigeren op volle zee. Dat gold ook voor de VOC, de WIC en de koopvaardij. In particuliere schooltjes konden ambitieuze zeelieden lessen in de zeevaartkunde volgen, aan de hand van de belangrijkste instrumenten en de bijbehorende berekeningen. Al in 1586 gaf Robbert Robbertsz le Canu zulke lessen in Amsterdam. Bekend is ook Pieter Holm, instrumentmaker en ‘leermeester in de Zeekonst’ in dezelfde stad, die vanaf 1737 lessen aan huis gaf, onder meer in het huis ‘Schip Recht door Zee’. De admiraliteiten beperkten zich tot een mondeling examineren van de kandidaten. In 1672 stelde de Admiraliteit van Amsterdam bijvoorbeeld Dirk Makreel, ‘leermeester der Navigatie, Astronomia en Geometrie’, aan als ‘examinateur’ van de stuurlieden, veel later overigens dan de VOC, waar zo’n bekwaamheidsonderzoek al sinds 1619 de gewoonte was. Ook in Rotterdam en Zeeland volgde men het Amsterdamse voorbeeld.[364](#fn364) De eerste echte zeevaartschool kwam er pas in 1748, toen de Admiraliteit van Amsterdam, samen met het stadsbestuur en de VOC het Zeemans-Collegie oprichtte, geleid door Cornelis Douwes. Diens methode van het berekenen van de breedte ‘buiten de middag’ was een vernieuwing op navigatiegebied. [365](#fn365) Andere vernieuwingen kwamen uit het buitenland, zoals de octant – een instrument om de hoogte van een hemellichaam te meten. Deze Britse vinding werd al kort na de introductie in Nederland door marineofficieren gebruikt, voor het eerst op het Amsterdamse oorlogsschip _Teijlingen_ in 1737. Ook de introductie van een nauwkeurige tijdmeting in de vorm van een chronometer, belangrijk voor het bepalen de van de lengtegraad, kwam uit het Verenigd Koninkrijk.[366](#fn366)
+Het opleiden en trainen van de bemanning voor de oorlogsvloot zagen de admiraliteiten als iets wat de beginnende zeeman wel in de praktijk leerde of had geleerd bij een andere tak van scheepvaart of ambacht. Een formele opleiding aan de wal was er nog niet in de hier beschreven periode. Specifiek geschoold personeel had de oorlogsvloot nodig voor het navigeren op volle zee. Dat gold ook voor de VOC, de WIC en de koopvaardij. In particuliere schooltjes konden ambitieuze zeelieden lessen in de zeevaartkunde volgen, aan de hand van de belangrijkste instrumenten en de bijbehorende berekeningen. Al in 1586 gaf Robbert Robbertsz le Canu zulke lessen in Amsterdam. Bekend is ook Pieter Holm, instrumentmaker en ‘leermeester in de Zeekonst’ in dezelfde stad, die vanaf 1737 lessen aan huis gaf, onder meer in het huis ‘Schip Recht door Zee’. De admiraliteiten beperkten zich tot een mondeling examineren van de kandidaten. In 1672 stelde de Admiraliteit van Amsterdam bijvoorbeeld Dirk Makreel, ‘leermeester der Navigatie, Astronomia en Geometrie’, aan als ‘examinateur’ van de stuurlieden, veel later overigens dan de VOC, waar zo’n bekwaamheidsonderzoek al sinds 1619 de gewoonte was. Ook in Rotterdam en Zeeland volgde men het Amsterdamse voorbeeld.[364](#fn364) De eerste echte zeevaartschool kwam er pas in 1748, toen de Admiraliteit van Amsterdam, samen met het stadsbestuur en de VOC het Zeemans-Collegie oprichtte, geleid door Cornelis Douwes. Diens methode van het berekenen van de breedte ‘buiten de middag’ was een vernieuwing op navigatiegebied. [365](#fn365) Andere vernieuwingen kwamen uit het buitenland, zoals de octant – een instrument om de hoogte van een hemellichaam te meten. Deze Britse vinding werd al kort na de introductie in Nederland door marineofficieren gebruikt, voor het eerst op het Amsterdamse oorlogsschip _Teijlingen_ in 1737. Ook de introductie van een nauwkeurige tijdmeting in de vorm van een chronometer, belangrijk voor het bepalen van de lengtegraad, kwam uit het Verenigd Koninkrijk.[366](#fn366)
 
 Moderniseringen waren er ook op andere terreinen, al bleef het soms bij voorstellen. Tot die laatste categorie behoort het Rotterdamse plan uit de laatste jaren van de zeventiende eeuw om een kanaal door het eiland Voorne te graven, om de verbinding van Rotterdam met de zee te verkorten.[367](#fn367) Pas onder koning Willem I is dit project uitgevoerd. Ook waren er diverse plannen voor verbetering van de havenfaciliteiten voor de vloot, zoals een voorstel uit 1688 om in Willemstad aan het Hollands Diep een dokhaven in te richten.[368](#fn368)
 
@@ -4335,7 +1213,7 @@ Nieuwe inzichten kwamen veelal uit Frankrijk en Groot-Brittannië, zoals de – 
 
 ![Het Dokje van Perry in 2012. Het kleine droogdok of Dokje van Perry, grenzend aan de Stenenbeer in Vlissingen (aangelegd in 1705 en gedempt in 1974). In het begin van de 21ste eeuw werd het dok in ere hersteld. Op de achtergrond staat de voormalige machinefabriek van de Koninklijke Schelde. Foto door R.H.C. van Maanen, 2012.  ](198-4.57_Dokje.jpg)
 
-## Besluit
+### Besluit
 
 Twee eeuwen lang was de organisatie van de admiraliteitscolleges gebaseerd op een regeling uit 1597 die als ‘provisioneel’ was bedoeld. Dat paste geheel bij de staatkundige inrichting van de Republiek der Verenigde Nederlanden, die ook een versteende voortzetting was van de afspraken die actueel waren aan het begin van de Opstand tegen de Habsburgse landsheer. Het leverde een op papier inefficiënte, verbrokkelde organisatie op, met een vijfvoudig bestuursapparaat, tal van vestigingen op onpraktische plaatsen, ook buiten de officiële admiraliteitscentra. Dat de oorlogsvloot toch lange tijd, zeker tot aan het begin van de achttiende eeuw, goed functioneerde, had verschillende oorzaken. Het systeem bood voldoende mogelijkheden om krachtige maatregelen te nemen, bijvoorbeeld de bouw van een slagvloot, in de tijd van Johan de Witt, die zowel tegen de Engelse als tegen de Franse vloot was opgewassen. Vooral op de admiraliteitswerven in Amsterdam en Rotterdam verrezen in de tweede helft van de zeventiende eeuw grote en voor hun tijd uiterst moderne faciliteiten, waar men in de kalmere periode daarna zelfs nog in staat was een aantal vernieuwingen door te voeren. De wonderbaarlijke financiële basis van de oorlogsvloot, eigen inkomsten uit de heffingen op handelsstromen, de convooien en licenten, die losstonden van de politieke besluitvorming in Den Haag en aan de andere kant subsidies die de regionale belangen ontstegen, maakten het mogelijk om nog lange tijd door te gaan op de oude voet. Zolang de Republiek buiten grote conflicten bleef, viel het verval van de oorlogsvloot tot midden achttiende eeuw minder op. De povere bijdrage van de zeemacht aan de Oostenrijkse Successieoorlog (1740-1748) en de Vierde Engelse Oorlog (1780-1784) maakten duidelijk dat het land niet meer was dan een tweederangs maritieme macht, ondanks alle gezwollen retoriek na twijfelachtige successen als de Zeeslag bij Doggersbank (1781). De roep om een efficiëntere, gecentraliseerde organisatie was er wel, maar vond nauwelijks weerklank. Dat was pas mogelijk na de Bataafse Revolutie van 1795, toen alle staatsinstellingen, inclusief de defensie, radicaal op de schop gingen.
 

@@ -1,51 +1,36 @@
 <!-- content -->
-<main class="mt-16 xl:pt-12 lg:pt-32 {{gridClass}} pb-32">
+<main class="mt-16 xl:pt-12 lg:pt-32 {{gridClass}} pb-32 z-30">
    <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative" id="top">
-
-
-
-
 
             {{#each content}}
             {{#if (ifSame type "p") }}
-               
-               <p class="my-4 font-merriweather font-light" id="paragraph{{@index}}">
+               <p class="mb-4 font-merriweather font-light" id="paragraph{{@index}}">
                   {{> utils/copyPageElementLink }}{{{newHtml}}}</p>
             {{/if}}
-
             {{#if (ifSame type "h2") }}
-               <h2 class="mt-8 mb-2 text-2xl font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h2>
+               <h2 class="mb-8 mt-4  {{#if (ifSame @root.chapterMetadata.chapterId "d4h8") }}  {{else}} {{/if}} text-2xl font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h2>
             {{/if}}
-
             {{#if (ifSame type "h3") }}
-               <h3 class="mt-2 font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h3>
+               <h3 class="mb-4 mt-4 font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h3>
             {{/if}}
-
             {{#if (ifSame type "h4") }}
-               <h4 class="text-xl italic font-merriweather" id="{{id}}">{{{htmlRaw}}}</h4>
+               <h4 class="mb-2 mt-4 text-base italic font-merriweather font-bold" id="{{id}}">{{{htmlRaw}}}</h4>
             {{/if}}
-
             {{#if (ifSame type "img") }}
             {{{newHtml}}}
             {{/if}} 
-
-
-
             {{#if (ifSame type "table") }}
             </div>
-               <div class="py-3 text-sm font-sans w-full overflow-x-auto">
+               <div class="py-3 text-sm font-sans w-full overflow-x-auto {{#if (ifSame @root.chapterMetadata.chapterId "d2h4") }} xl:max-w-xl 2xl:max-w-2xl mx-auto {{/if}}">
                   <table class="">
                      {{{htmlRaw }}}
                   </table>
                </div>
                <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative">
             {{/if}}
-
-
             {{#if (ifSame type "blockquote") }}
-               <blockquote class="my-4 font-merriweather ml-4 italic">{{{htmlRaw }}}</blockquote>
+               <blockquote class="my-4 font-merriweather font-light ml-4 italic">{{{htmlRaw }}}</blockquote>
             {{/if}}
-
             {{/each}}
 
             <div id="noten"><h2 class="pb-3 text-3xl mt-16 border-t pt-8 border-nmgnBlue-300">Noten</h2></div>
@@ -62,7 +47,7 @@
             </ul>
             
 
-            
+           
 
 
    </div>

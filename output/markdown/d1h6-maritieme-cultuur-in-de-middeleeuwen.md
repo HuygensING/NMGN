@@ -1,9 +1,10 @@
 ---
+chapterId: d1h6
 title: Maritieme cultuur in de middeleeuwen
 author: Remmelt Daalder
 part: 1
 chapter: 6
-summary<em>:</em> In de middeleeuwen had de zee uiteenlopende betekenissen: een bedreigende ruimte, vol monsters. Maar scheepvaart stond ook voor rijkdom, macht en moed. Verhalen en afbeeldingen tonen het schip als metafoor voor een groep mensen, zoals het narrenschip, een vaartuig vol zondaars.
+summary: In de middeleeuwen had de zee uiteenlopende betekenissen; een bedreigende ruimte, vol monsters. Maar scheepvaart stond ook voor rijkdom, macht en moed. Verhalen en afbeeldingen tonen het schip als metafoor voor een groep mensen, zoals het narrenschip, een vaartuig vol zondaars.
 publication_date: 27 mei 2019 (31 juli 2021 doi toegevoegd)
 doi: <a href="https://zenodo.org/record/5150427#.YQVw1o4zaUk"><span data-custom-style="Hyperlink">10.5281/zenodo.5150427</span></a>
 doi_url: <a href="https://zenodo.org/records/5150427"><span data-custom-style="Hyperlink">https://zenodo.org/records/5150427</span></a>
@@ -26,7 +27,7 @@ Al in de Bijbel is de zee een terrein waar zich rampen afspelen, zoals de Zondvl
 
 ![De Sint Elisabethsvloed. In de nacht van 18 op 19 november 1421 zette de vloed grote delen van Zuid-Holland onder water. Rechts de dijkdoorbraak, links het veilige Dordrecht. Buitenluiken van een altaarstuk, geschonken door de inwoners van Wieldrecht aan de Grote Kerk in Dordrecht. Paneel,  Meester van de Elisabeth-panelen. Anoniem, ca. 1490-1495. ](4a_Sint_Elisabethvloed.jpg)
 
-![.    ](4b_Sint_Elisabethvloed.jpg)
+![De Sint Elisabethsvloed.  Paneel,  Meester van de Elisabeth-panelen. Anoniem, ca. 1490-1495. ](4b_Sint_Elisabethvloed.jpg)
 
 Hoe bedreigend de zee ook zonder monsters kon zijn, ervoeren de inwoners van Friesland, Holland en Zeeland tijdens de stormvloed op 1 november 1170. Die ramp is, naar de dag waarop hij plaatsvond, de Allerheiligenvloed genoemd. Voor de maritieme geschiedenis van ons land had die storm ingrijpende gevolgen. Door het opgestuwde water veranderde het Almere in de Zuiderzee, een binnenzee die in open verbinding stond met de Noordzee. Dat maakte in de eeuwen daarna de opkomst van tal van havensteden mogelijk, waaronder de IJsselsteden en Amsterdam. Voor tijdgenoten was dat natuurlijk niet aan de orde. In de _Annalen van Egmond_ is de Allerheiligenvloed kort beschreven: ‘Op 1 november was er een hevige storm, die enorme overstromingen teweegbracht, zodat tot aan de stadsmuren van Utrecht de werking van eb en vloed te bespeuren viel. Er werd daar zelfs een zeevis gevangen die men bolk \[wijting of kabeljauw, RD\] noemde’.[5](#fn5) Van de Allerheiligenvloed van 1170 zijn geen afbeeldingen bekend, wel van een latere ramp, de Sint Elisabethsvloed van 1421, die net als de Allerheiligenvloed het gevolg was van een najaarsstorm. In de nacht van 19 november – de naamdag van de heilige Elisabeth – overstroomden grote delen van Holland. Vooral de omgeving van Dordrecht werd zwaar getroffen: tientallen dorpen gingen ten onder en duizenden mensen vonden de dood. Familieleden van getroffenen uit het verwoeste dorp Wieldrecht lieten een altaarstuk maken als blijvende herinnering in de kerk van Dordrecht. Twee zijpanelen met beelden van de verwoestingen bevinden zich nu in het Rijksmuseum.[6](#fn6) In berichten over zulke rampen wordt de schade overigens wel eens overdreven. In een kroniek van rond 1500 is bijvoorbeeld te lezen dat in de Grote Waard, het poldergebied bij Dordrecht dat ten onder ging door de Sint Elisabethsvloed, 72 dorpen werden weggevaagd. Dat kan niet waar zijn, zoveel dorpen telde de Grote Waard niet eens![7](#fn7) De twee panelen bieden niettemin een aangrijpend beeld van de verwoestingen die de zee kon aanrichten, met vluchtende mensen in kleine bootjes, die met hun vee en hun bezittingen in zakken en kisten een veilig heenkomen zoeken. Wie zulke overstromingen meemaakte, en dat waren er velen, zal bij de term ‘zee’ op zijn minst gemengde gevoelens hebben gehad.
 
@@ -126,23 +127,23 @@ Bij al die varende dwazen mag niet worden vergeten dat schepen en scheepvaart oo
 
 ![Stadszegel van Amsterdam. Het belang van de haven en de zeehandel voor het opkomende Amsterdam wordt benadrukt door het opnemen van een schip op het stadszegel, ca. 1400. Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).  ](13a_Amsterdam.jpg)
 
-![Andere stadszegels van Nederlandse havensteden: . Biervliet, 1307. Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).  ](13b_Biervliet_1307.jpg)
+![Andere stadszegels van Nederlandse havensteden: Biervliet, 1307.  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).  ](13b_Biervliet.jpg)
 
-![. Harderwijk, tweede helft dertiende eeuw.   ](13c_Harderwijk_2de helft_13_eeuw.jpg)
+![Harderwijk, tweede helft dertiende eeuw.  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).  ](13c_Harderwijk.jpg)
 
-![. Kuinre, ca. 1400.   ](13d_Kuinre_1400.jpg)
+![Kuinre, ca. 1400.  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).  ](13d_Kuinre.jpg)
 
-![. Medemblik, dertiende eeuw.   ](13e_Medemblik_dertiende_eeuw.jpg)
+![Medemblik, dertiende eeuw.  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).  ](13e_Medemblik.jpg)
 
-![. Monnikendam, tweede helft dertiende eeuw.   ](13f_Monnikendam_2dehelft13de.jpg)
+![Monnikendam, tweede helft dertiende eeuw.  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).  ](13f_Monnikendam.jpg)
 
-![. Stavoren, tweede helft veertiende eeuw.   ](13g_Stavoren_2dehelft14eeuw.jpg)
+![Stavoren, tweede helft veertiende eeuw.  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).  ](13g_Stavoren.jpg)
 
-![. Veere, vijftiende eeuw.   ](13h_Veere_vijftiende_eeuw.jpg)
+![Veere, vijftiende eeuw.  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).  ](13h_Veere.jpg)
 
-![. Vlaardingen, ca. 1300.   ](13i_Vlaardingen_ca.1300.jpg)
+![Vlaardingen, ca. 1300.  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).  ](13i_Vlaardingen.jpg)
 
-![. IJlst, vijftiende eeuw.   ](13j_ IJlst_vijftiende_eeuw.jpg)
+![IJlst, vijftiende eeuw.  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972).  ](13j_IJlst.jpg)
 
 Op vele plaatsen langs de kusten van Noordwest-Europa zijn de stadszegels voorzien van een afbeelding van een eigentijds scheepje. Voor onderzoekers vormden die zegels in de eerste plaats een bron voor de kennis van scheepstypen: zijn het schepen met of zonder kiel, gladboordig of overnaads en zijn het hulken of koggen?[27](#fn27) Alleszins gerechtvaardigde vragen overigens, maar die zegels wijzen er ook op dat de stadsbestuurders die ze gebruikten scheepvaart en handel beschouwden als het belangrijkste kenmerk van hun gemeenschap. In de Zuidelijke Nederlanden zijn zegels met schepen al in de twaalfde eeuw te vinden, bijvoorbeeld in Mardijk (Mardyck, Frans Vlaanderen) waar de schepenen hun officiële stukken voorzagen van een zegel met Sint Nicolaas, staande in een scheepje.[28](#fn28) In het naburige Gravelines was het Sint Willibrord die varend was afgebeeld.[29](#fn29) Meer naar het noorden zijn tal van voorbeelden te vinden, meestal van schepen zonder heiligen, zoals de zegels van Damme en Biervliet in Vlaanderen, van Veere en Tholen in Zeeland, en van Amsterdam, Harderwijk, Genemuiden, IJlst en Vlieland. De zegels hangen onder allerlei oorkonden en andere stukken, ze zijn niet beperkt tot typisch maritieme documenten. Dat maakt duidelijk dat het hier gaat om een beeldmerk dat de gehele gemeenschap omvatte. Het lijkt er op dat hier sprake is van een zekere imitatie: een nieuw zegel werd kennelijk gebaseerd op voorbeelden van elders, zoals ook de tekst van stadsrechten werd overgenomen van oudere steden.
 

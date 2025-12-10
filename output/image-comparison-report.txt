@@ -1,0 +1,109 @@
+IMAGE COMPARISON REPORT
+======================
+
+Generated: 10/6/2025, 12:39:53 PM
+
+
+CHAPTER: d1h2
+==================================================
+
+SUMMARY:
+- JSON images: 65
+- Actual images: 73
+- Exact matches: 65
+- ID matches (different names): 3
+- Missing in actual folder: 0
+- Missing in JSON: 5
+
+EXACT MATCHES:
+  ✓ 1_kustvaart_vermeden.jpg
+  ✓ 3a_rivierlopen_nw_europa.jpg
+  ✓ 6_Tiel.jpg
+  ✓ 7_defMoser.jpg
+  ✓ 8_Turfvaartstelsels.jpg
+  ✓ 9_Magerman.jpg
+  ✓ 10_TurfschipDolendo.jpg
+  ✓ 11_Darinkdelven.jpg
+  ✓ 12_Nehalennia.jpg
+  ✓ 13_kraan.jpg
+  ✓ 14_Deventer5.JPG
+  ✓ 15_defNamen.jpg
+  ✓ 16_Land.png
+  ✓ 17_Stavoren.jpg
+  ✓ 18_Hellendoorn.jpg
+  ✓ 19_Rotterdam2.jpg
+  ✓ 20_ZuidBeveland.jpg
+  ✓ 21_werkschuit.jpg
+  ✓ 22_Utrecht.JPG
+  ✓ 23_uitsnaakOosterhout.png
+  ✓ 24_Utrecht1.JPG
+  ✓ 25_Utrecht2.JPG
+  ✓ 26_ZN43.jpg
+  ✓ 27_Rotterdam1.jpg
+  ✓ 28_Gorinchem.jpg
+  ✓ 30_defMeinerswijk.jpg
+  ✓ 31_Capelle.jpg
+  ✓ 32_Espel.jpg
+  ✓ 33_Tuigage.png
+  ✓ 34_Wrikken.jpg
+  ✓ 35_Bokkepoot.jpg
+  ✓ 36_Jagen.jpg
+  ✓ 37_Vlotterij.png
+  ✓ 38_defOOsterhoutmos.png
+  ✓ 39_defSintels.jpg
+  ✓ 40_Veenmos.JPG
+  ✓ 41_Verbinding.jpg
+  ✓ 42_detailveer-bij-Lent.jpg
+  ✓ 43_netDurer.png
+  ✓ 44_Schelle.jpg
+  ✓ 45_Ursula.jpg
+  ✓ 46_Roosendaal.jpg
+  ✓ 47_Deventer.jpg
+  ✓ 48_Nijmegen.PNG
+  ✓ 49_dezeuitsnwapen31.JPG
+  ✓ 50_Houtsneden.jpg
+  ✓ 51_Dordrecht.jpg
+  ✓ 52_OlofAmsterdam.jpg
+  ✓ 53_gedrZO34.png
+  ✓ 54_kookgerei.jpg
+  ✓ 55_Klepper.jpg
+  ✓ 56_BovenlanderNijmegen.jpg
+  ✓ 57_uitsnVerlanden.png
+  ✓ 58_uitsnBuitenpostpomp.png
+  ✓ 59_uitBuitenpostbalk.png
+  ✓ 60_Romp.jpg
+  ✓ 61_Wiel.JPG
+  ✓ 62_Gouwsluis.png
+  ✓ 63_Ieperen.jpg
+  ✓ 64_uitsnWillem.png
+  ✓ 65_Kaart_maritiem_03.jpg
+  ✓ 66_Kaart_maritiem_02.jpg
+  ✓ 67_uitsnOvertoom.png
+  ✓ 68_dezeSluis-Rijksstudio.jpg
+  ✓ 69_Kaart_maritiem_04.jpg
+
+ID MATCHES (DIFFERENT NAMES):
+  ~ JSON: 21_werkschuit.jpg
+    Actual: 21_werkschuit.tiff
+  ~ JSON: 26_ZN43.jpg
+    Actual: 26_ZN43.tiff
+  ~ JSON: 43_netDurer.png
+    Actual: 43_Durer.jpg
+
+MISSING IN JSON:
+  ? 29_Panorama_Koln.jpg
+  ? 2_Maquette.jpg
+  ? 3b_Kaart_maritiem_01.jpg
+  ? 4_Ontginningen.jpg
+  ? 5_Solleveld.jpg
+
+
+
+OVERALL SUMMARY
+==================================================
+Total JSON images: 65
+Total actual images: 73
+Total exact matches: 65
+Total ID matches: 3
+Total missing in actual: 0
+Total missing in JSON: 5

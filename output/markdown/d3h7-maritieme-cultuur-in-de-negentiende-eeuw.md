@@ -1,9 +1,10 @@
 ---
+chapterId: d3h7
 title: Maritieme cultuur in de negentiende eeuw
 author: Remmelt Daalder
 part: 3
 chapter: 7
-summary<em>:</em> In het nationalisme van de negentiende eeuw speelde het maritieme verleden een grote rol. Schilders, schrijvers en beeldhouwers, maar ook historici lieten zich inspireren door de daden van zeehelden uit de Gouden Eeuw, zoals Michiel de Ruyter.: undefined
+summary: In het nationalisme van de negentiende eeuw speelde het maritieme verleden een grote rol. Schilders, schrijvers en beeldhouwers, maar ook historici lieten zich inspireren door de daden van zeehelden uit de Gouden Eeuw, zoals Michiel de Ruyter.
 publication_date: 31 oktober 2019 (31 juli 2021 doi toegevoegd)
 doi: <a href="https://zenodo.org/record/5150456#.YQV4144zaUk"><span data-custom-style="Hyperlink">10.5281/zenodo.51510456</span></a>
 doi_url: <a href="https://zenodo.org/records/5150456"><span data-custom-style="Hyperlink">https://zenodo.org/records/5150456</span></a>
@@ -28,7 +29,7 @@ Zag nooit een’ eedler drom verzameld aan zijn strand.
 
 Hier nadert Evertsen! – verheft u, landgenooten!
 
-Voelt d’adeldom des stams, waaruit gij zijt gesproten! ­­
+Voelt d’adeldom des stams, waaruit gij zijt gesproten!
 
 Hier nadert Evertsen! In ’s Lands vergaderzaal,
 
@@ -44,13 +45,15 @@ Het was begrijpelijk dat schrijvers tijdens de Franse overheersing teruggrepen o
 
 Na het vertrek van de Fransen konden de werken van Helmers en Loosjes opnieuw, en met succes, worden uitgegeven. In het nieuwe, met de zuidelijke provincies verenigde Koninkrijk der Nederlanden ontstond de behoefde om de nationale identiteit te schragen met grote daden ter zee. Kleine militaire acties werden opgeblazen tot mythische proporties, zoals al eerder was gebeurd met de Zeeslag bij de Doggersbank.[9](#fn9) Zo leidde het bombardement van Algiers in 1816 tot uitbundige heldenverering. Deze strafexpeditie door een Brits-Nederlands eskader, ook bekend als de ‘tuchtiging van Algiers’, moest voorgoed een einde maken aan de activiteiten van de Barbarijse zeerovers. Het Nederlandse aandeel was overigens zeer beperkt: vijf betrekkelijk kleine schepen met weinig vuurkracht, naast 21 grote schepen van de Royal Navy.[10](#fn10) Toch werd ‘Algiers’ gevierd als een kranig staaltje, bijvoorbeeld met een _Lauwerkroon voor de Nederlandsche zeehelden, bij hunne betoonde moed en dapperheid in den zeeslag voor Algiers den 28sten van oogstmaand 1816_, alweer een werk van Adriaan Loosjes. De Nederlandse eskadercommandant, viceadmiraal jhr. Th.F. van de Capellen (1761-1824), heeft zich desondanks geen blijvende plaats verworven onder de vaderlandse zeehelden. Een zelfde korte golf van enthousiasme ontstond na de verovering van Palembang op Sumatra, zeven jaar later. Deze amfibische actie was gericht tegen de plaatselijke sultan die niet inzag dat hij het Nederlandse gezag diende te erkennen. In Nederland verscheen onmiddellijk een _Zegezang ter eere der Nederlandsche helden op Palembang_ (1821), maar ook die helden waren snel vergeten.[11](#fn11)
 
-![undefined. undefined undefined undefined ](11_Meijer_Overmeestering_van_Palembang_14 juni_1821.jpg
-3_Schouman_bombardementSK-A-1395.jpg)
+![Overmeestering van Palembang door luitenant-generaal De Kock, 14 juni 1821. Nederlandse fregatten dwingen de sultan van Palembang op Sumatra tot overgave. Schilderij door Louis Meijer, 1857.  ](11_Meijer_Overmeestering.jpg)
+
+![Het bombardement van Algiers 1816. Een Engelse-Nederlandse vloot bombardeert de stad Algiers. Daarmee kwam een definitief einde aan de activiteiten van de Barbarijse zeerovers. Schilderij door Martinus Schouman, 1853-1855.  ](3_Schouman_1395.jpg)
 
 De behoefte aan eigentijdse maritieme helden leek meer te worden bevredigd door een voorval in 1831: de zogenaamde zelfopoffering van Jan van Speijk, die op 5 februari van dat jaar zijn kanonneerboot _Nr. 2_ liever met bemanning incluis liet ontploffen dan het vaartuig en de Nederlandse vlag in handen van de oproerige Belgen te laten vallen. Van Speijks daad had alles in zich om uitbundig gevierd en herdacht te worden: dichter bij huis dan Algiers en Palembang, en een troostende gebeurtenis op een moment dat het toch al zo kleine Nederland bezig was de helft van zijn grondgebied voorgoed te verliezen. De euforie was groot, een lawine van eerbewijzen volgde direct na de knal op de Schelde: gedichten en liederen, waaronder een _declamatorium_ ‘De heldendood van J.C.J. van Speyk’[12](#fn12), penningen en sculpturen, prenten en schilderijen, en, later in de negentiende eeuw, straatnamen in tal van steden. Al zes dagen na de dood van Van Speijk, nog voor de staatsbegrafenis in Amsterdam van de bijeengeraapte stoffelijke resten van de jonge officier, had koning Willem I zijn befaamde Koninklijk Besluit genomen. Dat hield in dat er ‘voortaan bij de Nederlandsche Zeemagt altijd een der schepen of vaartuigen van oorlog den naam zal voeren van Van Speijk’.[13](#fn13) Tot op heden is dat ietwat overhaaste decreet van kracht gebleven. Een monument kwam er ook. Behalve de tombe in de Nieuwe Kerk in Amsterdam, niet ver van het graf van Van Speijks idool Michiel de Ruyter, kwam er een stenen herinnering die letterlijk een lichtend voorbeeld moest zijn voor zeevarenden: de monumentale vuurtoren in Egmond aan Zee, gereedgekomen in 1834. De kosten werden bestreden uit de verkoop van de brokstukken van de kanonneerboot _Nr. 2_. De euforie rond Van Speijk was enorm, maar zwakte ook snel af. Na 1835 werden er vrijwel geen schilderijen meer gewijd aan zijn heldendaad.[14](#fn14) Alleen de Koninklijke Marine zette de Van Speijk-cultus consequent voort. Het Koninklijk Instituut voor de Marine (KIM) in Den Helder ontving het ene aandenken na het andere, zoals schilderijen en relikwieën, waaronder fragmenten van de ontplofte kanonneerboot. Opmerkelijk is ook het Adelborstenlied uit 1887 waarin, naast verwijzingen naar De Ruyter en Tromp ook deze regels voorkomen: ‘’t Voorbeeld door Van Speijk gegeven / Volgen wij met hart en hand’.
 
-![undefined. undefined undefined undefined ](1_uitsnkleur_van_speijk_Daalder_Dubois_HSM.jpg
-18_Van_Speyk_Vuurtoren.jpg)
+![Van Speijk op 5 februari 1831. Jan van Speijk vuurt zijn pistool af in de kruitkamer. Gewapende Belgische opstandelingen zijn al bezig de kanonneerboot in te nemen. Het boek op de werktafel is de biografie van Michiel de Ruyter. Schilderij door Dominicus Franciscus du Bois, 1831.  ](1_uitsnkleurDubois_HSM.jpg)
+
+![Vuurtoren J.C.J. van Speijk in Egmond aan Zee. De vuurtoren werd in 1843 opgericht als monument ter ere van zeeheld Van Speijk. Litho door Paulus Lauters, 1841.  ](18_Van_Speyk.jpg)
 
 Het lied wordt nog altijd gezongen door aankomende marineofficieren op het KIM. Of deze belofte nog helemaal past bij de hedendaagse krijgsmacht, wordt in de eenentwintigste eeuw sterk betwijfeld.[15](#fn15) In de meest recente biografie is de auteur van mening dat men Van Speijk niet langer als held zou moeten gedenken, maar als ‘historische persoonlijkheid die het een en ander op zijn kerfstok heeft’.[16](#fn16)
 
@@ -68,7 +71,7 @@ Dat De Ruyter de eerste zeeheld op een sokkel was, lag voor de hand. Hij verenig
 
 Die sentimentele voorkeur voor huiselijkheid is ook te bespeuren in andere culturele uitingen die refereren aan de maritieme geschiedenis, zoals het populaire dichtwerk _De overwintering der Hollanders op Nova Zembla_ (1820) door Hendrik Tollens (1780-1856). Het is een uitgebreid verslag – meer dan zevenhonderd dichtregels – van de laatste reis van Jacob van Heemskerck en Willem Barentsz naar het Hoge Noorden, op zoek naar een route naar Azië.[20](#fn20) Zelfs de ontberingen in het ‘Behouden Huys’ krijgen bij Tollens iets knus:
 
-![Deze kinderprent bevat een aantal gedenkwaardige scènes uit de overwintering van Barentsz en Heemskerck op Nova Zembla.  Kleurenlitho door Jan de Haas, 1875-1903.  ](21_uitsDe_Haas_J._Nova_Zembla.jpg)
+![undefined. undefined undefined undefined ](21_De_Haas_Zembla.jpg)
 
 ‘Zoo wordt hun nood gerekt en ’t harde brood gegeten.
 
@@ -82,10 +85,15 @@ Geen kruimel wordt verspild, geen spaander wordt vertreden’.
 
 Een vergelijkbaar huiselijk element is te vinden in het enthousiasme voor tsaar Peter de Grote, die tijdens zijn bezoek aan ons land in 1697 als een eenvoudige scheepstimmerman meewerkte op de Amsterdamse VOC-werf. De woning in Zaandam waar hij enige dagen doorbracht, werd kort voor het jaar 1800 nog net op tijd gered van de sloop en later gekoesterd als een heiligdom. Dat de Oranjes verwant waren aan de Romanov-familie heeft bijgedragen aan het behoud van het Tsaar Peterhuisje. Anna Paulowna, echtgenote van de latere koning Willem II betaalde in 1823 de eerste overkapping van het bouwvallige houten huisje, nadien vervangen door een bakstenen omhulsel, ditmaal op kosten van tsaar Alexander III (1893). De cultus rond de Peter de Grote ging gepaard met de gebruikelijke elementen, zoals volksprenten voor de jeugd en uiteindelijk zelfs, in 1911, een standbeeld in Zaandam. Het verhaal van de timmerende tsaar vond niet alleen in Nederland en Rusland, maar ook elders in Europa weerklank. Zo verwerkte de Duitse componist Albert Lortzing (1801-1851) deze geschiedenis tot de komische opera _Zar und Zimmermann_ (1837), die ook in Nederland volle zalen trok.[21](#fn21) Dat een Russische tsaar en de Zeeuwse zeeheld Michiel de Ruyter zo populair waren lijkt geen verband met elkaar te hebben, afgezien van de maritieme context. Wat hen mogelijk wel verbindt is hun ‘gewoonheid’: de ene was een eenvoudig lijnbaansknechtje dat het schopte tot de hoogste positie bij de zeemacht, de ander een machtige potentaat die niet te beroerd was om op een scheepswerf samen te werken met gewone ambachtslieden, die hem bij zijn voornaam aanspraken.
 
-![Michiel de Ruyter als huisvader. Zo zag men Michiel de Ruyter het liefst in de negentiende eeuw: een gemoedelijke vaderfiguur, omringd door zijn liefhebbende familie. Prent door Hilmar Johannes Backer, ca. 1845.  ](10_Backer_De_Ruyter_als_gezinshoofd.jpg)
+![Michiel de Ruyter als huisvader. Zo zag men Michiel de Ruyter het liefst in de negentiende eeuw: een gemoedelijke vaderfiguur, omringd door zijn liefhebbende familie. Prent door Hilmar Johannes Backer, ca. 1845.  ](10_Backer_gezinshoofd.jpg)
 
-![undefined. undefined undefined undefined ](16_Czaar Peterhuisje.jpg
-19_papierenmodelhuisje.jpg)
+![Het Tsaar Peterhuisje in Zaandam. Het huisje, nu een rijksmonument, dateert van 1632. Vooraanstaande bezoekers, onder wie Napoleon, kerfden hun namen in de wanden van de woning, waar tsaar Peter de Grote in 1697 een week verbleef.   ](16_CzaarPeterhuisje.jpg)
+
+![Papieren model van het huisje van tsaar Peter de Grote 
+
+.  Vervaardigd door François de Richemont, 1814.
+
+  ](19_papierenmodelhuisje.jpg)
 
 Het theater bood een aantrekkelijke gelegenheid om moraliserend terug te blikken op de geschiedenis. De Amsterdamse schouwburg bracht in de hele negentiende eeuw tal van voorstellingen die handelden over vaderlandse helden, waaronder ook zeehelden. Tot ver in de eeuw bracht men hier stukken van Johannes Nomsz (1739-1803), een toneelschrijver die in zijn jeugd nog zeeman was geweest.[22](#fn22) Zijn drama over Michiel de Ruyter uit 1780 werd nog lang na zijn dood met succes op de planken gebracht, vooral in de jaren dertig, kort na de Belgische Opstand. Andere maritieme figuren en overzeese gebeurtenissen die hij omwerkte tot toneelstukken zijn de Slag bij de Doggersbank en de geschiedenis van dominee Hambroek, die in 1663 werd geëxecuteerd bij de ondergang van de VOC-vestiging op Formosa.[23](#fn23) Vooral dat laatste drama werd nog jarenlang gespeeld, net als andere voorstellingen over De Ruyter en over Piet Hein.[24](#fn24) Zulke stukken werden in de Amsterdamse schouwburg in de jaren na 1831 vaak gecombineerd met een opvoering van een _Hulde, aan de nagedachtenis van Hollandsch zeeheld J.C.J. van Speijk_, een bombastisch zangspel op tekst van Jacob van Lennep (1801-1868), met versregels als:
 
@@ -123,12 +131,13 @@ De waardering voor de zeeschilderkunst leidde zelfs tot een voor Nederland uniek
 
 De hernieuwde waardering voor de maritieme schilderkunst in de negentiende eeuw heeft tot duizenden werken door grote en kleine meesters geleid met titels als ‘binnenwater met tjalken’, ‘woelende (of kalme) zee’, en ontelbare strand- en riviergezichten, schipbreuken, overzetveren en pittoreske vissersfamilies.[29](#fn29) Sommige van die zee- en rivierschilders genoten in hun tijd grote bekendheid of behoorden zelfs tot de avant-garde van de kunst. Jozef Israels (1824-1911), geen zeeschilder pur sang, werd ook buiten Nederland geprezen om zijn verhalende, nogal sentimentele werken over het harde leven van de vissers aan de Noordzeekust. Zijn collega Hendrik Willem Mesdag (1831-1915), een vertegenwoordiger van de Haagse School, was wel een echte specialist, tot in het extreme: zijn oeuvre bestaat vrijwel uitsluitend uit schilderijen van bomschuiten op of bij het strand van Scheveningen.
 
-![undefined. undefined undefined undefined ](6_Nuijen_W._Schipbreuk.jpg)
+![Schipbreuk op een rotsachtige kust. Het schip lijkt reddeloos, de heftig gebarende toeschouwers, maar ook de belichting versterken het gevoel van machteloosheid tegenover de krachten van de natuur. Schilderij door Wijnand Nuijen, 1837.  ](6_Nuijen_Schipbreuk.jpg)
 
-![Klaar voor vertrek. Twee Scheveningse bomschuiten in de branding, de linker gereed om te vertrekken, de rechter bezig met het lossen van een lading verse vis.  Schilderij door Hendrik Willem Mesdag, 1893. ](25_uitsnMesdag20020634_lst_M_clip.jpg)
+![Klaar voor vertrek. Twee Scheveningse bomschuiten in de branding, de linker gereed om te vertrekken, de rechter bezig met het lossen van een lading verse vis.  Schilderij door Hendrik Willem Mesdag, 1893. ](25_uitsnMesdag20020634.jpg)
 
-![undefined. undefined undefined undefined ](13_uitsnMesdag_atelierRP-F-00-6970.jpg
-5_uitsnIsraels_Langsmoedersgraf.jpg)
+![Mesdag in zijn atelier. De schilder Hendrik Willem Mesdag in zijn atelier aan de Laan van Meerdervoort in  Den Haag, tegenwoordig als museum De Mesdag Collectie voor het publiek geopend. Foto door Sigmund Löw, 1903.  ](13_uitsnMesdag_atelier.jpg)
+
+![Langs moeders graf. Een Zandvoortse visser loopt met zijn jonge kinderen langs het graf van zijn overleden vrouw. Schilderij door Jozef Israëls, 1856.  ](5_uitsnIsraels_Langsmoedersgraf.jpg)
 
 Men zou verwachten dat al die schilderijen uit de negentiende eeuw een redelijk adequaat beeld geven van de Nederlandse scheepvaartgeschiedenis. Dat is maar gedeeltelijk het geval. Verreweg de meeste kunstenaars kozen onderwerpen waarin de eigen tijd slechts een ondergeschikte rol speelde. Liever vulden zij hun doeken met een nostalgisch aandoende zeilende tjalk op een met bomen gestoffeerd binnenwatertje dan met een raderstoomschip op een modern kanaal. Zelfs Mesdag, die ons zo’n indringend en correct beeld voorschotelt van de bommen en de vissers op het strand filterde in zijn laatste jaren als het ware zijn eigen tijd weg. Terwijl de logger de ouderwetse bom al had vervangen en de nieuwe Scheveningse haven vanaf 1904 het centrum van de plaatselijke visserij was geworden, bleef hij bommen in de branding schilderen, ook al lagen er geen bomschuiten meer op het strand. In dat opzicht was ook hij, net als zo vele vakgenoten een soort historieschilder geworden.
 
@@ -150,11 +159,15 @@ Historiezucht was ook een van de drijfveren voor de organisatoren van de Nederla
 
 ![Een deel van de bemanning aan dek van de schoener <em>Willem Barents</em>.  Glasnegatief, vervaardigd door William Grant, 1879.  ](24_modernes0090(02)098_remast_L.jpg)
 
-![undefined. undefined undefined undefined ](22_poolsch apol
-auqaa5536_picP.jpg)
+![De poolschoener <em>Willem Barents</em> in het ijs in de Noordelijke IJszee
 
-![undefined. undefined undefined undefined ](23_uitsnkust NZ Apolrb0528_M_clip.jpg
-26_Apol_L._Panorama_Nova_Zembla.jpg)
+.  Aquarel door Louis Apol, 1880.  ](22_poolschapol_picP.jpg)
+
+![De kust van Nova Zembla met links de schoener <em>Willem Barents</em>
+
+.  Schilderij door Louis Apol, gebaseerd op zijn panoramaschilderij ‘Nova Zembla’ in Amsterdam, 1898.  ](23_uitsnkustNZApolrb0528_clip.jpg)
+
+![Panorama Nova Zembla geschilderd door Louis Apol. Affiche voor een geschilderd panorama in de Amsterdam Plantage. Kleurenlitho door Bernard Willem Wierink, 1895-1915.  ](26_Apol_L_Panorama_Nova_Zembla.jpg)
 
 ## Conclusie
 

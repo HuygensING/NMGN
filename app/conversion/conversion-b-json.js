@@ -17,12 +17,14 @@ module.exports = function (resolveData) {
   let file = resolveData[2]
 
 
+
   return new Promise((resolve, reject) => {
 
     htmlJson = {}
     htmlJson.chapterMetadata = {}
     htmlJson.content = []
     htmlJson.footNotes = []
+    
 
     // replace docx strings
     replaceStringsFromDocx.forEach(replaceString => {
@@ -34,7 +36,7 @@ module.exports = function (resolveData) {
       htmlContent = htmlContent.replaceAll(replaceString[0], replaceString[1]);
     });
 
-    //utility.createFile('./test-output/html/0---' + file + '.html', htmlContent)
+    utility.createFile('./test-output/html/0---' + file + '.html', htmlContent)
 
     const dom = new JSDOM('<html><body>' + htmlContent + '</body></html>');
 
@@ -46,6 +48,7 @@ module.exports = function (resolveData) {
     let blockIsFirst 
     let blockIsLast 
     let inSeries = false;
+    let currentChapter = ''
 
     for (let i = 0; i < domNodeList.length; i++) {
       let domNodeItem = domNodeList[i]
@@ -69,6 +72,7 @@ module.exports = function (resolveData) {
       let elementData = {}
       let elementImageData = {}
       let elementFootnotes = []
+      
       elementInner = elementInner.replaceAll('\n', ' ');
 
       
@@ -79,6 +83,7 @@ module.exports = function (resolveData) {
               inMetadata = true;
           } else {
               inMetadata = false;
+
           }
       }
 
@@ -89,6 +94,8 @@ module.exports = function (resolveData) {
             let metdataLineArr = metdataLine.split(": ");
             htmlJson.chapterMetadata[metdataLineArr[0]] = convertStrToBool(metdataLineArr[1]);
         }
+        currentChapter ='d'+htmlJson.chapterMetadata.part+'h'+htmlJson.chapterMetadata.chapter; 
+        htmlJson.chapterMetadata.chapterId = currentChapter; 
         storeElement = false;
       }
 
@@ -102,14 +109,14 @@ module.exports = function (resolveData) {
           elementData.isHigherLevel = true
           htmlJson.chapterMetadata.hasHigherLevel = true
         }
-        elementInner = removeSpacesBeginEnd(elementInner)
+        elementInner = removeSpacesBeginEnd(elementInner).replaceAll('<p></p><p> </p>', '')
         elementId = utility.saveTitle(elementInner)
 
-        if (file == 'd4h8') {
+        if ( ( currentChapter == 'd1h2') || ( currentChapter == 'd4h8') ||  ( currentChapter == 'd2h3') || ( currentChapter == 'd2h4')) {   //( (file == 'd4h8') || (file == 'd1h2'))
           if (domNodeItem.tagName.toLowerCase() == 'h3') {
             elementTagName = 'h2'
             //console.log('3',domNodeItem.outerHTML);
-          }
+          }else 
           
           if (domNodeItem.tagName.toLowerCase() == 'h2') {
             elementTagName = 'h3'
@@ -127,7 +134,17 @@ module.exports = function (resolveData) {
         tableCounter++
 
         domNodeItem.innerHTML = domNodeItem.innerHTML.replaceAll('<p><span data-custom-style=\"None\">', '').replaceAll('</span></p>', '')
-        elementInner = domNodeItem.innerHTML
+        elementInner = domNodeItem.innerHTML.replaceAll('</p>', '').replaceAll('<p>', '').replace(/[\r\n]+/g, '')
+
+        // if (elementInner.includes("colspan=\"2\"")) {
+        //   console.log('elementInner');
+        // }
+        
+        
+        //.replace(/[\r\n]+/g, '')
+        
+
+        
       }
       
     
@@ -184,15 +201,7 @@ module.exports = function (resolveData) {
       if (( elementInner.toLowerCase().includes(".jpg") ) || (elementInner.toLowerCase().includes(".jpeg")) || (elementInner.toLowerCase().includes(".png"))  || (elementInner.toLowerCase().includes(".gif"))  ) {
         elementTagName = 'img'
 
-//domNodeList
-        
-
-
          const nextElementInner = domNodeList[i + 1]?.innerHTML; // safely get next element's innerHTML
-
-
-          
-
 
           if (inSeries) {
             if (nextElementInner && nextElementInner.includes("^^^^^^^^^^^^^^^^^^^^^")) {
@@ -219,8 +228,8 @@ module.exports = function (resolveData) {
           }
           
 
-        elementInner = removeSpacesBeginEnd(domNodeItem.innerHTML).replaceAll('<strong> </strong>', '').replaceAll('<mark></mark>', '')
-        elementInner = elementInner.replace('^^^^^^^^^^^^^^^^^^^^^', '')
+        elementInner = removeSpacesBeginEnd(domNodeItem.innerHTML).replaceAll('<strong>', '').replaceAll('</strong>', '').replaceAll('<mark>', '').replaceAll('</mark>', '').replaceAll('<span data-custom-style=\"None\">', '').replaceAll('</span>', '')
+        elementInner = elementInner.replace('^^^^^^^^^^^^^^^^^^^^^', '').replaceAll(' ', '').replaceAll('\n', '')
         elementId = utility.saveTitle(elementInner)
 
         
@@ -289,9 +298,6 @@ function convertStrToBool(str) {
     return out;
 }
 
-function findOcurrences(str,find) {
-  return str.split(find).length - 1;
-}
 
 function removeSpacesBeginEnd(str) {
     return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');

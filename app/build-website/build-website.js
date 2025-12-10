@@ -207,7 +207,7 @@ function renderIMGbasic(imgObject, chapterCode, blockIsFirst, blockIsLast) {
     singleImage += 'data-title="'+title+'" '
     singleImage += 'data-caption="'+caption+'"'
     singleImage += 'data-src="'+imageSrc+'">'
-    singleImage += '<img src="images/'+chapterCode+'/'+chapterCode+'-'+imgSize+'/'+imgObject.htmlRaw+'" class="'+ imgFirstOfSet +' w-24 md:w-40" alt="'+title+' '+caption+'" loading="lazy" id="img_'+imgObject.htmlRaw+'">'
+    singleImage += '<img src="images/'+chapterCode+'/'+chapterCode+'-'+imgSize+'/'+imgObject.htmlRaw+'" class="'+ imgFirstOfSet +' w-24 md:w-40" alt="'+title+' '+caption+'" id="img_'+imgObject.htmlRaw+'">'
 
   singleImage += '<div>'+title +'</div></button>';
   

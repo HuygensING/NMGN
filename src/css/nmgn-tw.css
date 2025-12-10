@@ -44,7 +44,7 @@ td {
   width: 100%;
   text-align: right; }
 
-  .tabelKopLinks {
+.tabelKopLinks {
   text-align: left;
   width: 100%;
   font-weight: 700;
@@ -56,13 +56,18 @@ td {
   font-weight: 700;
 }
 
-.tabelNummersCentreren{
+.tabelNummersCentreren {
+  text-align: center;
+  width: 100%;
+}
+
+.tabelNummersCentreren p{
   text-align: center;
   width: 100%;
 }
 
 table {
-  @apply mt-4 w-full border border-nmgnBlue-300;
+  @apply mt-4 w-full border border-nmgnBlue-300 table-fixed;
   }
 
 tr:first {

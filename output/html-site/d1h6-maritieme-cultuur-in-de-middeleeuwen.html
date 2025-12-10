@@ -8,19 +8,27 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body class="text-neutral-700">
+  <body class="text-neutral-700 relative">
   
 
-<header class="w-full bg-nmgnBlue-900 text-white p-3">
+<header class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
     <div class="max-w-[1900px] mx-auto  flex justify-between">
         <a href="index.html"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
-        <div class="">
+        <div class="flex gap-4">
             
-            <button class="cursor-pointer" onclick="toggleVis('topMenuPop', 'show'); setFocus('topnav_d1')" aria-label="klik voor alle hoofdstukken">Hoofdstukken</button>
-        </div>
+            <button class="cursor-pointer  py-1 px-2  bg-nmgnBlue-200 rounded-lg text-nmgnBlue-900 text-sm" onclick="toggleVis('topMenuPop', 'show'); setFocus('topnav_d1')" aria-label="klik voor alle hoofdstukken">Hoofdstukken</button>
+            <div class="hidden relative">
+                <input type="text" name="" id="searchField" class="bg-white w-32 text-black rounded-l-lg text-sm py-1 px-2"  aria-label="type een zoekwoord">
+                <button class=" py-1 px-2 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm flex  rounded-r-lg" id="searchButton">Zoeken</button>
+                <div class="bg-nmgnBlue-100 text-nmgnBlue-950  shadow-2xl absolute w-96 p-4 top-10 right-4 hidden max-w-lg z-50" id="searchResults">
+                    <ul id="searchResultsList" class="flex flex-col gap-2 text-sm">
+                        <li>Searching...</li>
+                    </ul>
+                </div>
+            </div>        </div>
     </div>
 </header>
-<div class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative">
+<div class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative z-30">
     <div class="col-start-2 xl:col-start-6 row-start-1 col-span-6 text-white items-start justify-center flex flex-col gap-2">
         <span class="">Deel 1 <em>Opkomst van de rivier- en zeehandel</em></span> 
         <strong>Hoofdstuk 6</strong></div>
@@ -31,347 +39,23 @@
     <div class="col-start-2 xl:col-start-6 row-start-3 col-span-6 text-white items-center justify-start">Door Remmelt Daalder</div>
     <!-- <div class="col-start-2 xl:col-start-2 row-start-4 text-white  absolute left-[20vw] hidden xl:flex"><img src="images/chapterImages/d1h6.png" class="w-24 h-24 2xl:w-36 2xl:h-36" alt=""></div> -->
 </div>
-<div class="flex flex-col px-6 lg:px-0 lg:grid gap-4 xl:gap-10  grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] w-full relative">
+<div class="flex flex-col px-6 lg:px-0 lg:grid gap-4 xl:gap-10  grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] w-full relative z-30">
 
     <!-- Nagivation -->
         <aside class="pt-12 bg-nmgnBlue-50 pl-10 hidden xl:flex col-start-1 col-span-2">
             
-            <nav class="text-xs flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16">
+            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16">
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
                 <div class="flex justify-between mb-4 border-b border-nmgnBlue-200 pb-2">
                     <em tabindex="0" aria-label="Inhoud van deze pagina">Inhoud</em>
                     <a href="#top" class="no-underline pl-2 inline-block pr-2"  aria-label="Scroll naar boven">&#8593; top</a>
                 </div>
                 <div class="flex flex-col gap-2 justify-between mb-4 pb-2" id="contentNavigationSource">
-    
-    
-    
-    
-    
-                    
-    
                         <a href="#stormvloeden" class="contentNavigationItem" id="astormvloeden">Stormvloeden</a>
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
                         <a href="#de-zeereis-van-sint-brandaan" class="contentNavigationItem" id="ade-zeereis-van-sint-brandaan">De zeereis van Sint Brandaan</a>
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
                         <a href="#nog-meer-&lt;span-data-custom-style&#x3D;&quot;heading-3-char&quot;&gt;varende-heiligen&lt;/span&gt;" class="contentNavigationItem" id="anog-meer-&lt;span-data-custom-style&#x3D;&quot;heading-3-char&quot;&gt;varende-heiligen&lt;/span&gt;">Nog meer <span data-custom-style="Heading 3 Char">varende heiligen</span></a>
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
                         <a href="#schip-als-metafoor" class="contentNavigationItem" id="aschip-als-metafoor">Schip als metafoor</a>
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
                         <a href="#maritieme-identiteit" class="contentNavigationItem" id="amaritieme-identiteit">Maritieme identiteit</a>
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
                     <a href="#noten" class="" id="a">Noten</a>
                 </div>
                 
@@ -381,112 +65,75 @@
             </nav>
         </aside>
     <!-- content -->
-    <main class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32">
+    <main class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30">
        <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative" id="top">
     
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph0">
-                      <input type="text" name="" id="paragraphLink0" value="paragraph0" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink0')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph0">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf. Bij afbeeldingen van schepen vragen zij zich in de eerste plaats af welke informatie een tekening of schilderij biedt over uiterlijk, bouwwijze en andere technische eigenschappen. Maar minstens zo relevant zijn vragen als: waarom is deze afbeelding gemaakt, welk doel had de kunstenaar en wat vonden tijdgenoten ervan? Hoe keken de inwoners van de Lage Landen aan tegen het scheepvaartbedrijf, welke rol speelden zee en schepen in hun dagelijks leven, hun rituelen, hun taal en literatuur of spel? En hoe manifesteerden die denkbeelden zich concreet in kunst- en gebruiksvoorwerpen? Met een aantal voorbeelden kunnen deze vragen hier worden voorzien van een antwoord. Veelzeggend is bijvoorbeeld de manier waarop men in de middeleeuwen de vernietigende kracht van stormvloeden en overstromingen weergaf in tekst en beeld. Hoe men het schip gebruikte als metafoor, onder meer in de beschrijvingen van heiligenlevens, maar ook in spotprenten en op schilderijen, komt vervolgens aan de orde. Tenslotte was scheepvaart verbonden met de lokale identiteit van gewesten en steden in de Nederlanden, zoals te zien op munten en stadszegels. Maritieme heldendaden uit het verleden, al dan niet verzonnen, werden bewust ingezet ter versterking van die identiteit, zoals de legendarische verovering van Damiate (Damietta) in 1218.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP0">
+        <input type="text" name="" id="paragraphLink0" value="paragraph0" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('0')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)" id="b_paragraphLink0">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)" id="b_paragraphLink0">
+            &#10006;
+        </button>
+    </span>Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf. Bij afbeeldingen van schepen vragen zij zich in de eerste plaats af welke informatie een tekening of schilderij biedt over uiterlijk, bouwwijze en andere technische eigenschappen. Maar minstens zo relevant zijn vragen als: waarom is deze afbeelding gemaakt, welk doel had de kunstenaar en wat vonden tijdgenoten ervan? Hoe keken de inwoners van de Lage Landen aan tegen het scheepvaartbedrijf, welke rol speelden zee en schepen in hun dagelijks leven, hun rituelen, hun taal en literatuur of spel? En hoe manifesteerden die denkbeelden zich concreet in kunst- en gebruiksvoorwerpen? Met een aantal voorbeelden kunnen deze vragen hier worden voorzien van een antwoord. Veelzeggend is bijvoorbeeld de manier waarop men in de middeleeuwen de vernietigende kracht van stormvloeden en overstromingen weergaf in tekst en beeld. Hoe men het schip gebruikte als metafoor, onder meer in de beschrijvingen van heiligenlevens, maar ook in spotprenten en op schilderijen, komt vervolgens aan de orde. Tenslotte was scheepvaart verbonden met de lokale identiteit van gewesten en steden in de Nederlanden, zoals te zien op munten en stadszegels. Maritieme heldendaden uit het verleden, al dan niet verzonnen, werden bewust ingezet ter versterking van die identiteit, zoals de legendarische verovering van Damiate (Damietta) in 1218.
         <button id="noteRef1" data-noteNumber="1"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         1
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h2 class="mt-8 mb-2 text-2xl font-merriweather font-bold scroll-mt-8" id="stormvloeden">Stormvloeden</h2>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph2">
-                      <input type="text" name="" id="paragraphLink2" value="paragraph2" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink2')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (2)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <h2 class="mb-8 mt-4    text-2xl font-merriweather font-bold scroll-mt-8" id="stormvloeden">Stormvloeden</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph2">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP2', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (2)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>De zee gold al sinds de oudheid als een gevaarlijk terrein, niet, zoals in latere eeuwen, als een ruimte voor kansen en uitdagingen. Het was een non-ruimte, waarvan op middeleeuwse wereldkaarten hooguit de rand te zien was. Die rand vormde de grens tussen de geordende wereld van het land en de chaos van een onbekende natte hel. De angst voor het ongeordende betrof ook andere woestenijen, zoals heidevelden of ontoegankelijke berggebieden, ook ruimten die de mens beter kon vermijden. De zee, in het bijzonder de oceaan, was de woonplaats van monsters, die de mens vijandig gezind waren.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP2">
+        <input type="text" name="" id="paragraphLink2" value="paragraph2" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('2')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (2)" id="b_paragraphLink2">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP2', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (2)" id="b_paragraphLink2">
+            &#10006;
+        </button>
+    </span>De zee gold al sinds de oudheid als een gevaarlijk terrein, niet, zoals in latere eeuwen, als een ruimte voor kansen en uitdagingen. Het was een non-ruimte, waarvan op middeleeuwse wereldkaarten hooguit de rand te zien was. Die rand vormde de grens tussen de geordende wereld van het land en de chaos van een onbekende natte hel. De angst voor het ongeordende betrof ook andere woestenijen, zoals heidevelden of ontoegankelijke berggebieden, ook ruimten die de mens beter kon vermijden. De zee, in het bijzonder de oceaan, was de woonplaats van monsters, die de mens vijandig gezind waren.
         <button id="noteRef2" data-noteNumber="2"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         2
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Mappa Mundi" data-caption="Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld. Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300. <br>Hereford Cathedral, Hereford."data-src="images/d1h6/d1h6-600/0_Mappa_Mundi.jpg"><img src="images/d1h6/d1h6-170/0_Mappa_Mundi.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Mappa Mundi Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld. Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300. <br>Hereford Cathedral, Hereford." loading="lazy" id="img_0_Mappa_Mundi.jpg"><div>Mappa Mundi</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Jonas en de walvis" data-caption="Glas in lood, kerkraam van de Sint Janskerk in Gouda. Dirck Crabeth, voor 1560. <br>Stichting Goudse Sint-Jan, Gouda."data-src="images/d1h6/d1h6-600/2_Sint_Jonas.jpg"><img src="images/d1h6/d1h6-170/2_Sint_Jonas.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Jonas en de walvis Glas in lood, kerkraam van de Sint Janskerk in Gouda. Dirck Crabeth, voor 1560. <br>Stichting Goudse Sint-Jan, Gouda." loading="lazy" id="img_2_Sint_Jonas.jpg"><div>Jonas en de walvis</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Zeemonsters" data-caption="Pagina’s uit het Visboek van Adriaen Coenensz. van Schilperoort. Handschrift op papier, 1577-1579. <br>Koninklijke Bibliotheek, Den Haag."data-src="images/d1h6/d1h6-600/3_Visboek.jpg"><img src="images/d1h6/d1h6-170/3_Visboek.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Zeemonsters Pagina’s uit het Visboek van Adriaen Coenensz. van Schilperoort. Handschrift op papier, 1577-1579. <br>Koninklijke Bibliotheek, Den Haag." loading="lazy" id="img_3_Visboek.jpg"><div>Zeemonsters</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph6">
-                      <input type="text" name="" id="paragraphLink6" value="paragraph6" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink6')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Mappa Mundi" data-caption="Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld. Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300. <br>Hereford Cathedral, Hereford."data-src="images/d1h6/d1h6-600/0_Mappa_Mundi.jpg"><img src="images/d1h6/d1h6-170/0_Mappa_Mundi.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Mappa Mundi Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld. Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300. <br>Hereford Cathedral, Hereford." id="img_0_Mappa_Mundi.jpg"><div>Mappa Mundi</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Jonas en de walvis" data-caption="Glas in lood, kerkraam van de Sint Janskerk in Gouda. Dirck Crabeth, voor 1560. <br>Stichting Goudse Sint-Jan, Gouda."data-src="images/d1h6/d1h6-600/2_Sint_Jonas.jpg"><img src="images/d1h6/d1h6-170/2_Sint_Jonas.jpg" class=" w-24 md:w-40" alt="Jonas en de walvis Glas in lood, kerkraam van de Sint Janskerk in Gouda. Dirck Crabeth, voor 1560. <br>Stichting Goudse Sint-Jan, Gouda." id="img_2_Sint_Jonas.jpg"><div>Jonas en de walvis</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Zeemonsters" data-caption="Pagina’s uit het Visboek van Adriaen Coenensz. van Schilperoort. Handschrift op papier, 1577-1579. <br>Koninklijke Bibliotheek, Den Haag."data-src="images/d1h6/d1h6-600/3_Visboek.jpg"><img src="images/d1h6/d1h6-170/3_Visboek.jpg" class=" w-24 md:w-40" alt="Zeemonsters Pagina’s uit het Visboek van Adriaen Coenensz. van Schilperoort. Handschrift op papier, 1577-1579. <br>Koninklijke Bibliotheek, Den Haag." id="img_3_Visboek.jpg"><div>Zeemonsters</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph6">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP6', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Al in de Bijbel is de zee een terrein waar zich rampen afspelen, zoals de Zondvloed, het verhaal van Jonas die overboord wordt geworpen en vervolgens opgeslokt door een zeemonster, of de zeereis van Paulus, die eindigt in schipbreuk. De beschrijving in het apocriefe Bijbelboek Jezus Sirach zullen veel mensen instemmend hebben aangehoord: ‘Die de zee bevaren vertellen het gevaar daarvan, en wij zijn verwonderd als wij het met onze oren horen. Want daar zijn ongelofelijke en wonderlijke werken; verscheidenheid van alle gedierten en onderscheid der walvissen’<em>.</em>
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP6">
+        <input type="text" name="" id="paragraphLink6" value="paragraph6" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('6')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)" id="b_paragraphLink6">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP6', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)" id="b_paragraphLink6">
+            &#10006;
+        </button>
+    </span>Al in de Bijbel is de zee een terrein waar zich rampen afspelen, zoals de Zondvloed, het verhaal van Jonas die overboord wordt geworpen en vervolgens opgeslokt door een zeemonster, of de zeereis van Paulus, die eindigt in schipbreuk. De beschrijving in het apocriefe Bijbelboek Jezus Sirach zullen veel mensen instemmend hebben aangehoord: ‘Die de zee bevaren vertellen het gevaar daarvan, en wij zijn verwonderd als wij het met onze oren horen. Want daar zijn ongelofelijke en wonderlijke werken; verscheidenheid van alle gedierten en onderscheid der walvissen’<em>.</em>
         <button id="noteRef3" data-noteNumber="3"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         3
@@ -495,47 +142,26 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         4
         </button> Coenen was niet de enige, nog tot in de zeventiende eeuw zijn de oceanen op zeekaarten bevolkt met geschubde griezels, wat de tochten van zeereizigers voor de thuisblijver nog heroïscher maakte.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Sint Elisabethsvloed" data-caption="In de nacht van 18 op 19 november 1421 zette de vloed grote delen van Zuid-Holland onder water. Rechts de dijkdoorbraak, links het veilige Dordrecht. Buitenluiken van een altaarstuk, geschonken door de inwoners van Wieldrecht aan de Grote Kerk in Dordrecht. Paneel,  Meester van de Elisabeth-panelen. Anoniem, ca. 1490-1495.<br>Rijksmuseum, Amsterdam."data-src="images/d1h6/d1h6-600/4a_Sint_Elisabethvloed.jpg"><img src="images/d1h6/d1h6-170/4a_Sint_Elisabethvloed.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Sint Elisabethsvloed In de nacht van 18 op 19 november 1421 zette de vloed grote delen van Zuid-Holland onder water. Rechts de dijkdoorbraak, links het veilige Dordrecht. Buitenluiken van een altaarstuk, geschonken door de inwoners van Wieldrecht aan de Grote Kerk in Dordrecht. Paneel,  Meester van de Elisabeth-panelen. Anoniem, ca. 1490-1495.<br>Rijksmuseum, Amsterdam." loading="lazy" id="img_4a_Sint_Elisabethvloed.jpg"><div>De Sint Elisabethsvloed</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="" data-caption="  <br>"data-src="images/d1h6/d1h6-600/4b_Sint_Elisabethvloed.jpg"><img src="images/d1h6/d1h6-170/4b_Sint_Elisabethvloed.jpg" class="imgFirstOfSet w-24 md:w-40" alt="   <br>" loading="lazy" id="img_4b_Sint_Elisabethvloed.jpg"><div></div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph9">
-                      <input type="text" name="" id="paragraphLink9" value="paragraph9" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink9')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (9)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Sint Elisabethsvloed" data-caption="In de nacht van 18 op 19 november 1421 zette de vloed grote delen van Zuid-Holland onder water. Rechts de dijkdoorbraak, links het veilige Dordrecht. Buitenluiken van een altaarstuk, geschonken door de inwoners van Wieldrecht aan de Grote Kerk in Dordrecht. Paneel,  Meester van de Elisabeth-panelen. Anoniem, ca. 1490-1495.<br>Rijksmuseum, Amsterdam."data-src="images/d1h6/d1h6-600/4a_Sint_Elisabethvloed.jpg"><img src="images/d1h6/d1h6-170/4a_Sint_Elisabethvloed.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Sint Elisabethsvloed In de nacht van 18 op 19 november 1421 zette de vloed grote delen van Zuid-Holland onder water. Rechts de dijkdoorbraak, links het veilige Dordrecht. Buitenluiken van een altaarstuk, geschonken door de inwoners van Wieldrecht aan de Grote Kerk in Dordrecht. Paneel,  Meester van de Elisabeth-panelen. Anoniem, ca. 1490-1495.<br>Rijksmuseum, Amsterdam." id="img_4a_Sint_Elisabethvloed.jpg"><div>De Sint Elisabethsvloed</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Sint Elisabethsvloed" data-caption=" Paneel,  Meester van de Elisabeth-panelen. Anoniem, ca. 1490-1495.<br>Rijksmuseum, Amsterdam."data-src="images/d1h6/d1h6-600/4b_Sint_Elisabethvloed.jpg"><img src="images/d1h6/d1h6-170/4b_Sint_Elisabethvloed.jpg" class=" w-24 md:w-40" alt="De Sint Elisabethsvloed  Paneel,  Meester van de Elisabeth-panelen. Anoniem, ca. 1490-1495.<br>Rijksmuseum, Amsterdam." id="img_4b_Sint_Elisabethvloed.jpg"><div>De Sint Elisabethsvloed</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph9">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP9', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (9)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Hoe bedreigend de zee ook zonder monsters kon zijn, ervoeren de inwoners van Friesland, Holland en Zeeland tijdens de stormvloed op 1 november 1170. Die ramp is, naar de dag waarop hij plaatsvond, de Allerheiligenvloed genoemd. Voor de maritieme geschiedenis van ons land had die storm ingrijpende gevolgen. Door het opgestuwde water veranderde het Almere in de Zuiderzee, een binnenzee die in open verbinding stond met de Noordzee. Dat maakte in de eeuwen daarna de opkomst van tal van havensteden mogelijk, waaronder de IJsselsteden en Amsterdam. Voor tijdgenoten was dat natuurlijk niet aan de orde. In de <em>Annalen van Egmond</em> is de Allerheiligenvloed kort beschreven: ‘Op 1 november was er een hevige storm, die enorme overstromingen teweegbracht, zodat tot aan de stadsmuren van Utrecht de werking van eb en vloed te bespeuren viel. Er werd daar zelfs een zeevis gevangen die men bolk [wijting of kabeljauw, RD] noemde’.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP9">
+        <input type="text" name="" id="paragraphLink9" value="paragraph9" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('9')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (9)" id="b_paragraphLink9">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP9', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (9)" id="b_paragraphLink9">
+            &#10006;
+        </button>
+    </span>Hoe bedreigend de zee ook zonder monsters kon zijn, ervoeren de inwoners van Friesland, Holland en Zeeland tijdens de stormvloed op 1 november 1170. Die ramp is, naar de dag waarop hij plaatsvond, de Allerheiligenvloed genoemd. Voor de maritieme geschiedenis van ons land had die storm ingrijpende gevolgen. Door het opgestuwde water veranderde het Almere in de Zuiderzee, een binnenzee die in open verbinding stond met de Noordzee. Dat maakte in de eeuwen daarna de opkomst van tal van havensteden mogelijk, waaronder de IJsselsteden en Amsterdam. Voor tijdgenoten was dat natuurlijk niet aan de orde. In de <em>Annalen van Egmond</em> is de Allerheiligenvloed kort beschreven: ‘Op 1 november was er een hevige storm, die enorme overstromingen teweegbracht, zodat tot aan de stadsmuren van Utrecht de werking van eb en vloed te bespeuren viel. Er werd daar zelfs een zeevis gevangen die men bolk [wijting of kabeljauw, RD] noemde’.
         <button id="noteRef5" data-noteNumber="5"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         5
@@ -548,77 +174,45 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         7
         </button> De twee panelen bieden niettemin een aangrijpend beeld van de verwoestingen die de zee kon aanrichten, met vluchtende mensen in kleine bootjes, die met hun vee en hun bezittingen in zakken en kisten een veilig heenkomen zoeken. Wie zulke overstromingen meemaakte, en dat waren er velen, zal bij de term ‘zee’ op zijn minst gemengde gevoelens hebben gehad.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h2 class="mt-8 mb-2 text-2xl font-merriweather font-bold scroll-mt-8" id="de-zeereis-van-sint-brandaan">De zeereis van Sint Brandaan</h2>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph11">
-                      <input type="text" name="" id="paragraphLink11" value="paragraph11" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink11')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (11)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <h2 class="mb-8 mt-4    text-2xl font-merriweather font-bold scroll-mt-8" id="de-zeereis-van-sint-brandaan">De zeereis van Sint Brandaan</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph11">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP11', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (11)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Een voorbeeld van de voorstelling die men zich van de zee maakte, is het verhaal van Sint Brandaan. Deze Ierse heilige uit de zesde eeuw maakte per schip een zeereis vol wonderbaarlijke ontmoetingen. Op verschillende manieren zijn Brandaans avonturen overgeleverd, in het Nederlands moet dat rond 1150 zijn gebeurd. De bewerker wist wel iets van scheepsbouw, zoals blijkt uit deze beschrijving van het schip van Sint Brandaan:</p>
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP11">
+        <input type="text" name="" id="paragraphLink11" value="paragraph11" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('11')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (11)" id="b_paragraphLink11">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <blockquote class="my-4 font-merriweather ml-4 italic"> <p>‘Doe ghinc Brandaen te hant</p> <p>an des zeewes kant</p> <p>ende dede eenen kiel tauwen</p> <p>vaste ende ghetrauwen.</p> <p>Die mast was vuerijn hout.</p> <p>Dat zeil dede hi menichfout</p> <p>besnijden ende bewinden.</p> <p>Den kyel dede hi binden</p> <p>met ysere arde [harde spijkers] staerke,</p> <p>Na die houde [oude] aerke</p> <p>die Noë wijlen vrochte</p> <p>doe hi die dylovie [zondvloed] vruchte [vreesde].</p> <p>Den ancker maecte hi stalijn,</p> <p>Daers hem van noede soude zijn’<em>.</em><a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p> </blockquote>
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Sint Brandaan op Walviseiland" data-caption="Op de rug van een enorme vis, die hij eerst aanzag voor een eiland draagt Sint Brandaan de mis op. Op de kaart is het eiland in de Atlantische Oceaan aangegeven waarvan Columbus nog vermoedde dat hij het zou tegenkomen op zijn reis naar Indië. Gravure uit een levensbeschrijving van Sint Brandaan, uitgegeven in 1621. <br>John Carter Brown Library, Providence, Rhode Island."data-src="images/d1h6/d1h6-600/4c_extra_Brandaan.jpg"><img src="images/d1h6/d1h6-170/4c_extra_Brandaan.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Sint Brandaan op Walviseiland Op de rug van een enorme vis, die hij eerst aanzag voor een eiland draagt Sint Brandaan de mis op. Op de kaart is het eiland in de Atlantische Oceaan aangegeven waarvan Columbus nog vermoedde dat hij het zou tegenkomen op zijn reis naar Indië. Gravure uit een levensbeschrijving van Sint Brandaan, uitgegeven in 1621. <br>John Carter Brown Library, Providence, Rhode Island." loading="lazy" id="img_4c_extra_Brandaan.jpg"><div>Sint Brandaan op Walviseiland</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph14">
-                      <input type="text" name="" id="paragraphLink14" value="paragraph14" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink14')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (14)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP11', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (11)" id="b_paragraphLink11">
+            &#10006;
+        </button>
+    </span>Een voorbeeld van de voorstelling die men zich van de zee maakte, is het verhaal van Sint Brandaan. Deze Ierse heilige uit de zesde eeuw maakte per schip een zeereis vol wonderbaarlijke ontmoetingen. Op verschillende manieren zijn Brandaans avonturen overgeleverd, in het Nederlands moet dat rond 1150 zijn gebeurd. De bewerker wist wel iets van scheepsbouw, zoals blijkt uit deze beschrijving van het schip van Sint Brandaan:</p>
+                   <blockquote class="my-4 font-merriweather font-light ml-4 italic"> <p>‘Doe ghinc Brandaen te hant</p> <p>an des zeewes kant</p> <p>ende dede eenen kiel tauwen</p> <p>vaste ende ghetrauwen.</p> <p>Die mast was vuerijn hout.</p> <p>Dat zeil dede hi menichfout</p> <p>besnijden ende bewinden.</p> <p>Den kyel dede hi binden</p> <p>met ysere arde [harde spijkers] staerke,</p> <p>Na die houde [oude] aerke</p> <p>die Noë wijlen vrochte</p> <p>doe hi die dylovie [zondvloed] vruchte [vreesde].</p> <p>Den ancker maecte hi stalijn,</p> <p>Daers hem van noede soude zijn’<em>.</em><a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p> </blockquote>
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Sint Brandaan op Walviseiland" data-caption="Op de rug van een enorme vis, die hij eerst aanzag voor een eiland draagt Sint Brandaan de mis op. Op de kaart is het eiland in de Atlantische Oceaan aangegeven waarvan Columbus nog vermoedde dat hij het zou tegenkomen op zijn reis naar Indië. Gravure uit een levensbeschrijving van Sint Brandaan, uitgegeven in 1621. <br>John Carter Brown Library, Providence, Rhode Island."data-src="images/d1h6/d1h6-600/4c_extra_Brandaan.jpg"><img src="images/d1h6/d1h6-170/4c_extra_Brandaan.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Sint Brandaan op Walviseiland Op de rug van een enorme vis, die hij eerst aanzag voor een eiland draagt Sint Brandaan de mis op. Op de kaart is het eiland in de Atlantische Oceaan aangegeven waarvan Columbus nog vermoedde dat hij het zou tegenkomen op zijn reis naar Indië. Gravure uit een levensbeschrijving van Sint Brandaan, uitgegeven in 1621. <br>John Carter Brown Library, Providence, Rhode Island." id="img_4c_extra_Brandaan.jpg"><div>Sint Brandaan op Walviseiland</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph14">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP14', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (14)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Brandaans reis wordt uitgelegd als boetedoening voor zijn ongeloof in de wonderen Gods. Over de zee van het leven leidt God hem naar het aards paradijs, een eiland dat zich ergens in de Atlantische Oceaan zou bevinden. Zo groot was het gezag van dit heiligenleven dat zelfs Columbus meende dat hij het eiland van Sint Brandaan zou tegenkomen op zijn reis naar het westen.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP14">
+        <input type="text" name="" id="paragraphLink14" value="paragraph14" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('14')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (14)" id="b_paragraphLink14">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP14', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (14)" id="b_paragraphLink14">
+            &#10006;
+        </button>
+    </span>Brandaans reis wordt uitgelegd als boetedoening voor zijn ongeloof in de wonderen Gods. Over de zee van het leven leidt God hem naar het aards paradijs, een eiland dat zich ergens in de Atlantische Oceaan zou bevinden. Zo groot was het gezag van dit heiligenleven dat zelfs Columbus meende dat hij het eiland van Sint Brandaan zou tegenkomen op zijn reis naar het westen.
         <button id="noteRef9" data-noteNumber="9"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         9
@@ -627,58 +221,27 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         10
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h2 class="mt-8 mb-2 text-2xl font-merriweather font-bold scroll-mt-8" id="nog-meer-&lt;span-data-custom-style&#x3D;&quot;heading-3-char&quot;&gt;varende-heiligen&lt;/span&gt;">Nog meer <span data-custom-style="Heading 3 Char">varende heiligen</span></h2>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Antependium (altaardoek) van het schippersgilde in Nijmegen" data-caption="Centraal is een kogge afgebeeld, geflankeerd door Maria met Jezus en St. Olof. Het doek hing oorspronkelijk waarschijnlijk voor het altaar van de Olofskapel in de Stevenskerk in Nijmegen. Linnen, vierde kwart vijftiende eeuw. <br>Valkhofmuseum, Nijmegen."data-src="images/d1h6/d1h6-600/5_Antependium.jpg"><img src="images/d1h6/d1h6-170/5_Antependium.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Antependium (altaardoek) van het schippersgilde in Nijmegen Centraal is een kogge afgebeeld, geflankeerd door Maria met Jezus en St. Olof. Het doek hing oorspronkelijk waarschijnlijk voor het altaar van de Olofskapel in de Stevenskerk in Nijmegen. Linnen, vierde kwart vijftiende eeuw. <br>Valkhofmuseum, Nijmegen." loading="lazy" id="img_5_Antependium.jpg"><div>Antependium (altaardoek) van het schippersgilde in Nijmegen</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Heilige Maagd Maria in een schip met het lichaam van Christus op haar schoot" data-caption="Gewelfschildering, ca. 1500.  <br>Oude Kerk, Amsterdam."data-src="images/d1h6/d1h6-600/6_Gewelfschildering_Oude_Kerk.jpg"><img src="images/d1h6/d1h6-170/6_Gewelfschildering_Oude_Kerk.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Heilige Maagd Maria in een schip met het lichaam van Christus op haar schoot Gewelfschildering, ca. 1500.  <br>Oude Kerk, Amsterdam." loading="lazy" id="img_6_Gewelfschildering_Oude_Kerk.jpg"><div>De Heilige Maagd Maria in een schip met het lichaam van Christus op haar schoot</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph18">
-                      <input type="text" name="" id="paragraphLink18" value="paragraph18" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink18')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (18)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <h2 class="mb-8 mt-4    text-2xl font-merriweather font-bold scroll-mt-8" id="nog-meer-&lt;span-data-custom-style&#x3D;&quot;heading-3-char&quot;&gt;varende-heiligen&lt;/span&gt;">Nog meer <span data-custom-style="Heading 3 Char">varende heiligen</span></h2>
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Antependium (altaardoek) van het schippersgilde in Nijmegen" data-caption="Centraal is een kogge afgebeeld, geflankeerd door Maria met Jezus en St. Olof. Het doek hing oorspronkelijk waarschijnlijk voor het altaar van de Olofskapel in de Stevenskerk in Nijmegen. Linnen, vierde kwart vijftiende eeuw. <br>Valkhofmuseum, Nijmegen."data-src="images/d1h6/d1h6-600/5_Antependium.jpg"><img src="images/d1h6/d1h6-170/5_Antependium.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Antependium (altaardoek) van het schippersgilde in Nijmegen Centraal is een kogge afgebeeld, geflankeerd door Maria met Jezus en St. Olof. Het doek hing oorspronkelijk waarschijnlijk voor het altaar van de Olofskapel in de Stevenskerk in Nijmegen. Linnen, vierde kwart vijftiende eeuw. <br>Valkhofmuseum, Nijmegen." id="img_5_Antependium.jpg"><div>Antependium (altaardoek) van het schippersgilde in Nijmegen</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Heilige Maagd Maria in een schip met het lichaam van Christus op haar schoot" data-caption="Gewelfschildering, ca. 1500.  <br>Oude Kerk, Amsterdam."data-src="images/d1h6/d1h6-600/6_Gewelfschildering_Oude_Kerk.jpg"><img src="images/d1h6/d1h6-170/6_Gewelfschildering_Oude_Kerk.jpg" class=" w-24 md:w-40" alt="De Heilige Maagd Maria in een schip met het lichaam van Christus op haar schoot Gewelfschildering, ca. 1500.  <br>Oude Kerk, Amsterdam." id="img_6_Gewelfschildering_Oude_Kerk.jpg"><div>De Heilige Maagd Maria in een schip met het lichaam van Christus op haar schoot</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph18">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP18', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (18)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Een reis over water, en zeker over zee was een hachelijke onderneming. In tal van kerken in Nederland en België waren altaren en kapellen gewijd aan heiligen die de scheepvaart op enige manier in hun portefeuille hadden, zelfs ver van de kust, maar vooral in plaatsen waar zeevaart een grote rol speelde. De Sint Olofskapel aan de Zeedijk in Amsterdam herinnert bijvoorbeeld aan de intensieve handelscontacten met Noorwegen. Daar werd Sint Olof of Olaf vereerd, een zeevarende heilige (995-1030), koning van Noorwegen en vurig bestrijder van het heidendom. De kapel werd in de vijftiende eeuw gesticht, vermoedelijk door het gilde van de ‘buitenlandvaarders’, nadat Amsterdam een handelsprivilege had verkregen voor de vaart naar Noorwegen.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP18">
+        <input type="text" name="" id="paragraphLink18" value="paragraph18" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('18')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (18)" id="b_paragraphLink18">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP18', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (18)" id="b_paragraphLink18">
+            &#10006;
+        </button>
+    </span>Een reis over water, en zeker over zee was een hachelijke onderneming. In tal van kerken in Nederland en België waren altaren en kapellen gewijd aan heiligen die de scheepvaart op enige manier in hun portefeuille hadden, zelfs ver van de kust, maar vooral in plaatsen waar zeevaart een grote rol speelde. De Sint Olofskapel aan de Zeedijk in Amsterdam herinnert bijvoorbeeld aan de intensieve handelscontacten met Noorwegen. Daar werd Sint Olof of Olaf vereerd, een zeevarende heilige (995-1030), koning van Noorwegen en vurig bestrijder van het heidendom. De kapel werd in de vijftiende eeuw gesticht, vermoedelijk door het gilde van de ‘buitenlandvaarders’, nadat Amsterdam een handelsprivilege had verkregen voor de vaart naar Noorwegen.
         <button id="noteRef11" data-noteNumber="11"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         11
@@ -687,81 +250,49 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         12
         </button> De Oude Kerk was trouwens als geheel gewijd aan Sint Nicolaas, ook al een heilige beschermer van zeelui en kooplieden en patroonheilige van de stad Amsterdam.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Reliekschrijn van de heilige Ursula" data-caption="Schildering op houten panelen. Hans Memling, 1489. <br>Oud Sint-Janshospitaal, Brugge."data-src="images/d1h6/d1h6-600/7_Reliekschrijn.jpg"><img src="images/d1h6/d1h6-170/7_Reliekschrijn.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Reliekschrijn van de heilige Ursula Schildering op houten panelen. Hans Memling, 1489. <br>Oud Sint-Janshospitaal, Brugge." loading="lazy" id="img_7_Reliekschrijn.jpg"><div>Reliekschrijn van de heilige Ursula</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph20">
-                      <input type="text" name="" id="paragraphLink20" value="paragraph20" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink20')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (20)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Reliekschrijn van de heilige Ursula" data-caption="Schildering op houten panelen. Hans Memling, 1489. <br>Oud Sint-Janshospitaal, Brugge."data-src="images/d1h6/d1h6-600/7_Reliekschrijn.jpg"><img src="images/d1h6/d1h6-170/7_Reliekschrijn.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Reliekschrijn van de heilige Ursula Schildering op houten panelen. Hans Memling, 1489. <br>Oud Sint-Janshospitaal, Brugge." id="img_7_Reliekschrijn.jpg"><div>Reliekschrijn van de heilige Ursula</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph20">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP20', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (20)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Er zijn ook heiligen van wie de biografie weliswaar duidelijk maritieme trekjes vertoont, maar die toch tot andere vormen van verering inspireerden. Zelfs Brandaan, die zijn heiligenstatus op zee verwierf, werd in de Nederlanden vaak geassocieerd met heel andere zaken. Vermoedelijk is het door zijn naam dat hij in verband werd gebracht met vuur, zoals in de Sint Gilliskerk in Brugge, waar hij de beschermer was van het kaarsenmakersgilde.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP20">
+        <input type="text" name="" id="paragraphLink20" value="paragraph20" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('20')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (20)" id="b_paragraphLink20">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP20', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (20)" id="b_paragraphLink20">
+            &#10006;
+        </button>
+    </span>Er zijn ook heiligen van wie de biografie weliswaar duidelijk maritieme trekjes vertoont, maar die toch tot andere vormen van verering inspireerden. Zelfs Brandaan, die zijn heiligenstatus op zee verwierf, werd in de Nederlanden vaak geassocieerd met heel andere zaken. Vermoedelijk is het door zijn naam dat hij in verband werd gebracht met vuur, zoals in de Sint Gilliskerk in Brugge, waar hij de beschermer was van het kaarsenmakersgilde.
         <button id="noteRef13" data-noteNumber="13"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         13
         </button> Bij de Brandaris lijkt er eveneens een verband te zijn tussen de vroegere kapel van Brandaan en het licht van de vuurtoren. In de genoemde kerk in Brugge is ook de vijftiende-eeuwse schilder Hans Memling begraven. Zijn oeuvre is niet specifiek maritiem te noemen, maar één meesterwerk van zijn hand valt op door de uitgebreide maritieme voorstelling. De Ursulaschrijn, nog altijd te bewonderen in het Brugse Sint Janshospitaal, is een beschilderde kist uit 1489, bestemd voor het bewaren van relieken. In zes scènes heeft Memling op de kist het leven van deze heilige maagd afgebeeld, een leven waarin een lange zeereis een grote rol speelde. Volgens de legende was Ursula een christelijke Bretonse prinses, die zou trouwen met een zoon van een Engelse koning, een heiden. Voor het huwelijk zou worden voltrokken maakte ze per schip, in gezelschap van 11.000 maagden, een pelgrimstocht naar Rome en reisde ze door heel Europa. Vervolgens kwam ze in het jaar 453 aan in Keulen, waar de koning van de Hunnen haar en al haar metgezellinnen liet doden. Of het verhaal een kern van waarheid bevat, is hier niet van belang, wel dat Ursula regelmatig is afgebeeld in een maritieme setting, soms met een scheepje in haar hand. Wie in Brugge de reliekschrijn kwam aanbidden zal vooral Ursula’s kuisheid en de maagdelijkheid van de heilige en al haar medereizigsters in gedachten hebben gehad. De schepen die de maagden naar hun einde vervoerden, zullen wel een herkenbaar decor hebben opgeleverd voor de vrome Bruggenaren. Ook de heilige Dymphna (of Dimpna) wordt vaak afgebeeld met een schip. Dat slaat op een vergelijkbaar – en even onbewijsbaar – martelaarschap. Dymphna was volgens de legende een Ierse prinses die per schip vluchtte naar het Europese vasteland, om aan de seksuele avances van haar vader te ontkomen. In Geel (provincie Antwerpen) achterhaalde hij haar en doodde hij zijn dochter en de priester bij wie zij haar toevlucht had gezocht. Met scheepvaart heeft de Dymphnacultus overigens niets te maken. Vanwege een aantal wonderbaarlijke genezingen is zij de schutspatroon van geesteszieken en epileptici.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Mataró-model" data-caption="Houten scheepsmodel, begin vijftiende eeuw.  <br>Maritiem Museum, Rotterdam."data-src="images/d1h6/d1h6-600/8_Mataro-model.jpg"><img src="images/d1h6/d1h6-170/8_Mataro-model.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Mataró-model Houten scheepsmodel, begin vijftiende eeuw.  <br>Maritiem Museum, Rotterdam." loading="lazy" id="img_8_Mataro-model.jpg"><div>Mataró-model</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Model van een boeier" data-caption="Hangend blokmodel in Kerkschip van de St. Bavokerk in Haarlem. Het oudste scheepsmodel in een Nederlandse kerk. Hout, ca. 1550. <br>St. Bavokerk, Haarlem."data-src="images/d1h6/d1h6-600/9_Detail_boeier.jpg"><img src="images/d1h6/d1h6-170/9_Detail_boeier.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Model van een boeier Hangend blokmodel in Kerkschip van de St. Bavokerk in Haarlem. Het oudste scheepsmodel in een Nederlandse kerk. Hout, ca. 1550. <br>St. Bavokerk, Haarlem." loading="lazy" id="img_9_Detail_boeier.jpg"><div>Model van een boeier</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph23">
-                      <input type="text" name="" id="paragraphLink23" value="paragraph23" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink23')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (23)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Mataró-model" data-caption="Houten scheepsmodel, begin vijftiende eeuw.  <br>Maritiem Museum Rotterdam."data-src="images/d1h6/d1h6-600/8_Mataro-model.jpg"><img src="images/d1h6/d1h6-170/8_Mataro-model.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Mataró-model Houten scheepsmodel, begin vijftiende eeuw.  <br>Maritiem Museum Rotterdam." id="img_8_Mataro-model.jpg"><div>Mataró-model</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Model van een boeier" data-caption="Hangend blokmodel in Kerkschip van de St. Bavokerk in Haarlem. Het oudste scheepsmodel in een Nederlandse kerk. Hout, ca. 1550. <br>St. Bavokerk, Haarlem."data-src="images/d1h6/d1h6-600/9_Detail_boeier.jpg"><img src="images/d1h6/d1h6-170/9_Detail_boeier.jpg" class=" w-24 md:w-40" alt="Model van een boeier Hangend blokmodel in Kerkschip van de St. Bavokerk in Haarlem. Het oudste scheepsmodel in een Nederlandse kerk. Hout, ca. 1550. <br>St. Bavokerk, Haarlem." id="img_9_Detail_boeier.jpg"><div>Model van een boeier</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph23">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP23', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (23)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Verwant aan de verering van specifieke ‘maritieme’ heiligen is de gewoonte om kerken te versieren met scheepsmodellen. Zulke votiefschepen werden opgehangen door zeevarenden als herinnering aan een behouden zeereis, of om dat behoud te verzekeren door zo’n vroom geschenk. Het zogenaamde Mataró-model in het Maritiem Museum Rotterdam is daarvan een mooi voorbeeld. Dit model uit het begin van de vijftiende eeuw van een vrachtschip is afkomstig uit een kerk in Catalonië.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP23">
+        <input type="text" name="" id="paragraphLink23" value="paragraph23" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('23')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (23)" id="b_paragraphLink23">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP23', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (23)" id="b_paragraphLink23">
+            &#10006;
+        </button>
+    </span>Verwant aan de verering van specifieke ‘maritieme’ heiligen is de gewoonte om kerken te versieren met scheepsmodellen. Zulke votiefschepen werden opgehangen door zeevarenden als herinnering aan een behouden zeereis, of om dat behoud te verzekeren door zo’n vroom geschenk. Het zogenaamde Mataró-model in het Maritiem Museum Rotterdam is daarvan een mooi voorbeeld. Dit model uit het begin van de vijftiende eeuw van een vrachtschip is afkomstig uit een kerk in Catalonië.
         <button id="noteRef14" data-noteNumber="14"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         14
@@ -774,36 +305,25 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         16
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h2 class="mt-8 mb-2 text-2xl font-merriweather font-bold scroll-mt-8" id="schip-als-metafoor">Schip als metafoor</h2>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph25">
-                      <input type="text" name="" id="paragraphLink25" value="paragraph25" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink25')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <h2 class="mb-8 mt-4    text-2xl font-merriweather font-bold scroll-mt-8" id="schip-als-metafoor">Schip als metafoor</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph25">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP25', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Een schip is natuurlijk een vervoermiddel, maar beschrijvingen, modellen of afbeeldingen van schepen zijn in veel gevallen ook bedoeld in overdrachtelijke zin. Het leven van een mens wordt vaak vergeleken met een zeereis, zoals bij Sint Brandaan. Een schip kan ook dienen als een verbeelding van een groep mensen die een gezamenlijk lot ondergaan, zoals het ‘schip van staat’. Plato vergelijkt de staat al met een vaartuig, dat alleen onder kundige leiding veilig zijn bestemming bereikt.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP25">
+        <input type="text" name="" id="paragraphLink25" value="paragraph25" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('25')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)" id="b_paragraphLink25">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP25', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)" id="b_paragraphLink25">
+            &#10006;
+        </button>
+    </span>Een schip is natuurlijk een vervoermiddel, maar beschrijvingen, modellen of afbeeldingen van schepen zijn in veel gevallen ook bedoeld in overdrachtelijke zin. Het leven van een mens wordt vaak vergeleken met een zeereis, zoals bij Sint Brandaan. Een schip kan ook dienen als een verbeelding van een groep mensen die een gezamenlijk lot ondergaan, zoals het ‘schip van staat’. Plato vergelijkt de staat al met een vaartuig, dat alleen onder kundige leiding veilig zijn bestemming bereikt.
         <button id="noteRef17" data-noteNumber="17"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         17
@@ -816,160 +336,105 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         19
         </button> Of de schrijver afkomstig was uit Dordrecht, zoals wel is aangenomen, is niet zeker. Wel speelt zijn gedicht zich af op en bij de Merwede en keert de verteller aan het einde terug naar die stad. Augustijnken beschrijft hoe hij op de rivier de kogge ‘Sekerheyt’ bezoekt, die is bemand met allerlei hoofse deugden, zoals Zedigheid, Trouw en Vrijgevigheid. Elk onderdeel van het vaartuig heeft een symbolische waarde, zoals de mast:</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <blockquote class="my-4 font-merriweather ml-4 italic"> <p>‘Die rike mast heyt Volherden,</p> <p>Dan kan hi mit hem selven tughen;</p> <p>Die storm doet hem dicke bugen,</p> <p>Nochtan volhert hij’t al’.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a></p> </blockquote>
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph27">
-                      <input type="text" name="" id="paragraphLink27" value="paragraph27" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink27')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (27)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <blockquote class="my-4 font-merriweather font-light ml-4 italic"> <p>‘Die rike mast heyt Volherden,</p> <p>Dan kan hi mit hem selven tughen;</p> <p>Die storm doet hem dicke bugen,</p> <p>Nochtan volhert hij’t al’.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a></p> </blockquote>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph27">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP27', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (27)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Het schip wordt geënterd door vijanden als Jaloezie, Leugen en Hebzucht en zeilt met de deugden aan boord ijlings naar zee. Met deze scheepsmetafoor waarschuwt de dichter dus voor het zedelijk verval van zijn tijd.</p>
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP27">
+        <input type="text" name="" id="paragraphLink27" value="paragraph27" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('27')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (27)" id="b_paragraphLink27">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph28">
-                      <input type="text" name="" id="paragraphLink28" value="paragraph28" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink28')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (28)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP27', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (27)" id="b_paragraphLink27">
+            &#10006;
+        </button>
+    </span>Het schip wordt geënterd door vijanden als Jaloezie, Leugen en Hebzucht en zeilt met de deugden aan boord ijlings naar zee. Met deze scheepsmetafoor waarschuwt de dichter dus voor het zedelijk verval van zijn tijd.</p>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph28">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP28', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (28)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Ook een symbolisch vaartuig, maar met een heel andere bemanning is de ‘Blauwe scuut’, bekend uit het enige overgeleverde werk van een zekere Jacop van Oestvoren, uit 1413<em>.</em> Al in de eerste regels is duidelijk dat het hier niet om een echt schip gaat, maar om een vergaarbak van mensen:</p>
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP28">
+        <input type="text" name="" id="paragraphLink28" value="paragraph28" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('28')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (28)" id="b_paragraphLink28">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <blockquote class="my-4 font-merriweather ml-4 italic"> <p>‘Ende alle ghesellen van wilde manieren</p> <p>Ontbieden wi gruet ende saluut,</p> <p>Te comen in die Blauwe Scuut</p> <p>Ende in der Blauwer Scuten ghilde’.<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a></p> </blockquote>
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Blauwe Schuit" data-caption="Gravure, Pieter van der Heijden naar Hieronymus Bosch, 1559.  <br>Rijksmuseum, Amsterdam."data-src="images/d1h6/d1h6-600/10_Blauwe_Schuit.jpg"><img src="images/d1h6/d1h6-170/10_Blauwe_Schuit.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Blauwe Schuit Gravure, Pieter van der Heijden naar Hieronymus Bosch, 1559.  <br>Rijksmuseum, Amsterdam." loading="lazy" id="img_10_Blauwe_Schuit.jpg"><div>De Blauwe Schuit</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph31">
-                      <input type="text" name="" id="paragraphLink31" value="paragraph31" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink31')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (31)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP28', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (28)" id="b_paragraphLink28">
+            &#10006;
+        </button>
+    </span>Ook een symbolisch vaartuig, maar met een heel andere bemanning is de ‘Blauwe scuut’, bekend uit het enige overgeleverde werk van een zekere Jacop van Oestvoren, uit 1413<em>.</em> Al in de eerste regels is duidelijk dat het hier niet om een echt schip gaat, maar om een vergaarbak van mensen:</p>
+                   <blockquote class="my-4 font-merriweather font-light ml-4 italic"> <p>‘Ende alle ghesellen van wilde manieren</p> <p>Ontbieden wi gruet ende saluut,</p> <p>Te comen in die Blauwe Scuut</p> <p>Ende in der Blauwer Scuten ghilde’.<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a></p> </blockquote>
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Blauwe Schuit" data-caption="Gravure, Pieter van der Heijden naar Hieronymus Bosch, 1559.  <br>Rijksmuseum, Amsterdam."data-src="images/d1h6/d1h6-600/10_Blauwe_Schuit.jpg"><img src="images/d1h6/d1h6-170/10_Blauwe_Schuit.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Blauwe Schuit Gravure, Pieter van der Heijden naar Hieronymus Bosch, 1559.  <br>Rijksmuseum, Amsterdam." id="img_10_Blauwe_Schuit.jpg"><div>De Blauwe Schuit</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph31">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP31', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (31)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Het gedicht is een oproep aan zondaars om plaats te nemen in de ‘Blauwe Schuit’ en zich zo te laten wegvoeren uit de maatschappij. Onder die ‘ghesellen van wilde manieren’ zijn ridders die hun bezit belenen, geestelijken die het celibaat aan hun laars lappen, burgers die ‘dobbelen, spelen ende singhen’ of ‘gueden vroukijns fijn / die gaern bi die guede ghesellen sijn’. In het gedicht wordt de gang van zaken tijdens de vastenavondviering beschreven, waarbij de officiële regels even werden losgelaten. Het schip is in deze tekst het afvoerputje van de samenleving, bestemd voor zondige mensen, en is daarmee tevens een vehikel voor maatschappijkritiek. Aan het einde van de middeleeuwen tonen veel pamfletschrijvers en auteurs een voorliefde voor deze beeldspraak. Bijzonder populair was een boekje dat in 1494 voor het eerst werd gedrukt in Straatsburg: <em>Das Narrenschiff</em>. Dit moralistische spotschrift, geschreven door de Duitse humanist Sebastian Brant, is in vele talen vertaald, waaronder het Latijn. Op die laatste versie is de Nederlandse editie gebaseerd, die al in 1500 in Parijs werd gedrukt.</p>
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP31">
+        <input type="text" name="" id="paragraphLink31" value="paragraph31" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('31')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (31)" id="b_paragraphLink31">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Het Narrenschip" data-caption="Paneel, Hieronymus Bosch, ca. 1500.  <br>Musée du Louvre, Parijs."data-src="images/d1h6/d1h6-600/11_Narrenschip.jpg"><img src="images/d1h6/d1h6-170/11_Narrenschip.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Het Narrenschip Paneel, Hieronymus Bosch, ca. 1500.  <br>Musée du Louvre, Parijs." loading="lazy" id="img_11_Narrenschip.jpg"><div>Het Narrenschip</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph33">
-                      <input type="text" name="" id="paragraphLink33" value="paragraph33" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink33')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (33)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP31', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (31)" id="b_paragraphLink31">
+            &#10006;
+        </button>
+    </span>Het gedicht is een oproep aan zondaars om plaats te nemen in de ‘Blauwe Schuit’ en zich zo te laten wegvoeren uit de maatschappij. Onder die ‘ghesellen van wilde manieren’ zijn ridders die hun bezit belenen, geestelijken die het celibaat aan hun laars lappen, burgers die ‘dobbelen, spelen ende singhen’ of ‘gueden vroukijns fijn / die gaern bi die guede ghesellen sijn’. In het gedicht wordt de gang van zaken tijdens de vastenavondviering beschreven, waarbij de officiële regels even werden losgelaten. Het schip is in deze tekst het afvoerputje van de samenleving, bestemd voor zondige mensen, en is daarmee tevens een vehikel voor maatschappijkritiek. Aan het einde van de middeleeuwen tonen veel pamfletschrijvers en auteurs een voorliefde voor deze beeldspraak. Bijzonder populair was een boekje dat in 1494 voor het eerst werd gedrukt in Straatsburg: <em>Das Narrenschiff</em>. Dit moralistische spotschrift, geschreven door de Duitse humanist Sebastian Brant, is in vele talen vertaald, waaronder het Latijn. Op die laatste versie is de Nederlandse editie gebaseerd, die al in 1500 in Parijs werd gedrukt.</p>
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Het Narrenschip" data-caption="Paneel, Hieronymus Bosch, ca. 1500.  <br>Musée du Louvre, Parijs."data-src="images/d1h6/d1h6-600/11_Narrenschip.jpg"><img src="images/d1h6/d1h6-170/11_Narrenschip.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Het Narrenschip Paneel, Hieronymus Bosch, ca. 1500.  <br>Musée du Louvre, Parijs." id="img_11_Narrenschip.jpg"><div>Het Narrenschip</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph33">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP33', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (33)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Onder de titel <em>Der Sotten Schip oft dat Narren schip</em> bracht een Antwerpse drukker in 1548 de derde druk op de markt. Ook dit zottenschip is een vaartuig vol lieden met zondig en onaanvaardbaar gedrag. Ze zijn op weg naar ‘Narragonia’, het paradijs van de dwazen, ofwel: de hel. Diezelfde narren zijn door Jeroen Bosch in beeld gebracht op een schilderij dat kort voor 1500 is geschilderd, nu in het Louvre in Parijs. Met het vaartuig van Bosch is van alles mis, zowel technisch als met de opvarenden. Het roer is een pollepel, de mast een hoge boom. De passagiers deugen evenmin. Een franciscaner monnik en een luitspelende non lijken zich goed ‒ te goed volgens de kerkelijke regels – met elkaar te vermaken. Dat Bosch uitgerekend een franciscaan laat figureren geeft aan het pikante tafereel een extra venijnig accent. Deze monniken hoorden immers in soberheid, kuisheid en armoede te leven. Dronkenschap – let ook op de brakende man ‒, vraatzucht en onzedelijk gedrag heeft Bosch met allerlei details in beeld gebracht. Het schilderij van Bosch kan worden gezien als een negatieve variant van het ‘meibootje’ met een verliefd musicerend paar, vaak afgebeeld bij de maand mei in laatmiddeleeuwse getijdenboeken.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP33">
+        <input type="text" name="" id="paragraphLink33" value="paragraph33" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('33')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (33)" id="b_paragraphLink33">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP33', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (33)" id="b_paragraphLink33">
+            &#10006;
+        </button>
+    </span>Onder de titel <em>Der Sotten Schip oft dat Narren schip</em> bracht een Antwerpse drukker in 1548 de derde druk op de markt. Ook dit zottenschip is een vaartuig vol lieden met zondig en onaanvaardbaar gedrag. Ze zijn op weg naar ‘Narragonia’, het paradijs van de dwazen, ofwel: de hel. Diezelfde narren zijn door Jeroen Bosch in beeld gebracht op een schilderij dat kort voor 1500 is geschilderd, nu in het Louvre in Parijs. Met het vaartuig van Bosch is van alles mis, zowel technisch als met de opvarenden. Het roer is een pollepel, de mast een hoge boom. De passagiers deugen evenmin. Een franciscaner monnik en een luitspelende non lijken zich goed ‒ te goed volgens de kerkelijke regels – met elkaar te vermaken. Dat Bosch uitgerekend een franciscaan laat figureren geeft aan het pikante tafereel een extra venijnig accent. Deze monniken hoorden immers in soberheid, kuisheid en armoede te leven. Dronkenschap – let ook op de brakende man ‒, vraatzucht en onzedelijk gedrag heeft Bosch met allerlei details in beeld gebracht. Het schilderij van Bosch kan worden gezien als een negatieve variant van het ‘meibootje’ met een verliefd musicerend paar, vaak afgebeeld bij de maand mei in laatmiddeleeuwse getijdenboeken.
         <button id="noteRef22" data-noteNumber="22"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         22
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Het schip van Sint Reynuit" data-caption="Gedrukt van een houtsnede, naar Jan Wellens de Cock, ca. 1520-1530.  <br>Rijksmuseum, Amsterdam."data-src="images/d1h6/d1h6-600/12_Reynuit.jpg"><img src="images/d1h6/d1h6-170/12_Reynuit.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Het schip van Sint Reynuit Gedrukt van een houtsnede, naar Jan Wellens de Cock, ca. 1520-1530.  <br>Rijksmuseum, Amsterdam." loading="lazy" id="img_12_Reynuit.jpg"><div>Het schip van Sint Reynuit</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph35">
-                      <input type="text" name="" id="paragraphLink35" value="paragraph35" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink35')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (35)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Het schip van Sint Reynuit" data-caption="Gedrukt van een houtsnede, naar Jan Wellens de Cock, ca. 1520-1530.  <br>Rijksmuseum, Amsterdam."data-src="images/d1h6/d1h6-600/12_Reynuit.jpg"><img src="images/d1h6/d1h6-170/12_Reynuit.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Het schip van Sint Reynuit Gedrukt van een houtsnede, naar Jan Wellens de Cock, ca. 1520-1530.  <br>Rijksmuseum, Amsterdam." id="img_12_Reynuit.jpg"><div>Het schip van Sint Reynuit</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph35">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP35', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (35)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Al dit soort teksten en afbeeldingen passen in de groeiende kritiek op kerk en staat die rond 1500 heerste. Dat wordt nog duidelijker op een spotprent met een ander schip, het ‘Schip van Sint Reynuit’, een anonieme houtsnede van groot formaat, mogelijk naar een tekening van de Antwerpenaar Jan Wellens de Cock, gemaakt omstreeks 1525.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP35">
+        <input type="text" name="" id="paragraphLink35" value="paragraph35" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('35')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (35)" id="b_paragraphLink35">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP35', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (35)" id="b_paragraphLink35">
+            &#10006;
+        </button>
+    </span>Al dit soort teksten en afbeeldingen passen in de groeiende kritiek op kerk en staat die rond 1500 heerste. Dat wordt nog duidelijker op een spotprent met een ander schip, het ‘Schip van Sint Reynuit’, een anonieme houtsnede van groot formaat, mogelijk naar een tekening van de Antwerpenaar Jan Wellens de Cock, gemaakt omstreeks 1525.
         <button id="noteRef23" data-noteNumber="23"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         23
@@ -982,169 +447,57 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         25
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h2 class="mt-8 mb-2 text-2xl font-merriweather font-bold scroll-mt-8" id="maritieme-identiteit">Maritieme identiteit</h2>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph37">
-                      <input type="text" name="" id="paragraphLink37" value="paragraph37" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink37')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (37)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <h2 class="mb-8 mt-4    text-2xl font-merriweather font-bold scroll-mt-8" id="maritieme-identiteit">Maritieme identiteit</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph37">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP37', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (37)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Bij al die varende dwazen mag niet worden vergeten dat schepen en scheepvaart ook een onderwerp van trots konden zijn. Handel over zee en visvangst brachten immers welvaart en ondanks de gevaren die de zee opleverde, was er op veel plaatsen ook een nauwe verbondenheid met dit element. Dat is bijvoorbeeld te zien op munten en stadszegels. Niet alleen op munten van Engelse koningen, maar ook op die van de Bourgondische heersers in de Nederlanden aan het einde van de middeleeuwen, zoals Philips de Stoute en Philips de Schone, zijn schepen afgebeeld.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP37">
+        <input type="text" name="" id="paragraphLink37" value="paragraph37" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('37')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (37)" id="b_paragraphLink37">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP37', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (37)" id="b_paragraphLink37">
+            &#10006;
+        </button>
+    </span>Bij al die varende dwazen mag niet worden vergeten dat schepen en scheepvaart ook een onderwerp van trots konden zijn. Handel over zee en visvangst brachten immers welvaart en ondanks de gevaren die de zee opleverde, was er op veel plaatsen ook een nauwe verbondenheid met dit element. Dat is bijvoorbeeld te zien op munten en stadszegels. Niet alleen op munten van Engelse koningen, maar ook op die van de Bourgondische heersers in de Nederlanden aan het einde van de middeleeuwen, zoals Philips de Stoute en Philips de Schone, zijn schepen afgebeeld.
         <button id="noteRef26" data-noteNumber="26"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         26
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Stadszegel van Amsterdam" data-caption="Het belang van de haven en de zeehandel voor het opkomende Amsterdam wordt benadrukt door het opnemen van een schip op het stadszegel, ca. 1400. Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13a_Amsterdam.jpg"><img src="images/d1h6/d1h6-170/13a_Amsterdam.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Stadszegel van Amsterdam Het belang van de haven en de zeehandel voor het opkomende Amsterdam wordt benadrukt door het opnemen van een schip op het stadszegel, ca. 1400. Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" loading="lazy" id="img_13a_Amsterdam.jpg"><div>Stadszegel van Amsterdam</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Andere stadszegels van Nederlandse havensteden: " data-caption="Biervliet, 1307. Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13b_Biervliet_1307.jpg"><img src="images/d1h6/d1h6-170/13b_Biervliet_1307.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Andere stadszegels van Nederlandse havensteden:  Biervliet, 1307. Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" loading="lazy" id="img_13b_Biervliet_1307.jpg"><div>Andere stadszegels van Nederlandse havensteden: </div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="" data-caption="Harderwijk, tweede helft dertiende eeuw.  <br>"data-src="images/d1h6/d1h6-600/13c_Harderwijk_2de helft_13_eeuw.jpg"><img src="images/d1h6/d1h6-170/13c_Harderwijk_2de helft_13_eeuw.jpg" class="imgFirstOfSet w-24 md:w-40" alt=" Harderwijk, tweede helft dertiende eeuw.  <br>" loading="lazy" id="img_13c_Harderwijk_2de helft_13_eeuw.jpg"><div></div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="" data-caption="Kuinre, ca. 1400.  <br>"data-src="images/d1h6/d1h6-600/13d_Kuinre_1400.jpg"><img src="images/d1h6/d1h6-170/13d_Kuinre_1400.jpg" class="imgFirstOfSet w-24 md:w-40" alt=" Kuinre, ca. 1400.  <br>" loading="lazy" id="img_13d_Kuinre_1400.jpg"><div></div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="" data-caption="Medemblik, dertiende eeuw.  <br>"data-src="images/d1h6/d1h6-600/13e_Medemblik_dertiende_eeuw.jpg"><img src="images/d1h6/d1h6-170/13e_Medemblik_dertiende_eeuw.jpg" class="imgFirstOfSet w-24 md:w-40" alt=" Medemblik, dertiende eeuw.  <br>" loading="lazy" id="img_13e_Medemblik_dertiende_eeuw.jpg"><div></div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="" data-caption="Monnikendam, tweede helft dertiende eeuw.  <br>"data-src="images/d1h6/d1h6-600/13f_Monnikendam_2dehelft13de.jpg"><img src="images/d1h6/d1h6-170/13f_Monnikendam_2dehelft13de.jpg" class="imgFirstOfSet w-24 md:w-40" alt=" Monnikendam, tweede helft dertiende eeuw.  <br>" loading="lazy" id="img_13f_Monnikendam_2dehelft13de.jpg"><div></div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="" data-caption="Stavoren, tweede helft veertiende eeuw.  <br>"data-src="images/d1h6/d1h6-600/13g_Stavoren_2dehelft14eeuw.jpg"><img src="images/d1h6/d1h6-170/13g_Stavoren_2dehelft14eeuw.jpg" class="imgFirstOfSet w-24 md:w-40" alt=" Stavoren, tweede helft veertiende eeuw.  <br>" loading="lazy" id="img_13g_Stavoren_2dehelft14eeuw.jpg"><div></div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="" data-caption="Veere, vijftiende eeuw.  <br>"data-src="images/d1h6/d1h6-600/13h_Veere_vijftiende_eeuw.jpg"><img src="images/d1h6/d1h6-170/13h_Veere_vijftiende_eeuw.jpg" class="imgFirstOfSet w-24 md:w-40" alt=" Veere, vijftiende eeuw.  <br>" loading="lazy" id="img_13h_Veere_vijftiende_eeuw.jpg"><div></div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="" data-caption="Vlaardingen, ca. 1300.  <br>"data-src="images/d1h6/d1h6-600/13i_Vlaardingen_ca.1300.jpg"><img src="images/d1h6/d1h6-170/13i_Vlaardingen_ca.1300.jpg" class="imgFirstOfSet w-24 md:w-40" alt=" Vlaardingen, ca. 1300.  <br>" loading="lazy" id="img_13i_Vlaardingen_ca.1300.jpg"><div></div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="" data-caption="IJlst, vijftiende eeuw.  <br>"data-src="images/d1h6/d1h6-600/13j_ IJlst_vijftiende_eeuw.jpg"><img src="images/d1h6/d1h6-170/13j_ IJlst_vijftiende_eeuw.jpg" class="imgFirstOfSet w-24 md:w-40" alt=" IJlst, vijftiende eeuw.  <br>" loading="lazy" id="img_13j_ IJlst_vijftiende_eeuw.jpg"><div></div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph48">
-                      <input type="text" name="" id="paragraphLink48" value="paragraph48" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink48')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (48)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Stadszegel van Amsterdam" data-caption="Het belang van de haven en de zeehandel voor het opkomende Amsterdam wordt benadrukt door het opnemen van een schip op het stadszegel, ca. 1400. Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13a_Amsterdam.jpg"><img src="images/d1h6/d1h6-170/13a_Amsterdam.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Stadszegel van Amsterdam Het belang van de haven en de zeehandel voor het opkomende Amsterdam wordt benadrukt door het opnemen van een schip op het stadszegel, ca. 1400. Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" id="img_13a_Amsterdam.jpg"><div>Stadszegel van Amsterdam</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Andere stadszegels van Nederlandse havensteden: Biervliet, 1307" data-caption=" Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13b_Biervliet.jpg"><img src="images/d1h6/d1h6-170/13b_Biervliet.jpg" class=" w-24 md:w-40" alt="Andere stadszegels van Nederlandse havensteden: Biervliet, 1307  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" id="img_13b_Biervliet.jpg"><div>Andere stadszegels van Nederlandse havensteden: Biervliet, 1307</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Harderwijk, tweede helft dertiende eeuw" data-caption=" Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13c_Harderwijk.jpg"><img src="images/d1h6/d1h6-170/13c_Harderwijk.jpg" class=" w-24 md:w-40" alt="Harderwijk, tweede helft dertiende eeuw  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" id="img_13c_Harderwijk.jpg"><div>Harderwijk, tweede helft dertiende eeuw</div></button></div>
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Kuinre, ca. 1400" data-caption=" Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13d_Kuinre.jpg"><img src="images/d1h6/d1h6-170/13d_Kuinre.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Kuinre, ca. 1400  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" id="img_13d_Kuinre.jpg"><div>Kuinre, ca. 1400</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Medemblik, dertiende eeuw" data-caption=" Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13e_Medemblik.jpg"><img src="images/d1h6/d1h6-170/13e_Medemblik.jpg" class=" w-24 md:w-40" alt="Medemblik, dertiende eeuw  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" id="img_13e_Medemblik.jpg"><div>Medemblik, dertiende eeuw</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Monnikendam, tweede helft dertiende eeuw" data-caption=" Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13f_Monnikendam.jpg"><img src="images/d1h6/d1h6-170/13f_Monnikendam.jpg" class=" w-24 md:w-40" alt="Monnikendam, tweede helft dertiende eeuw  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" id="img_13f_Monnikendam.jpg"><div>Monnikendam, tweede helft dertiende eeuw</div></button></div>
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Stavoren, tweede helft veertiende eeuw" data-caption=" Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13g_Stavoren.jpg"><img src="images/d1h6/d1h6-170/13g_Stavoren.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Stavoren, tweede helft veertiende eeuw  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" id="img_13g_Stavoren.jpg"><div>Stavoren, tweede helft veertiende eeuw</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Veere, vijftiende eeuw" data-caption=" Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13h_Veere.jpg"><img src="images/d1h6/d1h6-170/13h_Veere.jpg" class=" w-24 md:w-40" alt="Veere, vijftiende eeuw  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" id="img_13h_Veere.jpg"><div>Veere, vijftiende eeuw</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Vlaardingen, ca. 1300" data-caption=" Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13i_Vlaardingen.jpg"><img src="images/d1h6/d1h6-170/13i_Vlaardingen.jpg" class=" w-24 md:w-40" alt="Vlaardingen, ca. 1300  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" id="img_13i_Vlaardingen.jpg"><div>Vlaardingen, ca. 1300</div></button></div>
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="IJlst, vijftiende eeuw" data-caption=" Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>"data-src="images/d1h6/d1h6-600/13j_IJlst.jpg"><img src="images/d1h6/d1h6-170/13j_IJlst.jpg" class="imgFirstOfSet w-24 md:w-40" alt="IJlst, vijftiende eeuw  Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972). <br>" id="img_13j_IJlst.jpg"><div>IJlst, vijftiende eeuw</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph48">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP48', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (48)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Op vele plaatsen langs de kusten van Noordwest-Europa zijn de stadszegels voorzien van een afbeelding van een eigentijds scheepje. Voor onderzoekers vormden die zegels in de eerste plaats een bron voor de kennis van scheepstypen: zijn het schepen met of zonder kiel, gladboordig of overnaads en zijn het hulken of koggen?
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP48">
+        <input type="text" name="" id="paragraphLink48" value="paragraph48" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('48')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (48)" id="b_paragraphLink48">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP48', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (48)" id="b_paragraphLink48">
+            &#10006;
+        </button>
+    </span>Op vele plaatsen langs de kusten van Noordwest-Europa zijn de stadszegels voorzien van een afbeelding van een eigentijds scheepje. Voor onderzoekers vormden die zegels in de eerste plaats een bron voor de kennis van scheepstypen: zijn het schepen met of zonder kiel, gladboordig of overnaads en zijn het hulken of koggen?
         <button id="noteRef27" data-noteNumber="27"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         27
@@ -1157,47 +510,26 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         29
         </button> Meer naar het noorden zijn tal van voorbeelden te vinden, meestal van schepen zonder heiligen, zoals de zegels van Damme en Biervliet in Vlaanderen, van Veere en Tholen in Zeeland, en van Amsterdam, Harderwijk, Genemuiden, IJlst en Vlieland. De zegels hangen onder allerlei oorkonden en andere stukken, ze zijn niet beperkt tot typisch maritieme documenten. Dat maakt duidelijk dat het hier gaat om een beeldmerk dat de gehele gemeenschap omvatte. Het lijkt er op dat hier sprake is van een zekere imitatie: een nieuw zegel werd kennelijk gebaseerd op voorbeelden van elders, zoals ook de tekst van stadsrechten werd overgenomen van oudere steden.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De inname van Damiate " data-caption="Rechts van de toren het Haarlemse schip dat de ketting voor de haveningang zou hebben doorgezaagd. Wandtapijt door Joseph Thienpont, naar ontwerp van Cornelis Claesz. van Wieringen, 1629. <br>Stadhuis, Haarlem."data-src="images/d1h6/d1h6-600/14a_Wandtapijt_inname_Damiate.jpg"><img src="images/d1h6/d1h6-170/14a_Wandtapijt_inname_Damiate.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De inname van Damiate  Rechts van de toren het Haarlemse schip dat de ketting voor de haveningang zou hebben doorgezaagd. Wandtapijt door Joseph Thienpont, naar ontwerp van Cornelis Claesz. van Wieringen, 1629. <br>Stadhuis, Haarlem." loading="lazy" id="img_14a_Wandtapijt_inname_Damiate.jpg"><div>De inname van Damiate </div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De inname van Damiate" data-caption="Glas in lood, kerkraam in de St. Janskerk in Gouda. Willem Tybaut van Haarlem, 1595-1596. <br>Stichting Goudse Sint-Jan, Gouda."data-src="images/d1h6/d1h6-600/14b_Kerkraam_Gouda.jpg"><img src="images/d1h6/d1h6-170/14b_Kerkraam_Gouda.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De inname van Damiate Glas in lood, kerkraam in de St. Janskerk in Gouda. Willem Tybaut van Haarlem, 1595-1596. <br>Stichting Goudse Sint-Jan, Gouda." loading="lazy" id="img_14b_Kerkraam_Gouda.jpg"><div>De inname van Damiate</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph51">
-                      <input type="text" name="" id="paragraphLink51" value="paragraph51" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink51')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (51)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De inname van Damiate " data-caption="Rechts van de toren het Haarlemse schip dat de ketting voor de haveningang zou hebben doorgezaagd. Wandtapijt door Joseph Thienpont, naar ontwerp van Cornelis Claesz. van Wieringen, 1629. <br>Stadhuis, Haarlem."data-src="images/d1h6/d1h6-600/14a_Wandtapijt_inname_Damiate.jpg"><img src="images/d1h6/d1h6-170/14a_Wandtapijt_inname_Damiate.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De inname van Damiate  Rechts van de toren het Haarlemse schip dat de ketting voor de haveningang zou hebben doorgezaagd. Wandtapijt door Joseph Thienpont, naar ontwerp van Cornelis Claesz. van Wieringen, 1629. <br>Stadhuis, Haarlem." id="img_14a_Wandtapijt_inname_Damiate.jpg"><div>De inname van Damiate </div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De inname van Damiate" data-caption="Glas in lood, kerkraam in de St. Janskerk in Gouda. Willem Tybaut van Haarlem, 1595-1596. <br>Stichting Goudse Sint-Jan, Gouda."data-src="images/d1h6/d1h6-600/14b_Kerkraam_Gouda.jpg"><img src="images/d1h6/d1h6-170/14b_Kerkraam_Gouda.jpg" class=" w-24 md:w-40" alt="De inname van Damiate Glas in lood, kerkraam in de St. Janskerk in Gouda. Willem Tybaut van Haarlem, 1595-1596. <br>Stichting Goudse Sint-Jan, Gouda." id="img_14b_Kerkraam_Gouda.jpg"><div>De inname van Damiate</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph51">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP51', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (51)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Dat het verlangen om een stad een maritieme identiteit te geven nog verder ging dan een zegel met een scheepje, bewijst het voorbeeld van Haarlem. Door zijn ligging vlak bij het IJ was Haarlem niet onbelangrijk als havenstad. Dat er ook Haarlemmers betrokken waren bij een grote overzeese expeditie, de Vijfde Kruistocht, is dan ook niet verrassend. Wel opmerkelijk is dat de Haarlemmers een vermeende heldendaad van hun stadgenoten tijdens die kruistocht hebben aangegrepen om het imago van hun stad te versterken en uit te dragen. In 1218 zou een Haarlems schip de toegang tot de haven van de stad Damiate in de Nijldelta hebben geforceerd door een ketting voor de havenmond kapot te varen. Die inname van Damiate heeft echt plaatsgevonden, de deelname van Haarlemmers is aannemelijk, maar het doorzagen van de ketting, met een zaag aan de kiel van een Haarlems schip: dat is een verzinsel, dat pas kort na 1400 in de bronnen is terug te vinden.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP51">
+        <input type="text" name="" id="paragraphLink51" value="paragraph51" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('51')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (51)" id="b_paragraphLink51">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP51', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (51)" id="b_paragraphLink51">
+            &#10006;
+        </button>
+    </span>Dat het verlangen om een stad een maritieme identiteit te geven nog verder ging dan een zegel met een scheepje, bewijst het voorbeeld van Haarlem. Door zijn ligging vlak bij het IJ was Haarlem niet onbelangrijk als havenstad. Dat er ook Haarlemmers betrokken waren bij een grote overzeese expeditie, de Vijfde Kruistocht, is dan ook niet verrassend. Wel opmerkelijk is dat de Haarlemmers een vermeende heldendaad van hun stadgenoten tijdens die kruistocht hebben aangegrepen om het imago van hun stad te versterken en uit te dragen. In 1218 zou een Haarlems schip de toegang tot de haven van de stad Damiate in de Nijldelta hebben geforceerd door een ketting voor de havenmond kapot te varen. Die inname van Damiate heeft echt plaatsgevonden, de deelname van Haarlemmers is aannemelijk, maar het doorzagen van de ketting, met een zaag aan de kiel van een Haarlems schip: dat is een verzinsel, dat pas kort na 1400 in de bronnen is terug te vinden.
         <button id="noteRef30" data-noteNumber="30"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         30
@@ -1206,50 +538,29 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         31
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Speelgoedbootje" data-caption="Houtsnijwerk, ca. 1600. Particuliere vondst te Hoorn.  <br>Archeologie West-Friesland, Hoorn."data-src="images/d1h6/d1h6-600/15_Speelgoedscheepje_Hoorn.jpg"><img src="images/d1h6/d1h6-170/15_Speelgoedscheepje_Hoorn.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Speelgoedbootje Houtsnijwerk, ca. 1600. Particuliere vondst te Hoorn.  <br>Archeologie West-Friesland, Hoorn." loading="lazy" id="img_15_Speelgoedscheepje_Hoorn.jpg"><div>Speelgoedbootje</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph53">
-                      <input type="text" name="" id="paragraphLink53" value="paragraph53" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink53')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (53)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Speelgoedbootje" data-caption="Houtsnijwerk, ca. 1600. Particuliere vondst te Hoorn.  <br>Archeologie West-Friesland, Hoorn."data-src="images/d1h6/d1h6-600/15_Speelgoedscheepje_Hoorn.jpg"><img src="images/d1h6/d1h6-170/15_Speelgoedscheepje_Hoorn.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Speelgoedbootje Houtsnijwerk, ca. 1600. Particuliere vondst te Hoorn.  <br>Archeologie West-Friesland, Hoorn." id="img_15_Speelgoedscheepje_Hoorn.jpg"><div>Speelgoedbootje</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph53">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP53', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (53)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Bovengenoemde voorbeelden maken duidelijk dat de zee en scheepvaart een grote rol speelden in de belevingswereld van veel inwoners van de Nederlanden. Allerlei verhalen, gewoonten en rituelen lijken dat te bevestigen. Een andere vraag is of iedereen zich daar ook zo scherp van bewust was. Velen zullen zich nauwelijks hebben gerealiseerd dat de haring die ze aten uit zee kwam en dat de wol voor hun kleding misschien wel door Schotse schapen was geproduceerd. Nog te weinig is bekend over de manier waarop zee en scheepvaart een rol speelden in het dagelijks leven van de doorsnee inwoners van het land: werd er gezongen over reizen over zee, speelden veel kinderen met bootjes, of zijn de paar speelgoedscheepje die archeologen opgroeven slechts uitzonderingen? En vertelde men elkaar verhalen over verre streken aan de andere kant van de zee? Zelfs voor een land als Engeland, toch algemeen beschouwd als een zeevarende natie bij uitstek, is het de vraag of de maritieme invloedssfeer verder reikte dan een paar mijl landinwaarts.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP53">
+        <input type="text" name="" id="paragraphLink53" value="paragraph53" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('53')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (53)" id="b_paragraphLink53">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP53', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (53)" id="b_paragraphLink53">
+            &#10006;
+        </button>
+    </span>Bovengenoemde voorbeelden maken duidelijk dat de zee en scheepvaart een grote rol speelden in de belevingswereld van veel inwoners van de Nederlanden. Allerlei verhalen, gewoonten en rituelen lijken dat te bevestigen. Een andere vraag is of iedereen zich daar ook zo scherp van bewust was. Velen zullen zich nauwelijks hebben gerealiseerd dat de haring die ze aten uit zee kwam en dat de wol voor hun kleding misschien wel door Schotse schapen was geproduceerd. Nog te weinig is bekend over de manier waarop zee en scheepvaart een rol speelden in het dagelijks leven van de doorsnee inwoners van het land: werd er gezongen over reizen over zee, speelden veel kinderen met bootjes, of zijn de paar speelgoedscheepje die archeologen opgroeven slechts uitzonderingen? En vertelde men elkaar verhalen over verre streken aan de andere kant van de zee? Zelfs voor een land als Engeland, toch algemeen beschouwd als een zeevarende natie bij uitstek, is het de vraag of de maritieme invloedssfeer verder reikte dan een paar mijl landinwaarts.
         <button id="noteRef32" data-noteNumber="32"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         32
         </button> Dat de Nederlanden en haar inwoners al eeuwenlang een zeevarende samenleving vormen, waar scheepvaart als het ware in het DNA zit, lijkt een onweerlegbaar feit, maar misschien is dat wel voor een deel een ‘invented tradition’, een opvatting die vooral in de negentiende eeuw als vanzelfsprekend werd beschouwd en die handig paste bij de toenmalige koloniale ambities. Scheepvaart en de zee deden er toe in de middeleeuwen, zeker, maar toch vooral voor die bewoners die de zee konden horen en ruiken als zij een raam openden.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
                 <div id="noten"><h2 class="pb-3 text-3xl mt-16 border-t pt-8 border-nmgnBlue-300">Noten</h2></div>
                 <ul class="flex flex-col gap-6 font-sans">
@@ -1294,8 +605,8 @@
                       <div class="font-bold">3</div>
                       <div id="noteContent3">
     <p><span data-custom-style="endnote reference"></span> <a class="underline" href="https://www.worldcat.org/title/bijbel-dat-is-de-gansche-heilige-schrift-vervattende-al-de-kanonijke-boeken-des-ouden-en-nieuwen-testaments/oclc/978214040&amp;referer=brief_results"><span data-custom-style="Hyperlink">Jezus Sirach</span></a> 43:25
-    (Londen/Utrecht 1888; Statenvertaling), <a class="underline" href="https://www.statenvertaling.net/bijbel/jezu/43.html"><span data-custom-style="Hyperlink">https://www.statenvertaling.net/bijbel/jezu/43.html</span></a>
-    (28 januari 2019).</p>
+    (Londen/Utrecht 1888; <a class="underline" href="https://www.statenvertaling.net/bijbel/jezu/43.html"><span data-custom-style="Hyperlink">Statenvertaling</span></a> (28 januari
+    2019)).</p>
     
     <a class="underline" href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></div>
     
@@ -1489,8 +800,7 @@
                       <div id="noteContent17"><p><span data-custom-style="endnote reference"></span>
     Platoon, <a class="underline" href="https://www.worldcat.org/title/politeia-wat-is-rechtvaardigheid/oclc/64810257"><span data-custom-style="Hyperlink"><em>Politeia. Wat is
     rechtvaardigheid?</em></span></a>, Vertaalgroep klassieke talen van de
-    School voor</p>
-    <p>Filosofie (vert.) (Amsterdam 1991) boek VI-488, 321-322.&nbsp; &nbsp;&nbsp;<a class="underline" href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></div>
+    School voor Filosofie (vert.) (Amsterdam 1991) boek VI-488, 321-322.<a class="underline" href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></div>
     
                       
                       
@@ -1623,9 +933,10 @@
                       <div class="font-bold">27</div>
                       <div id="noteContent27">
     <p><span data-custom-style="endnote reference"></span> Bijvoorbeeld: H.
-    Ewe, <em>Schiffe auf Siegeln</em> (Rostock 1972) en J. Van Beylen,
-    ‘Scheepstypen’ in: G. Asaert e.a. (ed.), <em>Maritieme Geschiedenis der
-    Nederlanden</em>, deel I (Bussum 1976) 108-154..</p>
+    Ewe, <a class="underline" href="https://www.worldcat.org/title/schiffe-auf-siegeln/oclc/320185651&amp;referer=brief_results"><span data-custom-style="Hyperlink"><em>Schiffe auf Siegeln</em></span></a>
+    (Rostock 1972) en J. van Beylen, ‘Scheepstypen’ in: G. Asaert e.a.
+    (ed.), <a class="underline" href="https://worldcat.org/title/840702076"><span data-custom-style="Hyperlink"><em>Maritieme Geschiedenis der
+    Nederlanden</em></span></a>, deel 1 (Bussum 1976) 108-154..</p>
     
     <a class="underline" href="#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></div>
     
@@ -1699,7 +1010,7 @@
                 </ul>
                 
     
-                
+               
     
     
        </div>
@@ -1709,12 +1020,14 @@
     <!-- image -->
     <aside class="relative z-0 hidden md:block col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-0">
         <div class="w-full flex justify-end sticky top-1 z-10 pr-6 pt-2 xl:hidden">
-            <button class=" bg-neutral-200 px-3 py-1 rounded-full text-sm absolute cursor-pointer" onclick="toggleVis('extraNavPanel', 'show');">Inhoud <span class="text-neutral-400 text-xs">&#9660;</span></button>
+            <button class=" bg-nmgnBlue-200 text-nmgnBlue-900 my-1 px-3 py-1 rounded-full text-sm absolute cursor-pointer" onclick="toggleVis('extraNavPanel', 'show');">Inhoud <span class="text--nmgnBlue-500 text-xs">&#9660;</span></button>
             <div class="w-full absolute mt-7 ml-10 h-[100vh] hidden flex-col " id="extraNavPanel">
-                <div class="flex justify-end bg-neutral-50">
-                    <button class="px-1 m-1 rounded bg-neutral-200 hover:bg-neutral-300 cursor-pointer" onclick="toggleVis('extraNavPanel', 'hide');">&#10006;</button>
+                <div class="flex justify-end">
+                    <div>
+                        <button class="px-1 m-1 rounded bg-nmgnBlue-200 hover:nmgnBlue-300 cursor-pointer" onclick="toggleVis('extraNavPanel', 'hide');">&#10006;</button>
+                    </div>
                 </div>
-                <div class="contentNavigation bg-neutral-50 ml-10 flex flex-col p-4 text-xs gap-2 w-full *:no-underline *:text-neutral-800  overflow-y-auto"></div>
+                <div class="contentNavigation bg-nmgnBlue-50 ml-10 flex flex-col p-4 text-sm gap-2 w-full *:no-underline *:text-neutral-800  overflow-y-auto"></div>
             </div>
         </div>
         
@@ -1728,10 +1041,10 @@
                 <figcaption  class="text-sm max-w-xl mx-auto">
                     <strong class="mt-4 block" id="asideImgTitle">Mappa Mundi</strong>
                     <span id="asideCaption">
-                        Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld.
-                        Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300.
-                        
-                        <br>Hereford Cathedral, Hereford.
+                        Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld.<br>
+                        Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300.<br>
+                        <br>
+                        Hereford Cathedral, Hereford.
                     </span>
                     
                 </figcaption>
@@ -1741,10 +1054,8 @@
         </div>
     </aside>
     <!-- Notes popup -->
-    <div class="z-10 absolute w-full col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-10" id="noteCol">
+    <span class="z-10 absolute w-full col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-10" id="noteCol">
         <div class="hidden absolute w-full max-w-96 flex-col bg-white border border-neutral-200 shadow-2xl -translate-x-6 translate-y-16 lg:translate-y-0" id="notePopupBlock">
-            
-            
             <div class="flex justify-between p-4 border-b border-neutral-200">
                 <div class="font-bold" id="popupNoteNr"></div>
                 <div class=""><button class="cursor-pointer px-4" onclick="closeNotePopUp()">&#10006;</button></div>
@@ -1753,7 +1064,7 @@
             <div class="w-full bg-white p-4 min-h-40 text-neutral-600 text-sm" id="notePopupContent" > </div>
             
         </div>
-    </div>
+    </span>
 </div>
 
 <footer class="w-full bg-[#053a51] py-16 text-white">
@@ -1766,8 +1077,9 @@
         <div class="w-full lg:w-1/3 flex flex-col gap-4">
             <div class="lg:-translate-x-11 mb-4"><img src="images/logo_NMGN.svg" alt="" loading="lazy" class="w-64 lg:w-96" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
             <div class=""><strong>Partners</strong></div>
-            <div class="pb-4"><img src="images/logo_huygensING.png" alt="" loading="lazy" class="w-64 lg:w-32" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
-            <div class="bg-white pb-4 w-72"><img src="images/logo_OCW_RCE.png" alt="" loading="lazy" class="w-full" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
+            <div class="pb-4"><img src="images/logo_huygensING.png" alt="" loading="lazy" class="w-64 lg:w-32" aria-label="Logo Huygens instituut"></div>
+            <div class="bg-white pb-4 w-72"><img src="images/logo_OCW_RCE.png" alt="" loading="lazy" class="w-full" aria-label="Logo De Rijksdienst voor het Cultureel Erfgoed"></div>
+            <div class="bg-white pb-4 w-72 p-4"><img src="images/logo-samenwerkende-maritime-fondsen.png" alt="" loading="lazy" class="w-full" aria-label="logo samenwerkende maritime fondsen"></div>
             
         </div>
 
@@ -1811,7 +1123,7 @@
         </figure>
     </div>
 </div>
-<div class=" bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden" id="topMenuPop">
+<div class=" bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop">
 
     <div class="py-5 max-w-[1300px] w-full text-right">
         <button class="p-2 hover:bg-nmgnGreen-100 rounded text-2xl cursor-pointer" onclick="toggleVis('topMenuPop', 'hide');">&#10006;</button>
@@ -1893,6 +1205,18 @@
                     <h2 class="font-bold">De vaart in en buiten Europa</h2>
                     <div class="">1600 - 1780</div>
                 </div>
+
+            <a href="d2h3-de-tijd-van-de-grote-handelscompagnieen-koopvaardij-buiten-europa-in-de-zeventiende-en-achttiende-eeuw.html" class="flex flex-col" id="topnav_d2h3" aria-label="Hoofdstuk 3 De tijd van de grote handelscompagnieën:± Koopvaardij buiten Europa in de zeventiende en achttiende eeuw door Henk den Heijer, Han Jordaan en Karel Davids" tabindex="0">
+                <div class="font-bold">3 </div>
+                <div class="text-nmgnBlue-900 text-xl"><strong class="">De tijd van de grote handelscompagnieën:± Koopvaardij buiten Europa in de zeventiende en achttiende eeuw</strong></div>
+                <em class="">Henk den Heijer, Han Jordaan en Karel Davids</em>
+            </a>
+            
+
+            
+            
+        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
+
 
             <a href="d2h4-een-veelkoppig-monster-de-nederlandse-zeemacht-1568-1780.html" class="flex flex-col" id="topnav_d2h4" aria-label="Hoofdstuk 4 Een veelkoppig monster:± De Nederlandse zeemacht, 1568-1780 door Victor Enthoven, Marc van Alphen en Remmelt Daalder" tabindex="0">
                 <div class="font-bold">4 </div>
@@ -2015,12 +1339,14 @@
 </div>
 
 
-<script src="js/scroll.js"></script>
+<script src="js/scroll2.js"></script>
 <script src="js/notes.js"></script>
 <script src="js/images.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/toggleVis.js"></script>
 <script src="js/copy.js"></script>
 <script src="js/bigImageViewer.js"></script>
+<script src="js/lunr_index.min.js"></script>
+<script src="js/lunr.js"></script>
   </body>
 </html>

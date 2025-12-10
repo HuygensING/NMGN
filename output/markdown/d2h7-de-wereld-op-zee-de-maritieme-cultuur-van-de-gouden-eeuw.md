@@ -1,4 +1,5 @@
 ---
+chapterId: d2h7
 title: De wereld op zee:± De maritieme cultuur van de Gouden Eeuw
 author: Michiel van Groesen
 part: 2
@@ -86,7 +87,7 @@ Deze vorm van introspectie staat in scherp contrast met de razendsnelle expansie
 
 ![Begrafenis van Jacob van Heemskerck in de Oude Kerk te Amsterdam, 1607. De staatsbegrafenis van Jacob van Heemskerck sprak ruim anderhalve eeuw later nog altijd tot de verbeelding. Prent door Simon Fokke, 1722-1784.  ](17_Begrafenis.jpg)
 
-![undefined. undefined undefined undefined ](18_OostelijkHalfrond_MaartenSchuth2016.jpg)
+![Oostelijk halfrond, vloer van de Burgerzaal, 1748, Paleis op de Dam. De Burgerzaal van het nieuwe stadhuis op de Dam, opgeleverd in 1655, presenteerde Amsterdam als centrum van de wereld. De twee halfronden op de vloer geven een overzicht van de in de kaart gebrachte wereld in het midden van de achttiende eeuw. De impliciete boodschap van de Burgerzaal was dat de hele wereld binnen het handbereik van de stad was gekomen.   ](18_OostelijkHalfrond_MaartenSchuth2016.jpg)
 
-![undefined. undefined undefined undefined ](19_WestelijkHalfrond_MaartenSchuth2016.jpg)
+![Westelijk halfrond, vloer van de Burgerzaal, 1748, Paleis op de Dam.    ](19_WestelijkHalfrond_MaartenSchuth2016.jpg)
 

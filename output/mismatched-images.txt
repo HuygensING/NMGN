@@ -1,0 +1,3 @@
+["21_werkschuit.jpg", "21_werkschuit.tiff"],
+["26_ZN43.jpg", "26_ZN43.tiff"],
+["43_netDurer.png", "43_Durer.jpg"],

@@ -1,4 +1,5 @@
 ---
+chapterId: d1h4
 title: Geweld en oorlogvoering ter zee, 1018-1568
 author: Louis Sicking en Ronald de Graaf
 part: 1
@@ -463,7 +464,7 @@ Het verbouwen van een kogge ging als volgt: de baljuw of de schepenen zochten ge
 
 Het opeisen van schepen betekende dat bijvoorbeeld Brabantse en Zeeuwse schepen in 1304 in Vlaamse vloten meevoeren. De Hollandse vloot uit 1315 bestond uit maar liefst achttien koggen uit Kampen; uit Wilsum, Zutphen, Harderwijk, Dordrecht telkens één kogge; uit Stavoren en Zwolle twee en uit Den Briel kwam een hulk.[153](#fn153) Het was niet vanzelfsprekend dat al deze schepen waren verbouwd tot oorlogsschepen of alle op dezelfde wijze, want sommige schepen hadden logistieke taken, zoals van ‘spiscip’ voor de voeding en er was een speciale ‘cranken coeghe’. In de vijftiende en zestiende eeuw was het niet anders. Engelse koningen rustten oorlogsvloten uit bestaande uit in de Nederlanden gehuurde schepen zoals in 1417 en 1475.[154](#fn154) Omgekeerd maakten de landsheren van de Nederlanden ook van buitenlandse schepen gebruik voor hun oorlogsvloten.
 
-![Kraak. De kraak behoorde tot de grootste zeeschepen in de late middeleeuwen. De kraak was vanwege zijn diepgang minder geschikt voor de vaak ondiepe wateren van de Nederlanden. Niettemin hebben de Bourgondische landsheren ze gebruikt vanwege hun grote laadvermogen en prestigieuze uitstraling. De hier afgebeelde kraak is een van de eerste scheepsportretten dat betrouwbare technische informatie verschaft. Gravure van meester Willem vanden Cruce, ca. 1480.  ](50a_kraak MGN_01_133.jpg)
+![undefined. undefined undefined undefined ](50a_kraakMGN_01_133.jpg)
 
 De plaatsing van zwaar geschut op zeilschepen vond in eerste instantie plaats in het achterschip, onder het achterkasteel, zoals in 1436 in de hertogelijke nef. De gravure van een kraak door Willem vanden Cruce laat vier aldus geplaatste kanons zien. Geschut werd ook langs de boorden geplaatst en lichtere stukken op de kastelen. Een enkel licht stuk werd ook wel op de mars geplaatst. Aan boord van galeien werden kanons op de boeg geplaatst, zoals op de galei waarmee Geoffroy de Thoisy in 1444 de strijd aanbond tegen de Mamelukken.[155](#fn155) Ook toen de introductie van zwaar geschut plaatsing benedendeks vereiste en daarmee vanaf de zestiende eeuw de bouw van geschutpoorten noodzakelijk maakte, bleven oorlogsschepen omgebouwde handelsschepen. Dit blijkt het duidelijkst in Veere waar schepen die gehuurd en/of gekocht waren voor oorlogvoering, werden verbouwd en uitgerust.
 
@@ -507,7 +508,7 @@ De meeste vlaggen waren in navolging van de ordonnantie op de Admiraliteit van 1
 
 De rekeningen van de Bourgondische en Habsburgse oorlogsschepen bewijzen dat ook de meeste andere decoraties daadwerkelijk zijn toegepast. Naast het wapen van de vorst keerde dat van de admiraal telkens terug. Niet alleen de stagen maar ook pieken en trompetten werden van vaantjes, vlaggen en franjes voorzien. De duurste stoffen werden gebruikt zoals taf, zijde, damast en sindaal. De vlaggen en decoraties moesten de eer en de reputatie van de vorst op zee onderstrepen. Door middel van het gecombineerde gebruik van wapens van verschillende autoriteiten, waaronder behalve de vorst onder andere de admiraal en de Vier Leden van Vlaanderen, en van Herculeszuilen en het devies ‘Plus Ultra’ op scheepsvlaggen, -rompen en marskleden werd de overheersende politieke ontwikkeling onder Karel V verbeeld: het inpassen van bestaande autoriteiten in een Habsburgs imperium waar de zon nooit onderging.[169](#fn169)
 
-## 3 ZEEVARENDEN: VAN ADMIRAAL TOT ZEEMAN<p></p><p> </p><p> </p>
+## 3 ZEEVARENDEN: VAN ADMIRAAL TOT ZEEMAN<p> </p>
 
 ## Arbeidsmarkt en werving
 

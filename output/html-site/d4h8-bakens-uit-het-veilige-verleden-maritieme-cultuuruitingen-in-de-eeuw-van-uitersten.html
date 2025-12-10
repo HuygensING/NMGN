@@ -8,19 +8,27 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body class="text-neutral-700">
+  <body class="text-neutral-700 relative">
   
 
-<header class="w-full bg-nmgnBlue-900 text-white p-3">
+<header class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
     <div class="max-w-[1900px] mx-auto  flex justify-between">
         <a href="index.html"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
-        <div class="">
+        <div class="flex gap-4">
             
-            <button class="cursor-pointer" onclick="toggleVis('topMenuPop', 'show'); setFocus('topnav_d1')" aria-label="klik voor alle hoofdstukken">Hoofdstukken</button>
-        </div>
+            <button class="cursor-pointer  py-1 px-2  bg-nmgnBlue-200 rounded-lg text-nmgnBlue-900 text-sm" onclick="toggleVis('topMenuPop', 'show'); setFocus('topnav_d1')" aria-label="klik voor alle hoofdstukken">Hoofdstukken</button>
+            <div class="hidden relative">
+                <input type="text" name="" id="searchField" class="bg-white w-32 text-black rounded-l-lg text-sm py-1 px-2"  aria-label="type een zoekwoord">
+                <button class=" py-1 px-2 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm flex  rounded-r-lg" id="searchButton">Zoeken</button>
+                <div class="bg-nmgnBlue-100 text-nmgnBlue-950  shadow-2xl absolute w-96 p-4 top-10 right-4 hidden max-w-lg z-50" id="searchResults">
+                    <ul id="searchResultsList" class="flex flex-col gap-2 text-sm">
+                        <li>Searching...</li>
+                    </ul>
+                </div>
+            </div>        </div>
     </div>
 </header>
-<div class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative">
+<div class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative z-30">
     <div class="col-start-2 xl:col-start-6 row-start-1 col-span-6 text-white items-start justify-center flex flex-col gap-2">
         <span class="">Deel 4 <em>Mechanisering en schaalvergroting</em></span> 
         <strong>Hoofdstuk 8</strong></div>
@@ -31,353 +39,29 @@
     <div class="col-start-2 xl:col-start-6 row-start-3 col-span-6 text-white items-center justify-start">Door Sara Keijzer</div>
     <!-- <div class="col-start-2 xl:col-start-2 row-start-4 text-white  absolute left-[20vw] hidden xl:flex"><img src="images/chapterImages/d4h8.png" class="w-24 h-24 2xl:w-36 2xl:h-36" alt=""></div> -->
 </div>
-<div class="flex flex-col px-6 lg:px-0 lg:grid gap-4 xl:gap-10  grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] w-full relative">
+<div class="flex flex-col px-6 lg:px-0 lg:grid gap-4 xl:gap-10  grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] w-full relative z-30">
 
     <!-- Nagivation -->
         <aside class="pt-12 bg-nmgnBlue-50 pl-10 hidden xl:flex col-start-1 col-span-2">
             
-            <nav class="text-xs flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16">
+            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16">
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
                 <div class="flex justify-between mb-4 border-b border-nmgnBlue-200 pb-2">
                     <em tabindex="0" aria-label="Inhoud van deze pagina">Inhoud</em>
                     <a href="#top" class="no-underline pl-2 inline-block pr-2"  aria-label="Scroll naar boven">&#8593; top</a>
                 </div>
                 <div class="flex flex-col gap-2 justify-between mb-4 pb-2" id="contentNavigationSource">
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-                        <a href="#s-lands-stuurman-en-het-schip-van-staat&lt;p&gt;&lt;/p&gt;&lt;p&gt;-&lt;/p&gt;" class="contentNavigationItem" id="as-lands-stuurman-en-het-schip-van-staat&lt;p&gt;&lt;/p&gt;&lt;p&gt;-&lt;/p&gt;">’S LANDS STUURMAN EN HET SCHIP VAN STAAT<p></p><p> </p></a>
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
+                        <a href="#s-lands-stuurman-en-het-schip-van-staat" class="contentNavigationItem" id="as-lands-stuurman-en-het-schip-van-staat">’S LANDS STUURMAN EN HET SCHIP VAN STAAT</a>
                         <a href="#schipper-naast-god" class="contentNavigationItem ml-1" id="aschipper-naast-god">Schipper naast God</a>
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
                         <a href="#de-politiek-leider-als-cultureel-verschijnsel" class="contentNavigationItem ml-1" id="ade-politiek-leider-als-cultureel-verschijnsel">De politiek leider als cultureel verschijnsel</a>
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
                         <a href="#nationale-figuren" class="contentNavigationItem ml-1" id="anationale-figuren">Nationale figuren</a>
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
                         <a href="#een-vertrouwd-idioom" class="contentNavigationItem ml-1" id="aeen-vertrouwd-idioom">Een vertrouwd idioom</a>
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-                        <a href="#s-oud-hout-en-varende-takkenbossen&lt;p&gt;&lt;/p&gt;&lt;p&gt;-&lt;/p&gt;" class="contentNavigationItem" id="as-oud-hout-en-varende-takkenbossen&lt;p&gt;&lt;/p&gt;&lt;p&gt;-&lt;/p&gt;">’S OUD HOUT EN VARENDE TAKKENBOSSEN<p></p><p> </p></a>
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
+                        <a href="#s-oud-hout-en-varende-takkenbossen" class="contentNavigationItem" id="as-oud-hout-en-varende-takkenbossen">’S OUD HOUT EN VARENDE TAKKENBOSSEN</a>
                         <a href="#het-getal-overspoelde-de-individu" class="contentNavigationItem ml-1" id="ahet-getal-overspoelde-de-individu">Het getal overspoelde de individu</a>
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-                        <a href="#een-efficiënte-productiemethode" class="contentNavigationItem ml-1" id="aeen-efficiënte-productiemethode">Een efficiënte productiemethode</a>
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
+                        <a href="#een-efficiente-productiemethode" class="contentNavigationItem ml-1" id="aeen-efficiente-productiemethode">Een efficiënte productiemethode</a>
                         <a href="#zuivere-schepen" class="contentNavigationItem ml-1" id="azuivere-schepen">Zuivere schepen</a>
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
                         <a href="#samenspel" class="contentNavigationItem ml-1" id="asamenspel">Samenspel</a>
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
                         <a href="#slotbeschouwing" class="contentNavigationItem ml-1" id="aslotbeschouwing">Slotbeschouwing</a>
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
-    
-    
-    
-    
-    
-                    
                     <a href="#noten" class="" id="a">Noten</a>
                 </div>
                 
@@ -387,22 +71,27 @@
             </nav>
         </aside>
     <!-- content -->
-    <main class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32">
+    <main class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30">
        <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative" id="top">
     
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph0">
-                      <input type="text" name="" id="paragraphLink0" value="paragraph0" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink0')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph0">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>‘Op het eerste gezicht was Nederland in de twintigste eeuw een eiland van rust in een Europese zee van omwentelingen en massabewegingen’, schrijft Friso Wielenga op het omslag van zijn overzichtswerk <em>Nederland in de twintigste eeuw.</em> Toch veranderde de Nederlandse samenleving ingrijpend: massacommunicatie, technologische ontwikkelingen, toenemende mobiliteit en massale productie en consumptie van goederen en energie kwamen op gang en drukten hun stempel op mens en maatschappij. Naast grote welvaart en technologische vooruitgang werd de ‘eeuw van uitersten’ gedomineerd door enorme spanningen op het wereldtoneel.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP0">
+        <input type="text" name="" id="paragraphLink0" value="paragraph0" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('0')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)" id="b_paragraphLink0">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)" id="b_paragraphLink0">
+            &#10006;
+        </button>
+    </span>‘Op het eerste gezicht was Nederland in de twintigste eeuw een eiland van rust in een Europese zee van omwentelingen en massabewegingen’, schrijft Friso Wielenga op het omslag van zijn overzichtswerk <em>Nederland in de twintigste eeuw.</em> Toch veranderde de Nederlandse samenleving ingrijpend: massacommunicatie, technologische ontwikkelingen, toenemende mobiliteit en massale productie en consumptie van goederen en energie kwamen op gang en drukten hun stempel op mens en maatschappij. Naast grote welvaart en technologische vooruitgang werd de ‘eeuw van uitersten’ gedomineerd door enorme spanningen op het wereldtoneel.
         <button id="noteRef1" data-noteNumber="1"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         1
@@ -419,25 +108,24 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         4
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph1">
-                      <input type="text" name="" id="paragraphLink1" value="paragraph1" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink1')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (1)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph1">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP1', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (1)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Dit hoofdstuk is een verkenning van de wijze waarop twintigste-eeuwse denkbeelden over (nationale) eenheid en eigenheid zijn te herkennen in cultuuruitingen met een maritiem karakter en, omgekeerd, of en op welke manier maritieme cultuuruitingen hebben bijgedragen aan een (breed gedragen) begrip van eenheid en eigenheid.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP1">
+        <input type="text" name="" id="paragraphLink1" value="paragraph1" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('1')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (1)" id="b_paragraphLink1">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP1', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (1)" id="b_paragraphLink1">
+            &#10006;
+        </button>
+    </span>Dit hoofdstuk is een verkenning van de wijze waarop twintigste-eeuwse denkbeelden over (nationale) eenheid en eigenheid zijn te herkennen in cultuuruitingen met een maritiem karakter en, omgekeerd, of en op welke manier maritieme cultuuruitingen hebben bijgedragen aan een (breed gedragen) begrip van eenheid en eigenheid.
         <button id="noteRef5" data-noteNumber="5"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         5
@@ -450,107 +138,45 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         7
         </button> Het iconisch geworden affiche met Hendrik Colijn (1869-1944) achter het stuurwiel van het ‘schip van staat’, dient hiervoor als uitgangspunt. In het tweede deel staat een andere massabeweging centraal; namelijk die van ‘de gewone man’, die met zelf- of in serie gebouwde scheepjes toegang tot de watersport verkreeg. De emancipatie van deze vorm van vrijetijdsbesteding – die tijdens het interbellum ontstond en na de Tweede Wereldoorlog tot wasdom kwam – betekende een gedeeltelijke teloorgang van unieke, aan de elite toebehorende, ‘trotsche schepen’. De eerste organisatie in Nederland die zich het behoud van deze traditioneel gebouwde schepen ten doel stelde, zag niet toevallig in deze periode het levenslicht. Hoewel ogenschijnlijk ver uiteen liggend, laten beide voorbeelden zien dat de eeuwenoude binding van Nederland met het water in tijden van grote verandering als een ‘eigen’, vertrouwde en houvast biedende constante kan worden opgevat.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h2 class="mt-8 mb-2 text-2xl font-merriweather font-bold scroll-mt-8" id="s-lands-stuurman-en-het-schip-van-staat&lt;p&gt;&lt;/p&gt;&lt;p&gt;-&lt;/p&gt;">’S LANDS STUURMAN EN HET SCHIP VAN STAAT<p></p><p> </p></h2>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <blockquote class="my-4 font-merriweather ml-4 italic"> <p>ʻHeb je van dien kloeken Colijn wel gehoord,</p> <p>Die zuinig de schatkist beheerde?</p> </blockquote>
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph4">
-                      <input type="text" name="" id="paragraphLink4" value="paragraph4" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink4')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (4)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <h2 class="mb-8 mt-4     text-2xl font-merriweather font-bold scroll-mt-8" id="s-lands-stuurman-en-het-schip-van-staat">’S LANDS STUURMAN EN HET SCHIP VAN STAAT</h2>
+                   <blockquote class="my-4 font-merriweather font-light ml-4 italic"> <p>ʻHeb je van dien kloeken Colijn wel gehoord,</p> <p>Die zuinig de schatkist beheerde?</p> <p>Die binnen een jaar door zijn daad en woord</p> <p>De inflatie van Nederland weerde?</p> <p>Colijn, Colijn,</p> <p>Colijn moet stuurman zijn,</p> <p>Wij stemmen op Colijn,</p> <p>Wij kiezen, ja! Colijn,</p><p> Hij moet tot stuurman gekozen zijn!</p> <p>Hiijjjj moet tot stuuuuuurman gekoooooooozen zijn!ʼ<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p> </blockquote>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph4">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP4', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (4)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Die binnen een jaar door zijn daad en woord</p>
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP4">
+        <input type="text" name="" id="paragraphLink4" value="paragraph4" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('4')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (4)" id="b_paragraphLink4">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <blockquote class="my-4 font-merriweather ml-4 italic"> <p>De inflatie van Nederland weerde?</p> <p>Colijn, Colijn,</p> <p>Colijn moet stuurman zijn,</p> <p>Wij stemmen op Colijn,</p> <p>Wij kiezen, ja! Colijn,</p><p> Hij moet tot stuurman gekozen zijn!</p> <p>Hiijjjj moet tot stuuuuuurman gekoooooooozen zijn!ʼ<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p> </blockquote>
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph6">
-                      <input type="text" name="" id="paragraphLink6" value="paragraph6" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink6')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP4', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (4)" id="b_paragraphLink4">
+            &#10006;
+        </button>
+    </span>Geïnspireerd door het affiche van tekenaar Hein Kray, trokken de antirevolutionairen in 1925 zingend ten verkiezingsstrijd. Op de melodie van het in de negentiende eeuw gecomponeerde lied <em>De Zilvervloot –</em> naar de ‘heldendaad’ van Piet Hein – galmde het door de straten: Colijn moet stuurman zijn. Trotse ‘kleine luyden’ hingen het verkiezingsaffiche waarop hun nieuwe stuurman prijkte, massaal voor de ramen. In oliegoed gestoken en met de handen stevig om het stuurwiel van het schip van staat geklemd, tuurt Colijn vastberaden naar de einder.</p>
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Verkiezingsaffiche van de Anti-Revolutionaire Partij (ARP), 1925" data-caption="In oliegoed gestoken en met zijn handen stevig om het stuurwiel van het ‘schip van staat’ geklemd, tuurt ’s lands stuurman Hendrik Colijn vastberaden naar de einder. Colijn leidde als voorman van de Anti-Revolutionaire Partij (ARP) tussen 1925 en 1939 vijf kabinetten. Ontwerp door Hein Kray. Uitgave: Bureau ‘Houten Pomp’, Arnhem.<br>Historisch Documentatiecentrum – Vrije Universiteit, Amsterdam."data-src="images/d4h8/d4h8-600/1_nwoliegoed.jpg"><img src="images/d4h8/d4h8-170/1_nwoliegoed.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Verkiezingsaffiche van de Anti-Revolutionaire Partij (ARP), 1925 In oliegoed gestoken en met zijn handen stevig om het stuurwiel van het ‘schip van staat’ geklemd, tuurt ’s lands stuurman Hendrik Colijn vastberaden naar de einder. Colijn leidde als voorman van de Anti-Revolutionaire Partij (ARP) tussen 1925 en 1939 vijf kabinetten. Ontwerp door Hein Kray. Uitgave: Bureau ‘Houten Pomp’, Arnhem.<br>Historisch Documentatiecentrum – Vrije Universiteit, Amsterdam." id="img_1_nwoliegoed.jpg"><div>Verkiezingsaffiche van de Anti-Revolutionaire Partij (ARP), 1925</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph6">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP6', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Geïnspireerd door het affiche van tekenaar Hein Kray, trokken de antirevolutionairen in 1925 zingend ten verkiezingsstrijd. Op de melodie van het in de negentiende eeuw gecomponeerde lied <em>De Zilvervloot –</em> naar de ‘heldendaad’ van Piet Hein – galmde het door de straten: Colijn moet stuurman zijn. Trotse ‘kleine luyden’ hingen het verkiezingsaffiche waarop hun nieuwe stuurman prijkte, massaal voor de ramen. In oliegoed gestoken en met de handen stevig om het stuurwiel van het schip van staat geklemd, tuurt Colijn vastberaden naar de einder.</p>
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP6">
+        <input type="text" name="" id="paragraphLink6" value="paragraph6" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('6')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)" id="b_paragraphLink6">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Verkiezingsaffiche van de Anti-Revolutionaire Partij (ARP), 1925" data-caption="In oliegoed gestoken en met zijn handen stevig om het stuurwiel van het ‘schip van staat’ geklemd, tuurt ’s lands stuurman Hendrik Colijn vastberaden naar de einder. Colijn leidde als voorman van de Anti-Revolutionaire Partij (ARP) tussen 1925 en 1939 vijf kabinetten. Ontwerp door Hein Kray. Uitgave: Bureau ‘Houten Pomp’, Arnhem.<br>Historisch Documentatiecentrum – Vrije Universiteit, Amsterdam."data-src="images/d4h8/d4h8-600/1_nwoliegoed.jpg"><img src="images/d4h8/d4h8-170/1_nwoliegoed.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Verkiezingsaffiche van de Anti-Revolutionaire Partij (ARP), 1925 In oliegoed gestoken en met zijn handen stevig om het stuurwiel van het ‘schip van staat’ geklemd, tuurt ’s lands stuurman Hendrik Colijn vastberaden naar de einder. Colijn leidde als voorman van de Anti-Revolutionaire Partij (ARP) tussen 1925 en 1939 vijf kabinetten. Ontwerp door Hein Kray. Uitgave: Bureau ‘Houten Pomp’, Arnhem.<br>Historisch Documentatiecentrum – Vrije Universiteit, Amsterdam." loading="lazy" id="img_1_nwoliegoed.jpg"><div>Verkiezingsaffiche van de Anti-Revolutionaire Partij (ARP), 1925</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph8">
-                      <input type="text" name="" id="paragraphLink8" value="paragraph8" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink8')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (8)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-    </svg>
-    
-    
-     </button>Door ingrijpende veranderingen van het kiesstelsel speelden Nederlandse verkiezingscampagnes zich na de Eerste Wereldoorlog voor het eerst op landelijk niveau af en namen de omvang en diversiteit van kiezersdoelgroepen toe. Op affiches werd de verkiezingsboodschap van politieke partijen veelal door middel van symbolische voorstellingen uitgedragen. Ook het gebruik van metaforen was populair. In het bijzonder het ‘schip van staat’ en het hiervan afgeleide motief van de ‘stuurman in woelig stormgetij’ werden tijdens het interbellum veelvuldig in politieke context gebruikt.
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP6', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)" id="b_paragraphLink6">
+            &#10006;
+        </button>
+    </span>Door ingrijpende veranderingen van het kiesstelsel speelden Nederlandse verkiezingscampagnes zich na de Eerste Wereldoorlog voor het eerst op landelijk niveau af en namen de omvang en diversiteit van kiezersdoelgroepen toe. Op affiches werd de verkiezingsboodschap van politieke partijen veelal door middel van symbolische voorstellingen uitgedragen. Ook het gebruik van metaforen was populair. In het bijzonder het ‘schip van staat’ en het hiervan afgeleide motief van de ‘stuurman in woelig stormgetij’ werden tijdens het interbellum veelvuldig in politieke context gebruikt.
         <button id="noteRef9" data-noteNumber="9"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         9
@@ -559,81 +185,49 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         10
         </button> Dit leidt tot twee vragen: waarom won maritieme beeldspraak in politieke context tijdens het interbellum aan populariteit? En waarom wordt het beeld van de stuurman van het schip van staat in retrospectief vrijwel exclusief toegeschreven aan Colijn?</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Verkiezingsaffiche van de Vrijzinnig-Democratische Bond (VDB), 1922" data-caption="Een onbemand schip van staat vaart tussen de dreigende kliffen van ‘Reactie’ en ‘Revolutie’ door. Ontwerp door J.D. Ros. Uitgave: S. Lankhout Den Haag.<br>Internationaal Instituut voor Sociale Geschiedenis – KNAW, Amsterdam."data-src="images/d4h8/d4h8-600/2_Houdt_koers.jpg"><img src="images/d4h8/d4h8-170/2_Houdt_koers.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Verkiezingsaffiche van de Vrijzinnig-Democratische Bond (VDB), 1922 Een onbemand schip van staat vaart tussen de dreigende kliffen van ‘Reactie’ en ‘Revolutie’ door. Ontwerp door J.D. Ros. Uitgave: S. Lankhout Den Haag.<br>Internationaal Instituut voor Sociale Geschiedenis – KNAW, Amsterdam." loading="lazy" id="img_2_Houdt_koers.jpg"><div>Verkiezingsaffiche van de Vrijzinnig-Democratische Bond (VDB), 1922</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h3 class="mt-2 font-merriweather font-bold scroll-mt-8" id="schipper-naast-god">Schipper naast God</h3>
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph11">
-                      <input type="text" name="" id="paragraphLink11" value="paragraph11" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink11')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (11)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Verkiezingsaffiche van de Vrijzinnig-Democratische Bond (VDB), 1922" data-caption="Een onbemand schip van staat vaart tussen de dreigende kliffen van ‘Reactie’ en ‘Revolutie’ door. Ontwerp door J.D. Ros. Uitgave: S. Lankhout Den Haag.<br>Internationaal Instituut voor Sociale Geschiedenis – KNAW, Amsterdam."data-src="images/d4h8/d4h8-600/2_Houdt_koers.jpg"><img src="images/d4h8/d4h8-170/2_Houdt_koers.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Verkiezingsaffiche van de Vrijzinnig-Democratische Bond (VDB), 1922 Een onbemand schip van staat vaart tussen de dreigende kliffen van ‘Reactie’ en ‘Revolutie’ door. Ontwerp door J.D. Ros. Uitgave: S. Lankhout Den Haag.<br>Internationaal Instituut voor Sociale Geschiedenis – KNAW, Amsterdam." id="img_2_Houdt_koers.jpg"><div>Verkiezingsaffiche van de Vrijzinnig-Democratische Bond (VDB), 1922</div></button></div>
+                   <h3 class="mb-4 mt-4 font-merriweather font-bold scroll-mt-8" id="schipper-naast-god">Schipper naast God</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph9">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP9', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (9)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Het beeld van Colijn die het schip van staat als krachtig stuurman naar veilig water loodst, was niet nieuw, zeker niet voor het calvinistische deel van de Nederlandse bevolking. Het verkiezingsaffiche dat Hein Kray in 1925 voor de ARP ontwierp, is een vrijwel exacte kopie van een tekening die hij twee jaar eerder maakte van Colijn als minister van Financiën voor het ‘humoristisch-satyriek orgaan’ van de anti-revolutionairen, <em>De Houten Pomp</em>.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP9">
+        <input type="text" name="" id="paragraphLink9" value="paragraph9" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('9')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (9)" id="b_paragraphLink9">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP9', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (9)" id="b_paragraphLink9">
+            &#10006;
+        </button>
+    </span>Het beeld van Colijn die het schip van staat als krachtig stuurman naar veilig water loodst, was niet nieuw, zeker niet voor het calvinistische deel van de Nederlandse bevolking. Het verkiezingsaffiche dat Hein Kray in 1925 voor de ARP ontwierp, is een vrijwel exacte kopie van een tekening die hij twee jaar eerder maakte van Colijn als minister van Financiën voor het ‘humoristisch-satyriek orgaan’ van de anti-revolutionairen, <em>De Houten Pomp</em>.
         <button id="noteRef11" data-noteNumber="11"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         11
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Schatkistbewaarder Colijn, de nieuwe stuurman" data-caption="Het verkiezingsaffiche dat tekenaar Hein Kray in 1925 voor de ARP ontwierp, is een vrijwel exacte kopie van deze tekening, die hij twee jaar eerder maakte van Colijn als minister van Financiën voor het ‘humoristisch-satyriek orgaan’ van de anti-revolutionairen, <em>De Houten Pomp</em> (augustus 1923). Tekening door Hein Kray. Collectie beheerd door Erven Hein Kray.<br>Drents Museum, Assen."data-src="images/d4h8/d4h8-600/3_oliegoed2.jpg"><img src="images/d4h8/d4h8-170/3_oliegoed2.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Schatkistbewaarder Colijn, de nieuwe stuurman Het verkiezingsaffiche dat tekenaar Hein Kray in 1925 voor de ARP ontwierp, is een vrijwel exacte kopie van deze tekening, die hij twee jaar eerder maakte van Colijn als minister van Financiën voor het ‘humoristisch-satyriek orgaan’ van de anti-revolutionairen, <em>De Houten Pomp</em> (augustus 1923). Tekening door Hein Kray. Collectie beheerd door Erven Hein Kray.<br>Drents Museum, Assen." loading="lazy" id="img_3_oliegoed2.jpg"><div>Schatkistbewaarder Colijn, de nieuwe stuurman</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph13">
-                      <input type="text" name="" id="paragraphLink13" value="paragraph13" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink13')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (13)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Schatkistbewaarder Colijn, de nieuwe stuurman" data-caption="Het verkiezingsaffiche dat tekenaar Hein Kray in 1925 voor de ARP ontwierp, is een vrijwel exacte kopie van deze tekening, die hij twee jaar eerder maakte van Colijn als minister van Financiën voor het ‘humoristisch-satyriek orgaan’ van de anti-revolutionairen, <em>De Houten Pomp</em> (augustus 1923). Tekening door Hein Kray. Collectie beheerd door Erven Hein Kray.<br>Drents Museum, Assen."data-src="images/d4h8/d4h8-600/3_oliegoed2.jpg"><img src="images/d4h8/d4h8-170/3_oliegoed2.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Schatkistbewaarder Colijn, de nieuwe stuurman Het verkiezingsaffiche dat tekenaar Hein Kray in 1925 voor de ARP ontwierp, is een vrijwel exacte kopie van deze tekening, die hij twee jaar eerder maakte van Colijn als minister van Financiën voor het ‘humoristisch-satyriek orgaan’ van de anti-revolutionairen, <em>De Houten Pomp</em> (augustus 1923). Tekening door Hein Kray. Collectie beheerd door Erven Hein Kray.<br>Drents Museum, Assen." id="img_3_oliegoed2.jpg"><div>Schatkistbewaarder Colijn, de nieuwe stuurman</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph11">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP11', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (11)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Opvallend is dat het stuurwiel, dat op de oorspronkelijke tekening nog een aanzienlijke diameter had, op het affiche gekrompen is tot een rad van poppenhuisformaat in de buitensporig grote en grof getekende handen van Colijn. Door hem letterlijk te vergroten probeerde Kray stuurman Colijn extra autoriteit, gezag en daadkracht te laten uitstralen. Over afbeeldingen op verkiezingsaffiches uit het interbellum wordt weleens gezegd dat ‘de suggestie steeds die van dreiging is […] het schip van staat dreigt onder te gaan in de woeste baren en dient beschermd te worden’.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP11">
+        <input type="text" name="" id="paragraphLink11" value="paragraph11" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('11')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (11)" id="b_paragraphLink11">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP11', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (11)" id="b_paragraphLink11">
+            &#10006;
+        </button>
+    </span>Opvallend is dat het stuurwiel, dat op de oorspronkelijke tekening nog een aanzienlijke diameter had, op het affiche gekrompen is tot een rad van poppenhuisformaat in de buitensporig grote en grof getekende handen van Colijn. Door hem letterlijk te vergroten probeerde Kray stuurman Colijn extra autoriteit, gezag en daadkracht te laten uitstralen. Over afbeeldingen op verkiezingsaffiches uit het interbellum wordt weleens gezegd dat ‘de suggestie steeds die van dreiging is […] het schip van staat dreigt onder te gaan in de woeste baren en dient beschermd te worden’.
         <button id="noteRef12" data-noteNumber="12"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         12
@@ -650,47 +244,26 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         15
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h3 class="mt-2 font-merriweather font-bold scroll-mt-8" id="de-politiek-leider-als-cultureel-verschijnsel">De politiek leider als cultureel verschijnsel</h3>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Verkiezingsaffiche ARP, 1933" data-caption="In de stijl van de Nieuwe Zakelijkheid borduurt de ARP voor de Tweede Kamerverkiezingen van 1933 voort op het thema van de sterke stuurman die het schip van staat door roerige tijden loodst. Vanwege muiterij op <em>De Zeven Provinciën</em> staat de kwestie van de gezagshandhaving hoog op de agenda. Ontwerp door Machiel Wilmink. Uitgave: P.J. Mulder & zoon, Leiden.<br>Internationaal Instituut voor Sociale Geschiedenis – KNAW, Amsterdam."data-src="images/d4h8/d4h8-600/4_ARP.jpg"><img src="images/d4h8/d4h8-170/4_ARP.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Verkiezingsaffiche ARP, 1933 In de stijl van de Nieuwe Zakelijkheid borduurt de ARP voor de Tweede Kamerverkiezingen van 1933 voort op het thema van de sterke stuurman die het schip van staat door roerige tijden loodst. Vanwege muiterij op <em>De Zeven Provinciën</em> staat de kwestie van de gezagshandhaving hoog op de agenda. Ontwerp door Machiel Wilmink. Uitgave: P.J. Mulder & zoon, Leiden.<br>Internationaal Instituut voor Sociale Geschiedenis – KNAW, Amsterdam." loading="lazy" id="img_4_ARP.jpg"><div>Verkiezingsaffiche ARP, 1933</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph16">
-                      <input type="text" name="" id="paragraphLink16" value="paragraph16" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink16')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (16)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <h3 class="mb-4 mt-4 font-merriweather font-bold scroll-mt-8" id="de-politiek-leider-als-cultureel-verschijnsel">De politiek leider als cultureel verschijnsel</h3>
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Verkiezingsaffiche ARP, 1933" data-caption="In de stijl van de Nieuwe Zakelijkheid borduurt de ARP voor de Tweede Kamerverkiezingen van 1933 voort op het thema van de sterke stuurman die het schip van staat door roerige tijden loodst. Vanwege muiterij op <em>De Zeven Provinciën</em> staat de kwestie van de gezagshandhaving hoog op de agenda. Ontwerp door Machiel Wilmink. Uitgave: P.J. Mulder & zoon, Leiden.<br>Internationaal Instituut voor Sociale Geschiedenis – KNAW, Amsterdam."data-src="images/d4h8/d4h8-600/4_ARP.jpg"><img src="images/d4h8/d4h8-170/4_ARP.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Verkiezingsaffiche ARP, 1933 In de stijl van de Nieuwe Zakelijkheid borduurt de ARP voor de Tweede Kamerverkiezingen van 1933 voort op het thema van de sterke stuurman die het schip van staat door roerige tijden loodst. Vanwege muiterij op <em>De Zeven Provinciën</em> staat de kwestie van de gezagshandhaving hoog op de agenda. Ontwerp door Machiel Wilmink. Uitgave: P.J. Mulder & zoon, Leiden.<br>Internationaal Instituut voor Sociale Geschiedenis – KNAW, Amsterdam." id="img_4_ARP.jpg"><div>Verkiezingsaffiche ARP, 1933</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph14">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP14', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (14)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Hoewel het interbellum achteraf lang als een conservatieve en weinig zinderende tijd is beschouwd, had de tijdgenoot het gevoel dat hij in snelle veranderingen leefde en dat de staat en de maatschappij dreigden te ontwrichten.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP14">
+        <input type="text" name="" id="paragraphLink14" value="paragraph14" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('14')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (14)" id="b_paragraphLink14">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP14', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (14)" id="b_paragraphLink14">
+            &#10006;
+        </button>
+    </span>Hoewel het interbellum achteraf lang als een conservatieve en weinig zinderende tijd is beschouwd, had de tijdgenoot het gevoel dat hij in snelle veranderingen leefde en dat de staat en de maatschappij dreigden te ontwrichten.
         <button id="noteRef16" data-noteNumber="16"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         16
@@ -711,58 +284,27 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         20
         </button> Colijn was de eerste staatsman die werd afgebeeld op een verkiezingsaffiche. Niet voor niets werd de ‘schipper naast God’ daarop afgebeeld in een cultureel herkenbare verschijningsvorm.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Commandant van het Schip van Staat" data-caption="In <em>De Telegraaf</em> werd Colijn op tekeningen van Louis Raemaekers regelmatig in oliegoed of als schipper afgebeeld; zo ook toen de krant na de Troonrede van 19 september 1933 stormweer voorspelde. Pieterse, die in het bijschrift door Colijn gewaarschuwd wordt, is een fictieve kamerbewaarder, met wie hij in de rubriek ‘Spotternij of Sotternij’ regelmatig ‘een gesprek voert’. Illustratie in <em>De Telegraaf</em>, 24 september 1933. Scan uit <em>Colijn in de caricatuur. 100 uitgezochte caricaturen met een voorwoord van Dr. Colijn zelf</em> (Baarn z.j.) 73.<br>Politieke prent door Louis Raemaekers."data-src="images/d4h8/d4h8-600/5_Telegraaf_1933.jpg"><img src="images/d4h8/d4h8-170/5_Telegraaf_1933.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Commandant van het Schip van Staat In <em>De Telegraaf</em> werd Colijn op tekeningen van Louis Raemaekers regelmatig in oliegoed of als schipper afgebeeld; zo ook toen de krant na de Troonrede van 19 september 1933 stormweer voorspelde. Pieterse, die in het bijschrift door Colijn gewaarschuwd wordt, is een fictieve kamerbewaarder, met wie hij in de rubriek ‘Spotternij of Sotternij’ regelmatig ‘een gesprek voert’. Illustratie in <em>De Telegraaf</em>, 24 september 1933. Scan uit <em>Colijn in de caricatuur. 100 uitgezochte caricaturen met een voorwoord van Dr. Colijn zelf</em> (Baarn z.j.) 73.<br>Politieke prent door Louis Raemaekers." loading="lazy" id="img_5_Telegraaf_1933.jpg"><div>De Commandant van het Schip van Staat</div></button>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Het schip van staat in crisis-orkaan" data-caption="De vaderlijke hand van Colijn rust kalm naast de boei van het in nood verkerende ms NEDERLAND ÉÉN, terwijl de ‘Roomschen’ zijn gezag proberen te ondermijnen. Illustratie in <em>De Telegraaf</em>, 29 november 1934. Scan uit <em>Colijn in de caricatuur. 100 uitgezochte caricaturen met een voorwoord van Dr. Colijn zelf</em> (Baarn z.j.) 90.<br>Politieke prent door Louis Raemaekers."data-src="images/d4h8/d4h8-600/6_Telegraaf_1934.jpg"><img src="images/d4h8/d4h8-170/6_Telegraaf_1934.jpg" class=" w-24 md:w-40" alt="Het schip van staat in crisis-orkaan De vaderlijke hand van Colijn rust kalm naast de boei van het in nood verkerende ms NEDERLAND ÉÉN, terwijl de ‘Roomschen’ zijn gezag proberen te ondermijnen. Illustratie in <em>De Telegraaf</em>, 29 november 1934. Scan uit <em>Colijn in de caricatuur. 100 uitgezochte caricaturen met een voorwoord van Dr. Colijn zelf</em> (Baarn z.j.) 90.<br>Politieke prent door Louis Raemaekers." loading="lazy" id="img_6_Telegraaf_1934.jpg"><div>Het schip van staat in crisis-orkaan</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h3 class="mt-2 font-merriweather font-bold scroll-mt-8" id="nationale-figuren">Nationale figuren</h3>
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph20">
-                      <input type="text" name="" id="paragraphLink20" value="paragraph20" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink20')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (20)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Commandant van het Schip van Staat" data-caption="In <em>De Telegraaf</em> werd Colijn op tekeningen van Louis Raemaekers regelmatig in oliegoed of als schipper afgebeeld; zo ook toen de krant na de Troonrede van 19 september 1933 stormweer voorspelde. Pieterse, die in het bijschrift door Colijn gewaarschuwd wordt, is een fictieve kamerbewaarder, met wie hij in de rubriek ‘Spotternij of Sotternij’ regelmatig ‘een gesprek voert’. Illustratie in <em>De Telegraaf</em>, 24 september 1933. Scan uit <em>Colijn in de caricatuur. 100 uitgezochte caricaturen met een voorwoord van Dr. Colijn zelf</em> (Baarn z.j.) 73.<br>Politieke prent door Louis Raemaekers."data-src="images/d4h8/d4h8-600/5_Telegraaf_1933.jpg"><img src="images/d4h8/d4h8-170/5_Telegraaf_1933.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Commandant van het Schip van Staat In <em>De Telegraaf</em> werd Colijn op tekeningen van Louis Raemaekers regelmatig in oliegoed of als schipper afgebeeld; zo ook toen de krant na de Troonrede van 19 september 1933 stormweer voorspelde. Pieterse, die in het bijschrift door Colijn gewaarschuwd wordt, is een fictieve kamerbewaarder, met wie hij in de rubriek ‘Spotternij of Sotternij’ regelmatig ‘een gesprek voert’. Illustratie in <em>De Telegraaf</em>, 24 september 1933. Scan uit <em>Colijn in de caricatuur. 100 uitgezochte caricaturen met een voorwoord van Dr. Colijn zelf</em> (Baarn z.j.) 73.<br>Politieke prent door Louis Raemaekers." id="img_5_Telegraaf_1933.jpg"><div>De Commandant van het Schip van Staat</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Het schip van staat in crisis-orkaan" data-caption="De vaderlijke hand van Colijn rust kalm naast de boei van het in nood verkerende ms NEDERLAND ÉÉN, terwijl de ‘Roomschen’ zijn gezag proberen te ondermijnen. Illustratie in <em>De Telegraaf</em>, 29 november 1934. Scan uit <em>Colijn in de caricatuur. 100 uitgezochte caricaturen met een voorwoord van Dr. Colijn zelf</em> (Baarn z.j.) 90.<br>Politieke prent door Louis Raemaekers."data-src="images/d4h8/d4h8-600/6_Telegraaf_1934.jpg"><img src="images/d4h8/d4h8-170/6_Telegraaf_1934.jpg" class=" w-24 md:w-40" alt="Het schip van staat in crisis-orkaan De vaderlijke hand van Colijn rust kalm naast de boei van het in nood verkerende ms NEDERLAND ÉÉN, terwijl de ‘Roomschen’ zijn gezag proberen te ondermijnen. Illustratie in <em>De Telegraaf</em>, 29 november 1934. Scan uit <em>Colijn in de caricatuur. 100 uitgezochte caricaturen met een voorwoord van Dr. Colijn zelf</em> (Baarn z.j.) 90.<br>Politieke prent door Louis Raemaekers." id="img_6_Telegraaf_1934.jpg"><div>Het schip van staat in crisis-orkaan</div></button></div>
+                   <h3 class="mb-4 mt-4 font-merriweather font-bold scroll-mt-8" id="nationale-figuren">Nationale figuren</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph18">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP18', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (18)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>In reactie op de gevolgen van massificatie, verstedelijking, nieuwe communicatievormen en internationale dreigingen – die die noopten tot reflectie van het eigen, nationale, karakter – ontspon zich in de eerste helft van de twintigste eeuw (ook) in Nederland een nieuw soort volksnationalisme.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP18">
+        <input type="text" name="" id="paragraphLink18" value="paragraph18" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('18')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (18)" id="b_paragraphLink18">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP18', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (18)" id="b_paragraphLink18">
+            &#10006;
+        </button>
+    </span>In reactie op de gevolgen van massificatie, verstedelijking, nieuwe communicatievormen en internationale dreigingen – die die noopten tot reflectie van het eigen, nationale, karakter – ontspon zich in de eerste helft van de twintigste eeuw (ook) in Nederland een nieuw soort volksnationalisme.
         <button id="noteRef21" data-noteNumber="21"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         21
@@ -783,69 +325,28 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         25
         </button> Wordt gekeken naar de manier waarop stuurman Colijn is afgebeeld – op een zeilschip met zuidwester en in oliegoed – dan is vooral een eenvoudige (en vast ook godsdienstige en waakzame) schipper te zien: een geconstrueerd icoon van Nederlanderschap dat het vertrouwde verleden moest belichamen.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Vissersjongen uit Egmond, 1937-1938" data-caption="Voor de publicatie <em>De Nederlandsche Volkskarakters</em> (Kampen 1938) fotografeerde Willem van Malsen van ieder ‘volkskarakter’ een man en een vrouw. Dit zijn ‘De Noordzeevissers’. Foto door Willem van Malsen. <br>Nederlands Fotomuseum, Rotterdam."data-src="images/d4h8/d4h8-600/7a_vissersjongen.png"><img src="images/d4h8/d4h8-170/7a_vissersjongen.png" class="imgFirstOfSet w-24 md:w-40" alt="Vissersjongen uit Egmond, 1937-1938 Voor de publicatie <em>De Nederlandsche Volkskarakters</em> (Kampen 1938) fotografeerde Willem van Malsen van ieder ‘volkskarakter’ een man en een vrouw. Dit zijn ‘De Noordzeevissers’. Foto door Willem van Malsen. <br>Nederlands Fotomuseum, Rotterdam." loading="lazy" id="img_7a_vissersjongen.png"><div>Vissersjongen uit Egmond, 1937-1938</div></button>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Vissersmeisje uit Katwijk, 1937-1938" data-caption="Voor de publicatie <em>De Nederlandsche Volkskarakters</em> (Kampen 1938) fotografeerde Willem van Malsen van ieder ‘volkskarakter’ een man en een vrouw. Dit zijn ‘De Noordzeevissers’. Foto door Willem van Malsen. <br>Nederlands Fotomuseum, Rotterdam."data-src="images/d4h8/d4h8-600/7b_vissersmeisje.png"><img src="images/d4h8/d4h8-170/7b_vissersmeisje.png" class=" w-24 md:w-40" alt="Vissersmeisje uit Katwijk, 1937-1938 Voor de publicatie <em>De Nederlandsche Volkskarakters</em> (Kampen 1938) fotografeerde Willem van Malsen van ieder ‘volkskarakter’ een man en een vrouw. Dit zijn ‘De Noordzeevissers’. Foto door Willem van Malsen. <br>Nederlands Fotomuseum, Rotterdam." loading="lazy" id="img_7b_vissersmeisje.png"><div>Vissersmeisje uit Katwijk, 1937-1938</div></button>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Scheveningse visser in oliegoed en met zuidwester, 1932" data-caption="‘Volkskarakters’ zoals vissers, van wie werd verondersteld dat zij het ware karakter van de natie belichaamden, vormden in de jaren twintig en dertig een populair onderwerp voor schrijvers, kunstenaars en fotografen. Tekening door Willem Hendrik van den Berg. Collectie beheerd door Erven Prof. Willem van den Berg.<br>Nederlands Openluchtmuseum, Arnhem."data-src="images/d4h8/d4h8-600/8_Schvisser.jpg"><img src="images/d4h8/d4h8-170/8_Schvisser.jpg" class=" w-24 md:w-40" alt="Scheveningse visser in oliegoed en met zuidwester, 1932 ‘Volkskarakters’ zoals vissers, van wie werd verondersteld dat zij het ware karakter van de natie belichaamden, vormden in de jaren twintig en dertig een populair onderwerp voor schrijvers, kunstenaars en fotografen. Tekening door Willem Hendrik van den Berg. Collectie beheerd door Erven Prof. Willem van den Berg.<br>Nederlands Openluchtmuseum, Arnhem." loading="lazy" id="img_8_Schvisser.jpg"><div>Scheveningse visser in oliegoed en met zuidwester, 1932</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h3 class="mt-2 font-merriweather font-bold scroll-mt-8" id="een-vertrouwd-idioom">Een vertrouwd idioom</h3>
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph25">
-                      <input type="text" name="" id="paragraphLink25" value="paragraph25" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink25')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Vissersjongen uit Egmond, 1937-1938" data-caption="Voor de publicatie <em>De Nederlandsche Volkskarakters</em> (Kampen 1938) fotografeerde Willem van Malsen van ieder ‘volkskarakter’ een man en een vrouw. Dit zijn ‘De Noordzeevissers’. Foto door Willem van Malsen. <br>Nederlands Fotomuseum, Rotterdam."data-src="images/d4h8/d4h8-600/7a_vissersjongen.png"><img src="images/d4h8/d4h8-170/7a_vissersjongen.png" class="imgFirstOfSet w-24 md:w-40" alt="Vissersjongen uit Egmond, 1937-1938 Voor de publicatie <em>De Nederlandsche Volkskarakters</em> (Kampen 1938) fotografeerde Willem van Malsen van ieder ‘volkskarakter’ een man en een vrouw. Dit zijn ‘De Noordzeevissers’. Foto door Willem van Malsen. <br>Nederlands Fotomuseum, Rotterdam." id="img_7a_vissersjongen.png"><div>Vissersjongen uit Egmond, 1937-1938</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Vissersmeisje uit Katwijk, 1937-1938" data-caption="Voor de publicatie <em>De Nederlandsche Volkskarakters</em> (Kampen 1938) fotografeerde Willem van Malsen van ieder ‘volkskarakter’ een man en een vrouw. Dit zijn ‘De Noordzeevissers’. Foto door Willem van Malsen. <br>Nederlands Fotomuseum, Rotterdam."data-src="images/d4h8/d4h8-600/7b_vissersmeisje.png"><img src="images/d4h8/d4h8-170/7b_vissersmeisje.png" class=" w-24 md:w-40" alt="Vissersmeisje uit Katwijk, 1937-1938 Voor de publicatie <em>De Nederlandsche Volkskarakters</em> (Kampen 1938) fotografeerde Willem van Malsen van ieder ‘volkskarakter’ een man en een vrouw. Dit zijn ‘De Noordzeevissers’. Foto door Willem van Malsen. <br>Nederlands Fotomuseum, Rotterdam." id="img_7b_vissersmeisje.png"><div>Vissersmeisje uit Katwijk, 1937-1938</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Scheveningse visser in oliegoed en met zuidwester, 1932" data-caption="‘Volkskarakters’ zoals vissers, van wie werd verondersteld dat zij het ware karakter van de natie belichaamden, vormden in de jaren twintig en dertig een populair onderwerp voor schrijvers, kunstenaars en fotografen. Tekening door Willem Hendrik van den Berg. Collectie beheerd door Erven Prof. Willem van den Berg.<br>Nederlands Openluchtmuseum, Arnhem."data-src="images/d4h8/d4h8-600/8_Schvisser.jpg"><img src="images/d4h8/d4h8-170/8_Schvisser.jpg" class=" w-24 md:w-40" alt="Scheveningse visser in oliegoed en met zuidwester, 1932 ‘Volkskarakters’ zoals vissers, van wie werd verondersteld dat zij het ware karakter van de natie belichaamden, vormden in de jaren twintig en dertig een populair onderwerp voor schrijvers, kunstenaars en fotografen. Tekening door Willem Hendrik van den Berg. Collectie beheerd door Erven Prof. Willem van den Berg.<br>Nederlands Openluchtmuseum, Arnhem." id="img_8_Schvisser.jpg"><div>Scheveningse visser in oliegoed en met zuidwester, 1932</div></button></div>
+                   <h3 class="mb-4 mt-4 font-merriweather font-bold scroll-mt-8" id="een-vertrouwd-idioom">Een vertrouwd idioom</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph23">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP23', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (23)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Wanneer het iconisch geworden verkiezingsaffiche van de ARP in 1925 binnen de context van het interbellum wordt geduid, tekent zich langzaam een mogelijke verklaring af voor het veelvuldig gebruik van de metafoor ‘het schip van staat’ en zijn afgeleide stuurman. Het ligt voor de hand dat het gebruikte beeld op affiches, het belangrijkste propagandamiddel van die tijd, begrijpelijk moet zijn voor het beoogde publiek en dat hiervoor algemeen bekende begrippen, denkbeelden en metaforen worden gebruikt.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP23">
+        <input type="text" name="" id="paragraphLink23" value="paragraph23" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('23')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (23)" id="b_paragraphLink23">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP23', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (23)" id="b_paragraphLink23">
+            &#10006;
+        </button>
+    </span>Wanneer het iconisch geworden verkiezingsaffiche van de ARP in 1925 binnen de context van het interbellum wordt geduid, tekent zich langzaam een mogelijke verklaring af voor het veelvuldig gebruik van de metafoor ‘het schip van staat’ en zijn afgeleide stuurman. Het ligt voor de hand dat het gebruikte beeld op affiches, het belangrijkste propagandamiddel van die tijd, begrijpelijk moet zijn voor het beoogde publiek en dat hiervoor algemeen bekende begrippen, denkbeelden en metaforen worden gebruikt.
         <button id="noteRef26" data-noteNumber="26"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         26
@@ -854,70 +355,48 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         27
         </button> Hoe de suggestie van continuïteit ook in andere cultuuruitingen met een maritiem karakter een rol speelde, wordt uiteengezet in het tweede deel van dit hoofdstuk, waarin de massificering van de watersport en de eerste organisatie in Nederland die ijverde voor het behoud van traditioneel gebouwde schepen centraal staan.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h2 class="mt-8 mb-2 text-2xl font-merriweather font-bold scroll-mt-8" id="s-oud-hout-en-varende-takkenbossen&lt;p&gt;&lt;/p&gt;&lt;p&gt;-&lt;/p&gt;">’S OUD HOUT EN VARENDE TAKKENBOSSEN<p></p><p> </p></h2>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph27">
-                      <input type="text" name="" id="paragraphLink27" value="paragraph27" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink27')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (27)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <h2 class="mb-8 mt-4     text-2xl font-merriweather font-bold scroll-mt-8" id="s-oud-hout-en-varende-takkenbossen">’S OUD HOUT EN VARENDE TAKKENBOSSEN</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph25">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP25', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>‘Met zijn dertigen waren zij. De een al mooier dan de ander […] Statig en sierlijk tegelijk, als waterlelies. Met hun volle, ronde vormen waren zij de koninginnen van dit waterballet, waarop zich allerogen met welbehagen richtten […] En inderdaad waren de moderne jachtjes, deze dienaressen van de slanke lijn met hun smalle heupen en spitse neuzen, veroordeeld tot de rol van muurbloempjes’.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP25">
+        <input type="text" name="" id="paragraphLink25" value="paragraph25" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('25')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)" id="b_paragraphLink25">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP25', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)" id="b_paragraphLink25">
+            &#10006;
+        </button>
+    </span>‘Met zijn dertigen waren zij. De een al mooier dan de ander […] Statig en sierlijk tegelijk, als waterlelies. Met hun volle, ronde vormen waren zij de koninginnen van dit waterballet, waarop zich allerogen met welbehagen richtten […] En inderdaad waren de moderne jachtjes, deze dienaressen van de slanke lijn met hun smalle heupen en spitse neuzen, veroordeeld tot de rol van muurbloempjes’.
         <button id="noteRef28" data-noteNumber="28"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         28
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Admiraalzeilen door ronde- en platbodemjachten op het Pikmeer bij Grouw, 1953" data-caption="Een eskader boeiers passeert het admiraalschip. Het Admiraalzeilen was onderdeel van de eerste reünie van de nog bestaande Friese ronde jachten, die de zeilvereniging ‘Oostergoo’ op verzoek van de commissie ‘Stamboek Friesche ronde jachten’ organiseerde. Foto door Guido Louis Walter Oppenheim. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam."data-src="images/d4h8/d4h8-600/9_Admiraalzeilen_vrij.jpg"><img src="images/d4h8/d4h8-170/9_Admiraalzeilen_vrij.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Admiraalzeilen door ronde- en platbodemjachten op het Pikmeer bij Grouw, 1953 Een eskader boeiers passeert het admiraalschip. Het Admiraalzeilen was onderdeel van de eerste reünie van de nog bestaande Friese ronde jachten, die de zeilvereniging ‘Oostergoo’ op verzoek van de commissie ‘Stamboek Friesche ronde jachten’ organiseerde. Foto door Guido Louis Walter Oppenheim. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam." loading="lazy" id="img_9_Admiraalzeilen_vrij.jpg"><div>Admiraalzeilen door ronde- en platbodemjachten op het Pikmeer bij Grouw, 1953</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph29">
-                      <input type="text" name="" id="paragraphLink29" value="paragraph29" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink29')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (29)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Admiraalzeilen door ronde- en platbodemjachten op het Pikmeer bij Grouw, 1953" data-caption="Een eskader boeiers passeert het admiraalschip. Het Admiraalzeilen was onderdeel van de eerste reünie van de nog bestaande Friese ronde jachten, die de zeilvereniging ‘Oostergoo’ op verzoek van de commissie ‘Stamboek Friesche ronde jachten’ organiseerde. Foto door Guido Louis Walter Oppenheim. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam."data-src="images/d4h8/d4h8-600/9_Admiraalzeilen_vrij.jpg"><img src="images/d4h8/d4h8-170/9_Admiraalzeilen_vrij.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Admiraalzeilen door ronde- en platbodemjachten op het Pikmeer bij Grouw, 1953 Een eskader boeiers passeert het admiraalschip. Het Admiraalzeilen was onderdeel van de eerste reünie van de nog bestaande Friese ronde jachten, die de zeilvereniging ‘Oostergoo’ op verzoek van de commissie ‘Stamboek Friesche ronde jachten’ organiseerde. Foto door Guido Louis Walter Oppenheim. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam." id="img_9_Admiraalzeilen_vrij.jpg"><div>Admiraalzeilen door ronde- en platbodemjachten op het Pikmeer bij Grouw, 1953</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph27">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP27', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (27)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Aan het woord is een verslaggever van <em>Het Vrije Volk</em>. Op 4 juli 1953 was hij getuige van een door velen als uniek bestempeld evenement. Op die dag verzamelden zich op het Pikmeer in Grou (Grouw) een dertigtal schepen met één gemene deler: zij mochten zich allen tot de ‘alleredelste Friese afkomst’ rekenen. Boeiers, jachten en tjotters kwamen vanuit het hele land bijeen om ‘in Admiraal te zeilen’. Sommige waren nog door de beroemde Eeltje Holtrop van der Zee in Joure gebouwd.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP27">
+        <input type="text" name="" id="paragraphLink27" value="paragraph27" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('27')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (27)" id="b_paragraphLink27">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP27', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (27)" id="b_paragraphLink27">
+            &#10006;
+        </button>
+    </span>Aan het woord is een verslaggever van <em>Het Vrije Volk</em>. Op 4 juli 1953 was hij getuige van een door velen als uniek bestempeld evenement. Op die dag verzamelden zich op het Pikmeer in Grou (Grouw) een dertigtal schepen met één gemene deler: zij mochten zich allen tot de ‘alleredelste Friese afkomst’ rekenen. Boeiers, jachten en tjotters kwamen vanuit het hele land bijeen om ‘in Admiraal te zeilen’. Sommige waren nog door de beroemde Eeltje Holtrop van der Zee in Joure gebouwd.
         <button id="noteRef29" data-noteNumber="29"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         29
@@ -926,47 +405,26 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         30
         </button> – ten langen leste hun beslag. Waarom was juist nu de tijd rijp voor de totstandkoming van een organisatie die zich het behoud van deze schepen ten doel stelde?</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Boeier <em>Maartje</em> tijdens het Admiraalzeilen te Grouw, 1953" data-caption="Het schip was eigendom van C.J.W. van Waning, een van de initiatiefnemers van de commissie ‘Stamboek Friesche ronde jachten’. De <em>Maartje</em> werd in 1892 als Fries jacht gebouwd door Eeltje Holtrop van der Zee. In 1917 werd het schip door Eeltjes zoon Auke van der Zee omgebouwd tot boeier (met kajuit). Fotograaf onbekend. <br>Fries Scheepvaartmuseum, Sneek."data-src="images/d4h8/d4h8-600/10_Maartje.jpg"><img src="images/d4h8/d4h8-170/10_Maartje.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Boeier <em>Maartje</em> tijdens het Admiraalzeilen te Grouw, 1953 Het schip was eigendom van C.J.W. van Waning, een van de initiatiefnemers van de commissie ‘Stamboek Friesche ronde jachten’. De <em>Maartje</em> werd in 1892 als Fries jacht gebouwd door Eeltje Holtrop van der Zee. In 1917 werd het schip door Eeltjes zoon Auke van der Zee omgebouwd tot boeier (met kajuit). Fotograaf onbekend. <br>Fries Scheepvaartmuseum, Sneek." loading="lazy" id="img_10_Maartje.jpg"><div>Boeier <em>Maartje</em> tijdens het Admiraalzeilen te Grouw, 1953</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h3 class="mt-2 font-merriweather font-bold scroll-mt-8" id="het-getal-overspoelde-de-individu">Het getal overspoelde de individu</h3>
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph32">
-                      <input type="text" name="" id="paragraphLink32" value="paragraph32" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink32')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (32)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Boeier <em>Maartje</em> tijdens het Admiraalzeilen te Grouw, 1953" data-caption="Het schip was eigendom van C.J.W. van Waning, een van de initiatiefnemers van de commissie ‘Stamboek Friesche ronde jachten’. De <em>Maartje</em> werd in 1892 als Fries jacht gebouwd door Eeltje Holtrop van der Zee. In 1917 werd het schip door Eeltjes zoon Auke van der Zee omgebouwd tot boeier (met kajuit). Fotograaf onbekend. <br>Fries Scheepvaartmuseum, Sneek."data-src="images/d4h8/d4h8-600/10_Maartje.jpg"><img src="images/d4h8/d4h8-170/10_Maartje.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Boeier <em>Maartje</em> tijdens het Admiraalzeilen te Grouw, 1953 Het schip was eigendom van C.J.W. van Waning, een van de initiatiefnemers van de commissie ‘Stamboek Friesche ronde jachten’. De <em>Maartje</em> werd in 1892 als Fries jacht gebouwd door Eeltje Holtrop van der Zee. In 1917 werd het schip door Eeltjes zoon Auke van der Zee omgebouwd tot boeier (met kajuit). Fotograaf onbekend. <br>Fries Scheepvaartmuseum, Sneek." id="img_10_Maartje.jpg"><div>Boeier <em>Maartje</em> tijdens het Admiraalzeilen te Grouw, 1953</div></button></div>
+                   <h3 class="mb-4 mt-4 font-merriweather font-bold scroll-mt-8" id="het-getal-overspoelde-de-individu">Het getal overspoelde de individu</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph30">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP30', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (30)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>‘Het getal, zo zeide men, overspoelde de individu’, schreef Johan Huizinga in zijn <em>In de schaduwen van morgen</em> uit 1935.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP30">
+        <input type="text" name="" id="paragraphLink30" value="paragraph30" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('30')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (30)" id="b_paragraphLink30">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP30', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (30)" id="b_paragraphLink30">
+            &#10006;
+        </button>
+    </span>‘Het getal, zo zeide men, overspoelde de individu’, schreef Johan Huizinga in zijn <em>In de schaduwen van morgen</em> uit 1935.
         <button id="noteRef31" data-noteNumber="31"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         31
@@ -991,58 +449,27 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         36
         </button> Het motto van Van Kampen balde dat streven krachtig samen: ‘iedereen het water op!’</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Model van het grootspant van een BM, 1978" data-caption="De Friese kapper Hendrik Bulthuis bedacht in de jaren twintig een slimme manier om een zeiljachtje te bouwen. Hij gebruikte de bouwmallen als spanten van het schip. Een methode die zo baanbrekend simpel was, dat iedere amateur voortaan voor scheepsbouwer kon ‘spelen’. Bulthuis noemde het ontwerp van het houten midzwaardjachtje: de Bergumermeerklasse, afgekort BM.  <br>Het Scheepvaartmuseum, Amsterdam."data-src="images/d4h8/d4h8-600/11_bouwmal.jpg"><img src="images/d4h8/d4h8-170/11_bouwmal.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Model van het grootspant van een BM, 1978 De Friese kapper Hendrik Bulthuis bedacht in de jaren twintig een slimme manier om een zeiljachtje te bouwen. Hij gebruikte de bouwmallen als spanten van het schip. Een methode die zo baanbrekend simpel was, dat iedere amateur voortaan voor scheepsbouwer kon ‘spelen’. Bulthuis noemde het ontwerp van het houten midzwaardjachtje: de Bergumermeerklasse, afgekort BM.  <br>Het Scheepvaartmuseum, Amsterdam." loading="lazy" id="img_11_bouwmal.jpg"><div>Model van het grootspant van een BM, 1978</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Vijftien BMers vlak na start tijdens een zeilwedstrijd in Akkrum, 1931" data-caption="De nummers 16 en 103 zeilen in de richting van de fotograaf, die zich tussen het publiek bevindt. De foto is vermoedelijk gemaakt door een amateurfotograaf met een boxcamera. Net als de watersport, bereikte tijdens het interbellum ook de fotografie de massa.  <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam."data-src="images/d4h8/d4h8-600/12_vijftien_vrij.jpg"><img src="images/d4h8/d4h8-170/12_vijftien_vrij.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Vijftien BMers vlak na start tijdens een zeilwedstrijd in Akkrum, 1931 De nummers 16 en 103 zeilen in de richting van de fotograaf, die zich tussen het publiek bevindt. De foto is vermoedelijk gemaakt door een amateurfotograaf met een boxcamera. Net als de watersport, bereikte tijdens het interbellum ook de fotografie de massa.  <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam." loading="lazy" id="img_12_vijftien_vrij.jpg"><div>Vijftien BMers vlak na start tijdens een zeilwedstrijd in Akkrum, 1931</div></button>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="BMer nr. 21" data-caption="De BMer met nummer 21 zeilt voor de fotograaf langs tijdens de eerste Nationale Zeilwedstrijd van de watersportvereniging ‘De Schinkel’ op de Nieuwe Meer, 1932. Op de afdruk zijn markeringen aangebracht; vermoedelijk om aan te geven in welke uitsnede de foto gepubliceerd diende te worden in de <em>Waterkampioen</em>. Fotograaf onbekend. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam."data-src="images/d4h8/d4h8-600/13_BMer21.jpg"><img src="images/d4h8/d4h8-170/13_BMer21.jpg" class=" w-24 md:w-40" alt="BMer nr. 21 De BMer met nummer 21 zeilt voor de fotograaf langs tijdens de eerste Nationale Zeilwedstrijd van de watersportvereniging ‘De Schinkel’ op de Nieuwe Meer, 1932. Op de afdruk zijn markeringen aangebracht; vermoedelijk om aan te geven in welke uitsnede de foto gepubliceerd diende te worden in de <em>Waterkampioen</em>. Fotograaf onbekend. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam." loading="lazy" id="img_13_BMer21.jpg"><div>BMer nr. 21</div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph36">
-                      <input type="text" name="" id="paragraphLink36" value="paragraph36" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink36')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (36)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Model van het grootspant van een BM, 1978" data-caption="De Friese kapper Hendrik Bulthuis bedacht in de jaren twintig een slimme manier om een zeiljachtje te bouwen. Hij gebruikte de bouwmallen als spanten van het schip. Een methode die zo baanbrekend simpel was, dat iedere amateur voortaan voor scheepsbouwer kon ‘spelen’. Bulthuis noemde het ontwerp van het houten midzwaardjachtje: de Bergumermeerklasse, afgekort BM.  <br>Het Scheepvaartmuseum, Amsterdam."data-src="images/d4h8/d4h8-600/11_bouwmal.jpg"><img src="images/d4h8/d4h8-170/11_bouwmal.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Model van het grootspant van een BM, 1978 De Friese kapper Hendrik Bulthuis bedacht in de jaren twintig een slimme manier om een zeiljachtje te bouwen. Hij gebruikte de bouwmallen als spanten van het schip. Een methode die zo baanbrekend simpel was, dat iedere amateur voortaan voor scheepsbouwer kon ‘spelen’. Bulthuis noemde het ontwerp van het houten midzwaardjachtje: de Bergumermeerklasse, afgekort BM.  <br>Het Scheepvaartmuseum, Amsterdam." id="img_11_bouwmal.jpg"><div>Model van het grootspant van een BM, 1978</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Vijftien BMers vlak na start tijdens een zeilwedstrijd in Akkrum, 1931" data-caption="De nummers 16 en 103 zeilen in de richting van de fotograaf, die zich tussen het publiek bevindt. De foto is vermoedelijk gemaakt door een amateurfotograaf met een boxcamera. Net als de watersport, bereikte tijdens het interbellum ook de fotografie de massa.  <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam."data-src="images/d4h8/d4h8-600/12_vijftien_vrij.jpg"><img src="images/d4h8/d4h8-170/12_vijftien_vrij.jpg" class=" w-24 md:w-40" alt="Vijftien BMers vlak na start tijdens een zeilwedstrijd in Akkrum, 1931 De nummers 16 en 103 zeilen in de richting van de fotograaf, die zich tussen het publiek bevindt. De foto is vermoedelijk gemaakt door een amateurfotograaf met een boxcamera. Net als de watersport, bereikte tijdens het interbellum ook de fotografie de massa.  <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen, Amsterdam." id="img_12_vijftien_vrij.jpg"><div>Vijftien BMers vlak na start tijdens een zeilwedstrijd in Akkrum, 1931</div></button>
+                <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="BMer nr. 21" data-caption="De BMer met nummer 21 zeilt voor de fotograaf langs tijdens de eerste Nationale Zeilwedstrijd van de watersportvereniging ‘De Schinkel’ op de Nieuwe Meer, 1932. Op de afdruk zijn markeringen aangebracht; vermoedelijk om aan te geven in welke uitsnede de foto gepubliceerd diende te worden in de <em>Waterkampioen</em>. Fotograaf onbekend. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam."data-src="images/d4h8/d4h8-600/13_BMer21.jpg"><img src="images/d4h8/d4h8-170/13_BMer21.jpg" class=" w-24 md:w-40" alt="BMer nr. 21 De BMer met nummer 21 zeilt voor de fotograaf langs tijdens de eerste Nationale Zeilwedstrijd van de watersportvereniging ‘De Schinkel’ op de Nieuwe Meer, 1932. Op de afdruk zijn markeringen aangebracht; vermoedelijk om aan te geven in welke uitsnede de foto gepubliceerd diende te worden in de <em>Waterkampioen</em>. Fotograaf onbekend. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam." id="img_13_BMer21.jpg"><div>BMer nr. 21</div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph34">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP34', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (34)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Onlosmakelijk verbonden met opkomst van de kleine watersport is Hendrik Bulthuis (1892-1948). De kapper uit het Friese Bergum stond aan de wieg van de standaardisering van de jachtbouw tijdens het interbellum. Hij ontwierp in 1928 een midzwaardjachtje dat volgens de lattenbouwmethode gebouwd werd: de ‘Bergumer Meerklasse’, kortweg B.M. Bulthuis was op het inventieve idee gekomen om de mallen van het scheepje dienst te laten doen als spanten. Dit maakte de constructie eenvoudiger én goedkoper: iedere handige amateur met honderd gulden zou het zelf kunnen bouwen.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP34">
+        <input type="text" name="" id="paragraphLink34" value="paragraph34" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('34')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (34)" id="b_paragraphLink34">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP34', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (34)" id="b_paragraphLink34">
+            &#10006;
+        </button>
+    </span>Onlosmakelijk verbonden met opkomst van de kleine watersport is Hendrik Bulthuis (1892-1948). De kapper uit het Friese Bergum stond aan de wieg van de standaardisering van de jachtbouw tijdens het interbellum. Hij ontwierp in 1928 een midzwaardjachtje dat volgens de lattenbouwmethode gebouwd werd: de ‘Bergumer Meerklasse’, kortweg B.M. Bulthuis was op het inventieve idee gekomen om de mallen van het scheepje dienst te laten doen als spanten. Dit maakte de constructie eenvoudiger én goedkoper: iedere handige amateur met honderd gulden zou het zelf kunnen bouwen.
         <button id="noteRef37" data-noteNumber="37"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         37
@@ -1051,92 +478,50 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         38
         </button> Een hoge status bezaten de jachtjes van Bulthuis niet; zij werden gekwalificeerd als ‘arbeidersboten’ en werden schertsend ‘varende takkenbossen’ genoemd. ‘“Iedereen het water op!” was welgemeend, maar voor de welopgevoede burger had deze propaganda een dubbele bodem’, schrijft zeezeiler, schrijver en psycholoog Eerde Beulakker. Als tegenreactie op de massificering van ‘hun’ sport, zetten de elite-vaarders van ‘oud hout’ een krachtig wapen in; dat van onderscheid door ‘goede smaak’. Vertegenwoordigden de volgens bouwpakketjes gebouwde Bulthuis-jachtjes het getal, dan symboliseerde de glanzende, als uniek stuk uit de bijl gevallen boeier beslist ‘de’ individu.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Enkhuizer bol <em>Eudia</em>" data-caption="De Enkhuizer bol <em>Eudia</em> op de Loosdrechtse Plassen met op de achtergrond een zestienkwadraat. ‘Oud hout’ en een ‘varende takkenbos’ tezamen op het water. Datering ca. tweede helft jaren vijftig. Foto door Johannes Gerardus van Agtmaal. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam."data-src="images/d4h8/d4h8-600/14_Eudia.jpg"><img src="images/d4h8/d4h8-170/14_Eudia.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Enkhuizer bol <em>Eudia</em> De Enkhuizer bol <em>Eudia</em> op de Loosdrechtse Plassen met op de achtergrond een zestienkwadraat. ‘Oud hout’ en een ‘varende takkenbos’ tezamen op het water. Datering ca. tweede helft jaren vijftig. Foto door Johannes Gerardus van Agtmaal. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam." loading="lazy" id="img_14_Eudia.jpg"><div>Enkhuizer bol <em>Eudia</em></div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h3 class="mt-2 font-merriweather font-bold scroll-mt-8" id="een-efficiënte-productiemethode">Een efficiënte productiemethode</h3>
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph39">
-                      <input type="text" name="" id="paragraphLink39" value="paragraph39" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink39')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (39)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Enkhuizer bol <em>Eudia</em>" data-caption="De Enkhuizer bol <em>Eudia</em> op de Loosdrechtse Plassen met op de achtergrond een zestienkwadraat. ‘Oud hout’ en een ‘varende takkenbos’ tezamen op het water. Datering ca. tweede helft jaren vijftig. Foto door Johannes Gerardus van Agtmaal. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam."data-src="images/d4h8/d4h8-600/14_Eudia.jpg"><img src="images/d4h8/d4h8-170/14_Eudia.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Enkhuizer bol <em>Eudia</em> De Enkhuizer bol <em>Eudia</em> op de Loosdrechtse Plassen met op de achtergrond een zestienkwadraat. ‘Oud hout’ en een ‘varende takkenbos’ tezamen op het water. Datering ca. tweede helft jaren vijftig. Foto door Johannes Gerardus van Agtmaal. <br>Het Scheepvaartmuseum, collectie ANWB / Waterkampioen Amsterdam." id="img_14_Eudia.jpg"><div>Enkhuizer bol <em>Eudia</em></div></button></div>
+                   <h3 class="mb-4 mt-4 font-merriweather font-bold scroll-mt-8" id="een-efficiente-productiemethode">Een efficiënte productiemethode</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph37">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP37', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (37)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Hoewel de pleziervaart voor de Tweede Wereldoorlog al brede lagen van de samenleving had bereikt, zou de popularisering ervan definitief zijn beslag krijgen in de jaren vijftig. Toenemende welvaart gaf een ongekende impuls aan de fysieke, sociale en culturele mobiliteit van de Nederlander. Massaproductie en -consumptie naar Amerikaans voorbeeld namen een hoge vlucht.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP37">
+        <input type="text" name="" id="paragraphLink37" value="paragraph37" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('37')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (37)" id="b_paragraphLink37">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP37', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (37)" id="b_paragraphLink37">
+            &#10006;
+        </button>
+    </span>Hoewel de pleziervaart voor de Tweede Wereldoorlog al brede lagen van de samenleving had bereikt, zou de popularisering ervan definitief zijn beslag krijgen in de jaren vijftig. Toenemende welvaart gaf een ongekende impuls aan de fysieke, sociale en culturele mobiliteit van de Nederlander. Massaproductie en -consumptie naar Amerikaans voorbeeld namen een hoge vlucht.
         <button id="noteRef39" data-noteNumber="39"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         39
         </button> De seriefabricage van allerhande producten begon gemeengoed te worden, de lopende band een vertrouwd begrip en plastic hét symbool van de nieuwe consumptiemaatschappij. Ook in de zeil- en motorjachtbouw drongen deze ontwikkelingen door. In 1955 verscheen het eerste jachtje van gewapend polyester op de Nederlandse markt: de Stern. Ontwerper E.G. van de Stadt was in de Verenigde Staten met het materiaal in aanraking gekomen. Polyester belichaamde de nieuwe tijd, werd gezien als sterk, duurzaam en vrij van onderhoud. Omdat polyester schepen met behulp van een mal worden gebouwd, is de productiemethode weliswaar kostbaar, maar ook efficiënt: met één enkele mal kunnen immers grote aantallen scheepjes worden gefabriceerd. De intrede van polyester had enorme invloed op de seriebouw van (motor)jachten en betekende een verdere voltooiing van de door Bulthuis ingezette standaardisering van jachten en een nieuwe fase in de massificering van de watersport.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Sternklasse in actie tijdens de Sneekweek van 1972" data-caption="Deze eenheidsklasse werd op initiatief van het Watersportverbond in 1955 door E.G. van de Stadt ontworpen. De Stern was het eerste Nederlandse jachtje van polyester en maakte een stormachtige groei door tot in de jaren zeventig. Foto door H. de Vra. <br>Het Scheepvaartmuseum, Amsterdam."data-src="images/d4h8/d4h8-600/15_Sternklasse_vrij.jpg"><img src="images/d4h8/d4h8-170/15_Sternklasse_vrij.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Sternklasse in actie tijdens de Sneekweek van 1972 Deze eenheidsklasse werd op initiatief van het Watersportverbond in 1955 door E.G. van de Stadt ontworpen. De Stern was het eerste Nederlandse jachtje van polyester en maakte een stormachtige groei door tot in de jaren zeventig. Foto door H. de Vra. <br>Het Scheepvaartmuseum, Amsterdam." loading="lazy" id="img_15_Sternklasse_vrij.jpg"><div>De Sternklasse in actie tijdens de Sneekweek van 1972</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h3 class="mt-2 font-merriweather font-bold scroll-mt-8" id="zuivere-schepen">Zuivere schepen</h3>
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph42">
-                      <input type="text" name="" id="paragraphLink42" value="paragraph42" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink42')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (42)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Sternklasse in actie tijdens de Sneekweek van 1972" data-caption="Deze eenheidsklasse werd op initiatief van het Watersportverbond in 1955 door E.G. van de Stadt ontworpen. De Stern was het eerste Nederlandse jachtje van polyester en maakte een stormachtige groei door tot in de jaren zeventig. Foto door H. de Vra. <br>Het Scheepvaartmuseum, Amsterdam."data-src="images/d4h8/d4h8-600/15_Sternklasse_vrij.jpg"><img src="images/d4h8/d4h8-170/15_Sternklasse_vrij.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Sternklasse in actie tijdens de Sneekweek van 1972 Deze eenheidsklasse werd op initiatief van het Watersportverbond in 1955 door E.G. van de Stadt ontworpen. De Stern was het eerste Nederlandse jachtje van polyester en maakte een stormachtige groei door tot in de jaren zeventig. Foto door H. de Vra. <br>Het Scheepvaartmuseum, Amsterdam." id="img_15_Sternklasse_vrij.jpg"><div>De Sternklasse in actie tijdens de Sneekweek van 1972</div></button></div>
+                   <h3 class="mb-4 mt-4 font-merriweather font-bold scroll-mt-8" id="zuivere-schepen">Zuivere schepen</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph40">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP40', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (40)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Terug naar Friesland, 1953. De reünie van ronde Friese jachten maakte een hoop los, getuige de vele berichten over het evenement in de dagbladen. ‘Als het mogelijk is de Hollandse molens te beschermen, zouden we dan ook niet alles moeten doen om deze prachtige schepen van de ondergang te redden?’, gonsde het.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP40">
+        <input type="text" name="" id="paragraphLink40" value="paragraph40" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('40')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (40)" id="b_paragraphLink40">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP40', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (40)" id="b_paragraphLink40">
+            &#10006;
+        </button>
+    </span>Terug naar Friesland, 1953. De reünie van ronde Friese jachten maakte een hoop los, getuige de vele berichten over het evenement in de dagbladen. ‘Als het mogelijk is de Hollandse molens te beschermen, zouden we dan ook niet alles moeten doen om deze prachtige schepen van de ondergang te redden?’, gonsde het.
         <button id="noteRef40" data-noteNumber="40"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         40
@@ -1145,36 +530,25 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         41
         </button> Nog hetzelfde jaar lukte het met vereende krachten de <em>Jean Bart</em> aan te kopen en terug naar Friesland te vervoeren. In mei 1954 vond de overdracht aan het provinciaal bestuur plaats. De oude naam <em>Friso</em> – naar de stamvader der Friezen – werd in ere hersteld.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Boeier <em>Jean Bart</em>" data-caption="De boeier <em>Jean Bart</em> tijdens het Admiraalzeilen op het Pikmeer bij Grouw. Aan boord de vroegere eigenaar mr. P.A.V. baron van Harinxma thoe Slooten, 1953. In 1954 werd de <em>Jean Bart</em> omgedoopt tot Statenjacht van Friesland en kreeg het de naam <em>Friso</em>. Fotograaf onbekend. <br>Fries Scheepvaartmuseum, Sneek."data-src="images/d4h8/d4h8-600/16_Friso.jpg"><img src="images/d4h8/d4h8-170/16_Friso.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Boeier <em>Jean Bart</em> De boeier <em>Jean Bart</em> tijdens het Admiraalzeilen op het Pikmeer bij Grouw. Aan boord de vroegere eigenaar mr. P.A.V. baron van Harinxma thoe Slooten, 1953. In 1954 werd de <em>Jean Bart</em> omgedoopt tot Statenjacht van Friesland en kreeg het de naam <em>Friso</em>. Fotograaf onbekend. <br>Fries Scheepvaartmuseum, Sneek." loading="lazy" id="img_16_Friso.jpg"><div>Boeier <em>Jean Bart</em></div></button></div>
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph44">
-                      <input type="text" name="" id="paragraphLink44" value="paragraph44" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink44')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (44)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Boeier <em>Jean Bart</em>" data-caption="De boeier <em>Jean Bart</em> tijdens het Admiraalzeilen op het Pikmeer bij Grouw. Aan boord de vroegere eigenaar mr. P.A.V. baron van Harinxma thoe Slooten, 1953. In 1954 werd de <em>Jean Bart</em> omgedoopt tot Statenjacht van Friesland en kreeg het de naam <em>Friso</em>. Fotograaf onbekend. <br>Fries Scheepvaartmuseum, Sneek."data-src="images/d4h8/d4h8-600/16_Friso.jpg"><img src="images/d4h8/d4h8-170/16_Friso.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Boeier <em>Jean Bart</em> De boeier <em>Jean Bart</em> tijdens het Admiraalzeilen op het Pikmeer bij Grouw. Aan boord de vroegere eigenaar mr. P.A.V. baron van Harinxma thoe Slooten, 1953. In 1954 werd de <em>Jean Bart</em> omgedoopt tot Statenjacht van Friesland en kreeg het de naam <em>Friso</em>. Fotograaf onbekend. <br>Fries Scheepvaartmuseum, Sneek." id="img_16_Friso.jpg"><div>Boeier <em>Jean Bart</em></div></button></div>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph42">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP42', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (42)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Opvallend in de berichtgeving is het aantal referenties naar de ‘zuiverheid’ van de schepen. Deze verwijzing komt ook voor bij initiatiefnemer C.J.W. van Waning, die het begrip Stamboek duidt als: een ‘op kennis gebaseerde keuring op raszuiverheid, waarbij tevens het streven naar rasverbetering kan worden toegevoegd’.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP42">
+        <input type="text" name="" id="paragraphLink42" value="paragraph42" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('42')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (42)" id="b_paragraphLink42">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP42', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (42)" id="b_paragraphLink42">
+            &#10006;
+        </button>
+    </span>Opvallend in de berichtgeving is het aantal referenties naar de ‘zuiverheid’ van de schepen. Deze verwijzing komt ook voor bij initiatiefnemer C.J.W. van Waning, die het begrip Stamboek duidt als: een ‘op kennis gebaseerde keuring op raszuiverheid, waarbij tevens het streven naar rasverbetering kan worden toegevoegd’.
         <button id="noteRef42" data-noteNumber="42"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         42
@@ -1187,36 +561,25 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         44
         </button></p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h3 class="mt-2 font-merriweather font-bold scroll-mt-8" id="samenspel">Samenspel</h3>
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph46">
-                      <input type="text" name="" id="paragraphLink46" value="paragraph46" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink46')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (46)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <h3 class="mb-4 mt-4 font-merriweather font-bold scroll-mt-8" id="samenspel">Samenspel</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph44">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP44', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (44)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Dat halverwege de jaren vijftig de tijd rijp bleek de (in eerste instantie) Friese ronde- en platbodemjachten van de ondergang te redden, kwam door een samenspel van factoren. Net als de belasting op pleziervaartuigen die het bezit van een groot jacht onaantrekkelijk maakte, speelde de massificering van de watersport een belangrijke rol.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP44">
+        <input type="text" name="" id="paragraphLink44" value="paragraph44" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('44')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (44)" id="b_paragraphLink44">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP44', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (44)" id="b_paragraphLink44">
+            &#10006;
+        </button>
+    </span>Dat halverwege de jaren vijftig de tijd rijp bleek de (in eerste instantie) Friese ronde- en platbodemjachten van de ondergang te redden, kwam door een samenspel van factoren. Net als de belasting op pleziervaartuigen die het bezit van een groot jacht onaantrekkelijk maakte, speelde de massificering van de watersport een belangrijke rol.
         <button id="noteRef45" data-noteNumber="45"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         45
@@ -1225,141 +588,106 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         46
         </button> Aannemelijk is dat achter de statutaire uitbreiding van uitsluitend Friese jachten naar alle originele typen van Nederlandse bodem, hetzelfde mechanisme schuilt. Net als de Friese jachten waren dit – te midden van de plastic scheepjes die de verregaande standaardisering in de (motor)jachtbouw symboliseerden – traditioneel gebouwde, unieke stukken. Samen belichaamden zij een voorgoed verdwenen tijd.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph47">
-                      <input type="text" name="" id="paragraphLink47" value="paragraph47" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink47')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (47)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph45">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP45', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (45)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Initiatieven tot het behoud van historische schepen namen na de oprichting van de Stichting Stamboek een vlucht. Zo werd in 1960 de Stichting Botterbehoud opgericht, in de jaren zeventig de Landelijke Vereniging tot Behoud van het Historisch Bedrijfsvaartuig en zagen onder meer aparte behoudsorganisaties voor sleepboten, reddingboten en klassieke scherpe jachten het licht. Vandaag de dag staan ruim 3.000 historische vaartuigen in het Register Varend Erfgoed Nederland van de Federatie Varend Erfgoed Nederland geregistreerd.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP45">
+        <input type="text" name="" id="paragraphLink45" value="paragraph45" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('45')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (45)" id="b_paragraphLink45">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP45', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (45)" id="b_paragraphLink45">
+            &#10006;
+        </button>
+    </span>Initiatieven tot het behoud van historische schepen namen na de oprichting van de Stichting Stamboek een vlucht. Zo werd in 1960 de Stichting Botterbehoud opgericht, in de jaren zeventig de Landelijke Vereniging tot Behoud van het Historisch Bedrijfsvaartuig en zagen onder meer aparte behoudsorganisaties voor sleepboten, reddingboten en klassieke scherpe jachten het licht. Vandaag de dag staan ruim 3.000 historische vaartuigen in het Register Varend Erfgoed Nederland van de Federatie Varend Erfgoed Nederland geregistreerd.
         <button id="noteRef47" data-noteNumber="47"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         47
         </button> Een vloot historische vaartuigen van de Federatie is elke vijf jaar in Amsterdam te aanschouwen tijdens het grootste Nederlandse maritieme evenement van onze tijd: SAIL.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Vlootschouw van tjalken" data-caption="SAIL Amsterdam, 23 augustus 2015. Foto door Leo Schuitemaker. <br>"data-src="images/d4h8/d4h8-600/17_Sail.jpg"><img src="images/d4h8/d4h8-170/17_Sail.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Vlootschouw van tjalken SAIL Amsterdam, 23 augustus 2015. Foto door Leo Schuitemaker. <br>" loading="lazy" id="img_17_Sail.jpg"><div>Vlootschouw van tjalken</div></button></div>
-    
-    
-    
-    
-    
-    
-    
-    
-                   <h3 class="mt-2 font-merriweather font-bold scroll-mt-8" id="slotbeschouwing">Slotbeschouwing</h3>
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph50">
-                      <input type="text" name="" id="paragraphLink50" value="paragraph50" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink50')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (50)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Vlootschouw van tjalken" data-caption="SAIL Amsterdam, 23 augustus 2015. Foto door Leo Schuitemaker. <br>"data-src="images/d4h8/d4h8-600/17_Sail.jpg"><img src="images/d4h8/d4h8-170/17_Sail.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Vlootschouw van tjalken SAIL Amsterdam, 23 augustus 2015. Foto door Leo Schuitemaker. <br>" id="img_17_Sail.jpg"><div>Vlootschouw van tjalken</div></button></div>
+                   <h3 class="mb-4 mt-4 font-merriweather font-bold scroll-mt-8" id="slotbeschouwing">Slotbeschouwing</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph48">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP48', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (48)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>In dit hoofdstuk is verkend op welke wijze twintigste-eeuwse denkbeelden over (nationale) eenheid en eigenheid zijn te herkennen in cultuuruitingen met een maritiem karakter. Deze vraagstelling werd uitgewerkt aan de hand van twee onderwerpen die het begrip ‘massa’ omvatten; de betrokkenheid van grotere en diverse groepen bij de nationale politiek en de massificering van de watersport die aanleiding gaf tot de oprichting van de eerste organisatie die zich het behoud van deze traditioneel gebouwde schepen ten doel stelde. De in dit hoofdstuk besproken onderwerpen zijn slechts een paar in het oog springende representanten van twintigste-eeuwse maritieme cultuuruitingen in een haast oneindige zee aan mogelijkheden.
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP48">
+        <input type="text" name="" id="paragraphLink48" value="paragraph48" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('48')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (48)" id="b_paragraphLink48">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
+    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP48', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (48)" id="b_paragraphLink48">
+            &#10006;
+        </button>
+    </span>In dit hoofdstuk is verkend op welke wijze twintigste-eeuwse denkbeelden over (nationale) eenheid en eigenheid zijn te herkennen in cultuuruitingen met een maritiem karakter. Deze vraagstelling werd uitgewerkt aan de hand van twee onderwerpen die het begrip ‘massa’ omvatten; de betrokkenheid van grotere en diverse groepen bij de nationale politiek en de massificering van de watersport die aanleiding gaf tot de oprichting van de eerste organisatie die zich het behoud van deze traditioneel gebouwde schepen ten doel stelde. De in dit hoofdstuk besproken onderwerpen zijn slechts een paar in het oog springende representanten van twintigste-eeuwse maritieme cultuuruitingen in een haast oneindige zee aan mogelijkheden.
         <button id="noteRef48" data-noteNumber="48"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
         48
         </button> Hoewel zij ogenschijnlijk ver uiteen liggen, tekenen parallellen tussen stuurman Colijn en de boeiers van Eeltje Holtrop zich moeiteloos af.</p>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph51">
-                      <input type="text" name="" id="paragraphLink51" value="paragraph51" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink51')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (51)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph49">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP49', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (49)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Het gebruik van de welbekende metafoor het ‘schip van staat’ en diens afgeleide stuurman op het affiche van de ARP uit 1925, stelde de partij in staat een heldere verkiezingsboodschap over te brengen aan grote groepen (nieuwe) kiezers. De wijze waarop voorman Colijn is afgebeeld, balt de tijdens het interbellum heersende ideeën over nationale eigenheid treffend samen. Deze stuurman laat zich duiden als een geconstrueerd icoon van Nederlanderschap. Zijn cultureel herkenbare verschijningsvorm – een eenvoudige schipper eerder dan een deftige stuurman – leest als een vertrouwd beeld in een diffuse wereld.</p>
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP49">
+        <input type="text" name="" id="paragraphLink49" value="paragraph49" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('49')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (49)" id="b_paragraphLink49">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph52">
-                      <input type="text" name="" id="paragraphLink52" value="paragraph52" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink52')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (52)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP49', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (49)" id="b_paragraphLink49">
+            &#10006;
+        </button>
+    </span>Het gebruik van de welbekende metafoor het ‘schip van staat’ en diens afgeleide stuurman op het affiche van de ARP uit 1925, stelde de partij in staat een heldere verkiezingsboodschap over te brengen aan grote groepen (nieuwe) kiezers. De wijze waarop voorman Colijn is afgebeeld, balt de tijdens het interbellum heersende ideeën over nationale eigenheid treffend samen. Deze stuurman laat zich duiden als een geconstrueerd icoon van Nederlanderschap. Zijn cultureel herkenbare verschijningsvorm – een eenvoudige schipper eerder dan een deftige stuurman – leest als een vertrouwd beeld in een diffuse wereld.</p>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph50">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP50', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (50)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>Hetzelfde geldt voor de boeiers van Eeltje Holtrop en andere historische schepen, die in het proces van massificering van de watersport teloor dreigden te gaan. Dat behoudsorganisaties voor historische schepen juist na de Tweede Wereldoorlog – toen Nederland afstand deed van zijn neutraliteitspolitiek en de confrontatie met Amerika en Europa een nieuwe manier van denken over de eigen geschiedenis en cultuur teweeg bracht – voor het eerst gestalte kregen, is niet verwonderlijk. Na de periode van wederopbouw werd gezocht naar het specifiek eigene in verhouding tot de landen en samenwerkingsorganen waarmee Nederland een nieuwe relatie kreeg. Een legitiem moment om het gekoesterde ‘eigene’ van de ondergang te redden.</p>
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP50">
+        <input type="text" name="" id="paragraphLink50" value="paragraph50" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('50')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (50)" id="b_paragraphLink50">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                   
-                   <p class="my-4 font-merriweather font-light" id="paragraph53">
-                      <input type="text" name="" id="paragraphLink53" value="paragraph53" class="hidden">
-    <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('paragraphLink53')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (53)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP50', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (50)" id="b_paragraphLink50">
+            &#10006;
+        </button>
+    </span>Hetzelfde geldt voor de boeiers van Eeltje Holtrop en andere historische schepen, die in het proces van massificering van de watersport teloor dreigden te gaan. Dat behoudsorganisaties voor historische schepen juist na de Tweede Wereldoorlog – toen Nederland afstand deed van zijn neutraliteitspolitiek en de confrontatie met Amerika en Europa een nieuwe manier van denken over de eigen geschiedenis en cultuur teweeg bracht – voor het eerst gestalte kregen, is niet verwonderlijk. Na de periode van wederopbouw werd gezocht naar het specifiek eigene in verhouding tot de landen en samenwerkingsorganen waarmee Nederland een nieuwe relatie kreeg. Een legitiem moment om het gekoesterde ‘eigene’ van de ondergang te redden.</p>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph51">
+                      <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP51', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (51)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
     
     
-     </button>In tijden waarin dat ‘eigene’ onder druk kwam te staan, kon met een zelf geconstrueerd icoon in de vorm van een stuurman of met een varend monument als de <em>Friso</em>, als het ware de eenheid en de samenhang met voorbije perioden worden ervaren. In de ‘eeuw van uitersten’ kon aan deze maritieme cultuuruitingen een idee van continuïteit worden toegedicht en waren zij bij machte te fungeren als solide bakens tussen het veilige verleden en het onzekere verschiet.</p>
+     </button>
+    <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP51">
+        <input type="text" name="" id="paragraphLink51" value="paragraph51" class="hidden w-full">
+        
+        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('51')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (51)" id="b_paragraphLink51">
+            Klik hier voor een link naar deze paragraaf.
+        </button>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP51', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (51)" id="b_paragraphLink51">
+            &#10006;
+        </button>
+    </span>In tijden waarin dat ‘eigene’ onder druk kwam te staan, kon met een zelf geconstrueerd icoon in de vorm van een stuurman of met een varend monument als de <em>Friso</em>, als het ware de eenheid en de samenhang met voorbije perioden worden ervaren. In de ‘eeuw van uitersten’ kon aan deze maritieme cultuuruitingen een idee van continuïteit worden toegedicht en waren zij bij machte te fungeren als solide bakens tussen het veilige verleden en het onzekere verschiet.</p>
     
                 <div id="noten"><h2 class="pb-3 text-3xl mt-16 border-t pt-8 border-nmgnBlue-300">Noten</h2></div>
                 <ul class="flex flex-col gap-6 font-sans">
@@ -2105,7 +1433,7 @@
                 </ul>
                 
     
-                
+               
     
     
        </div>
@@ -2115,12 +1443,14 @@
     <!-- image -->
     <aside class="relative z-0 hidden md:block col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-0">
         <div class="w-full flex justify-end sticky top-1 z-10 pr-6 pt-2 xl:hidden">
-            <button class=" bg-neutral-200 px-3 py-1 rounded-full text-sm absolute cursor-pointer" onclick="toggleVis('extraNavPanel', 'show');">Inhoud <span class="text-neutral-400 text-xs">&#9660;</span></button>
+            <button class=" bg-nmgnBlue-200 text-nmgnBlue-900 my-1 px-3 py-1 rounded-full text-sm absolute cursor-pointer" onclick="toggleVis('extraNavPanel', 'show');">Inhoud <span class="text--nmgnBlue-500 text-xs">&#9660;</span></button>
             <div class="w-full absolute mt-7 ml-10 h-[100vh] hidden flex-col " id="extraNavPanel">
-                <div class="flex justify-end bg-neutral-50">
-                    <button class="px-1 m-1 rounded bg-neutral-200 hover:bg-neutral-300 cursor-pointer" onclick="toggleVis('extraNavPanel', 'hide');">&#10006;</button>
+                <div class="flex justify-end">
+                    <div>
+                        <button class="px-1 m-1 rounded bg-nmgnBlue-200 hover:nmgnBlue-300 cursor-pointer" onclick="toggleVis('extraNavPanel', 'hide');">&#10006;</button>
+                    </div>
                 </div>
-                <div class="contentNavigation bg-neutral-50 ml-10 flex flex-col p-4 text-xs gap-2 w-full *:no-underline *:text-neutral-800  overflow-y-auto"></div>
+                <div class="contentNavigation bg-nmgnBlue-50 ml-10 flex flex-col p-4 text-sm gap-2 w-full *:no-underline *:text-neutral-800  overflow-y-auto"></div>
             </div>
         </div>
         
@@ -2134,10 +1464,10 @@
                 <figcaption  class="text-sm max-w-xl mx-auto">
                     <strong class="mt-4 block" id="asideImgTitle">Verkiezingsaffiche van de Anti-Revolutionaire Partij (ARP), 1925</strong>
                     <span id="asideCaption">
-                        In oliegoed gestoken en met zijn handen stevig om het stuurwiel van het ‘schip van staat’ geklemd, tuurt ’s lands stuurman Hendrik Colijn vastberaden naar de einder. Colijn leidde als voorman van de Anti-Revolutionaire Partij (ARP) tussen 1925 en 1939 vijf kabinetten.
-                        Ontwerp door Hein Kray.
-                        Uitgave: Bureau ‘Houten Pomp’, Arnhem.
-                        <br>Historisch Documentatiecentrum – Vrije Universiteit, Amsterdam.
+                        In oliegoed gestoken en met zijn handen stevig om het stuurwiel van het ‘schip van staat’ geklemd, tuurt ’s lands stuurman Hendrik Colijn vastberaden naar de einder. Colijn leidde als voorman van de Anti-Revolutionaire Partij (ARP) tussen 1925 en 1939 vijf kabinetten.<br>
+                        Ontwerp door Hein Kray.<br>
+                        Uitgave: Bureau ‘Houten Pomp’, Arnhem.<br>
+                        Historisch Documentatiecentrum – Vrije Universiteit, Amsterdam.
                     </span>
                     
                 </figcaption>
@@ -2147,10 +1477,8 @@
         </div>
     </aside>
     <!-- Notes popup -->
-    <div class="z-10 absolute w-full col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-10" id="noteCol">
+    <span class="z-10 absolute w-full col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-10" id="noteCol">
         <div class="hidden absolute w-full max-w-96 flex-col bg-white border border-neutral-200 shadow-2xl -translate-x-6 translate-y-16 lg:translate-y-0" id="notePopupBlock">
-            
-            
             <div class="flex justify-between p-4 border-b border-neutral-200">
                 <div class="font-bold" id="popupNoteNr"></div>
                 <div class=""><button class="cursor-pointer px-4" onclick="closeNotePopUp()">&#10006;</button></div>
@@ -2159,7 +1487,7 @@
             <div class="w-full bg-white p-4 min-h-40 text-neutral-600 text-sm" id="notePopupContent" > </div>
             
         </div>
-    </div>
+    </span>
 </div>
 
 <footer class="w-full bg-[#053a51] py-16 text-white">
@@ -2172,8 +1500,9 @@
         <div class="w-full lg:w-1/3 flex flex-col gap-4">
             <div class="lg:-translate-x-11 mb-4"><img src="images/logo_NMGN.svg" alt="" loading="lazy" class="w-64 lg:w-96" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
             <div class=""><strong>Partners</strong></div>
-            <div class="pb-4"><img src="images/logo_huygensING.png" alt="" loading="lazy" class="w-64 lg:w-32" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
-            <div class="bg-white pb-4 w-72"><img src="images/logo_OCW_RCE.png" alt="" loading="lazy" class="w-full" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
+            <div class="pb-4"><img src="images/logo_huygensING.png" alt="" loading="lazy" class="w-64 lg:w-32" aria-label="Logo Huygens instituut"></div>
+            <div class="bg-white pb-4 w-72"><img src="images/logo_OCW_RCE.png" alt="" loading="lazy" class="w-full" aria-label="Logo De Rijksdienst voor het Cultureel Erfgoed"></div>
+            <div class="bg-white pb-4 w-72 p-4"><img src="images/logo-samenwerkende-maritime-fondsen.png" alt="" loading="lazy" class="w-full" aria-label="logo samenwerkende maritime fondsen"></div>
             
         </div>
 
@@ -2217,7 +1546,7 @@
         </figure>
     </div>
 </div>
-<div class=" bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden" id="topMenuPop">
+<div class=" bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop">
 
     <div class="py-5 max-w-[1300px] w-full text-right">
         <button class="p-2 hover:bg-nmgnGreen-100 rounded text-2xl cursor-pointer" onclick="toggleVis('topMenuPop', 'hide');">&#10006;</button>
@@ -2299,6 +1628,18 @@
                     <h2 class="font-bold">De vaart in en buiten Europa</h2>
                     <div class="">1600 - 1780</div>
                 </div>
+
+            <a href="d2h3-de-tijd-van-de-grote-handelscompagnieen-koopvaardij-buiten-europa-in-de-zeventiende-en-achttiende-eeuw.html" class="flex flex-col" id="topnav_d2h3" aria-label="Hoofdstuk 3 De tijd van de grote handelscompagnieën:± Koopvaardij buiten Europa in de zeventiende en achttiende eeuw door Henk den Heijer, Han Jordaan en Karel Davids" tabindex="0">
+                <div class="font-bold">3 </div>
+                <div class="text-nmgnBlue-900 text-xl"><strong class="">De tijd van de grote handelscompagnieën:± Koopvaardij buiten Europa in de zeventiende en achttiende eeuw</strong></div>
+                <em class="">Henk den Heijer, Han Jordaan en Karel Davids</em>
+            </a>
+            
+
+            
+            
+        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
+
 
             <a href="d2h4-een-veelkoppig-monster-de-nederlandse-zeemacht-1568-1780.html" class="flex flex-col" id="topnav_d2h4" aria-label="Hoofdstuk 4 Een veelkoppig monster:± De Nederlandse zeemacht, 1568-1780 door Victor Enthoven, Marc van Alphen en Remmelt Daalder" tabindex="0">
                 <div class="font-bold">4 </div>
@@ -2421,12 +1762,14 @@
 </div>
 
 
-<script src="js/scroll.js"></script>
+<script src="js/scroll2.js"></script>
 <script src="js/notes.js"></script>
 <script src="js/images.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/toggleVis.js"></script>
 <script src="js/copy.js"></script>
 <script src="js/bigImageViewer.js"></script>
+<script src="js/lunr_index.min.js"></script>
+<script src="js/lunr.js"></script>
   </body>
 </html>

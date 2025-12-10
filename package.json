@@ -5,15 +5,16 @@
   "main": "",
   "config": {},
   "scripts": {
-    "start": "npm run Build_website",
+    "start": "node app/conversion/generate-index.js",
     "Convert_Data": "node app/conversion/convertion.js",
     "Build index": "node app/conversion/generate-index.js",
     "Build_website": "node app/build-website/build-website.js",
     "tw": "npx tailwindcss -i ./src/css/nmgn-tw.css -o ./output/html-site/css/style-tw.css",
+    "Build_lunr_index": "node app/build-website/build-lunar-index.js",
     "getJson": "node app/getJsonFromGsheets.js",
     "imageCaptions": "node app/stores/add-images-captions.js",
     "docx headers": "node app/generate-docx-headers.js",
-    "poststart": "npm run tw",
+    "poststart": "npm run nodemon",
     "prestart": "npm run Convert_Data",
     "tw watch": "npx tailwindcss -i ./src/css/nmgn-tw.css -o ./output/html-site/css/style-tw.css --watch",
     "nodemon": "nodemon -e js,html,md,json -x"
@@ -21,6 +22,8 @@
   "author": "Bas Doppen",
   "license": "ISC",
   "nodemonConfig": {
+    "exec": "npm run Build_website & npm run tw",
+    "delay": "400ms",
     "ignore": [
       "./output/*"
     ]

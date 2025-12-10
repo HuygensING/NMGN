@@ -8,16 +8,24 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body class="text-neutral-700">
+  <body class="text-neutral-700 relative">
   
 
-<header class="w-full bg-nmgnBlue-900 text-white p-3">
+<header class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
     <div class="max-w-[1900px] mx-auto  flex justify-between">
         <a href="index.html"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
-        <div class="">
+        <div class="flex gap-4">
             
-            <button class="cursor-pointer" onclick="toggleVis('topMenuPop', 'show'); setFocus('topnav_d1')" aria-label="klik voor alle hoofdstukken">Hoofdstukken</button>
-        </div>
+            <button class="cursor-pointer  py-1 px-2  bg-nmgnBlue-200 rounded-lg text-nmgnBlue-900 text-sm" onclick="toggleVis('topMenuPop', 'show'); setFocus('topnav_d1')" aria-label="klik voor alle hoofdstukken">Hoofdstukken</button>
+            <div class="hidden relative">
+                <input type="text" name="" id="searchField" class="bg-white w-32 text-black rounded-l-lg text-sm py-1 px-2"  aria-label="type een zoekwoord">
+                <button class=" py-1 px-2 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm flex  rounded-r-lg" id="searchButton">Zoeken</button>
+                <div class="bg-nmgnBlue-100 text-nmgnBlue-950  shadow-2xl absolute w-96 p-4 top-10 right-4 hidden max-w-lg z-50" id="searchResults">
+                    <ul id="searchResultsList" class="flex flex-col gap-2 text-sm">
+                        <li>Searching...</li>
+                    </ul>
+                </div>
+            </div>        </div>
     </div>
 </header>
 <div class="w-full bg-[#053a51] px-10 flex justify-center">
@@ -136,7 +144,7 @@
                 
                 <h3 class="text-2xl font-bold mb-1 flex items-baseline -translate-x-5 "><span class="text-base text-neutral-500 mr-2">6</span> Maritieme cultuur in de middeleeuwen</h3>
                 <p class=" mb-3"><em>Remmelt Daalder</em></p>
-                <p></p>
+                <p>In de middeleeuwen had de zee uiteenlopende betekenissen; een bedreigende ruimte, vol monsters. Maar scheepvaart stond ook voor rijkdom, macht en moed. Verhalen en afbeeldingen tonen het schip als metafoor voor een groep mensen, zoals het narrenschip, een vaartuig vol zondaars.</p>
             </div>
 
 
@@ -164,6 +172,25 @@
     </div>
     <div class="w-full lg:w-2/3 flex flex-col gap-12">
 
+        <a href="d2h3-de-tijd-van-de-grote-handelscompagnieen-koopvaardij-buiten-europa-in-de-zeventiende-en-achttiende-eeuw.html" class="w-full flex flex-col lg:flex-row gap-10 hover:bg-neutral-100 rounded py-4 transition">
+            <div class="w-full lg:w-20">
+                <img src="images/chapterImages/d2h3.png" alt="" loading="lazy" class="h-20 w-20">
+            </div>
+            <div class="w-full lg:w-4/5">
+                
+                <h3 class="text-2xl font-bold mb-1 flex items-baseline -translate-x-5 "><span class="text-base text-neutral-500 mr-2">3</span> De tijd van de grote handelscompagnieën: Koopvaardij buiten Europa in de zeventiende en achttiende eeuw</h3>
+                <p class=" mb-3"><em>Henk den Heijer, Han Jordaan en Karel Davids</em></p>
+                <p>Aan het eind van de zestiende eeuw voeren de eerste Nederlandse schepen naar bestemmingen buiten Europa. In Azië ontwikkelde de VOC een uitgebreid handelsnetwerk, dat vanuit Batavia op Java werd aangestuurd. De WIC, die een handelsmonopolie in het Atlantische gebied had verworven, was minder succesvol. Particuliere kooplieden uit de Republiek namen de handel en scheepvaart op Afrika en Amerika grotendeels van haar over. Naast de handel in goederen speelde ook die in Afrikaanse slaven een belangrijke rol. In de jaren 1790 gingen de door oorlogen geteisterde handelscompagnieën roemloos ten onder en viel de overzeese handel zo goed als stil.</p>
+            </div>
+
+
+
+        </a>
+
+        
+
+
+
         <a href="d2h4-een-veelkoppig-monster-de-nederlandse-zeemacht-1568-1780.html" class="w-full flex flex-col lg:flex-row gap-10 hover:bg-neutral-100 rounded py-4 transition">
             <div class="w-full lg:w-20">
                 <img src="images/chapterImages/d2h4.png" alt="" loading="lazy" class="h-20 w-20">
@@ -172,7 +199,7 @@
                 
                 <h3 class="text-2xl font-bold mb-1 flex items-baseline -translate-x-5 "><span class="text-base text-neutral-500 mr-2">4</span> Een veelkoppig monster: De Nederlandse zeemacht, 1568-1780</h3>
                 <p class=" mb-3"><em>Victor Enthoven, Marc van Alphen en Remmelt Daalder</em></p>
-                <p>Maritieme geschiedenis gaat traditioneel over schepen, hun lading en de mensen op die schepen, over de routes over water en de voorzieningen voor de schepen of over de conflicten die op het water werden beslecht. Kortom, scheepvaarthistorici zijn voornamelijk geïnteresseerd in de concrete kanten van het maritieme bedrijf.</p>
+                <p>De Republiek der Verenigde Nederlanden was in de zeventiende eeuw een van de belangrijkste maritieme mogendheden ter wereld. Daarna werd die rol een stuk bescheidener. De zeehelden en zeeslagen zijn algemeen bekend, maar daarachter ging een zeer gelaagde, gedecentraliseerde organisatie schuil. De soevereine gewesten kenden bijvoorbeeld niet één gezamenlijk apparaat voor de defensie ter zee. Er waren maar liefst vijf admiraliteitscolleges, verspreid over drie gewesten. Die hadden tal van vestigingen en schepen in vele soorten en maten. Private organisaties waren ook betrokken bij de zeeoorlog, bijvoorbeeld voor het konvooieren van koopvaarders. Kaperschepen leverden bovendien een (legale) bijdrage aan de oorlog ter zee. Die vermenging van private en publieke belangen kwam op vele niveaus voor. Zo regelden de commandanten zelf de werving en voeding van hun bemanning. Oorlogsschepen werden vaak gehuurd of gebouwd op particuliere werven. Deze verbrokkelde organisatie stond militaire successen en innovaties niet in de weg. Dat verklaart dat het hele systeem tot aan het einde van de achttiende eeuw standhield.</p>
             </div>
 
 
@@ -284,7 +311,7 @@
                 
                 <h3 class="text-2xl font-bold mb-1 flex items-baseline -translate-x-5 "><span class="text-base text-neutral-500 mr-2">7</span> Maritieme cultuur in de negentiende eeuw</h3>
                 <p class=" mb-3"><em>Remmelt Daalder</em></p>
-                <p></p>
+                <p>In het nationalisme van de negentiende eeuw speelde het maritieme verleden een grote rol. Schilders, schrijvers en beeldhouwers, maar ook historici lieten zich inspireren door de daden van zeehelden uit de Gouden Eeuw, zoals Michiel de Ruyter.</p>
             </div>
 
 
@@ -364,8 +391,9 @@
         <div class="w-full lg:w-1/3 flex flex-col gap-4">
             <div class="lg:-translate-x-11 mb-4"><img src="images/logo_NMGN.svg" alt="" loading="lazy" class="w-64 lg:w-96" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
             <div class=""><strong>Partners</strong></div>
-            <div class="pb-4"><img src="images/logo_huygensING.png" alt="" loading="lazy" class="w-64 lg:w-32" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
-            <div class="bg-white pb-4 w-72"><img src="images/logo_OCW_RCE.png" alt="" loading="lazy" class="w-full" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
+            <div class="pb-4"><img src="images/logo_huygensING.png" alt="" loading="lazy" class="w-64 lg:w-32" aria-label="Logo Huygens instituut"></div>
+            <div class="bg-white pb-4 w-72"><img src="images/logo_OCW_RCE.png" alt="" loading="lazy" class="w-full" aria-label="Logo De Rijksdienst voor het Cultureel Erfgoed"></div>
+            <div class="bg-white pb-4 w-72 p-4"><img src="images/logo-samenwerkende-maritime-fondsen.png" alt="" loading="lazy" class="w-full" aria-label="logo samenwerkende maritime fondsen"></div>
             
         </div>
 
@@ -395,7 +423,7 @@
         </figure>
     </div>
 </div>
-<div class=" bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden" id="topMenuPop">
+<div class=" bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop">
 
     <div class="py-5 max-w-[1300px] w-full text-right">
         <button class="p-2 hover:bg-nmgnGreen-100 rounded text-2xl cursor-pointer" onclick="toggleVis('topMenuPop', 'hide');">&#10006;</button>
@@ -477,6 +505,18 @@
                     <h2 class="font-bold">De vaart in en buiten Europa</h2>
                     <div class="">1600 - 1780</div>
                 </div>
+
+            <a href="d2h3-de-tijd-van-de-grote-handelscompagnieen-koopvaardij-buiten-europa-in-de-zeventiende-en-achttiende-eeuw.html" class="flex flex-col" id="topnav_d2h3" aria-label="Hoofdstuk 3 De tijd van de grote handelscompagnieën:± Koopvaardij buiten Europa in de zeventiende en achttiende eeuw door Henk den Heijer, Han Jordaan en Karel Davids" tabindex="0">
+                <div class="font-bold">3 </div>
+                <div class="text-nmgnBlue-900 text-xl"><strong class="">De tijd van de grote handelscompagnieën:± Koopvaardij buiten Europa in de zeventiende en achttiende eeuw</strong></div>
+                <em class="">Henk den Heijer, Han Jordaan en Karel Davids</em>
+            </a>
+            
+
+            
+            
+        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
+
 
             <a href="d2h4-een-veelkoppig-monster-de-nederlandse-zeemacht-1568-1780.html" class="flex flex-col" id="topnav_d2h4" aria-label="Hoofdstuk 4 Een veelkoppig monster:± De Nederlandse zeemacht, 1568-1780 door Victor Enthoven, Marc van Alphen en Remmelt Daalder" tabindex="0">
                 <div class="font-bold">4 </div>
@@ -599,12 +639,14 @@
 </div>
 
 
-<script src="js/scroll.js"></script>
+<script src="js/scroll2.js"></script>
 <script src="js/notes.js"></script>
 <script src="js/images.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/toggleVis.js"></script>
 <script src="js/copy.js"></script>
 <script src="js/bigImageViewer.js"></script>
+<script src="js/lunr_index.min.js"></script>
+<script src="js/lunr.js"></script>
   </body>
 </html>
