@@ -13,10 +13,12 @@ const createFile = (fileName, content) => {
 };
 
 const replaceSpaces = (str) => {
+    if (str == null || typeof str !== 'string') return '';
     return str.replaceAll(" ","-");
 };
 
 const saveTitle = (str) => {
+    if (str == null || typeof str !== 'string') return '';
     return str.replaceAll(" ","-").replaceAll("|","").replaceAll(",","").replaceAll("(","").replaceAll(")","").replaceAll(":±","").replaceAll("‘","").replaceAll("’","").replaceAll("ë","e").replaceAll("±","").toLowerCase();
 };
 

@@ -54,6 +54,7 @@ handlebars.registerHelper('split', function (str) {
 });
 
 handlebars.registerHelper('removeCapSpace', function (str) {
+  if (str == null || typeof str !== 'string') return '';
   return str.replaceAll(' ', '_').toLowerCase();
 });
 
@@ -66,6 +67,10 @@ handlebars.registerHelper('ifSame', function (val1, val2) {
   return out;
 });
 
+handlebars.registerHelper('gt', function (a, b) {
+  return (a != null && b != null) && (Number(a) > Number(b));
+});
+
 
 handlebars.registerHelper('randomBetween', function (min, max) {
   min = parseInt(min);
@@ -74,6 +79,8 @@ handlebars.registerHelper('randomBetween', function (min, max) {
 });
 
 handlebars.registerHelper('replaceStr', function (str, replce, replceWith) {
+  if (str == null || typeof str !== 'string') return '';
+  if (replce == null || replceWith == null) return str;
   return str.replaceAll(replce, replceWith);
 });
 
@@ -130,12 +137,13 @@ function generateHtml() {
                   // paragraphs
                   if (block.type == 'p') {
                     let newHtml = block.htmlRaw
-                    // markup notes
+                    // markup notes: replace ref with button (note content is only in popup and in Noten section at bottom)
                     if (block.footnotes !== undefined) {
                       block.footnotes.forEach(note => {
                         const originalHtmlNote = '<a href=\"#fn'+note.noteNumber+'\" class=\"footnote-ref\" id=\"fnref'+note.noteNumber+'\" role=\"doc-noteref\"><sup>'+note.noteNumber+'</sup></a>'
-                        newHtml = newHtml.replaceAll(originalHtmlNote, htmlVars.htmlinlineNoteMarker(note.noteNumber))
-                    }); 
+                        const replacement = htmlVars.htmlinlineNoteMarker(note.noteNumber)
+                        newHtml = newHtml.replaceAll(originalHtmlNote, replacement)
+                      });
                     }
                     block.newHtml = newHtml
                   }
@@ -191,7 +199,10 @@ function renderIMGbasic(imgObject, chapterCode, blockIsFirst, blockIsLast) {
   let caption = ''
   if (imgObject.imagedata.title !== undefined) {
     title = imgObject.imagedata.title
-    caption = imgObject.imagedata.description+' '+imgObject.imagedata.description2+' '+imgObject.imagedata.description3+'<br>'+imgObject.imagedata.location
+    caption = imgObject.imagedata.description
+    if (imgObject.imagedata.description2) caption += '<br>'+imgObject.imagedata.description2
+    if (imgObject.imagedata.description3) caption += '<br>'+imgObject.imagedata.description3
+    if (imgObject.imagedata.location) caption += '<br>'+imgObject.imagedata.location
     imageSrc = 'images/'+chapterCode+'/'+chapterCode+'-600/'+imgObject.htmlRaw
   } else {
     imageSrc = 'images/'+chapterCode+'/'+chapterCode+'-600/'+imgObject.htmlRaw

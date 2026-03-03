@@ -37,7 +37,7 @@ module.exports = function(resolveData) {
 					if (contentBlock.type == 'img') {
 						let imgDescription = ''
 						if (contentBlock.imagedata !== undefined) {
-							imgDescription = contentBlock.imagedata.title+'. '+contentBlock.imagedata.description+' '+contentBlock.imagedata.description2+' '+contentBlock.imagedata.description3+' '
+							imgDescription = contentBlock.imagedata.title+'. '+contentBlock.imagedata.description+'<br>'+contentBlock.imagedata.description2+'<br>'+contentBlock.imagedata.description3+'<br>'
 						}
 						outputMardown += '!['+imgDescription+']('+contentBlock.htmlRaw+')\n\n';
 						
@@ -53,7 +53,7 @@ module.exports = function(resolveData) {
 					
 				});
 
-		utility.createFile('./output/markdown/d'+jsonDoc.chapterMetadata.part+'h'+jsonDoc.chapterMetadata.chapter+'-'+utility.saveTitle(jsonDoc.chapterMetadata.title)+'.md', outputYaml+outputMardown)
+		utility.createFile('./output/markdown/d'+jsonDoc.chapterMetadata.part+'h'+jsonDoc.chapterMetadata.chapter+'-'+utility.saveTitle(jsonDoc.chapterMetadata.title ?? '')+'.md', outputYaml+outputMardown)
 
 	
       resolve([htmlJson, isLast]);

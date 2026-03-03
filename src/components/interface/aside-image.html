@@ -1,9 +1,9 @@
 <!-- image -->
 <aside class="relative z-0 {{gridClass}}">
-    {{> utils/contentNavagationPanel }}
+
 
     
-    <div class="min-h-screen sticky top-0 flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0">
+    <div class="min-h-screen sticky top-0 flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-screen">
 
          <figure class="flex flex-col">
             <img id="asideImg" src="images/d{{chapterMetadata.part}}h{{chapterMetadata.chapter}}/d{{chapterMetadata.part}}h{{chapterMetadata.chapter}}-600/{{firstImage.htmlRaw}}" class="w-full border" alt="{{firstImage.imagedata.description}}" loading="lazy">
@@ -13,10 +13,10 @@
             <figcaption  class="text-sm max-w-xl mx-auto">
                 <strong class="mt-4 block" id="asideImgTitle">{{firstImage.imagedata.title}}</strong>
                 <span id="asideCaption">
-                    {{firstImage.imagedata.description}}<br>
-                    {{firstImage.imagedata.description2}}<br>
-                    {{firstImage.imagedata.description3}}<br>
-                    {{firstImage.imagedata.location}}
+                    {{firstImage.imagedata.description}}
+                    {{#if firstImage.imagedata.description2}}<br>{{firstImage.imagedata.description2}}{{/if}}
+                    {{#if firstImage.imagedata.description3}}<br>{{firstImage.imagedata.description3}}{{/if}}
+                    {{#if firstImage.imagedata.location}}<br>{{firstImage.imagedata.location}}{{/if}}
                 </span>
                 
             </figcaption>

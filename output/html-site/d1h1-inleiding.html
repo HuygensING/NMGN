@@ -16,7 +16,7 @@
         <a href="index.html"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
         <div class="flex gap-4">
             
-            <button class="cursor-pointer  py-1 px-2  bg-nmgnBlue-200 rounded-lg text-nmgnBlue-900 text-sm" onclick="toggleVis('topMenuPop', 'show'); setFocus('topnav_d1')" aria-label="klik voor alle hoofdstukken">Hoofdstukken</button>
+            <button class="cursor-pointer  py-1 px-2  bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm" onclick="toggleVis('topMenuPop', 'show'); setFocus('topnav_d1')" aria-label="klik voor alle hoofdstukken">Hoofdstukken</button>
             <div class="hidden relative">
                 <input type="text" name="" id="searchField" class="bg-white w-32 text-black rounded-l-lg text-sm py-1 px-2"  aria-label="type een zoekwoord">
                 <button class=" py-1 px-2 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm flex  rounded-r-lg" id="searchButton">Zoeken</button>
@@ -38,11 +38,16 @@
     </div>
     <div class="col-start-2 xl:col-start-6 row-start-3 col-span-6 text-white items-center justify-start">Door </div>
     <!-- <div class="col-start-2 xl:col-start-2 row-start-4 text-white  absolute left-[20vw] hidden xl:flex"><img src="images/chapterImages/d1h1.png" class="w-24 h-24 2xl:w-36 2xl:h-36" alt=""></div> -->
-</div>
-<div class="flex flex-col px-6 lg:px-0 lg:grid gap-4 xl:gap-10  grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] w-full relative z-30">
+</div><div class="sticky top-0 z-40 xl:hidden flex justify-end py-2 pr-6 w-full" id="showInhoud"><button type="button" id="btnInhoudToggle" class="cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm"
+        onclick="openAsideNav();" aria-label="Toon inhoudsopgave">Inhoud</button></div>
+
+<div class="flex flex-col px-6 
+            lg:px-0 lg:grid gap-4 xl:gap-10  
+            grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] 
+            w-full relative z-30">
 
     <!-- Nagivation -->
-        <aside class="pt-12 bg-nmgnBlue-50 pl-10 hidden xl:flex col-start-1 col-span-2">
+        <aside id="asideNavPanel" class="fixed inset-0 z-50 [@media(min-width:768px)_and_(orientation:landscape)]:right-0 [@media(min-width:768px)_and_(orientation:landscape)]:top-0 [@media(min-width:768px)_and_(orientation:landscape)]:bottom-0 [@media(min-width:768px)_and_(orientation:landscape)]:w-1/2 [@media(min-width:768px)_and_(orientation:landscape)]:left-auto xl:static xl:inset-auto xl:w-auto xl:min-w-[260px] pt-12 bg-nmgnBlue-50 pl-10 hidden xl:flex col-start-1 col-span-2">
             
             <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16">
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
@@ -61,7 +66,7 @@
             </nav>
         </aside>
     <!-- content -->
-    <main class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30">
+    <main class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30 sm:px-6">
        <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative" id="top">
     
                    <p class="mb-4 font-merriweather font-light" id="paragraph0">
@@ -82,10 +87,10 @@
             &#10006;
         </button>
     </span>Test profile</p>
-                   <h2 class="mb-8 mt-4    text-2xl font-merriweather font-bold scroll-mt-8" id="test2">Test2</h2>
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="test2">Test2</h2>
                 </div>
                    <div class="py-3 text-sm font-sans w-full overflow-x-auto ">
-                      <table class="">
+                      <table class="w-full">
                          
     <colgroup>
     <col style="width: 50%">
@@ -125,22 +130,13 @@
        </div>
     </main>
     
-    
+
     <!-- image -->
     <aside class="relative z-0 hidden md:block col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-0">
-        <div class="w-full flex justify-end sticky top-1 z-10 pr-6 pt-2 xl:hidden">
-            <button class=" bg-nmgnBlue-200 text-nmgnBlue-900 my-1 px-3 py-1 rounded-full text-sm absolute cursor-pointer" onclick="toggleVis('extraNavPanel', 'show');">Inhoud <span class="text--nmgnBlue-500 text-xs">&#9660;</span></button>
-            <div class="w-full absolute mt-7 ml-10 h-[100vh] hidden flex-col " id="extraNavPanel">
-                <div class="flex justify-end">
-                    <div>
-                        <button class="px-1 m-1 rounded bg-nmgnBlue-200 hover:nmgnBlue-300 cursor-pointer" onclick="toggleVis('extraNavPanel', 'hide');">&#10006;</button>
-                    </div>
-                </div>
-                <div class="contentNavigation bg-nmgnBlue-50 ml-10 flex flex-col p-4 text-sm gap-2 w-full *:no-underline *:text-neutral-800  overflow-y-auto"></div>
-            </div>
-        </div>
+    
+    
         
-        <div class="min-h-screen sticky top-0 flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0">
+        <div class="min-h-screen sticky top-0 flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-screen">
     
              <figure class="flex flex-col">
                 <img id="asideImg" src="images/d1h1/d1h1-600/" class="w-full border" alt="" loading="lazy">
@@ -150,9 +146,9 @@
                 <figcaption  class="text-sm max-w-xl mx-auto">
                     <strong class="mt-4 block" id="asideImgTitle"></strong>
                     <span id="asideCaption">
-                        <br>
-                        <br>
-                        <br>
+                        
+                        
+                        
                         
                     </span>
                     
@@ -163,14 +159,14 @@
         </div>
     </aside>
     <!-- Notes popup -->
-    <span class="z-10 absolute w-full col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-10" id="noteCol">
-        <div class="hidden absolute w-full max-w-96 flex-col bg-white border border-neutral-200 shadow-2xl -translate-x-6 translate-y-16 lg:translate-y-0" id="notePopupBlock">
+    <span class="z-40 absolute w-full col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-10 bg-white" id="noteCol">
+            <div class="hidden flex-col bg-white border border-neutral-200 shadow-2xl fixed bottom-0 left-0 right-0 max-w-full rounded-t-xl translate-x-0 translate-y-0 lg:absolute lg:bottom-auto lg:left-auto lg:right-auto lg:max-w-96 lg:rounded-none lg:-translate-x-6 lg:translate-y-16 lg:translate-y-0 w-full" id="notePopupBlock" role="dialog" aria-modal="true" aria-labelledby="popupNoteNr" aria-describedby="notePopupContent" aria-hidden="true">
             <div class="flex justify-between p-4 border-b border-neutral-200">
                 <div class="font-bold" id="popupNoteNr"></div>
-                <div class=""><button class="cursor-pointer px-4" onclick="closeNotePopUp()">&#10006;</button></div>
+                <div class=""><button class="cursor-pointer px-4" onclick="closeNotePopUp()" aria-label="Sluit notitie" aria-controls="notePopupBlock">&#10006;</button></div>
             </div>
             <div class="hidden xl:block border-t border-neutral-200 -translate-x-8 -translate-y-8 w-8"></div>
-            <div class="w-full bg-white p-4 min-h-40 text-neutral-600 text-sm" id="notePopupContent" > </div>
+            <div class="w-full bg-white p-4 min-h-40 text-neutral-600 text-sm" id="notePopupContent" role="region" aria-live="polite"></div>
             
         </div>
     </span>
@@ -223,7 +219,7 @@
 
 <div class="bigImageViewer fixed top-0 bottom-0 left-0 right-0 bg-black/90 flex flex-col z-50 overflow-hidden" id="bigImageViewer" style="display: none">
     <div class="bigImageHeader w-full  justify-end flex">
-        <button onclick="closeBigImage();return false;" class="rounded bg-nmgnBlue-600 hover:bg-nmgnBlue-700 text-white p-3 m-4 cursor-pointer">&#10006;</button>
+        <button type="button" onclick="closeBigImage();return false;" class="m-4 cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm min-w-[44px] min-h-[44px] flex items-center justify-center" aria-label="Sluit afbeelding">&#215;</button>
     </div>
 
     <div id="bigImageViewerFrame" class="h-full grow flex justify-center">
@@ -231,7 +227,20 @@
             <img src="" id="zoomImg" class="">
         </figure>
     </div>
+</div><!-- Full-screen image overlay on mobile when aside is hidden. Open via JS from .inlineImage click. -->
+<div id="imageMobileOverlay" class="fixed inset-0 z-[60] bg-nmgnBlue-50 flex flex-col hidden" role="dialog" aria-modal="true" aria-label="Afbeelding vergroten" aria-hidden="true">
+  <button type="button" id="imageMobileOverlayClose" onclick="closeImageMobileOverlay(); return false;" class="absolute top-4 right-4 z-10 cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm min-w-[44px] min-h-[44px] flex items-center justify-center" aria-label="Sluit afbeelding">&#215;</button>
+  <div class="flex-1 flex flex-col items-center justify-center px-4 pt-4 pb-6 overflow-auto">
+    <figure class="flex flex-col w-full max-w-lg">
+      <img id="imageMobileOverlayImg" src="" alt="" class="w-full border">
+      <figcaption class="text-sm mt-4 font-sans text-neutral-700">
+        <strong id="imageMobileOverlayTitle" class="block mb-2"></strong>
+        <span id="imageMobileOverlayCaption" class="block"></span>
+      </figcaption>
+    </figure>
+  </div>
 </div>
+
 <div class=" bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop">
 
     <div class="py-5 max-w-[1300px] w-full text-right">
@@ -258,10 +267,10 @@
         <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
 
-            <a href="d1h2-het-land-het-water-en-de-binnenvaart.html" class="flex flex-col" id="topnav_d1h2" aria-label="Hoofdstuk 2 Het land, het water en de binnenvaart door Thijs J. Maarleveld ✝" tabindex="0">
+            <a href="d1h2-het-land-het-water-en-de-binnenvaart.html" class="flex flex-col" id="topnav_d1h2" aria-label="Hoofdstuk 2 Het land, het water en de binnenvaart door Thijs J. Maarleveld †" tabindex="0">
                 <div class="font-bold">2 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Het land, het water en de binnenvaart</strong></div>
-                <em class="">Thijs J. Maarleveld ✝</em>
+                <em class="">Thijs J. Maarleveld †</em>
             </a>
             
 
@@ -339,9 +348,9 @@
         <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
 
-            <a href="d2h6-binnenvaart-in-de-zeventiende-en-achttiende-eeuw-innovatie-en-marktintegratie.html" class="flex flex-col" id="topnav_d2h6" aria-label="Hoofdstuk 6 Binnenvaart in de zeventiende en achttiende eeuw| Innovatie en marktintegratie door André van Holk" tabindex="0">
+            <a href="d2h6-binnenvaart-in-de-zeventiende-en-achttiende-eeuw-innovatie-en-marktintegratie.html" class="flex flex-col" id="topnav_d2h6" aria-label="Hoofdstuk 6 Binnenvaart in de zeventiende en achttiende eeuw± Innovatie en marktintegratie door André van Holk" tabindex="0">
                 <div class="font-bold">6 </div>
-                <div class="text-nmgnBlue-900 text-xl"><strong class="">Binnenvaart in de zeventiende en achttiende eeuw| Innovatie en marktintegratie</strong></div>
+                <div class="text-nmgnBlue-900 text-xl"><strong class="">Binnenvaart in de zeventiende en achttiende eeuw± Innovatie en marktintegratie</strong></div>
                 <em class="">André van Holk</em>
             </a>
             

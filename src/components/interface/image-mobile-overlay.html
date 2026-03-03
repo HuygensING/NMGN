@@ -1,0 +1,13 @@
+<!-- Full-screen image overlay on mobile when aside is hidden. Open via JS from .inlineImage click. -->
+<div id="imageMobileOverlay" class="fixed inset-0 z-[60] bg-nmgnBlue-50 flex flex-col hidden" role="dialog" aria-modal="true" aria-label="Afbeelding vergroten" aria-hidden="true">
+  <button type="button" id="imageMobileOverlayClose" onclick="closeImageMobileOverlay(); return false;" class="absolute top-4 right-4 z-10 cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm min-w-[44px] min-h-[44px] flex items-center justify-center" aria-label="Sluit afbeelding">&#215;</button>
+  <div class="flex-1 flex flex-col items-center justify-center px-4 pt-4 pb-6 overflow-auto">
+    <figure class="flex flex-col w-full max-w-lg">
+      <img id="imageMobileOverlayImg" src="" alt="" class="w-full border">
+      <figcaption class="text-sm mt-4 font-sans text-neutral-700">
+        <strong id="imageMobileOverlayTitle" class="block mb-2"></strong>
+        <span id="imageMobileOverlayCaption" class="block"></span>
+      </figcaption>
+    </figure>
+  </div>
+</div>

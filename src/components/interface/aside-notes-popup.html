@@ -1,12 +1,12 @@
 <!-- Notes popup -->
-<span class="z-10 absolute w-full {{gridClass}}" id="noteCol">
-    <div class="hidden absolute w-full max-w-96 flex-col bg-white border border-neutral-200 shadow-2xl -translate-x-6 translate-y-16 lg:translate-y-0" id="notePopupBlock">
+<span class="z-40 absolute w-full {{gridClass}} bg-white" id="noteCol">
+        <div class="hidden flex-col bg-white border border-neutral-200 shadow-2xl fixed bottom-0 left-0 right-0 max-w-full rounded-t-xl translate-x-0 translate-y-0 lg:absolute lg:bottom-auto lg:left-auto lg:right-auto lg:max-w-96 lg:rounded-none lg:-translate-x-6 lg:translate-y-16 lg:translate-y-0 w-full" id="notePopupBlock" role="dialog" aria-modal="true" aria-labelledby="popupNoteNr" aria-describedby="notePopupContent" aria-hidden="true">
         <div class="flex justify-between p-4 border-b border-neutral-200">
             <div class="font-bold" id="popupNoteNr"></div>
-            <div class=""><button class="cursor-pointer px-4" onclick="closeNotePopUp()">&#10006;</button></div>
+            <div class=""><button class="cursor-pointer px-4" onclick="closeNotePopUp()" aria-label="Sluit notitie" aria-controls="notePopupBlock">&#10006;</button></div>
         </div>
         <div class="hidden xl:block border-t border-neutral-200 -translate-x-8 -translate-y-8 w-8"></div>
-        <div class="w-full bg-white p-4 min-h-40 text-neutral-600 text-sm" id="notePopupContent" > </div>
+        <div class="w-full bg-white p-4 min-h-40 text-neutral-600 text-sm" id="notePopupContent" role="region" aria-live="polite"></div>
         
     </div>
 </span>

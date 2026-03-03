@@ -15,6 +15,7 @@ const fs = require('fs');
 					if (index == files.length-1) {
 						isLastFile = true
 					}
+					console.log(folderName+'/'+file);
 					
 						fs.readFile(folderName+'/'+file, 'utf8', (err, data) => {
 							if (err) {

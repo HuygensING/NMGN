@@ -9,7 +9,7 @@
         ["35b_fig.2.7b.JPG", "35b_fig.2.7b.jpg"],
         ["56_fig.3.3.JPG", "56_fig.3.3.jpg"],
         ["35b_fig.2.7b.JPG", "35b_fig.2.7b.jpg"],
-        ["38_Coenen's_Visboeck.jpg]]", "38_Coenens_Visboeck.jpg"],
+        ["38_Coenen's_Visboeck.jpg", "38_Coenens_Visboeck.jpg"],
         ["14a-10_bevrachtingsboekje1025.jp", "14a-10_bevrachtingsboekje1025.jpg"],
         ["46-35_hoopopwelvaart.jpeg", "46-35_hoopopwelvaart.jpg"],
         ["30-25a_Maasbracht3118.JPG", "30-25a_Maasbracht3118.jpg"],
@@ -33,6 +33,8 @@
         ["34_Raniero_I_de_Mónaco.jpg", "34_Raniero_I_de_Monaco.jpg"],
         ["80-2.52a_DekzichtOostIndië.jpg", "80-2.52a_DekzichtOostIndie.jpg"],
         ["39-52_Wasserbüffel_Eerste.jpg", "39-52_Wasserbuffel_Eerste.jpg"],
+        ["13-17_VOCreçu_aandeel.jpg", "13-17_VOCrecu_aandeel.jpg"],
+        
 
         ["13b_Biervliet_1307.jpg", "13b_Biervliet.jpg"],
         ["13c_Harderwijk_2dehelft_13_eeuw.jpg", "13c_Harderwijk.jpg"],
@@ -54,7 +56,7 @@
         ["35-40_NieuwNederland.jpeg", "35-40_NieuwNederland.jpg"],
         ["36b-41b_Rodney.jpeg", "36b-41b_Rodney.jpg"],
         ["52-57_Afrika_Rijkdommen.jpeg", "52-57_Afrika_Rijkdommen.jpg"],
-        ["54-59_Kaart_Nederlands-Brazilië.png", "54-59_Kaart_Ned-Brazilië.jpg"],
+        ["54-59_Kaart_Nederlands-Brazilië.jpg", "54-59_Kaart_Ned-Brazilie.jpg"],
         ["61-69_Spotprent_WIC.png", "61-69_Spotprent_WIC.jpg"],
         
         ["59-66_Quidah.jpeg", "59-66_Quidah.jpg"],
@@ -65,5 +67,5 @@
         ["91-103_VOC_schrijvend.png", "91-103_VOC_schrijvend.jpg"],
         ["99-110_VanKeulen_Nieuwewassende.png", "99-110_VanKeulen_Nieuwewassende.jpg"]
 
-     
+        
 ]

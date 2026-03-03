@@ -31,8 +31,9 @@ const htmlChapterHeaderMinimal = (part, chapter, title, author) => {
 
 const htmlinlineNoteMarker = (nr) => {
     const inlineNoteMarker = `
-    <button id="noteRef${nr}" data-noteNumber="${nr}"
-    class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer">
+    <button type="button" id="noteRef${nr}" data-noteNumber="${nr}"
+    class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
+    role="doc-noteref" aria-label="Toon noot ${nr}">
     ${nr}
     </button>`;
     return inlineNoteMarker;

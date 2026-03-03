@@ -4,7 +4,7 @@ const sitedata = require('../content/sites.json');
 sitedata.forEach(chapter => {
     let metadataStr = '---\n'
 
-    metadataStr += 'title: '+ chapter.title.replaceAll(':±','|').replaceAll('±','|') + '\n'
+    metadataStr += 'title: '+ chapter.title.replaceAll(':±','|') + '\n'
     metadataStr += 'author: '+ chapter.author + '\n'
     metadataStr += 'part: '+ chapter.part + '\n'
     metadataStr += 'chapter: '+ chapter.chapter + '\n'

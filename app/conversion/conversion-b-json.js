@@ -25,6 +25,9 @@ module.exports = function (resolveData) {
     htmlJson.content = []
     htmlJson.footNotes = []
     
+    // Remove zero-width spaces and other invisible Unicode characters before processing
+    // This ensures replacement rules can match patterns correctly
+    htmlContent = htmlContent.replace(/[\u200B-\u200D\uFEFF]/g, '')
 
     // replace docx strings
     replaceStringsFromDocx.forEach(replaceString => {
@@ -39,8 +42,36 @@ module.exports = function (resolveData) {
     utility.createFile('./test-output/html/0---' + file + '.html', htmlContent)
 
     const dom = new JSDOM('<html><body>' + htmlContent + '</body></html>');
+    const document = dom.window.document;
+    const body = document.querySelector("body");
 
-    const domNodeList = dom.window.document.querySelector("body").children;
+    // normalize Word heading wrappers (e.g. data-custom-style="KOP2" / "KOP3")
+    // into real heading elements before further processing
+    const headingDivs = body.querySelectorAll('div[data-custom-style="KOP2"], div[data-custom-style="KOP3"]');
+    headingDivs.forEach(div => {
+      const styleName = (div.getAttribute('data-custom-style') || '').toLowerCase();
+      const headingTag = styleName === 'kop2' ? 'h2' : 'h3';
+      const parent = div.parentNode;
+      if (!parent) return;
+
+      const childNodes = Array.from(div.childNodes);
+      let firstParagraphHandled = false;
+
+      childNodes.forEach(node => {
+        if (!firstParagraphHandled && node.nodeType === dom.window.Node.ELEMENT_NODE && node.tagName.toLowerCase() === 'p') {
+          const headingEl = document.createElement(headingTag);
+          headingEl.innerHTML = node.innerHTML;
+          parent.insertBefore(headingEl, div);
+          firstParagraphHandled = true;
+        } else {
+          parent.insertBefore(node, div);
+        }
+      });
+
+      parent.removeChild(div);
+    });
+
+    const domNodeList = body.children;
     
     let inMetadata = false;
     let paragraphCounter = 1
@@ -67,7 +98,7 @@ module.exports = function (resolveData) {
 
       //set values
       let elementTagName = domNodeItem.tagName
-      let elementInner = domNodeItem.innerHTML
+      let elementInner = (domNodeItem.innerHTML != null && typeof domNodeItem.innerHTML === 'string') ? domNodeItem.innerHTML : ''
       let elementId = utility.saveTitle(elementInner)
       let elementData = {}
       let elementImageData = {}
@@ -112,7 +143,7 @@ module.exports = function (resolveData) {
         elementInner = removeSpacesBeginEnd(elementInner).replaceAll('<p></p><p> </p>', '')
         elementId = utility.saveTitle(elementInner)
 
-        if ( ( currentChapter == 'd1h2') || ( currentChapter == 'd4h8') ||  ( currentChapter == 'd2h3') || ( currentChapter == 'd2h4')) {   //( (file == 'd4h8') || (file == 'd1h2'))
+        if ( ( currentChapter == 'd4h8') ||  ( currentChapter == 'd2h4')) {  
           if (domNodeItem.tagName.toLowerCase() == 'h3') {
             elementTagName = 'h2'
             //console.log('3',domNodeItem.outerHTML);
@@ -133,17 +164,17 @@ module.exports = function (resolveData) {
         elementId = 'table_'+tableCounter
         tableCounter++
 
+        const firstRow = domNodeItem.querySelector('tr')
+        let tableColumns = 0
+        if (firstRow) {
+          for (const cell of firstRow.querySelectorAll('th, td')) {
+            tableColumns += parseInt(cell.getAttribute('colspan'), 10) || 1
+          }
+        }
+        elementData.tableColumns = tableColumns
+
         domNodeItem.innerHTML = domNodeItem.innerHTML.replaceAll('<p><span data-custom-style=\"None\">', '').replaceAll('</span></p>', '')
         elementInner = domNodeItem.innerHTML.replaceAll('</p>', '').replaceAll('<p>', '').replace(/[\r\n]+/g, '')
-
-        // if (elementInner.includes("colspan=\"2\"")) {
-        //   console.log('elementInner');
-        // }
-        
-        
-        //.replace(/[\r\n]+/g, '')
-        
-
         
       }
       
@@ -184,10 +215,13 @@ module.exports = function (resolveData) {
         let noteItems = domNodeItem.querySelector("ol").children
         for (let i = 0; i < noteItems.length; i++) {
 
-          let nId = noteItems[i].getAttribute('id').replaceAll('fn', '')
+          let nId = (noteItems[i].getAttribute('id') ?? '').replaceAll('fn', '')
           
           let noteContentHTML = noteItems[i].outerHTML
-          let noteContentHTMLReplace = noteContentHTML.replaceAll('<li', '<div').replaceAll('</li>', '</div>').replaceAll('id="fn', 'id="noteContent').replaceAll('<a href="', '<a class="underline" href="').replaceAll('<a class="underline" href="#fnref'+nId+'" role="doc-backlink">↩︎</a>', '') //<a class="underline" href="#fnref362" role="doc-backlink">↩︎</a>
+          // Remove the backlink to the note in the text (↩︎ link); match any <a> with href="#fnref{nId}"
+          let noteContentHTMLReplace = noteContentHTML
+            .replace(new RegExp('<a[^>]*href="#fnref' + nId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '"[^>]*>[^<]*</a>', 'g'), '')
+            .replaceAll('<li', '<div').replaceAll('</li>', '</div>').replaceAll('id="fn', 'id="noteContent').replaceAll('<a href="', '<a class="underline" href="')
 
           htmlJson.footNotes.push({noteContent: noteContentHTMLReplace, noteId: nId,})
           
@@ -229,7 +263,7 @@ module.exports = function (resolveData) {
           
 
         elementInner = removeSpacesBeginEnd(domNodeItem.innerHTML).replaceAll('<strong>', '').replaceAll('</strong>', '').replaceAll('<mark>', '').replaceAll('</mark>', '').replaceAll('<span data-custom-style=\"None\">', '').replaceAll('</span>', '')
-        elementInner = elementInner.replace('^^^^^^^^^^^^^^^^^^^^^', '').replaceAll(' ', '').replaceAll('\n', '')
+        elementInner = elementInner.replace('^^^^^^^^^^^^^^^^^^^^^', '').replaceAll(' ', '').replaceAll('\n', '').replace(/[\u200B-\u200D\uFEFF]/g, '')
         elementId = utility.saveTitle(elementInner)
 
         
@@ -272,6 +306,8 @@ module.exports = function (resolveData) {
         id: elementId,
         footnotes: elementFootnotes,
         imagedata: elementImageData,
+        ...(elementData.tableColumns !== undefined ? { tableColumns: elementData.tableColumns } : {}),
+        ...(Object.keys(elementData).filter(k => k !== 'tableColumns').length ? { data: Object.fromEntries(Object.entries(elementData).filter(([k]) => k !== 'tableColumns')) } : {}),
         elementIsFirst: blockIsFirst,
         elementIsLast: blockIsLast
       })

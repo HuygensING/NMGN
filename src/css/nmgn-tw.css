@@ -35,6 +35,17 @@ td {
   vertical-align: top;
 }
 
+/* Heading margins: h2 and h3 have two lines above; h2 has two lines below */
+h2 {
+  @apply mt-8 mb-8;
+}
+h3 {
+  @apply mt-8 mb-4;
+}
+h4 {
+  @apply mt-4 mb-2;
+}
+
 .tabelKop {
   width: 100%;
   text-align: center;
@@ -67,7 +78,7 @@ td {
 }
 
 table {
-  @apply mt-4 w-full border border-nmgnBlue-300 table-fixed;
+  @apply mt-4 border border-nmgnBlue-300 table-fixed;
   }
 
 tr:first {

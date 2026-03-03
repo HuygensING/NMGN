@@ -1,4 +1,7 @@
 [
+    ["<span dir=\"rtl\">'</span>", "'"],
+    ["<span dir=\"rtl\">'</span>", "'"],
+    ["<span dir=\"rtl\">’ –</span>", "' –"],
     ["<strong><br /> </strong>", "</p><p>"],
     ["<strong><br /></strong>", "</p><p>"],
     ["<strong><br> </strong>", "</p><p>"],
@@ -11,6 +14,13 @@
 
     ["Schuth2016.jpg\n19_WestelijkHalfrond", "Schuth2016.jpg 19_WestelijkHalfrond"],
     [".jpg\n", ".jpg  "],
+    [".JPG\n", ".JPG  "],
+    [".jpeg\n", ".jpeg  "],
+    [".png\n", ".png  "],
+    [".PNG\n", ".PNG  "],
+    ["39_uitsnedezaagschip0419.1.jpg</p>", "</p><p>39_uitsnedezaagschip0419.1.jpg</p>"],
+
+    
     
     ["18_OostelijkHalfrond _MaartenSchuth2016.jpg", "18_OostelijkHalfrond_MaartenSchuth2016.jpg"],
     ["19_WestelijkHalfrond _MaartenSchuth2016.jpg", "19_WestelijkHalfrond_MaartenSchuth2016.jpg"],
@@ -18,10 +28,15 @@
     ["<p>13a_Amsterdam.jpg 13b_Biervliet_1307.jpg 13c_Harderwijk_2de\nhelft_13_eeuw.jpg</p>\n<p>13d_Kuinre_1400.jpg 13e_Medemblik_dertiende.jpg\n13f_Monnikendam_2dehelft13de.jpg</p>\n<p>13g_Stavoren_2dehelft14eeuw.jpg 13h_Veere_vijftiende.jpg\n13i_Vlaardingen_ca.1300.jpg</p>\n<p>13j_IJlst_vijftiende_eeuw.jpg</p>",
      "<p>13a_Amsterdam.jpg  13b_Biervliet_1307.jpg  13c_Harderwijk_2dehelft_13_eeuw.jpg  13d_Kuinre_1400.jpg 13e_Medemblik_dertiende.jpg  13f_Monnikendam_2dehelft13de.jpg  13g_Stavoren_2dehelft14eeuw.jpg  13h_Veere_vijftiende.jpg  13i_Vlaardingen_ca.1300.jpg  13j_IJlst_vijftiende_eeuw.jpg</p>"],
     ["88-2.67a_Schutters.jp", "88-2.67a_Schutters.jpg"],
+    [".jpg  ", ".jpg</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
     [".jpg ", ".jpg</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
+    [".JPG  ", ".jpg</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
     [".JPG ", ".jpg</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
     [".jpeg ", ".jpeg</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
+    [".png  ", ".png</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
     [".png ", ".png</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
+    [".PNG  ", ".png</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
+    [".PNG ", ".png</p><p> ^^^^^^^^^^^^^^^^^^^^^"],
     
 
     ["<br />", "</p><p>"],
@@ -60,11 +75,15 @@
     ["<div data-custom-style=\"testProfile\">", ""],
     ["<div data-custom-style=\"Table Style 3\">", ""],
     ["<span data-custom-style=\"Heading 3 Char\">", ""],
+    ["<span data-custom-style=\"Heading 2 Char\">", ""],
 
+    ["<div data-custom-style=\"Style1\">", ""],
     
 
     ["<td><div data-custom-style=\"tabelKop\">", "<td class=\"tabelKop\">"],
     ["<td colspan=\"7\"><div data-custom-style=\"tabelKop\">", "<td colspan=\"7\" class=\"tabelKop\">"],
+    ["<td colspan=\"2\"><div data-custom-style=\"tabelKop\">", "<td colspan=\"2\" class=\"tabelKop\">"],
+
     ["<td><div data-custom-style=\"tabelNummers\">", "<td class=\"tabelNummers\">"],
     ["<td colspan=\"2\"><div data-custom-style=\"tabelNummers\">", "<td colspan=\"2\" class=\"tabelNummers\">"],
     ["<td><div data-custom-style=\"TabelKopLinks\">", "<td class=\"tabelKopLinks\">"],

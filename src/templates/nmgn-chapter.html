@@ -3,16 +3,21 @@
 {{> interface/page-header }}
 
 {{> interface/content-header }}
+<div class="sticky top-0 z-40 xl:hidden flex justify-end py-2 pr-6 w-full" id="showInhoud"><button type="button" id="btnInhoudToggle" class="cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm"
+        onclick="openAsideNav();" aria-label="Toon inhoudsopgave">Inhoud</button></div>
 
-<div class="flex flex-col px-6 lg:px-0 lg:grid gap-4 xl:gap-10  grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] w-full relative z-30">
+<div class="flex flex-col px-6 
+            lg:px-0 lg:grid gap-4 xl:gap-10  
+            grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] 
+            w-full relative z-30">
 
-    {{> interface/aside-nav             gridClass="hidden xl:flex col-start-1 col-span-2"}}
+    {{> interface/aside-nav gridClass="hidden xl:flex col-start-1 col-span-2"}}
 
-    {{> interface/page-content          gridClass=" md:col-start-2 md:col-span-3 xl:col-start-3" }}
-    
-    {{> interface/aside-image           gridClass="hidden md:block col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-0" }}
+    {{> interface/page-content gridClass=" md:col-start-2 md:col-span-3 xl:col-start-3" }}
 
-    {{> interface/aside-notes-popup     gridClass="col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-10" }} 
+    {{> interface/aside-image gridClass="hidden md:block col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-0" }}
+
+    {{> interface/aside-notes-popup gridClass="col-start-5 col-span-3 xl:col-start-6 xl:col-span-2 z-10" }}
 
 </div>
 
