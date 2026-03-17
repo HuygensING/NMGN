@@ -143,7 +143,7 @@ module.exports = function (resolveData) {
         elementInner = removeSpacesBeginEnd(elementInner).replaceAll('<p></p><p> </p>', '')
         elementId = utility.saveTitle(elementInner)
 
-        if ( ( currentChapter == 'd4h8') ||  ( currentChapter == 'd2h4')) {  
+        if ( ( currentChapter == 'd4h8') ||    ( currentChapter == 'd2h4')) {  
           if (domNodeItem.tagName.toLowerCase() == 'h3') {
             elementTagName = 'h2'
             //console.log('3',domNodeItem.outerHTML);

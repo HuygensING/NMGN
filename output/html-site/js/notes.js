@@ -7,7 +7,7 @@ let getNote = function() {
     contentEl.querySelectorAll('a[href], button, input, select, textarea').forEach(function (el) {
       el.removeAttribute('tabindex')
     })
-    document.getElementById('popupNoteNr').innerHTML = 'Notitie ' + noteNr
+    document.getElementById('popupNoteNr').innerHTML = 'Noot ' + noteNr
 
     let positionHeight = this.getBoundingClientRect().top
 

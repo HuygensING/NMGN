@@ -10,6 +10,7 @@
     ["<strong><br /> \n</strong>", "</p><p>"],
     ["<strong><del><br /> </del></strong>", "</p><p>"],
     ["<strong> </strong>", ""],
+    [": ", ": "],
 
 
     ["Schuth2016.jpg\n19_WestelijkHalfrond", "Schuth2016.jpg 19_WestelijkHalfrond"],

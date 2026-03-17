@@ -6,8 +6,8 @@ part: 1
 chapter: 2
 summary: In geen land ter wereld was vervoer over water belangrijker voor de ontwikkeling dan in Nederland. Varen was er een landschappelijke noodzaak, al vanaf de eerste bewoning van de delta, het veenlandschap en het zeekleigebied. In de middeleeuwen kwam de binnenvaart tot grote ontwikkeling, zowel op lokaal niveau als op de lange afstand. De opkomst van de steden bracht bovendien een geregeld onderling verkeer tot stand. Tot nog toe verwaarloosd in de geschiedschrijving komt de binnenvaart in beeld door landschapsontwikkeling, historische geografie en archeologie te combineren met ontginnings- en waterstaatsgeschiedenis. Binnenvaart vormt daarmee de basis van de maritieme geschiedenis.
 publication_date: 30 juni 2021
-doi:&nbsp;10.5281/zenodo.5150412: undefined
-doi_url:&nbsp;https://zenodo.org/records/515041: undefined
+doi: 10.5281/zenodo.5150412
+doi_url: https://zenodo.org/records/515041
 status: development
 ---
 
@@ -176,7 +176,7 @@ In de Lage Landen waren vrijwel alle kleine vaartuigen van de twaalfde eeuw en l
 
 ![Bootje Hellendoorn. In 1980 werd in de oude bedding van de Regge een bootje opgegraven uit de vijftiende of het begin van de zestiende eeuw. Het vlak bestaat uit twee planken waarop een knievormige steven is geplaatst, net als bij een Giethoornse punter. De zijden bestaan ieder uit één plank. Het spinthout is niet overal verwijderd. Het dwarsverband wordt verzekerd door liggers of kespen, afgewisseld met spanten die uit twee op elkaar aansluitende knieën zijn opgebouwd. Dichtbij de steven is een wrang geplaatst.<br><br><br>](18_Hellendoorn.jpg)
 
-![Rotterdam schip 2. Bij de aanleg van de Willemsspoortunnel werd een aantal schepen opgegraven. Schip 2 werd aangetroffen in de dam in de Rotte en dateert van omstreeks 1270. Het lijkt sterk op het bootje van Hellendoorn, maar heeft twee boordgangen in plaats van ��én. Opmerkelijk genoeg is het vlak van elzenhout gemaakt.<br><br><br>](19_Rotterdam2.jpg)
+![Rotterdam schip 2. Bij de aanleg van de Willemsspoortunnel werd een aantal schepen opgegraven. Schip 2 werd aangetroffen in de dam in de Rotte en dateert van omstreeks 1270. Het lijkt sterk op het bootje van Hellendoorn, maar heeft twee boordgangen in plaats van één. Opmerkelijk genoeg is het vlak van elzenhout gemaakt.<br><br><br>](19_Rotterdam2.jpg)
 
 Voorbeelden van puntige schepen met op het vlak geplaatste stevens waar de boorden omheen vielen, zijn gevonden in Hellendoorn (1980), Rotterdam (1991), bij Tirns in Friesland (2006) en bij Nieuwlande in Zeeland (1982). Het vlak en de boorden van deze bootjes werd bijeengehouden met leggers en samengestelde kromhouten. Het bootje van Hellendoorn dateert uit de late middeleeuwen, het scheepje dat als zinkstuk werd aangetroffen in de dam in de Rotte uit omstreeks 1270.[78](#fn78) Het Rotterdamse scheepje was in vergelijking met het bootje van Hellendoorn naar achteren toe iets minder ‘gepiekt’ en had twee boordgangen in plaats van één. Het vlak was overigens precies even breed: 72 cm en ook deze boot was circa 5,5 m lang. Merkwaardigerwijs was voor twee vlakplanken elzenhout gebruikt. Nog vreemder in onze hedendaagse gewaarwording is dat ook het vlak van het bootje van Tirns van elzenhout was gemaakt. Die boot was met een lengte van ongeveer 7 m maar net iets groter. Het dateert uit het einde van de twaalfde eeuw. Het vlak was uit drie planken opgebouwd en 93 cm breed. Maar elzenhout? Als we het bij meer vaartuigen zien dan is het nauwelijks een vergissing, maar later zou men die houtsoort voor scheepsbouw volstrekt ongeschikt achten. Daar staat tegenover dat elzenhout wel gemakkelijk splijt, en splijten was in de middeleeuwen de meest gangbare manier om planken uit een boom te halen.
 

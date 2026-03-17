@@ -6,8 +6,8 @@ part: 2
 chapter: 6
 summary: In de Republiek vormde de binnenvaart één van de essentiële voorwaarden voor het ontstaan van de ongekende welvaart in de zeventiende eeuw. Mag in de Oostzeevaart (de Moedernegotie) het grote geld zijn verdiend, zonder een bloeiende binnenlandse scheepvaarttak, had de sterke groei en specialisatie van stedelijke centra in Holland niet plaats kunnen vinden. Binnenschippers maakten optimaal gebruik van de fijnmazige en wijdvertakte, bestaande en nieuw aangelegde, infrastructuur van vaarwegen, met in het centrum de Zuiderzee als centraal verkeersplein. Gratis windenergie, kleine bemanningen, die steeds vaker bestonden uit vrouw en kinderen van de schipper, droegen eveneens bij aan het goedkope transport en het al vroeg ontstaan van een nationale volkshuishouding. De kustprovincies konden op een goedkope wijze worden voorzien grondstoffen, voedsel en arbeidskrachten. Tenslotte speelden instituties een belangrijke rol in de organisatie van de samenleving, waardoor een hoog ontwikkeld kennisniveau bestond, onder andere in de scheepsbouw en aanverwante industrieën.
 publication_date: 29 november 2022
-doi:&nbsp;<a href="https://zenodo.org/record/7377863"><span data-custom-style="Hyperlink.0">10.5281/zenodo.7377863</span></a>: undefined
-doi_url:&nbsp;<a href="https://zenodo.org/records/7377863"><span data-custom-style="Hyperlink.1">https://zenodo.org/records/7377863</span></a>: undefined
+doi: 10.5281/zenodo.7377863
+doi_url: https://zenodo.org/records/7377863
 status: development
 ---
 
@@ -21,7 +21,7 @@ Ten aanzien van het onderzoek naar de binnenvaart in Nederland[1](#fn1) is de ui
 
 Een aantal thema’s dat hier de revue zal passeren is: de rol van instituties (gilden), de binnenvaart als motor van de economische groei, de verandering van de structuur van de binnenvaart en de verhouding tussen beurt- en wilde vaart. Eén van de duidelijkste verschillen met de zestiende eeuw is de schaal waarop de aanleg van kanalen ter hand werd genomen en de grotere intensiteit en de dichtheid van het netwerk van trek- en beurtvaartverbindingen.
 
-### Binnenvaart versus grote vaart
+### <span data-custom-style="None">Binnenvaart versus grote vaart</span>
 
 Wat wordt eigenlijk verstaan onder binnenvaart en wat is het onderscheid tussen binnenvaart en grote vaart? Een strakke grens tussen beide is niet te trekken, het gaat om een continuüm. Zelfs de afmetingen van vaartuigen zijn niet doorslaggevend. De verhouding tussen de breedte en de holte[3](#fn3) van een vaartuig kan dat wel zijn. Hoe groter de holte hoe meer vrijboord bij een bepaalde hoeveelheid lading. De aanwezigheid van een dek en een afsluitbaar ruim dragen eveneens bij aan de zeewaardigheid. Daarnaast kan de rompvorm een indicatie zijn. Een schip met een scherp gebouwd onderwaterschip voor diep water heeft betere zeileigenschappen dan een plompe scheepsromp met vlakke bodem voor ondiep water. Om aan te sluiten bij de contemporaine maritieme belevingswereld van onder andere schippers, moeten we definities en andere criteria vanuit ons huidige perspectief loslaten. Schippers schatten zelf de zeewaardigheid van hun schip in en waren niet aan regels gebonden zoals tegenwoordig. Ze konden dus zelf bepalen of ze met een binnenlands paspoort voeren of lastgeld betaalden voor een vaart naar buiten. Daarin konden ze wel worden beperkt door een financier, eigenaar van de lading of reglementen van een gilde waartoe ze behoorden.
 
@@ -29,9 +29,9 @@ Wat wordt eigenlijk verstaan onder binnenvaart en wat is het onderscheid tussen 
 
 Maar van veel schepen, zoals bijvoorbeeld de pot (spits toelopend vlak in voor- en achterschip en vrij recht op staande voorsteven), de aak (binnenschip met heve), de punter (kleine, open knikspant platbodem met rechte vallende stevens) en de praam (onder deze typenaam vallen diverse platboomde scheepstypen: van kleine open werkschuit tot zeilende vrachtvaarder) staat vast dat ze uitsluitend voor de lokale, regionale of landelijke vaart werden gebruikt. Daarnaast was er een groep schepen, waarvan de poon (vrachtschip, verwant aan de tjalk, in gebruik op de Zeeuwse en Hollandse wateren) de bekendste is, die zowel voor de binnenvaart als de kust- of zeevaart werden gebruikt. Aantallen zijn echter onbekend.
 
-### Premoderne stormachtige economische groei
+### <span data-custom-style="None">Premoderne stormachtige economische groei</span>
 
-#### Achtergronden economische groei
+#### <span data-custom-style="None">Achtergronden economische groei</span>
 
 De zeventiende eeuw, niet voor niets bekend als de ‘Gouden Eeuw’, wordt gekenschetst als een periode van formidabele economische groei van de Republiek. De Vries en Van der Woude stellen dat de Nederlandse volkshuishouding van de zeventiende en achttiende eeuw de eerste moderne economie in Europa is.[4](#fn4) Vanaf 1500 vond een eerste ronde van grote economische groei plaats, gekenmerkt door een goed functionerende markt, een hoog niveau van agrarische productiviteit, een overheid waarvoor eigendomsrechten en materiële omstandigheden van haar onderdanen belangrijk zijn en een hoog niveau van technische ontwikkeling en maatschappelijke organisatie. Dit samenspel van factoren ontketende ongekende economische groei en welvaart in de Republiek. Drie belangrijke factoren droegen hieraan bij: het Europees huwelijkspatroon, het opleidingssysteem en de binnenvaart. Het huwelijkspatroon – huwen op hogere leeftijd – creëerde een groter aanbod van jonge, goedkope arbeidskrachten op de arbeidsmarkt en maakte dat leerlingen een langer leertraject bij een meester konden doorlopen.
 
@@ -39,7 +39,7 @@ Ten tweede was in de Nederlanden de graad van geletterdheid bij zowel mannen als
 
 Ten derde kan de economische groei van de Nederlanden niet los worden gezien van de ontwikkeling van de binnenvaart. De verstedelijkingsgraad van deze landen – de hoogste in Europa – zorgde voor specialisatie van productie en daarmee schaalvoordelen. Die verstedelijking kon alleen ontstaan als gevolg van een uitgekiend transportsysteem van vervoer over water, dat de onbeperkte en goedkope aan- en afvoer van goederen mogelijk maakte naast de uitwisseling van informatie. Reizen was in Nederland beduidend goedkoper dan in de ons omringende landen.[9](#fn9) Je zou kunnen stellen dat gedurende de zeventiende eeuw een emancipatie van mobiliteit plaatsvond. Niet alleen de rijken, maar iedereen was in staat om te reizen, bedelaars mochten zelfs gratis mee.[10](#fn10) Het ontstaan van een nationale volkshuishouding was het gevolg.
 
-#### De cruciale rol van binnenlands transport
+#### <span data-custom-style="None">De cruciale rol van binnenlands transport</span>
 
 In de binnenvaart in Nederland kan het transportlandschap worden gekenschetst door verschillende soorten vaart die naast elkaar voorkwamen: wilde vaart (met als variant de vaart voor eigen rekening) en beurtvaart (met als varianten de trekvaart en de marktvaart). Bij de wilde vaart was de binnenvaartschipper afhankelijk van het aanbod en kon hij per reis zelf bepalen wat hij vervoerde, waar naar toe en wanneer, voor wie en voor welke prijs hij de lading vervoerde. De vrijheid van keuze was natuurlijk volledig afhankelijk van het aanbod. De wilde vaart was wel gebonden aan lokale en provinciale voorschriften.
 
@@ -47,7 +47,7 @@ Bij beurtvaart werden passagiers, vracht en vee volgens een dienstregeling tuss
 
 ![Vaarroutes van trekveren en dorpsschepen in de provincie Groningen. De vaarroutes geven de situatie weer in de negentiende eeuw, maar het grootste deel van het netwerk van beurtvaartverbindingen op deze kaart kwam tot stand in de zeventiende en achttiende eeuw.<br>Tekening door R. Reinders, 2013.<br><br>](3_fig.1.3.jpg)
 
-#### Het ontstaan van een nationale economie
+#### <span data-custom-style="None">Het ontstaan van een nationale economie</span>
 
 De economische expansie van Holland en de daar geconcentreerde economische groei van stedelijke centra had een sterke stijging in de vraag naar arbeidskrachten (bijvoorbeeld Duitse seizoensarbeiders die in de zomer naar Nederland liepen om op het land te werken, de zogenoemde hannekemaaiers), grondstoffen (onder andere bouwmaterialen: bakstenen, dakpannen en plavuizen), brandstof (vooral turf) en voedingsmiddelen (bijvoorbeeld gedroogde vis, vee en eieren) en eindproducten (aardewerk, gereedschap) tot gevolg. De bevolking van de Republiek groeide sterk tussen 1500 en 1650, van 950.000 naar 1.875.000, terwijl in de kustprovincies zelfs sprake was van een bevolkingsexplosie. Bovendien was die groei geconcentreerd in stedelijke kernen. Om de economische groei mogelijk te maken waren goede verbindingen essentieel, niet alleen voor het transport van goederen, maar ook van personen om optimale informatie- en communicatienetwerken te garanderen. Als gevolg van het gebruik van windenergie, het netwerk van waterwegen en van schepen kon een economische groei ontstaan à la Adam Smith: ‘the division of labor is limited by the extend of the market’. Regionale specialisatie en verstedelijking stelden de Noordelijke Nederlanden in staat om de bestaande productiviteit tot het uiterste te benutten.
 
@@ -61,7 +61,7 @@ Het binnenlands vervoer diende hoofdzakelijk drie doeleinden. Ten eerste ging he
 
 Voor de binnenvaart waren informatiestromen tussen voor- en achterland essentieel. Familierelaties speelden daarbij een belangrijke rol. Zo had een handelaar uit Almelo een broer en een neef in Amsterdam, die zijn belangen daar behartigden in de handel van goederen tussen Twente en Amsterdam in de eerste helft van de zeventiende eeuw.[14](#fn14) Voor andere streken zal dat niet anders zijn geweest.
 
-#### De binnenschipper als creatieve ondernemer in een veranderend landschap
+#### <span data-custom-style="None">De binnenschipper als creatieve ondernemer in een veranderend landschap</span>
 
 In het stormachtig veranderende economische landschap zag de binnenschipper zijn kans schoon om het leeuwendeel van de gestegen vraag naar transport voor zijn rekening te nemen. Hij maakte handig gebruik van gratis windenergie en het uitgebreide (natuurlijke) net van vaarwegen. Nederlandse platbodems waren op een uitgekiende manier aangepast aan de meestal ondiepe of zelfs periodiek droogvallende vaarwateren. In de zeilvoering en rompvorm van schepen traden veranderingen op die ertoe leidden dat met een zo klein mogelijke bemanning zo veel mogelijk lading kon worden getransporteerd. Deze vernieuwingen komen aan de orde in paragraaf 2 Schepen en techniek.
 
@@ -71,7 +71,7 @@ Vervoer van grote hoeveelheden bulklading, waar in de zeventiende eeuw zeker al 
 
 In de binnenvaart veranderde de verhouding tussen het aantal vervoerde tonnen en de daarvoor benodigde arbeidskrachten nauwelijks. Uit 73 opgegraven scheepswrakken in Flevoland bleek dat in de zeventiende en achttiende eeuw de scheepsgrootte en de vereiste bemanning in het Zuiderzeegebied vrijwel onveranderd bleven (van 18,2 naar 18,3 meter). De grootste toename in de lengte vond plaats in de overgang van de vijftiende naar de zestiende eeuw. Van zestig vrachtschepen kon worden vastgesteld dat de lengte x de breedte toenam tot het midden van de zeventiende eeuw en daarna een geleidelijk afnemende trend vertoonde gedurende de hele achttiende eeuw.[17](#fn17) Buiten het Zuiderzeegebied, zoals in Groningen en Drenthe, was dat anders. Zo namen de afmetingen van schepen die daar turf vervoerden wel degelijk toe. Snabben (kleine platboomde turfschepen) hadden in de zeventiende eeuw een lengte van 31 voet (9,5 meter), maar een eeuw later waren ze twee keer zo lang, met een lengte van 68 voet (20,7 meter). In deze gebieden werd dus met gelijkblijvende bemanningen een belangrijke kostendaling bereikt, vergelijkbaar met de ontwikkelingen in de zeevaart.
 
-### Instituties
+### <span data-custom-style="None">Instituties</span>
 
 Onder instituties verstaan we hier overheden en beroepsverenigingen (gilden). Schippers die de beurt- of trekvaart beoefenden, zowel beurtschippers als de wilde vaartschippers waren in de regel lid van schippersgilden. Beroepsschippers van een stad vormden vaak met toestemming van de magistratuur speciale verenigingen, zogenaamde schippersgilden. Dat waren relatief gesloten, corporatieve groepen, waarvan het lidmaatschap gebonden was aan bepaalde voorwaarden en omstandigheden, zoals het poorterschap, een bepaalde leeftijd, vakmanschap en kapitaalbezit, soms de protestantse godsdienst en het vrijkomen van een plaats door het overlijden van een gildebroeder. Het lidmaatschap werd dikwijls van vader op zoon overgedragen. De schippersgilden droegen het karakter van een clan, waarvan de leden optraden tegen vreemde schippers die stedelijke regelementen overtraden en dreigden hen het brood uit de mond te stoten.[18](#fn18)
 
@@ -83,11 +83,11 @@ De voordelen van het gildelidmaatschap voor schippers was beperking van concurre
 
 Vanaf ongeveer 1700, toen in de vaart op de Zuiderzee families aan boord verbleven – in ieder geval tijdens het vaarseizoen – kregen schipperszonen en -dochters het vak met de paplepel ingegoten. In de riviervaart gebeurde dit al eerder. Uit de leeftijdsverdeling van de bemanning op de Veendammer handelsvloot blijkt dat, in de negentiende eeuw, jongens al op heel jonge leeftijd gingen varen. Vaak op het schip van hun vader of van een ander familielid.[21](#fn21) Het systeem leek op het leerlingstelsel zoals dat bij gilden van ambachtslieden was georganiseerd.
 
-### Structuur van de binnenvaart
+### <span data-custom-style="None">Structuur van de binnenvaart</span>
 
 De oudste vorm van binnenvaart vormde de eigen handelsvaart van de koopman-schipper. Daaruit ontwikkelde zich de wilde vaart. In de vijftiende eeuw ontstond in handelskringen behoefte aan een meer geregeld vervoer over water. Omdat magistraten belang hadden bij het stimuleren van nijverheid en handel, gingen ze ertoe over om de vaart te regelen als beurtvaart.[22](#fn22) Later in de zeventiende eeuw kwam daar nog het vervoer per trekschuit bij.
 
-#### Vormen van organisatie
+#### <span data-custom-style="None">Vormen van organisatie</span>
 
 Wilde vaart en beurtvaart zijn twee fundamenteel verschillende vormen van vaart. De beurtvaart was een gereglementeerde vorm van vervoer tussen twee vaste plaatsen op vaste tijden. Het vervoer beperkte zich tot passagiers en stukgoed. Daarnaast bestond een aparte vorm van beurtvaart: veerdiensten met trekschuiten. De wilde vaart was gericht op het vervoer van bulkgoed, dat wil zeggen los gestorte lading, zoals turf, granen en hooi. Schippers in de wilde vaart waren ook niet gebonden aan een vast traject en vervulden soms de rol van schipper-handelaar. Dat wil niet zeggen dat zich geen vaste patronen konden ontwikkelen, waarbij een transporteur voornamelijk voor eenzelfde producent/handelaar en afnemer het vervoer verzorgde.
 
@@ -97,7 +97,7 @@ Beurt- en trekveren kwamen tot ongekende bloei aan het begin van de zeventiende 
 
 Toch was het niet zo, zoals wel wordt beweerd[24](#fn24), dat de wilde vaart minder belangrijk werd of verdween. Juist het vervoer van grondstoffen, zoals bouwmaterialen en brandstoffen, maar ook van agrarische producten bleef een belangrijke rol spelen in het binnenlands vervoer.
 
-#### Binnenschippers en hun relaties op de wal
+#### <span data-custom-style="None">Binnenschippers en hun relaties op de wal</span>
 
 Bezien we het totale transportlandschap met betrekking tot vervoer over water dan ontvouwt zich een breed spectrum aan actoren. Allereerst natuurlijk de opvarenden van de schepen zelf, de schipper en overige bemanning. Schippers die lading vervoerden, hadden te maken met een markt van vraag en aanbod, een markt van producenten en consumenten. Dit vormde het podium van kooplieden, handelaren, ondernemingen groot en klein, fabrikanten, boeren en (particuliere) afnemers. Beurtschepen vervoerden lading van meerdere kooplieden tegen vaste tarieven per soort lading. Hoe de bevrachting van de wilde vaart in zijn werk ging is niet bekend.
 
@@ -107,19 +107,17 @@ In deze periode van geringe mechanisering waren grote groepen arbeidskrachten no
 
 Een geheel andere groep actoren waren de uitbaters van schippersherbergen[27](#fn27) en veerhuizen voor de trekvaart. Waarschijnlijk bemiddelden cafébazen ook bij de bevrachting, omdat ze een centrale positie innamen in het netwerk van schippers en kooplieden.
 
-### De wilde vaart
+### <span data-custom-style="None">De wilde vaart</span>
 
 Wilde vaartschippers voeren op willekeurige trajecten. De schipper stelde zelf zijn tarieven vast, binnen de marges van vraag en aanbod en vervoerde bulkgoederen, zoals bouwmaterialen (hout, stenen, zand, schelpen), brandstoffen (turf, brandhout) en agrarische producten, afkomstig van één of hooguit twee tot drie opdrachtgevers. Voor vrachten aanzienlijk kleiner dan een scheepslading maakte men gebruik van het beurtveer.[28](#fn28)
 
 ![Dakpannen en plavuizen. Lading dakpannen en plavuizen uit scheepswrak B 6, opgegraven in 1955 in de Noordoostpolder nabij Lemmer. Het schip is vergaan in 1787 en hoorde zeer waarschijnlijk thuis te Groningen.<br>Foto A.F.L. van Holk, 1997.<br><br>](8_fig.1.8.jpg)
 
-#### Vervoerde goederen
+#### <span data-custom-style="None">Vervoerde goederen</span>
 
 Scheepswrakken uit de voormalige Zuiderzee en de Waddenzee geven nader inzicht in wat er zoal aan lading werd vervoerd (tabel 1). In meerdere scheepswrakken in deze wateren zijn schepen geladen met bakstenen, dakpannen en plavuizen aangetroffen.[29](#fn29) Een zeventiende-eeuws scheepswrak opgegraven in de Noordoostpolder was geladen met veertien blokken witachtige zandsteen, waarschijnlijk Bentheimer zandsteen. De stenen waren bekapt, niet gezaagd en ten dele van merken voorzien.[30](#fn30) De handel in (natuur)steen ging als het even kon over water. Deventer bezat het stapelrecht voor alle goederen (waaronder Bentheimer zandsteen) die via de Rijn en verder over de IJssel werden doorgevoerd. Het stapelrecht van Zwolle stamt uit 1438 en vanaf dat moment werd deze stad een belangrijk centrum voor de handel in Bentheimer zandsteen.[31](#fn31)
 
-![Zeventiende-eeuws vrachtschip met zandsteen. Bovenaanzicht scheepswrak R 43 (opgegraven in 1948 nabij Marknesse in de Noordoostpolder), geladen met Bentheimer zandsteen. Het scheepswrak dateert uit de tweede helft van de zeventiende eeuw.<br><br><br>](9a_fig.1.9a.jpg)
-
-![Merken. Merken op Bentheimer zandsteen, aangetroffen in scheepswrak R 43. De merken zijn aanmerkelijk ouder (rond 1500 en 1560) dan het scheepswrak. Waarschijnlijk vervoerde het schip zandsteen bestemd voor hergebruik.<br>Uit: H. Janse en D.J. de Vries, <em>Werk en merk van de steenhouwer. Het steenhouwersambacht in de Nederlanden voor 1800</em> (Zwolle/Zeist 1991) 106 en 135.<br><br>](9b_fig.1.9b.jpg)
+![undefined. undefined<br>undefined<br>undefined<br>](9a_fig.1.9a.jpg9b_fig.1.9b.jpg)
 
 ![Scheepswrak OD 15. Scheepswrak D 15, opgegraven in 1986 ten zuiden van Lelystad in Oostelijk Flevoland, gedateerd in de eerste helft van de achttiende eeuw. Het wrak werd gevonden met een lading gekantrechte eiken boomstammen.<br>Tekening door A.F.L. van Holk, 1997.<br><br>](10a_fig.1.10a.jpg)
 
@@ -133,11 +131,17 @@ Een andere belangrijke bulklading die in grote hoeveelheden over de Zuiderzee we
 
 Ook agrarische producten vonden hun weg over de Zuiderzee. Ook die konden gemakkelijk uit een schip spoelen. Aanwijzingen voor scheepswrakken met een dergelijke lading zijn dan ook zeldzaam. Wel is er zaaigoed gevonden uit een wrak uit de eerste helft van de achttiende eeuw.[40](#fn40) In de Noordoostpolder is een schip gevonden dat was geladen met stokvis. Botmateriaal van kabeljauw (_Gadus morhua_) en gul (jonge kabeljauw) is ook aangetroffen.[41](#fn41) In het geval van het zeventiende-eeuwse scheepje opgegraven in Zuidelijk Flevoland wijst de constructie erop dat het schip mest heeft getransporteerd: een extreem dik vlak (7-9 cm) met goten met latten erlangs. Met pompen kon de gier worden afgevoerd.[42](#fn42) Opmerkelijk is dat een andere meststof, stadsvuil, slechts eenmaal in een zeventiende-eeuws wrak is aangetroffen. Het gaat om een werkschuit, zonder mast, die door middel van bomen (of slepen) werd voortbewogen. In de zeventiende eeuw werd stadsvuil uit Amsterdam buiten de palen gedumpt. Het is waarschijnlijk dat dit schip is losgeslagen. De overige acht schepen geladen met stadsvuil dateren voornamelijk uit het eind van de negentiende en begin twintigste eeuw. Mogelijk werd afval uit steden in de zeventiende en achttiende eeuw alleen over kleinere afstanden vervoerd. Tenslotte werden ook verpakte eindproducten ‘en masse’ vervoerd, getuige een wrak dat een lading Duits steengoed aan boord had.[43](#fn43) Op de Wieringer Vlaak is een gedeelte van de lading van een vrachtschip geborgen. De lading omvatte half- en eindproducten. De halfproducten bestonden uit verschillende maten onafgewerkte koperen ketels en de eindproducten uit diverse gereedschappen, waaronder bankschroeven, haalmessen, trekzagen, dissels, lepelboren en vijlen. Een pakket gelooide huiden complementeerde de lading.[44](#fn44)
 
-<colgroup><col style="width: 76%"><col style="width: 23%"></colgroup><tbody><tr class="odd"><td><strong>Lading</strong></td><td><strong>Aantal</strong></td></tr><tr class="even"><td>Geen lading</td><td>15</td></tr><tr class="odd"><td>Gecombineerde lading</td><td>8</td></tr><tr class="even"><td>Bakstenen, dakpannen, plavuizen</td><td>6</td></tr><tr class="odd"><td>Turf</td><td>5</td></tr><tr class="even"><td>Hout</td><td>4</td></tr><tr class="odd"><td>Puin</td><td>2</td></tr><tr class="even"><td>Stadsvuil</td><td>2</td></tr><tr class="odd"><td>Overig (vis, rode aarde)</td><td>2</td></tr><tr class="even"><td>Modder</td><td>2</td></tr><tr class="odd"><td>Aardewerk</td><td>1</td></tr><tr class="even"><td>Agrarische producten</td><td>1</td></tr><tr class="odd"><td>Natuursteen</td><td>1</td></tr><tr class="even"><td>Mest</td><td>1</td></tr><tr class="odd"><td>Schelpen/kalk</td><td>1</td></tr><tr class="even"><td>Steenkool</td><td>1</td></tr><tr class="odd"><td>Takken</td><td>1</td></tr><tr class="even"><td><strong>Totaal</strong></td><td>53</td></tr></tbody>
+<colgroup><col style="width: 76%"><col style="width: 23%"></colgroup><tbody><tr class="odd"><td><strong>Lading</strong></td><td><strong>Aantal</strong></td></tr><tr class="even"><td>Geen lading</td><td>15</td></tr><tr class="odd"><td>Gecombineerde lading</td><td>8</td></tr><tr class="even"><td>Bakstenen, dakpannen,plavuizen</td><td>6</td></tr><tr class="odd"><td>Turf</td><td>5</td></tr><tr class="even"><td>Hout</td><td>4</td></tr><tr class="odd"><td>Puin</td><td>2</td></tr><tr class="even"><td>Stadsvuil</td><td>2</td></tr><tr class="odd"><td>Overig (vis, rode aarde)</td><td>2</td></tr><tr class="even"><td>Modder</td><td>2</td></tr><tr class="odd"><td>Aardewerk</td><td>1</td></tr><tr class="even"><td>Agrarische producten</td><td>1</td></tr><tr class="odd"><td>Natuursteen</td><td>1</td></tr><tr class="even"><td>Mest</td><td>1</td></tr><tr class="odd"><td>Schelpen/kalk</td><td>1</td></tr><tr class="even"><td>Steenkool</td><td>1</td></tr><tr class="odd"><td>Takken</td><td>1</td></tr><tr class="even"><td><strong>Totaal</strong></td><td>53</td></tr></tbody>
+
+
+
+
+
+
 
 _Tabel 1: Overzicht van de verschillende soorten lading aangetroffen in scheepswrakken in Flevoland (op land), voormalige Zuiderzee en Waddenzee._[45](#fn45)
 
-#### Vaste contacten?
+#### <span data-custom-style="None">Vaste contacten?</span>
 
 De vraag in hoeverre er sprake was van vaste relaties tussen producenten en consumenten enerzijds en schippers anderzijds is lastig te beantwoorden. In scheepswrakken van binnenschepen die in Flevoland zijn opgegraven worden vaak loden penningen aangetroffen, het zogenaamde vuur- en bakengeld.[46](#fn46) Aangezien de loodjes betrekking hebben op bepaalde trajecten, kan in sommige gevallen, wanneer meerdere loodjes uit uiteenlopende jaren bewaard zijn gebleven, worden geconcludeerd dat een schipper op een min of meer vast traject voer en daarmee misschien ook voor vaste relaties, zoals producenten, handelaren en consumenten. Een voorbeeld vormt een tjalk, opgegraven in de Noordoostpolder.[47](#fn47) Het schip verging in 1787, geladen met dakpannen en plavuizen.
 
@@ -151,9 +155,9 @@ Andere bronnen, die meer uitsluitsel over vaste contacten zouden kunnen geven, z
 
 ![Duïnger steengoed. Duïnger steengoed uit scheepswrak B 6, opgegraven in 1955 in de Noordoostpolder, nabij Lemmer.<br>Foto Ton Penders.<br><br>](15b_fig.1.15b.jpg)
 
-### De beurtvaart
+### <span data-custom-style="None">De beurtvaart</span>
 
-#### Ontwikkeling en organisatie van beurt- en trekveren
+#### <span data-custom-style="None">Ontwikkeling en organisatie van beurt- en trekveren</span>
 
 De oudste beurtvaartverbinding was die tussen Amsterdam en Hoorn uit 1529. Veel beurtveren zijn in zestiende en zeventiende eeuw ontstaan, meestal uit economische overwegingen. Stedelijke overheden die handel wilden bevorderen kwamen overeen een beurtveer in te stellen. Beurtschipper was geen vrij beroep en reglementen legden voorwaarden gedetailleerd vast.[48](#fn48) Zo waren schippers verplicht een som te storten in de gemeentekas, waarop eventuele boeten of veroorzaakte schade konden worden verhaald. Tevens bestonden instructies over de aan te lopen plaatsen, het maximum van de vrachtprijzen, behandeling van passagiers en het verbod op dronkenschap en roken van het schipperspersoneel.[49](#fn49) Beurtschepen kregen van overheidswege vaste ligplaatsen toegewezen.
 
@@ -165,7 +169,7 @@ De beurt- en trekveernetwerken waren voornamelijk gesitueerd in de waterrijke ku
 
 Behalve de vaart op binnenlandse bestemmingen regelden de magistraten ook die op buitenlandse havens. Voorbeelden zijn de verbindingen van Rotterdam met Keulen en Antwerpen; van Amsterdam met steden langs de Rijn, met Keulen als belangrijkste bestemming, later kwamen daar andere bestemmingen bij.[50](#fn50) Een deel van de Gelderse kade in Amsterdam heette de Keulse Kade, de ligplaats van de Keulenaars. De Hogesluis werd Samoreuzenbrug genoemd, naar de samoreuzen die van Weesp binnendoor kwamen naar Amsterdam en op de Amstel bij genoemde brug aanlegden.[51](#fn51) In 1625 kreeg het Grootschippersgilde van de stad Groningen het uitsluitend recht om te varen op Lemmer, Amsterdam en op de Noord-Duitse stedelijke centra Bremen en Hamburg.[52](#fn52) Het einde van de beurtvaart wordt ingeluid met de Acte van Mainz (1831). Vanaf dat moment lieten verladers in toenemende mate het verhuren van scheepsruimte over een tussenpersonen (bevrachters), die tegen een provisie hun diensten verleenden.
 
-#### Vervoerde goederen
+#### <span data-custom-style="None">Vervoerde goederen</span>
 
 De stedelijke overheden bepaalden de prijzen voor alle beurtvaarttrajecten en soorten vervoerde goederen en passagiers, die in lijsten werden vastgelegd. De vrachtlijst uit 1700 voor het veer van Amsterdam op Haarlem bevatte niet minder dan honderddertig soorten goederen. De hoogste prijzen noteerden (grote) Zweedse stenen (per honderd) en een twijnmolen (om garen te verdubbelen) namelijk twee gulden en tien stuivers. De hoge prijs zal ongetwijfeld samenhangen met het grote volume (en gewicht) van de stenen en de twijnmolen. Van Amsterdam naar Alkmaar gold het hoogste tarief voor honderd natte huiden (een gulden en tien stuivers). Dit hoge tarief zal te maken hebben met de uiterst onaangename geur die deze huiden zullen hebben verspreid; honderd droge kalfsvellen kostten een gulden en twee stuivers. Op de lijst komt een ongekende verscheidenheid aan beesten voor, elk met een eigen tarief.[53](#fn53) Het tarief voor brieven bedroeg in de zomer tien stuivers en in de winter veertien stuivers, terwijl een passagier een gulden betaalde. Door slechte weersomstandigheden werd de reis in de winter langer en gevaarlijker (ijsgang en het frequenter optreden van stormen) en daardoor duurder. Interessant is dat op dit traject goederen van overzee zijn opgenomen zoals cacao, indigo, nootmuskaat en peper. Op de rede van Texel werden deze goederen overgeladen op beurtschepen (in deze functie ook lichters genoemd) om ze naar Amsterdam te transporteren. Deze beurtschepen hadden een geringere diepgang dan de zeegaande schepen, die alleen ongeladen de Zuiderzee konden oversteken.
 
@@ -175,7 +179,7 @@ Tenslotte kan een uiterst curieuze lading niet onvermeld blijven, namelijk het t
 
 Op buitenlandse beurtvaartverbindingen zoals op de Rijn, vervoerden Amsterdamse schippers zout uit de Golf van Biskaje, Hamburgs bier, graan, boter en kaas naar de Beneden-Rijn, om vandaar wijn, molenstenen en ijzerproducten mee terug te nemen. Maar ook Oost- en West-Indische producten, stokvis en haring vonden hun weg naar Duitsland vanuit Amsterdam. Via Keulen werden nog Rijn- en Moezelwijn, geschut, kogels, lei- en vloerstenen aangevoerd naar Amsterdam.[55](#fn55)
 
-#### Archeologische bron: beurtschip B 71 opgegraven in Oostelijk Flevoland
+#### <span data-custom-style="None">Archeologische bron: beurtschip B 71 opgegraven in Oostelijk Flevoland</span>
 
 Eén van de weinige voorbeelden van een beurtschip uit archeologische context is in Flevoland opgegraven op kavel OB 71. Het vaartuig is gebouwd rond 1587, terwijl het schip in de periode 1620-1630 is vergaan.[56](#fn56) Aan boord waren onder meer gereedschappen van seizoenarbeiders uit Westfalen, de al eerder genoemde hannekemaaiers.[57](#fn57) Vanaf het eind van de zestiende eeuw tot diep in de negentiende eeuw kende de Republiek een seizoensgebonden immigratie van duizenden gastarbeiders. De seizoenarbeiders reisden per beurtschip van Zwolle of Hasselt over de Zuiderzee naar Amsterdam. Zij kwamen op het land werken, met name om gras te maaien. De oversteek nam ongeveer een dag in beslag, hetgeen in die tijd een snelle reis was. De grasmaaiers trokken vervolgens verder, vanuit Amsterdam naar Noord-Holland.
 
@@ -193,7 +197,7 @@ Boeren rondom Almelo hadden zich aan het begin van de zeventiende eeuw al gespec
 
 Deze vondsten illustreren dat in de Republiek in het begin van de zeventiende eeuw al sprake was van een geïntegreerde markt, zonder ruimtelijke belemmeringen in de vorm van excessief hoge transportkosten of zelfs de gehele uitsluiting van gebieden omdat ze onbereikbaar waren.
 
-#### De vaart per trekschuit
+#### <span data-custom-style="None">De vaart per trekschuit</span>
 
 Zeilende beurtveren waren minder betrouwbaar dan trekschuiten, zeker als ze over open water voeren. Voordeel van het beurtveer was dat de prijs van 2,0 penning per kilometer goedkoper was dan de trekschuit. In het Holland-Utrechtse gebied kostte de trekschuit 4,8 penningen per kilometer; in de Gronings-Friese regio moest 5,7 penning worden betaald.
 
@@ -217,11 +221,11 @@ De reglementen over wat en wie per trekschuit vervoerd mochten worden verschilde
 
 In de jaren 1660 reisden bijna 300.000 trekschuitpassagiers per jaar tussen Haarlem en Amsterdam.[62](#fn62) Na 1670 daalde het vervoersvolume op bijna elke lijn door het verslappen van de economische krachten die aanvankelijk hadden gezorgd voor de bloei van het systeem en door de aanleg van betere wegen en bouw van betere postkoetsen. Maar tot de komst van de spoorwegen bleef het systeem van trekschuiten de ruggengraat van het openbaar vervoer in Nederland. Trekschuitverbindingen waren op dezelfde manier georganiseerd als de beurtvaart.
 
-### Verhouding beurtvaart-wilde vaart
+### <span data-custom-style="None">Verhouding beurtvaart-wilde vaart</span>
 
 In de historiografie is ten onrechte het beeld ontstaan dat met de opkomst van de zeilende beurtvaart, deze vorm van vaart ging domineren over de wilde vaart en dat met het verdwijnen van de beurtvaart aan het begin van de negentiende eeuw de wilde vaart weer dominant werd.[63](#fn63) Zoals elders betoogt berust dit misverstand op de verkeerde inschatting van de verhouding tussen beurtvaart en wilde vaart. Op de Maas bijvoorbeeld overheerste in de zestiende eeuw het vervoer van massagoederen de beurtvaart en op het traject van Haarlem naar Zeeland voeren 52 schippers, waarvan 8 veerschippers (6,5%). Rond 1800 maakte het aantal schepen actief in de beurtvaart 8% (van alle vaartuigen groter dan 5 last) en 16% (van alle vaartuigen groter dan 10 last) uit van de totale vrachtvloot. Het aantal van het vervoersvolume van beurtschepen bedraagt 20% (van alle vaartuigen groter dan 5 last) en 15% (van alle vaartuigen groter dan 10 last). Het aandeel van de beurtvaart was daarmee gering. Het vervoer van massagoederen door wilde vaart-schippers was aan het eind van de zestiende eeuw al wijdverbreid.[64](#fn64) De verkeerde interpretatie van de verhouding tussen beide vormen van vaart vindt zijn oorzaak in het feit dat meer informatie over trek- en beurtvaart in geschreven bronnen aanwezig is dan over de wilde vaart. Waarschijnlijk nam de beurtvaart maar 10% in van de totale vaart.[65](#fn65) Het belang van de beurtvaart lag niet zozeer in het vervoerde volume en de aantallen schepen, maar in de regelmaat van de vaart.
 
-### Pleziervaart
+### <span data-custom-style="None">Pleziervaart</span>
 
 Een andere vorm van binnenvaart was de pleziervaart. Pleziervaart is onlosmakelijk verbonden met vrije tijd. De zondag was een vrije dag en kon dus besteed worden aan diverse soorten uitjes. In waterrijke gebieden, in de provincies Friesland, Holland en Zeeland, was het maken van een tochtje per boot populair. Eigenaren van werkschuiten die door de week goederen vervoerden, verhuurden deze aan recreanten op zondag om uit spelevaren te gaan.[66](#fn66) Er zijn vele voorbeelden van de vermenging van functies van vaartuigen, die werden gebruikt als bedrijfsvaartuig en plezierjacht. In 1777 bijvoorbeeld won koopman Willem Wouters met zijn boeier _Bever_ de hardzeilpartij tussen Irnsum en Akkrum. Doordeweeks vervoerde hij met een knecht meel en lijnolie naar de boeren.[67](#fn67) Inventarissen van speeljachten, zoals we die kennen uit scheepsverkopingen, bijvoorbeeld in het stadsarchief van Amsterdam[68](#fn68) geven aan dat in welgestelde kringen speeljachten alleen voor de pleziervaart werden gebruikt. De inventarissen weken duidelijk af van die van vrachtschepen. Aan boord van de plezierjachten werden bijvoorbeeld luxe goederen zoals spiegels en grote matrassen aangetroffen.
 
@@ -237,9 +241,9 @@ Het oudste speeljacht was geënt op de chaloupe en kon worden geroeid en voortbe
 
 ![Feestvierende burgers op hun speeljachten in Rotterdam. Detail van de stadsplattegrond van Johannes De Vou, 1695.<br><br><br>](27a_fig.1.27a.jpg)
 
-## 2 SCHEPEN EN TECHNIEK
+## <span data-custom-style="None">2 SCHEPEN EN TECHNIEK</span>
 
-### Organisatie van de scheepsbouw
+### <span data-custom-style="None">Organisatie van de scheepsbouw</span>
 
 Bij de bouw van schepen waren talloze actoren betrokken. Op de scheepswerf waren dat de werfbaas met zijn medewerkers. Dat konden zoons zijn of knechten. Daarnaast bestond een heel scala aan toeleverende bedrijven: touwslagerijen, zeilmakerijen, (anker)smederijen, houtzagerijen (houtzaagmolens), verfmolens, pomp-, blok- en mastmakerijen, bosbouwers, houthandelaren en houttransporteurs. De bouw van binnenschepen vond veelal plaats op particuliere scheepswerven, vaak georganiseerd als familiebedrijf. In de achttiende eeuw was dat in de veenkoloniën (en elders in de Republiek) nog steeds zo.
 
@@ -263,7 +267,7 @@ Afbeeldingen van werven zijn zeldzaam, maar er zijn toch enkele. Een werf kon ni
 
 Om een zinnige vergelijking te kunnen maken tussen prijzen van schepen, zijn naast de verkoopprijs vermelding van de afmetingen van belang en of het een nieuw schip betreft. Vaak wordt echter alleen de prijs vermeld. Uit tabel 3 is op te maken dat in Zwolle een beurt- of karveelschip (mogelijk gaat het om wijdschepen, dat wil zeggen een voorloper van de tjalk) in de zeventiende eeuw bijna in prijs is verdubbeld ten opzichte van de zestiende eeuw. Na het midden van de zestiende eeuw stegen de prijzen van potten in diezelfde stad en die van pramen na 1635. Deze prijsstijging had te maken met de bouw van grotere opgeboeide potten voor de vaart op de Zuiderzee. Hetzelfde gold voor de praam. In de provincie Groningen doen zich dezelfde prijsstijgingen van schepen voor. De taske (een scheepje met een vlakke bodem zonder kiel) wordt duurder tussen 1700 en 1750 en de tjalk (platbodem vol in de boegen) tussen 1700 en 1800.[85](#fn85) Ook hier zorgen de grotere afmetingen voor de prijsstijging. Er was meer hout nodig en de bouw duurde langer. De snabbe (een klein smal, open vaartuig met geringe diepgang, voorzien van een razeil en een rechte puntige steven) kostte rond 1750 fl. 725 tot fl. 2100. In de loop van de zeventiende en de achttiende eeuw werden de snabben groter. Van Yk (1697) geeft van een aantal binnenschepen een bestek en vermeldt daarbij tevens de kosten van de bouw.[86](#fn86) Het wijdschip en smalschip kosten aanmerkelijk meer dan de Groninger taske uit 1700 met dezelfde lengte. De lichtere bouw van de taske zal hier debet aan zijn. De taske was gebouwd voor beschutte binnenwateren, terwijl het smal- en wijdschip de Zuiderzee en zelfs de Noordzee bevoeren en daarom veel zwaarder waren gebouwd. In het midden van de achttiende eeuw kost een schuit gebouwd te Enter 130 Carolusgulden. Dit schuitje zal kleiner zijn geweest dan de hiervoor genoemde vaartuigen. Voor 1600 kosten pramen 46-117 Philipsguldens, in 1635 156 tot 309 Carolusguldens.[87](#fn87)
 
-<colgroup><col style="width: 15%"><col style="width: 14%"><col style="width: 15%"><col style="width: 24%"><col style="width: 29%"></colgroup><tbody><tr class="odd"><td><strong>Plaats</strong></td><td><strong>Periode</strong></td><td><strong>Scheepstype</strong></td><td><strong>Lengte</strong></td><td><strong>Prijs</strong></td></tr><tr class="even"><td>Zwolle</td><td>zestiende eeuw</td><td>Beurt- of karveelschip(wijdschip?)</td><td>?</td><td>550 Carolusgulden</td></tr><tr class="odd"><td></td><td>zeventiende eeuw</td><td>Beurt- of karveelschip(wijdschip?)</td><td>?</td><td>950 Carolusgulden</td></tr><tr class="even"><td></td><td>voor 1546</td><td>pot</td><td>?</td><td>&lt; 65 Philipsgulden</td></tr><tr class="odd"><td></td><td>na 1546</td><td>pot</td><td>?</td><td>500-1.000 Philipsgulden</td></tr><tr class="even"><td></td><td>voor 1600</td><td>praam</td><td>?</td><td>46-117 Philipsgulden (= 57,5-146,25 Carolusgulden)</td></tr><tr class="odd"><td></td><td>1635</td><td>praam</td><td></td><td>156-309 Carolusgulden</td></tr><tr class="even"><td>Delfshaven (Van Yk)</td><td>1697</td><td>wijdschip</td><td>18 m</td><td>fl. 2.684</td></tr><tr class="odd"><td></td><td>1697</td><td>smalschip</td><td>20 m</td><td>fl. 3.275</td></tr><tr class="even"><td>Enter</td><td>1751</td><td>schuit</td><td></td><td>130 Carolusgulden</td></tr><tr class="odd"><td>Provincie Groningen</td><td>1700</td><td>taske</td><td>&lt; 19 m</td><td>fl. 575</td></tr><tr class="even"><td></td><td>1750</td><td>taske</td><td>&lt; 19 m</td><td>fl. 800-1.100</td></tr><tr class="odd"><td></td><td>1750</td><td>snabbe</td><td>?</td><td>fl. 725-2.100</td></tr><tr class="even"><td></td><td>1700</td><td>tjalk</td><td>?</td><td>fl. 1.100-2.400</td></tr><tr class="odd"><td></td><td>1800</td><td>tjalk</td><td>?</td><td>fl. 2.000-4.000</td></tr></tbody>
+<colgroup><col style="width: 15%"><col style="width: 14%"><col style="width: 15%"><col style="width: 24%"><col style="width: 29%"></colgroup><tbody><tr class="odd"><td><strong>Plaats</strong></td><td><strong>Periode</strong></td><td><strong>Scheepstype</strong></td><td><strong>Lengte</strong></td><td><strong>Prijs</strong></td></tr><tr class="even"><td>Zwolle</td><td>zestiende eeuw</td><td>Beurt- of karveelschip(wijdschip?)</td><td>?</td><td>550 Carolusgulden</td></tr><tr class="odd"><td></td><td>zeventiende eeuw</td><td>Beurt- of karveelschip(wijdschip?)</td><td>?</td><td>950 Carolusgulden</td></tr><tr class="even"><td></td><td>voor 1546</td><td>pot</td><td>?</td><td>&lt; 65 Philipsgulden</td></tr><tr class="odd"><td></td><td>na 1546</td><td>pot</td><td>?</td><td>500-1.000 Philipsgulden</td></tr><tr class="even"><td></td><td>voor 1600</td><td>praam</td><td>?</td><td>46-117 Philipsgulden (= 57,5-146,25Carolusgulden)</td></tr><tr class="odd"><td></td><td>1635</td><td>praam</td><td></td><td>156-309 Carolusgulden</td></tr><tr class="even"><td>Delfshaven (Van Yk)</td><td>1697</td><td>wijdschip</td><td>18 m</td><td>fl. 2.684</td></tr><tr class="odd"><td></td><td>1697</td><td>smalschip</td><td>20 m</td><td>fl. 3.275</td></tr><tr class="even"><td>Enter</td><td>1751</td><td>schuit</td><td></td><td>130 Carolusgulden</td></tr><tr class="odd"><td>Provincie Groningen</td><td>1700</td><td>taske</td><td>&lt; 19 m</td><td>fl. 575</td></tr><tr class="even"><td></td><td>1750</td><td>taske</td><td>&lt; 19 m</td><td>fl. 800-1.100</td></tr><tr class="odd"><td></td><td>1750</td><td>snabbe</td><td>?</td><td>fl. 725-2.100</td></tr><tr class="even"><td></td><td>1700</td><td>tjalk</td><td>?</td><td>fl. 1.100-2.400</td></tr><tr class="odd"><td></td><td>1800</td><td>tjalk</td><td>?</td><td>fl. 2.000-4.000</td></tr></tbody>
 
 _Tabel 3: Prijzen van scheepstypen (Philipsgulden à 25 stuivers; Carolusgulden à 20 stuivers; gulden (fl.) à 20 stuivers)._
 
@@ -271,7 +275,7 @@ In meerdere gebieden stegen de prijzen van schepen op verschillende momenten, re
 
 Schattingen aangaande de productie van scheepswerven in verschillende gebieden lopen nogal uiteen. Een oorzaak is waarschijnlijk het verschil in beschikbare mankracht, doorvoering van mechanisatie en specialisatie in nieuwbouw of reparatie. In de tweede helft van de achttiende eeuw werd op werven in de veenkoloniën gemiddeld één schip per jaar gebouwd.[88](#fn88) Op werven in Holland en Zeeland werden meerdere (zeegaande) schepen per jaar gebouwd.[89](#fn89) Daar gaat het om veel grotere werven met een gemiddelde bezetting van dertig werknemers.[90](#fn90)
 
-#### Scheepsbouw
+#### <span data-custom-style="None">Scheepsbouw</span>
 
 De scheepsbouw in de Nederlanden in de grotere steden was tot 1568 georganiseerd in gilden. Over de organisatie van de scheepsbouw van kleinere (binnen)vaartschepen op het platteland is weinig bekend. Deze activiteiten waren een enkele keer georganiseerd in gilden (Hoogezand, 1650), vaak ook niet (Zaandam, Edam, Mijdrecht, Oudewater, Zoeterwoude).[91](#fn91) Volgens sommige economisch-historici vervulden gilden een hoofdrol in de economische groei.[92](#fn92) Het belang van gilden was gelegen in scholing en technologische innovatie. De toegang tot kennis was een voorwaarde voor economische groei.[93](#fn93) Zeker in een _high-tech_ industrie als de scheepsbouw speelden kennis en ervaring een belangrijke rol.
 
@@ -287,7 +291,7 @@ Voorbeelden daarvan zijn te vinden in de tuigage en de bediening daarvan, zoals 
 
 Binnenschepen liepen voorop wat betreft de ontwikkelingen in de efficiency van de zeilvoering, met een langsscheeps tuig.[97](#fn97) Men kon daardoor met een kleine bemanning toe. Het gebruik van de spriet of de giek als laad- en losgerei droeg daar ook aan bij. Zo konden binnenschepen het aantal tonnen per man evenaren dat werd vervoerd door zeegaande schepen. De geringere afmetingen maakte dat binnenschepen flexibel waren en zorgden voor regionale marktintegratie.
 
-#### Bouwwijze
+#### <span data-custom-style="None">Bouwwijze</span>
 
 Bij de bouw van binnenschepen werden vaste verhoudingen gebruikt en mallen. Deze vorm van standaardisering was noodzakelijk om een veilig en goed zeilend schip te kunnen bouwen. Voor het eerst werd rond 1640 een tabel met dergelijke verhoudingen opgesteld en gepubliceerd door Witsen in 1671. Witsens geschrift zal op kleine werven echter niet aanwezig zijn geweest, het was geen boek voor de scheepsbouwpraktijk in tegenstelling tot de standaardwerken van Allard en Van Yck.[98](#fn98)
 
@@ -317,7 +321,7 @@ De VOC werd opgericht in 1602. Te Batavia vonden intensieve handelscontacten met
 
 Als gevolg van de gestegen vraag naar laadruimte waren scheepsbouwers op zoek naar oplossingen om de laadcapaciteit te verhogen (door een vollere rompvorm) al voordat het zijzwaard bekend was; het hing als het ware al in de lucht.
 
-### Materialen
+### <span data-custom-style="None">Materialen</span>
 
 In de zeventiende en achttiende eeuw werden vrijwel alle materialen nodig voor het bouwen van schepen geïmporteerd uit het buitenland. Archeologische aanwijzingen voor de recycling van scheepshout in schepen zijn er nauwelijks. Van een scheepssloperij te Garnwerd (Groningen) is bekend dat het hout dat op de jaarlijkse boeldagen – een rommelmarkt waarbij de opbrengst werd gebruikt voor een goed doel – werd geveild hergebruikt werd in huizen en boerderijen in de nabije omgeving. Hout was altijd op voorraad, vaak op een hoek van het werfterrein. De herkomst van hout kan onder andere door middel van dendrochronologisch onderzoek worden achterhaald. Onderzoek van scheepswrakken in Flevoland wijst uit dat eikenhout voornamelijk werd geïmporteerd uit Duitsland (Westfalen, Weserbergland, Nedersaksisch kustgebied en Zuid-Duitsland). Rondom de Oostzee zijn Zuid-Zweden en Polen eveneens belangrijke herkomstgebieden.
 
@@ -327,7 +331,7 @@ Op de afbeelding zijn naast de herkomst van hout, de herkomstgebieden van allerl
 
 ![Herkomst van materialen benodigd in de scheepsbouw. Uit: A.J. Hoving, <em>Nicolaes Witsens Scheeps-bouw-konst open gestelt</em> (Franeker 1994) 45.<br><br><br>](37_fig.2.9.jpg)
 
-### Volume van de vloot en variatie in typen
+### <span data-custom-style="None">Volume van de vloot en variatie in typen</span>
 
 Op het schilderij van Hendrik Cornelisz. Vroom ‘Gezicht op het IJ voor Amsterdam’, uit 1630, zien we een woud van masten, indicatief voor de enorme vlucht die de scheepvaart heeft genomen aan het begin van de zeventiende eeuw. Wat was de omvang van die vloot binnenschepen? Bij gebrek aan cijfers in de zeventiende en achttiende eeuw moeten de cijfers uit de negentiende eeuw ‘terug’ worden geëxtrapoleerd (tabel 3).
 
@@ -339,17 +343,17 @@ _Tabel 4: Schatting van het aantal vaartuigen (schippers) in 1600, 1700, 1800 en
 
 De verschillende schattingen lopen nogal uiteen. Waldus heeft berekend dat de vloot van turfschepen op de Zuiderzee groter dan 40 ton een gemiddelde omvang in de zeventiende eeuw had, van 600 vaartuigen (rond 1600 579, rond 1750 547 met als hoogtepunt 1675 met 688 vaartuigen). De omvang van de totale vloot vrachtschepen groter dan 40 ton op de Zuiderzee schat hij op 1.100 vaartuigen (gebaseerd op het belastingdocument uit 1808).[111](#fn111)
 
-#### Een veelheid aan benamingen
+#### <span data-custom-style="None">Een veelheid aan benamingen</span>
 
 In geschreven bronnen komt men een breed scala aan benamingen van binnenschepen tegen. Wat is de betekenis van die verschillende benamingen? Een plaatsaanduiding (Zeeuws beurtschip, waddensnik) zegt iets over herkomst of vaarwater, maar niets over de vorm. Dat kan ook gelden voor de termen wijdschip en smalschip; de eerste kon niet door de sluis van Gouda, de tweede wel. Complicaties met scheepsbenamingen zijn dat het schip verandert, maar de naam hetzelfde blijft, verschillende soorten schepen hetzelfde worden genoemd of dat namen door elkaar worden gebruikt. Sommige benamingen hebben betrekking op de functie van een vaartuig, zoals baggerpraam of turftjalk. Het is dan ook de vraag of die verschillende benamingen ook betrekking hebben op evenzoveel principieel van elkaar verschillende schepen. Dit alles maakt historische bronnen minder geschikt om als uitgangspunt te dienen voor een indeling van schepen. Wel toont de grote variatie in boot/scheepstypen hoe fijnmazig de binnenvaart was. Het is eveneens een reflectie van de wijze waarop de scheepsbouw was georganiseerd, in de vorm van particuliere werven, die voor een regionale markt bouwden. Elke regio had eigen bootjes (met in ieder geval wat betreft de kleinere vaartuigen een beperkte actieradius), waarvan de vorm gebaseerd was op autonome tradities en opvattingen over hoe een schip er uit hoorde te zien. Daarnaast bestond een grote variatie in vaargebieden, variërend van beschut binnenwater (met verschillende breedtes en dieptes) tot onstuimige zee-armen en de Zuiderzee.
 
 In 1986 heeft Westerdahl het concept van het maritieme cultuurlandschap geïntroduceerd. Dit concept omvat het netwerk van vaarroutes, zowel oud als nieuw, met havens langs de kust en andere gerelateerde infrastructuur en overblijfselen van menselijke activiteit, zowel onder als boven water.[112](#fn112) Een onderdeel van het maritieme cultuurlandschap is de zogenaamde transportzone. Meestal opereerden binnen deze transportzones vaste scheepstypen, omdat deze zones overeenkomstige vaaromstandigheden kenden. Eén van de invloeden op de ontwerpprincipes van een schip is het vaargebied, naast een samenspel van andere factoren: de stand van de techniek, beschikbare materialen, ideologie[113](#fn113), traditie, de functie van een schip en economische factoren.[114](#fn114) De systematiek van Westerdahl is beter bruikbaar om tot een typologie te komen dan die van de overgeleverde benamingen.
 
-### Scheepstypen en vaargebieden
+### <span data-custom-style="None">Scheepstypen en vaargebieden</span>
 
 In de Lage Landen kunnen verschillende vaargebieden worden onderscheiden, elk met eigen kenmerken. Van rustig binnenwater tot vaarwater met een sterke stroming of hevige (korte) golfslag. Elk vaarwater stelde verschillende eisen aan de schepen die er voeren. In onderstaande zullen per transportzone een aantal kenmerkende scheepstypen aan bod komen, daarbij worden typenamen gehanteerd uit historische bronnen, met alle restricties die daaraan kleven.
 
-#### Zuiderzee en Waddenzee
+#### <span data-custom-style="None">Zuiderzee en Waddenzee</span>
 
 Voor de aanleg van de Afsluitdijk in 1932 stond de Zuiderzee in open verbinding met de Waddenzee en Noordzee. Zuiderzee en Waddenzee vormden één vaargebied. Al vanaf windkracht 4 kon een korte steile golfslag ontstaan, waarvoor stevige schepen met een zekere mate van vrijboord, een vast dek en goed afsluitbare laadhoofden noodzakelijk waren.
 
@@ -365,7 +369,7 @@ Uit onderzoek naar de 450 scheepswrakken in Flevoland ontstaat een goed beeld va
 
 ![3D model van zeventiende-eeuws vrachtschip. Het model is gemaakt van een zeventiende-eeuws onbekend type wat groter vrachtschip, opgegraven op kavel R 49 in 2014 en 2015 in Oostelijk Flevoland, bij Dronten. De bakboordzijde van het schip is naar binnen gevallen over het wrak heen. De houtresten die dicht bij het oppervlak lagen, waren slecht bewaard gebleven (omdat ze zich boven de grondwaterspiegel bevonden). Het model is vervaardigd nadat de binnenkant van de stuurboordzijde was schoongemaakt.<br>3D model vervaardigd door J. Opdebeeck, 2020.<br><br>](42_fig.2.14.jpg)
 
-#### Veenkoloniën (Groningen en Noordoost-Drenthe)
+#### <span data-custom-style="None">Veenkoloniën (Groningen en Noordoost-Drenthe)</span>
 
 In de turfvaart in de veenkoloniën en Noordoost-Drenthe waren snabbevaarders in gebruik, de schippers op deze schepen werden schuitenschuivers genoemd. Snabben waren kleine, smalle vaartuigen, met een geringe diepgang en met in de zeventiende eeuw een open ruim en razeil. Het voorschip was puntig en de voorsteven recht. Begin zeventiende eeuw werden op de Waddenzee naar de Oostzee grotere binnenvaartschepen gebruikt. De schepen in deze vaart staan bekend onder veel verschillende namen. De typen die achter deze namen schuil gaan lijken soms sterk op elkaar en zijn lastig van elkaar te onderscheiden, zoals boeier, smalschip, kaag, damloper, praam en (Friese) turfschuit. Gemeenschappelijke kenmerken van deze schepen waren het platte vlak (en daarmee een geringe diepgang) en een volle rompvorm, waardoor veel lading kon worden getransporteerd. Turfschuiten die vanuit Groningen naar Drenthe voeren waren klein, in 1644 bedroeg de lengte 9,38 m en de breedte 2,51 m met een laadvermogen van 12,4 ton.
 
@@ -373,13 +377,13 @@ In de turfvaart in de veenkoloniën en Noordoost-Drenthe waren snabbevaarders in
 
 Schippers uit de Groninger veenkoloniën voeren al vanaf de zeventiende eeuw met grotere schepen vanuit Nieuwe Pekela naar Noord-Duitsland. De snabbe kreeg afmetingen van 20 meter x 4 meter x 2 meter en een laadvermogen van 63 ton.[118](#fn118) Tevens werd het razeil vervangen door een langsscheeps tuig.[119](#fn119) De naam snabbe bleef maar de schepen zagen er totaal anders uit.[120](#fn120) Samen met het wijzigen van het vaargebied kwamen ook nieuwe scheepstypen op. Omstreeks 1750 maakten de snabbe, taske, schuit en praam deels plaats voor de tjalk, al gauw het meest gebouwde schip.[121](#fn121) De ongeboeide taske en praam zijn de echte binnenschepen geweest. In 1782 werd door de stad Groningen de maximaal toegestane holte nog eens verhoogd tot 4,67 m, vanwege de opboeisels van grotere schepen.[122](#fn122)
 
-#### Veenweidegebied (Holland en Utrecht)
+#### <span data-custom-style="None">Veenweidegebied (Holland en Utrecht)</span>
 
 Over binnenvaartschepen in de polders van Holland en Utrecht is weinig bekend. Kleine vaartuigen als punters, schouwen en kleine aken, die vanwege de vele lage bruggen weinig diepgang hadden, kwamen het meest voor. Dankzij het beschutte water was een grote holte onnodig. In sommige dorpen ging alle vervoer over water, zelfs de school- en kerkgang.[123](#fn123) Jagen was onmogelijk door de zachte bodem. Diverse typen zeilvaartuigen bleven tot in de twintigste eeuw in gebruik. In een aantal werfboekjes komen benamingen voor van schepen die in de twintigste eeuw in het veenweidegebied niet meer werden gebruikt, zoals het Rijnschip, de bok, aken en pramen.[124](#fn124) Toch is er wel een continuïteit te zien in het gebruik van kleine houten vaartuigen. Het is dus mogelijk dat sommige ‘recente’ scheepstypen zoals de bok, aak en praam ook al in de zeventiende en achttiende eeuw werden gebruikt.
 
 ![Tekening uit 1671 van een ‘weijschuit’ door Nicolaes Witsen. Uit: N. Witsen, <em>Aeloude en hedendaegsche scheeps-bouw en bestier</em> (Amsterdam 1671).<br><br><br>](44_fig.2.16.jpg)
 
-#### De veengebieden van Zuidwest-Drenthe en de kop van Overijssel
+#### <span data-custom-style="None">De veengebieden van Zuidwest-Drenthe en de kop van Overijssel</span>
 
 Ook in de veengebieden van Zuidwest-Drenthe en de kop van Overijssel zien we veel verschillende benamingen, zoals onder andere: pot, puje, ponge-schip, praam, karveelschip, punter, bok, vlot en (zee)zomp, waarover maar weinig bekend is.
 
@@ -401,7 +405,7 @@ De bok had een lengte van rond de 12 meter. Het betreft een vaartuig met een pla
 
 ![Bok uit Giethoorn. Tekening door D. Huismans, 1947.<br>Uit: G.L. Berk, <em>De punter</em> (Weesp 1984) 152.<br><br>](47_fig.2.19.jpg)
 
-#### De Zuid-Hollandse en Zeeuwse delta
+#### <span data-custom-style="None">De Zuid-Hollandse en Zeeuwse delta</span>
 
 De Zuid-Hollandse en Zeeuwse delta waren een hybride vaarwater, waar binnenvaart en zeevaart elkaar ontmoetten. Tot de afsluiting in het kader van de Deltawerken, stonden de Scheldemondingen en het Haringvliet in open verbinding met de zee, evenals de Maasmonding. Binnenschepen die zich op deze wateren waagden, moesten dus ook zeewaardig zijn. Er bestonden twee belangrijke routes: via de Zeeuwse Delta van Amsterdam naar Antwerpen en tussen Zeeland en Brabant en de steden Rotterdam en Dordrecht. Deze routes werden natuurlijk door talloze verschillende soorten schepen bevaren. Daarvan was de poon één van de belangrijkste.[130](#fn130)
 
@@ -409,7 +413,7 @@ De poon was gebouwd om te zeilen in ruw weer; de grootte varieerde van 16-60 ton
 
 ![Zeilend vrachtschip. Zeilende  poon, een zwaar gebouwd vrachtschip, dat vooral te vinden was in de wateren van Zeeland en Zuid-Holland. Ponen werden veel gebruikt in de beurtvaart, waarbij een geregelde verbinding werd onderhouden tussen twee haven. Zowel passagiers als vracht werd er met deze beurtschepen vervoerd.<br>Ets door Gerrit Groenewegen, uit de serie ‘Vier en tachtig Hollandsche schepen’, 1789.<br><br>](49_fig.2.20b.jpg)
 
-#### De grote rivieren
+#### <span data-custom-style="None">De grote rivieren</span>
 
 Op de grote rivieren waren schepen, bij gebrek aan aanlegkades, aangewezen op landingsplekken op glooiende oevers. In plaats van een voorsteven hadden ze een heve, dat wil zeggen een omhoog gebogen vlak dat in het voorschip versmalt tot een punt.[133](#fn133) Een andere reden om schepen zo te bouwen was dat bij het varen tegen de stroom in, het (sterk) stromende water gemakkelijker onder het vlak door loopt, zonder het schip zijwaarts weg te duwen. Sommige schepen hadden eveneens een heve in het achterschip. De verzamelnaam voor deze groep schepen is aak of aakachtigen. De heve kon ook in een horizontale balk (bloksteven) eindigen, zoals dat bij hedendaagse schouwen het geval is.[134](#fn134)
 
@@ -417,7 +421,7 @@ Van het verkeer op de rivieren was de Rijnvaart verreweg het voornaamste.[135](#
 
 ![Samoreus. Een samoreus, een in de streek van Keulen gebouwde rijnaak.<br>Ets door Reinier Nooms, 1652-1654.<br><br>](50_fig.2.21.jpg)
 
-#### Achterhoek en Twente
+#### <span data-custom-style="None">Achterhoek en Twente</span>
 
 Uit verschillende toltarieven valt af te leiden dat men eenmans- en tweemansschuiten gebruikte. Een maritiem cultuurlandschap optima forma: eenmanschuiten voor lokaal vervoer en tweemansschuiten voor het vervoer van Twente naar Zwolle.[137](#fn137) Over het uiterlijk van deze schuiten tasten we in het duister. Over de schuiten die op de Berkel voeren in de zestiende en zeventiende eeuw is ook niet veel bekend. In 1646 hadden de schuiten een lengte van 9,87 meter en ze konden 5 ton laden. Ook op de Schipbeek werd met schuiten gevaren.
 
@@ -427,7 +431,7 @@ Op de Regge was eveneens sprake van intensief scheepvaartverkeer. Enter was een 
 
 Soms lijken de benamingen schuit, pot en zomp door elkaar te worden gebruikt, soms lijkt het te gaan om verschillende scheepstypen. Van de verschillende soorten schepen bestonden vaak een kleine en een grote variant. Die grotere variant ontwikkelde zich tot een zeegaand schip met nog steeds dezelfde naam, maar een totaal ander uiterlijk. Een typerend schip uit dit gebied was de berkelzomp met een lengte van ongeveer 11 meter en een breedte van 2,3 meter en een laadvermogen van ongeveer 8 ton.[138](#fn138)
 
-#### Trekschuit in de kustprovincies
+#### <span data-custom-style="None">Trekschuit in de kustprovincies</span>
 
 Het trekschuitlandschap dekte de kustprovincies van de Republiek. In Holland werden de trekschuiten meestal rond gebouwd; in Friesland en Groningen als knikspant, waardoor ze leken op een snik, een kleine vrachtvaarder. De lengte varieerde tussen 11 en 19 meter, terwijl de breedte 2 tot 3 meter bedroeg. Ze konden 17-31 mensen vervoeren.[139](#fn139)
 
@@ -439,13 +443,13 @@ De trekschuiten bestemd voor vrachtvervoer waren vaak voorzien van een kleine ve
 
 ![Halfmodel van een trekschuit. Anoniem, eind achttiende eeuw.<br><br><br>](53_fig.2.24.jpg)
 
-## 3 VAN WALBEWONER NAAR WATERNOMADE
+## <span data-custom-style="None">3 VAN WALBEWONER NAAR WATERNOMADE</span>
 
 De belangrijkste verandering die zich in de zeventiende en achttiende eeuw voordeed in het bestaan van de binnenschipper (in de wilde vaart) was het steeds meer gescheiden raken van de walsamenleving. In de middeleeuwen was een binnenschipper een gerespecteerde walbewoner, die een huis bezat, dat tevens als pakhuis dienst deed. Hij was niet alleen vervoerder, maar tevens koopman. In de loop van de zeventiende en achttiende eeuw trokken schippers met grotere vaartuigen zich steeds meer en langer terug op hun schepen.
 
 In deze paragraaf ligt de focus op de wat grotere vaartuigen van de regionale, interregionale en landelijke vaart, met een lengte van 16-20 meter, die op de Zuiderzee voeren en indien de binnenwateren dat toelieten ook daar hun vaarwater hadden.[141](#fn141)
 
-### Aantal opvarenden en samenstelling van de bemanning
+### <span data-custom-style="None">Aantal opvarenden en samenstelling van de bemanning</span>
 
 Literatuur over het aantal opvarenden aan boord van binnenschepen is schaars.[142](#fn142) In Twente voeren Vriezenveense schippers met éénmans- en tweemanschuiten; de eerste met een tonnage van 2,5 ton en de tweede van 5-6 ton. Dat waren dus zeer kleine vaartuigjes. Schippers uit Enter voeren op de Regge met een broer of zoon en als die er niet was met een knecht.[143](#fn143) Archeologische inventarissen kunnen informatie geven over de opvarenden. Sommige objecten zeggen iets over de leeftijd en samenstelling van de bemanning, zoals persoonlijke bezittingen als schoeisel, kleding, speelgoed, maar ook eet- en drinkgerei, denk aan lepels. Uit de analyse van schriftelijke scheepsinventarissen blijkt dat het aantal lepels aan boord een redelijk goede indicator is voor het aantal opvarenden. In archeologische inventarissen kan het aantal verschillende schoenmaten daarvoor een aanwijzing geven.[144](#fn144)
 
@@ -467,7 +471,7 @@ Het beeld dat historici veelal schetsen, is dat gezinsbewoning pas vanaf 1850 vo
 
 Interessant is dat schriftelijke en archeologische bronnen dit tegenspreken en dat deze vorm van sociale organisatie veel ouder blijkt te zijn. Dat past in het beeld van de ‘Industrious Revolution’: boerenhuishoudens in de kustprovincies gingen voor een markt produceren, waarbij vrouwen en kinderen een cruciale rol speelden.[153](#fn153) Een relatie tussen het Europees huwelijkspatroon[154](#fn154) en het economische succes van het Noordzeegebied na 1600 verklaart waarom het steeds lastiger werd voor vrouwen om een gunstige positie op de arbeidsmarkt te bereiken.[155](#fn155) Arbeid door vrouwen en kinderen en het Europees huwelijkspatroon (conjugale gezin) was dus wel al geruime tijd een algemeen sociaal-cultureel geaccepteerd patroon. Het voorkomen van deze bedrijfsvorm en het conjugale gezin vormen het bredere kader waarbinnen het vroege voorkomen van gezinsbewoning aan boord van binnenschepen in de Lage Landen moet worden bezien.[156](#fn156)
 
-### Sociaaleconomische positie van binnenschippers
+### <span data-custom-style="None">Sociaaleconomische positie van binnenschippers</span>
 
 De gegevens over de verdiensten van schippers werkzaam in de binnenvaart zijn beperkt. Ook zijn de gegevens niet eenduidig. Dat hangt mogelijk samen met het feit dat niet gesproken kan worden over _de_ groep van binnenschippers. Het beeld is genuanceerder. We moeten differentiëren naar regio, soort vaart en vaargebied. Het is te verwachten dat de inkomens van wilde vaartschippers, beurtschippers en trekveerschippers uiteenlopen. Verschillen zullen ook hebben bestaan tussen bijvoorbeeld marktschippers en internationale binnenschippers in de Rijnvaart. Een belangrijk verschil tussen beurt- en trekvaartschippers en wilde vaartschippers was dat de eerste zich verzekerd zagen van een vast inkomen.
 
@@ -487,7 +491,7 @@ De scheepsarcheologische bron kan eveneens enig licht werpen op de vraag naar de
 
 De aanwezigheid van aardewerk zegt niet alles: de breekkans aan boord kan de aanwezigheid van stevige (en daarmee goedkope) keramiek hebben gestimuleerd. Naast aardewerk waren in veel schepen ook andere indicatoren voor de welstand van de opvarenden (tabel 4). Voor de meeste schepen gold dat de kwalificatie op basis daarvan iets naar boven moet worden bijgesteld tot ‘gemiddeld’.
 
-<colgroup><col style="width: 11%"><col style="width: 24%"><col style="width: 17%"><col style="width: 46%"></colgroup><tbody><tr class="odd"><td><strong>Kavel</strong></td><td><strong>Datering</strong><strong>Bouw/ondergang</strong></td><td><strong>Welstand</strong><strong>(aardewerk)</strong></td><td><strong>Voorwerpen inventaris die duiden op iets hogerewelstand</strong></td></tr><tr class="even"><td>ZL 1</td><td>1587/ na 1605</td><td>Arm</td><td>zilveren oorlepeltje, bierpul met tinnen deksel</td></tr><tr class="odd"><td>ZO 71</td><td>1649/ na 1685</td><td>Arm</td><td>wippertje (tin), drinkglas, bril</td></tr><tr class="even"><td>OM 65</td><td>? / na 1697</td><td>Arm</td><td>kan (tin), bedrijfskapitaal (munten ter waarde van een halfjaarsalaris geschoolde arbeider)</td></tr><tr class="odd"><td>OH 107</td><td>1686-1693/1700</td><td>Arm</td><td>-</td></tr><tr class="even"><td>OB 55<sup>II</sup></td><td>? / na 1731</td><td>Arm</td><td>bewerkte mesheften</td></tr><tr class="odd"><td>OD 15</td><td>1702/ na 1740</td><td>Gemiddeld</td><td>Strijkijzer</td></tr><tr class="even"><td>ZA 71</td><td>?</td><td>Arm</td><td>-</td></tr><tr class="odd"><td>OE 14</td><td>? / na 1783</td><td>Arm</td><td>-</td></tr><tr class="even"><td>OL 79</td><td>1757/1796</td><td>Gemiddeld</td><td>zilveren horloge met horlogeketting en bedels, bedrijfskapitaal terwaarde van (ten minste) fl. 75,35, glazen beker, wijnflessen,brillenglazen</td></tr><tr class="odd"><td>NB 6</td><td>1770/ 1787</td><td>Arm</td><td>pispot, kinderpotje en schaal (tin)</td></tr></tbody>
+<colgroup><col style="width: 11%"><col style="width: 24%"><col style="width: 17%"><col style="width: 46%"></colgroup><tbody><tr class="odd"><td><strong>Kavel</strong></td><td><strong>Datering</strong><strong>Bouw/ondergang</strong></td><td><strong>Welstand</strong><strong>(aardewerk)</strong></td><td><strong>Voorwerpen inventaris dieduiden op iets hogere welstand</strong></td></tr><tr class="even"><td>ZL 1</td><td>1587/ na 1605</td><td>Arm</td><td>zilveren oorlepeltje, bierpul mettinnen deksel</td></tr><tr class="odd"><td>ZO 71</td><td>1649/ na 1685</td><td>Arm</td><td>wippertje (tin), drinkglas,bril</td></tr><tr class="even"><td>OM 65</td><td>? / na 1697</td><td>Arm</td><td>kan (tin), bedrijfskapitaal (muntenter waarde van een half jaarsalaris geschoolde arbeider)</td></tr><tr class="odd"><td>OH 107</td><td>1686-1693/1700</td><td>Arm</td><td>-</td></tr><tr class="even"><td>OB 55<sup>II</sup></td><td>? / na 1731</td><td>Arm</td><td>bewerkte mesheften</td></tr><tr class="odd"><td>OD 15</td><td>1702/ na 1740</td><td>Gemiddeld</td><td>Strijkijzer</td></tr><tr class="even"><td>ZA 71</td><td>?</td><td>Arm</td><td>-</td></tr><tr class="odd"><td>OE 14</td><td>? / na 1783</td><td>Arm</td><td>-</td></tr><tr class="even"><td>OL 79</td><td>1757/1796</td><td>Gemiddeld</td><td>zilveren horloge met horlogeketting enbedels, bedrijfskapitaal ter waarde van (ten minste) fl. 75,35, glazenbeker, wijnflessen, brillenglazen</td></tr><tr class="odd"><td>NB 6</td><td>1770/ 1787</td><td>Arm</td><td>pispot, kinderpotje en schaal(tin)</td></tr></tbody>
 
 _Tabel 5:_ _Welstand van de opvarenden op grond van de samenstelling van het aardewerk en de bijstelling daarvan op grond van andere vondsten._[168](#fn168)
 
@@ -505,7 +509,7 @@ Voor een turfschipper in de zeventiende eeuw is berekend dat hij ruim fl. 771,- 
 
 Tot slot een opmerkelijk resultaat van het onderzoek naar geletterdheid van opvarenden. In de binnenvaart komen vanaf ongeveer 1600 voorwerpen (bijbels, brillen en schrijfgerei) voor die impliceren dat de bemanning (of een deel daarvan) geletterd was.[171](#fn171) Voor de eigenhandelschipper, maar ook voor de beurtschipper was het noodzakelijk voor de bedrijfsvoering (bijhouden administratie, boekhouding) om het lezen en schrijven te beheersen. Daarmee stegen schippers dus duidelijk uit boven de groep ongeschoolde arbeiders. Deze gevolgtrekking sluit naadloos aan bij het voor 1800 ontstaan van een kenniseconomie in West-Europa.[172](#fn172) Geconcludeerd kan dus worden dat binnenschippers tijdens de periode van de Republiek deel uitmaakten van de middenstand.
 
-### Werk en verblijf aan boord
+### <span data-custom-style="None">Werk en verblijf aan boord</span>
 
 Hoe was de indeling van ruimte aan boord van schepen? Hoewel in de archeologische bronnen de roef zelf en de inrichting daarvan, meestal niet meer aanwezig zijn, kan de vondstverspreiding wel dienen om het ruimtegebruik te reconstrueren, door voorwerpen in te delen in werk- en verblijf gerelateerde objecten. De stookplaats was vaak in het achterschip gesitueerd, evenals de daarbij behorende voorwerpen die te maken hebben met het verblijf aan boord. Voor 1700 lijkt de scheiding van woon- en werkruimte wat minder stringent en bevindt de stookplaats zich soms in het vooronder. In de eerste helft van de achttiende eeuw was er zowel in het voor- als achteronder een stookplaats. Het gezinsverband kon vragen om een scheiding van woonruimtes, waarbij zowel in het voor- als achterschip werd gewoond. Het is niet duidelijk waarom dit patroon weer verdween. Wat waren het soort werkzaamheden die de bemanning verrichtte? De vele voorwerpen die in scheepswrakken zijn aangetroffen kunnen ons daar een goed beeld van geven. Naast het varen met het schip (navigeren (kompas, zandloper, passer), zeilen, jagen, bomen, aan- en afmeren), vervulde de bemanning een rol bij het laden en lossen, gezien de voorwerpen die daarop betrekking hebben: bijvoorbeeld (mest)vorken, schinkel- en lasthaken en hijsblokken.
 
@@ -543,13 +547,13 @@ Van de (materiële) invulling van vrije tijd lijkt op basis van de scheepsinvent
 
 De conclusie voor de binnenvaart op de Zuiderzee luidt dat de ontwikkeling van gerespecteerde en redelijk sedentaire walbewoner naar waternomaden zonder vaste woon- en verblijfsplaats[180](#fn180) – zich begon te voltrekken in de achttiende eeuw. Uit schriftelijke bronnen blijkt dat die ontwikkeling zich in de riviervaart op de Maas en de Rijn al eerder had voorgedaan. Uiteindelijk raakten Nederlandse schippers en hun gezinnen in de negentiende eeuw volledig los van de walsamenleving: ze gingen permanent aan boord wonen.
 
-## 4 EEN GEÏNTEGREERDE VERVOERSSTRUCTUUR EN VEILIGE VAARWEG
+## <span data-custom-style="None">4 EEN GEÏNTEGREERDE VERVOERSSTRUCTUUR EN VEILIGE VAARWEG</span>
 
 De belangrijkste ontwikkeling in de zeventiende eeuw in vergelijking met de periode daarvoor was de sterke opkomst van trek- en beurtvaartverbindingen en de daarmee samenhangende aanleg van kanalen. Veel infrastructurele ontwikkelingen waren een voortzetting van de middeleeuwse erfenis: het aanleggen van kanalen, griften, dammen, dijken en bijbehorende sluizen en overtomen. Ook bestond een continuering van de middeleeuwse egocentrische regionale politiek die een belemmering vormde voor de ontwikkeling van de binnenvaart. Met het oog op de vraag naar meer transportruimte en derhalve grotere schepen werd de infrastructuur telkens verbeterd.
 
-### Het transportlandschap
+### <span data-custom-style="None">Het transportlandschap</span>
 
-#### Waterwegen
+#### <span data-custom-style="None">Waterwegen</span>
 
 Het al eerder in paragraaf 2 geïntroduceerde begrip – het maritieme cultuurlandschap – leent zich goed om de vervoersinfrastructuur van de Nederlanden te beschrijven. Een onderdeel van het maritieme cultuurlandschap is het transportlandschap: het stelsel van verbindingen over water, dat nader onderverdeeld kan worden in transportzones oftewel vaargebieden. Een riviersysteem kan bestaan uit één dan wel meerdere transportzones. De Zuiderzee en Waddenzee vormden een geïntegreerde transportzone, evenals de navigatie langs de kust. Deze zones zijn soms strikt gescheiden, soms bestaat er overlap. Zo kan de ‘binnenvaart’ op de Zuiderzee bijvoorbeeld gecombineerd zijn met de kustvaart en de vaart op de Rijn met een oversteek over de Zuiderzee.
 
@@ -579,7 +583,7 @@ Het trekvaartnetwerk nam een aparte positie in binnen het systeem van waterwegen
 
 ![Het trekvaartnetwerk in de Republiek na 1665. <br>Cartografie Olav Odé, 2021, naar J. de Vries, <em>Barges and Capitalism: Passenger Transportation in the Dutch Economy, 1632-1839</em> (Utrecht 1981).<br><br>](73_fig.4.7.jpg)
 
-#### Walfaciliteiten: infrastructuur op land
+#### <span data-custom-style="None">Walfaciliteiten: infrastructuur op land</span>
 
 Het maritieme cultuurlandschap omvatte niet alleen waterwegen, ook de hele maritieme infrastructuur op land maakte er onderdeel van uit. De grote meerwaarde van het begrip ‘maritiem cultuurlandschap’ was dat elementen, zowel op het land als op het water met elkaar werden verbonden. Een losse rolpaal krijgt betekenis als onderdeel van een groter geheel: het maritieme cultuurlandschap.
 
@@ -595,11 +599,11 @@ Voor hannekemaaiers uit Westfalen, die in Holland als seizoenarbeiders kwamen we
 
 Wat de infrastructuur aanging, namen trekvaarten ook een bijzondere positie in. Soms kon voor de aanleg van trekvaarten gebruik worden gemaakt van bestaande vaarwegen, maar vaak werden geheel nieuwe kanalen gegraven. De kosten van de aanleg van nieuw te graven kanalen met infrastructuur beliepen f. 10.000 tot f. 14.000 per kilometer. Tot die infrastructuur behoorden bijvoorbeeld rolpalen, veerhuizen met stallen voor de paarden, schipperscafé’s, tolhekken en tolhuizen en nieuw aan te leggen bruggen. In totaal is door stedelijke overheden voor 4,6 miljoen gulden geïnvesteerd in 658 kilometer trekvaart.[193](#fn193)
 
-### Woelig vaarwater
+### <span data-custom-style="None">Woelig vaarwater</span>
 
 De vraag die in deze paragraaf centraal staat is welke factoren een veilige vaart in de weg stonden. In de volgende paragraaf wordt beschreven hoe men probeerde deze belemmeringen te overwinnen. Onderscheid kan worden gemaakt tussen bedreigingen van natuurlijke en van culturele aard.
 
-#### Natuurlijke omstandigheden
+#### <span data-custom-style="None">Natuurlijke omstandigheden</span>
 
 Vooral een plotseling opstekende storm kon voor schippers grote moeilijkheden opleveren, maar ook hevige regenval en mist konden het zicht belemmeren en daarmee het bepalen van een veilige koers. De grilligheid van de waterbodem vormde een ander probleem. Ondieptes en zandbanken vormden altijd een probleem, naast ijsgang, waardoor een scheepsromp kon worden gekraakt.
 
@@ -615,7 +619,7 @@ De Waddenzee zelf wordt gekenmerkt door een stelsel van nauwe geulen en zandbank
 
 Tenslotte was het varen in de zeegaten van de Zeeuwse Delta ook niet zonder gevaar. Bij langdurig aanhoudende hevige westelijke wind, kon de golfamplitude in de nauwe zeegaten tot grote hoogte oplopen.
 
-#### Culturele factoren
+#### <span data-custom-style="None">Culturele factoren</span>
 
 De mens zelf creëerde eveneens gevaarlijke situaties. Als gevolg van toenemend scheepvaartverkeer aan het begin van de zeventiende eeuw steeg de kans op aanvaringen sterk. In het begin van de zeventiende eeuw raakten verlaten (schutsluizen) beschadigd door de drukte.
 
@@ -631,9 +635,9 @@ Schippersgilden uit verschillende plaatsen lagen regelmatig met elkaar in de cli
 
 Het gedrag van de schipper vormde ook een factor: als het schip of te zwaar beladen, of met slecht weer de haven verliet, of hij met een ongeschikt of slecht onderhouden schip de Zuiderzee opging – of een combinatie van deze factoren – nam hij een groot risico. Hier speelde de soort vaart een rol. Beurtschippers, die vaak ook passagiers vervoerden, waren veel voorzichtiger dan wilde vaartschippers. Dit is goed terug te zien aan het scheepswrakkenbestand van de voormalige Zuiderzee. Slechts twee van 449[198](#fn198) scheepswrakken kunnen als beurtvaarders worden aangemerkt. Daarnaast moesten wilde vaartschippers meer risico’s nemen om te overleven. Het ging in dit geval dus om een immaterieel aspect betreffende de schippers zelf, dat de kans op vergaan in hoge mate bepaalde.[199](#fn199)
 
-### Het water de baas?
+### <span data-custom-style="None">Het water de baas?</span>
 
-#### Natuurlijke factoren
+#### <span data-custom-style="None">Natuurlijke factoren</span>
 
 Bij opkomend slecht weer probeerden schippers beschutting te zoeken in de luwte van redes bij de eilanden Texel, Vlieland, Wieringen, Schokland en Urk. Indien mogelijk zal een vluchthaven zijn aangedaan, maar vaak waren havens te ondiep voor een zwaarbeladen schip.
 
@@ -641,7 +645,7 @@ Bij opkomend slecht weer probeerden schippers beschutting te zoeken in de luwte 
 
 Een hulpmiddel bij de navigatie vormden de ligging van eilanden en het reliëf van de kustlijn, bestaande uit landmerken, zoals bossen en uit het natuurlijke reliëf, zoals de Utrechtse heuvelrug en de Veluwe. Op rivieren speelde de plaatsbepaling nauwelijks een rol. De stroming van een rivier gaf aan of je stroomopwaarts dan wel stroomafwaarts voer, terwijl een schipper aan de hand van de verschillende landschappen langs een rivier en zijvieren bepaalde waar hij zich bevond.
 
-#### Culturele factoren
+#### <span data-custom-style="None">Culturele factoren</span>
 
 In het algemeen gold dat zowel voor de vaart op rivieren als op zee een uitgebreide kennis van het vaarwater nodig was om te weten waar men zich bevond. Deze praktische kennis was in de praktijk opgedaan. Het vaargebied bestond als een _mental map_ in het hoofd van de schipper. Andere kennis was eveneens van belang. Bijvoorbeeld over getijden en veilige ankerplaatsen, die op kaarten waren aangegeven. Een voorbeeld is de Zuiderzeekaart van Jan Lucasz Waghenaer uit 1589 in zijn _Spieghel der Zeevaert_.[200](#fn200) Het is echter de vraag of binnenschippers gebruik maakten van dergelijke zeekaarten. Langs een rivier kon de schipper zich oriënteren op bestaande infrastructuur, zoals gebouwen, dorpen en steden. Dit gold ook op zee: naast het natuurlijke reliëf van de kust was voor de plaatsbepaling de bestaande hogere bebouwing van groot belang. Het ging hierbij om (kerk)torens, molens en (fabrieks)schoorstenen.
 
@@ -683,7 +687,7 @@ Vaste stenen bruggen vormden vaak een probleem voor de scheepvaart. Aan het begi
 
 Om een afgedamde rivier over te kunnen steken werden zogenaamde overtomen aangelegd. Een overtoom is een permanente oversteekplaats die bestaat uit twee hellingen en een trekmechanisme zoals een kaapstander of tredmolen waarmee schepen een landbarrière konden passeren.[214](#fn214)
 
-#### Voorzieningen aan boord
+#### <span data-custom-style="None">Voorzieningen aan boord</span>
 
 Schippers konden aan boord zelf de nodige maatregelen treffen om zo veilig mogelijk te kunnen varen door te zorgen voor een goede uitrusting en inventaris. De uitrusting om veilig te varen omvatte de scheepsuitrusting en de militaire uitrusting. Elementen uit de inventaris die bijdroegen aan een veilige overtocht behoren tot de navigatiemiddelen en gereedschap. Een verdere onderverdeling van de scheepsuitrusting bestond uit het grondtakel (ankers en ankertouwen). Ankers waren van levensbelang als bij slecht weer op een rede voor anker werd gegaan. Andere subcategorieën vormden zeilen, touwwerk en spillen (het is duidelijk dat deze alle in goede staat dienden te verkeren!). Ook onmisbaar in altijd lekkende houten schepen waren goed functionerende pompen. Tot de hulpmiddelen wordt bijvoorbeeld een pikhaak gerekend om een lijn uit het water te vissen of om andere schepen af te houden. Ten slotte was het van groot belang van al deze uitrusting reserve-onderdelen aan boord te hebben, voor het geval schade optrad. In scheepswrakken vind je bijvoorbeeld vrijwel altijd reserveonderdelen voor de pomp, reserveblokken en -schijven. Archeologisch worden bijboten nooit aangetroffen, maar binnenschepen hadden wel degelijk altijd een bijboot, waarmee een zinkend schip kon worden verlaten, tenminste onder niet al te ruige weersomstandigheden.
 
@@ -709,7 +713,7 @@ De aanwezigheid van gereedschap voor onderhoud van een schip was van belang om e
 
 Tenslotte konden verbeteringen in de schepen zelf leiden tot een grotere veiligheid: het ruim werd voorzien van een dicht dek, afgesloten met luiken en presenningdoek, boorden werden opgehoogd met een opboeisel en zeilen werden gemakkelijker te bedienen: een langsscheeps tuigage met grootzeil aan giek en gaffel en voorzeilen. Met deze vorm van tuigage was het gemakkelijker om tegen de wind in te kruisen en op die manier weg te geraken van de altijd gevaarlijke lagerwal.
 
-#### Cognitieve aspecten
+#### <span data-custom-style="None">Cognitieve aspecten</span>
 
 De vraag, welk risico neem je als schipper, was voor de veiligheid van het varen van groot belang. Naast veilig varen moesten schippers voorzien in hun levensonderhoud. Zoals hierboven al aangestipt zal wat betreft het nemen van risico’s een verschil hebben bestaan tussen de wilde vaartschipper, die mogelijk wat roekelozer zal zijn geweest en meer risico nam. Beurtschippers waren aan reglementen gebonden, die ze verboden om bij slecht weer uit te zeilen.
 
@@ -721,7 +725,7 @@ Later ontstonden in Groningen compacten – onderlinge verenigingen – waarbij 
 
 Aan risicospreiding werd vaak wel gedaan. Naast de schipper namen de werf en toeleverende bedrijven vaak een deel van de financiering van een nieuw schip voor hun rekening.
 
-### Tot besluit
+### <span data-custom-style="None">Tot besluit</span>
 
 De Republiek maakte gedurende de zeventiende en de achttiende een ongekende economische groei door. Dit succes wordt vaak toegeschreven aan de handel met de Oostzee, die daarom ook bekend staat onder de naam moedernegotie. Ook de rol van de VOC wordt vaak in dit succesverhaal genoemd. Daarbij wordt één ding over het hoofd gezien: de cruciale rol van de binnenvaart. En dat is op zijn minst opmerkelijk. De binnenvaart vormde namelijk een onmisbare schakel in de totstandkoming van een geïntegreerd transportnetwerk in de Republiek, dat uiteindelijk leidde tot het ontstaan van een nationale volkshuishouding. Dit dichte netwerk van verbindingen zorgde ervoor dat een economische groei ontstond in de geest van Adam Smith: ‘the division of labor is limited by the extend of the market’. Regionale specialisatie en verstedelijking stelden de Noordelijke Nederlanden in staat om de bestaande productiviteit tot het uiterste te benutten.
 
