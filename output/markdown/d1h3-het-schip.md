@@ -7,7 +7,7 @@ chapter: 3
 summary: De geschiedenis van de scheepsbouw in de Nederlanden tot ongeveer 1600 is een indrukwekkend verhaal over evolutie, aanpassing en verbetering over de hele linie.
 publication_date: 28 januari 2025
 doi: -
-doi_url:: undefined
+doi_url:: 
 status: development
 ---
 

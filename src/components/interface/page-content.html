@@ -11,7 +11,15 @@
                <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h2>
             {{/if}}
             {{#if (ifSame type "h3") }}
-               <h3 class="font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h3>
+               {{#if (ifSame ../chapterMetadata.chapterId "d3h6")}}
+                  <h2 class="font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h2>
+               {{else}}
+                  {{#if (ifSame ../chapterMetadata.chapterId "d4h6")}}
+                     <h2 class="font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h2>
+                  {{else}}
+                     <h3 class="font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h3>
+                  {{/if}}
+               {{/if}}
             {{/if}}
             {{#if (ifSame type "h4") }}
                <h4 class="text-base italic font-merriweather font-bold" id="{{id}}">{{{htmlRaw}}}</h4>
@@ -21,9 +29,10 @@
             {{/if}} 
             {{#if (ifSame type "table") }}
             </div>
-               <div class="py-3 text-sm font-sans w-full overflow-x-auto ">
-                  <table class="{{#if (gt tableColumns 4)}}w-[900px]{{else}}w-full{{/if}}">
-                     {{{htmlRaw }}}
+               <div class="py-3 text-sm font-sans w-full overflow-x-auto">
+                  <table class="mx-auto {{#if (gt tableColumns 4)}}w-[900px]{{else}}w-[700px]{{/if}}">
+                     {{#if (ifSame id "table_22")}}{{> table/bijlage1 }}{{else}}{{#if (ifSame id "table_23")}}{{> table/bijlage2 }}{{else}}{{{htmlRaw }}}{{/if}}{{/if}}
+                     
                   </table>
                </div>
                <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative">

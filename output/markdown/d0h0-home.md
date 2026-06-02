@@ -1,10 +1,10 @@
 ---
 chapterId: d0h0
 title: Home
-author:: undefined
+author:: 
 part: 0
 chapter: 0
-publication_date:: undefined
+publication_date:: 
 status: development
 part1Nr: 1
 part1Title: Opkomst van de rivier- en zeehandel

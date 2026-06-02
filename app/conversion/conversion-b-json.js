@@ -123,7 +123,8 @@ module.exports = function (resolveData) {
         let metdataLine = elementInner;
         if (typeof metdataLine === 'string') { //metdataLine.includes(": ")  
             let metdataLineArr = metdataLine.split(": ");
-            htmlJson.chapterMetadata[metdataLineArr[0]] = convertStrToBool(metdataLineArr[1]);
+            const metadataValueRaw = metdataLineArr[1] ?? "";
+            htmlJson.chapterMetadata[metdataLineArr[0]] = convertStrToBool(metadataValueRaw.replace(/&nbsp;/g, " "));
         }
         currentChapter ='d'+htmlJson.chapterMetadata.part+'h'+htmlJson.chapterMetadata.chapter; 
         htmlJson.chapterMetadata.chapterId = currentChapter; 
@@ -143,7 +144,7 @@ module.exports = function (resolveData) {
         elementInner = removeSpacesBeginEnd(elementInner).replaceAll('<p></p><p> </p>', '')
         elementId = utility.saveTitle(elementInner)
 
-        if ( ( currentChapter == 'd4h8') ||    ( currentChapter == 'd2h4')) {  
+        if ( ( currentChapter == 'd4h8') ||  ( currentChapter == 'd2h4') ) {  
           if (domNodeItem.tagName.toLowerCase() == 'h3') {
             elementTagName = 'h2'
             //console.log('3',domNodeItem.outerHTML);
