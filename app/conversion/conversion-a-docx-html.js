@@ -13,10 +13,6 @@ module.exports = function(file, isLast) {
         callback = function (err, htmlContent) {
           if (err) console.error('Oh Nos: ',err);
 
-          if (htmlContent) {
-            fs.ensureDirSync('./test-output/html');
-            utility.createFile('./test-output/html/' + file + '.html', htmlContent);
-          }
 
           resolve([htmlContent, isLast, file]);
           
