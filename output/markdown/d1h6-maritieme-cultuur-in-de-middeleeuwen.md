@@ -6,8 +6,8 @@ part: 1
 chapter: 6
 summary: In de middeleeuwen had de zee uiteenlopende betekenissen; een bedreigende ruimte, vol monsters. Maar scheepvaart stond ook voor rijkdom, macht en moed. Verhalen en afbeeldingen tonen het schip als metafoor voor een groep mensen, zoals het narrenschip, een vaartuig vol zondaars.
 publication_date: 27 mei 2019 (31 juli 2021 doi toegevoegd)
-doi: <a href="https://zenodo.org/record/5150427#.YQVw1o4zaUk"><span data-custom-style="Hyperlink">10.5281/zenodo.5150427</span></a>
-doi_url: <a href="https://zenodo.org/records/5150427"><span data-custom-style="Hyperlink">https://zenodo.org/records/5150427</span></a>
+doi: <a href="https://zenodo.org/record/5150427#.YQVw1o4zaUk">10.5281/zenodo.5150427</a>
+doi_url: <a href="https://zenodo.org/records/5150427">https://zenodo.org/records/5150427</a>
 status: development
 ---
 
@@ -67,7 +67,7 @@ Daers hem van noede soude zijn’_._[8](#fn8)
 
 Brandaans reis wordt uitgelegd als boetedoening voor zijn ongeloof in de wonderen Gods. Over de zee van het leven leidt God hem naar het aards paradijs, een eiland dat zich ergens in de Atlantische Oceaan zou bevinden. Zo groot was het gezag van dit heiligenleven dat zelfs Columbus meende dat hij het eiland van Sint Brandaan zou tegenkomen op zijn reis naar het westen.[9](#fn9) Gerenommeerde kaartenmakers als Abraham Ortelius en Gerard Mercator zetten dat eiland voor de zekerheid nog op hun kaarten uit 1560 en 1569. Op het Europese continent werd deze varende heilige vooral vereerd langs de kusten van de Noordzee en de Oostzee. De bekendste plaats in Nederland is Terschelling, waar de Brandaris, gebouwd in 1594, nog herinnert aan de Sint Brandaanskapel die ooit als baken diende voor de scheepvaart.[10](#fn10)
 
-## Nog meer <span data-custom-style="Heading 3 Char">varende heiligen</span>
+## Nog meer varende heiligen
 
 ![Antependium (altaardoek) van het schippersgilde in Nijmegen. Centraal is een kogge afgebeeld, geflankeerd door Maria met Jezus en St. Olof. Het doek hing oorspronkelijk waarschijnlijk voor het altaar van de Olofskapel in de Stevenskerk in Nijmegen.<br>Linnen, vierde kwart vijftiende eeuw.<br><br>](5_Antependium.jpg)
 

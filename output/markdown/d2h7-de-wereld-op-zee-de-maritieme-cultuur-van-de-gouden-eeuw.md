@@ -6,8 +6,8 @@ part: 2
 chapter: 7
 summary: In de vroegmoderne tijd bevoeren schepen uit de Nederlandse Republiek de wereldzeeën. Reizigers, kunstenaars en cartografen construeerden een canoniek zelfbeeld dat een belangrijk onderdeel werd van de nationale identiteit, en een wereldbeeld dat ook internationaal herkenbaarheid genoot. Soms liepen daarin feit en fictie naadloos in elkaar over.
 publication_date: 20 augustus 2020
-doi: <a href="https://zenodo.org/record/5150437#.YQV0hY4zaUk"><span data-custom-style="Hyperlink">10.5281/zenodo.5150437</span></a>
-doi_url: <a href="https://zenodo.org/records/5150437"><span data-custom-style="Hyperlink">https://zenodo.org/records/5150437</span></a>
+doi: <a href="https://zenodo.org/record/5150437#.YQV0hY4zaUk">10.5281/zenodo.5150437</a>
+doi_url: <a href="https://zenodo.org/records/5150437">https://zenodo.org/records/5150437</a>
 status: development
 ---
 

@@ -6,8 +6,8 @@ part: 4
 chapter: 8
 summary: In de twintigste eeuw veranderde de Nederlandse samenleving ingrijpend. De ‘eeuw van uitersten’ bracht grote omwentelingen en massabewegingen die het eigene onder druk zetten. In perioden van onzekerheid kon de eeuwenoude binding van Nederland met het water houvast bieden. Maritieme cultuuruitingen herbergden een idee van continuïteit en fungeerden als solide constanten tussen een veilig verleden en een ongewis verschiet.
 publication_date: 20 augustus 2020
-doi: <span data-custom-style="Hyperlink">10.5281/zenodo.5150458</span>
-doi_url: <a href="https://zenodo.org/records/5150458"><span data-custom-style="Hyperlink">https://zenodo.org/records/5150458</span></a>
+doi: 10.5281/zenodo.5150458
+doi_url: <a href="https://zenodo.org/records/5150458">https://zenodo.org/records/5150458</a>
 status: development
 ---
 

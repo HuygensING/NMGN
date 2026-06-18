@@ -2,6 +2,7 @@
 const utility = require('../utils.js');
 const replaceStrings = require('../replace/replaceStrings.json');
 const replaceStringsFromDocx = require('../replace/replaceFromDocx.json');
+const removeWordCustomStyles = require('../replace/removeWordCustomStyles.js');
 const contentCorrectionsImages = require('../replace/contentAjustmentsImages.json');
 const contentCorrections = require('../replace/contentAjustments.json');
 const notStoreStrings = require('../doNotStoreStrings.json');
@@ -44,44 +45,7 @@ module.exports = function (resolveData) {
     const document = dom.window.document;
     const body = document.querySelector("body");
 
-    // normalize Word heading wrappers (e.g. data-custom-style="KOP2" / "KOP3")
-    // into real heading elements before further processing
-    const headingDivs = body.querySelectorAll('div[data-custom-style="KOP2"], div[data-custom-style="KOP3"]');
-    headingDivs.forEach(div => {
-      const styleName = (div.getAttribute('data-custom-style') || '').toLowerCase();
-      const headingTag = styleName === 'kop2' ? 'h2' : 'h3';
-      const parent = div.parentNode;
-      if (!parent) return;
-
-      const childNodes = Array.from(div.childNodes);
-      let firstParagraphHandled = false;
-
-      childNodes.forEach(node => {
-        if (!firstParagraphHandled && node.nodeType === dom.window.Node.ELEMENT_NODE && node.tagName.toLowerCase() === 'p') {
-          const headingEl = document.createElement(headingTag);
-          headingEl.innerHTML = node.innerHTML;
-          parent.insertBefore(headingEl, div);
-          firstParagraphHandled = true;
-        } else {
-          parent.insertBefore(node, div);
-        }
-      });
-
-      parent.removeChild(div);
-    });
-
-    // Word hyperlink character styles → semantic emphasis
-    const hyperlinkSpans = body.querySelectorAll('span[data-custom-style="Hyperlink.0"], span[data-custom-style="Hyperlink.2"]');
-    hyperlinkSpans.forEach(span => {
-      const onlyChild = span.children.length === 1 ? span.children[0] : null;
-      if (onlyChild && onlyChild.tagName.toLowerCase() === 'em' && span.childNodes.length === 1) {
-        span.replaceWith(onlyChild);
-        return;
-      }
-      const em = document.createElement('em');
-      em.innerHTML = span.innerHTML;
-      span.replaceWith(em);
-    });
+    removeWordCustomStyles(document, dom);
 
     const domNodeList = body.children;
     
@@ -186,7 +150,6 @@ module.exports = function (resolveData) {
         }
         elementData.tableColumns = tableColumns
 
-        domNodeItem.innerHTML = domNodeItem.innerHTML.replaceAll('<p><span data-custom-style=\"None\">', '').replaceAll('</span></p>', '')
         elementInner = domNodeItem.innerHTML.replaceAll('</p>', '').replaceAll('<p>', '').replace(/[\r\n]+/g, '')
         
       }
@@ -275,7 +238,7 @@ module.exports = function (resolveData) {
           }
           
 
-        elementInner = removeSpacesBeginEnd(domNodeItem.innerHTML).replaceAll('<strong>', '').replaceAll('</strong>', '').replaceAll('<mark>', '').replaceAll('</mark>', '').replaceAll('<span data-custom-style=\"None\">', '').replaceAll('</span>', '')
+        elementInner = removeSpacesBeginEnd(domNodeItem.textContent || '')
         elementInner = elementInner.replace('^^^^^^^^^^^^^^^^^^^^^', '').replaceAll(' ', '').replaceAll('\n', '').replace(/[\u200B-\u200D\uFEFF]/g, '')
         elementId = utility.saveTitle(elementInner)
 

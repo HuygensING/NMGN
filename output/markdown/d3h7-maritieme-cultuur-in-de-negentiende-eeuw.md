@@ -6,8 +6,8 @@ part: 3
 chapter: 7
 summary: In het nationalisme van de negentiende eeuw speelde het maritieme verleden een grote rol. Schilders, schrijvers en beeldhouwers, maar ook historici lieten zich inspireren door de daden van zeehelden uit de Gouden Eeuw, zoals Michiel de Ruyter.
 publication_date: 31 oktober 2019 (31 juli 2021 doi toegevoegd)
-doi: <a href="https://zenodo.org/record/5150456#.YQV4144zaUk"><span data-custom-style="Hyperlink">10.5281/zenodo.51510456</span></a>
-doi_url: <a href="https://zenodo.org/records/5150456"><span data-custom-style="Hyperlink">https://zenodo.org/records/5150456</span></a>
+doi: <a href="https://zenodo.org/record/5150456#.YQV4144zaUk">10.5281/zenodo.51510456</a>
+doi_url: <a href="https://zenodo.org/records/5150456">https://zenodo.org/records/5150456</a>
 status: development
 ---
 

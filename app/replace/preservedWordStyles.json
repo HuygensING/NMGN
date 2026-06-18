@@ -1,0 +1,17 @@
+{
+  "tableCellStyles": {
+    "tabelKop": "tabelKop",
+    "tabelNummers": "tabelNummers",
+    "TabelKopLinks": "tabelKopLinks",
+    "TabelKopRechts": "tabelKopRechts",
+    "TabelNummersCentreren": "tabelNummersCentreren"
+  },
+  "headingWrapperStyles": {
+    "KOP2": "h2",
+    "KOP3": "h3"
+  },
+  "emphasisSpanStyles": [
+    "Hyperlink.0",
+    "Hyperlink.2"
+  ]
+}
