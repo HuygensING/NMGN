@@ -29,8 +29,8 @@
             {{/if}} 
             {{#if (ifSame type "table") }}
             </div>
-               <div class="py-3 text-sm font-sans w-full overflow-x-auto">
-                  <table class="mx-auto {{#if (gt tableColumns 4)}}w-[900px]{{else}}w-[700px]{{/if}}">
+               <div class="table-scroll py-3 text-sm font-sans w-full overflow-x-auto" tabindex="0" role="region" aria-label="Horizontaal scrollbare tabel">
+                  <table class="mx-auto {{#if (gt tableColumns 4)}}{{else}}w-[700px]{{/if}}">
                      {{#if (ifSame id "table_22")}}{{> table/bijlage1 }}{{else}}{{#if (ifSame id "table_23")}}{{> table/bijlage2 }}{{else}}{{{htmlRaw }}}{{/if}}{{/if}}
                      
                   </table>

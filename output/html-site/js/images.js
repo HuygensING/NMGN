@@ -28,24 +28,33 @@ function closeImageMobileOverlay() {
   document.body.style.overflow = '';
 }
 
-function showImageAside() {
-  var elem = this;
-  var imgSource = elem.getAttribute('data-src');
-  var imgTitle = elem.getAttribute('data-title');
-  var imgCaption = elem.getAttribute('data-caption');
+function updateAsideFromInlineButton(button, fromScroll) {
+  if (!button) return;
+  var imgSource = button.getAttribute('data-src');
+  var imgTitle = button.getAttribute('data-title');
+  var imgCaption = button.getAttribute('data-caption');
+  if (!imgSource) return;
 
   if (window.innerWidth < MOBILE_IMAGE_BREAKPOINT) {
-    openImageMobileOverlay(imgSource, imgTitle, imgCaption);
+    if (!fromScroll) openImageMobileOverlay(imgSource, imgTitle, imgCaption);
     return;
   }
 
   var asideImg = document.getElementById('asideImg');
+  if (asideImg && asideImg.getAttribute('src') === imgSource) return;
+
   var asideTitle = document.getElementById('asideImgTitle');
   var asideCaption = document.getElementById('asideCaption');
   if (asideImg) asideImg.setAttribute('src', imgSource);
   if (asideTitle) asideTitle.innerHTML = imgTitle;
   if (asideCaption) asideCaption.innerHTML = imgCaption;
 }
+
+function showImageAside() {
+  updateAsideFromInlineButton(this, false);
+}
+
+window.updateAsideFromInlineButton = updateAsideFromInlineButton;
 
 (function initInlineImages() {
   function setup() {

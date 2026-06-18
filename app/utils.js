@@ -17,6 +17,16 @@ const replaceSpaces = (str) => {
     return str.replaceAll(" ","-");
 };
 
+const formatTitle = (str) => {
+    if (str == null || typeof str !== 'string') return '';
+    return str.replaceAll(':±', '.').replaceAll('±', '.');
+};
+
+const formatTitleH1 = (str) => {
+    if (str == null || typeof str !== 'string') return '';
+    return str.replaceAll(':±', '.<br>').replaceAll('±', '.<br>');
+};
+
 const saveTitle = (str) => {
     if (str == null || typeof str !== 'string') return '';
     return str.replaceAll(" ","-").replaceAll("|","").replaceAll(",","").replaceAll("(","").replaceAll(")","").replaceAll(":±","").replaceAll("‘","").replaceAll("’","").replaceAll("ë","e").replaceAll("±","").toLowerCase();
@@ -26,6 +36,6 @@ const navigationData = (indexJson) => {
     
 };
 
-module.exports = {createFile, replaceSpaces, saveTitle, navigationData};
+module.exports = {createFile, replaceSpaces, formatTitle, formatTitleH1, saveTitle, navigationData};
 
 

@@ -84,6 +84,14 @@ handlebars.registerHelper('replaceStr', function (str, replce, replceWith) {
   return str.replaceAll(replce, replceWith);
 });
 
+handlebars.registerHelper('formatTitle', function (str) {
+  return utilFunc.formatTitle(str);
+});
+
+handlebars.registerHelper('formatTitleH1', function (str) {
+  return utilFunc.formatTitleH1(str);
+});
+
 
 function generateHtml() {
     sitedata.forEach(chapterData => {
@@ -203,6 +211,7 @@ function renderIMGbasic(imgObject, chapterCode, blockIsFirst, blockIsLast) {
     if (imgObject.imagedata.description2) caption += '<br>'+imgObject.imagedata.description2
     if (imgObject.imagedata.description3) caption += '<br>'+imgObject.imagedata.description3
     if (imgObject.imagedata.location) caption += '<br>'+imgObject.imagedata.location
+    if (imgObject.imagedata.owner) caption += '<br>'+imgObject.imagedata.owner
     imageSrc = 'images/'+chapterCode+'/'+chapterCode+'-600/'+imgObject.htmlRaw
   } else {
     imageSrc = 'images/'+chapterCode+'/'+chapterCode+'-600/'+imgObject.htmlRaw

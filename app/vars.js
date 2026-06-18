@@ -1,3 +1,5 @@
+const { formatTitle, formatTitleH1 } = require('./utils.js');
+
 const htmlHeader = (pageTitle) => {
     const htmlHeader = `
     <!DOCTYPE html>
@@ -5,7 +7,7 @@ const htmlHeader = (pageTitle) => {
         <head>
             <meta charset=\"UTF-8\">
             <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
-            <title>${pageTitle}</title>
+            <title>${formatTitle(pageTitle)}</title>
             <link rel="stylesheet" href="style.css">
         </head>
         <body>
@@ -22,7 +24,7 @@ const htmlChapterHeaderMinimal = (part, chapter, title, author) => {
     const pageHeader = `
     <header>
     <div>Deel ${part} hoofdstuk ${chapter}</div>
-    <h1>${title}</h1>
+    <h1>${formatTitleH1(title)}</h1>
     <div>Door <strong>${author}</strong></div>
     
     </header>`;

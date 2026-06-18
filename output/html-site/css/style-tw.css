@@ -1453,6 +1453,10 @@ h4 {
   text-align: center;
   width: 100%;
 }
+.table-scroll:focus-visible {
+  outline: 2px solid hsl(198, 88%, 40%);
+  outline-offset: 2px;
+}
 table {
   margin-top: calc(var(--spacing) * 4);
   table-layout: fixed;

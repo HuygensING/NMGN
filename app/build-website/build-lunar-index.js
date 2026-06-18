@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 const path = require('path');
-const { saveTitle } = require('../utils.js');
+const { saveTitle, formatTitle } = require('../utils.js');
 
 // Load Dutch stopwords
 const dutchStopwords = JSON.parse(fs.readFileSync(path.join(__dirname, 'dutch_stopwords.json'), 'utf8'));
@@ -64,7 +64,7 @@ async function buildLunrIndex() {
                             
                             // Create document entry
                             const document = {
-                                name: saveTitle('d' + chapterMetadata.part + 'h' + chapterMetadata.chapter + '-' + chapterMetadata.title + '.html/#' + item.id) + '%' + chapterMetadata.title + '%' + chapterMetadata.part + '%' + chapterMetadata.chapter,
+                                name: saveTitle('d' + chapterMetadata.part + 'h' + chapterMetadata.chapter + '-' + chapterMetadata.title + '.html/#' + item.id) + '%' + formatTitle(chapterMetadata.title) + '%' + chapterMetadata.part + '%' + chapterMetadata.chapter,
 
                                 // {
                                 //     href: saveTitle('d' + chapterMetadata.part + 'h' + chapterMetadata.chapter + '-' + chapterMetadata.title + '.html/#' + item.id),

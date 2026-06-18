@@ -21,9 +21,9 @@
             {{/if}}
 
             {{#if render }}
-            <a href="{{fileName}}" class="flex flex-col" id="topnav_d{{partNr}}h{{chapter}}" aria-label="Hoofdstuk {{chapter}} {{title}} door {{author}}" tabindex="0">
+            <a href="{{fileName}}" class="flex flex-col" id="topnav_d{{partNr}}h{{chapter}}" aria-label="Hoofdstuk {{chapter}} {{formatTitle title}} door {{author}}" tabindex="0">
                 <div class="font-bold">{{chapter}} </div>
-                <div class="text-nmgnBlue-900 text-xl"><strong class="">{{title}}</strong></div>
+                <div class="text-nmgnBlue-900 text-xl"><strong class="">{{{formatTitle title}}}</strong></div>
                 <em class="">{{author}}</em>
             </a>
             {{/if}}

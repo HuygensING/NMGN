@@ -4,14 +4,14 @@ title: Wereldwijd op stoom:± Hervormingen bij de zeemacht (1780-1870)
 author: Gerard M.W. Acda †, Anita M.C. van Dissel, Jan Klootwijk en Dick Vries
 part: 3
 chapter: 4
- summary: Het federatieve, gedecentraliseerde bestuur van de vijf admiraliteiten, met een dominerende plaats voor Amsterdam, evolueerde in de negentiende eeuw tot een centrale organisatie, later ministerie, zetelend in Den Haag. Toenemende bureaucratisering, technologische innovaties in de scheepsbouw, professionalisering van het marinepersoneel en infrastructurele rationalisaties veranderden het karakter van de marineorganisatie. De zeemacht moest de nationale politieke en handelsbelangen voortaan wereldwijd verdedigen. Het zwaartepunt van de operationele activiteiten verschoof naar Indonesische wateren. De activiteiten van de zeemacht waren cruciaal voor de vorming en consolidatie van Nederland als koloniale mogendheid, maar niet doorslaggevend. De Koninklijke Marine vermaatschappelijkte en versterkte daarnaast juist haar eigen identiteit door uniformering, regelgeving en handhaving van tradities. 
+summary: Het federatieve, gedecentraliseerde bestuur van de vijf admiraliteiten, met een dominerende plaats voor Amsterdam, evolueerde in de negentiende eeuw tot een centrale organisatie, later ministerie, zetelend in Den Haag. Toenemende bureaucratisering, technologische innovaties in de scheepsbouw, professionalisering van het marinepersoneel en infrastructurele rationalisaties veranderden het karakter van de marineorganisatie. De zeemacht moest de nationale politieke en handelsbelangen voortaan wereldwijd verdedigen. Het zwaartepunt van de operationele activiteiten verschoof naar Indonesische wateren. De activiteiten van de zeemacht waren cruciaal voor de vorming en consolidatie van Nederland als koloniale mogendheid, maar niet doorslaggevend. De Koninklijke Marine vermaatschappelijkte en versterkte daarnaast juist haar eigen identiteit door uniformering, regelgeving en handhaving van tradities. 
 publication_date: 20 juni 2026
-doi: 10.5281/zenodo.xxxxx
+doi: <a href="https://leidenuniv1-my.sharepoint.com/personal/disselamcvan1_vuw_leidenuniv_nl/Documents/P-schijf/disselamcvan1/My%20Documents/nmgn/marine/bijdragen%20deel%203%20marine/Wereldwijd%20op%20stoom.1-4/Definitief/Retour%20Marja%20feb%202026/10.5281/zenodo.5150458"><em>10.5281/zenodo.xxxxx</em></a>
 doi_url: <a href="https://zenodo.org/records/xxxx">https://zenodo.org/records/xxxx</a>
 status: development
 ---
 
-## Inleiding
+### Inleiding
 
 In de achttiende eeuw was de zeemacht van de Republiek niet meer opgewassen tegen Groot-Brittannië en Frankrijk. De uitvoering van een ambitieus bouwprogramma in de jaren 1780 kon het jammerlijke verloop van de Vierde Nederlands-Engelse Oorlog (1780-1784) niet afwenden. Verschillende hervormingsvoorstellen van vooraanstaande marineofficieren op het gebied van organisatie, scheepsdienst en opleidingen verzandden in politiek gekrakeel tussen prins- en staatsgezinden en tussen bestuurders en practici. Pas tijdens de Bataafs-Franse tijd (1795-1813) veranderde er opeens veel en snel. Het federatieve, gedecentraliseerde bestuur van de vijf admiraliteiten, met een dominerende plaats voor Amsterdam, werd vervangen door een centrale organisatie, later ministerie, zetelend in Den Haag. Bestuursmatig leek dit voordelen te kunnen bieden, maar geldgebrek, verloren oorlogscampagnes tegen de Britten en een groot verloop van personeel door ontslag, krijgsgevangenschap of anderszins, verlamden de vloot. Na de inlijving bij het Franse keizerrijk in 1810 kon de marine zelfs niet meer zelfstandig opereren.
 
@@ -19,9 +19,9 @@ Met de terugkeer van de latere koning Willem I (1772-1843) ontstond een zelfstan
 
 ![Wereldkaart. <br>Cartografie Olav Odé, 2025.<br><br>](0a_Wereldkaart.jpg)
 
-### 1 ZEEMACHT EN STAATSMACHT
+## 1 ZEEMACHT EN STAATSMACHT
 
-## Naar een centraal bestuur (1780-1813)
+### Naar een centraal bestuur (1780-1813)
 
 De Republiek beschikte over vijf admiraliteiten met bijbehorende marinebases, scheepswerven en vlooteskaders. De admiraliteitsraden waren ingesteld tijdens de Tachtigjarige Oorlog en in 1597 nader omschreven in een instructie van de Staten-Generaal.
 
@@ -45,11 +45,11 @@ Het jaar 1798 was een periode van langdurig politiek overleg om het eens te word
 
 Na de inlijving van het koninkrijk bij het Franse keizerrijk in 1810 verloor de Nederlandse zeemacht haar zelfstandigheid. Het zee-arrondissement Holland kwam onder leiding van een zeeprefect, die werd aangestuurd vanuit Frankrijk. Mede door het aanblijven van een aantal Hollandse vlagofficieren, behield de marine zijn eigen karakter.[11](#fn11) De vloot, tijdens de Vierde Nederlands-Engelse Oorlog nog meer dan tachtig fregatten en linieschepen sterk, bestond inmiddels door verliezen en oplopende financiële tekorten uit niet meer dan negen linieschepen, vijf fregatten en zes korvetten.[12](#fn12)
 
-<colgroup><col style="width: 49%"><col style="width: 50%"></colgroup><thead><tr class="header"><th class="tabelKop">Periode</th><th class="tabelKop">Bestuurders</th></tr></thead><tbody><tr class="odd"><td>-1795</td><td>Vijf admiraliteitscolleges</td></tr><tr class="even"><td>1795-1798</td><td>Comité tot de Zaken van de Marine</td></tr><tr class="odd"><td>1798-1801</td><td>Agent van de Marine</td></tr><tr class="even"><td>1801-1805</td><td>Raad van de Marine</td></tr><tr class="odd"><td>1806-1808</td><td>Minister van Marine</td></tr><tr class="even"><td>1808-1810</td><td>Minister van Marine en Koloniën</td></tr><tr class="odd"><td>1810-1813</td><td>Zeeprefect</td></tr><tr class="even"><td>1813-1814</td><td>Commissie-generaal van Marine, later minister van Marine</td></tr></tbody>
+<colgroup> <col style="width: 49%"> <col style="width: 50%"> </colgroup> <tbody> <tr class="odd"> <td class="tabelKop"> Periode </td> <td class="tabelKop"> Bestuurders </td> </tr> <tr class="even"> <td> -1795 </td> <td> Vijf admiraliteitscolleges </td> </tr> <tr class="odd"> <td> 1795-1798 </td> <td> Comité tot de Zaken van de Marine </td> </tr> <tr class="even"> <td> 1798-1801 </td> <td> Agent van de Marine </td> </tr> <tr class="odd"> <td> 1801-1805 </td> <td> Raad van de Marine </td> </tr> <tr class="even"> <td> 1806-1808 </td> <td> Minister van Marine </td> </tr> <tr class="odd"> <td> 1808-1810 </td> <td> Minister van Marine en Koloniën </td> </tr> <tr class="even"> <td> 1810-1813 </td> <td> Zeeprefect </td> </tr> <tr class="odd"> <td> 1813-1814 </td> <td> Commissie-generaal van Marine, later minister van Marine </td> </tr> </tbody>
 
 _Tabel 1: Van admiraliteiten naar centraal bestuur 1780-1814_.[13](#fn13)
 
-## Op zee
+### Op zee
 
 #### Vierde Nederlands-Engelse Oorlog (1780-1784)
 
@@ -113,7 +113,7 @@ Bij het uitbreken van de Vierde Nederlands-Engelse Oorlog was er al meer dan een
 
 Tijdens de Bataafs-Franse tijd werd de kaapvaart gereguleerd door het Comité tot de Zaken der Marine en zijn opvolgers. Het initiatief lag voornamelijk bij Amsterdamse handelaren en bestuurders. Tussen november 1796 en juli 1810 zijn 81 commissies verstrekt. Minstens 48 kaperschepen kozen daadwerkelijk zee en zij veroverden minimaal 61 prijzen.[37](#fn37) In de loop van de negentiende eeuw eisten steeds meer nationale staten het geweldsmonopolie op. Daar paste particuliere oorlogsvaart niet bij. Bij de Zeerechtdeclaratie van het Verdrag van Parijs in 1856 werd op aandringen van Groot-Brittannië kaapvaart verboden. De belangrijkste maritieme landen, waaronder Nederland, ondertekenden het verdrag (zie ‘Internationale afspraken en samenwerking’).[38](#fn38)
 
-## Onder de vlag van het ministerie van Marine (1813-1870)
+### Onder de vlag van het ministerie van Marine (1813-1870)
 
 #### Den Haag
 
@@ -167,7 +167,7 @@ In het Atlantisch gebied was het allemaal veel eenvoudiger geregeld. Suriname, d
 
 Oorlogsschepen van de Koninklijke Marine en hun bemanning verbleven een of twee jaar in de Cariben en keerden daarna terug naar Nederland. De oudst aanwezend officier in de rang van kapitein-luitenant-ter-zee of kapitein-ter-zee trad op als (varend) commandant in de regio en was verantwoording verschuldigd aan de gouverneurs in Paramaribo en Willemstad. Tot 1860 was Paramaribo het hoofdstation. Pakhuizen voor de opslag en distributie van levensmiddelen en andere scheepsbehoeften sierden de kade. Ondanks de slecht toegankelijke ondiepe wateren van de Commewijne en Surinamerivier rechtvaardigden op dat moment het economisch belang van Suriname en de logistieke voordelen deze keuze. Vanuit Paramaribo voeren zeilschepen namelijk in een week naar Willemstad op Curaçao, omgekeerd kostte dat door stromingen en winden meer dan een maand. De introductie van oorlogsstoomschepen, particuliere maildiensten en telegraafverbindingen verbeterde de verbindingen tussen beide kolonies aanzienlijk. De oprichting van een eigen station op Curaçao in 1860 lag daarom voor de hand. Willemstad bood met de Sint-Annabaai en het Schottegat bovendien een strategisch gelegen natuurlijke haven voor de aanleg van een marinebasis.[58](#fn58)
 
-## Mondiaal optreden (1813-1870)
+### Mondiaal optreden (1813-1870)
 
 Tussen 1813 en 1870 trad de Koninklijke Marine in Europese wateren operationeel op in de Middellandse Zee en op de Schelde in België. Zij was voornamelijk actief in de Indonesische archipel en het Atlantisch gebied; in Japan, bij het afdwingen van de doorvaart van Straat Shimonoseki; en wereldwijd ter bescherming van de handelsroutes.
 
@@ -279,13 +279,13 @@ Vlagvertoon bevorderde goede relaties met andere landen en het prestige van Nede
 
 Nederland toonde eveneens belangstelling voor de nieuwe onafhankelijke staten op het Zuid-Amerikaanse continent. Koning Willem I was zelf zeer betrokken bij de stimulering van de Nederlandse economie en zag de buurlanden van Suriname en de Benedenwindse Eilanden als groeimarkt. Met dat doel voor ogen kozen in de jaren 1820 verschillende marineschepen de ongebruikelijke route via Kaap Hoorn naar Batavia. Enerzijds konden en moesten de scheepscommandanten de handelsbetrekkingen in de nieuwe onafhankelijke staten aanknopen, maar anderzijds had de reis van een oorlogsschip – als vertegenwoordiger van de natie – ook een politieke betekenis. Op 10 september 1823 vertrok Zr.Ms. _Lynx_ onder commando van kapitein-luitenant-ter-zee Isaac P.M. Willinck (1786-1835) via Zuid-Amerika naar Nederlands-Indië. De _Lynx_ volgde een route via Kaapverdië naar Buenos Aires. Na Buenos Aires werd Kaap Hoorn gerond, Valparaiso aangelopen en een bezoek gebracht aan de Peruaanse havenstad Callao. In deze steden bezocht Willinck consuls en zaakwaarnemers van bedrijven. Via de Filipijnse archipel, waar de voedselvoorraad werd aangevuld, arriveerde de _Lynx_ op 1 januari 1825 op de rede van Batavia. Anders dan bij de reis van de _Lynx_ kregen de commandanten van Zr.Ms. _Maria Reygersbergen_ en Zr.Ms. _Pollux_ in 1824 monsters en stalen mee om uit te delen aan ondernemers in de te bezoeken landen als voorbeelden van de productie van Nederlandse bedrijven. Het ging zoal om klompen, potten, pannen en lakens.[97](#fn97) Vanuit de havenstad Callao brachten enkele officieren een bezoek aan Simon Bolivar, de vrijheidsstrijder die inmiddels regeringsleider van Peru was.
 
-### 2 INNOVATIES IN SCHEEPSBOUW EN BEWAPENING
+## 2 INNOVATIES IN SCHEEPSBOUW EN BEWAPENING
 
-### Technologische innovaties brachten in de negentiende eeuw revolutionaire veranderingen in de bouw van oorlogsschepen teweeg. De Britse Royal Navy liep hierin voorop en diende de Nederlandse marine tot voorbeeld. Andere nationale maritieme sectoren profiteerden van de pioniersactiviteiten van de zeemacht die in de eerste helft van de negentiende eeuw vooral betrekking hadden op de toepassing van ijzer in de scheepsbouw, de verbetering van stoomwerktuigen en de opvolging van schoepenraderen door scheepsschroeven. Aarzelingen om ijzeren marineschepen te (laten) bouwen verdwenen omstreeks 1860 met de opkomst van het ijzeren scheepspantser. Versterkt door de min of meer simultane introductie van getrokken geschut, ontstond vervolgens een wapenwedloop tussen de Europese maritieme mogendheden.
+Technologische innovaties brachten in de negentiende eeuw revolutionaire veranderingen in de bouw van oorlogsschepen teweeg. De Britse Royal Navy liep hierin voorop en diende de Nederlandse marine tot voorbeeld. Andere nationale maritieme sectoren profiteerden van de pioniersactiviteiten van de zeemacht die in de eerste helft van de negentiende eeuw vooral betrekking hadden op de toepassing van ijzer in de scheepsbouw, de verbetering van stoomwerktuigen en de opvolging van schoepenraderen door scheepsschroeven. Aarzelingen om ijzeren marineschepen te (laten) bouwen verdwenen omstreeks 1860 met de opkomst van het ijzeren scheepspantser. Versterkt door de min of meer simultane introductie van getrokken geschut, ontstond vervolgens een wapenwedloop tussen de Europese maritieme mogendheden.
 
 Voortgaande technische ontwikkelingen en sterk stijgende kosten van oorlogsschepen dwongen Nederland echter af te zien van ingrijpende vlootvernieuwingen. Beperkte budgetten maakten daarentegen strategische keuzes op materieelgebied noodzakelijk. De minister van Marine liet zich daarbij steeds vaker bijstaan door adviescommissies. Tegen die achtergrond werd voor de algemene dienst (vlagvertoon, verbindingen met en dienst in koloniale wateren) zelfs na 1870 nog vertrouwd op licht gebouwde houten en enkele ijzeren stoomschepen. Voor de kustverdediging beschikte de marine tegen 1870 daarentegen over modern gepantserd ijzeren materieel met draaibare geschuttorens.
 
-### Naar eenheid (1780-1813)
+## Naar eenheid (1780-1813)
 
 #### Autonomie en charters
 
@@ -325,7 +325,7 @@ Speciaal voor gevechten op korte afstand voegde de Britse marine omstreeks 1775 
 
 ![Vuursteenslot met messing huis en ijzeren slotmechaniek voor een kanon van 6 pond. Het mechanisme is gebruiksklaar na het spannen van de haan die van een vuursteen is voorzien. De met het aftrektouw geactiveerde hamer deed de langs het metaal schrapende vuursteen vonken. Gelijktijdig klapte het deksel van de kruitpan open en kon het kruit in de pan ontbranden. De vlam bereikte de lading via het zundgat van het kanon.<br><br>In 1800 vervaardigd in Frankrijk.<br>](36_modelvuursteenslot.jpg)
 
-## Herstel en heroriëntatie (1813-1850)
+### Herstel en heroriëntatie (1813-1850)
 
 #### Optimalisering houten scheepsbouw
 
@@ -347,7 +347,7 @@ Voor fregatten en lichtere vaartuigen verving Seppings het houten kruisverband d
 
 De innovaties van Seppings en Soetermeer bleven van toepassing zolang er houten oorlogsschepen werden gebouwd. In de nieuwbouw verdwenen de zeeg en rentrée van de romp vrijwel geheel. De kuil versmalde verder, waardoor een ruim opperdek ontstond. De op linieschepen uiteindelijk tot wel 1,80 meter hoge doorlopende verschansing moest de bemanning op het opperdek een betere dekking tegen musketkogels geven.[129](#fn129) Tussen 1818 en 1833 werden zes linieschepen van 74 stukken en twee linieschepen van 84 stukken op stapel gezet (tabel 2).
 
-<colgroup><col style="width: 5%"><col style="width: 6%"><col style="width: 6%"><col style="width: 6%"><col style="width: 6%"><col style="width: 8%"><col style="width: 8%"><col style="width: 8%"><col style="width: 8%"><col style="width: 6%"><col style="width: 9%"><col style="width: 10%"><col style="width: 7%"></colgroup><thead><tr class="header"><th class="tabelKop">Jaar</th><th class="tabelKop">Linie-schip</th><th class="tabelKop">Fregat</th><th class="tabelKop">Korvet</th><th class="tabelKop">Rader-stoom-schip&nbsp;</th><th class="tabelKop">Schroef-fregat</th><th class="tabelKop">Schroef-korvet</th><th class="tabelKop">Schroef-stoom-schip1e en 2e klasse</th><th class="tabelKop">Schroef-stoom-schip3e en 4eklasse</th><th class="tabelKop">Stoom-kanon-neer-boot</th><th class="tabelKop">Drijvendebatterij</th><th class="tabelKop">Stoom-batterij,monitor,ram(toren)schip</th><th class="tabelKop">Totaal</th></tr></thead><tbody><tr class="odd"><td>1790</td><td class="tabelNummers">48</td><td class="tabelNummers">36</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="tabelNummers">84</td></tr><tr class="even"><td>1810</td><td class="tabelNummers">9</td><td class="tabelNummers">5</td><td class="tabelNummers">6</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="tabelNummers">20</td></tr><tr class="odd"><td>1820</td><td class="tabelNummers">13</td><td class="tabelNummers">15</td><td class="tabelNummers">11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="tabelNummers">39</td></tr><tr class="even"><td>1830</td><td class="tabelNummers">6</td><td class="tabelNummers">19</td><td class="tabelNummers">15</td><td class="tabelNummers">2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="tabelNummers">42</td></tr><tr class="odd"><td>1840</td><td class="tabelNummers">5</td><td class="tabelNummers">21</td><td class="tabelNummers">15</td><td class="tabelNummers">5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="tabelNummers">46</td></tr><tr class="even"><td>1850</td><td class="tabelNummers">5</td><td class="tabelNummers">17</td><td class="tabelNummers">17</td><td class="tabelNummers">16</td><td></td><td></td><td></td><td class="tabelNummers">1</td><td></td><td></td><td></td><td class="tabelNummers">56</td></tr><tr class="odd"><td>1860</td><td class="tabelNummers">2</td><td class="tabelNummers">9</td><td class="tabelNummers">8</td><td class="tabelNummers">13</td><td class="tabelNummers">4</td><td class="tabelNummers">2</td><td class="tabelNummers">3</td><td class="tabelNummers">9</td><td class="tabelNummers">2</td><td class="tabelNummers">5</td><td></td><td class="tabelNummers">57</td></tr><tr class="even"><td>1870</td><td class="tabelNummers">1</td><td class="tabelNummers">3</td><td class="tabelNummers">8</td><td class="tabelNummers">14</td><td class="tabelNummers">5</td><td class="tabelNummers">1</td><td class="tabelNummers">10</td><td class="tabelNummers">20</td><td class="tabelNummers">2</td><td class="tabelNummers">5</td><td class="tabelNummers">11</td><td class="tabelNummers">80</td></tr></tbody>
+<colgroup> <col style="width: 5%"> <col style="width: 6%"> <col style="width: 6%"> <col style="width: 6%"> <col style="width: 6%"> <col style="width: 8%"> <col style="width: 8%"> <col style="width: 8%"> <col style="width: 8%"> <col style="width: 6%"> <col style="width: 9%"> <col style="width: 10%"> <col style="width: 7%"> </colgroup> <tbody> <tr class="odd"> <td class="tabelKop"> Jaar </td> <td class="tabelKop"> Linie-schip </td> <td class="tabelKop"> Fregat </td> <td class="tabelKop"> Korvet </td> <td class="tabelKop"> Rader-stoom-schip&nbsp; </td> <td class="tabelKop"> Schroef- fregat </td> <td class="tabelKop"> Schroef-korvet </td> <td class="tabelKop"> Schroef-stoom-schip 1e en 2e klasse </td> <td class="tabelKop"> Schroef-stoom- schip 3e en 4e klasse </td> <td class="tabelKop"> Stoom-kanon-neer-boot </td> <td class="tabelKop"> Drijvende batterij </td> <td class="tabelKop"> Stoom-batterij, monitor, ram(toren) schip </td> <td class="tabelKop"> Totaal </td> </tr> <tr class="even"> <td> 1790 </td> <td class="tabelNummers"> 48 </td> <td class="tabelNummers"> 36 </td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="tabelNummers"> 84 </td> </tr> <tr class="odd"> <td> 1810 </td> <td class="tabelNummers"> 9 </td> <td class="tabelNummers"> 5 </td> <td class="tabelNummers"> 6 </td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="tabelNummers"> 20 </td> </tr> <tr class="even"> <td> 1820 </td> <td class="tabelNummers"> 13 </td> <td class="tabelNummers"> 15 </td> <td class="tabelNummers"> 11 </td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="tabelNummers"> 39 </td> </tr> <tr class="odd"> <td> 1830 </td> <td class="tabelNummers"> 6 </td> <td class="tabelNummers"> 19 </td> <td class="tabelNummers"> 15 </td> <td class="tabelNummers"> 2 </td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="tabelNummers"> 42 </td> </tr> <tr class="even"> <td> 1840 </td> <td class="tabelNummers"> 5 </td> <td class="tabelNummers"> 21 </td> <td class="tabelNummers"> 15 </td> <td class="tabelNummers"> 5 </td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="tabelNummers"> 46 </td> </tr> <tr class="odd"> <td> 1850 </td> <td class="tabelNummers"> 5 </td> <td class="tabelNummers"> 17 </td> <td class="tabelNummers"> 17 </td> <td class="tabelNummers"> 16 </td> <td></td> <td></td> <td></td> <td class="tabelNummers"> 1 </td> <td></td> <td></td> <td></td> <td class="tabelNummers"> 56 </td> </tr> <tr class="even"> <td> 1860 </td> <td class="tabelNummers"> 2 </td> <td class="tabelNummers"> 9 </td> <td class="tabelNummers"> 8 </td> <td class="tabelNummers"> 13 </td> <td class="tabelNummers"> 4 </td> <td class="tabelNummers"> 2 </td> <td class="tabelNummers"> 3 </td> <td class="tabelNummers"> 9 </td> <td class="tabelNummers"> 2 </td> <td class="tabelNummers"> 5 </td> <td></td> <td class="tabelNummers"> 57 </td> </tr> <tr class="odd"> <td> 1870 </td> <td class="tabelNummers"> 1 </td> <td class="tabelNummers"> 3 </td> <td class="tabelNummers"> 8 </td> <td class="tabelNummers"> 14 </td> <td class="tabelNummers"> 5 </td> <td class="tabelNummers"> 1 </td> <td class="tabelNummers"> 10 </td> <td class="tabelNummers"> 20 </td> <td class="tabelNummers"> 2 </td> <td class="tabelNummers"> 5 </td> <td class="tabelNummers"> 11 </td> <td class="tabelNummers"> 80 </td> </tr> </tbody>
 
 _Tabel 2: Aantal kapitale oorlogsschepen van de Koninklijke Marine en haar voorgangers 1790-1870._[130](#fn130)
 
@@ -415,7 +415,7 @@ Vuursteensloten bleven nog lange tijd in gebruik voor het afvuren van geschut. P
 
 ![Percussieslot met messing huis en ijzeren hamer. Een in het huis geplaatst slagpijpje ontbrandt nadat de gespannen hamer met een aftrektouw is geactiveerd. De vervolgens in de kruitpan veroorzaakte vlam bereikt via het zundgat de lading in het kanon.<br><br><br>](50_percussieslot.jpg)
 
-## De omwenteling (1850-1870)
+### De omwenteling (1850-1870)
 
 #### Auxiliair stoomvermogen en schroefvoortstuwing
 
@@ -473,13 +473,13 @@ Het na 1855 opkomende ijzeren scheepspantser werd aanvankelijk tegemoet getreden
 
 Voor de bewapening van de gepantserde ijzeren monitors en ram(toren)schepen koos Pels Rijcken in 1867 Brits getrokken voorlaadgeschut van 23 cm (300-ponders) naar een ontwerp van Sir William G. Armstrong (1810-1900). Bij dit type _built up_ (mantelring) kanon werd de stalen schietbuis omgeven door smeedijzeren banden om de gasdruk van het afvuren te weerstaan. Met een vervolgbestelling in 1868 werden ook 18 cm kanons van dit type aangeschaft die na 1870 aan boord kwamen van een nieuwe generatie schroefstoomschepen.[185](#fn185)
 
-### 3 OFFICIEREN EN SCHEPELINGEN
+## 3 OFFICIEREN EN SCHEPELINGEN
 
 Verschillende nazaten van de familie De Virieu dienden bij de Nederlandse zeemacht. Alexander G.C. de Virieu kwam in 1773 in dienst van de Rotterdamse admiraliteit en keerde na de Franse inval in 1795 de marine de rug toe. Koning Willem I benoemde hem in 1815 voor bewezen diensten tot viceadmiraal titulair. Alexanders zoon Johan C. de Virieu genoot in 1803 zijn officiersopleiding aan boord van de _Euridice_ te Hellevoetsluis, maar verliet de marine na de inlijving van het koninkrijk Holland bij het Franse keizerrijk. Diens achterneef Otto Kreet de Virieu koos in 1860 voor het Koninklijk Instituut voor de Marine in Willemsoord. Enkele maanden na terugkomst uit de kolonie Nederlands-Indië overleed hij in april 1878 in het marinehospitaal in Den Helder.[186](#fn186) Deze Otto diende een totaal andere zeemacht dan zijn voorvader in de achttiende eeuw. De transformatie van de marine en maatschappelijke ontwikkelingen hadden grote invloed op het personeelsbeleid. In deze paragraaf gaan we nader in op de werving, arbeidsvoorwaarden en werkomstandigheden van het varend marinepersoneel. Er is aandacht voor de omvang en samenstelling van de bemanning, opleidingen en het leven aan boord en aan de wal.
 
 ![Prins Hendrik de Zeevaarder (1820-1879). Willem Frederik Hendrik was de derde zoon van koning Willem II en Anna Paulowna. Hij had een lange carrière bij de marine en was de eerste prins van het Huis Oranje-Nassau die zowel Suriname en de Nederlandse Cariben als de kolonie Nederlands-Indië bezocht. Hij ondersteunde verschillende maritieme activiteiten en ondernemingen.<br>Schilderij door Nicolaas Pieneman, 1848.<br><br>](60_PrinsHendrik.jpg)
 
-## Arbeidsmarkt, werving en mondiaal inzetbaar
+### Arbeidsmarkt, werving en mondiaal inzetbaar
 
 #### In dienst
 
@@ -535,7 +535,7 @@ Aan boord van de eskaderschepen in de kolonie Nederlands-Indië vormden de ‘Ne
 
 ![Groepsfoto van Indonesische schepelingen aan boord van een oorlogsschip, c. 1900. De schepelingen dragen werktenue met strohoed.<br><br><br>](67c_Indoneschdekpersoneel.jpg)
 
-## Wereldwijd actief
+### Wereldwijd actief
 
 De oorlogsvloot en haar bemanning waren vanouds hoofdzakelijk actief in Europese wateren en het Atlantisch gebied. In 1783 vertrok voor het eerst een marine-eskader naar Zuidoost-Azië ter ondersteuning van de VOC. Tijdens de Bataafs-Franse tijd kon de zeemacht het verlies van de overzeese bezittingen niet voorkomen. Gedurende de negentiende eeuw diende een groeiend aantal Nederlandse marineofficieren en schepelingen in Indonesische wateren. Een of meer uitzendingen behoorde tot het normale carrièrepatroon. Tussen 1820 en 1870 betrof het gemiddeld meer dan tweeduizend opvarenden in Zuidoost-Azië, de laatste jaren oplopend naar meer dan 2.600. De activiteiten in Indonesië legden daarom een groot beslag op het personeel.[217](#fn217) Velen deden afwisselend ook enkele jaren dienst in de Caribische regio. Aan boord van de stationsschepen in Suriname en Curaçao en Onderhorigheden dienden circa vijfhonderd koppen, met een uitschieter in 1850, toen onrust in Venezuela hier meer schepen en opvarenden bond. Dienen in de tropen was niet populair en zorgde mede voor een groot personeelsverloop.[218](#fn218)
 
@@ -543,13 +543,13 @@ De oorlogsvloot en haar bemanning waren vanouds hoofdzakelijk actief in Europese
 
 ![Stamboek van Gerhardus Fabius. <br><br><br>](68b_stamboekFabius.jpg)
 
-<colgroup><col style="width: 8%"><col style="width: 16%"><col style="width: 12%"><col style="width: 12%"><col style="width: 15%"><col style="width: 9%"><col style="width: 10%"><col style="width: 14%"></colgroup><thead><tr class="header"><th class="tabelKop">Jaar</th><th class="tabelKop">Nederland / Europa</th><th class="tabelKop">Indonesië</th><th class="tabelKop">Surinameen Cariben</th><th class="tabelKop">Overig(opleidingen, missies)</th><th class="tabelKop">Totaal KM</th><th class="tabelKop">KolMar</th><th class="tabelKop">GM en voorgangers</th></tr></thead><tbody><tr class="odd"><td>1780</td><td></td><td></td><td></td><td></td><td class="tabelNummers">c. 2.000 &gt; 19.000</td><td></td><td></td></tr><tr class="even"><td>1810</td><td></td><td></td><td></td><td></td><td class="tabelNummers">c. 3.980</td><td></td><td></td></tr><tr class="odd"><td>1825</td><td class="tabelNummers">2.600</td><td class="tabelNummers">1.450</td><td class="tabelNummers">450</td><td></td><td class="tabelNummers">4.500</td><td class="tabelNummers">c. 70 + * 900 (92%)</td><td class="tabelNummers">c. 750</td></tr><tr class="even"><td>1840</td><td class="tabelNummers">1.440</td><td class="tabelNummers">2.349</td><td class="tabelNummers">763</td><td class="tabelNummers">1.207</td><td class="tabelNummers">5.759</td><td></td><td class="tabelNummers">c. 1.250</td></tr><tr class="odd"><td>1855</td><td class="tabelNummers">1.270</td><td class="tabelNummers">2.369 + * 583 (20%)</td><td class="tabelNummers">592</td><td class="tabelNummers">1.286</td><td class="tabelNummers">5.517 + 583</td><td></td><td class="tabelNummers">19 + * 1.292 (99%)</td></tr><tr class="even"><td>1870</td><td class="tabelNummers">1.442</td><td class="tabelNummers">2.646 + * 892 (33%)</td><td class="tabelNummers">150</td><td class="tabelNummers">934</td><td class="tabelNummers">5.172 + 892</td><td></td><td class="tabelNummers">75 + * 1.450 (95 %)</td></tr></tbody>
+<colgroup> <col style="width: 8%"> <col style="width: 16%"> <col style="width: 12%"> <col style="width: 12%"> <col style="width: 15%"> <col style="width: 9%"> <col style="width: 10%"> <col style="width: 14%"> </colgroup> <tbody> <tr class="odd"> <td class="tabelKop"> Jaar </td> <td class="tabelKop"> Nederland / Europa </td> <td class="tabelKop"> Indonesië </td> <td class="tabelKop"> Suriname en Cariben </td> <td class="tabelKop"> Overig (opleidingen, missies) </td> <td class="tabelKop"> Totaal KM </td> <td class="tabelKop"> KolMar </td> <td class="tabelKop"> GM en voorgangers </td> </tr> <tr class="even"> <td> 1780 </td> <td></td> <td></td> <td></td> <td></td> <td class="tabelNummers"> c. 2.000 &gt; 19.000 </td> <td></td> <td></td> </tr> <tr class="odd"> <td> 1810 </td> <td></td> <td></td> <td></td> <td></td> <td class="tabelNummers"> c. 3.980 </td> <td></td> <td></td> </tr> <tr class="even"> <td> 1825 </td> <td class="tabelNummers"> 2.600 </td> <td class="tabelNummers"> 1.450 </td> <td class="tabelNummers"> 450 </td> <td></td> <td class="tabelNummers"> 4.500 </td> <td class="tabelNummers"> c. 70 + * 900 (92%) </td> <td class="tabelNummers"> c. 750 </td> </tr> <tr class="odd"> <td> 1840 </td> <td class="tabelNummers"> 1.440 </td> <td class="tabelNummers"> 2.349 </td> <td class="tabelNummers"> 763 </td> <td class="tabelNummers"> 1.207 </td> <td class="tabelNummers"> 5.759 </td> <td></td> <td class="tabelNummers"> c. 1.250 </td> </tr> <tr class="even"> <td> 1855 </td> <td class="tabelNummers"> 1.270 </td> <td class="tabelNummers"> 2.369 + * 583 (20%) </td> <td class="tabelNummers"> 592 </td> <td class="tabelNummers"> 1.286 </td> <td class="tabelNummers"> 5.517 + 583 </td> <td></td> <td class="tabelNummers"> 19 + * 1.292 (99%) </td> </tr> <tr class="odd"> <td> 1870 </td> <td class="tabelNummers"> 1.442 </td> <td class="tabelNummers"> 2.646 + * 892 (33%) </td> <td class="tabelNummers"> 150 </td> <td class="tabelNummers"> 934 </td> <td class="tabelNummers"> 5.172 + 892 </td> <td></td> <td class="tabelNummers"> 75 + * 1.450 (95 %) </td> </tr> </tbody>
 
 _Tabel 3: Geschatte omvang opvarenden admiraliteiten, Bataafs-Franse marine, Koninklijke Marine (totaal KM), Koloniale Marine (KolMar), Gouvernementsmarine en haar voorgangers (GM) in actieve dienst 1780-1870._[219](#fn219)
 
 _Toelichting: Europees + \* Indonesiërs (procentueel). Dus in 1855 dienden 2.369 Europeanen + 583 Indonesiërs en dat betekent 20% Indonesiërs aan boord van de schepen in Indonesië._
 
-## Opleiding en arbeidsvoorwaarden
+### Opleiding en arbeidsvoorwaarden
 
 Officieren kaartten het bemanningsprobleem regelmatig aan in pamfletten en vaktijdschriften. Zij hekelden het gebrek aan vaardigheden en motivatie van de onderofficieren en manschappen. Door de introductie van stoomvoortstuwing groeide bovendien de behoefte aan technologische kennis van het personeel. Samenstelling en kwaliteit van de opvarenden waren eind negentiende eeuw minstens zo belangrijk als de omvang. Scholing en betere arbeidsvoorwaarden waren instrumenten om de werving te bevorderen, personeelstekorten te verminderen en de bedenkelijke reputatie van de marine op te vijzelen. Adviezen van de commissie-Prins Hendrik (1852) voor een beter personeelsbeleid namen de opeenvolgende ministers ter harte. Hervormingen wierpen langzaam vruchten af. Zeeofficieren profiteerden het eerst van de overheidsmaatregelen, de manschappen volgden in hun kielzog. De regelgeving voor en integratie van Indonesische schepelingen lieten tot de eeuwwisseling op zich wachten en vallen buiten het bestek van dit hoofdstuk.
 
@@ -561,7 +561,7 @@ In 1829 werd in Medemblik een uniforme marine-opleiding in internaatsverband voo
 
 Uit onvrede over het gebrek aan militaire vorming op de Kweekschool voor de Zeevaart startte in 1803 een adelborstenopleiding onder de naam Cadetteninstituut voor de Marine der Bataafse Republiek aan boord van het in Hellevoetsluis gestationeerde wachtschip _Euridice_. Tabel 4 laat zien dat daarna tot 1829 verschillende opeenvolgende onderwijsinstellingen aan de wal naast de vlootopleiding bestonden. Iedere opleiding had voor- en nadelen. In Delft bijvoorbeeld, misten adelborsten het contact met de zee. Na omzwervingen langs Medemblik en Breda opende in 1854 het Koninklijk Instituut voor de Marine (KIM) te Willemsoord zijn deuren. Hier genoten zeeofficieren, scheepsbouwkundigen en officieren-mariniers hun opleiding. Tussen 1860 en 1871 hadden mariniers een zelfstandige opleiding in Amsterdam.[224](#fn224) De scheepsbouwopleiding verhuisde al in 1859 naar Delft. Opleidingen voor bijvoorbeeld de officieren van administratie en technische dienst verwelkomde het KIM pas in de jaren 1910.
 
-<colgroup><col style="width: 42%"><col style="width: 57%"></colgroup><thead><tr class="header"><th class="tabelKop">Periode</th><th class="tabelKop">Opleiding</th></tr></thead><tbody><tr class="odd"><td>1780-1829</td><td>Praktische training aan boord in combinatie met theorielessen vanparticulieren aan de wal</td></tr><tr class="even"><td>1785-1829</td><td>Kweekschool voor de Zeevaart in Amsterdam</td></tr><tr class="odd"><td>1803-1805</td><td>Cadetten-Instituut voor de Marine der Bataafse Republiek aan boord<em>Euridice</em> te Hellevoetsluis</td></tr><tr class="even"><td>1806-1809</td><td>Adelborstenopleiding in het voormalig Pesthuis op Feijenoord teRotterdam</td></tr><tr class="odd"><td>1809-1811</td><td>Adelborstenopleiding in VOC-pakhuizen te Enkhuizen</td></tr><tr class="even"><td>1812-1815</td><td>Ecole Maritime Impérial te Brest; opleidingsschip <em>Duquesne</em>te Toulon; aan boord <em>Trève</em></td></tr><tr class="odd"><td>1816-1828</td><td>Adelborstenopleiding aan de Artillerie- en Genieschool te Delft</td></tr><tr class="even"><td>1829-1850</td><td>Koninklijk Instituut voor de Marine te Medemblik; opheffingvlootopleiding</td></tr><tr class="odd"><td>1850-1854</td><td>Adelborstenopleiding aan de Koninklijke Militaire Academie teBreda</td></tr><tr class="even"><td>vanaf 1854</td><td>Koninklijk Instituut voor de Marine te Willemsoord (Den Helder)</td></tr></tbody>
+<colgroup> <col style="width: 42%"> <col style="width: 57%"> </colgroup> <tbody> <tr class="odd"> <td class="tabelKop"> Periode </td> <td class="tabelKop"> Opleiding </td> </tr> <tr class="even"> <td> 1780-1829 </td> <td> Praktische training aan boord in combinatie met theorielessen van particulieren aan de wal </td> </tr> <tr class="odd"> <td> 1785-1829 </td> <td> Kweekschool voor de Zeevaart in Amsterdam </td> </tr> <tr class="even"> <td> 1803-1805 </td> <td> Cadetten-Instituut voor de Marine der Bataafse Republiek aan boord <em>Euridice</em> te Hellevoetsluis </td> </tr> <tr class="odd"> <td> 1806-1809 </td> <td> Adelborstenopleiding in het voormalig Pesthuis op Feijenoord te Rotterdam </td> </tr> <tr class="even"> <td> 1809-1811 </td> <td> Adelborstenopleiding in VOC-pakhuizen te Enkhuizen </td> </tr> <tr class="odd"> <td> 1812-1815 </td> <td> Ecole Maritime Impérial te Brest; opleidingsschip <em>Duquesne</em> te Toulon; aan boord <em>Trève</em> </td> </tr> <tr class="even"> <td> 1816-1828 </td> <td> Adelborstenopleiding aan de Artillerie- en Genieschool te Delft </td> </tr> <tr class="odd"> <td> 1829-1850 </td> <td> Koninklijk Instituut voor de Marine te Medemblik; opheffing vlootopleiding </td> </tr> <tr class="even"> <td> 1850-1854 </td> <td> Adelborstenopleiding aan de Koninklijke Militaire Academie te Breda </td> </tr> <tr class="odd"> <td> vanaf 1854 </td> <td> Koninklijk Instituut voor de Marine te Willemsoord (Den Helder) </td> </tr> </tbody>
 
 _Tabel 4: Opleidingen van adelborsten 1780-1870._[225](#fn225)
 
@@ -611,7 +611,7 @@ Betere scholing en arbeidsvoorwaarden gingen hand in hand met toenemende deskund
 
 Opleiding, betere arbeidsvoorwaarden en uniforme regelgeving waren tekenen van en droegen bij aan de professionalisering van de zeemacht. Dat, op haar beurt, verhoogde het prestige van de marine en versterkten eergevoel, plichtsbesef en esprit de corps van het personeel. Een en ander uitte zich eveneens in de scheepsdienst aan boord en de sociale voorzieningen aan de wal.
 
-## Aan boord en aan de wal
+### Aan boord en aan de wal
 
 #### Voor en achter de mast
 
@@ -671,7 +671,7 @@ Van oudsher werden vlootvoogden overladen met publieke loftuitingen en geschenke
 
 ![Onderscheidingen van viceadmiraal  jonkheer Marten W. van Rensselaer Bowier (1822-1889). Bowier ontving in 1862 de Militaire Willems-Orde voor Moed, Beleid en Trouw voor acties tegen zeerovers annex kapers ten noorden van Sulawesi (Celebes). Overige onderscheidingen zijn de Orde van de Nederlandse Leeuw, eretekenen voor belangrijke krijgsverdiensten in de Atjehoorlog, het dienstkruis voor officieren van de zeemacht en enkele buitenlandse onderscheidingen, waaronder de Orde van de Rijzende Zon van Japan.<br><br><br>](84_Dapperheidsonderscheiding.jpg)
 
-### 4 MARINEBASES EN VEILIG VAARWATER
+## 4 MARINEBASES EN VEILIG VAARWATER
 
 Het afnemend politiek en militair potentieel van het land in de Bataafs-Franse tijd en in het koninkrijk na 1813 leidde tot een drastische versobering van de walorganisatie van de marine. Concentratie van marinebestuur en walfaciliteiten zette een proces in gang dat uiteindelijk zou eindigen in het handhaven van niet meer dan één grote marinebasis in de kop van Noord-Holland.
 
@@ -679,7 +679,7 @@ Daarentegen vergde de wereldwijde uitbreiding van het werkterrein van de marine 
 
 De marine kreeg, zoals vermeld, tevens een taak bij het bevorderen van veiligheid voor de scheepvaart. Die veiligheid vereiste betrouwbare zeekaarten, advies van loodsen in nauw en gevaarlijk vaarwater, een duidelijke betonning en bebakening van vaarwegen en aan de zeekant een kustwacht en kustverlichting. Om aan deze veiligheidsvoorwaarden te voldoen richtte de marine verschillende aparte diensten op en werden internationaal afspraken gemaakt.
 
-## Concentratie en mondialisering
+### Concentratie en mondialisering
 
 #### De marinebases van de Republiek
 
@@ -731,7 +731,7 @@ De marinewens van een eigen school voor officieren dicht bij zee in plaats van i
 
 Anno 1870 beschikte de marine in Nederland over een passend pand aan het Lange Voorhout in Den Haag als ministerieel bestuurscentrum, een volwaardige, uitgebreide marinebasis inclusief een scheepswerf en het opleidingsinstituut voor officieren in Den Helder en maritieme steunpunten in Amsterdam, met werf, en in Rotterdam, waar na de sluiting van de werf de kazerne van het Korps Mariniers behouden bleef.
 
-#### <em>Marinebases overzee</em>
+#### Marinebases overzee
 
 Tijdens de jaren van de Republiek had de zeemacht geen overzeese steunpunten. De vloot manifesteerde zich wel steeds vaker buiten Europese wateren. Op de trans-Atlantische vaart konvooieerden oorlogsschepen vanaf 1737 jaarlijks de koopvaardij. In 1783 voer voor het eerst een eskader naar Zuidoost-Azië ter bescherming van de VOC-bezittingen. Bij gebrek aan voldoende vlootversterkingen vielen de koloniën tijdens de Franse tijd in Britse handen. Na het herstel van de Nederlandse onafhankelijkheid kreeg de Koninklijke Marine de maritieme verdediging van de koloniën als taak. Dat vereiste een permanente aanwezigheid van schepen en personeel in Nederlands-Indië en – op veel bescheidener schaal en ook niet voortdurend – presentie van de marine in de Cariben. Bij de defensie van de Goudkust in West-Afrika werd de vloot niet betrokken. Soms liet zich hier een marineschip zien.
 
@@ -761,7 +761,7 @@ In de strijd van de Nederlanders tegen de Spanjaarden tijdens de Tachtigjarige O
 
 In de loop van de negentiende eeuw ontwikkelden de havens van Willemstad op Curaçao en van Surabaya op Java zich als belangrijke overzeese bases van de marine. Onrust verloor een aanvankelijk belangrijke positie, maar bleef als station behouden. De overige hiervoor genoemde stations in de Indonesische archipel boden uiteindelijk niet veel meer dan ankerplaatsen op de rede.
 
-## Navigatie en hydrografie
+### Navigatie en hydrografie
 
 #### Zeevaartkunde
 
@@ -843,7 +843,7 @@ De Nederlandse koloniën in de Cariben waren economisch van minder belang dan Ne
 
 In de Nederlandse Antillen was Willemstad de belangrijkste haven voor de internationale scheepvaart. De toegang vanuit zee naar Willemstad op Curaçao was betrekkelijk eenvoudig. Een enkele ton markeerde ondiep water vlak voor de kust. Voor verkenning vanuit zee van Curaçao en de andere eilanden waren vuurtorens gewenst. De eerste vuurtoren, de Willemstoren, werd in 1838 op de zuidoosthoek van Bonaire in dienst gesteld. Op het eilandje Klein Curaçao kwam twaalf jaar later een vuurtoren in gebruik en op Aruba werd in 1867 als deel van het fort Zoutman de vuurtoren Willem III gebouwd.[360](#fn360) Veertien jaar daarna volgde de bouw van een vuurtoren op het Arubaanse zuidelijke punt Seroe Colorado.
 
-## Internationale afspraken en samenwerking
+### Internationale afspraken en samenwerking
 
 #### Meteorologie en marine
 
@@ -869,7 +869,7 @@ In de Zeerechtdeclaratie werd verder het gebruik van kartelschepen geregeld. Kar
 
 In de negentiende eeuw is de veiligheid van de zeevaart enorm verbeterd. Voor de zeevaartkunde was het een periode van belangrijke wetenschappelijke ontwikkeling. Hydrografische diensten van verschillende marines brachten vaarwegen en kustgebieden in kaart. Betonning en bebakening van vaarwegen en kustverlichting werden verbeterd en uitgebreid. De beloodsing van scheepvaart in lastig vaarwater kwam steeds meer beschikbaar. Meteorologie ontwikkelde zich als vakgebied, waarbij een noodzakelijke internationale samenwerking werd opgezet. Ook door internationale overeenstemming kon de afschaffing van de kaapvaart en het gebruik van kartelschepen worden geregeld.
 
-## Besluit
+### Besluit
 
 De geografische ligging van Nederland begrensd door de Noordzee en een continentaal achterland dwong de Republiek haar militaire kracht en financiële middelen te verdelen tussen vloot en leger. Eind achttiende eeuw bezweek de Republiek onder oplopende interne spanningen en torenhoge schulden. Het echec van de Vierde Nederlands-Engelse Oorlog legde de zwakte van de zeemacht en het decentrale bestuur van vijf admiraliteitscolleges bloot. Na de wisseling van de wacht verloor de marine tijdens de Bataafs-Franse tijd onder centraal bestuur steeds meer zelfstandigheid; administratieve en organisatorische hervormingen wedijverden met het verlies aan schepen en ervaren zeeofficieren. In omvang en kwaliteit stelde de vloot steeds minder voor.
 

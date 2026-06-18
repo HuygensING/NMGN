@@ -77,6 +77,11 @@ h4 {
   width: 100%;
 }
 
+.table-scroll:focus-visible {
+  outline: 2px solid theme('colors.nmgnBlue.600');
+  outline-offset: 2px;
+}
+
 table {
   @apply mt-4 border border-nmgnBlue-300 table-fixed;
   }

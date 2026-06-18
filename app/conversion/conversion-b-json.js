@@ -150,7 +150,7 @@ module.exports = function (resolveData) {
         }
         elementData.tableColumns = tableColumns
 
-        elementInner = domNodeItem.innerHTML.replaceAll('</p>', '').replaceAll('<p>', '').replace(/[\r\n]+/g, '')
+        elementInner = elementInner.replaceAll('</p>', ' ').replaceAll('<p>', ' ').replace(/\s+/g, ' ').trim()
         
       }
       

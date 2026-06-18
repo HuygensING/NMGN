@@ -32,7 +32,7 @@
         <div class="w-full lg:w-1/3 pt-10 lg:pt-20 flex flex-col gap-4">
             {{#if isHome}}{{else}}
             <div class=""><strong>Hoofdstuk {{chapterMetadata.chapter}}</strong></div>
-            <div class=""><strong>{{{replaceStr chapterMetadata.title "±" ""}}}</strong><br>
+            <div class=""><strong>{{{formatTitle chapterMetadata.title}}}</strong><br>
             <em>{{chapterMetadata.author}}</em></div>
             <div class="">
                 Gepubliceerd op {{chapterMetadata.publication_date}}<br>
