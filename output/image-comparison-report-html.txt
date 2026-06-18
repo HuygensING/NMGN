@@ -1,0 +1,16 @@
+HTML IMAGE COMPARISON REPORT (missing images only)
+===================================================
+
+d2h6-binnenvaart-in-de-zeventiende-en-achttiende-eeuw-innovatie-en-marktintegratie.html
+Missing in folder:
+  9a_fig.1.9a.jpg9b_fig.1.9b.jpg
+
+d3h2-de-koopvaardij-binnen-europa-1780-1870.html
+Missing in folder:
+  <spandata-custom-style=
+
+d3h4-wereldwijd-op-stoom-hervormingen-bij-de-zeemacht-1780-1870.html
+Missing in folder:
+  73_defPortretKinsbergen.jpg
+  74a_Matroos.jpg
+

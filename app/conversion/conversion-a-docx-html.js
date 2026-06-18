@@ -1,4 +1,5 @@
 let pandoc = require('node-pandoc');
+const fs = require('fs-extra');
 const utility = require('../utils.js');
 
 module.exports = function(file, isLast) {
@@ -11,7 +12,11 @@ module.exports = function(file, isLast) {
 
         callback = function (err, htmlContent) {
           if (err) console.error('Oh Nos: ',err);
-         utility.createFile('./test-output/html/1---'+file+'.html', JSON.stringify(htmlContent))
+
+          if (htmlContent) {
+            fs.ensureDirSync('./test-output/html');
+            utility.createFile('./test-output/html/' + file + '.html', htmlContent);
+          }
 
           resolve([htmlContent, isLast, file]);
           

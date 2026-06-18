@@ -78,6 +78,18 @@
     ["<span data-custom-style=\"Heading 3 Char\">", ""],
     ["<span data-custom-style=\"Heading 2 Char\">", ""],
 
+
+    ["<spandata-custom-style=\"NoneA\">", ""],
+    ["<span data-custom-style=\"Hyperlink.6\">", ""],
+    ["<span data-custom-style=\"Hyperlink.1\">", ""],
+    ["<span data-custom-style=\"None\">", ""],
+    ["<spandata-custom-style=\"Hyperlink.6\">", ""],
+    ["<span data-custom-style=\"None A\">", ""],
+
+    ["<span data-custom-style=\"Hyperlink.17\">", ""],
+    
+
+
     ["<div data-custom-style=\"Style1\">", ""],
     
 

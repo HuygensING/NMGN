@@ -121,7 +121,7 @@ Dat halverwege de jaren vijftig de tijd rijp bleek de (in eerste instantie) Frie
 
 Initiatieven tot het behoud van historische schepen namen na de oprichting van de Stichting Stamboek een vlucht. Zo werd in 1960 de Stichting Botterbehoud opgericht, in de jaren zeventig de Landelijke Vereniging tot Behoud van het Historisch Bedrijfsvaartuig en zagen onder meer aparte behoudsorganisaties voor sleepboten, reddingboten en klassieke scherpe jachten het licht. Vandaag de dag staan ruim 3.000 historische vaartuigen in het Register Varend Erfgoed Nederland van de Federatie Varend Erfgoed Nederland geregistreerd.[47](#fn47) Een vloot historische vaartuigen van de Federatie is elke vijf jaar in Amsterdam te aanschouwen tijdens het grootste Nederlandse maritieme evenement van onze tijd: SAIL.
 
-![Vlootschouw van tjalken. SAIL Amsterdam, 23 augustus 2015.<br>Foto door Leo Schuitemaker.<br><br>](17_Sail.jpg)
+![Vlootschouw van Lemsteraken. SAIL Amsterdam, 23 augustus 2015.<br>Foto door Leo Schuitemaker.<br><br>](17_Sail.jpg)
 
 ### Slotbeschouwing
 

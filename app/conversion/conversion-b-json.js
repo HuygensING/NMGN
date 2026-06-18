@@ -39,7 +39,6 @@ module.exports = function (resolveData) {
       htmlContent = htmlContent.replaceAll(replaceString[0], replaceString[1]);
     });
 
-    utility.createFile('./test-output/html/0---' + file + '.html', htmlContent)
 
     const dom = new JSDOM('<html><body>' + htmlContent + '</body></html>');
     const document = dom.window.document;
@@ -69,6 +68,19 @@ module.exports = function (resolveData) {
       });
 
       parent.removeChild(div);
+    });
+
+    // Word hyperlink character styles → semantic emphasis
+    const hyperlinkSpans = body.querySelectorAll('span[data-custom-style="Hyperlink.0"], span[data-custom-style="Hyperlink.2"]');
+    hyperlinkSpans.forEach(span => {
+      const onlyChild = span.children.length === 1 ? span.children[0] : null;
+      if (onlyChild && onlyChild.tagName.toLowerCase() === 'em' && span.childNodes.length === 1) {
+        span.replaceWith(onlyChild);
+        return;
+      }
+      const em = document.createElement('em');
+      em.innerHTML = span.innerHTML;
+      span.replaceWith(em);
     });
 
     const domNodeList = body.children;
