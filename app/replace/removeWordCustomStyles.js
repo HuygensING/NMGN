@@ -30,15 +30,44 @@ function convertHeadingWrapper(document, dom, div, headingTag) {
   parent.removeChild(div);
 }
 
-function convertEmphasisSpan(document, dom, span) {
+function isHyperlinkStyle(styleName) {
+  return styleName && styleName.startsWith('Hyperlink.');
+}
+
+function simplifyHyperlinkSpan(document, span, italicMap) {
+  if (span.closest('em')) {
+    unwrapElement(span);
+    return;
+  }
+
   const onlyChild = span.children.length === 1 ? span.children[0] : null;
   if (onlyChild && onlyChild.tagName.toLowerCase() === 'em' && span.childNodes.length === 1) {
     span.replaceWith(onlyChild);
     return;
   }
-  const em = document.createElement('em');
-  em.innerHTML = span.innerHTML;
-  span.replaceWith(em);
+
+  if (span.querySelector('em')) {
+    unwrapElement(span);
+    return;
+  }
+
+  const styleName = span.getAttribute('data-custom-style');
+  if (italicMap[styleName]) {
+    const em = document.createElement('em');
+    em.innerHTML = span.innerHTML;
+    span.replaceWith(em);
+    return;
+  }
+
+  unwrapElement(span);
+}
+
+function simplifyHyperlinkSpans(document, body, italicMap) {
+  let spans = body.querySelectorAll('span[data-custom-style^="Hyperlink."]');
+  while (spans.length) {
+    simplifyHyperlinkSpan(document, spans[0], italicMap);
+    spans = body.querySelectorAll('span[data-custom-style^="Hyperlink."]');
+  }
 }
 
 function applyTableCellStyles(body, tableCellStyles) {
@@ -70,8 +99,7 @@ function applyTableCellStyles(body, tableCellStyles) {
 function removeRemainingCustomStyles(body) {
   const preservedStyles = new Set([
     ...Object.keys(preservedWordStyles.tableCellStyles),
-    ...Object.keys(preservedWordStyles.headingWrapperStyles),
-    ...preservedWordStyles.emphasisSpanStyles
+    ...Object.keys(preservedWordStyles.headingWrapperStyles)
   ]);
 
   let found = true;
@@ -79,7 +107,7 @@ function removeRemainingCustomStyles(body) {
     found = false;
     body.querySelectorAll('[data-custom-style]').forEach(el => {
       const styleName = el.getAttribute('data-custom-style');
-      if (preservedStyles.has(styleName)) return;
+      if (preservedStyles.has(styleName) || isHyperlinkStyle(styleName)) return;
 
       found = true;
       const tag = el.tagName.toLowerCase();
@@ -100,7 +128,7 @@ function removeEmptyParagraphs(body) {
   });
 }
 
-module.exports = function removeWordCustomStyles(document, dom) {
+module.exports = function removeWordCustomStyles(document, dom, hyperlinkItalicMap = {}) {
   const body = document.querySelector('body');
   if (!body) return;
 
@@ -110,11 +138,7 @@ module.exports = function removeWordCustomStyles(document, dom) {
     });
   });
 
-  preservedWordStyles.emphasisSpanStyles.forEach(styleName => {
-    body.querySelectorAll(`span[data-custom-style="${styleName}"]`).forEach(span => {
-      convertEmphasisSpan(document, dom, span);
-    });
-  });
+  simplifyHyperlinkSpans(document, body, hyperlinkItalicMap);
 
   applyTableCellStyles(body, preservedWordStyles.tableCellStyles);
   removeRemainingCustomStyles(body);

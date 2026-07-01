@@ -9,15 +9,5 @@
   "headingWrapperStyles": {
     "KOP2": "h2",
     "KOP3": "h3"
-  },
-  "emphasisSpanStyles": [
-    "Hyperlink.0",
-    "Hyperlink.2",
-    "Hyperlink.4",
-    "Hyperlink.6",
-    "Hyperlink.7",
-    "Hyperlink.8",
-    "Hyperlink.9",
-    "Hyperlink.10"
-  ]
+  }
 }

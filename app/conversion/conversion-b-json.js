@@ -3,6 +3,7 @@ const utility = require('../utils.js');
 const replaceStrings = require('../replace/replaceStrings.json');
 const replaceStringsFromDocx = require('../replace/replaceFromDocx.json');
 const removeWordCustomStyles = require('../replace/removeWordCustomStyles.js');
+const getHyperlinkItalicMapFromDocx = require('../replace/getHyperlinkItalicMapFromDocx.js');
 const contentCorrectionsImages = require('../replace/contentAjustmentsImages.json');
 const contentCorrections = require('../replace/contentAjustments.json');
 const notStoreStrings = require('../doNotStoreStrings.json');
@@ -45,7 +46,8 @@ module.exports = function (resolveData) {
     const document = dom.window.document;
     const body = document.querySelector("body");
 
-    removeWordCustomStyles(document, dom);
+    const hyperlinkItalicMap = getHyperlinkItalicMapFromDocx('./content/word/' + file + '.docx');
+    removeWordCustomStyles(document, dom, hyperlinkItalicMap);
 
     const domNodeList = body.children;
     
