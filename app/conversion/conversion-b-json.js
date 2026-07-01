@@ -198,6 +198,7 @@ module.exports = function (resolveData) {
           let noteContentHTMLReplace = noteContentHTML
             .replace(new RegExp('<a[^>]*href="#fnref' + nId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '"[^>]*>[^<]*</a>', 'g'), '')
             .replaceAll('<li', '<div').replaceAll('</li>', '</div>').replaceAll('id="fn', 'id="noteContent').replaceAll('<a href="', '<a class="underline" href="')
+            .replaceAll('&nbsp;', ' ')
 
           htmlJson.footNotes.push({noteContent: noteContentHTMLReplace, noteId: nId,})
           

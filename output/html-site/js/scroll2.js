@@ -83,6 +83,7 @@
 
   function setActiveImage(button) {
     if (!button || typeof window.updateAsideFromInlineButton !== 'function') return;
+    if (typeof window.isAsideImageScrollLocked === 'function' && window.isAsideImageScrollLocked()) return;
     window.updateAsideFromInlineButton(button, true);
   }
 

@@ -1,5 +1,25 @@
 var MOBILE_IMAGE_BREAKPOINT = 768;
 
+function isAsideImageScrollLocked() {
+  var toggle = document.getElementById('asideImageLockToggle');
+  return toggle ? toggle.getAttribute('aria-checked') === 'true' : false;
+}
+
+function setAsideImageScrollLocked(locked) {
+  var toggle = document.getElementById('asideImageLockToggle');
+  var control = document.getElementById('asideImageLockControl');
+  var checked = locked ? 'true' : 'false';
+  var label = locked ? 'Klik om mee te scrollen' : 'Klik om beeld vast te zetten';
+  if (toggle) {
+    toggle.setAttribute('aria-checked', checked);
+    toggle.setAttribute('aria-label', label);
+  }
+  if (control) control.setAttribute('aria-checked', checked);
+}
+
+window.isAsideImageScrollLocked = isAsideImageScrollLocked;
+window.setAsideImageScrollLocked = setAsideImageScrollLocked;
+
 function openImageMobileOverlay(src, title, caption) {
   var overlay = document.getElementById('imageMobileOverlay');
   if (!overlay) return;
@@ -51,6 +71,7 @@ function updateAsideFromInlineButton(button, fromScroll) {
 }
 
 function showImageAside() {
+  setAsideImageScrollLocked(true);
   updateAsideFromInlineButton(this, false);
 }
 
@@ -61,6 +82,18 @@ window.updateAsideFromInlineButton = updateAsideFromInlineButton;
     var allInlineImages = document.querySelectorAll('.inlineImage');
     for (var i = 0; i < allInlineImages.length; i++) {
       allInlineImages[i].addEventListener('click', showImageAside);
+    }
+    var lockToggle = document.getElementById('asideImageLockToggle');
+    if (lockToggle) {
+      lockToggle.addEventListener('click', function () {
+        setAsideImageScrollLocked(!isAsideImageScrollLocked());
+      });
+    }
+    var lockToggleText = document.getElementById('asideImageLockToggleText');
+    if (lockToggleText) {
+      lockToggleText.addEventListener('click', function () {
+        setAsideImageScrollLocked(!isAsideImageScrollLocked());
+      });
     }
     var overlay = document.getElementById('imageMobileOverlay');
     if (overlay) {

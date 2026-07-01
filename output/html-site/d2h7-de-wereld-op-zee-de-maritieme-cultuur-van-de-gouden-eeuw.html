@@ -835,14 +835,34 @@
         
         <div class="w-full min-h-screen sticky top-0 flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-screen">
     
-             <figure class="flex flex-col">
-                <img id="asideImg" src="images/d2h7/d2h7-600/1_uitsnedSlag.jpg" class="w-full border" alt="De herinnering aan de slag bij Gibraltar kreeg weer politieke relevantie na de hervatting van de oorlog met Spanje in 1621." loading="lazy">
-                <div class="flex justify-end">
-                    <button onclick="bigImageViewer();return false;" class="bg-nmgnBlue-800 p-2 rounded text-white text-sm -mt-1 cursor-pointer">Vergroten</button>
+             <figure class="flex flex-col min-h-0 w-full mb-4">
+                <img id="asideImg" src="images/d2h7/d2h7-600/1_uitsnedSlag.jpg" class="w-full border shrink-0" alt="De herinnering aan de slag bij Gibraltar kreeg weer politieke relevantie na de hervatting van de oorlog met Spanje in 1621." loading="lazy">
+                <div class="flex justify-between items-center gap-4 -mt-1 shrink-0">
+                    <div id="asideImageLockControl" class="group flex items-center gap-2 shrink-0" aria-checked="false">
+                        <button type="button" id="asideImageLockToggle" role="switch" aria-checked="false" aria-label="Klik om beeld vast te zetten" class="flex items-center justify-center p-2 rounded-full border-2 border-nmgnBlue-800 bg-nmgnBlue-800 text-white cursor-pointer shrink-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-nmgnBlue-800">
+                            <span class="flex items-center group-aria-checked:hidden"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="currentColor" class="w-4 h-4 " aria-hidden="true">
+      <rect x="8.98" y="92.76" width="84.43" height="7.24"/>
+      <rect x="45.4" y="36.36" width="9.18" height="44.86"/>
+      <path d="M67.2,31.2c-13.3-5.65-8.56-21.05-8.56-21.05h12.36V0H28.96v10.16h12.36s4.74,15.4-8.56,21.05c-9.86,4.19-9.87,7.73-9.87,7.73v10.16h54.17v-10.16s-.01-3.55-9.87-7.73Z"/>
+    </svg>
+    </span>
+                            <span class="hidden items-center group-aria-checked:flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="currentColor" class="w-4 h-4 " aria-hidden="true">
+      <rect x="7.78" y="92.76" width="84.43" height="7.24"/>
+      <rect x="44.2" y="51.21" width="9.18" height="44.86"/>
+      <path d="M66.01,55.75c-13.3-5.65-8.56-21.05-8.56-21.05h12.36v-10.16H27.77v10.16h12.36s4.74,15.4-8.56,21.05c-9.86,4.19-9.87,7.73-9.87,7.73v10.16h54.17v-10.16s-.01-3.55-9.87-7.73Z"/>
+    </svg>
+    </span>
+                        </button>
+                        <button type="button" id="asideImageLockToggleText" tabindex="-1" aria-hidden="true" class="text-sm text-nmgnBlue-800 cursor-pointer bg-transparent border-0 p-0 text-left">
+                            <span class="group-aria-checked:hidden">Klik om beeld vast te zetten</span>
+                            <span class="hidden group-aria-checked:inline">Klik om mee te scrollen</span>
+                        </button>
+                    </div>
+                    <button type="button" onclick="bigImageViewer();return false;" class="bg-nmgnBlue-800 p-2 rounded-full text-white text-sm cursor-pointer shrink-0">Vergroten</button>
                 </div>
-                <figcaption  class="text-sm max-w-xl mx-auto">
-                    <strong class="mt-4 block" id="asideImgTitle">De slag bij Gibraltar, 25 april 1607</strong>
-                    <span id="asideCaption">
+                <figcaption class="text-sm max-w-xl mx-auto min-h-0 flex flex-col">
+                    <strong class="mt-4 block shrink-0" id="asideImgTitle">De slag bij Gibraltar, 25 april 1607</strong>
+                    <span id="asideCaption" class="overflow-y-auto max-h-[30vh] min-h-0 mt-1" tabindex="0">
                         De herinnering aan de slag bij Gibraltar kreeg weer politieke relevantie na de hervatting van de oorlog met Spanje in 1621.
                         <br>Schilderij door Cornelis Claesz. van Wieringen, 1622.
                         
