@@ -9,6 +9,7 @@ publication_date: 9 maart 2026
 doi: 10.5281/zenodo.18929416
 doi_url: https://zenodo.org/records/18929416
 status: development
+filename: koopvaardij-buiten-europa-in-zeventiende-achttiende-eeuw.html
 ---
 
 ## 1 BEWINDHEBBERS EN KOOPLIEDEN

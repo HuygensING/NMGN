@@ -20,6 +20,22 @@ function setAsideImageScrollLocked(locked) {
 window.isAsideImageScrollLocked = isAsideImageScrollLocked;
 window.setAsideImageScrollLocked = setAsideImageScrollLocked;
 
+function updateAsideImageOrientation() {
+  var asideImg = document.getElementById('asideImg');
+  if (!asideImg || !asideImg.naturalWidth) return;
+  asideImg.classList.toggle('aside-img-portrait', asideImg.naturalHeight > asideImg.naturalWidth);
+}
+
+function bindAsideImageOrientation(asideImg) {
+  if (!asideImg) return;
+  asideImg.classList.remove('aside-img-portrait');
+  if (asideImg.complete && asideImg.naturalWidth) {
+    updateAsideImageOrientation();
+  } else {
+    asideImg.addEventListener('load', updateAsideImageOrientation, { once: true });
+  }
+}
+
 function openImageMobileOverlay(src, title, caption) {
   var overlay = document.getElementById('imageMobileOverlay');
   if (!overlay) return;
@@ -65,7 +81,10 @@ function updateAsideFromInlineButton(button, fromScroll) {
 
   var asideTitle = document.getElementById('asideImgTitle');
   var asideCaption = document.getElementById('asideCaption');
-  if (asideImg) asideImg.setAttribute('src', imgSource);
+  if (asideImg) {
+    asideImg.setAttribute('src', imgSource);
+    bindAsideImageOrientation(asideImg);
+  }
   if (asideTitle) asideTitle.innerHTML = imgTitle;
   if (asideCaption) asideCaption.innerHTML = imgCaption;
 }
@@ -83,6 +102,7 @@ window.updateAsideFromInlineButton = updateAsideFromInlineButton;
     for (var i = 0; i < allInlineImages.length; i++) {
       allInlineImages[i].addEventListener('click', showImageAside);
     }
+    bindAsideImageOrientation(document.getElementById('asideImg'));
     var lockToggle = document.getElementById('asideImageLockToggle');
     if (lockToggle) {
       lockToggle.addEventListener('click', function () {

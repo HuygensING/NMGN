@@ -9,9 +9,10 @@ publication_date: 29 oktober 2024
 doi: 10.5281/zenodo.14010291
 doi_url: https://zenodo.org/records/14010291
 status: development
+filename: binnenvaart-in-twintigste-eeuw-schaalvergroting-maatschappelijke-integratie.html
 ---
 
-### 1 Twee deelmarkten
+## 1 Twee deelmarkten
 
 Vanwege de onderlinge verschillen tussen de vervoersorganisatie, het vaargebied en de vaartuigen is het zinvol om in dit hoofdstuk een onderscheid te maken tussen twee deelmarkten: de internationale binnenvaart en de binnenlandse scheepvaart. De internationale binnenvaart omvat al het goederenvervoer met binnenschepen over de Nederlandse landsgrenzen, vooral met Duitsland en België. Het grootste deel van dit vervoer, de zogenaamde Rijnvaart, bestaat uit schepen en goederen die de Nederlandse grens op de Rijn bij Lobith passeren. De binnenlandse scheepvaart verzorgt al het binnenlandse goederenvervoer.[1](#fn1)
 
@@ -43,7 +44,7 @@ Het Rijnschepenregister biedt vanaf 1879 informatie over de omvang en samenstell
 
 Daarnaast bieden de liggers van de scheepsmetingsdienst en de scheepsboekhouding van het kadaster informatie over de vlootontwikkeling, ook voor de periode tussen 1891/1899-1934. Vooral de gegevens van de scheepsmetingsdienst zijn zeer volledig en kunnen op internet worden geraadpleegd.[5](#fn5) Helaas zijn deze gegevens nooit systematisch geanalyseerd.
 
-### 2 Vervoer en vervoersorganisaties voor de Tweede Wereldoorlog
+## 2 Vervoer en vervoersorganisaties voor de Tweede Wereldoorlog
 
 In 1880 bedroeg het internationale binnenvaartvervoer 5,9 miljoen ton, exclusief de doorvoer. Hiervan ging 3,7 miljoen ton over de Rijn van/naar Duitsland en 2,1 miljoen ton over de Schelde en de Zuid-Willemsvaart van/naar België. Op de Rijn vormde het stroomafwaartse vervoer van steenkolen met 1,5 miljoen ton de voornaamste goederenstroom. De exacte omvang van het binnenlands vervoer is onbekend.[6](#fn6)
 
@@ -151,7 +152,7 @@ De Tweede Wereldoorlog leidde in de binnenvaart niet tot structurele verandering
 
 _Tabel 3: Schatting van het binnenlands goederenvervoer per binnenschip in 1938._[26](#fn26)
 
-### 3 Het vervoer en de vervoersorganisatie na de Tweede Wereldoorlog
+## 3 Het vervoer en de vervoersorganisatie na de Tweede Wereldoorlog
 
 De binnenvaart kwam zwaar gehavend uit de Tweede Wereldoorlog tevoorschijn. Veel schepen waren verwoest of verdwenen, sommige vaarwegen waren onbevaarbaar, de fabrieken van de belangrijkste klant – de Duitse staalindustrie – lagen in puin. In het internationale vervoer verliep het naoorlogse herstel langzaam.
 
@@ -267,7 +268,7 @@ Op den duur verschenen particuliere schippers, in opdracht van een rederij of ee
 
 In 2017 waren er in ons land 4.130 binnenvaartondernemingen, waarvan 3.050 in het goederenvervoer en 1.080 in de passagiersvaart of als veerdienst werkzaam waren. Samen werkten hier 18.300 mensen, die jaarlijks voor 15.400 arbeidsjaren aan werk verrichtten. Hun gezamenlijke omzet bedroeg 2,7 miljard euro. Het kleinbedrijf overheerste sterk. Van al deze ondernemingen gaven 4.015 werkgelegenheid aan minder dan 10 personen, terwijl slechts 15 rederijen meer dan 50 mensen telden. Daarnaast biedt de binnenvaartbranche werk aan ondernemingen buiten de sector, zoals de scheepsbouw. Recente cijfers hierover zijn niet beschikbaar. Volgens onderzoek uit 1999 ging het daarbij om een externe omzet van 1,2 miljard gulden (huidige waarde 820 miljoen euro) en werkgelegenheid voor 3.720 personen.[49](#fn49)
 
-### 5 Recreatievaart en recreatief personenvervoer
+## 5 Recreatievaart en recreatief personenvervoer
 
 Afgezien van een dissertatie waarin de ontwikkeling van de recreatievaart van elitesport naar ontspanningsmogelijkheid voor de gewone man in ons land wordt geanalyseerd, is er geen onderzoek dat de ontwikkeling van de watersport in al zijn facetten beschrijft. Al voor de Tweede Wereldoorlog waren regio’s als de Hollandse meren, de Friese meren en de Biesbosch als watersportgebied in trek, maar het aantal watersporters was betrekkelijk gering. Bijna alle watersporters behoorden tot de elite. Meestal waren zijzelf eigenaar van hun vaartuig, soms een fraai platbodemjacht, dat ze gebruikten voor wedstrijden en korte vaartochten in de omgeving van hun ligplaats. De oversteek over het IJsselmeer en de vaart op de Zeeuwse stromen was voor de toenmalige kleine, open, vaak ongemotoriseerde vaartuigen meestal te gevaarlijk.[50](#fn50)
 
@@ -299,7 +300,7 @@ _Tabel 11: Passagiersvloot Nederland. Aantal vaartuigen (2010)._[51](#fn51)
 
 _Tabel 12: Passagiersvloot Nederland. Omzet (2010)._[52](#fn52)
 
-### 6 De vloot voor de Tweede Wereldoorlog
+## 6 De vloot voor de Tweede Wereldoorlog
 
 In 1891 bestond de vloot voor het binnenlandse vervoer ongeveer uit 23.000 vaartuigen, met een gemiddeld laadvermogen van 35 ton, terwijl de Rijnvaartvloot ongeveer 3.000 vaartuigen met een gemiddeld laadvermogen van 200 ton telde. Rijnschepen waren dus veel groter dan binnenlandse vaartuigen. De binnenlandse vloot was grotendeels samengesteld uit zeilschepen, die op moeilijke trajecten soms van sleepbootassistentie gebruikmaakten. De Rijnvaartvloot bestond bijna uitsluitend uit sleepschepen.[53](#fn53) Daarnaast waren in 1899 in de binnenvaart ongeveer 1.500 stoomboten werkzaam, voor stoomvaartpassagiersdiensten, stoomvaartvrachtdiensten en vooral als sleepboten.[54](#fn54)
 
@@ -375,7 +376,7 @@ _Tabel 16_: _De Rijnvaartvloot. Type schepen en wijze van voortbeweging (1935)_.
 
 _Tabel 17: De Rijnvaartvloot. Eigendom van de vaartuigen (1937)._[69](#fn69)
 
-### 7 De vloot na de Tweede Wereldoorlog
+## 7 De vloot na de Tweede Wereldoorlog
 
 De Tweede Wereldoorlog had voor de Nederlandse vloot ingrijpende gevolgen. In 1942 bestond de vloot uit 19.905 vrachtschepen met een gezamenlijk laadvermogen van 4,7 miljoen ton. Begin 1946 waren er nog 13.129 vaartuigen met een laadvermogen van 2,7 miljoen ton over. Tegelijkertijd was het aantal sleepboten van 2102 naar 1.388 teruggelopen. Het verlies bestond vooral uit moderne, kostbare Rijnschepen, zoals tankschepen, schepen voor bijzondere doeleinden, moderne sleepschepen en grote motorschepen. Van de 47 grootste sleepboten met een vermogen van meer dan 500 pk waren na de oorlog nog vijf beschikbaar.[70](#fn70)
 
@@ -449,7 +450,7 @@ waarin overheid en bedrijfsleven samenwerken om de innovatie in de binnenvaart t
 
 ![Bierboot in Utrecht, 2011. Utrecht beschikt over twee vrachtschepen, de zogenaamde bierboten, voor de bevoorrading van de cafés in de binnenstad langs de Oude Gracht. De bierboten waren in ons land de eerste vrachtschepen die met elektrische stroom werden aangedreven. Ze kunnen evenveel lading meenemen als zes bestelwagens.<br><br><br>](43-33_Bierboot_Utrecht.jpg)
 
-### 8 De mensen: een geïsoleerde groep in de samenleving (1890-1940)
+## 8 De mensen: een geïsoleerde groep in de samenleving (1890-1940)
 
 De meeste schippers vonden tot ver in de twintigste eeuw emplooi op de binnenlandse markt. Vandaar dat in deze paragraaf dit hoofdstuk aan deze groep de meeste aandacht wordt besteed. Schippers hadden een reizend beroep, maar de meeste schippersgezinnen woonden tot ver in de negentiende eeuw in een huis aan de wal. Omstreeks de eeuwwisseling verdienden ongeveer 50.000 mensen in de binnenvaart hun brood als schipper, schippersvrouw, schippersknecht, meewerkend familielid of op een rederijschip. Meer dan tachtig procent van de vaartuigen was eigendom van particuliere schippers.[84](#fn84)
 
@@ -515,7 +516,7 @@ Daar waar de staat passief bleef, ondernamen gemeenten en particuliere organisat
 
 Tussen de beide wereldoorlogen verbeterde de onderwijssituatie geleidelijk. Omstreeks 1910 volgde de helft à driekwart van de schipperskinderen geen onderwijs. In 1936 waren er volgens gemeentelijke opgaven 12.202 schipperskinderen, waarvan 27,6 procent de school volledig, 31 procent tamelijk geregeld, 13,2 procent onvoldoende en 28,2 procent in het geheel niet bezocht. Veel kinderen bleven analfabeet. Veel kinderen die het ligplaatsonderwijs bezochten, beëindigden de school met het kennisniveau van een zeven à achtjarige walbewoner. Het enige lichtpunt was dat schippersdochters evenveel onderwijs genoten als zonen.
 
-### 9 De mensen: sociale integratie en emancipatie (1945-2022)
+## 9 De mensen: sociale integratie en emancipatie (1945-2022)
 
 Tussen 1950 en 1970 kromp de Nederlandse binnenvaartvloot van 17.055 naar 9.645 vaartuigen. De verdwenen schepen waren grotendeels kleine, gebrekkig uitgeruste vaartuigen met een laadvermogen van minder dan 100 ton: zeilschepen, vaartuigen met opduwers of zijschroeven en stoomboten. Veel van deze schepen hadden hun werkgebied in de drie noordelijke provincies.[86](#fn86) Elders is beschreven hoe zich in dit gebied een sociaal drama voltrok, waarbij naar schatting de werkgelegenheid van 3.000 schippers verloren ging.[87](#fn87)
 
@@ -545,7 +546,7 @@ In de tweede helft van de twintigste eeuw raakten de schippersgezinnen beter in 
 
 Doordat schipperskinderen niet meer automatisch voor een beroep als schipper kozen, ontstond een tekort aan bemanning. Dit gebrek aan menskracht werd vanaf 1980 opgevuld door bewoners van de Kaapverdische Eilanden en na de val van de Berlijnse muur door Oost-Europeanen.[88](#fn88)
 
-### 10 De vaarwegen voor de Tweede Wereldoorlog
+## 10 De vaarwegen voor de Tweede Wereldoorlog
 
 Het binnenvaarthoofdstuk in deel 3 van de _Nieuwe Maritieme Geschiedenis van Nederland_ eindigde met de verwerping van de kanalenwet van minister J.P.R. Tak van Poortvliet in 1879. Hoewel de Tweede Kamer dit wetsontwerp niet aanvaardde, gaf dit het vaarwegenbeleid van de Rijksoverheid een hecht fundament, waarop latere ministers – wellicht onbewust – nog jarenlang zouden voortbouwen. Uiteindelijk werd bijna het hele wetsontwerp – soms in gewijzigde vorm – gerealiseerd. Het wetsontwerp legde vast voor welke vaarwegen de Rijksoverheid de verantwoording zou dragen, gaf een overzicht van de vaarwegen die volgens de Rijksoverheid moesten worden verbeterd en legde de basis voor het subsidiebeleid voor regionale verbeteringsprojecten. Dankzij het wetsontwerp kreeg ons land voor het eerst een samenhangend netwerk van hoofdverbindingen dat alle landsdelen ontsloot.[89](#fn89)
 
@@ -639,7 +640,7 @@ Hoewel de Rijksoverheid het vaarwegenbeleid niet formeel in een nota vastlegde, 
 
 Omdat het Rijk naast de hoofdverbindingen ook kleine vaarwegen zoals de Drentse Hoofdvaart en de Vecht beheerde, bestond er onzekerheid over de vraag waar de rijkstaken nu eigenlijk ophielden. Vandaar dat in de Tweede Kamer en op de jaarvergaderingen van Schuttevaêr met enige regelmaat de vraag aan de orde kwam of het Rijk het beheer op gebrekkige vaarwegen zoals de Drentse kanalen of de Overijsselse kanalen kon overnemen. De minister wees er dan steevast op dat dit geen staatstaak was.
 
-### 11 De vaarwegen na de Tweede Wereldoorlog
+## 11 De vaarwegen na de Tweede Wereldoorlog
 
 Het Nederlandse vaarwegennet raakte in de Tweede Wereldoorlog zwaar gehavend. Opgeblazen en stukgeschoten bruggen, defecte sluizen, mijnen en scheepswrakken versperden op veel plaatsen de doorvaart. De havens van Rotterdam en Amsterdam waren grotendeels verwoest. Vaarwegbeheerders, aannemers en de marine gingen onmiddellijk aan de slag om weer doorgaand verkeer mogelijk te maken. Eind 1945 waren alle hoofdroutes opnieuw bevaarbaar, hoewel op veel plaatsen nog met ernstige belemmeringen.[110](#fn110)
 
@@ -709,7 +710,7 @@ De vaarwegbeheerders behandelden de watersporters op de hoofdverbindingen aanvan
 
 Later overleg tussen vaarwegbeheerders en watersportorganisaties leidde tot de conclusie dat de beheerders hun beleid op een aantal doorgaande verbindingsroutes beter moesten coördineren om ze voor de recreatievaart aantrekkelijk te maken. Op deze basis kwam in 1985 de nota ‘Beleidsvisie recreatietoervaart in Nederland’ tot stand, waarin een uitgebreid netwerk van hoofdverbindingen – het zogenaamde ‘hoofdtoervaartnet’ met een lengte van 3.900 kilometer – werd aangewezen, dat het hele land toeristisch ontsloot. Iedere beheerder behield zijn verantwoordelijkheden, maar samen sloten ze een ‘gentlemen’s agreement’ om hun beleid op elkaar af te stemmen. Het ging hierbij vooral om de bedieningstijden, de afmetingen van vaarwegen, sluizen en bruggen, en de aanleg van recreatieve voorzieningen. Later werd de Beleidsvisie regelmatig aangepast aan de nieuwste ontwikkelingen. Eén van de belangrijkste resultaten is het routeakkoord over de bedieningstijden van de 86 beweegbare bruggen en 20 sluizen op de zogenaamde ‘Staande Mast Route’ van Breskens via Amsterdam naar Delfzijl, waardoor zeilschepen en motorvaartuigen dit traject thans in drie etmalen kunnen afleggen.[128](#fn128)
 
-### 12 Verkeersveiligheid
+## 12 Verkeersveiligheid
 
 Tot dusverre is er nauwelijks vervoershistorisch onderzoek naar de ontwikkeling van de verkeersveiligheid van de binnenvaart verricht. In de Rijnvaart werden al in de negentiende eeuw eisen gesteld aan de ervaring van de Rijnschippers, het vervoer van gevaarlijke stoffen en de kwaliteit en uitrusting van Rijnschepen. In het begin van de twintigste eeuw kwam het Reglement Onderzoek Schepen op de Rijn (ROSR) tot stand, dat uniforme technische eisen stelde aan vaartuigen, die in het Rijnstroomgebied mogen varen. Naarmate het internationale vervoer toenam, viel een toenemend deel van de Nederlandse vloot onder deze regeling. Bovendien golden op de Rijn uniforme verkeersregels. Deze regelingen werden voortdurend aan nieuwe omstandigheden aangepast.[129](#fn129)
 

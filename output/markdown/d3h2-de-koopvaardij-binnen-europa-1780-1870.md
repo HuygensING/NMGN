@@ -9,6 +9,7 @@ publication_date: 28 maart 2022
 doi: 10.5281/zenodo.6360653
 doi_url: https://zenodo.org/records/6360653
 status: development
+filename: koopvaardij-binnen-europa-1780-1870.html
 ---
 
 ## 1 ZEEHANDEL EN KOOPVAARDIJ

@@ -6,7 +6,7 @@
     <div class="w-full min-h-screen sticky top-0 flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-screen">
 
          <figure class="flex flex-col min-h-0 w-full mb-4">
-            <img id="asideImg" src="images/d{{chapterMetadata.part}}h{{chapterMetadata.chapter}}/d{{chapterMetadata.part}}h{{chapterMetadata.chapter}}-600/{{firstImage.htmlRaw}}" class="w-full border shrink-0" alt="{{firstImage.imagedata.description}}" loading="lazy">
+            <img id="asideImg" src="images/d{{chapterMetadata.part}}h{{chapterMetadata.chapter}}/d{{chapterMetadata.part}}h{{chapterMetadata.chapter}}-600/{{firstImage.htmlRaw}}" class="w-full shrink-0 object-center" alt="{{firstImage.imagedata.description}}" loading="lazy">
             <div class="flex justify-between items-center gap-4 -mt-1 shrink-0">
                 <div id="asideImageLockControl" class="group flex items-center gap-2 shrink-0" aria-checked="false">
                     <button type="button" id="asideImageLockToggle" role="switch" aria-checked="false" aria-label="Klik om beeld vast te zetten" class="flex items-center justify-center p-2 rounded-full border-2 border-nmgnBlue-800 bg-nmgnBlue-800 text-white cursor-pointer shrink-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-nmgnBlue-800">
@@ -20,7 +20,7 @@
                 </div>
                 <button type="button" onclick="bigImageViewer();return false;" class="bg-nmgnBlue-800 p-2 rounded-full text-white text-sm cursor-pointer shrink-0">Vergroten</button>
             </div>
-            <figcaption class="text-sm max-w-xl mx-auto min-h-0 flex flex-col">
+            <figcaption class="text-sm max-w-xl min-h-0 flex flex-col text-left">
                 <strong class="mt-4 block shrink-0" id="asideImgTitle">{{firstImage.imagedata.title}}</strong>
                 <span id="asideCaption" class="overflow-y-auto max-h-[30vh] min-h-0 mt-1" tabindex="0">
                     {{firstImage.imagedata.description}}

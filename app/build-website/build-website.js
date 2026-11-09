@@ -15,7 +15,7 @@ sitedata = sortByKey(sitedata, 'part')
 
 let currPart = 0;
 sitedata.forEach((element, i) => {
-  sitedata[i].fileName = 'd'+element.part+'h'+element.chapter+'-'+utilFunc.saveTitle(element.title)+'.html'
+  sitedata[i].fileName = utilFunc.getChapterHtmlFilename(element)
   if ( (element.status == 'development') || (element.status == 'published') ) {
     sitedata[i].render = true
   } else {
@@ -169,7 +169,7 @@ function generateHtml() {
                     var html = template(chapterJson);
                     //html = beautify(html, { format: 'html' })
 
-                    utilFunc.createFile('./output/html-site/d'+chapterJson.chapterMetadata.part+'h'+chapterJson.chapterMetadata.chapter+'-'+utilFunc.saveTitle(chapterJson.chapterMetadata.title)+'.html', html)
+                    utilFunc.createFile('./output/html-site/'+utilFunc.getChapterHtmlFilename(chapterJson.chapterMetadata), html)
 
                    // utilFunc.createFile('./test-output/json/d'+chapterJson.chapterMetadata.part+'h'+chapterJson.chapterMetadata.chapter+'.json', JSON.stringify(chapterJson.content))
                     

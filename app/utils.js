@@ -36,6 +36,15 @@ const navigationData = (indexJson) => {
     
 };
 
-module.exports = {createFile, replaceSpaces, formatTitle, formatTitleH1, saveTitle, navigationData};
+const getChapterHtmlFilename = (metadata) => {
+    if (metadata.filename) {
+        return metadata.filename.endsWith('.html')
+            ? metadata.filename
+            : metadata.filename + '.html';
+    }
+    return 'd' + metadata.part + 'h' + metadata.chapter + '-' + saveTitle(metadata.title) + '.html';
+};
+
+module.exports = {createFile, replaceSpaces, formatTitle, formatTitleH1, saveTitle, navigationData, getChapterHtmlFilename};
 
 

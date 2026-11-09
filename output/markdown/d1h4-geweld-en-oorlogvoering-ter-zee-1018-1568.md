@@ -9,6 +9,7 @@ publication_date: 29 september 2022
 doi: 10.5281/zenodo.7120714
 doi_url: https://zenodo.org/records/7120714
 status: development
+filename: geweld-oorlogvoering-ter-zee-1018-1568.html
 ---
 
 ## 1 ACTOREN, ORGANISATIES, NETWERKEN EN OPERATIONEEL OPTREDEN
@@ -367,9 +368,7 @@ De zeileigenschappen waren eveneens een punt van zorg. Toen het grote schip van 
 
 #### Tactiek: oorlogvoering als op het land
 
-Bij maritieme acties werden in de middeleeuwen vooral tactieken uit landgevechten toegepast. Door hun zware pantsering waren ridders doodsbenauwd voor het water. Daarom bonden ze in een zeeslag liefst de schepen aan elkaar om elkaar zo op platforms te bevechten. De beroemdste schipbrug was de Friese drijvende _evenhoghe_ voor Damiate op 24-25 augustus 1218, waardoor de kettingtoren die de havenmond afsloot kon worden veroverd, een feit dat later tot epische proporties werd opgeblazen.[121](#fn121) Ook gebruikte Melis Stoke bij de beschrijving van een zeeslag termen uit landgevechten.[122](#fn122)
-
-![Het zaagschip. Niet dat dit schip ooit echt bestaan heeft, maar het was in de verbeelding wel duidelijk wat het nut ervan kon zijn: kettingen die havens afsloten door te zagen door er overheen te varen. Een ‘serrarius’ is een zager.<br><br>Uit: O. Magnus, <em>De Navibus serratis</em>, 1555.<br>](39_uitsnedezaagschip0419.1.jpg)
+![undefined. undefined<br>undefined<br>undefined<br>](Bijmaritiemeactieswerdenindemiddeleeuwenvooraltactiekenuitlandgevechtentoegepast.Doorhunzwarepantseringwarenriddersdoodsbenauwdvoorhetwater.Daarombondenzeineenzeeslagliefstdeschepenaanelkaaromelkaarzoopplatformstebevechten.DeberoemdsteschipbrugwasdeFriesedrijvendeevenhoghevoorDamiateop24-25augustus1218,waardoordekettingtorendiedehavenmondafslootkonwordenveroverd,eenfeitdatlatertotepischeproportieswerdopgeblazen.121OokgebruikteMelisStokebijdebeschrijvingvaneenzeeslagtermenuitlandgevechten.12239_uitsnedezaagschip0419.1.jpg)
 
 ![De inname van Damiate. Twee fragmenten van het grootste bewaard gebleven wandtapijt uit de zeventiende eeuw (10.75 x 2.40 m). Het stelt de aanval op Damiate voor. Rechts van de toren het Haarlemse schip dat de ketting voor de haveningang zou hebben doorgezaagd.<br>Wandtapijt door Joseph Thienpont, naar ontwerp van Cornelis Claesz. van Wieringen, 1629.<br><br>](40c_dezeDamiatetapijt4.jpg)
 
@@ -377,9 +376,7 @@ Bij maritieme acties werden in de middeleeuwen vooral tactieken uit landgevechte
 
 Het is niet zo dat er helemaal geen tactieken waren. Er waren meestal drie fasen, die ook weer waren afgekeken van de gevechten op het land: 1 manoeuvreren; 2 artillerieduels; 3 enteringen. Bij de eerste fase van het manoeuvreren werd geprobeerd om de zon in de rug te krijgen en op de loefzijde van de wind te komen. In de tweede fase kwamen de vloten naderbij en gebruikten ze scheepsgeschut en bogen om nabij steun te verlenen. Deze fase van het gevecht was de meest beweeglijke.[123](#fn123) Daarna ging het gevecht over op een meer statische derde fase van het enteren, waarbij schepen dus soms aan elkaar gebonden werden.[124](#fn124) Wel was sprake van eenvoud, de beschikbare slagkracht concentreren en het voorzettingsvermogen om het vol te houden. Ter illustratie kan de goed gedocumenteerde slag bij Zierikzee uit 1304 dienen. Hieronder wordt ingegaan op de tactiek van een zeegevecht.
 
-![Handgemeen op zee. Nadat men elkaars schepen op afstand had bekogeld met geschut en boogschutters hun pijlen hadden afgevuurd op de bemanning, volgde een entering en werd het gevecht man tegen man uitgevochten.<br>Miniatuur uit <em>La Premiere guerre punique</em>, vijftiende eeuw. Ms 10777, fol. 44 vo.<br><br>](41_uitsnzeeslag.jpg)
-
-![Het enteren. Na het manoeuvreren en elkaar beschieten is de laatste fase die van het enteren: de zeilen zijn gestreken en met pikhaken wordt het vijandelijke schip aangeklampt en bestormd.<br>Miniatuur uit <em>La première guerre punique</em> (ca. 1460). Ms. 10777, fol. 90v.<br><br>](42_uitsnedeenteren.jpg)
+![undefined. undefined<br>undefined<br>undefined<br>](41_uitsnzeeslag.jpg42_uitsnedeenteren.jpg)
 
 Bij Zierikzee streden Hollandse schepen, gesteund door admiraal Reinier Grimaldi uit Monaco, tegen een Vlaams-Zeeuwse vloot.[125](#fn125) Tijdens de eerste, beweeglijke fase boden de Hollanders, die geholpen werden door Franse galeien hun belagers een warm onthaal. Pijlen en quarelen – extra dikke pijlen uit zwaarder spangeschut – stegen op uit zo’n 60 oestellen en springalen, 200 bancarmborsten en 1.000 armborsten, de kleinere (kruis)bogen niet meegeteld. Armborsten zijn een soort _longbows,_ al dan niet zoals de oestellen en springalen op de schepen vastgezet. De impact van dit geschut moet niet worden verwaarloosd. Ze veroorzaakten afschuwelijke verwondingen aan het hoofd en tegen de oestellen waren zelfs de harnassen en maliënkolders van de ridders niet bestand. Al op 500 meter afstand begonnen dergelijke artilleriebarrages. De Hollanders maakten grote vuren van droog hout en wierpen het naar hun tegenstanders. Toen enkele schepen geïsoleerd raakten, vulden hun vijanden een kogge met stro en pek. Het lukte de verdedigers om met lansen de brander af te houden, terwijl hun kameraden met het scheepsgeschut de Vlamingen onder vuur namen. Uit alles blijkt dat de slagkracht bijeen werd gehouden.
 

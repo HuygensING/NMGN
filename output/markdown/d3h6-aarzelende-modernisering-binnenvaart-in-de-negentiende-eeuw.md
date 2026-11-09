@@ -9,11 +9,12 @@ publication_date: 30 juni 2021
 doi: 10.5281/zenodo.5150447
 doi_url: https://zenodo.org/records/5150447
 status: development
+filename: binnenvaart-negentiende-eeuw.html
 ---
 
 ### Introductie: onderzoek, bronnen en afbakening
 
-### 1 Het personenvervoer (1800-1880)
+## 1 Het personenvervoer (1800-1880)
 
 Vervoer was aan het begin van de negentiende eeuw duur.[1](#fn1) Een geschoold ambachtsman, die ongeveer een gulden per dag verdiende, kon voor dit bedrag samen met zijn vrouw maximaal twintig kilometer met de trekschuit reizen. Het personenvervoer was daarom beperkt. Voor veel mensen was een reisje naar de dichtstbijzijnde markt de grootste afstand die men in zijn leven aflegde. Reizigers konden gebruikmaken van trekschuiten, zeilschepen, marktschuiten[2](#fn2) of postwagens (figuur 1). Trekschuiten hadden een lengte van 10 tot 15 meter en een breedte van 2 à 3 meter. Ze voeren met een snelheid van 6 à 7 km/uur en de grootste schuiten konden ongeveer 35 passagiers vervoeren. Op de drukkere trajecten konden de reizigers, afhankelijk van hun financiële draagkracht, kiezen uit twee klassen: ‘de roef’ (eerste klasse) en ‘het ruim’ (tweede klasse).[3](#fn3)
 
@@ -105,7 +106,7 @@ Zelfs toen de spoorweg Groningen-Leeuwarden-Zwolle gereedkwam (1868) konden reiz
 
 ![Afgemeerde passagiersstoomboten op de Oude Maas bij Dordrecht. Dordrecht was voor de stoomvaart een belangrijk knooppunt. Langs de kade zijn drie stoomboten afgemeerd om passagiers en stukgoederen te laden. Op de rivier verkeer met zeilschepen en een stoomboot.<br>Schilderij door Carl Skånberg, 1876-1880.<br>Particuliere collectie.<br>](13_passagiersstoomboten_Dordrecht.jpg)
 
-### 2 Het binnenlandse goederenvervoer (1800-1880)
+## 2 Het binnenlandse goederenvervoer (1800-1880)
 
 In deel 2 van de _Nieuwe Maritieme Geschiedenis van Nederland_ bleek dat in de binnenvaart twee vervoersvormen bestonden: ‘wilde vaart’ en ‘beurtvaart’. In de wilde vaart heerste vrije concurrentie. Schippers en verladers waren vrij om zelf hun vervoer te regelen. De beurtvaart verzorgde vaste lijndiensten en beschikte over een vervoersmonopolie. Hier regelden stadsbesturen de vervoersvoorwaarden. Wanneer twee steden eenmaal een onderlinge beurtvaartverbinding hadden ingesteld, dan verplichtten de stadsbesturen hun kooplieden en handelaren om daarvan gebruik te maken, behalve bij grote vervoershoeveelheden.
 
@@ -191,7 +192,7 @@ In de jaren 1880 was de Nederlandse binnenvaart een vervoerssysteem in een overg
 
 Vooral op de grote rivieren, op de vaarroute Amsterdam-Gouda-Rotterdam en op de Keulse Vaart (later het Merwedekanaal) verzorgde de stoomvaart een flink deel van het vervoer. Op de Lek bij Vreeswijk, waar een deel van het binnenlands vervoer tussen Rotterdam en Amsterdam passeerde, bestond in 1880 bijna dertig procent van de passerende vaartuigen uit stoomboten en stoomsleepboten. Op de Maas, stroomopwaarts van ’s-Hertogenbosch, gold hetzelfde. In 1890 bestond in Vreeswijk meer dan 16 procent van de passerende vaartuigen uit sleepboten. Natuurlijk sleepten deze een flink aantal zeilschepen mee. Op de Gelderse IJssel maakten alle stroomopwaarts varende zeilschepen van sleepboten gebruik, een Britse recreatievaarder zag hier in 1888 een sleepboot met veertien zeilschepen op sleeptouw. Op de smalle, kronkelende Gouwe bij Gouda maakten zeilschepen zowel van windkracht, jaagpaarden als sleepboten gebruik. Een andere Britse recreatievaarder zag hier in 1885 een kleine sleepboot met een sleeptrein van elf volbeladen aken, ieder met een laadvermogen van zestig ton. In dezelfde tijd voeren op de Keulse Vaart sleeptreinen met acht zeilschepen. Elders zagen ze dat de zeilvaart nog nauwelijks van sleepbootassistentie gebruikmaakte.[52](#fn52)
 
-### 3 De Rijnvaart en het vervoer met België
+## 3 De Rijnvaart en het vervoer met België
 
 Vóór 1815 werd de Rijnvaart belemmerd door tollen, in-, uit- en doorvoerrechten, stedelijke belastingen, gildedwang en stapelrechten. Op het Wener Congres kwamen de grote mogendheden overeen dat internationale vaarwegen als de Rijn voor de scheepvaart van alle landen vrij toegankelijk moesten zijn. Door Nederlandse tegenstand kwam hiervan aanvankelijk weinig terecht. Nederlandse beurtschepen uit Amsterdam, Rotterdam en Dordrecht behielden voorlopig het monopolie op het Rijnvaartgoederenvervoer tussen de Nederlandse zeehavens en het Duitse achterland. Pas na enkele jaren van tegenstribbelen kwam in 1831 de Akte van Mainz tot stand, die een eind maakte aan alle stapelrechten en beurtvaartmonopolies, en alle schippers gelijke concurrentiemogelijkheden gaf, terwijl alle landen hun Rijnvaarttollen verlaagden.[53](#fn53)
 
@@ -265,9 +266,7 @@ Tabel 12: _Scheepvaartverkeer met België op basis van in- en uitgeklaarde schep
 
 De omstandigheden op de verschillende vaarwegen liepen sterk uiteen. Zo moesten schepen op de Zuiderzee of de Zuid-Hollandse en Zeeuwse stromen goed bestand zijn tegen zwaar weer en golfslag, terwijl deze eis in het binnenland niet gold. Ook de vaarwegafmetingen varieerden. In de eerste helft van de negentiende eeuw konden op de grote doorgaande vaarwegen in het kustgebied schepen met een laadvermogen van tachtig tot honderd ton en een diepgang van 1,5 meter varen. Daarentegen waren de kleine rivieren en beken in de landprovincies slechts toegankelijk voor kleine vaartuigen met een laadvermogen van tien ton en een maximale diepgang van 0,8 meter. De binnenvloot bestond daarom uit een bonte verzameling van scheepstypen, die ieder hun eigen vaargebied bedienden, en die qua vormgeving en afmetingen sterk van elkaar verschilden. De grootste schepen waren de samoreuzen, die over de Rijn naar Duitsland voeren, met een laadvermogen van 200 tot 500 ton. De kleinste scheepjes hadden een laadvermogen van vijf ton.[74](#fn74)
 
-![Een poon, een middelgroot zeilschip . De omstandigheden op de Nederlandse binnenvaarwegen liepen sterk uiteen. Ieder traject stelde aan de schepen andere eisen. De binnenvloot bestond daarom uit een bonte verzameling van scheepstypen, die qua afmetingen en vormgeving sterk van elkaar verschilden. Ponen waren bestand tegen ruwe weersomstandigheden en hoge golfslag en konden 30 à 60 ton goederen vervoeren. Ze werden vaak gebruikt voor het vervoer van landbouwproducten over de Zuid-Hollandse en Zeeuwse stromen. <br>Ets door Gerrit Groenewegen, 1789.<br><br>](23_Poon.jpg)
-
-![Een samoreus. Samoreuzen verzorgden het vervoer van Amsterdam en Rotterdam naar het Duitse achterland. Met hun lengte van ongeveer 40 meter en hun bemanning van 7 à 10 man waren het de grootste vaartuigen op de Nederlandse binnenvaartwegen.<br>Ets door Gerrit Groenewegen, 1789.<br><br>](24_Samoreus.jpg)
+![undefined. undefined<br>undefined<br>undefined<br>](23_Poon.jpg24_Samoreus.jpg)
 
 Over de ontwikkeling van de Nederlandse binnenvaartvloot in de eerste helft van de negentiende eeuw zijn bijna geen cijfers bekend. De enige uitzondering is een belastingdocument, waaruit blijkt dat in 1808 in Nederland 24.099 binnenschepen met een gezamenlijk laadvermogen van 370.000 ton in de vaart waren, terwijl de gemiddelde scheepsgrootte 15 ton bedroeg. In deze opgave waren niet alleen de vrachtschepen, maar ook trekschuiten, bedrijfsvaartuigen en veerponten meegeteld. Omdat in een waterrijk land als Nederland veel boerenbedrijven en andere ondernemingen over een eigen schuit beschikten, kan het aandeel van de vrachtschepen in deze vloot achteraf moeilijk worden vastgesteld. Vast staat dat dit aandeel groot was. Over de vlootontwikkeling in de tweede eeuwhelft is veel meer informatie beschikbaar, meestal uit belastingstatistieken en vaak exclusief de Rijnvaart. Tussen 1852 en 1891 groeide het gezamenlijk laadvermogen van de Nederlandse vrachtschepen, exclusief de vaartuigen die uitsluitend voor de Rijnvaart werden gebruikt, van 468.000 naar 805.000 ton, terwijl de gemiddelde scheepsgrootte toenam van 25 naar 35 ton. Het grootste deel van deze vloot was geconcentreerd in Noord- en Zuid-Holland. In 1890-1891 beschikten deze provincies samen over bijna 45% van het laadvermogen dat voor het binnenlandse vervoer ter beschikking stond. In werkelijkheid was het overwicht van de beide provincies nog groter, omdat hun vloot ook het grootste deel van de Rijnvaart verzorgde.[75](#fn75)
 
@@ -327,7 +326,7 @@ IJzeren sleepschepen en trekschuiten hadden ten opzichte van houten (zeil)vaartu
 
 Voor de traditionele zeilvaart hadden ijzeren schepen aanvankelijk twee grote nadelen. De bouwkosten waren hoger en de scheepswerven waren, met uitzondering van de NSBM en Van Vlissingen, niet op ijzerbouw ingesteld, waarvoor aparte machines en gereedschappen nodig waren. De hoge bouwkosten hadden tot gevolg dat de particuliere zeilschippers later dan de Rijnvaartrederijen en sommige trekschuitexploitanten op ijzeren schepen overschakelden. Immers, lagere energiekosten speelden voor hen geen rol. Bovendien, de tijd die een zeilschip werkelijk voer was relatief kort in verhouding tot het oponthoud dat de gebrekkige toestand van de vaarwegen, de weersomstandigheden, het laden, het lossen en het wachten op lading veroorzaakten. Een hogere vaarsnelheid kon het aantal reizen en daarmee het inkomen van de zeilschippers dus nauwelijks vergroten. Hoewel hiernaar nooit onderzoek is verricht, is het waarschijnlijk dat houten zeilschepen voor de binnenlandse wilde vaartschippers lange tijd het meest economische vervoermiddel bleven. Pas toen na 1870 in standaardafmetingen gewalste platen op de markt kwamen en daarna ook Duits staal op de Nederlandse markt werd gedumpt tegen lage prijzen, werd de prijsverhouding gunstiger. De particuliere schippers op de Rijn schakelden tussen 1875 en 1900 op ijzerbouw over, die in de provincie Groningen tussen 1880 en 1910. De omschakeling van de werven vormde bij dit proces geen beperkende factor. De grote werven in het westen van het land bouwden vanaf de jaren veertig ijzeren schepen, de werven in het noorden vanaf de jaren vijftig.[88](#fn88)
 
-### 5 De schippers en de schippersorganisaties
+## 5 De schippers en de schippersorganisaties
 
 Uit de beroepentellingen van 1807 en 1849 blijkt dat in beide jaren ruim 3 procent van de landelijke beroepsbevolking in de zee- of binnenvaart werkzaam was, waarvan meer dan 60 procent in de binnenvaart. De grootste binnenschepen, de samoreuzen, hadden een bemanning van 7 à 10 man. Normale binnenschepen konden door twee man worden gevaren, de kleinste voeren met één man. Vrachtschepen waren bijna altijd het eigendom van een particuliere schipper. Trekschuiten waren soms gemeenschappelijk bezit van een schippersgilde.[89](#fn89)
 
@@ -341,7 +340,7 @@ De leefomstandigheden aan boord varieerden sterk. Kapitaalkrachtige Rijnschipper
 
 In 1850 leidde een hoog oplopend geschil over het heffen van tol voor binnenschepen die door het Zwolse Diep naar en van de Zuiderzee voeren in 1863 tot de oprichting van de schippersbond Schuttevaêr. Dit verbond groeide in de daaropvolgende jaren uit tot een landelijke vereniging, die zich vooral op de belangenbehartiging van de schippers bij de overheid richtte. De vereniging bestookte het Rijk, de provincies, de waterschappen en de gemeenten met voorstellen om vaarwegen en binnenhavens te verbeteren en tollen te verlagen. De eerste schippersbonden die zich op de sociaaleconomische belangen van de schippers richtten ontstonden in 1898.[93](#fn93)
 
-### 6 De organisatie van het vrachtvervoer en het jaagbedrijf
+## 6 De organisatie van het vrachtvervoer en het jaagbedrijf
 
 Beurtschepen hadden een vaste laad- en losplaats, waar goederen konden worden afgeleverd of opgehaald. Later, toen beurtvaartrederijen ontstonden, hadden deze in iedere plaats een vast kantoor of een vertegenwoordiger om vervoersafspraken te maken.
 
@@ -357,7 +356,7 @@ Op sommige vaarwegen organiseerden stedelijke overheden het jaagbedrijf, maar oo
 
 Na 1825 trof de Rijksoverheid regelingen om het jaagbedrijf op de belangrijkste vaarwegen beter te organiseren, met name op het Noord-Hollands Kanaal, het Zederikkanaal (op de route Amsterdam-Duitsland) en de Amstel-Drecht-Aarverbinding (op de route Amsterdam-Rotterdam). Het jaagbedrijf kwam hier onder overheidstoezicht, de tarieven werden door de overheid bepaald en voor de uitoefening van het jaagbedrijf was een overheidsvergunning nodig.[98](#fn98)
 
-### 7 De scheepvaartondernemingen
+## 7 De scheepvaartondernemingen
 
 Het overgrote deel van het vrachtvervoer werd gedurende de hele negentiende eeuw verzorgd door individuele schippers, ieder met hun eigen zeilschip. Door bijzondere omstandigheden ontstond in ons land na 1830 de eerste grote binnenvaartonderneming met traditionele vaartuigen, het bedrijf van schipper Jan Goedkoop. Deze schipper specialiseerde zich na de Franse overheersing op het vervoer van zeevaartgoederen vanaf de rede bij Den Helder over de Zuiderzee naar Amsterdam. Vanwege de beperkte vaardiepte van de Zuiderzee lieten reders en kapiteins van diepstekende zeeschepen (een deel van) hun lading op dit traject vervoeren door binnenschepen. Het grootste deel van dit vervoer behoorde tot de wilde vaart. Bij dit vervoer waren ruim dertig schippers betrokken. Het wachten op de rede, de goederenoverslag en het verdere vervoer werkten diefstal in de hand.[99](#fn99)
 
@@ -383,7 +382,7 @@ In het laatste kwart van de negentiende eeuw ontstonden in ons land meerdere gro
 
 ![undefined. undefined<br>undefined<br>undefined<br>](33_NRCDienstverlening.jpg)
 
-### 8 De vaarwegen aan het begin van de negentiende eeuw
+## 8 De vaarwegen aan het begin van de negentiende eeuw
 
 Het Nederlandse vaarwegennet bestond van oudsher uit een groot aantal rivieren, zeearmen, vaarten, meren, plassen en beken, die qua afmetingen en bevaarbaarheid sterk van elkaar verschilden. In dit netwerk kunnen drie hoofdverbindingen worden onderscheiden, waar de overige vaarroutes op aansloten (figuur 4).
 
@@ -421,7 +420,7 @@ Langs een aantal vaarwegen lagen jaagpaden, waar schippers desgewenst van paarde
 
 Schippers moesten in de negentiende eeuw op bijna iedere vaarweg tol betalen. Deze tol gaf de vaarwegbeheerder de mogelijkheid om de aanleg-, onderhouds- en bedieningskosten op de belanghebbenden te verhalen en eventueel winst te maken op een investering.
 
-### 9 De kanalen van de Koning-Koopman
+## 9 De kanalen van de Koning-Koopman
 
 De periode tussen 1770 en 1840 vormde in West-Europa het tijdperk van de kanalenbouw. Tijdens de regering van koning Willem I, de kanalenkoning, werd in Nederland en België ongeveer 800 kilometer vaarweg aangelegd of ingrijpend verbeterd, verdeeld over 25 projecten (figuren 6 en 7). Deze projecten waren gelijkelijk over de beide delen van het koninkrijk verdeeld. Elders is een uitgebreide analyse van de planning, aanleg, financiering en het economisch nut van de kanalen gegeven.[115](#fn115)
 
@@ -447,7 +446,7 @@ Achteraf kan worden geconcludeerd dat de aanleg van de zeevaartkanalen weinig ef
 
 ![De Willemssluis bij Amsterdam. De Willemssluis gaf sinds 1824 vanaf het IJ toegang tot het Noord-Hollands Kanaal, de grote zeevaartweg van Amsterdam naar de Noordzee bij Den Helder. Rechts op de achtergrond is een zeeschip, een grote Oost-Indiëvaarder, de sluis zojuist bij zwakke zeewind gepasseerd. Links daarvan wordt een groot oorlogsschip onder vol tuig bij zwakke tegenwind de sluis ingetrokken. Op de voorgrond druk verkeer met vissersschepen en binnenvaartuigen.<br>Schilderij door Petrus Johannes Schotel, 1834.<br><br>](46_uitsnWillemssluis.jpg)
 
-### 10 De verbetering van de vaarwegen na 1850
+## 10 De verbetering van de vaarwegen na 1850
 
 Na de Belgische opstand kwam de kanalenbouw in Nederland abrupt tot stilstand. Nu de aandacht van de koning door de politieke ontwikkelingen in België werd opgeëist, viel de motor achter het bouwproces weg. Omstreeks 1850 vertoonden de meeste vaarwegen nog steeds dezelfde tekortkomingen als aan het begin van de eeuw. De opkomst van de buitenlandse spoorwegen veranderde de situatie sterk. Wilde Nederland zijn positie in het internationale goederenvervoer handhaven en zijn binnenlandse economische ontwikkeling stimuleren dan diende het vervoerssysteem ingrijpend te worden verbeterd.[120](#fn120)
 
@@ -485,7 +484,7 @@ De regering kwam na een gedegen onderzoek tot de conclusie dat een kostbaar kana
 
 Ondanks de verwerping zou de kanalenwet in latere jaren van grote betekenis zijn. Met het wetsontwerp kreeg het vaarwegenbeleid van de Rijksoverheid een hecht fundament, waarop latere ministers – wellicht onbewust – nog vele jaren zouden voortbouwen. Het legde vast voor welke vaarwegen het Rijk verantwoordelijk zou zijn, het gaf een overzicht van de vaarwegen die volgens de overheid zouden moeten worden verbeterd en legde een basis voor het subsidiebeleid. Door de wet kreeg ons land een samenhangend vaarwegennet dat alle landsdelen ontsloot. Uiteindelijk zouden bijna alle voorstellen – soms in gewijzigde vorm – worden gerealiseerd.[132](#fn132)
 
-### 11 Verkeersveiligheid
+## 11 Verkeersveiligheid
 
 Naar de veiligheid van de binnenvaart in de negentiende eeuw is nooit gestructureerd onderzoek verricht. De overheid nam ook in die tijd al maatregelen om de verkeersveiligheid te bevorderen. Zo stelden de stadsbesturen voorwaarden aan de kwaliteit en de uitrusting van beurtschepen en trekschuiten en de kwaliteit van de schippers. Op de rijksvaarwegen golden uitvoerige regels voor een vlotte en veilige verkeersafwikkeling. Het voorkomen van aanvaringen en het vervoer van buskruit vormden hierbij belangrijk aandachtspunten. Het Rijk – later de provincies – stelde voorwaarden aan de uitrusting van passagiersstoomboten. Vanaf 1856 hield de Dienst voor het Stoomwezen toezicht op de kwaliteit van de stoomketels. In de Rijnvaart golden onder meer internationale regels voor de nautische ervaring van de Rijnvaartschippers, terwijl vanaf 1838 voorwaarden voor het vervoer van gevaarlijke stoffen golden. Een overzicht over het totaal aan voorzorgsmaatregelen ontbreekt, terwijl het bovendien de vraag is in hoeverre het overheidstoezicht effectief was.[133](#fn133)
 

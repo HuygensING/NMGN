@@ -9,6 +9,7 @@ publication_date: 29 november 2022
 doi: 10.5281/zenodo.7377863
 doi_url: https://zenodo.org/records/7377863
 status: development
+filename: binnenvaart-zeventiende-achttiende-eeuw-innovatie-marktintegratie.html
 ---
 
 ## 1 HET BINDENDE WATER

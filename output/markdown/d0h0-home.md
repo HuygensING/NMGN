@@ -6,6 +6,7 @@ part: 0
 chapter: 0
 publication_date:: 
 status: development
+filename: index.html
 part1Nr: 1
 part1Title: Opkomst van de rivier- en zeehandel
 part1YearRange: 1100 - 1600

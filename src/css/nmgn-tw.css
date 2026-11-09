@@ -120,3 +120,10 @@ figure.zoom img {
   transition: opacity .5s;
   display: block;
   width: 100%; }
+
+/* Limit tall portrait aside images so caption stays visible */
+#asideImg.aside-img-portrait {
+  max-height: 70vh;
+  object-fit: contain;
+  object-position: center;
+}

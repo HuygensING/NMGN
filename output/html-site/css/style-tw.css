@@ -300,9 +300,6 @@
   .col-span-2 {
     grid-column: span 2 / span 2;
   }
-  .col-span-3 {
-    grid-column: span 3 / span 3;
-  }
   .col-span-4 {
     grid-column: span 4 / span 4;
   }
@@ -536,9 +533,6 @@
   }
   .w-\[700px\] {
     width: 700px;
-  }
-  .w-\[900px\] {
-    width: 900px;
   }
   .w-\[1500px\] {
     width: 1500px;
@@ -830,6 +824,9 @@
   }
   .stroke-neutral-300 {
     stroke: var(--color-neutral-300);
+  }
+  .object-center {
+    object-position: center;
   }
   .p-0 {
     padding: calc(var(--spacing) * 0);
@@ -1345,11 +1342,6 @@
       inset: auto;
     }
   }
-  .xl\:col-span-2 {
-    @media (width >= 80rem) {
-      grid-column: span 2 / span 2;
-    }
-  }
   .xl\:col-span-3 {
     @media (width >= 80rem) {
       grid-column: span 3 / span 3;
@@ -1583,6 +1575,11 @@ figure.zoom img {
   transition: opacity .5s;
   display: block;
   width: 100%;
+}
+#asideImg.aside-img-portrait {
+  max-height: 70vh;
+  object-fit: contain;
+  object-position: center;
 }
 @property --tw-translate-x {
   syntax: "*";
