@@ -1,0 +1,11 @@
+HTML IMAGE COMPARISON REPORT (missing images only)
+===================================================
+
+binnenvaart-zeventiende-achttiende-eeuw-innovatie-marktintegratie.html
+Missing in folder:
+  9a_fig.1.9a.jpg9b_fig.1.9b.jpg
+
+koopvaardij-binnen-europa-1780-1870.html
+Missing in folder:
+  23_uitsnede_VanBeeck.jpg24_KBSpeck.jpg
+

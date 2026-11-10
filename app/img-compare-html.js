@@ -20,28 +20,44 @@ class HtmlImageComparator {
     }
 
     /**
+     * Get chapter code from image src paths like "images/d3h2/d3h2-170/foo.jpg".
+     * Needed because most chapter HTML files use slug titles, not dXhY prefixes.
+     */
+    getChapterCodeFromImageSrcs(srcs) {
+        for (const src of srcs) {
+            const normalized = src.replace(/^\.?\//, '');
+            const match = normalized.match(/^images\/(d\d+h\d+)\//i);
+            if (match) return match[1];
+        }
+        return null;
+    }
+
+    /**
      * List all chapter HTML files in the html-site directory.
-     * Skips index/search and only keeps files starting with a chapter code.
+     * Skips index/search; slug filenames are included.
      */
     listChapterHtmlFiles() {
+        const skip = new Set(['index.html', 'search.html']);
         const entries = fs.readdirSync(this.htmlDir);
         return entries.filter((name) => {
             if (!name.endsWith('.html')) return false;
-            if (!this.getChapterCodeFromFilename(name)) return false;
+            if (skip.has(name.toLowerCase())) return false;
             return true;
         });
     }
 
     /**
-     * Extract all image src values that live inside the <main> element.
+     * Extract img src values. When scopedToMain is true, only look inside <main>.
      */
-    extractImagesFromHtml(htmlContent) {
+    extractImagesFromHtml(htmlContent, { scopedToMain = true } = {}) {
         const dom = new JSDOM(htmlContent);
         const document = dom.window.document;
-        const main = document.querySelector('main');
-        if (!main) return [];
+        const root = scopedToMain
+            ? document.querySelector('main')
+            : document;
+        if (!root) return [];
 
-        const imgs = Array.from(main.querySelectorAll('img'));
+        const imgs = Array.from(root.querySelectorAll('img'));
         return imgs
             .map((img) => img.getAttribute('src'))
             .filter(Boolean);
@@ -124,11 +140,6 @@ class HtmlImageComparator {
      * the images present in its "*-170" folder.
      */
     compareSingleHtml(fileName) {
-        const chapterCode = this.getChapterCodeFromFilename(fileName);
-        if (!chapterCode) {
-            return;
-        }
-
         const htmlPath = path.join(this.htmlDir, fileName);
 
         let htmlContent;
@@ -139,7 +150,21 @@ class HtmlImageComparator {
             return;
         }
 
-        const allMainSrcs = this.extractImagesFromHtml(htmlContent);
+        const allMainSrcs = this.extractImagesFromHtml(htmlContent, {
+            scopedToMain: true,
+        });
+        const allDocSrcs = this.extractImagesFromHtml(htmlContent, {
+            scopedToMain: false,
+        });
+        const chapterCode =
+            this.getChapterCodeFromImageSrcs(allMainSrcs) ||
+            this.getChapterCodeFromImageSrcs(allDocSrcs) ||
+            this.getChapterCodeFromFilename(fileName);
+
+        if (!chapterCode) {
+            console.log(`Skipped ${fileName} (no chapter code found)`);
+            return;
+        }
 
         // We only compare images that live in the chapter-specific "*-170" folder,
         // e.g. "images/d1h2/d1h2-170/foo.jpg" or "/images/d1h2/d1h2-170/foo.jpg".
