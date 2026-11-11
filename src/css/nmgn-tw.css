@@ -47,34 +47,28 @@ h4 {
 }
 
 .tabelKop {
-  width: 100%;
   text-align: center;
   font-weight: 700; }
 
 .tabelNummers {
-  width: 100%;
   text-align: right; }
 
 .tabelKopLinks {
   text-align: left;
-  width: 100%;
   font-weight: 700;
 }
 
 .tabelKopRechts{
   text-align: right;
-  width: 100%;
   font-weight: 700;
 }
 
 .tabelNummersCentreren {
   text-align: center;
-  width: 100%;
 }
 
 .tabelNummersCentreren p{
   text-align: center;
-  width: 100%;
 }
 
 .table-scroll:focus-visible {
@@ -85,6 +79,11 @@ h4 {
 table {
   @apply mt-4 border border-nmgnBlue-300 table-fixed;
   }
+
+/* Ignore Word-exported col widths so columns share space evenly */
+table col {
+  width: auto !important;
+}
 
 tr:first {
     @apply bg-nmgnBlue-950;

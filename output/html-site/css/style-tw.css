@@ -1502,31 +1502,25 @@ h4 {
   margin-bottom: calc(var(--spacing) * 2);
 }
 .tabelKop {
-  width: 100%;
   text-align: center;
   font-weight: 700;
 }
 .tabelNummers {
-  width: 100%;
   text-align: right;
 }
 .tabelKopLinks {
   text-align: left;
-  width: 100%;
   font-weight: 700;
 }
 .tabelKopRechts {
   text-align: right;
-  width: 100%;
   font-weight: 700;
 }
 .tabelNummersCentreren {
   text-align: center;
-  width: 100%;
 }
 .tabelNummersCentreren p {
   text-align: center;
-  width: 100%;
 }
 .table-scroll:focus-visible {
   outline: 2px solid hsl(198, 88%, 40%);
@@ -1538,6 +1532,9 @@ table {
   border-style: var(--tw-border-style);
   border-width: 1px;
   border-color: var(--color-nmgnBlue-300);
+}
+table col {
+  width: auto !important;
 }
 tr:first {
   background-color: var(--color-nmgnBlue-950);

@@ -153,6 +153,8 @@ module.exports = function (resolveData) {
         elementData.tableColumns = tableColumns
 
         elementInner = elementInner.replaceAll('</p>', ' ').replaceAll('<p>', ' ').replace(/\s+/g, ' ').trim()
+        // Drop Word-exported column widths so layout can distribute columns evenly
+        elementInner = elementInner.replace(/\s*style\s*=\s*["'][^"']*width\s*:\s*[^;"']+;?[^"']*["']/gi, '')
         
       }
       
