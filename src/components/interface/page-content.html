@@ -34,7 +34,7 @@
             {{#if (ifSame type "table") }}
             </div>
                <div class="table-scroll py-3 text-sm font-sans w-full overflow-x-auto" tabindex="0" role="region" aria-label="Horizontaal scrollbare tabel">
-                  <table class="mx-auto min-w-xl 2xl:min-w-2xl {{#if (gt tableColumns 4)}}{{else}}w-xl 2xl:w-2xl{{/if}}">
+                  <table class="mx-auto min-w-xl 2xl:min-w-2xl {{#if (ifSame id "table_22")}}{{else}}{{#if (ifSame id "table_23")}}{{else}}{{#if (gt tableColumns 4)}}{{else}}w-xl 2xl:w-2xl{{/if}}{{/if}}{{/if}}">
                      {{#if (ifSame id "table_22")}}{{> table/bijlage1 }}{{else}}{{#if (ifSame id "table_23")}}{{> table/bijlage2 }}{{else}}{{{htmlRaw }}}{{/if}}{{/if}}
                      
                   </table>
