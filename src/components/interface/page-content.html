@@ -14,10 +14,14 @@
                {{#if (ifSame ../chapterMetadata.chapterId "d3h6")}}
                   <h2 class="font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h2>
                {{else}}
-                  {{#if (ifSame ../chapterMetadata.chapterId "d4h6")}}
+                  {{#if (ifSame ../chapterMetadata.chapterId "d3h7")}}
                      <h2 class="font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h2>
                   {{else}}
-                     <h3 class="font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h3>
+                     {{#if (ifSame ../chapterMetadata.chapterId "d4h6")}}
+                        <h2 class="font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h2>
+                     {{else}}
+                        <h3 class="font-merriweather font-bold scroll-mt-8" id="{{id}}">{{{htmlRaw}}}</h3>
+                     {{/if}}
                   {{/if}}
                {{/if}}
             {{/if}}
