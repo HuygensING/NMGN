@@ -531,14 +531,14 @@
   .w-96 {
     width: calc(var(--spacing) * 96);
   }
-  .w-\[700px\] {
-    width: 700px;
-  }
   .w-\[1500px\] {
     width: 1500px;
   }
   .w-full {
     width: 100%;
+  }
+  .w-xl {
+    width: var(--container-xl);
   }
   .max-w-3xl {
     max-width: var(--container-3xl);
@@ -560,6 +560,9 @@
   }
   .min-w-\[44px\] {
     min-width: 44px;
+  }
+  .min-w-xl {
+    min-width: var(--container-xl);
   }
   .flex-1 {
     flex: 1;
@@ -1450,6 +1453,11 @@
       height: calc(var(--spacing) * 36);
     }
   }
+  .\32 xl\:w-2xl {
+    @media (width >= 96rem) {
+      width: var(--container-2xl);
+    }
+  }
   .\32 xl\:w-36 {
     @media (width >= 96rem) {
       width: calc(var(--spacing) * 36);
@@ -1458,6 +1466,11 @@
   .\32 xl\:max-w-2xl {
     @media (width >= 96rem) {
       max-width: var(--container-2xl);
+    }
+  }
+  .\32 xl\:min-w-2xl {
+    @media (width >= 96rem) {
+      min-width: var(--container-2xl);
     }
   }
   .\[\@media\(min-width\:768px\)_and_\(orientation\:landscape\)\]\:top-0 {
@@ -1528,10 +1541,14 @@ h4 {
 }
 table {
   margin-top: calc(var(--spacing) * 4);
+  min-width: var(--container-xl);
   table-layout: fixed;
   border-style: var(--tw-border-style);
   border-width: 1px;
   border-color: var(--color-nmgnBlue-300);
+  @media (width >= 96rem) {
+    min-width: var(--container-2xl);
+  }
 }
 table col {
   width: auto !important;

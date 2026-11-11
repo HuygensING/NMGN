@@ -77,7 +77,8 @@ h4 {
 }
 
 table {
-  @apply mt-4 border border-nmgnBlue-300 table-fixed;
+  /* min width matches the text column (xl / 2xl) */
+  @apply mt-4 border border-nmgnBlue-300 table-fixed min-w-xl 2xl:min-w-2xl;
   }
 
 /* Ignore Word-exported col widths so columns share space evenly */
