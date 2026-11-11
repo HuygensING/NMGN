@@ -382,7 +382,7 @@ Onder de initiatiefnemers bij de totstandkoming van de NSBM en de RIJSM treffen 
 
 In het laatste kwart van de negentiende eeuw ontstonden in ons land meerdere grote stoom- en sleepvaartondernemingen. Veel stoomvaartdiensten rendeerden in deze periode uitstekend. Een jaarlijks dividend van 8 à 10 procent was niet ongebruikelijk, in uitzonderlijke jaren kon het dividend zelfs oplopen tot 20 à 30 procent. Opvallend is dat de stoomvaartondernemingen in deze tijd veel winstgevender waren dan de spoorwegen, terwijl de staatsspoorwegen bovendien sterk waren gesubsidieerd. Tussen 1880 en 1890 keerden de grote spoorwegondernemingen gemiddeld 5 tot 6 procent dividend uit.[106](#fn106)
 
-![undefined. undefined<br>undefined<br>undefined<br>](33_NRCDienstverlening.jpg)
+![Dienstregeling van de stoomboot. Krantenadvertentie met de dienstregeling van de stoomvaartdienst in 1859 van Amsterdam via Zaandam en Alkmaar naar Den Helder. Dergelijke advertenties stonden vaak in de kranten.<br>Advertentie in <em>Nieuwe Rotterdamsche Courant</em>, 22 mei 1859.<br><br>](33_NRCDienstverlening.jpg)
 
 ### 8 De vaarwegen aan het begin van de negentiende eeuw
 
