@@ -21,13 +21,13 @@
                 <button type="button" onclick="bigImageViewer();return false;" class="bg-nmgnBlue-800 p-2 rounded-full text-white text-sm cursor-pointer shrink-0">Vergroten</button>
             </div>
             <figcaption class="text-sm max-w-xl min-h-0 flex flex-col text-left">
-                <strong class="mt-4 block shrink-0" id="asideImgTitle">{{firstImage.imagedata.title}}</strong>
+                <strong class="mt-4 block shrink-0" id="asideImgTitle">{{{firstImage.imagedata.title}}}</strong>
                 <span id="asideCaption" class="overflow-y-auto max-h-[30vh] min-h-0 mt-1" tabindex="0">
-                    {{firstImage.imagedata.description}}
-                    {{#if firstImage.imagedata.description2}}<br>{{firstImage.imagedata.description2}}{{/if}}
-                    {{#if firstImage.imagedata.description3}}<br>{{firstImage.imagedata.description3}}{{/if}}
-                    {{#if firstImage.imagedata.location}}<br>{{firstImage.imagedata.location}}{{/if}}
-                    {{#if firstImage.imagedata.owner}}<br>{{firstImage.imagedata.owner}}{{/if}}
+                    {{{firstImage.imagedata.description}}}
+                    {{#if firstImage.imagedata.description2}}<br>{{{firstImage.imagedata.description2}}}{{/if}}
+                    {{#if firstImage.imagedata.description3}}<br>{{{firstImage.imagedata.description3}}}{{/if}}
+                    {{#if firstImage.imagedata.location}}<br>{{{firstImage.imagedata.location}}}{{/if}}
+                    {{#if firstImage.imagedata.owner}}<br>{{{firstImage.imagedata.owner}}}{{/if}}
                 </span>
                 
             </figcaption>
