@@ -50,10 +50,10 @@
     <!-- Nagivation -->
         <aside id="asideNavPanel" class="fixed inset-0 z-50 [@media(min-width:768px)_and_(orientation:landscape)]:right-0 [@media(min-width:768px)_and_(orientation:landscape)]:top-0 [@media(min-width:768px)_and_(orientation:landscape)]:bottom-0 [@media(min-width:768px)_and_(orientation:landscape)]:w-1/2 [@media(min-width:768px)_and_(orientation:landscape)]:left-auto xl:static xl:inset-auto xl:w-auto xl:min-w-[260px] pt-12 bg-nmgnBlue-50 pl-10 hidden xl:flex col-start-1 col-span-2">
             
-            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16 pr-2">
+            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16 pr-2" aria-label="Inhoud van deze pagina">
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
                 <div class="flex justify-between mb-4 border-b border-nmgnBlue-200 pb-2">
-                    <em tabindex="0" aria-label="Inhoud van deze pagina">Inhoud</em>
+                    <em aria-label="Inhoud van deze pagina">Inhoud</em>
                     <a href="#page-top" class="no-underline pl-2 inline-block pr-2" aria-label="Naar boven van de pagina">&#8593; top</a>
                 </div>
                 <div class="flex flex-col gap-2 justify-between mb-4 pb-2" id="contentNavigationSource">
@@ -87,11 +87,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP0">
         <input type="text" name="" id="paragraphLink0" value="paragraph0" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('0')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)" id="b_paragraphLink0">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('0')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink0">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)" id="b_paragraphLink0">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose0">
             &#10006;
         </button>
     </span>Veruit de bekendste zeeheld van de negentiende eeuw was Michiel de Ruyter. Natuurlijk, De Ruyter was in die tijd al meer dan honderd jaar dood, maar in de beleving van het nageslacht was hij springlevend, als lichtend voorbeeld en als object van nostalgische bewondering. Overal in Europa groeide vanaf het einde van de achttiende eeuw de belangstelling voor de eigen geschiedenis, niet alleen onder een kleine groep van geleerden en intellectuelen, maar in veel bredere lagen van de burgerij. Die ‘historiezucht’, zoals neerlandica Marita Mathijsen het noemt, hangt samen met het opkomende nationalisme en de eerste aanzetten voor een meer democratisch bestuur. Niet alleen de staat en zijn instellingen, maar ook de geschiedenis werd het bezit van iedereen, of althans van bijna iedereen. De maritieme elementen in die eigen geschiedenis kregen in Nederland ruime aandacht. Politici en lokale bestuurders, maar ook dichters, schrijvers en kunstenaars, onderwijzers en huisvaders ontwikkelden in de hier beschreven periode een opmerkelijke belangstelling voor het zeevarende verleden van Nederland. Daarmee hielden zij hun tijdgenoten een spiegel voor van een tijdperk dat zij zagen als heldhaftiger dan hun eigen tijd. Naast de talloze populaire producten om die boodschap breed uit te dragen, zoals dichtwerken, standbeelden, theatervoorstellingen en geschilderde historiestukken, groeide er ook een behoefte om de zeegeschiedenis op wetenschappelijke wijze te bestuderen.
@@ -111,11 +111,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP2">
         <input type="text" name="" id="paragraphLink2" value="paragraph2" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('2')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (2)" id="b_paragraphLink2">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('2')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink2">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP2', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (2)" id="b_paragraphLink2">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP2', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose2">
             &#10006;
         </button>
     </span>Op een schilderij uit 1832 beeldde de Amsterdamse schilder Hendrik Breukelaar (1809-1839) de ongeveer twaalfjarige Jan Carel Josephus van Speijk (1802-1831) af, staande voor het graf van Michiel de Ruyter in de Nieuwe Kerk in Amsterdam. Volgens een tijdgenoot staart de jongen ‘met zigtbare aandoening op de marmeren beeltenis van de Ruyter, en schijnt door de verhevene gedachte, van eenmaals diens grooten zeeheldspoor te zullen betreden, geheel bezield en als in verrukking opgetogen te zijn’.
@@ -141,11 +141,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP5">
         <input type="text" name="" id="paragraphLink5" value="paragraph5" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('5')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (5)" id="b_paragraphLink5">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('5')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink5">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP5', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (5)" id="b_paragraphLink5">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP5', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose5">
             &#10006;
         </button>
     </span>De ‘historiezucht’ nam na de Bataafse Revolutie van 1795 alleen maar toe. Helmers, tegenwoordig vooral bekend van de naar hem genoemde straten, schreef in 1812 een uitgebreid dichtwerk in ‘zes zangen’, <em>De Hollandsche natie</em>.
@@ -164,11 +164,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP6">
         <input type="text" name="" id="paragraphLink6" value="paragraph6" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('6')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)" id="b_paragraphLink6">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('6')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink6">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP6', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)" id="b_paragraphLink6">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP6', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose6">
             &#10006;
         </button>
     </span>‘Wat godlijk heldenvolk! – neen, ’t vrije Griekenland</p>
@@ -189,11 +189,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP14">
         <input type="text" name="" id="paragraphLink14" value="paragraph14" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('14')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (14)" id="b_paragraphLink14">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('14')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink14">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP14', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (14)" id="b_paragraphLink14">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP14', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose14">
             &#10006;
         </button>
     </span>Het was begrijpelijk dat schrijvers tijdens de Franse overheersing teruggrepen op de ‘goede oude tijd’. Dat deed ook Adriaan Loosjes (1761-1818) in de prozaroman <em>Het leven van</em> <em>Maurits Lijnslager,</em> <em>eene Hollandsche familie-geschiedenis uit de zeventiende eeuw</em> (1808), waarin de gelijknamige hoofdpersoon door Europa en de Republiek reist.
@@ -223,11 +223,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP16">
         <input type="text" name="" id="paragraphLink16" value="paragraph16" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('16')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (16)" id="b_paragraphLink16">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('16')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink16">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP16', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (16)" id="b_paragraphLink16">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP16', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose16">
             &#10006;
         </button>
     </span>Na het vertrek van de Fransen konden de werken van Helmers en Loosjes opnieuw, en met succes, worden uitgegeven. In het nieuwe, met de zuidelijke provincies verenigde Koninkrijk der Nederlanden ontstond de behoefde om de nationale identiteit te schragen met grote daden ter zee. Kleine militaire acties werden opgeblazen tot mythische proporties, zoals al eerder was gebeurd met de Zeeslag bij de Doggersbank.
@@ -258,11 +258,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP19">
         <input type="text" name="" id="paragraphLink19" value="paragraph19" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('19')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (19)" id="b_paragraphLink19">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('19')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink19">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP19', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (19)" id="b_paragraphLink19">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP19', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose19">
             &#10006;
         </button>
     </span>De behoefte aan eigentijdse maritieme helden leek meer te worden bevredigd door een voorval in 1831: de zogenaamde zelfopoffering van Jan van Speijk, die op 5 februari van dat jaar zijn kanonneerboot <em>Nr. 2</em> liever met bemanning incluis liet ontploffen dan het vaartuig en de Nederlandse vlag in handen van de oproerige Belgen te laten vallen. Van Speijks daad had alles in zich om uitbundig gevierd en herdacht te worden: dichter bij huis dan Algiers en Palembang, en een troostende gebeurtenis op een moment dat het toch al zo kleine Nederland bezig was de helft van zijn grondgebied voorgoed te verliezen. De euforie was groot, een lawine van eerbewijzen volgde direct na de knal op de Schelde: gedichten en liederen, waaronder een <em>declamatorium</em> ‘De heldendood van J.C.J. van Speyk’
@@ -293,11 +293,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP22">
         <input type="text" name="" id="paragraphLink22" value="paragraph22" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('22')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (22)" id="b_paragraphLink22">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('22')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink22">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP22', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (22)" id="b_paragraphLink22">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP22', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose22">
             &#10006;
         </button>
     </span>Het lied wordt nog altijd gezongen door aankomende marineofficieren op het KIM. Of deze belofte nog helemaal past bij de hedendaagse krijgsmacht, wordt in de eenentwintigste eeuw sterk betwijfeld.
@@ -322,11 +322,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP24">
         <input type="text" name="" id="paragraphLink24" value="paragraph24" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('24')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (24)" id="b_paragraphLink24">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('24')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink24">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP24', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (24)" id="b_paragraphLink24">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP24', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose24">
             &#10006;
         </button>
     </span>De Belgische Opstand confronteerde de Nederlandse samenleving opnieuw met haar zwakke punten, reden te meer om weer terug te grijpen op een heldhaftiger verleden. Op den duur boden de beproefde helden uit de zeventiende eeuw toch meer troost in bange dagen. Het is geen toeval dat juist in deze tijd, in 1841, een standbeeld van Michiel de Ruyter werd opgericht, niet alleen het eerste eerbetoon voor een zeeheld in deze vorm, maar ook een van de eerste standbeelden aan de openbare weg in Nederland. Alleen Erasmus en Laurens Jansz Coster waren al eerder op deze manier geëerd. De grote humanist was in brons gegoten, het beeld van De Ruyter door Louis Royer (1793-1868) moest het in Vlissingen met gietijzer doen: de openbare inzameling voor het beeld had daarvoor net genoeg opgebracht. Naast monumenten voor andere historische figuren als Vondel en Willem van Oranje, verrezen er in de loop van de eeuw nog meer maritieme heldenbeelden: Piet Hein (Delfshaven, 1873) en zelfs twee van Jan Pieterszoon Coen, het eerste in Batavia, in de jaren zeventig van de negentiende eeuw geplaatst en vervolgens nog één in Coens geboorteplaats Hoorn (1893).
@@ -345,11 +345,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP25">
         <input type="text" name="" id="paragraphLink25" value="paragraph25" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('25')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)" id="b_paragraphLink25">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('25')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink25">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP25', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)" id="b_paragraphLink25">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP25', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose25">
             &#10006;
         </button>
     </span>Dat De Ruyter de eerste zeeheld op een sokkel was, lag voor de hand. Hij verenigde alles wat Nederland nodig had in die jaren: gestorven in het harnas voor het vaderland, een vroom christen en ook nog van eenvoudige komaf, ideaal om je mee te identificeren dus. Wat Nederland vooral zo in hem aantrok was zijn vaderlijke imago. Huiselijke helden passen bij de Nederlandse identiteit, heel anders dan de ‘strong, masculine heroes’ die Thomas Carlyle in zijn beroemde lezingenserie over <em>Hero-Worship and the Heroic in History</em> (1841) zag als de beslissende krachten in het historische proces.
@@ -379,11 +379,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP28">
         <input type="text" name="" id="paragraphLink28" value="paragraph28" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('28')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (28)" id="b_paragraphLink28">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('28')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink28">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP28', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (28)" id="b_paragraphLink28">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP28', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose28">
             &#10006;
         </button>
     </span>Die sentimentele voorkeur voor huiselijkheid is ook te bespeuren in andere culturele uitingen die refereren aan de maritieme geschiedenis, zoals het populaire dichtwerk <em>De overwintering der Hollanders op Nova Zembla</em> (1820) door Hendrik Tollens (1780-1856). Het is een uitgebreid verslag – meer dan zevenhonderd dichtregels – van de laatste reis van Jacob van Heemskerck en Willem Barentsz naar het Hoge Noorden, op zoek naar een route naar Azië.
@@ -403,11 +403,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP30">
         <input type="text" name="" id="paragraphLink30" value="paragraph30" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('30')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (30)" id="b_paragraphLink30">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('30')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink30">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP30', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (30)" id="b_paragraphLink30">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP30', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose30">
             &#10006;
         </button>
     </span>‘Zoo wordt hun nood gerekt en ’t harde brood gegeten.</p>
@@ -425,11 +425,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP35">
         <input type="text" name="" id="paragraphLink35" value="paragraph35" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('35')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (35)" id="b_paragraphLink35">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('35')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink35">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP35', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (35)" id="b_paragraphLink35">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP35', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose35">
             &#10006;
         </button>
     </span>Een vergelijkbaar huiselijk element is te vinden in het enthousiasme voor tsaar Peter de Grote, die tijdens zijn bezoek aan ons land in 1697 als een eenvoudige scheepstimmerman meewerkte op de Amsterdamse VOC-werf. De woning in Zaandam waar hij enige dagen doorbracht, werd kort voor het jaar 1800 nog net op tijd gered van de sloop en later gekoesterd als een heiligdom. Dat de Oranjes verwant waren aan de Romanov-familie heeft bijgedragen aan het behoud van het Tsaar Peterhuisje. Anna Paulowna, echtgenote van de latere koning Willem II betaalde in 1823 de eerste overkapping van het bouwvallige houten huisje, nadien vervangen door een bakstenen omhulsel, ditmaal op kosten van tsaar Alexander III (1893). De cultus rond de Peter de Grote ging gepaard met de gebruikelijke elementen, zoals volksprenten voor de jeugd en uiteindelijk zelfs, in 1911, een standbeeld in Zaandam. Het verhaal van de timmerende tsaar vond niet alleen in Nederland en Rusland, maar ook elders in Europa weerklank. Zo verwerkte de Duitse componist Albert Lortzing (1801-1851) deze geschiedenis tot de komische opera <em>Zar und Zimmermann</em> (1837), die ook in Nederland volle zalen trok.
@@ -461,11 +461,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP39">
         <input type="text" name="" id="paragraphLink39" value="paragraph39" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('39')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (39)" id="b_paragraphLink39">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('39')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink39">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP39', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (39)" id="b_paragraphLink39">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP39', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose39">
             &#10006;
         </button>
     </span>Het theater bood een aantrekkelijke gelegenheid om moraliserend terug te blikken op de geschiedenis. De Amsterdamse schouwburg bracht in de hele negentiende eeuw tal van voorstellingen die handelden over vaderlandse helden, waaronder ook zeehelden. Tot ver in de eeuw bracht men hier stukken van Johannes Nomsz (1739-1803), een toneelschrijver die in zijn jeugd nog zeeman was geweest.
@@ -500,11 +500,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP46">
         <input type="text" name="" id="paragraphLink46" value="paragraph46" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('46')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (46)" id="b_paragraphLink46">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('46')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink46">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP46', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (46)" id="b_paragraphLink46">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP46', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose46">
             &#10006;
         </button>
     </span>Van alle kunstvormen die in de negentiende eeuw werden beoefend is de schilderkunst misschien wel het meest doortrokken van scheepvaart en de zee. Er zijn twee vormen van maritieme schilderkunst te onderscheiden. Allereerst de werken van historieschilders, kunstenaars die de maritieme gebeurtenissen uit de lokale en vaderlandse geschiedenis vastlegden. Daarnaast waren er schilders, die schepen, zee- en riviergezichten vastlegden, zonder directe verwijzing naar het roemrijke verleden. De eerste categorie was goed vertegenwoordigd in de Historische Galerij, die van 1862 tot 1889 te zien was in de expositiezalen van de kunstenaarssociëteit Arti et Amicitiae in Amsterdam. Dit overzicht van de vaderlandse geschiedenis telde 102 schilderijen.
@@ -530,11 +530,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP49">
         <input type="text" name="" id="paragraphLink49" value="paragraph49" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('49')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (49)" id="b_paragraphLink49">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('49')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink49">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP49', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (49)" id="b_paragraphLink49">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP49', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose49">
             &#10006;
         </button>
     </span>Naast deze historische voorstellingen was er een enorme productie van zeestukken die waren gebaseerd op de scheepvaart van de eigen tijd. Al aan het einde van de achttiende eeuw herleefde de maritieme schilderkunst die een eeuw eerder zo’n bloei had gekend. Ten tijde van de Vierde Engelse Oorlog (1780-1784) en daarna bracht Engel Hoogerheyden (1740-1807) bijvoorbeeld de activiteit van de oorlogsvloot in Zeeland in beeld.
@@ -554,11 +554,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP51">
         <input type="text" name="" id="paragraphLink51" value="paragraph51" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('51')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (51)" id="b_paragraphLink51">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('51')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink51">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP51', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (51)" id="b_paragraphLink51">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP51', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose51">
             &#10006;
         </button>
     </span>Romantische kunstenaars lieten zich inspireren door de overweldigende kracht en schoonheid van de zee, met taferelen waarin de mens vaak een speelbal van de elementen is. Heel duidelijk is dat bij de Dordtse zeeschilder Johannes Cornelis Schotel (1787-1838). Bij hem waren gebeurtenissen uit de Gouden Eeuw niet het onderwerp voor schilderijen, zoals bij de echte historieschilders. Wel is zijn bewondering voor de zeeschilders uit die periode, Willem van de Velde de Jonge (1633-1707) en Ludolf Backhuysen (1630-1708), af te lezen in zijn stijl en onderwerpskeuze.
@@ -582,11 +582,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP53">
         <input type="text" name="" id="paragraphLink53" value="paragraph53" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('53')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (53)" id="b_paragraphLink53">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('53')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink53">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP53', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (53)" id="b_paragraphLink53">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP53', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose53">
             &#10006;
         </button>
     </span>De waardering voor de zeeschilderkunst leidde zelfs tot een voor Nederland unieke vorm van officiële erkenning. In de jaren dertig en veertig van de negentiende eeuw voerde Prins Hendrik van Oranje-Nassau (1820-1879) het bevel over een marine-eskader dat elk jaar enige maanden oefende in de Middellandse Zee. Op deze reizen nodigde deze Nederlandse ‘Hendrik de Zeevaarder’ jonge kunstenaars uit om aan boord inspiratie op te doen voor schilderijen, onder wie Petrus Johannes Schotel (1808-1865), zoon van J.C. Schotel, Albertus van Beest (1820-1880) en Louis Meijer (1809-1866). Het resultaat was een aantal spectaculaire doeken met de schepen van het eskader, waaronder Hendriks vlaggenschip <em>Rijn</em>.</p>
@@ -601,11 +601,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP55">
         <input type="text" name="" id="paragraphLink55" value="paragraph55" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('55')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (55)" id="b_paragraphLink55">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('55')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink55">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP55', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (55)" id="b_paragraphLink55">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP55', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose55">
             &#10006;
         </button>
     </span>De hernieuwde waardering voor de maritieme schilderkunst in de negentiende eeuw heeft tot duizenden werken door grote en kleine meesters geleid met titels als ‘binnenwater met tjalken’, ‘woelende (of kalme) zee’, en ontelbare strand- en riviergezichten, schipbreuken, overzetveren en pittoreske vissersfamilies.
@@ -628,11 +628,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP60">
         <input type="text" name="" id="paragraphLink60" value="paragraph60" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('60')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (60)" id="b_paragraphLink60">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('60')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink60">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP60', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (60)" id="b_paragraphLink60">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP60', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose60">
             &#10006;
         </button>
     </span>Men zou verwachten dat al die schilderijen uit de negentiende eeuw een redelijk adequaat beeld geven van de Nederlandse scheepvaartgeschiedenis. Dat is maar gedeeltelijk het geval. Verreweg de meeste kunstenaars kozen onderwerpen waarin de eigen tijd slechts een ondergeschikte rol speelde. Liever vulden zij hun doeken met een nostalgisch aandoende zeilende tjalk op een met bomen gestoffeerd binnenwatertje dan met een raderstoomschip op een modern kanaal. Zelfs Mesdag, die ons zo’n indringend en correct beeld voorschotelt van de bommen en de vissers op het strand filterde in zijn laatste jaren als het ware zijn eigen tijd weg. Terwijl de logger de ouderwetse bom al had vervangen en de nieuwe Scheveningse haven vanaf 1904 het centrum van de plaatselijke visserij was geworden, bleef hij bommen in de branding schilderen, ook al lagen er geen bomschuiten meer op het strand. In dat opzicht was ook hij, net als zo vele vakgenoten een soort historieschilder geworden.</p>
@@ -647,11 +647,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP62">
         <input type="text" name="" id="paragraphLink62" value="paragraph62" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('62')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (62)" id="b_paragraphLink62">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('62')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink62">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP62', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (62)" id="b_paragraphLink62">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP62', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose62">
             &#10006;
         </button>
     </span>Sinds de tijd van de ontdekkingsreizen waren verhalen over zeereizen en zeehelden populair. Het <em>Journaal van Bontekoe</em> uit 1641 beleefde tot in de twintigste eeuw herdruk na herdruk. Ook jonge lezers zullen er van hebben genoten, maar speciaal voor de jeugd geschreven maritieme verhalen waren er tot aan het einde van de achttiende eeuw nog niet.
@@ -686,11 +686,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP64">
         <input type="text" name="" id="paragraphLink64" value="paragraph64" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('64')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (64)" id="b_paragraphLink64">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('64')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink64">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP64', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (64)" id="b_paragraphLink64">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP64', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose64">
             &#10006;
         </button>
     </span>De hang naar het maritieme verleden had ook een wetenschappelijke kant. De negentiende eeuw was de periode waarin de wetenschappelijke geschiedbeoefening tot ontwikkeling kwam, met zorgvuldig controleerbaar bronnenonderzoek als uitgangspunt. Het was de rijksarchivaris Johannes Cornelis de Jonge (1793-1853) die als eerste de zeegeschiedenis op deze manier aan een uitgebreid onderzoek onderwierp, wat meteen tot een kloek overzichtswerk heeft geleid. Zijn&nbsp;<em>Geschiedenis van het Nederlandsche zeewezen</em> verscheen tussen 1833 en 1848 in zes delen.
@@ -710,11 +710,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP66">
         <input type="text" name="" id="paragraphLink66" value="paragraph66" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('66')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (66)" id="b_paragraphLink66">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('66')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink66">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP66', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (66)" id="b_paragraphLink66">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP66', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose66">
             &#10006;
         </button>
     </span>De Jonge had, blijkens het voorwoord van zijn zoon bij de tweede druk van 1858, het vaste voornemen om zich niet ‘door deze of gene staatspartij te laten medeslepen, of blindelings het ééne of het andere stelsel in bescherming te nemen. Eén spoor volgde hij: het was het spoor der waarheid; daarvan liet hij zich door geene dwaallichten afleiden’.
@@ -733,11 +733,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP67">
         <input type="text" name="" id="paragraphLink67" value="paragraph67" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('67')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (67)" id="b_paragraphLink67">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('67')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink67">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP67', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (67)" id="b_paragraphLink67">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP67', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose67">
             &#10006;
         </button>
     </span>De Jonges werk markeert de toenemende aandacht voor een serieuze benadering van de maritieme geschiedenis. J.J. Backer Dirks (1825-1893), docent aan het Koninklijk Instituut voor de Marine, volgde zijn voorbeeld met een vrije bewerking van en aanvulling op het werk van De Jonge.
@@ -761,11 +761,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP68">
         <input type="text" name="" id="paragraphLink68" value="paragraph68" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('68')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (68)" id="b_paragraphLink68">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('68')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink68">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP68', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (68)" id="b_paragraphLink68">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP68', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose68">
             &#10006;
         </button>
     </span>Historiezucht was ook een van de drijfveren voor de organisatoren van de Nederlandse wetenschappelijke expedities naar de noordelijke poolstreken, in de jaren 1878-1884. Aanleiding voor de zeven reizen die het Hoofdcomité voor de IJszeevaart organiseerde met de schoener <em>Willem Barents,</em> was de vondst van restanten van het ‘Behouden Huys’ op Nova Zembla. Dat de ontdekker een Noor was, de walrusjager Elling Carlsen, deed in Nederland een golf van nationaal bewustzijn ontwaken: Nederland moest weer een rol gaan spelen in het wetenschappelijk onderzoek van de poolstreken! Een van de initiatiefnemers voor de tochten was Jan Karel Jacob de Jonge (1828-1880), zoon van de hiervoor genoemde historicus J.C. de Jonge, adjunct- rijksarchivaris en later directeur van het Mauritshuis. Op plaatsen waar Nederlanders in het verleden actief waren geweest, zoals Nova Zembla en Spitsbergen moest de bemanning van de poolschoener gedenkstenen plaatsen. Van meer praktisch belang was echter het wetenschappelijk onderzoek door onderzoekers aan boord, met specialismen als geografie, oceanografie, meteorologie en zoölogie.
@@ -811,11 +811,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP74">
         <input type="text" name="" id="paragraphLink74" value="paragraph74" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('74')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (74)" id="b_paragraphLink74">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('74')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink74">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP74', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (74)" id="b_paragraphLink74">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP74', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose74">
             &#10006;
         </button>
     </span>Vaderlandse geschiedenis in al zijn facetten was gedurende de hele negentiende eeuw een soort nationale rage. Zelfs toen het land in de loop van de eeuw steeds moderner en welvarender werd bleef de blik gericht op de achteruitkijkspiegel. In die ‘historiezucht’ hadden scheepvaart en maritiem heldendom een prominente plaats. Opvallend is daarbij dat men telkens teruggreep op een beperkt aantal vaderlandse helden, Michiel de Ruyter voorop. Ook de roem van een eigentijdse held, J.C.J. van Speijk, werd meteen in een historische context geplaatst, opnieuw met De Ruyter als referentiepunt. De zeeheldencultus had een functie in het creëren en versterken van het nationale zelfbewustzijn. Nog tot ver na de negentiende eeuw bleven die zeehelden deel uitmaken van de informele canon waarvan het onderwijs en de jeugdliteratuur zich bediende. Liedjes over De Ruyter en Piet Hein, waaronder het bekende Zilvervloot-lied door Jan Pieter Heije (1809-1876) en kinderboeken over hun dapperheid bleven ook in de twintigste eeuw populair.
@@ -861,11 +861,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP89">
         <input type="text" name="" id="paragraphLink89" value="paragraph89" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('89')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (89)" id="b_paragraphLink89">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('89')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink89">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP89', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (89)" id="b_paragraphLink89">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP89', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose89">
             &#10006;
         </button>
     </span>Ook een manier om een held te gedenken!</p>
@@ -1393,11 +1393,11 @@
 
 
         <div class="w-full lg:w-1/3 flex flex-col gap-4">
-            <div class="lg:-translate-x-11 mb-4"><img src="images/logo_NMGN.svg" alt="" loading="lazy" class="w-64 lg:w-96" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
+            <div class="lg:-translate-x-11 mb-4"><img src="images/logo_NMGN.svg" alt="Logo Nieuwe Maritieme Geschiedenis van Nederland" loading="lazy" class="w-64 lg:w-96" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
             <div class=""><strong>Partners</strong></div>
-            <div class="pb-4"><img src="images/logo_huygensING.png" alt="" loading="lazy" class="w-64 lg:w-32" aria-label="Logo Huygens instituut"></div>
-            <div class="bg-white pb-4 w-72"><img src="images/logo_OCW_RCE.png" alt="" loading="lazy" class="w-full" aria-label="Logo De Rijksdienst voor het Cultureel Erfgoed"></div>
-            <div class="bg-white pb-4 w-72 p-4"><img src="images/logo-samenwerkende-maritime-fondsen.png" alt="" loading="lazy" class="w-full" aria-label="logo samenwerkende maritime fondsen"></div>
+            <div class="pb-4"><img src="images/logo_huygensING.png" alt="Logo Huygens instituut" loading="lazy" class="w-64 lg:w-32" aria-label="Logo Huygens instituut"></div>
+            <div class="bg-white pb-4 w-72"><a href="https://www.cultureelerfgoed.nl/onderwerpen/m/maritiem-erfgoed" target="_blank"><img src="images/logo_OCW_RCE.png" alt="Logo De Rijksdienst voor het Cultureel Erfgoed" loading="lazy" class="w-full" ></a></div>
+            <div class="bg-white pb-4 w-72 p-4"><a href="https://www.samenwerkendemaritiemefondsen.nl/" target="_blank"><img src="images/logo-samenwerkende-maritime-fondsen.png" alt="Logo Samenwerkende Maritime Fondsen" loading="lazy" class="w-full" ></a></div>
             
         </div>
 

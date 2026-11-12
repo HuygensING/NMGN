@@ -50,10 +50,10 @@
     <!-- Nagivation -->
         <aside id="asideNavPanel" class="fixed inset-0 z-50 [@media(min-width:768px)_and_(orientation:landscape)]:right-0 [@media(min-width:768px)_and_(orientation:landscape)]:top-0 [@media(min-width:768px)_and_(orientation:landscape)]:bottom-0 [@media(min-width:768px)_and_(orientation:landscape)]:w-1/2 [@media(min-width:768px)_and_(orientation:landscape)]:left-auto xl:static xl:inset-auto xl:w-auto xl:min-w-[260px] pt-12 bg-nmgnBlue-50 pl-10 hidden xl:flex col-start-1 col-span-2">
             
-            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16 pr-2">
+            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16 pr-2" aria-label="Inhoud van deze pagina">
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
                 <div class="flex justify-between mb-4 border-b border-nmgnBlue-200 pb-2">
-                    <em tabindex="0" aria-label="Inhoud van deze pagina">Inhoud</em>
+                    <em aria-label="Inhoud van deze pagina">Inhoud</em>
                     <a href="#page-top" class="no-underline pl-2 inline-block pr-2" aria-label="Naar boven van de pagina">&#8593; top</a>
                 </div>
                 <div class="flex flex-col gap-2 justify-between mb-4 pb-2" id="contentNavigationSource">
@@ -80,11 +80,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP0">
         <input type="text" name="" id="paragraphLink0" value="paragraph0" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('0')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)" id="b_paragraphLink0">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('0')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink0">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)" id="b_paragraphLink0">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose0">
             &#10006;
         </button>
     </span>Test profile</p>
@@ -203,11 +203,11 @@
 
 
         <div class="w-full lg:w-1/3 flex flex-col gap-4">
-            <div class="lg:-translate-x-11 mb-4"><img src="images/logo_NMGN.svg" alt="" loading="lazy" class="w-64 lg:w-96" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
+            <div class="lg:-translate-x-11 mb-4"><img src="images/logo_NMGN.svg" alt="Logo Nieuwe Maritieme Geschiedenis van Nederland" loading="lazy" class="w-64 lg:w-96" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
             <div class=""><strong>Partners</strong></div>
-            <div class="pb-4"><img src="images/logo_huygensING.png" alt="" loading="lazy" class="w-64 lg:w-32" aria-label="Logo Huygens instituut"></div>
-            <div class="bg-white pb-4 w-72"><img src="images/logo_OCW_RCE.png" alt="" loading="lazy" class="w-full" aria-label="Logo De Rijksdienst voor het Cultureel Erfgoed"></div>
-            <div class="bg-white pb-4 w-72 p-4"><img src="images/logo-samenwerkende-maritime-fondsen.png" alt="" loading="lazy" class="w-full" aria-label="logo samenwerkende maritime fondsen"></div>
+            <div class="pb-4"><img src="images/logo_huygensING.png" alt="Logo Huygens instituut" loading="lazy" class="w-64 lg:w-32" aria-label="Logo Huygens instituut"></div>
+            <div class="bg-white pb-4 w-72"><a href="https://www.cultureelerfgoed.nl/onderwerpen/m/maritiem-erfgoed" target="_blank"><img src="images/logo_OCW_RCE.png" alt="Logo De Rijksdienst voor het Cultureel Erfgoed" loading="lazy" class="w-full" ></a></div>
+            <div class="bg-white pb-4 w-72 p-4"><a href="https://www.samenwerkendemaritiemefondsen.nl/" target="_blank"><img src="images/logo-samenwerkende-maritime-fondsen.png" alt="Logo Samenwerkende Maritime Fondsen" loading="lazy" class="w-full" ></a></div>
             
         </div>
 

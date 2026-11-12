@@ -50,10 +50,10 @@
     <!-- Nagivation -->
         <aside id="asideNavPanel" class="fixed inset-0 z-50 [@media(min-width:768px)_and_(orientation:landscape)]:right-0 [@media(min-width:768px)_and_(orientation:landscape)]:top-0 [@media(min-width:768px)_and_(orientation:landscape)]:bottom-0 [@media(min-width:768px)_and_(orientation:landscape)]:w-1/2 [@media(min-width:768px)_and_(orientation:landscape)]:left-auto xl:static xl:inset-auto xl:w-auto xl:min-w-[260px] pt-12 bg-nmgnBlue-50 pl-10 hidden xl:flex col-start-1 col-span-2">
             
-            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16 pr-2">
+            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16 pr-2" aria-label="Inhoud van deze pagina">
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
                 <div class="flex justify-between mb-4 border-b border-nmgnBlue-200 pb-2">
-                    <em tabindex="0" aria-label="Inhoud van deze pagina">Inhoud</em>
+                    <em aria-label="Inhoud van deze pagina">Inhoud</em>
                     <a href="#page-top" class="no-underline pl-2 inline-block pr-2" aria-label="Naar boven van de pagina">&#8593; top</a>
                 </div>
                 <div class="flex flex-col gap-2 justify-between mb-4 pb-2" id="contentNavigationSource">
@@ -90,11 +90,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP0">
         <input type="text" name="" id="paragraphLink0" value="paragraph0" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('0')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)" id="b_paragraphLink0">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('0')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink0">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)" id="b_paragraphLink0">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose0">
             &#10006;
         </button>
     </span>‘Op het eerste gezicht was Nederland in de twintigste eeuw een eiland van rust in een Europese zee van omwentelingen en massabewegingen’, schrijft Friso Wielenga op het omslag van zijn overzichtswerk <em>Nederland in de twintigste eeuw.</em> Toch veranderde de Nederlandse samenleving ingrijpend: massacommunicatie, technologische ontwikkelingen, toenemende mobiliteit en massale productie en consumptie van goederen en energie kwamen op gang en drukten hun stempel op mens en maatschappij. Naast grote welvaart en technologische vooruitgang werd de ‘eeuw van uitersten’ gedomineerd door enorme spanningen op het wereldtoneel.
@@ -128,11 +128,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP1">
         <input type="text" name="" id="paragraphLink1" value="paragraph1" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('1')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (1)" id="b_paragraphLink1">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('1')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink1">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP1', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (1)" id="b_paragraphLink1">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP1', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose1">
             &#10006;
         </button>
     </span>Dit hoofdstuk is een verkenning van de wijze waarop twintigste-eeuwse denkbeelden over (nationale) eenheid en eigenheid zijn te herkennen in cultuuruitingen met een maritiem karakter en, omgekeerd, of en op welke manier maritieme cultuuruitingen hebben bijgedragen aan een (breed gedragen) begrip van eenheid en eigenheid.
@@ -171,11 +171,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP12">
         <input type="text" name="" id="paragraphLink12" value="paragraph12" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('12')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (12)" id="b_paragraphLink12">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('12')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink12">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP12', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (12)" id="b_paragraphLink12">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP12', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose12">
             &#10006;
         </button>
     </span>Geïnspireerd door het affiche van tekenaar Hein Kray, trokken de antirevolutionairen in 1925 zingend ten verkiezingsstrijd. Op de melodie van het in de negentiende eeuw gecomponeerde lied <em>De Zilvervloot –</em> naar de ‘heldendaad’ van Piet Hein – galmde het door de straten: Colijn moet stuurman zijn. Trotse ‘kleine luyden’ hingen het verkiezingsaffiche waarop hun nieuwe stuurman prijkte, massaal voor de ramen. In oliegoed gestoken en met de handen stevig om het stuurwiel van het schip van staat geklemd, tuurt Colijn vastberaden naar de einder.</p>
@@ -190,11 +190,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP14">
         <input type="text" name="" id="paragraphLink14" value="paragraph14" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('14')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (14)" id="b_paragraphLink14">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('14')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink14">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP14', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (14)" id="b_paragraphLink14">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP14', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose14">
             &#10006;
         </button>
     </span>Door ingrijpende veranderingen van het kiesstelsel speelden Nederlandse verkiezingscampagnes zich na de Eerste Wereldoorlog voor het eerst op landelijk niveau af en namen de omvang en diversiteit van kiezersdoelgroepen toe. Op affiches werd de verkiezingsboodschap van politieke partijen veelal door middel van symbolische voorstellingen uitgedragen. Ook het gebruik van metaforen was populair. In het bijzonder het ‘schip van staat’ en het hiervan afgeleide motief van de ‘stuurman in woelig stormgetij’ werden tijdens het interbellum veelvuldig in politieke context gebruikt.
@@ -220,11 +220,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP17">
         <input type="text" name="" id="paragraphLink17" value="paragraph17" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('17')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (17)" id="b_paragraphLink17">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('17')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink17">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP17', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (17)" id="b_paragraphLink17">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP17', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose17">
             &#10006;
         </button>
     </span>Het beeld van Colijn die het schip van staat als krachtig stuurman naar veilig water loodst, was niet nieuw, zeker niet voor het calvinistische deel van de Nederlandse bevolking. Het verkiezingsaffiche dat Hein Kray in 1925 voor de ARP ontwierp, is een vrijwel exacte kopie van een tekening die hij twee jaar eerder maakte van Colijn als minister van Financiën voor het ‘humoristisch-satyriek orgaan’ van de anti-revolutionairen, <em>De Houten Pomp</em>.
@@ -244,11 +244,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP19">
         <input type="text" name="" id="paragraphLink19" value="paragraph19" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('19')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (19)" id="b_paragraphLink19">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('19')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink19">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP19', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (19)" id="b_paragraphLink19">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP19', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose19">
             &#10006;
         </button>
     </span>Opvallend is dat het stuurwiel, dat op de oorspronkelijke tekening nog een aanzienlijke diameter had, op het affiche gekrompen is tot een rad van poppenhuisformaat in de buitensporig grote en grof getekende handen van Colijn. Door hem letterlijk te vergroten probeerde Kray stuurman Colijn extra autoriteit, gezag en daadkracht te laten uitstralen. Over afbeeldingen op verkiezingsaffiches uit het interbellum wordt weleens gezegd dat ‘de suggestie steeds die van dreiging is […] het schip van staat dreigt onder te gaan in de woeste baren en dient beschermd te worden’.
@@ -284,11 +284,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP22">
         <input type="text" name="" id="paragraphLink22" value="paragraph22" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('22')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (22)" id="b_paragraphLink22">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('22')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink22">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP22', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (22)" id="b_paragraphLink22">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP22', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose22">
             &#10006;
         </button>
     </span>Hoewel het interbellum achteraf lang als een conservatieve en weinig zinderende tijd is beschouwd, had de tijdgenoot het gevoel dat hij in snelle veranderingen leefde en dat de staat en de maatschappij dreigden te ontwrichten.
@@ -330,11 +330,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP26">
         <input type="text" name="" id="paragraphLink26" value="paragraph26" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('26')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (26)" id="b_paragraphLink26">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('26')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink26">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP26', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (26)" id="b_paragraphLink26">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP26', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose26">
             &#10006;
         </button>
     </span>In reactie op de gevolgen van massificatie, verstedelijking, nieuwe communicatievormen en internationale dreigingen – die die noopten tot reflectie van het eigen, nationale, karakter – ontspon zich in de eerste helft van de twintigste eeuw (ook) in Nederland een nieuw soort volksnationalisme.
@@ -377,11 +377,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP31">
         <input type="text" name="" id="paragraphLink31" value="paragraph31" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('31')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (31)" id="b_paragraphLink31">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('31')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink31">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP31', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (31)" id="b_paragraphLink31">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP31', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose31">
             &#10006;
         </button>
     </span>Wanneer het iconisch geworden verkiezingsaffiche van de ARP in 1925 binnen de context van het interbellum wordt geduid, tekent zich langzaam een mogelijke verklaring af voor het veelvuldig gebruik van de metafoor ‘het schip van staat’ en zijn afgeleide stuurman. Het ligt voor de hand dat het gebruikte beeld op affiches, het belangrijkste propagandamiddel van die tijd, begrijpelijk moet zijn voor het beoogde publiek en dat hiervoor algemeen bekende begrippen, denkbeelden en metaforen worden gebruikt.
@@ -406,11 +406,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP33">
         <input type="text" name="" id="paragraphLink33" value="paragraph33" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('33')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (33)" id="b_paragraphLink33">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('33')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink33">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP33', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (33)" id="b_paragraphLink33">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP33', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose33">
             &#10006;
         </button>
     </span>‘Met zijn dertigen waren zij. De een al mooier dan de ander […] Statig en sierlijk tegelijk, als waterlelies. Met hun volle, ronde vormen waren zij de koninginnen van dit waterballet, waarop zich allerogen met welbehagen richtten […] En inderdaad waren de moderne jachtjes, deze dienaressen van de slanke lijn met hun smalle heupen en spitse neuzen, veroordeeld tot de rol van muurbloempjes’.
@@ -430,11 +430,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP35">
         <input type="text" name="" id="paragraphLink35" value="paragraph35" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('35')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (35)" id="b_paragraphLink35">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('35')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink35">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP35', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (35)" id="b_paragraphLink35">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP35', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose35">
             &#10006;
         </button>
     </span>Aan het woord is een verslaggever van <em>Het Vrije Volk</em>. Op 4 juli 1953 was hij getuige van een door velen als uniek bestempeld evenement. Op die dag verzamelden zich op het Pikmeer in Grou (Grouw) een dertigtal schepen met één gemene deler: zij mochten zich allen tot de ‘alleredelste Friese afkomst’ rekenen. Boeiers, jachten en tjotters kwamen vanuit het hele land bijeen om ‘in Admiraal te zeilen’. Sommige waren nog door de beroemde Eeltje Holtrop van der Zee in Joure gebouwd.
@@ -460,11 +460,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP38">
         <input type="text" name="" id="paragraphLink38" value="paragraph38" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('38')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (38)" id="b_paragraphLink38">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('38')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink38">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP38', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (38)" id="b_paragraphLink38">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP38', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose38">
             &#10006;
         </button>
     </span>‘Het getal, zo zeide men, overspoelde de individu’, schreef Johan Huizinga in zijn <em>In de schaduwen van morgen</em> uit 1935.
@@ -511,11 +511,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP42">
         <input type="text" name="" id="paragraphLink42" value="paragraph42" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('42')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (42)" id="b_paragraphLink42">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('42')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink42">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP42', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (42)" id="b_paragraphLink42">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP42', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose42">
             &#10006;
         </button>
     </span>Onlosmakelijk verbonden met opkomst van de kleine watersport is Hendrik Bulthuis (1892-1948). De kapper uit het Friese Bergum stond aan de wieg van de standaardisering van de jachtbouw tijdens het interbellum. Hij ontwierp in 1928 een midzwaardjachtje dat volgens de lattenbouwmethode gebouwd werd: de ‘Bergumer Meerklasse’, kortweg B.M. Bulthuis was op het inventieve idee gekomen om de mallen van het scheepje dienst te laten doen als spanten. Dit maakte de constructie eenvoudiger én goedkoper: iedere handige amateur met honderd gulden zou het zelf kunnen bouwen.
@@ -541,11 +541,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP45">
         <input type="text" name="" id="paragraphLink45" value="paragraph45" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('45')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (45)" id="b_paragraphLink45">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('45')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink45">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP45', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (45)" id="b_paragraphLink45">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP45', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose45">
             &#10006;
         </button>
     </span>Hoewel de pleziervaart voor de Tweede Wereldoorlog al brede lagen van de samenleving had bereikt, zou de popularisering ervan definitief zijn beslag krijgen in de jaren vijftig. Toenemende welvaart gaf een ongekende impuls aan de fysieke, sociale en culturele mobiliteit van de Nederlander. Massaproductie en -consumptie naar Amerikaans voorbeeld namen een hoge vlucht.
@@ -566,11 +566,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP48">
         <input type="text" name="" id="paragraphLink48" value="paragraph48" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('48')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (48)" id="b_paragraphLink48">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('48')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink48">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP48', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (48)" id="b_paragraphLink48">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP48', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose48">
             &#10006;
         </button>
     </span>Terug naar Friesland, 1953. De reünie van ronde Friese jachten maakte een hoop los, getuige de vele berichten over het evenement in de dagbladen. ‘Als het mogelijk is de Hollandse molens te beschermen, zouden we dan ook niet alles moeten doen om deze prachtige schepen van de ondergang te redden?’, gonsde het.
@@ -595,11 +595,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP50">
         <input type="text" name="" id="paragraphLink50" value="paragraph50" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('50')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (50)" id="b_paragraphLink50">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('50')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink50">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP50', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (50)" id="b_paragraphLink50">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP50', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose50">
             &#10006;
         </button>
     </span>Opvallend in de berichtgeving is het aantal referenties naar de ‘zuiverheid’ van de schepen. Deze verwijzing komt ook voor bij initiatiefnemer C.J.W. van Waning, die het begrip Stamboek duidt als: een ‘op kennis gebaseerde keuring op raszuiverheid, waarbij tevens het streven naar rasverbetering kan worden toegevoegd’.
@@ -629,11 +629,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP52">
         <input type="text" name="" id="paragraphLink52" value="paragraph52" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('52')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (52)" id="b_paragraphLink52">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('52')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink52">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP52', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (52)" id="b_paragraphLink52">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP52', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose52">
             &#10006;
         </button>
     </span>Dat halverwege de jaren vijftig de tijd rijp bleek de (in eerste instantie) Friese ronde- en platbodemjachten van de ondergang te redden, kwam door een samenspel van factoren. Net als de belasting op pleziervaartuigen die het bezit van een groot jacht onaantrekkelijk maakte, speelde de massificering van de watersport een belangrijke rol.
@@ -657,11 +657,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP53">
         <input type="text" name="" id="paragraphLink53" value="paragraph53" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('53')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (53)" id="b_paragraphLink53">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('53')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink53">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP53', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (53)" id="b_paragraphLink53">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP53', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose53">
             &#10006;
         </button>
     </span>Initiatieven tot het behoud van historische schepen namen na de oprichting van de Stichting Stamboek een vlucht. Zo werd in 1960 de Stichting Botterbehoud opgericht, in de jaren zeventig de Landelijke Vereniging tot Behoud van het Historisch Bedrijfsvaartuig en zagen onder meer aparte behoudsorganisaties voor sleepboten, reddingboten en klassieke scherpe jachten het licht. Vandaag de dag staan ruim 3.000 historische vaartuigen in het Register Varend Erfgoed Nederland van de Federatie Varend Erfgoed Nederland geregistreerd.
@@ -682,11 +682,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP56">
         <input type="text" name="" id="paragraphLink56" value="paragraph56" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('56')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (56)" id="b_paragraphLink56">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('56')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink56">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP56', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (56)" id="b_paragraphLink56">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP56', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose56">
             &#10006;
         </button>
     </span>In dit hoofdstuk is verkend op welke wijze twintigste-eeuwse denkbeelden over (nationale) eenheid en eigenheid zijn te herkennen in cultuuruitingen met een maritiem karakter. Deze vraagstelling werd uitgewerkt aan de hand van twee onderwerpen die het begrip ‘massa’ omvatten; de betrokkenheid van grotere en diverse groepen bij de nationale politiek en de massificering van de watersport die aanleiding gaf tot de oprichting van de eerste organisatie die zich het behoud van deze traditioneel gebouwde schepen ten doel stelde. De in dit hoofdstuk besproken onderwerpen zijn slechts een paar in het oog springende representanten van twintigste-eeuwse maritieme cultuuruitingen in een haast oneindige zee aan mogelijkheden.
@@ -705,11 +705,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP57">
         <input type="text" name="" id="paragraphLink57" value="paragraph57" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('57')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (57)" id="b_paragraphLink57">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('57')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink57">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP57', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (57)" id="b_paragraphLink57">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP57', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose57">
             &#10006;
         </button>
     </span>Het gebruik van de welbekende metafoor het ‘schip van staat’ en diens afgeleide stuurman op het affiche van de ARP uit 1925, stelde de partij in staat een heldere verkiezingsboodschap over te brengen aan grote groepen (nieuwe) kiezers. De wijze waarop voorman Colijn is afgebeeld, balt de tijdens het interbellum heersende ideeën over nationale eigenheid treffend samen. Deze stuurman laat zich duiden als een geconstrueerd icoon van Nederlanderschap. Zijn cultureel herkenbare verschijningsvorm – een eenvoudige schipper eerder dan een deftige stuurman – leest als een vertrouwd beeld in een diffuse wereld.</p>
@@ -723,11 +723,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP58">
         <input type="text" name="" id="paragraphLink58" value="paragraph58" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('58')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (58)" id="b_paragraphLink58">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('58')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink58">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP58', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (58)" id="b_paragraphLink58">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP58', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose58">
             &#10006;
         </button>
     </span>Hetzelfde geldt voor de boeiers van Eeltje Holtrop en andere historische schepen, die in het proces van massificering van de watersport teloor dreigden te gaan. Dat behoudsorganisaties voor historische schepen juist na de Tweede Wereldoorlog – toen Nederland afstand deed van zijn neutraliteitspolitiek en de confrontatie met Amerika en Europa een nieuwe manier van denken over de eigen geschiedenis en cultuur teweeg bracht – voor het eerst gestalte kregen, is niet verwonderlijk. Na de periode van wederopbouw werd gezocht naar het specifiek eigene in verhouding tot de landen en samenwerkingsorganen waarmee Nederland een nieuwe relatie kreeg. Een legitiem moment om het gekoesterde ‘eigene’ van de ondergang te redden.</p>
@@ -741,11 +741,11 @@
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP59">
         <input type="text" name="" id="paragraphLink59" value="paragraph59" class="hidden w-full">
         
-        <button class=" md:flex px-2  right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('59')" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (59)" id="b_paragraphLink59">
+        <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('59')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink59">
             Klik hier voor een link naar deze paragraaf.
         </button>
     
-        <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP59', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (59)" id="b_paragraphLink59">
+        <button type="button" class="md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP59', 'hide');" aria-label="Sluit" id="b_paragraphLinkClose59">
             &#10006;
         </button>
     </span>In tijden waarin dat ‘eigene’ onder druk kwam te staan, kon met een zelf geconstrueerd icoon in de vorm van een stuurman of met een varend monument als de <em>Friso</em>, als het ware de eenheid en de samenhang met voorbije perioden worden ervaren. In de ‘eeuw van uitersten’ kon aan deze maritieme cultuuruitingen een idee van continuïteit worden toegedicht en waren zij bij machte te fungeren als solide bakens tussen het veilige verleden en het onzekere verschiet.</p>
@@ -1397,11 +1397,11 @@
 
 
         <div class="w-full lg:w-1/3 flex flex-col gap-4">
-            <div class="lg:-translate-x-11 mb-4"><img src="images/logo_NMGN.svg" alt="" loading="lazy" class="w-64 lg:w-96" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
+            <div class="lg:-translate-x-11 mb-4"><img src="images/logo_NMGN.svg" alt="Logo Nieuwe Maritieme Geschiedenis van Nederland" loading="lazy" class="w-64 lg:w-96" aria-label="Nieuwe Maritieme Geschiedenis van Nederland"></div>
             <div class=""><strong>Partners</strong></div>
-            <div class="pb-4"><img src="images/logo_huygensING.png" alt="" loading="lazy" class="w-64 lg:w-32" aria-label="Logo Huygens instituut"></div>
-            <div class="bg-white pb-4 w-72"><img src="images/logo_OCW_RCE.png" alt="" loading="lazy" class="w-full" aria-label="Logo De Rijksdienst voor het Cultureel Erfgoed"></div>
-            <div class="bg-white pb-4 w-72 p-4"><img src="images/logo-samenwerkende-maritime-fondsen.png" alt="" loading="lazy" class="w-full" aria-label="logo samenwerkende maritime fondsen"></div>
+            <div class="pb-4"><img src="images/logo_huygensING.png" alt="Logo Huygens instituut" loading="lazy" class="w-64 lg:w-32" aria-label="Logo Huygens instituut"></div>
+            <div class="bg-white pb-4 w-72"><a href="https://www.cultureelerfgoed.nl/onderwerpen/m/maritiem-erfgoed" target="_blank"><img src="images/logo_OCW_RCE.png" alt="Logo De Rijksdienst voor het Cultureel Erfgoed" loading="lazy" class="w-full" ></a></div>
+            <div class="bg-white pb-4 w-72 p-4"><a href="https://www.samenwerkendemaritiemefondsen.nl/" target="_blank"><img src="images/logo-samenwerkende-maritime-fondsen.png" alt="Logo Samenwerkende Maritime Fondsen" loading="lazy" class="w-full" ></a></div>
             
         </div>
 
