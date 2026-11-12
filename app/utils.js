@@ -45,6 +45,11 @@ const getChapterHtmlFilename = (metadata) => {
     return 'd' + metadata.part + 'h' + metadata.chapter + '-' + saveTitle(metadata.title) + '.html';
 };
 
-module.exports = {createFile, replaceSpaces, formatTitle, formatTitleH1, saveTitle, navigationData, getChapterHtmlFilename};
+const stripHtml = (str) => {
+    if (str == null || typeof str !== 'string') return '';
+    return str.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+};
+
+module.exports = {createFile, replaceSpaces, formatTitle, formatTitleH1, saveTitle, navigationData, getChapterHtmlFilename, stripHtml};
 
 

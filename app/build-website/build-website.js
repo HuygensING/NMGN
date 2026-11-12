@@ -93,6 +93,10 @@ handlebars.registerHelper('formatTitleH1', function (str) {
   return utilFunc.formatTitleH1(str);
 });
 
+handlebars.registerHelper('stripHtml', function (str) {
+  return utilFunc.stripHtml(str);
+});
+
 
 function generateHtml() {
     sitedata.forEach(chapterData => {
@@ -229,11 +233,14 @@ function renderIMGbasic(imgObject, chapterCode, blockIsFirst, blockIsLast) {
   }
 
 
+  const altText = utilFunc.stripHtml([title, caption].filter(Boolean).join(' '))
+    .replace(/"/g, '&quot;');
+
 	let singleImage = '<button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" '
     singleImage += 'data-title="'+title+'" '
     singleImage += 'data-caption="'+caption+'"'
     singleImage += 'data-src="'+imageSrc+'">'
-    singleImage += '<img src="images/'+chapterCode+'/'+chapterCode+'-'+imgSize+'/'+imgObject.htmlRaw+'" class="'+ imgFirstOfSet +' w-24 md:w-40" alt="'+title+' '+caption+'" id="img_'+imgObject.htmlRaw+'">'
+    singleImage += '<img src="images/'+chapterCode+'/'+chapterCode+'-'+imgSize+'/'+imgObject.htmlRaw+'" class="'+ imgFirstOfSet +' w-24 md:w-40" alt="'+altText+'" id="img_'+imgObject.htmlRaw+'">'
 
   singleImage += '<div>'+title +'</div></button>';
   
