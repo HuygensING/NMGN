@@ -1589,8 +1589,12 @@
     }
   }
 }
-td {
+td, th {
   vertical-align: top;
+}
+th {
+  text-align: left;
+  font-weight: inherit;
 }
 h2 {
   margin-top: calc(var(--spacing) * 8);
@@ -1646,7 +1650,7 @@ table col {
 tr:first {
   background-color: var(--color-nmgnBlue-950);
 }
-td {
+td, th {
   border-left-style: var(--tw-border-style);
   border-left-width: 1px;
   border-color: var(--color-nmgnBlue-300);

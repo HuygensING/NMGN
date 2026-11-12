@@ -1,4 +1,5 @@
 const utilFunc = require('../utils.js');
+const markTableHeaders = require('../utils/markTableHeaders.js');
 const htmlVars = require('../vars.js');
 const fs = require("fs-extra");
 const path = require("path");
@@ -141,6 +142,11 @@ function generateHtml() {
                   block.newHtml = renderIMGbasic(block, chapterCode, blockIsFirst, blockIsLast)
         									
 									}
+
+                  // tables: first row/column cells become headers
+                  if (block.type == 'table' && block.htmlRaw) {
+                    block.htmlRaw = markTableHeaders(block.htmlRaw);
+                  }
                   
                   // paragraphs
                   if (block.type == 'p') {

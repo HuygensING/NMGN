@@ -11,6 +11,7 @@ const imagesJson = require('../../content/data/images.json');
 let parseString = require('xml2js').parseString;
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
+const markTableHeaders = require('../utils/markTableHeaders.js');
 
 
 module.exports = function (resolveData) {
@@ -155,6 +156,7 @@ module.exports = function (resolveData) {
         elementInner = elementInner.replaceAll('</p>', ' ').replaceAll('<p>', ' ').replace(/\s+/g, ' ').trim()
         // Drop Word-exported column widths so layout can distribute columns evenly
         elementInner = elementInner.replace(/\s*style\s*=\s*["'][^"']*width\s*:\s*[^;"']+;?[^"']*["']/gi, '')
+        elementInner = markTableHeaders(elementInner)
         
       }
       

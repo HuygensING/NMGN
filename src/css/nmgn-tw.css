@@ -31,8 +31,13 @@
 
 }
 
-td {
+td, th {
   vertical-align: top;
+}
+
+th {
+  text-align: left;
+  font-weight: inherit;
 }
 
 /* Heading margins: h2 and h3 have two lines above; h2 has two lines below */
@@ -90,7 +95,7 @@ tr:first {
     @apply bg-nmgnBlue-950;
   }
 
-td {
+td, th {
   @apply p-2 border-l border-nmgnBlue-300;
 }
 

@@ -64,6 +64,21 @@ function closeImageMobileOverlay() {
   document.body.style.overflow = '';
 }
 
+function plainTextFromHtml(html) {
+  if (!html) return '';
+  var tmp = document.createElement('div');
+  tmp.innerHTML = html;
+  return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
+}
+
+function asideImageAltText(title, caption) {
+  var parts = [];
+  if (title) parts.push(title);
+  var captionText = plainTextFromHtml(caption);
+  if (captionText) parts.push(captionText);
+  return parts.join(' ').trim();
+}
+
 function updateAsideFromInlineButton(button, fromScroll) {
   if (!button) return;
   var imgSource = button.getAttribute('data-src');
@@ -83,6 +98,7 @@ function updateAsideFromInlineButton(button, fromScroll) {
   var asideCaption = document.getElementById('asideCaption');
   if (asideImg) {
     asideImg.setAttribute('src', imgSource);
+    asideImg.setAttribute('alt', asideImageAltText(imgTitle, imgCaption));
     bindAsideImageOrientation(asideImg);
   }
   if (asideTitle) asideTitle.innerHTML = imgTitle;
