@@ -21,18 +21,32 @@ function styleBlockIsItalic(styleBlock) {
   return /<w:i(?:\s|\/>)/.test(rPr);
 }
 
-function parseHyperlinkItalicMap(stylesXml) {
+function parseItalicStyleMap(stylesXml) {
   const map = {};
   if (!stylesXml) return map;
 
-  const styleRe = /<w:style\b[^>]*w:styleId="(Hyperlink[^"]*)"[^>]*>([\s\S]*?)<\/w:style>/g;
+  // Include Hyperlink.* (needed as false for unwrap) and italic character styles
+  // such as "Emphasis A".
+  const styleRe = /<w:style\b([^>]*)>([\s\S]*?)<\/w:style>/g;
   let match;
   while ((match = styleRe.exec(stylesXml)) !== null) {
-    map[match[1]] = styleBlockIsItalic(match[2]);
+    const attrs = match[1];
+    const styleIdMatch = attrs.match(/w:styleId="([^"]+)"/);
+    if (!styleIdMatch) continue;
+
+    const styleId = styleIdMatch[1];
+    const isCharacter = /w:type="character"/.test(attrs);
+    const isHyperlink = styleId.startsWith('Hyperlink');
+    if (!isCharacter && !isHyperlink) continue;
+
+    const isItalic = styleBlockIsItalic(match[2]);
+    if (isHyperlink || isItalic) {
+      map[styleId] = isItalic;
+    }
   }
   return map;
 }
 
 module.exports = function getHyperlinkItalicMapFromDocx(docxPath) {
-  return parseHyperlinkItalicMap(readStylesXml(docxPath));
+  return parseItalicStyleMap(readStylesXml(docxPath));
 };

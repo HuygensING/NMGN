@@ -70,6 +70,42 @@ function simplifyHyperlinkSpans(document, body, italicMap) {
   }
 }
 
+function convertItalicCustomStyleSpan(document, span) {
+  if (span.closest('em')) {
+    unwrapElement(span);
+    return;
+  }
+
+  const onlyChild = span.children.length === 1 ? span.children[0] : null;
+  if (onlyChild && onlyChild.tagName.toLowerCase() === 'em' && span.childNodes.length === 1) {
+    span.replaceWith(onlyChild);
+    return;
+  }
+
+  if (span.querySelector('em')) {
+    unwrapElement(span);
+    return;
+  }
+
+  const em = document.createElement('em');
+  em.innerHTML = span.innerHTML;
+  span.replaceWith(em);
+}
+
+function convertItalicCustomStyleSpans(document, body, italicMap) {
+  const italicStyles = Object.keys(italicMap).filter(
+    (styleName) => italicMap[styleName] && !isHyperlinkStyle(styleName)
+  );
+
+  italicStyles.forEach((styleName) => {
+    let spans = body.querySelectorAll(`span[data-custom-style="${styleName}"]`);
+    while (spans.length) {
+      convertItalicCustomStyleSpan(document, spans[0]);
+      spans = body.querySelectorAll(`span[data-custom-style="${styleName}"]`);
+    }
+  });
+}
+
 function applyTableCellStyles(body, tableCellStyles) {
   const tableStyleNames = new Set(Object.keys(tableCellStyles));
 
@@ -139,6 +175,7 @@ module.exports = function removeWordCustomStyles(document, dom, hyperlinkItalicM
   });
 
   simplifyHyperlinkSpans(document, body, hyperlinkItalicMap);
+  convertItalicCustomStyleSpans(document, body, hyperlinkItalicMap);
 
   applyTableCellStyles(body, preservedWordStyles.tableCellStyles);
   removeRemainingCustomStyles(body);

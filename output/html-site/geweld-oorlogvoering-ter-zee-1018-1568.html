@@ -9,14 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body class="text-neutral-700 relative">
-  
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-2 focus:left-2 focus:bg-white focus:text-nmgnBlue-900 focus:px-4 focus:py-2 focus:outline focus:outline-2 focus:outline-nmgnBlue-600">Ga naar de inhoud</a>
 
-<header class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
+
+<header id="page-top" tabindex="-1" class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
     <div class="max-w-[1900px] mx-auto  flex justify-between">
         <a href="index.html"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
         <div class="flex gap-4">
             
-            <button class="cursor-pointer  py-1 px-2  bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm" onclick="toggleVis('topMenuPop', 'show'); setFocus('topnav_d1')" aria-label="klik voor alle hoofdstukken">Hoofdstukken</button>
+            <button type="button" id="btnHoofdstukken" class="cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm" aria-expanded="false" aria-controls="topMenuPop" aria-haspopup="dialog" onclick="openHoofdstukkenMenu();">Hoofdstukken</button>
             <div class="hidden relative">
                 <input type="text" name="" id="searchField" class="bg-white w-32 text-black rounded-l-lg text-sm py-1 px-2"  aria-label="type een zoekwoord">
                 <button class=" py-1 px-2 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm flex  rounded-r-lg" id="searchButton">Zoeken</button>
@@ -28,7 +29,7 @@
             </div>        </div>
     </div>
 </header>
-<div class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative z-30">
+<div id="chapterHeader" class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative z-30">
     <div class="col-start-2 xl:col-start-6 row-start-1 col-span-6 text-white items-start justify-center flex flex-col gap-2">
         <span class="">Deel 1 <em>Opkomst van de rivier- en zeehandel</em></span> 
         <strong>Hoofdstuk 4</strong></div>
@@ -53,7 +54,7 @@
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
                 <div class="flex justify-between mb-4 border-b border-nmgnBlue-200 pb-2">
                     <em tabindex="0" aria-label="Inhoud van deze pagina">Inhoud</em>
-                    <a href="#top" class="no-underline pl-2 inline-block pr-2"  aria-label="Scroll naar boven">&#8593; top</a>
+                    <a href="#page-top" class="no-underline pl-2 inline-block pr-2" aria-label="Naar boven van de pagina">&#8593; top</a>
                 </div>
                 <div class="flex flex-col gap-2 justify-between mb-4 pb-2" id="contentNavigationSource">
                         <a href="#1-actoren-organisaties-netwerken-en-operationeel-optreden" class="contentNavigationItem" id="a1-actoren-organisaties-netwerken-en-operationeel-optreden">1 ACTOREN, ORGANISATIES, NETWERKEN EN OPERATIONEEL OPTREDEN</a>
@@ -100,7 +101,7 @@
             </nav>
         </aside>
     <!-- content -->
-    <main class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30 sm:px-6">
+    <main id="main" tabindex="-1" class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30 sm:px-6">
        <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative" id="top">
     
                    <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="1-actoren-organisaties-netwerken-en-operationeel-optreden">1 ACTOREN, ORGANISATIES, NETWERKEN EN OPERATIONEEL OPTREDEN</h2>
@@ -7400,6 +7401,8 @@
     </span>
 </div>
 
+<a href="#page-top" id="btnBackToTop" class="fixed bottom-6 right-6 z-40 hidden py-2 px-3 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm rounded shadow focus:outline focus:outline-2 focus:outline-nmgnBlue-600" aria-label="Naar boven van de pagina">&#8593; top</a>
+
 <footer class="w-full bg-[#053a51] py-16 text-white">
 
     <div class="mx-auto w-full max-w-[1300px] flex flex-col lg:flex-row gap-10 px-10">
@@ -7469,18 +7472,17 @@
   </div>
 </div>
 
-<div class=" bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop">
+<div class="bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop" role="dialog" aria-modal="true" aria-label="Hoofdstukken">
 
     <div class="py-5 max-w-[1300px] w-full text-right">
-        <button class="p-2 hover:bg-nmgnGreen-100 rounded text-2xl cursor-pointer" onclick="toggleVis('topMenuPop', 'hide');">&#10006;</button>
+        <button type="button" id="btnCloseHoofdstukken" class="p-2 hover:bg-nmgnGreen-100 rounded text-2xl cursor-pointer" onclick="closeHoofdstukkenMenu();" aria-label="Sluit menu hoofdstukken">&#10006;</button>
     </div>
     
-    <div class="flex flex-col lg:flex-row gap-10 max-w-[1300px] py-10">
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
+    <nav class="flex flex-col lg:flex-row gap-10 max-w-[1300px] py-10" aria-label="Alle hoofdstukken">
 
             
             
-            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d1"  tabindex="0">
+            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d1">
             
                 <div class="flex flex-col gap-1 border-b border-nmgnGreen-600 pb-8 ">
                     <div class="">Deel 1</div>
@@ -7490,48 +7492,32 @@
 
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="land-het-water-de-binnenvaart.html" class="flex flex-col" id="topnav_d1h2" aria-label="Hoofdstuk 2 Het land, het water en de binnenvaart door Thijs J. Maarleveld †" tabindex="0">
+            <a href="land-het-water-de-binnenvaart.html" class="flex flex-col" id="topnav_d1h2" aria-label="Hoofdstuk 2 Het land, het water en de binnenvaart door Thijs J. Maarleveld †">
                 <div class="font-bold">2 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Het land, het water en de binnenvaart</strong></div>
                 <em class="">Thijs J. Maarleveld †</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="het-schip.html" class="flex flex-col" id="topnav_d1h3" aria-label="Hoofdstuk 3 Het schip door Richard W. Unger" tabindex="0">
+            <a href="het-schip.html" class="flex flex-col" id="topnav_d1h3" aria-label="Hoofdstuk 3 Het schip door Richard W. Unger">
                 <div class="font-bold">3 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Het schip</strong></div>
                 <em class="">Richard W. Unger</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="geweld-oorlogvoering-ter-zee-1018-1568.html" class="flex flex-col" id="topnav_d1h4" aria-label="Hoofdstuk 4 Geweld en oorlogvoering ter zee, 1018-1568 door Louis Sicking en Ronald de Graaf" tabindex="0">
+            <a href="geweld-oorlogvoering-ter-zee-1018-1568.html" class="flex flex-col" id="topnav_d1h4" aria-label="Hoofdstuk 4 Geweld en oorlogvoering ter zee, 1018-1568 door Louis Sicking en Ronald de Graaf">
                 <div class="font-bold">4 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Geweld en oorlogvoering ter zee, 1018-1568</strong></div>
                 <em class="">Louis Sicking en Ronald de Graaf</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="maritieme-cultuur-middeleeuwen-1100-1600.html" class="flex flex-col" id="topnav_d1h6" aria-label="Hoofdstuk 6 Maritieme cultuur in de middeleeuwen door Remmelt Daalder" tabindex="0">
+            <a href="maritieme-cultuur-middeleeuwen-1100-1600.html" class="flex flex-col" id="topnav_d1h6" aria-label="Hoofdstuk 6 Maritieme cultuur in de middeleeuwen door Remmelt Daalder">
                 <div class="font-bold">6 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Maritieme cultuur in de middeleeuwen</strong></div>
                 <em class="">Remmelt Daalder</em>
@@ -7539,12 +7525,8 @@
             
 
             
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
-
-            
             </div> 
-            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d2"  tabindex="0">
+            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d2">
             
                 <div class="flex flex-col gap-1 border-b border-nmgnGreen-600 pb-8 ">
                     <div class="">Deel 2</div>
@@ -7552,43 +7534,31 @@
                     <div class="">1600 - 1780</div>
                 </div>
 
-            <a href="koopvaardij-buiten-europa-in-zeventiende-achttiende-eeuw.html" class="flex flex-col" id="topnav_d2h3" aria-label="Hoofdstuk 3 De tijd van de grote handelscompagnieën. Koopvaardij buiten Europa in de zeventiende en achttiende eeuw door Henk den Heijer, Han Jordaan en Karel Davids" tabindex="0">
+            <a href="koopvaardij-buiten-europa-in-zeventiende-achttiende-eeuw.html" class="flex flex-col" id="topnav_d2h3" aria-label="Hoofdstuk 3 De tijd van de grote handelscompagnieën. Koopvaardij buiten Europa in de zeventiende en achttiende eeuw door Henk den Heijer, Han Jordaan en Karel Davids">
                 <div class="font-bold">3 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">De tijd van de grote handelscompagnieën. Koopvaardij buiten Europa in de zeventiende en achttiende eeuw</strong></div>
                 <em class="">Henk den Heijer, Han Jordaan en Karel Davids</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="nederlandse-zeemacht-1568-1780.html" class="flex flex-col" id="topnav_d2h4" aria-label="Hoofdstuk 4 Een veelkoppig monster. De Nederlandse zeemacht, 1568-1780 door Victor Enthoven, Marc van Alphen en Remmelt Daalder" tabindex="0">
+            <a href="nederlandse-zeemacht-1568-1780.html" class="flex flex-col" id="topnav_d2h4" aria-label="Hoofdstuk 4 Een veelkoppig monster. De Nederlandse zeemacht, 1568-1780 door Victor Enthoven, Marc van Alphen en Remmelt Daalder">
                 <div class="font-bold">4 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Een veelkoppig monster. De Nederlandse zeemacht, 1568-1780</strong></div>
                 <em class="">Victor Enthoven, Marc van Alphen en Remmelt Daalder</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="binnenvaart-zeventiende-achttiende-eeuw-innovatie-marktintegratie.html" class="flex flex-col" id="topnav_d2h6" aria-label="Hoofdstuk 6 Binnenvaart in de zeventiende en achttiende eeuw. Innovatie en marktintegratie door André van Holk" tabindex="0">
+            <a href="binnenvaart-zeventiende-achttiende-eeuw-innovatie-marktintegratie.html" class="flex flex-col" id="topnav_d2h6" aria-label="Hoofdstuk 6 Binnenvaart in de zeventiende en achttiende eeuw. Innovatie en marktintegratie door André van Holk">
                 <div class="font-bold">6 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Binnenvaart in de zeventiende en achttiende eeuw. Innovatie en marktintegratie</strong></div>
                 <em class="">André van Holk</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="wereld-op-zee.html" class="flex flex-col" id="topnav_d2h7" aria-label="Hoofdstuk 7 De wereld op zee. De maritieme cultuur van de Gouden Eeuw door Michiel van Groesen" tabindex="0">
+            <a href="wereld-op-zee.html" class="flex flex-col" id="topnav_d2h7" aria-label="Hoofdstuk 7 De wereld op zee. De maritieme cultuur van de Gouden Eeuw door Michiel van Groesen">
                 <div class="font-bold">7 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">De wereld op zee. De maritieme cultuur van de Gouden Eeuw</strong></div>
                 <em class="">Michiel van Groesen</em>
@@ -7596,12 +7566,8 @@
             
 
             
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
-
-            
             </div> 
-            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d3"  tabindex="0">
+            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d3">
             
                 <div class="flex flex-col gap-1 border-b border-nmgnGreen-600 pb-8 ">
                     <div class="">Deel 3</div>
@@ -7609,43 +7575,31 @@
                     <div class="">1780 - 1870</div>
                 </div>
 
-            <a href="koopvaardij-binnen-europa-1780-1870.html" class="flex flex-col" id="topnav_d3h2" aria-label="Hoofdstuk 2 De koopvaardij binnen Europa, 1780-1870 door Jan Willem Veluwenkamp" tabindex="0">
+            <a href="koopvaardij-binnen-europa-1780-1870.html" class="flex flex-col" id="topnav_d3h2" aria-label="Hoofdstuk 2 De koopvaardij binnen Europa, 1780-1870 door Jan Willem Veluwenkamp">
                 <div class="font-bold">2 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">De koopvaardij binnen Europa, 1780-1870</strong></div>
                 <em class="">Jan Willem Veluwenkamp</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="hervormingen-zeemacht-1780-1870.html" class="flex flex-col" id="topnav_d3h4" aria-label="Hoofdstuk 4 Wereldwijd op stoom. Hervormingen bij de zeemacht (1780-1870) door Gerard M.W. Acda †, Anita M.C. van Dissel, Jan Klootwijk en Dick Vries" tabindex="0">
+            <a href="hervormingen-zeemacht-1780-1870.html" class="flex flex-col" id="topnav_d3h4" aria-label="Hoofdstuk 4 Wereldwijd op stoom. Hervormingen bij de zeemacht (1780-1870) door Gerard M.W. Acda †, Anita M.C. van Dissel, Jan Klootwijk en Dick Vries">
                 <div class="font-bold">4 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Wereldwijd op stoom. Hervormingen bij de zeemacht (1780-1870)</strong></div>
                 <em class="">Gerard M.W. Acda †, Anita M.C. van Dissel, Jan Klootwijk en Dick Vries</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="binnenvaart-negentiende-eeuw.html" class="flex flex-col" id="topnav_d3h6" aria-label="Hoofdstuk 6 Aarzelende modernisering. Binnenvaart in de negentiende eeuw door Ruud Filarski" tabindex="0">
+            <a href="binnenvaart-negentiende-eeuw.html" class="flex flex-col" id="topnav_d3h6" aria-label="Hoofdstuk 6 Aarzelende modernisering. Binnenvaart in de negentiende eeuw door Ruud Filarski">
                 <div class="font-bold">6 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Aarzelende modernisering. Binnenvaart in de negentiende eeuw</strong></div>
                 <em class="">Ruud Filarski</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="maritieme-cultuur-negentiende-eeuw.html" class="flex flex-col" id="topnav_d3h7" aria-label="Hoofdstuk 7 Maritieme cultuur in de negentiende eeuw door Remmelt Daalder" tabindex="0">
+            <a href="maritieme-cultuur-negentiende-eeuw.html" class="flex flex-col" id="topnav_d3h7" aria-label="Hoofdstuk 7 Maritieme cultuur in de negentiende eeuw door Remmelt Daalder">
                 <div class="font-bold">7 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Maritieme cultuur in de negentiende eeuw</strong></div>
                 <em class="">Remmelt Daalder</em>
@@ -7653,12 +7607,8 @@
             
 
             
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
-
-            
             </div> 
-            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d4"  tabindex="0">
+            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d4">
             
                 <div class="flex flex-col gap-1 border-b border-nmgnGreen-600 pb-8 ">
                     <div class="">Deel 4</div>
@@ -7666,35 +7616,25 @@
                     <div class="">1870 - 2020</div>
                 </div>
 
-            <a href="binnenvaart-in-twintigste-eeuw-schaalvergroting-maatschappelijke-integratie.html" class="flex flex-col" id="topnav_d4h6" aria-label="Hoofdstuk 6 Schaalvergroting en maatschappelijke integratie. Binnenvaart in de twintigste eeuw door Ruud Filarski" tabindex="0">
+            <a href="binnenvaart-in-twintigste-eeuw-schaalvergroting-maatschappelijke-integratie.html" class="flex flex-col" id="topnav_d4h6" aria-label="Hoofdstuk 6 Schaalvergroting en maatschappelijke integratie. Binnenvaart in de twintigste eeuw door Ruud Filarski">
                 <div class="font-bold">6 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Schaalvergroting en maatschappelijke integratie. Binnenvaart in de twintigste eeuw</strong></div>
                 <em class="">Ruud Filarski</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="maritieme-cultuuruitingen.html" class="flex flex-col" id="topnav_d4h8" aria-label="Hoofdstuk 8 Bakens uit het veilige verleden. Maritieme cultuuruitingen in de ‘eeuw van uitersten’ door Sara Keijzer" tabindex="0">
+            <a href="maritieme-cultuuruitingen.html" class="flex flex-col" id="topnav_d4h8" aria-label="Hoofdstuk 8 Bakens uit het veilige verleden. Maritieme cultuuruitingen in de ‘eeuw van uitersten’ door Sara Keijzer">
                 <div class="font-bold">8 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Bakens uit het veilige verleden. Maritieme cultuuruitingen in de ‘eeuw van uitersten’</strong></div>
                 <em class="">Sara Keijzer</em>
             </a>
             
 
-            
-            
+    </nav>
 
-    </div>
-
-
-
-
-      
 </div>
+
 
 
 <script src="js/images.js"></script>

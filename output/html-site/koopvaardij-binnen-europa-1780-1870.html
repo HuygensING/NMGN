@@ -9,14 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body class="text-neutral-700 relative">
-  
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-2 focus:left-2 focus:bg-white focus:text-nmgnBlue-900 focus:px-4 focus:py-2 focus:outline focus:outline-2 focus:outline-nmgnBlue-600">Ga naar de inhoud</a>
 
-<header class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
+
+<header id="page-top" tabindex="-1" class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
     <div class="max-w-[1900px] mx-auto  flex justify-between">
         <a href="index.html"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
         <div class="flex gap-4">
             
-            <button class="cursor-pointer  py-1 px-2  bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm" onclick="toggleVis('topMenuPop', 'show'); setFocus('topnav_d1')" aria-label="klik voor alle hoofdstukken">Hoofdstukken</button>
+            <button type="button" id="btnHoofdstukken" class="cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm" aria-expanded="false" aria-controls="topMenuPop" aria-haspopup="dialog" onclick="openHoofdstukkenMenu();">Hoofdstukken</button>
             <div class="hidden relative">
                 <input type="text" name="" id="searchField" class="bg-white w-32 text-black rounded-l-lg text-sm py-1 px-2"  aria-label="type een zoekwoord">
                 <button class=" py-1 px-2 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm flex  rounded-r-lg" id="searchButton">Zoeken</button>
@@ -28,7 +29,7 @@
             </div>        </div>
     </div>
 </header>
-<div class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative z-30">
+<div id="chapterHeader" class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative z-30">
     <div class="col-start-2 xl:col-start-6 row-start-1 col-span-6 text-white items-start justify-center flex flex-col gap-2">
         <span class="">Deel 3 <em>Tijd van de grote zeilvaart</em></span> 
         <strong>Hoofdstuk 2</strong></div>
@@ -53,7 +54,7 @@
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
                 <div class="flex justify-between mb-4 border-b border-nmgnBlue-200 pb-2">
                     <em tabindex="0" aria-label="Inhoud van deze pagina">Inhoud</em>
-                    <a href="#top" class="no-underline pl-2 inline-block pr-2"  aria-label="Scroll naar boven">&#8593; top</a>
+                    <a href="#page-top" class="no-underline pl-2 inline-block pr-2" aria-label="Naar boven van de pagina">&#8593; top</a>
                 </div>
                 <div class="flex flex-col gap-2 justify-between mb-4 pb-2" id="contentNavigationSource">
                         <a href="#1-zeehandel-en-koopvaardij" class="contentNavigationItem" id="a1-zeehandel-en-koopvaardij">1 ZEEHANDEL EN KOOPVAARDIJ</a>
@@ -95,7 +96,7 @@
             </nav>
         </aside>
     <!-- content -->
-    <main class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30 sm:px-6">
+    <main id="main" tabindex="-1" class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30 sm:px-6">
        <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative" id="top">
     
                    <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="1-zeehandel-en-koopvaardij">1 ZEEHANDEL EN KOOPVAARDIJ</h2>
@@ -1063,7 +1064,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP54', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (54)" id="b_paragraphLink54">
             &#10006;
         </button>
-    </span>Rond 1830 begon de buitenlandse handel te groeien en deze groei zette zich in de jaren dertig, veertig en vijftig sterk voort. In de periode 1807-1830 was de waarde van de import jaarlijks met gemiddeld 1,8% toegenomen, terwijl de waarde van de export met gemiddeld 2,3% was gedaald. In de periode 1830-1850 steeg de waarde van de import per jaar met gemiddeld 4,3% en de waarde van de export met gemiddeld 7,7%. Vooral na 1840 nam de export van Nederlandse landbouwproducten toe. Boter en kaas bleven daarvan gedurende de hele eeuw het belangrijkste, maar andere producten, vooral vee en vlees, gingen nu een steeds grotere rol spelen. Toch was de groei van de buitenlandse handel vooral een gevolg van het beleid van de regering van koning Willem I dat erop was gericht de handel met de koloniën in Azië te stimuleren en de economie aan de praat te krijgen. Daartoe was in 1824 op initiatief van de koning en met diens steun de Nederlandsche Handel-Maatschappij (NHM) opgericht. De NHM kreeg van de regering het alleenrecht op de handel in overheidsgoederen tussen Nederland en Nederlands-Indië en moest voor het transport daarvan gebruik maken van in Nederland gebouwde Nederlandse schepen tegen vrachtprijzen die ver boven de marktprijs lagen. In 1830 werd bovendien in Nederlands-Indië het Cultuurstelsel ingevoerd. Dit stelsel kwam erop neer dat het Nederlandse gouvernement de organisatie van de productie en export van landbouwproducten op Java en de Molukken niet langer aan particuliere ondernemers overliet, maar door gedwongen tussenkomst van de inlandse hoofden de lokale boeren verplichtte op een deel van hun grond de gewenste gewassen, vooral suikerriet, koffie, indigo en specerijen, te verbouwen en vervolgens te leveren. Vanuit Nederlands oogpunt was de combinatie van de NHM en het Cultuurstelsel een groot succes. De Nederlandse import van Aziatische producten – koffie, suiker, indigo, specerijen en thee – schoot omhoog. Zo verdubbelde tussen 1830 en 1841 de aanvoer van koffie en suiker uit Indië naar Nederland. Vanaf omstreeks 1855 kwam ook Indische tabak op de markt.
+    </span>Rond 1830 begon de buitenlandse handel te groeien en deze groei zette zich in de jaren dertig, veertig en vijftig sterk voort. In de periode 1807-1830 was de waarde van de import jaarlijks met gemiddeld 1,8% toegenomen, terwijl de waarde van de export met gemiddeld 2,3% was gedaald. In de periode 1830-1850 steeg de waarde van de import per jaar met gemiddeld 4,3% en de waarde van de export met gemiddeld 7,7%. Vooral na 1840 nam de export van Nederlandse landbouwproducten toe. Boter en kaas bleven daarvan gedurende de hele eeuw het belangrijkste, maar andere producten, vooral vee en vlees, gingen nu een steeds grotere rol spelen. Toch was de groei van de buitenlandse handel vooral een gevolg van het beleid van de regering van koning Willem I dat erop was gericht de handel met de koloniën in Azië te stimuleren en de economie aan de praat te krijgen. Daartoe was in 1824 op initiatief van de koning en met diens steun de <em></em>Nederlandsche Handel-Maatschappij (NHM) opgericht. De NHM kreeg van de regering het alleenrecht op de handel in overheidsgoederen tussen Nederland en Nederlands-Indië en moest voor het transport daarvan gebruik maken van in Nederland gebouwde Nederlandse schepen tegen vrachtprijzen die ver boven de marktprijs lagen. In 1830 werd bovendien in Nederlands-Indië het Cultuurstelsel ingevoerd. Dit stelsel kwam erop neer dat het Nederlandse gouvernement de organisatie van de productie en export van landbouwproducten op Java en de Molukken niet langer aan particuliere ondernemers overliet, maar door gedwongen tussenkomst van de inlandse hoofden de lokale boeren verplichtte op een deel van hun grond de gewenste gewassen, vooral suikerriet, koffie, indigo en specerijen, te verbouwen en vervolgens te leveren. Vanuit Nederlands oogpunt was de combinatie van de NHM en het Cultuurstelsel een groot succes. De Nederlandse import van Aziatische producten – koffie, suiker, indigo, specerijen en thee – schoot omhoog. Zo verdubbelde tussen 1830 en 1841 de aanvoer van koffie en suiker uit Indië naar Nederland. Vanaf omstreeks 1855 kwam ook Indische tabak op de markt.
         <button type="button" id="noteRef54" data-noteNumber="54"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 54">
@@ -1716,7 +1717,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP96', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (96)" id="b_paragraphLink96">
             &#10006;
         </button>
-    </span>Pas in de jaren 1850 kwam de Nederlandse lijnvaart werkelijk van de grond. Het sleuteljaar was 1856. In dat jaar begon Gerrit Schuurmans en Zoon in Rotterdam de Stoomvaart Vereeniging De Maas, die afvaarten verzorgde naar het Middellandse Zeegebied en Cardiff. En in datzelfde jaar werd te Amsterdam op initiatief van de Amsterdamse ondernemer C.W.J. Ramann de N.V. Koninklijke Nederlandse Stoomboot Maatschappij (KNSM) opgericht, met lijndiensten van Amsterdam op Sint-Petersburg, Koningsbergen, Le Havre, Bordeaux en, vanaf 1857, op Marseille en Genua. De KNSM was de eerste stoomvaartonderneming die werkelijk succes had. Zij voerde onder meer voor Duitsland bestemde goederen uit het Oostzeegebied in Amsterdam aan. Deze rederij gebruikte aanvankelijk in Schotland aangeschafte kleine stoomschepen van enkele honderden bruto-registertonnen. Een van die schepen was de Ondine, een in Glasgow gebouwde ijzeren schroefstoomboot, die al in 1856 van Amsterdam naar Sint-Petersburg voer. In 1865 nam de KNSM De Maas over. Daarmee werd zij verreweg de grootste stoomvaartmaatschappij van Nederland en kreeg zij vaste voet in Rotterdam. De rederij opereerde voortaan vanuit zowel Amsterdam als Rotterdam. Zij breidde haar aanbod geregeld uit en begon in 1870 een lijndienst op Griekenland, in 1871 op Reval en in 1877 op Hamburg. In 1874 beschikte de KNSM over 24 stoomschepen.
+    </span>Pas in de jaren 1850 kwam de Nederlandse lijnvaart werkelijk van de grond. Het sleuteljaar was 1856. In dat jaar begon Gerrit Schuurmans en Zoon in Rotterdam de Stoomvaart Vereeniging De Maas, die afvaarten verzorgde naar het Middellandse Zeegebied en Cardiff. En in datzelfde jaar werd te Amsterdam op initiatief van de Amsterdamse ondernemer C.W.J. Ramann de N.V. Koninklijke Nederlandse Stoomboot Maatschappij (KNSM) opgericht, met lijndiensten van Amsterdam op Sint-Petersburg, Koningsbergen, Le Havre, Bordeaux en, vanaf 1857, op Marseille en Genua. De KNSM was de eerste stoomvaartonderneming die werkelijk succes had. Zij voerde onder meer voor Duitsland bestemde goederen uit het Oostzeegebied in Amsterdam aan. Deze rederij gebruikte aanvankelijk in Schotland aangeschafte kleine stoomschepen van enkele honderden bruto-registertonnen. Een van die schepen was de <em>Ondine</em>, een in Glasgow gebouwde ijzeren schroefstoomboot, die al in 1856 van Amsterdam naar Sint-Petersburg voer. In 1865 nam de KNSM De Maas over. Daarmee werd zij verreweg de grootste stoomvaartmaatschappij van Nederland en kreeg zij vaste voet in Rotterdam. De rederij opereerde voortaan vanuit zowel Amsterdam als Rotterdam. Zij breidde haar aanbod geregeld uit en begon in 1870 een lijndienst op Griekenland, in 1871 op Reval en in 1877 op Hamburg. In 1874 beschikte de KNSM over 24 stoomschepen.
         <button type="button" id="noteRef83" data-noteNumber="83"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 83">
@@ -1883,7 +1884,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP104', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (104)" id="b_paragraphLink104">
             &#10006;
         </button>
-    </span>De voosheid van de Groningse marktpositie begon aan het einde van de jaren vijftig duidelijk te worden. In haar verslag over het jaar 1857 beoordeelde de gemeente Veendam de toestand van de plaatselijke zeescheepvaart nog positief, maar in 1858 noemde zij die toestand kwijnend en in zowel 1858 als 1860 klaagde zij over de buitenlandse concurrentie. De gemeenten Hoogezand en Groningen karakteriseerden in hun verslagen van respectievelijk 1858 en 1859 de toestand van de zeevaart op overeenkomstige wijze. Het Provinciaal Verslag van de provincie Groningen, tenslotte, klaagde in 1868 over de recessie in de zeevaart – die daar zeilvaart was – en de moordende concurrentie van de stoomvaart.
+    </span>De voosheid van de Groningse marktpositie begon aan het einde van de jaren vijftig duidelijk te worden. In haar verslag over het jaar 1857 beoordeelde de gemeente Veendam de toestand van de plaatselijke zeescheepvaart nog positief, maar in 1858 noemde zij die toestand kwijnend en in zowel 1858 als 1860 klaagde zij over de buitenlandse concurrentie. De gemeenten Hoogezand en Groningen karakteriseerden in hun verslagen van respectievelijk 1858 en 1859 de toestand van de zeevaart op overeenkomstige wijze. Het <em>Provinciaal Verslag</em> van de provincie Groningen, tenslotte, klaagde in 1868 over de recessie in de zeevaart – die daar zeilvaart was – en de moordende concurrentie van de stoomvaart.
         <button type="button" id="noteRef93" data-noteNumber="93"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 93">
@@ -1957,7 +1958,7 @@
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 96">
         96
-        </button> Vaak wordt in de historiografie het bon mot van de Sappemeerder touwslager, zeilmaker en reder J. Romkes van der Goot aangehaald: Groninger schepen hadden in het buitenland geen beste naam en dat lag ook aan de Groningers zelf <span dir="rtl">‘</span>omdat tijdens de Krimoorlog iedereen kapitein moest worden die de pet maar scheef op het oor had<span dir="rtl">’</span>.
+        </button> Vaak wordt in de historiografie het <em>bon mot</em> van de Sappemeerder touwslager, zeilmaker en reder J. Romkes van der Goot aangehaald: Groninger schepen hadden in het buitenland geen beste naam en dat lag ook aan de Groningers zelf <span dir="rtl">‘</span>omdat tijdens de Krimoorlog iedereen kapitein moest worden die de pet maar scheef op het oor had<span dir="rtl">’</span>.
         <button type="button" id="noteRef97" data-noteNumber="97"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 97">
@@ -2324,7 +2325,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP132', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (132)" id="b_paragraphLink132">
             &#10006;
         </button>
-    </span>Aanvankelijk waren stoomschepen van hout en werden zij voortgestuwd met behulp van schepraderen. Het eerste in Nederland gebouwde ijzeren koopvaardijschip, het 31 meter lange stoomschip Koning Willem II, kwam in 1841 in Amsterdam van de werf. En in 1848 werden in Nederland voor het eerst koopvaardijschepen met een schroef gebouwd. Dergelijke schepen voeren ook nog zeil. Zo had de schroefstoomboot Ondine van de KNSM in 1856 drie masten met schoenerzeilen en aan de fokkenmast bovendien razeilen en kluivers. Zeestoomschepen hadden in deze tijd een draagvermogen van honderden – 300, 500 – tonnen.
+    </span>Aanvankelijk waren stoomschepen van hout en werden zij voortgestuwd met behulp van schepraderen. Het eerste in Nederland gebouwde ijzeren koopvaardijschip, het 31 meter lange stoomschip <em>Koning Willem II</em>, kwam in 1841 in Amsterdam van de werf. En in 1848 werden in Nederland voor het eerst koopvaardijschepen met een schroef gebouwd. Dergelijke schepen voeren ook nog zeil. Zo had de schroefstoomboot <em>Ondine</em> van de KNSM in 1856 drie masten met schoenerzeilen en aan de fokkenmast bovendien razeilen en kluivers. Zeestoomschepen hadden in deze tijd een draagvermogen van honderden – 300, 500 – tonnen.
         <button type="button" id="noteRef115" data-noteNumber="115"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 115">
@@ -2396,7 +2397,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP138', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (138)" id="b_paragraphLink138">
             &#10006;
         </button>
-    </span>Pas tegen het midden van de negentiende eeuw drong de theorie van de scheepsbouwkunde door in bredere kringen van particuliere scheepsbouwers. In 1805 had Van Beeck Calkoen het eerste Nederlandse boek over theoretische scheepsbouwkunde gepubliceerd: Wiskundige scheepsbouw en bestuur. Maar waarschijnlijk ging meer invloed uit van de in 1840 verschenen, meer op de praktijk gerichte publicatie van Van der Speck Obreen: Aanleiding tot de kennis van het beschouwende gedeelte der scheepsbouwkunde. Bij de bouw van grote koopvaardijschepen en oorlogsschepen raakte in Holland en Zeeland in de negentiende eeuw de <span dir="rtl">‘</span>skeleton-first<span dir="rtl">’</span>-methode in gebruik, waarbij de timmerlieden van tekening werkten en eerst de spanten op de kiel zetten en daarna de huidgangen aanbrachten. Maar de meeste werven die de kustvaarders bouwden, onder meer in Groningen, handhaafden de aloude <span dir="rtl">‘</span>shell-first<span dir="rtl">’</span>-methode zeker tot het laatste kwart van de negentiende eeuw. Volgens deze werkwijze zetten de timmerlui op het oog, zonder het gebruik van tekeningen, eerst de huidgangen op en brachten zij vervolgens de spanten en andere inhouten aan. Schepen werden te water gelaten wanneer de romp dicht was, en daarna afgebouwd.
+    </span>Pas tegen het midden van de negentiende eeuw drong de theorie van de scheepsbouwkunde door in bredere kringen van particuliere scheepsbouwers. In 1805 had Van Beeck Calkoen het eerste Nederlandse boek over theoretische scheepsbouwkunde gepubliceerd: <em>Wiskundige scheepsbouw en bestuur</em>. Maar waarschijnlijk ging meer invloed uit van de in 1840 verschenen, meer op de praktijk gerichte publicatie van Van der Speck Obreen: <em>Aanleiding tot de kennis van het beschouwende gedeelte der scheepsbouwkunde</em>. Bij de bouw van grote koopvaardijschepen en oorlogsschepen raakte in Holland en Zeeland in de negentiende eeuw de <span dir="rtl">‘</span>skeleton-first<span dir="rtl">’</span>-methode in gebruik, waarbij de timmerlieden van tekening werkten en eerst de spanten op de kiel zetten en daarna de huidgangen aanbrachten. Maar de meeste werven die de kustvaarders bouwden, onder meer in Groningen, handhaafden de aloude <span dir="rtl">‘</span>shell-first<span dir="rtl">’</span>-methode zeker tot het laatste kwart van de negentiende eeuw. Volgens deze werkwijze zetten de timmerlui op het oog, zonder het gebruik van tekeningen, eerst de huidgangen op en brachten zij vervolgens de spanten en andere inhouten aan. Schepen werden te water gelaten wanneer de romp dicht was, en daarna afgebouwd.
         <button type="button" id="noteRef118" data-noteNumber="118"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 118">
@@ -2847,7 +2848,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP161', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (161)" id="b_paragraphLink161">
             &#10006;
         </button>
-    </span>Toch daalde ook het aantal schepen dat in Groningen werd geproduceerd. Weliswaar was het aantal werven hier in 1860 toegenomen tot 100. Maar al in 1861 volgde een terugval naar 91 werven, waarvan verreweg de meeste in de veenkoloniën lagen: Hoogezand, Sappemeer, Veendam, Wildervank, de Pekela<span dir="rtl">’</span>s, Stadskanaal, Kiel-Windeweer, Martenshoek, Foxhol en Waterhuizen. In de veenkoloniën, nu gedefinieerd als Hoogezand, Sappemeer, Veendam, Wildervank, de Pekela<span dir="rtl">’</span>s en Muntendam, werden in de jaren zestig nog rond 60 zeeschepen per jaar te water gelaten – 69 in 1860, 53 in 1864 en 59 in 1867. Maar daarna daalde dit aantal snel, naar 16 in 1870, 23 in 1871 en 16 in 1875. In 1878 liepen in de hele provincie nog maar tien zeeschepen van stapel, in 1879 zeven, en in 1880 werd er in Groningen geen enkel zeeschip afgebouwd. De Groningse bouw van zeeschepen bezweek doordat in de intra-Europese vaart de stoomvaart de zeilvaart verdrong.
+    </span>Toch daalde ook het aantal schepen dat in Groningen werd geproduceerd. Weliswaar was het aantal werven hier in 1860 toegenomen tot 100. Maar al in 1861 volgde een terugval naar 91 werven, waarvan verreweg de meeste in de veenkoloniën lagen: Hoogezand, Sappemeer, Veendam, Wildervank, de Pekela<span dir="rtl">’</span>s, Stadskanaal, Kiel-Windeweer, Martenshoek, Foxhol en Waterhuizen. In de veenkoloniën, nu gedefinieerd als Hoogezand, Sappemeer, Veendam, Wildervank, de Pekela<span dir="rtl">’</span>s en Muntendam, werden in de jaren zestig nog rond 60 zeeschepen per jaar te water gelaten – 69 in <em></em>1860, 53 in 1864 en 59 in 1867<em>.</em> Maar daarna daalde dit aantal snel, naar 16 in 1870, 23 in 1871 en 16 in 1875. In 1878 liepen in de hele provincie nog maar tien zeeschepen van stapel, in 1879 zeven, en in 1880 werd er in Groningen geen enkel zeeschip afgebouwd. De Groningse bouw van zeeschepen bezweek doordat in de intra-Europese vaart de stoomvaart de zeilvaart verdrong.
         <button type="button" id="noteRef139" data-noteNumber="139"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 139">
@@ -2940,7 +2941,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP166', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (166)" id="b_paragraphLink166">
             &#10006;
         </button>
-    </span>Koning Willem I was een van de promotoren van de stoomvaart in Nederland. Voordat hij koning werd, was hij tijdens zijn verblijf in Engeland onder de indruk gekomen van de mogelijkheden die de stoomvaart bood. In 1818 gaf hij marineofficier G.M. Roentgen en de constructeurs C. Soetermeer en C.J. Glavimans opdracht de scheepsbouw op de marinewerven in Engeland te bestuderen. En in 1821 liet Roentgen in opdracht van de minister van Binnenlandse Zaken in Engeland een stoomboot bouwen voor de veerdienst over het Hollands Diep bij Moerdijk. Roentgen werd van groot belang voor de ontwikkeling van de stoomvaart in Nederland. In 1822 was hij een van de oprichters van de firma Van Vollenhoven, Duthil en Co. Deze rederij liet in 1823 door scheepswerf W. en J. Hoogendijk te Capelle aan de IJssel de Nederlander bouwen, het eerste in Nederland vervaardigde particuliere stoomschip. Dit was een houten binnenvaartscheepje, waarvan de ketel en de machine in Engeland waren vervaardigd. In 1823 werd Roentgen een van de directeuren van de in dat jaar opgerichte Nederlandsche Stoomboot Maatschappij (NSBM), de rechtsopvolger van de firma Van Vollenhoven, Duthil en Co. In 1824 en 1825 bouwde Hoogendijk vijf stoomschepen voor de NSBM, waarvoor Cockerill in Seraing, bij Luik, de machines vervaardigde. In 1825 richtte de NSBM in Rotterdam een eigen scheepsreparatiewerf en machinefabriek op, het etablissement Fijenoord. Vanaf 1826 vervaardigde dit bedrijf stoomketels en scheepsmachines. Uiteindelijk werden er in de jaren tot 1829 36 stoomvaartuigen in Nederland geproduceerd, door onder meer Hoogendijk, Hollandia en Fop Smit te Alblasserdam en Cornelis Gips te Dordrecht.
+    </span>Koning Willem I was een van de promotoren van de stoomvaart in Nederland. Voordat hij koning werd, was hij tijdens zijn verblijf in Engeland onder de indruk gekomen van de mogelijkheden die de stoomvaart bood. In 1818 gaf hij marineofficier G.M. Roentgen en de constructeurs C. Soetermeer en C.J. Glavimans opdracht de scheepsbouw op de marinewerven in Engeland te bestuderen. En in 1821 liet Roentgen in opdracht van de minister van Binnenlandse Zaken in Engeland een stoomboot bouwen voor de veerdienst over het Hollands Diep bij Moerdijk. Roentgen werd van groot belang voor de ontwikkeling van de stoomvaart in Nederland. In 1822 was hij een van de oprichters van de firma Van Vollenhoven, Duthil en Co. Deze rederij liet in 1823 door scheepswerf W. en J. Hoogendijk te Capelle aan de IJssel de <em>Nederlander</em> bouwen, het eerste in Nederland vervaardigde particuliere stoomschip. Dit was een houten binnenvaartscheepje, waarvan de ketel en de machine in Engeland waren vervaardigd. In 1823 werd Roentgen een van de directeuren van de in dat jaar opgerichte Nederlandsche Stoomboot Maatschappij (NSBM), de rechtsopvolger van de firma Van Vollenhoven, Duthil en Co. In 1824 en 1825 bouwde Hoogendijk vijf stoomschepen voor de NSBM, waarvoor Cockerill in Seraing, bij Luik, de machines vervaardigde. In 1825 richtte de NSBM in Rotterdam een eigen scheepsreparatiewerf en machinefabriek op, het etablissement Fijenoord. Vanaf 1826 vervaardigde dit bedrijf stoomketels en scheepsmachines. Uiteindelijk werden er in de jaren tot 1829 36 stoomvaartuigen in Nederland geproduceerd, door onder meer Hoogendijk, Hollandia en Fop Smit te Alblasserdam en Cornelis Gips te Dordrecht.
         <button type="button" id="noteRef143" data-noteNumber="143"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 143">
@@ -2963,12 +2964,12 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP167', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (167)" id="b_paragraphLink167">
             &#10006;
         </button>
-    </span>Al deze stoomschepen waren van hout en werden voortgestuwd met behulp van schepraderen. Het bedrijf van Christiaan Verveer in Amsterdam bouwde in opdracht van de Rotterdamse Stoomboot Maatschappij in 1841 het eerste in Nederland geproduceerde ijzeren schip voor de koopvaardij ter zee. Het was de Koning Willem II, een stoomschip bestemd voor de vaart tussen Rotterdam en Antwerpen. In 1848 bouwde de commanditaire vennootschap Koninklijke Fabriek voor stoom- en andere werktuigen Paul van Vlissingen &amp; Dudok van Heel
+    </span>Al deze stoomschepen waren van hout en werden voortgestuwd met behulp van schepraderen. Het bedrijf van Christiaan Verveer in Amsterdam bouwde in opdracht van de Rotterdamse Stoomboot Maatschappij in 1841 het eerste in Nederland geproduceerde ijzeren schip voor de koopvaardij ter zee. Het was de <em>Koning Willem II</em>, een stoomschip bestemd voor de vaart tussen Rotterdam en Antwerpen. In 1848 bouwde de commanditaire vennootschap Koninklijke Fabriek voor stoom- en andere werktuigen Paul van Vlissingen &amp; Dudok van Heel
         <button type="button" id="noteRef144" data-noteNumber="144"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 144">
         144
-        </button> te Amsterdam voor de in 1849 door Paul van Vlissingen opgerichte NV Stoom Schroef Schooner Reederij de eerste Nederlandse koopvaardijschepen met een schroef, de ijzeren stoomschepen Gouverneur van Ewijck en Burgemeester Huydecoper. Beide schepen werden ingezet voor de vaart op Londen. De Firma Paul van Vlissingen en Dudok van Heel was in 1828 opgericht door Paul van Vlissingen en de Rotterdamse koopman A.E. Dudok van Heel; beiden werden besturend vennoot. Het bedrijf vervaardigde stoommachines en leverde die aan allerlei andere takken van industrie. Vanaf 1844 bouwde het ook schepen. In 1870 ging het failliet; anderen kochten het op en zetten het voort onder de naam N.V. Koninklijke Fabriek van Stoom- en andere Werktuigen, het latere Werkspoor.
+        </button> te Amsterdam voor de in 1849 door Paul van Vlissingen opgerichte NV Stoom Schroef Schooner Reederij de eerste Nederlandse koopvaardijschepen met een schroef, de ijzeren stoomschepen <em>Gouverneur van Ewijck</em> en <em>Burgemeester Huydecoper</em>. Beide schepen werden ingezet voor de vaart op Londen. De Firma Paul van Vlissingen en Dudok van Heel was in 1828 opgericht door Paul van Vlissingen en de Rotterdamse koopman A.E. Dudok van Heel; beiden werden besturend vennoot. Het bedrijf vervaardigde stoommachines en leverde die aan allerlei andere takken van industrie. Vanaf 1844 bouwde het ook schepen. In 1870 ging het failliet; anderen kochten het op en zetten het voort onder de naam N.V. Koninklijke Fabriek van Stoom- en andere Werktuigen, het latere Werkspoor.
         <button type="button" id="noteRef145" data-noteNumber="145"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 145">
@@ -3247,7 +3248,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP184', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (184)" id="b_paragraphLink184">
             &#10006;
         </button>
-    </span>Het volgen van onderwijs aan de wal was binnen de koopvaardij niet verplicht, maar vooral jonge stuurlieden verwierven enige zeevaartkundige kennis bij particuliere onderwijzers in de stuurmanskunst die al sinds het einde van de zestiende eeuw in havensteden en zeevarende gemeenschappen actief waren. Doorgaans waren dit gewezen stuurlui of theoretisch in de navigatie geschoolden. Het in de achttiende eeuw meest gebruikte zeevaartkundige leerboek was de Schatkamer ofte konst der stierlieden. Het was geschreven door Klaas de Vries, een onderwijzer in de stuurmanskunst, en verscheen voor het eerst in 1702 bij de Amsterdamse uitgever Johannes Loots; de tiende en laatste druk kwam in 1818 van de pers. Het onderwijs was niet door de overheid geregeld en de leerlingen volgden dit vooral in de winter wanneer zij een paar maanden aan de wal waren. Er was geen sprake van examens of diploma<span dir="rtl">’</span>s.
+    </span>Het volgen van onderwijs aan de wal was binnen de koopvaardij niet verplicht, maar vooral jonge stuurlieden verwierven enige zeevaartkundige kennis bij particuliere onderwijzers in de stuurmanskunst die al sinds het einde van de zestiende eeuw in havensteden en zeevarende gemeenschappen actief waren. Doorgaans waren dit gewezen stuurlui of theoretisch in de navigatie geschoolden. Het in de achttiende eeuw meest gebruikte zeevaartkundige leerboek was de <em>Schatkamer ofte konst der stierlieden</em>. Het was geschreven door Klaas de Vries, een onderwijzer in de stuurmanskunst, en verscheen voor het eerst in 1702 bij de Amsterdamse uitgever Johannes Loots; de tiende en laatste druk kwam in 1818 van de pers. Het onderwijs was niet door de overheid geregeld en de leerlingen volgden dit vooral in de winter wanneer zij een paar maanden aan de wal waren. Er was geen sprake van examens of diploma<span dir="rtl">’</span>s.
         <button type="button" id="noteRef160" data-noteNumber="160"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 160">
@@ -3581,7 +3582,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP200', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (200)" id="b_paragraphLink200">
             &#10006;
         </button>
-    </span>De indeling van de verblijven op stoomschepen was geënt op die op zeilschepen. Het stoomschroefschip Ondine, dat vanaf 1856 voor de KNSM voer, biedt daarvan een voorbeeld. Onder het achterdek van dat schip bevonden zich de kajuit, het verblijf van de kapitein en enkele passagiershutten. In het vooruit waren voor de matrozen, de stokers en de tremmers aan weerszijden tegen de scheepshuid kooien aangebracht met daartussen twee houten banken en een tafel en in de winter een kleine potkachel. Midscheeps, in de buurt van de machinekamer, woonden onder het bovendek de machinisten en stuurlieden.
+    </span>De indeling van de verblijven op stoomschepen was geënt op die op zeilschepen. Het stoomschroefschip <em>Ondine</em>, dat vanaf 1856 voor de KNSM voer, biedt daarvan een voorbeeld. Onder het achterdek van dat schip bevonden zich de kajuit, het verblijf van de kapitein en enkele passagiershutten. In het vooruit waren voor de matrozen, de stokers en de tremmers aan weerszijden tegen de scheepshuid kooien aangebracht met daartussen twee houten banken en een tafel en in de winter een kleine potkachel. Midscheeps, in de buurt van de machinekamer, woonden onder het bovendek de machinisten en stuurlieden.
         <button type="button" id="noteRef176" data-noteNumber="176"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 176">
@@ -3604,7 +3605,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP201', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (201)" id="b_paragraphLink201">
             &#10006;
         </button>
-    </span>In hun geestelijke verzorging voorzagen de zeelui aan boord zelf. Zij hadden hun eigen psalm- en liedboeken, gebedenboekjes en stichtelijke handleidingen, met titels als De God-vreezende Zeeman. Zij baden dagelijks en in uren van gevaar, en hielden op zon- en feestdagen godsdienstoefeningen. Bij dit alles trad de schipper doorgaans als voorganger op. Afhankelijk van zijn persoonlijke voorkeur ging hij meer of minder geregeld voor in gebed of las hij een preek voor.
+    </span>In hun geestelijke verzorging voorzagen de zeelui aan boord zelf. Zij hadden hun eigen psalm- en liedboeken, gebedenboekjes en stichtelijke handleidingen, met titels als <em>De God-vreezende Zeeman</em>. Zij baden dagelijks en in uren van gevaar, en hielden op zon- en feestdagen godsdienstoefeningen. Bij dit alles trad de schipper doorgaans als voorganger op. Afhankelijk van zijn persoonlijke voorkeur ging hij meer of minder geregeld voor in gebed of las hij een preek voor.
         <button type="button" id="noteRef177" data-noteNumber="177"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 177">
@@ -3627,7 +3628,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP202', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (202)" id="b_paragraphLink202">
             &#10006;
         </button>
-    </span>De monsterrol regelde de regels van orde en tucht aan boord. De in de monsterrol opgenomen gedragsregels waren aanvankelijk gebaseerd op het zeerecht zoals vastgelegd in keuren van Amsterdam (1641) en Rotterdam (1721). Na de inlijving van het Koninkrijk Holland door Frankrijk in 1810 werd in 1811 de Franse Code de Commerce van toepassing. Na het herstel van de onafhankelijkheid in 1814 handhaafde de overheid de Franse wet vooralsnog. In 1826 kwam er een Wetboek van Koophandel voor het Verenigd Koninkrijk der Nederlanden tot stand, maar de Belgische opstand stond de invoering daarvan in de weg. Vervolgens wijzigde de Tweede Kamer het wetsontwerp door het van zijn Franse invloeden te ontdoen en te doen aansluiten bij de oudvaderlandse zeerechten. Uiteindelijk werd het nieuwe Wetboek van Koophandel in 1838 ingevoerd, met daarin opgenomen voorschriften voor de handhaving van orde en tucht tijdens de reis. De schipper kon boetes opleggen en ontslag verlenen, maar hij had in de praktijk weinig machtsmiddelen, zodat deze voorschriften al snel niet meer effectief bleken.
+    </span>De monsterrol regelde de regels van orde en tucht aan boord. De in de monsterrol opgenomen gedragsregels waren aanvankelijk gebaseerd op het zeerecht zoals vastgelegd in keuren van Amsterdam (1641) en Rotterdam (1721). Na de inlijving van het Koninkrijk Holland door Frankrijk in 1810 werd in 1811 de Franse <em>Code de Commerce</em> van toepassing. Na het herstel van de onafhankelijkheid in 1814 handhaafde de overheid de Franse wet vooralsnog. In 1826 kwam er een Wetboek van Koophandel voor het Verenigd Koninkrijk der Nederlanden tot stand, maar de Belgische opstand stond de invoering daarvan in de weg. Vervolgens wijzigde de Tweede Kamer het wetsontwerp door het van zijn Franse invloeden te ontdoen en te doen aansluiten bij de oudvaderlandse zeerechten. Uiteindelijk werd het nieuwe Wetboek van Koophandel in 1838 ingevoerd, met daarin opgenomen voorschriften voor de handhaving van orde en tucht tijdens de reis. De schipper kon boetes opleggen en ontslag verlenen, maar hij had in de praktijk weinig machtsmiddelen, zodat deze voorschriften al snel niet meer effectief bleken.
         <button type="button" id="noteRef178" data-noteNumber="178"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 178">
@@ -4268,7 +4269,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP244', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (244)" id="b_paragraphLink244">
             &#10006;
         </button>
-    </span>De stad Groningen had twee bescheiden havens, de Zuiderhaven en de Noorderhaven. In het midden van de negentiende eeuw waren deze twee havens eigenlijk niet meer geschikt om zeeschepen te ontvangen. Zo was de Noorderhaven veel te klein, te ondiep en gebrekkig uitgerust. Daardoor dreigde de stad zijn functie als zeehandelshaven te verliezen. Groningen was met zee verbonden door het Damsterdiep naar Delfzijl en de Eems, en door het Reitdiep naar Zoutkamp en de Lauwerszee. Het Reitdiep was een ondiepe, bochtige getijdenrivier die ongeschikt was voor grotere geladen zeeschepen. De bevaarbaarheid van het Damsterdiep en het Reitdiep nam in de loop van de achttiende en de negentiende eeuw af als gevolg van aanslibbing. Dit was een van de redenen waarom in de eerste helft van de negentiende eeuw groepen mannen, <span dir="rtl">‘</span>schiptrekkers<span dir="rtl">’</span>, geregeld schepen door het Reitdiep van en naar de stad trokken. In 1852 nam stoomsleepboot De Hunze dit werk goeddeels over. Maar de Lauwerszee, met zijn verraderlijke buitengronden, bleef gevaarlijk vaarwater. Uiteindelijk verbeterde de aanleg van het Eemskanaal tussen Groningen en Delfzijl en de Eems de verbinding met de zee. Deze door de provincie Groningen aangelegde waterweg kwam in 1876 gereed maar bracht niet de nieuwe mogelijkheden die de initiatiefnemers voor ogen hadden gehad. Hij was te krap voor de stoomschepen die nu verschenen, de afstand tussen de stad en de zee was groot en dertien bruggen belemmerden de doorvaart. Het Eemskanaal kon niet voorkomen dat de betekenis van de stad Groningen als zeehaven nog verder afnam. Meer dan de stad profiteerde Delfzijl van de totstandkoming ervan. Niettemin werd de haven van Delfzijl door ernstige verzanding geleidelijk te ondiep voor grote zeeschepen.
+    </span>De stad Groningen had twee bescheiden havens, de Zuiderhaven en de Noorderhaven. In het midden van de negentiende eeuw waren deze twee havens eigenlijk niet meer geschikt om zeeschepen te ontvangen. Zo was de Noorderhaven veel te klein, te ondiep en gebrekkig uitgerust. Daardoor dreigde de stad zijn functie als zeehandelshaven te verliezen. Groningen was met zee verbonden door het Damsterdiep naar Delfzijl en de Eems, en door het Reitdiep naar Zoutkamp en de Lauwerszee. Het Reitdiep was een ondiepe, bochtige getijdenrivier die ongeschikt was voor grotere geladen zeeschepen. De bevaarbaarheid van het Damsterdiep en het Reitdiep nam in de loop van de achttiende en de negentiende eeuw af als gevolg van aanslibbing. Dit was een van de redenen waarom in de eerste helft van de negentiende eeuw groepen mannen, <span dir="rtl">‘</span>schiptrekkers<span dir="rtl">’</span>, geregeld schepen door het Reitdiep van en naar de stad trokken. In 1852 nam stoomsleepboot <em>De Hunze</em> dit werk goeddeels over. Maar de Lauwerszee, met zijn verraderlijke buitengronden, bleef gevaarlijk vaarwater. Uiteindelijk verbeterde de aanleg van het Eemskanaal tussen Groningen en Delfzijl en de Eems de verbinding met de zee. Deze door de provincie Groningen aangelegde waterweg kwam in 1876 gereed maar bracht niet de nieuwe mogelijkheden die de initiatiefnemers voor ogen hadden gehad. Hij was te krap voor de stoomschepen die nu verschenen, de afstand tussen de stad en de zee was groot en dertien bruggen belemmerden de doorvaart. Het Eemskanaal kon niet voorkomen dat de betekenis van de stad Groningen als zeehaven nog verder afnam. Meer dan de stad profiteerde Delfzijl van de totstandkoming ervan. Niettemin werd de haven van Delfzijl door ernstige verzanding geleidelijk te ondiep voor grote zeeschepen.
         <button type="button" id="noteRef206" data-noteNumber="206"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 206">
@@ -4389,7 +4390,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP255', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (255)" id="b_paragraphLink255">
             &#10006;
         </button>
-    </span>Ook na inlijving van Nederland bij Frankrijk in 1810 bleef het eigenlijke beheer van tonnen en bakens gedelegeerd aan de lokale overheden. Maar formeel kwamen de vuurtorens en de bebakening toen onder toezicht van de twee Chefs Militaires, die in Amsterdam en Rotterdam waren gestationeerd. In 1811 ging het beheer over naar de Inspecteur van Waterstaat van het ministerie van Binnenlandse Zaken.
+    </span>Ook na inlijving van Nederland bij Frankrijk in 1810 bleef het eigenlijke beheer van tonnen en bakens gedelegeerd aan de lokale overheden. Maar formeel kwamen de vuurtorens en de bebakening toen onder toezicht van de twee <em>Chefs Militaires</em>, die in Amsterdam en Rotterdam waren gestationeerd. In 1811 ging het beheer over naar de Inspecteur van Waterstaat van het ministerie van Binnenlandse Zaken.
         <button type="button" id="noteRef211" data-noteNumber="211"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 211">
@@ -5005,7 +5006,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP287', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (287)" id="b_paragraphLink287">
             &#10006;
         </button>
-    </span>Koopvaardijschippers waren vooral in Friesland en Groningen georganiseerd in tientallen lokale compacten, die onderlinge schadeverzekering verzorgden (zie voor Groningse voorbeelden tabel 6). Aan leden die schade aan hun schip leden of hun schip en/of lading verloren, keerden zij een tegemoetkoming uit tot een jaarlijks vastgesteld maximumbedrag. Wanneer een schipper bij het ongeluk om het leven kwam, gaf het compact, althans in Leek, de tegemoetkoming aan zijn weduwe of kinderen. Ook na de Franse Tijd ontstonden nog nieuwe compacten. De schaal van de compacten te Oude Pekela blijkt uit het aantal schepen dat zij verzekerden; bij het Algemeen Verzekerings-Compact bedroeg dat aantal tussen 1850 en 1854 1.200 en bij het Algemeen Onderlinge Assurantie-Compact rond 1850 bijna 500. De Unie in Wildervank had in 1855 355 leden. In 1865 waren bij de Provinciale Groninger Maatschappij 660 schepen ingeschreven voor een totaal bedrag van fl. 2,9 miljoen en bij de Goede Trouw in Sappemeer 549 schepen voor fl. 2,6 miljoen.
+    </span>Koopvaardijschippers waren vooral in Friesland en Groningen georganiseerd in tientallen lokale compacten, die onderlinge schadeverzekering verzorgden (zie voor Groningse voorbeelden tabel 6). Aan leden die schade aan hun schip leden of hun schip en/of lading verloren, keerden zij een tegemoetkoming uit tot een jaarlijks vastgesteld maximumbedrag. Wanneer een schipper bij het ongeluk om het leven kwam, gaf het compact, althans in Leek, de tegemoetkoming aan zijn weduwe of kinderen. Ook na de Franse Tijd ontstonden nog nieuwe compacten. De schaal van de compacten te Oude Pekela blijkt uit het aantal schepen dat zij verzekerden; bij het Algemeen Verzekerings-Compact bedroeg dat aantal tussen 1850 en 1854 1.200 en bij het Algemeen Onderlinge Assurantie-Compact rond 1850 bijna 500. De Unie in Wildervank had in 1855 355 leden. In 1865 waren bij de Provinciale Groninger Maatschappij <em></em>660 schepen ingeschreven voor een totaal bedrag van fl. 2,9 miljoen en bij de Goede Trouw in Sappemeer 549 schepen voor fl. 2,6 miljoen.
         <button type="button" id="noteRef238" data-noteNumber="238"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 238">
@@ -5301,7 +5302,7 @@
         <button class=" md:flex px-2 -translate-y-3 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP305', 'hide');" aria-label="klik om een link naar deze paragraaf in het klembord te zetten (305)" id="b_paragraphLink305">
             &#10006;
         </button>
-    </span>Het uitvoerende werk pakten de maatschappijen daadkrachtig aan. In 1825 had de Noord al tien reddingstations ingericht, waaronder een op Terschelling, elk voorzien van een boot, bootwagen en boothuis. Eind 1826 had de Zuid op zes locaties reddingboten liggen: in Ter Heijde, Hoek van Holland, Rockanje, Goedereede, Brouwershaven en Westkapelle. Bij het werven van de roeiers van de reddingsboten – zes tot tien per boot – maakten de maatschappijen gebruik van plaatselijke beheerders. Veel beheerders van de Noord waren reders van de schepen waarmee de vissers van de dorpen aan de Zijde, de kuststrook tussen Maasmond en Marsdiep, de zee op gingen; zij vonden hun roeiers vrij gemakkelijk. Op de Waddeneilanden, waar talrijke zeevarenden woonden, waren veel beheerders voormalige kapiteins; ook zij vonden hun roeiers zonder veel moeite. De Zuid had het in dit opzicht lastiger. Doordat de vissersschepen in Zeeland doorgaans familiebezit van de vissers zelf waren, waren de beheerders doorgaans geen reders, maar burgemeester, notaris of een andere notabele. Zij stonden op meer afstand van de vissers dan de beheerders in het noorden en wierven daardoor althans aanvankelijk maar met moeite roeiers. Bovendien bestond de bemanning van de vissersschepen hier meestal uit leden van de familie die het schip in eigendom had. Daardoor waren de Zeeuwen minder dan de Hollanders en de eilanders gewend in wisselende samenstelling samen te werken – wat bij het roeien van een reddingsboot onvermijdelijk was. Daarbij waren de Zeeuwen veel minder gewend aan gevaarlijke omstandigheden dan de Hollanders. De Hollandse vissers bevonden zich op zee bij slecht weer onmiddellijk aan lager wal. De Zeeuwen daarentegen konden bij opkomende westerstorm gemakkelijk weer naar binnen. Een laatste factor die het werven van roeiers in Zeeland compliceerde, was dat veel Zeeuwse vissersdorpen te ver landinwaarts lagen om als reddingsstation dienst te doen.
+    </span>Het uitvoerende werk pakten de maatschappijen daadkrachtig aan. In 1825 had <em>de Noord</em> al tien reddingstations ingericht, waaronder een op Terschelling, elk voorzien van een boot, bootwagen en boothuis. Eind 1826 had <em>de</em> <em>Zuid</em> op zes locaties reddingboten liggen: in Ter Heijde, Hoek van Holland, Rockanje, Goedereede, Brouwershaven en Westkapelle. Bij het werven van de roeiers van de reddingsboten – zes tot tien per boot – maakten de maatschappijen gebruik van plaatselijke beheerders. Veel beheerders van de Noord waren reders van de schepen waarmee de vissers van de dorpen aan de Zijde, de kuststrook tussen Maasmond en Marsdiep, de zee op gingen; zij vonden hun roeiers vrij gemakkelijk. Op de Waddeneilanden, waar talrijke zeevarenden woonden, waren veel beheerders voormalige kapiteins; ook zij vonden hun roeiers zonder veel moeite. De Zuid had het in dit opzicht lastiger. Doordat de vissersschepen in Zeeland doorgaans familiebezit van de vissers zelf waren, waren de beheerders doorgaans geen reders, maar burgemeester, notaris of een andere notabele. Zij stonden op meer afstand van de vissers dan de beheerders in het noorden en wierven daardoor althans aanvankelijk maar met moeite roeiers. Bovendien bestond de bemanning van de vissersschepen hier meestal uit leden van de familie die het schip in eigendom had. Daardoor waren de Zeeuwen minder dan de Hollanders en de eilanders gewend in wisselende samenstelling samen te werken – wat bij het roeien van een reddingsboot onvermijdelijk was. Daarbij waren de Zeeuwen veel minder gewend aan gevaarlijke omstandigheden dan de Hollanders. De Hollandse vissers bevonden zich op zee bij slecht weer onmiddellijk aan lager wal. De Zeeuwen daarentegen konden bij opkomende westerstorm gemakkelijk weer naar binnen. Een laatste factor die het werven van roeiers in Zeeland compliceerde, was dat veel Zeeuwse vissersdorpen te ver landinwaarts lagen om als reddingsstation dienst te doen.
         <button type="button" id="noteRef250" data-noteNumber="250"
         class="noteRef bg-white inline-flex justify-center items-center text-xs p-2 border border-neutral-300 text-neutral-600 rounded-full h-7 w-7 font-sans -translate-y-1 cursor-pointer"
         role="doc-noteref" aria-label="Toon noot 250">
@@ -6122,7 +6123,7 @@
                       <div id="noteContent31">
     <p> Zie W. Scheltjens, <a class="underline" href="https://search.worldcat.org/nl/title/913376537"><em>Dutch Deltas: Emergence, Functions and
     Structure of the Low Countries’ Maritime Transport System ca.
-    1300-1850</em></a> (Leiden/Boston 2015) 10, 82.</p>
+    1300-1850</em></a> <em></em>(Leiden/Boston 2015) 10, 82.</p>
     
     </div>
                    </li>
@@ -6716,7 +6717,7 @@
                       <div id="noteContent64">
     <p> W. Scheltjens, <a class="underline" href="https://worldcat.org/nl/title/913376537"><em>Dutch Deltas: Emergence, Functions and
     Structure of the Low Countries’ Maritime Transport System ca.
-    1300-1850</em></a> (Leiden/Boston 2015) 10, 80-82.</p>
+    1300-1850</em></a> <em></em>(Leiden/Boston 2015) 10, 80-82.</p>
     
     </div>
                    </li>
@@ -10162,6 +10163,8 @@
     </span>
 </div>
 
+<a href="#page-top" id="btnBackToTop" class="fixed bottom-6 right-6 z-40 hidden py-2 px-3 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm rounded shadow focus:outline focus:outline-2 focus:outline-nmgnBlue-600" aria-label="Naar boven van de pagina">&#8593; top</a>
+
 <footer class="w-full bg-[#053a51] py-16 text-white">
 
     <div class="mx-auto w-full max-w-[1300px] flex flex-col lg:flex-row gap-10 px-10">
@@ -10231,18 +10234,17 @@
   </div>
 </div>
 
-<div class=" bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop">
+<div class="bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop" role="dialog" aria-modal="true" aria-label="Hoofdstukken">
 
     <div class="py-5 max-w-[1300px] w-full text-right">
-        <button class="p-2 hover:bg-nmgnGreen-100 rounded text-2xl cursor-pointer" onclick="toggleVis('topMenuPop', 'hide');">&#10006;</button>
+        <button type="button" id="btnCloseHoofdstukken" class="p-2 hover:bg-nmgnGreen-100 rounded text-2xl cursor-pointer" onclick="closeHoofdstukkenMenu();" aria-label="Sluit menu hoofdstukken">&#10006;</button>
     </div>
     
-    <div class="flex flex-col lg:flex-row gap-10 max-w-[1300px] py-10">
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
+    <nav class="flex flex-col lg:flex-row gap-10 max-w-[1300px] py-10" aria-label="Alle hoofdstukken">
 
             
             
-            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d1"  tabindex="0">
+            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d1">
             
                 <div class="flex flex-col gap-1 border-b border-nmgnGreen-600 pb-8 ">
                     <div class="">Deel 1</div>
@@ -10252,48 +10254,32 @@
 
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="land-het-water-de-binnenvaart.html" class="flex flex-col" id="topnav_d1h2" aria-label="Hoofdstuk 2 Het land, het water en de binnenvaart door Thijs J. Maarleveld †" tabindex="0">
+            <a href="land-het-water-de-binnenvaart.html" class="flex flex-col" id="topnav_d1h2" aria-label="Hoofdstuk 2 Het land, het water en de binnenvaart door Thijs J. Maarleveld †">
                 <div class="font-bold">2 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Het land, het water en de binnenvaart</strong></div>
                 <em class="">Thijs J. Maarleveld †</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="het-schip.html" class="flex flex-col" id="topnav_d1h3" aria-label="Hoofdstuk 3 Het schip door Richard W. Unger" tabindex="0">
+            <a href="het-schip.html" class="flex flex-col" id="topnav_d1h3" aria-label="Hoofdstuk 3 Het schip door Richard W. Unger">
                 <div class="font-bold">3 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Het schip</strong></div>
                 <em class="">Richard W. Unger</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="geweld-oorlogvoering-ter-zee-1018-1568.html" class="flex flex-col" id="topnav_d1h4" aria-label="Hoofdstuk 4 Geweld en oorlogvoering ter zee, 1018-1568 door Louis Sicking en Ronald de Graaf" tabindex="0">
+            <a href="geweld-oorlogvoering-ter-zee-1018-1568.html" class="flex flex-col" id="topnav_d1h4" aria-label="Hoofdstuk 4 Geweld en oorlogvoering ter zee, 1018-1568 door Louis Sicking en Ronald de Graaf">
                 <div class="font-bold">4 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Geweld en oorlogvoering ter zee, 1018-1568</strong></div>
                 <em class="">Louis Sicking en Ronald de Graaf</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="maritieme-cultuur-middeleeuwen-1100-1600.html" class="flex flex-col" id="topnav_d1h6" aria-label="Hoofdstuk 6 Maritieme cultuur in de middeleeuwen door Remmelt Daalder" tabindex="0">
+            <a href="maritieme-cultuur-middeleeuwen-1100-1600.html" class="flex flex-col" id="topnav_d1h6" aria-label="Hoofdstuk 6 Maritieme cultuur in de middeleeuwen door Remmelt Daalder">
                 <div class="font-bold">6 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Maritieme cultuur in de middeleeuwen</strong></div>
                 <em class="">Remmelt Daalder</em>
@@ -10301,12 +10287,8 @@
             
 
             
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
-
-            
             </div> 
-            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d2"  tabindex="0">
+            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d2">
             
                 <div class="flex flex-col gap-1 border-b border-nmgnGreen-600 pb-8 ">
                     <div class="">Deel 2</div>
@@ -10314,43 +10296,31 @@
                     <div class="">1600 - 1780</div>
                 </div>
 
-            <a href="koopvaardij-buiten-europa-in-zeventiende-achttiende-eeuw.html" class="flex flex-col" id="topnav_d2h3" aria-label="Hoofdstuk 3 De tijd van de grote handelscompagnieën. Koopvaardij buiten Europa in de zeventiende en achttiende eeuw door Henk den Heijer, Han Jordaan en Karel Davids" tabindex="0">
+            <a href="koopvaardij-buiten-europa-in-zeventiende-achttiende-eeuw.html" class="flex flex-col" id="topnav_d2h3" aria-label="Hoofdstuk 3 De tijd van de grote handelscompagnieën. Koopvaardij buiten Europa in de zeventiende en achttiende eeuw door Henk den Heijer, Han Jordaan en Karel Davids">
                 <div class="font-bold">3 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">De tijd van de grote handelscompagnieën. Koopvaardij buiten Europa in de zeventiende en achttiende eeuw</strong></div>
                 <em class="">Henk den Heijer, Han Jordaan en Karel Davids</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="nederlandse-zeemacht-1568-1780.html" class="flex flex-col" id="topnav_d2h4" aria-label="Hoofdstuk 4 Een veelkoppig monster. De Nederlandse zeemacht, 1568-1780 door Victor Enthoven, Marc van Alphen en Remmelt Daalder" tabindex="0">
+            <a href="nederlandse-zeemacht-1568-1780.html" class="flex flex-col" id="topnav_d2h4" aria-label="Hoofdstuk 4 Een veelkoppig monster. De Nederlandse zeemacht, 1568-1780 door Victor Enthoven, Marc van Alphen en Remmelt Daalder">
                 <div class="font-bold">4 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Een veelkoppig monster. De Nederlandse zeemacht, 1568-1780</strong></div>
                 <em class="">Victor Enthoven, Marc van Alphen en Remmelt Daalder</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="binnenvaart-zeventiende-achttiende-eeuw-innovatie-marktintegratie.html" class="flex flex-col" id="topnav_d2h6" aria-label="Hoofdstuk 6 Binnenvaart in de zeventiende en achttiende eeuw. Innovatie en marktintegratie door André van Holk" tabindex="0">
+            <a href="binnenvaart-zeventiende-achttiende-eeuw-innovatie-marktintegratie.html" class="flex flex-col" id="topnav_d2h6" aria-label="Hoofdstuk 6 Binnenvaart in de zeventiende en achttiende eeuw. Innovatie en marktintegratie door André van Holk">
                 <div class="font-bold">6 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Binnenvaart in de zeventiende en achttiende eeuw. Innovatie en marktintegratie</strong></div>
                 <em class="">André van Holk</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="wereld-op-zee.html" class="flex flex-col" id="topnav_d2h7" aria-label="Hoofdstuk 7 De wereld op zee. De maritieme cultuur van de Gouden Eeuw door Michiel van Groesen" tabindex="0">
+            <a href="wereld-op-zee.html" class="flex flex-col" id="topnav_d2h7" aria-label="Hoofdstuk 7 De wereld op zee. De maritieme cultuur van de Gouden Eeuw door Michiel van Groesen">
                 <div class="font-bold">7 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">De wereld op zee. De maritieme cultuur van de Gouden Eeuw</strong></div>
                 <em class="">Michiel van Groesen</em>
@@ -10358,12 +10328,8 @@
             
 
             
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
-
-            
             </div> 
-            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d3"  tabindex="0">
+            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d3">
             
                 <div class="flex flex-col gap-1 border-b border-nmgnGreen-600 pb-8 ">
                     <div class="">Deel 3</div>
@@ -10371,43 +10337,31 @@
                     <div class="">1780 - 1870</div>
                 </div>
 
-            <a href="koopvaardij-binnen-europa-1780-1870.html" class="flex flex-col" id="topnav_d3h2" aria-label="Hoofdstuk 2 De koopvaardij binnen Europa, 1780-1870 door Jan Willem Veluwenkamp" tabindex="0">
+            <a href="koopvaardij-binnen-europa-1780-1870.html" class="flex flex-col" id="topnav_d3h2" aria-label="Hoofdstuk 2 De koopvaardij binnen Europa, 1780-1870 door Jan Willem Veluwenkamp">
                 <div class="font-bold">2 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">De koopvaardij binnen Europa, 1780-1870</strong></div>
                 <em class="">Jan Willem Veluwenkamp</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="hervormingen-zeemacht-1780-1870.html" class="flex flex-col" id="topnav_d3h4" aria-label="Hoofdstuk 4 Wereldwijd op stoom. Hervormingen bij de zeemacht (1780-1870) door Gerard M.W. Acda †, Anita M.C. van Dissel, Jan Klootwijk en Dick Vries" tabindex="0">
+            <a href="hervormingen-zeemacht-1780-1870.html" class="flex flex-col" id="topnav_d3h4" aria-label="Hoofdstuk 4 Wereldwijd op stoom. Hervormingen bij de zeemacht (1780-1870) door Gerard M.W. Acda †, Anita M.C. van Dissel, Jan Klootwijk en Dick Vries">
                 <div class="font-bold">4 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Wereldwijd op stoom. Hervormingen bij de zeemacht (1780-1870)</strong></div>
                 <em class="">Gerard M.W. Acda †, Anita M.C. van Dissel, Jan Klootwijk en Dick Vries</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="binnenvaart-negentiende-eeuw.html" class="flex flex-col" id="topnav_d3h6" aria-label="Hoofdstuk 6 Aarzelende modernisering. Binnenvaart in de negentiende eeuw door Ruud Filarski" tabindex="0">
+            <a href="binnenvaart-negentiende-eeuw.html" class="flex flex-col" id="topnav_d3h6" aria-label="Hoofdstuk 6 Aarzelende modernisering. Binnenvaart in de negentiende eeuw door Ruud Filarski">
                 <div class="font-bold">6 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Aarzelende modernisering. Binnenvaart in de negentiende eeuw</strong></div>
                 <em class="">Ruud Filarski</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="maritieme-cultuur-negentiende-eeuw.html" class="flex flex-col" id="topnav_d3h7" aria-label="Hoofdstuk 7 Maritieme cultuur in de negentiende eeuw door Remmelt Daalder" tabindex="0">
+            <a href="maritieme-cultuur-negentiende-eeuw.html" class="flex flex-col" id="topnav_d3h7" aria-label="Hoofdstuk 7 Maritieme cultuur in de negentiende eeuw door Remmelt Daalder">
                 <div class="font-bold">7 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Maritieme cultuur in de negentiende eeuw</strong></div>
                 <em class="">Remmelt Daalder</em>
@@ -10415,12 +10369,8 @@
             
 
             
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
-
-            
             </div> 
-            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d4"  tabindex="0">
+            <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4" id="topnav_d4">
             
                 <div class="flex flex-col gap-1 border-b border-nmgnGreen-600 pb-8 ">
                     <div class="">Deel 4</div>
@@ -10428,35 +10378,25 @@
                     <div class="">1870 - 2020</div>
                 </div>
 
-            <a href="binnenvaart-in-twintigste-eeuw-schaalvergroting-maatschappelijke-integratie.html" class="flex flex-col" id="topnav_d4h6" aria-label="Hoofdstuk 6 Schaalvergroting en maatschappelijke integratie. Binnenvaart in de twintigste eeuw door Ruud Filarski" tabindex="0">
+            <a href="binnenvaart-in-twintigste-eeuw-schaalvergroting-maatschappelijke-integratie.html" class="flex flex-col" id="topnav_d4h6" aria-label="Hoofdstuk 6 Schaalvergroting en maatschappelijke integratie. Binnenvaart in de twintigste eeuw door Ruud Filarski">
                 <div class="font-bold">6 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Schaalvergroting en maatschappelijke integratie. Binnenvaart in de twintigste eeuw</strong></div>
                 <em class="">Ruud Filarski</em>
             </a>
             
 
-            
-            
-        <!-- <div class="flex flex-col gap-8 w-full md:w-1/2 lg:w-1/4"> -->
 
-
-            <a href="maritieme-cultuuruitingen.html" class="flex flex-col" id="topnav_d4h8" aria-label="Hoofdstuk 8 Bakens uit het veilige verleden. Maritieme cultuuruitingen in de ‘eeuw van uitersten’ door Sara Keijzer" tabindex="0">
+            <a href="maritieme-cultuuruitingen.html" class="flex flex-col" id="topnav_d4h8" aria-label="Hoofdstuk 8 Bakens uit het veilige verleden. Maritieme cultuuruitingen in de ‘eeuw van uitersten’ door Sara Keijzer">
                 <div class="font-bold">8 </div>
                 <div class="text-nmgnBlue-900 text-xl"><strong class="">Bakens uit het veilige verleden. Maritieme cultuuruitingen in de ‘eeuw van uitersten’</strong></div>
                 <em class="">Sara Keijzer</em>
             </a>
             
 
-            
-            
+    </nav>
 
-    </div>
-
-
-
-
-      
 </div>
+
 
 
 <script src="js/images.js"></script>

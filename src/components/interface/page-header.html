@@ -1,9 +1,9 @@
-<header class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
+<header id="page-top" tabindex="-1" class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
     <div class="max-w-[1900px] mx-auto  flex justify-between">
         <a href="index.html"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
         <div class="flex gap-4">
             
-            <button class="cursor-pointer  py-1 px-2  bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm" onclick="toggleVis('topMenuPop', 'show'); setFocus('topnav_d1')" aria-label="klik voor alle hoofdstukken">Hoofdstukken</button>
+            <button type="button" id="btnHoofdstukken" class="cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm" aria-expanded="false" aria-controls="topMenuPop" aria-haspopup="dialog" onclick="openHoofdstukkenMenu();">Hoofdstukken</button>
             {{> utils/search }}
         </div>
     </div>

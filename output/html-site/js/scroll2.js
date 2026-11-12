@@ -111,10 +111,38 @@
     update();
   }
 
+  function initBackToTop() {
+    var header = document.getElementById('chapterHeader');
+    var btn = document.getElementById('btnBackToTop');
+    if (!header || !btn) return;
+
+    function setVisible(visible) {
+      if (visible) btn.classList.remove('hidden');
+      else btn.classList.add('hidden');
+    }
+
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function(entries) {
+        var entry = entries[0];
+        setVisible(!entry.isIntersecting && entry.boundingClientRect.bottom < 0);
+      }, { threshold: 0 });
+      observer.observe(header);
+      return;
+    }
+
+    function check() {
+      setVisible(header.getBoundingClientRect().bottom < 0);
+    }
+    window.addEventListener('scroll', check, { passive: true });
+    window.addEventListener('resize', check);
+    check();
+  }
+
   function init() {
     scrollRoot = getScrollRoot();
     update();
     initTableScrollRegions();
+    initBackToTop();
     scrollRoot.addEventListener('scroll', onScrollOrResize, { passive: true });
     if (scrollRoot !== window) {
       window.addEventListener('scroll', onScrollOrResize, { passive: true });

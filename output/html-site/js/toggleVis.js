@@ -14,6 +14,61 @@ function toggleVis(id, state, flexType) {
     }
 }
 
+function openHoofdstukkenMenu() {
+    var menu = document.getElementById('topMenuPop');
+    var btn = document.getElementById('btnHoofdstukken');
+    if (!menu || !btn) return;
+
+    toggleVis('topMenuPop', 'show');
+    btn.setAttribute('aria-expanded', 'true');
+
+    var closeBtn = document.getElementById('btnCloseHoofdstukken');
+    if (closeBtn) closeBtn.focus();
+
+    document.addEventListener('keydown', hoofdstukkenMenuKeydown);
+}
+
+function closeHoofdstukkenMenu() {
+    var menu = document.getElementById('topMenuPop');
+    var btn = document.getElementById('btnHoofdstukken');
+    if (!menu || !btn) return;
+
+    toggleVis('topMenuPop', 'hide');
+    btn.setAttribute('aria-expanded', 'false');
+    btn.focus();
+
+    document.removeEventListener('keydown', hoofdstukkenMenuKeydown);
+}
+
+function hoofdstukkenMenuKeydown(e) {
+    var menu = document.getElementById('topMenuPop');
+    if (!menu || menu.classList.contains('hidden')) return;
+
+    if (e.key === 'Escape') {
+        e.preventDefault();
+        closeHoofdstukkenMenu();
+        return;
+    }
+
+    if (e.key !== 'Tab') return;
+
+    var focusable = menu.querySelectorAll(
+        'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    );
+    if (!focusable.length) return;
+
+    var first = focusable[0];
+    var last = focusable[focusable.length - 1];
+
+    if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+    }
+}
+
 function openAsideNav() {
     toggleVis('asideNavPanel', 'show');
     var wrapper = document.getElementById('showInhoud');
