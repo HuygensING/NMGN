@@ -111,6 +111,43 @@
     update();
   }
 
+  function syncPageHeaderHeight() {
+    var header = document.getElementById('site-header');
+    if (!header) return;
+    var height = Math.ceil(header.getBoundingClientRect().height);
+    document.documentElement.style.setProperty('--page-header-height', height + 'px');
+  }
+
+  function initCompactHeader() {
+    var header = document.getElementById('site-header');
+    if (!header) return;
+
+    var compactAt = 24;
+    var ticking = false;
+
+    function apply() {
+      var scrolled = window.scrollY > compactAt;
+      header.classList.toggle('is-compact', scrolled);
+      syncPageHeaderHeight();
+      ticking = false;
+    }
+
+    function onScroll() {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(apply);
+    }
+
+    apply();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', syncPageHeaderHeight);
+
+    if ('ResizeObserver' in window) {
+      var observer = new ResizeObserver(syncPageHeaderHeight);
+      observer.observe(header);
+    }
+  }
+
   function initBackToTop() {
     var header = document.getElementById('chapterHeader');
     var btn = document.getElementById('btnBackToTop');
@@ -142,6 +179,7 @@
     scrollRoot = getScrollRoot();
     update();
     initTableScrollRegions();
+    initCompactHeader();
     initBackToTop();
     scrollRoot.addEventListener('scroll', onScrollOrResize, { passive: true });
     if (scrollRoot !== window) {
@@ -150,6 +188,7 @@
     window.addEventListener('resize', function() {
       scrollRoot = getScrollRoot();
       update();
+      syncPageHeaderHeight();
     });
   }
 

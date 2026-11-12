@@ -12,23 +12,20 @@
   <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-2 focus:left-2 focus:bg-white focus:text-nmgnBlue-900 focus:px-4 focus:py-2 focus:outline focus:outline-2 focus:outline-nmgnBlue-600">Ga naar de inhoud</a>
 
 
-<header id="page-top" tabindex="-1" class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
-    <div class="max-w-[1900px] mx-auto  flex justify-between">
-        <a href="index.html"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
-        <div class="flex gap-4">
-            
-            <button type="button" id="btnHoofdstukken" class="cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm" aria-expanded="false" aria-controls="topMenuPop" aria-haspopup="dialog" onclick="openHoofdstukkenMenu();">Hoofdstukken</button>
-            <div class="hidden relative">
-                <input type="text" name="" id="searchField" class="bg-white w-32 text-black rounded-l-lg text-sm py-1 px-2"  aria-label="type een zoekwoord">
-                <button class=" py-1 px-2 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm flex  rounded-r-lg" id="searchButton">Zoeken</button>
-                <div class="bg-nmgnBlue-100 text-nmgnBlue-950  shadow-2xl absolute w-96 p-4 top-10 right-4 hidden max-w-lg z-50" id="searchResults">
-                    <ul id="searchResultsList" class="flex flex-col gap-2 text-sm">
-                        <li>Searching...</li>
-                    </ul>
-                </div>
-            </div>        </div>
+<header id="site-header" class="fixed top-0 left-0 right-0 w-full bg-nmgnBlue-900 text-white p-3 z-50 transition-all duration-300 ease-out">
+    <div class="max-w-[1900px] mx-auto flex justify-between items-center gap-4">
+        <a href="index.html" class="page-top-title min-w-0 truncate transition-all duration-300"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
+        <div class="flex gap-4 shrink-0">
+            <a href="index.html" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white">Home</a>
+            <button type="button" id="btnHoofdstukken" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white" aria-expanded="false" aria-controls="topMenuPop" aria-haspopup="dialog" onclick="openHoofdstukkenMenu();">Hoofdstukken</button>
+            <a href="search.html" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white">Zoeken</a>
+        </div>
     </div>
 </header>
+<div id="page-top" tabindex="-1">
+    <span class="sr-only">Begin van de pagina</span>
+</div>
+
 <div id="chapterHeader" class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative z-30">
     <div class="col-start-2 xl:col-start-6 row-start-1 col-span-6 text-white items-start justify-center flex flex-col gap-2">
         <span class="">Deel 1 <em>Opkomst van de rivier- en zeehandel</em></span> 
@@ -39,7 +36,7 @@
     </div>
     <div class="col-start-2 xl:col-start-6 row-start-3 col-span-6 text-white items-center justify-start">Door Remmelt Daalder</div>
     <!-- <div class="col-start-2 xl:col-start-2 row-start-4 text-white  absolute left-[20vw] hidden xl:flex"><img src="images/chapterImages/d1h6.png" class="w-24 h-24 2xl:w-36 2xl:h-36" alt=""></div> -->
-</div><div class="sticky top-0 z-40 xl:hidden flex justify-end py-2 pr-6 w-full" id="showInhoud"><button type="button" id="btnInhoudToggle" class="cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm"
+</div><div class="sticky top-[var(--page-header-height,3.25rem)] z-40 xl:hidden flex justify-end py-2 pr-6 w-full" id="showInhoud"><button type="button" id="btnInhoudToggle" class="cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm"
         onclick="openAsideNav();" aria-label="Toon inhoudsopgave">Inhoud</button></div>
 
 <div class="flex flex-col px-6 
@@ -50,7 +47,7 @@
     <!-- Nagivation -->
         <aside id="asideNavPanel" class="fixed inset-0 z-50 [@media(min-width:768px)_and_(orientation:landscape)]:right-0 [@media(min-width:768px)_and_(orientation:landscape)]:top-0 [@media(min-width:768px)_and_(orientation:landscape)]:bottom-0 [@media(min-width:768px)_and_(orientation:landscape)]:w-1/2 [@media(min-width:768px)_and_(orientation:landscape)]:left-auto xl:static xl:inset-auto xl:w-auto xl:min-w-[260px] pt-12 bg-nmgnBlue-50 pl-10 hidden xl:flex col-start-1 col-span-2">
             
-            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16 pr-2" aria-label="Inhoud van deze pagina">
+            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-[calc(var(--page-header-height,3.25rem)+1.5rem)] max-h-[calc(100vh-var(--page-header-height,3.25rem)-2rem)] overflow-y-auto pb-16 pr-2" aria-label="Inhoud van deze pagina">
                 <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:bg-white focus:text-nmgnBlue-900 focus:px-3 focus:py-2 focus:outline focus:outline-2 focus:outline-nmgnBlue-600">Ga naar de inhoud</a>
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
                 <div class="flex justify-between mb-4 border-b border-nmgnBlue-200 pb-2">
@@ -75,7 +72,7 @@
     <main id="main" tabindex="-1" class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30 sm:px-6">
        <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative" id="top">
     
-                   <p class="mb-4 font-merriweather font-light" id="paragraph0">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_13">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -83,7 +80,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP0">
-        <input type="text" name="" id="paragraphLink0" value="paragraph0" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink0" value="paragraph_13" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('0')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink0">
             Klik hier voor een link naar deze paragraaf.
@@ -98,8 +95,8 @@
         role="doc-noteref" aria-label="Toon noot 1">
         1
         </button></p>
-                            <h3 class="font-merriweather font-bold scroll-mt-8" id="stormvloeden">Stormvloeden</h3>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph2">
+                            <h3 class="font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="stormvloeden">Stormvloeden</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_14">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP2', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (2)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -107,7 +104,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP2">
-        <input type="text" name="" id="paragraphLink2" value="paragraph2" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink2" value="paragraph_14" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('2')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink2">
             Klik hier voor een link naar deze paragraaf.
@@ -125,7 +122,7 @@
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Mappa Mundi" data-caption="Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld.<br>Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300.<br>Hereford Cathedral, Hereford."data-src="images/d1h6/d1h6-600/0_Mappa_Mundi.jpg"><img src="images/d1h6/d1h6-170/0_Mappa_Mundi.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Mappa Mundi Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld. Perkament, de kaart is ondertekend door Richard van Haldingham en Lafford, ca. 1300. Hereford Cathedral, Hereford." id="img_0_Mappa_Mundi.jpg"><div>Mappa Mundi</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Jonas en de walvis" data-caption="Glas in lood, kerkraam van de Sint Janskerk in Gouda.<br>Dirck Crabeth, voor 1560.<br>Stichting Goudse Sint-Jan, Gouda."data-src="images/d1h6/d1h6-600/2_Sint_Jonas.jpg"><img src="images/d1h6/d1h6-170/2_Sint_Jonas.jpg" class=" w-24 md:w-40" alt="Jonas en de walvis Glas in lood, kerkraam van de Sint Janskerk in Gouda. Dirck Crabeth, voor 1560. Stichting Goudse Sint-Jan, Gouda." id="img_2_Sint_Jonas.jpg"><div>Jonas en de walvis</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Zeemonsters" data-caption="Pagina’s uit het Visboek van Adriaen Coenensz. van Schilperoort.<br>Handschrift op papier, 1577-1579.<br>Koninklijke Bibliotheek, Den Haag."data-src="images/d1h6/d1h6-600/3_Visboek.jpg"><img src="images/d1h6/d1h6-170/3_Visboek.jpg" class=" w-24 md:w-40" alt="Zeemonsters Pagina’s uit het Visboek van Adriaen Coenensz. van Schilperoort. Handschrift op papier, 1577-1579. Koninklijke Bibliotheek, Den Haag." id="img_3_Visboek.jpg"><div>Zeemonsters</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph6">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_18">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP6', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -133,7 +130,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP6">
-        <input type="text" name="" id="paragraphLink6" value="paragraph6" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink6" value="paragraph_18" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('6')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink6">
             Klik hier voor een link naar deze paragraaf.
@@ -155,7 +152,7 @@
         </button> Coenen was niet de enige, nog tot in de zeventiende eeuw zijn de oceanen op zeekaarten bevolkt met geschubde griezels, wat de tochten van zeereizigers voor de thuisblijver nog heroïscher maakte.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Sint Elisabethsvloed" data-caption="In de nacht van 18 op 19 november 1421 zette de vloed grote delen van Zuid-Holland onder water. Rechts de dijkdoorbraak, links het veilige Dordrecht. Buitenluiken van een altaarstuk, geschonken door de inwoners van Wieldrecht aan de Grote Kerk in Dordrecht.<br>Paneel,  Meester van de Elisabeth-panelen.<br>Anoniem, ca. 1490-1495.<br>Rijksmuseum, Amsterdam."data-src="images/d1h6/d1h6-600/4a_Sint_Elisabethvloed.jpg"><img src="images/d1h6/d1h6-170/4a_Sint_Elisabethvloed.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Sint Elisabethsvloed In de nacht van 18 op 19 november 1421 zette de vloed grote delen van Zuid-Holland onder water. Rechts de dijkdoorbraak, links het veilige Dordrecht. Buitenluiken van een altaarstuk, geschonken door de inwoners van Wieldrecht aan de Grote Kerk in Dordrecht. Paneel, Meester van de Elisabeth-panelen. Anoniem, ca. 1490-1495. Rijksmuseum, Amsterdam." id="img_4a_Sint_Elisabethvloed.jpg"><div>De Sint Elisabethsvloed</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Sint Elisabethsvloed" data-caption="<br>Paneel,  Meester van de Elisabeth-panelen.<br>Anoniem, ca. 1490-1495.<br>Rijksmuseum, Amsterdam."data-src="images/d1h6/d1h6-600/4b_Sint_Elisabethvloed.jpg"><img src="images/d1h6/d1h6-170/4b_Sint_Elisabethvloed.jpg" class=" w-24 md:w-40" alt="De Sint Elisabethsvloed Paneel, Meester van de Elisabeth-panelen. Anoniem, ca. 1490-1495. Rijksmuseum, Amsterdam." id="img_4b_Sint_Elisabethvloed.jpg"><div>De Sint Elisabethsvloed</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph9">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_21">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP9', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (9)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -163,7 +160,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP9">
-        <input type="text" name="" id="paragraphLink9" value="paragraph9" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink9" value="paragraph_21" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('9')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink9">
             Klik hier voor een link naar deze paragraaf.
@@ -188,8 +185,8 @@
         role="doc-noteref" aria-label="Toon noot 7">
         7
         </button> De twee panelen bieden niettemin een aangrijpend beeld van de verwoestingen die de zee kon aanrichten, met vluchtende mensen in kleine bootjes, die met hun vee en hun bezittingen in zakken en kisten een veilig heenkomen zoeken. Wie zulke overstromingen meemaakte, en dat waren er velen, zal bij de term ‘zee’ op zijn minst gemengde gevoelens hebben gehad.</p>
-                            <h3 class="font-merriweather font-bold scroll-mt-8" id="de-zeereis-van-sint-brandaan">De zeereis van Sint Brandaan</h3>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph11">
+                            <h3 class="font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="de-zeereis-van-sint-brandaan">De zeereis van Sint Brandaan</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_22">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP11', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (11)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -197,7 +194,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP11">
-        <input type="text" name="" id="paragraphLink11" value="paragraph11" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink11" value="paragraph_22" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('11')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink11">
             Klik hier voor een link naar deze paragraaf.
@@ -222,7 +219,7 @@
                    <blockquote class="my-4 font-merriweather font-light ml-4 italic"> <p>Den ancker maecte hi stalijn,</p> </blockquote>
                    <blockquote class="my-4 font-merriweather font-light ml-4 italic"> <p>Daers hem van noede soude zijn’<em>.</em><a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p> </blockquote>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Sint Brandaan op Walviseiland" data-caption="Op de rug van een enorme vis, die hij eerst aanzag voor een eiland draagt Sint Brandaan de mis op. Op de kaart is het eiland in de Atlantische Oceaan aangegeven waarvan Columbus nog vermoedde dat hij het zou tegenkomen op zijn reis naar Indië.<br>Gravure uit een levensbeschrijving van Sint Brandaan, uitgegeven in 1621.<br>John Carter Brown Library, Providence, Rhode Island."data-src="images/d1h6/d1h6-600/4c_extra_Brandaan.jpg"><img src="images/d1h6/d1h6-170/4c_extra_Brandaan.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Sint Brandaan op Walviseiland Op de rug van een enorme vis, die hij eerst aanzag voor een eiland draagt Sint Brandaan de mis op. Op de kaart is het eiland in de Atlantische Oceaan aangegeven waarvan Columbus nog vermoedde dat hij het zou tegenkomen op zijn reis naar Indië. Gravure uit een levensbeschrijving van Sint Brandaan, uitgegeven in 1621. John Carter Brown Library, Providence, Rhode Island." id="img_4c_extra_Brandaan.jpg"><div>Sint Brandaan op Walviseiland</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph27">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_24">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP27', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (27)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -230,7 +227,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP27">
-        <input type="text" name="" id="paragraphLink27" value="paragraph27" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink27" value="paragraph_24" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('27')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink27">
             Klik hier voor een link naar deze paragraaf.
@@ -250,10 +247,10 @@
         role="doc-noteref" aria-label="Toon noot 10">
         10
         </button></p>
-                            <h3 class="font-merriweather font-bold scroll-mt-8" id="nog-meer-varende-heiligen">Nog meer varende heiligen</h3>
+                            <h3 class="font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="nog-meer-varende-heiligen">Nog meer varende heiligen</h3>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Antependium (altaardoek) van het schippersgilde in Nijmegen" data-caption="Centraal is een kogge afgebeeld, geflankeerd door Maria met Jezus en St. Olof. Het doek hing oorspronkelijk waarschijnlijk voor het altaar van de Olofskapel in de Stevenskerk in Nijmegen.<br>Linnen, vierde kwart vijftiende eeuw.<br>Valkhofmuseum, Nijmegen."data-src="images/d1h6/d1h6-600/5_Antependium.jpg"><img src="images/d1h6/d1h6-170/5_Antependium.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Antependium (altaardoek) van het schippersgilde in Nijmegen Centraal is een kogge afgebeeld, geflankeerd door Maria met Jezus en St. Olof. Het doek hing oorspronkelijk waarschijnlijk voor het altaar van de Olofskapel in de Stevenskerk in Nijmegen. Linnen, vierde kwart vijftiende eeuw. Valkhofmuseum, Nijmegen." id="img_5_Antependium.jpg"><div>Antependium (altaardoek) van het schippersgilde in Nijmegen</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Heilige Maagd Maria in een schip met het lichaam van Christus op haar schoot" data-caption="Gewelfschildering, ca. 1500.<br>Oude Kerk, Amsterdam.<br>Foto Ad van der Zee."data-src="images/d1h6/d1h6-600/6_Gewelfschildering_Oude_Kerk.jpg"><img src="images/d1h6/d1h6-170/6_Gewelfschildering_Oude_Kerk.jpg" class=" w-24 md:w-40" alt="De Heilige Maagd Maria in een schip met het lichaam van Christus op haar schoot Gewelfschildering, ca. 1500. Oude Kerk, Amsterdam. Foto Ad van der Zee." id="img_6_Gewelfschildering_Oude_Kerk.jpg"><div>De Heilige Maagd Maria in een schip met het lichaam van Christus op haar schoot</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph31">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_27">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP31', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (31)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -261,7 +258,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP31">
-        <input type="text" name="" id="paragraphLink31" value="paragraph31" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink31" value="paragraph_27" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('31')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink31">
             Klik hier voor een link naar deze paragraaf.
@@ -282,7 +279,7 @@
         12
         </button> De Oude Kerk was trouwens als geheel gewijd aan Sint Nicolaas, ook al een heilige beschermer van zeelui en kooplieden en patroonheilige van de stad Amsterdam.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Reliekschrijn van de heilige Ursula" data-caption="Schildering op houten panelen.<br>Hans Memling, 1489.<br>Oud Sint-Janshospitaal, Brugge.<br>© Foto Lukas - Art in Flanders VZW (www.lukasweb.be)."data-src="images/d1h6/d1h6-600/7_Reliekschrijn.jpg"><img src="images/d1h6/d1h6-170/7_Reliekschrijn.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Reliekschrijn van de heilige Ursula Schildering op houten panelen. Hans Memling, 1489. Oud Sint-Janshospitaal, Brugge. © Foto Lukas - Art in Flanders VZW (www.lukasweb.be)." id="img_7_Reliekschrijn.jpg"><div>Reliekschrijn van de heilige Ursula</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph33">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_29">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP33', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (33)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -290,7 +287,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP33">
-        <input type="text" name="" id="paragraphLink33" value="paragraph33" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink33" value="paragraph_29" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('33')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink33">
             Klik hier voor een link naar deze paragraaf.
@@ -307,7 +304,7 @@
         </button> Bij de Brandaris lijkt er eveneens een verband te zijn tussen de vroegere kapel van Brandaan en het licht van de vuurtoren. In de genoemde kerk in Brugge is ook de vijftiende-eeuwse schilder Hans Memling begraven. Zijn oeuvre is niet specifiek maritiem te noemen, maar één meesterwerk van zijn hand valt op door de uitgebreide maritieme voorstelling. De Ursulaschrijn, nog altijd te bewonderen in het Brugse Sint Janshospitaal, is een beschilderde kist uit 1489, bestemd voor het bewaren van relieken. In zes scènes heeft Memling op de kist het leven van deze heilige maagd afgebeeld, een leven waarin een lange zeereis een grote rol speelde. Volgens de legende was Ursula een christelijke Bretonse prinses, die zou trouwen met een zoon van een Engelse koning, een heiden. Voor het huwelijk zou worden voltrokken maakte ze per schip, in gezelschap van 11.000 maagden, een pelgrimstocht naar Rome en reisde ze door heel Europa. Vervolgens kwam ze in het jaar 453 aan in Keulen, waar de koning van de Hunnen haar en al haar metgezellinnen liet doden. Of het verhaal een kern van waarheid bevat, is hier niet van belang, wel dat Ursula regelmatig is afgebeeld in een maritieme setting, soms met een scheepje in haar hand. Wie in Brugge de reliekschrijn kwam aanbidden zal vooral Ursula’s kuisheid en de maagdelijkheid van de heilige en al haar medereizigsters in gedachten hebben gehad. De schepen die de maagden naar hun einde vervoerden, zullen wel een herkenbaar decor hebben opgeleverd voor de vrome Bruggenaren. Ook de heilige Dymphna (of Dimpna) wordt vaak afgebeeld met een schip. Dat slaat op een vergelijkbaar – en even onbewijsbaar – martelaarschap. Dymphna was volgens de legende een Ierse prinses die per schip vluchtte naar het Europese vasteland, om aan de seksuele avances van haar vader te ontkomen. In Geel (provincie Antwerpen) achterhaalde hij haar en doodde hij zijn dochter en de priester bij wie zij haar toevlucht had gezocht. Met scheepvaart heeft de Dymphnacultus overigens niets te maken. Vanwege een aantal wonderbaarlijke genezingen is zij de schutspatroon van geesteszieken en epileptici.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Mataró-model" data-caption="Houten scheepsmodel, begin vijftiende eeuw.<br>Maritiem Museum Rotterdam."data-src="images/d1h6/d1h6-600/8_Mataro-model.jpg"><img src="images/d1h6/d1h6-170/8_Mataro-model.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Mataró-model Houten scheepsmodel, begin vijftiende eeuw. Maritiem Museum Rotterdam." id="img_8_Mataro-model.jpg"><div>Mataró-model</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Model van een boeier" data-caption="Hangend blokmodel in Kerkschip van de St. Bavokerk in Haarlem. Het oudste scheepsmodel in een Nederlandse kerk.<br>Hout, ca. 1550.<br>St. Bavokerk, Haarlem.<br>Foto J. Vissers."data-src="images/d1h6/d1h6-600/9_Detail_boeier.jpg"><img src="images/d1h6/d1h6-170/9_Detail_boeier.jpg" class=" w-24 md:w-40" alt="Model van een boeier Hangend blokmodel in Kerkschip van de St. Bavokerk in Haarlem. Het oudste scheepsmodel in een Nederlandse kerk. Hout, ca. 1550. St. Bavokerk, Haarlem. Foto J. Vissers." id="img_9_Detail_boeier.jpg"><div>Model van een boeier</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph36">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_32">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP36', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (36)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -315,7 +312,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP36">
-        <input type="text" name="" id="paragraphLink36" value="paragraph36" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink36" value="paragraph_32" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('36')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink36">
             Klik hier voor een link naar deze paragraaf.
@@ -340,8 +337,8 @@
         role="doc-noteref" aria-label="Toon noot 16">
         16
         </button></p>
-                            <h3 class="font-merriweather font-bold scroll-mt-8" id="schip-als-metafoor">Schip als metafoor</h3>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph38">
+                            <h3 class="font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="schip-als-metafoor">Schip als metafoor</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_33">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP38', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (38)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -349,7 +346,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP38">
-        <input type="text" name="" id="paragraphLink38" value="paragraph38" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink38" value="paragraph_33" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('38')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink38">
             Klik hier voor een link naar deze paragraaf.
@@ -378,7 +375,7 @@
                    <blockquote class="my-4 font-merriweather font-light ml-4 italic"> <p>Dan kan hi mit hem selven tughen;</p> </blockquote>
                    <blockquote class="my-4 font-merriweather font-light ml-4 italic"> <p>Die storm doet hem dicke bugen,</p> </blockquote>
                    <blockquote class="my-4 font-merriweather font-light ml-4 italic"> <p>Nochtan volhert hij’t al’.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a></p> </blockquote>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph43">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_34">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP43', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (43)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -386,7 +383,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP43">
-        <input type="text" name="" id="paragraphLink43" value="paragraph43" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink43" value="paragraph_34" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('43')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink43">
             Klik hier voor een link naar deze paragraaf.
@@ -396,7 +393,7 @@
             &#10006;
         </button>
     </span>Het schip wordt geënterd door vijanden als Jaloezie, Leugen en Hebzucht en zeilt met de deugden aan boord ijlings naar zee. Met deze scheepsmetafoor waarschuwt de dichter dus voor het zedelijk verval van zijn tijd.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph44">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_35">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP44', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (44)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -404,7 +401,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP44">
-        <input type="text" name="" id="paragraphLink44" value="paragraph44" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink44" value="paragraph_35" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('44')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink44">
             Klik hier voor een link naar deze paragraaf.
@@ -419,7 +416,7 @@
                    <blockquote class="my-4 font-merriweather font-light ml-4 italic"> <p>Te comen in die Blauwe Scuut</p> </blockquote>
                    <blockquote class="my-4 font-merriweather font-light ml-4 italic"> <p>Ende in der Blauwer Scuten ghilde’.<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a></p> </blockquote>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Blauwe Schuit" data-caption="Gravure, Pieter van der Heijden naar Hieronymus Bosch, 1559.<br>Rijksmuseum, Amsterdam."data-src="images/d1h6/d1h6-600/10_Blauwe_Schuit.jpg"><img src="images/d1h6/d1h6-170/10_Blauwe_Schuit.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Blauwe Schuit Gravure, Pieter van der Heijden naar Hieronymus Bosch, 1559. Rijksmuseum, Amsterdam." id="img_10_Blauwe_Schuit.jpg"><div>De Blauwe Schuit</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph50">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_37">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP50', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (50)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -427,7 +424,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP50">
-        <input type="text" name="" id="paragraphLink50" value="paragraph50" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink50" value="paragraph_37" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('50')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink50">
             Klik hier voor een link naar deze paragraaf.
@@ -438,7 +435,7 @@
         </button>
     </span>Het gedicht is een oproep aan zondaars om plaats te nemen in de ‘Blauwe Schuit’ en zich zo te laten wegvoeren uit de maatschappij. Onder die ‘ghesellen van wilde manieren’ zijn ridders die hun bezit belenen, geestelijken die het celibaat aan hun laars lappen, burgers die ‘dobbelen, spelen ende singhen’ of ‘gueden vroukijns fijn / die gaern bi die guede ghesellen sijn’. In het gedicht wordt de gang van zaken tijdens de vastenavondviering beschreven, waarbij de officiële regels even werden losgelaten. Het schip is in deze tekst het afvoerputje van de samenleving, bestemd voor zondige mensen, en is daarmee tevens een vehikel voor maatschappijkritiek. Aan het einde van de middeleeuwen tonen veel pamfletschrijvers en auteurs een voorliefde voor deze beeldspraak. Bijzonder populair was een boekje dat in 1494 voor het eerst werd gedrukt in Straatsburg: <em>Das Narrenschiff</em>. Dit moralistische spotschrift, geschreven door de Duitse humanist Sebastian Brant, is in vele talen vertaald, waaronder het Latijn. Op die laatste versie is de Nederlandse editie gebaseerd, die al in 1500 in Parijs werd gedrukt.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Het Narrenschip" data-caption="Paneel, Hieronymus Bosch, ca. 1500.<br>Musée du Louvre, Parijs.<br>Foto © Musée du Louvre, Dist. RMN-Grand Palais / Martine Beck-Coppola."data-src="images/d1h6/d1h6-600/11_Narrenschip.jpg"><img src="images/d1h6/d1h6-170/11_Narrenschip.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Het Narrenschip Paneel, Hieronymus Bosch, ca. 1500. Musée du Louvre, Parijs. Foto © Musée du Louvre, Dist. RMN-Grand Palais / Martine Beck-Coppola." id="img_11_Narrenschip.jpg"><div>Het Narrenschip</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph52">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_39">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP52', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (52)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -446,7 +443,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP52">
-        <input type="text" name="" id="paragraphLink52" value="paragraph52" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink52" value="paragraph_39" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('52')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink52">
             Klik hier voor een link naar deze paragraaf.
@@ -462,7 +459,7 @@
         22
         </button></p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Het schip van Sint Reynuit" data-caption="Gedrukt van een houtsnede, naar Jan Wellens de Cock, ca. 1520-1530.<br>Rijksmuseum, Amsterdam."data-src="images/d1h6/d1h6-600/12_Reynuit.jpg"><img src="images/d1h6/d1h6-170/12_Reynuit.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Het schip van Sint Reynuit Gedrukt van een houtsnede, naar Jan Wellens de Cock, ca. 1520-1530. Rijksmuseum, Amsterdam." id="img_12_Reynuit.jpg"><div>Het schip van Sint Reynuit</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph54">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_41">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP54', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (54)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -470,7 +467,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP54">
-        <input type="text" name="" id="paragraphLink54" value="paragraph54" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink54" value="paragraph_41" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('54')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink54">
             Klik hier voor een link naar deze paragraaf.
@@ -495,8 +492,8 @@
         role="doc-noteref" aria-label="Toon noot 25">
         25
         </button></p>
-                            <h3 class="font-merriweather font-bold scroll-mt-8" id="maritieme-identiteit">Maritieme identiteit</h3>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph56">
+                            <h3 class="font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="maritieme-identiteit">Maritieme identiteit</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_42">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP56', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (56)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -504,7 +501,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP56">
-        <input type="text" name="" id="paragraphLink56" value="paragraph56" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink56" value="paragraph_42" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('56')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink56">
             Klik hier voor een link naar deze paragraaf.
@@ -529,7 +526,7 @@
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Veere, vijftiende eeuw" data-caption="<br>Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972)."data-src="images/d1h6/d1h6-600/13h_Veere.jpg"><img src="images/d1h6/d1h6-170/13h_Veere.jpg" class=" w-24 md:w-40" alt="Veere, vijftiende eeuw Uit: H. Ewe, Schiffe auf Siegeln (Berlijn 1972)." id="img_13h_Veere.jpg"><div>Veere, vijftiende eeuw</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Vlaardingen, ca. 1300" data-caption="<br>Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972)."data-src="images/d1h6/d1h6-600/13i_Vlaardingen.jpg"><img src="images/d1h6/d1h6-170/13i_Vlaardingen.jpg" class=" w-24 md:w-40" alt="Vlaardingen, ca. 1300 Uit: H. Ewe, Schiffe auf Siegeln (Berlijn 1972)." id="img_13i_Vlaardingen.jpg"><div>Vlaardingen, ca. 1300</div></button></div>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="IJlst, vijftiende eeuw" data-caption="<br>Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Berlijn 1972)."data-src="images/d1h6/d1h6-600/13j_IJlst.jpg"><img src="images/d1h6/d1h6-170/13j_IJlst.jpg" class="imgFirstOfSet w-24 md:w-40" alt="IJlst, vijftiende eeuw Uit: H. Ewe, Schiffe auf Siegeln (Berlijn 1972)." id="img_13j_IJlst.jpg"><div>IJlst, vijftiende eeuw</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph67">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_53">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP67', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (67)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -537,7 +534,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP67">
-        <input type="text" name="" id="paragraphLink67" value="paragraph67" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink67" value="paragraph_53" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('67')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink67">
             Klik hier voor een link naar deze paragraaf.
@@ -564,7 +561,7 @@
         </button> Meer naar het noorden zijn tal van voorbeelden te vinden, meestal van schepen zonder heiligen, zoals de zegels van Damme en Biervliet in Vlaanderen, van Veere en Tholen in Zeeland, en van Amsterdam, Harderwijk, Genemuiden, IJlst en Vlieland. De zegels hangen onder allerlei oorkonden en andere stukken, ze zijn niet beperkt tot typisch maritieme documenten. Dat maakt duidelijk dat het hier gaat om een beeldmerk dat de gehele gemeenschap omvatte. Het lijkt er op dat hier sprake is van een zekere imitatie: een nieuw zegel werd kennelijk gebaseerd op voorbeelden van elders, zoals ook de tekst van stadsrechten werd overgenomen van oudere steden.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De inname van Damiate " data-caption="Rechts van de toren het Haarlemse schip dat de ketting voor de haveningang zou hebben doorgezaagd.<br>Wandtapijt door Joseph Thienpont, naar ontwerp van Cornelis Claesz. van Wieringen, 1629.<br>Stadhuis, Haarlem.<br>Foto’s Ron Brand, fotomontage Anja Brand-Heemskerk."data-src="images/d1h6/d1h6-600/14a_Wandtapijt_inname_Damiate.jpg"><img src="images/d1h6/d1h6-170/14a_Wandtapijt_inname_Damiate.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De inname van Damiate Rechts van de toren het Haarlemse schip dat de ketting voor de haveningang zou hebben doorgezaagd. Wandtapijt door Joseph Thienpont, naar ontwerp van Cornelis Claesz. van Wieringen, 1629. Stadhuis, Haarlem. Foto’s Ron Brand, fotomontage Anja Brand-Heemskerk." id="img_14a_Wandtapijt_inname_Damiate.jpg"><div>De inname van Damiate </div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De inname van Damiate" data-caption="Glas in lood, kerkraam in de St. Janskerk in Gouda.<br>Willem Tybaut van Haarlem, 1595-1596.<br>Stichting Goudse Sint-Jan, Gouda."data-src="images/d1h6/d1h6-600/14b_Kerkraam_Gouda.jpg"><img src="images/d1h6/d1h6-170/14b_Kerkraam_Gouda.jpg" class=" w-24 md:w-40" alt="De inname van Damiate Glas in lood, kerkraam in de St. Janskerk in Gouda. Willem Tybaut van Haarlem, 1595-1596. Stichting Goudse Sint-Jan, Gouda." id="img_14b_Kerkraam_Gouda.jpg"><div>De inname van Damiate</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph70">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_56">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP70', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (70)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -572,7 +569,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP70">
-        <input type="text" name="" id="paragraphLink70" value="paragraph70" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink70" value="paragraph_56" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('70')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink70">
             Klik hier voor een link naar deze paragraaf.
@@ -593,7 +590,7 @@
         31
         </button></p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Speelgoedbootje" data-caption="Houtsnijwerk, ca. 1600. Particuliere vondst te Hoorn.<br>Archeologie West-Friesland, Hoorn."data-src="images/d1h6/d1h6-600/15_Speelgoedscheepje_Hoorn.jpg"><img src="images/d1h6/d1h6-170/15_Speelgoedscheepje_Hoorn.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Speelgoedbootje Houtsnijwerk, ca. 1600. Particuliere vondst te Hoorn. Archeologie West-Friesland, Hoorn." id="img_15_Speelgoedscheepje_Hoorn.jpg"><div>Speelgoedbootje</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph72">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_58">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP72', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (72)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -601,7 +598,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP72">
-        <input type="text" name="" id="paragraphLink72" value="paragraph72" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink72" value="paragraph_58" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('72')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink72">
             Klik hier voor een link naar deze paragraaf.
@@ -964,7 +961,7 @@
     
     
         
-        <div class="w-full min-h-screen sticky top-0 flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-screen">
+        <div class="w-full min-h-screen sticky top-[var(--page-header-height,3.25rem)] flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-[calc(100vh-var(--page-header-height,3.25rem))]">
     
              <figure class="flex flex-col min-h-0 w-full mb-4">
                 <img id="asideImg" src="images/d1h6/d1h6-600/0_Mappa_Mundi.jpg" class="w-full shrink-0 object-center" alt="Mappa Mundi Op deze grootst bekende middeleeuwse ‘radkaart’ (163 x 137 cm) ligt het oosten boven en Jeruzalem in het midden als centrum van de wereld. Het land is gevuld met fabeldieren en monsters en omgeven door zeeën waarvan de Rode Zee rood is ingekleurd. De oceanen rond de aarde zijn slechts summier aangegeven, die maken geen deel uit van de bewoonde wereld." loading="lazy">
@@ -1092,7 +1089,7 @@
   </div>
 </div>
 
-<div class="bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop" role="dialog" aria-modal="true" aria-label="Hoofdstukken">
+<div class="bg-nmgnGreen-200 text-nmgnGreen-800 fixed top-[var(--page-header-height,3.25rem)] bottom-0 w-full px-10 pb-20 items-center flex-col hidden z-50 overflow-y-auto" id="topMenuPop" role="dialog" aria-modal="true" aria-label="Hoofdstukken">
 
     <div class="py-5 max-w-[1300px] w-full text-right">
         <button type="button" id="btnCloseHoofdstukken" class="p-2 hover:bg-nmgnGreen-100 rounded text-2xl cursor-pointer" onclick="closeHoofdstukkenMenu();" aria-label="Sluit menu hoofdstukken">&#10006;</button>
@@ -1264,7 +1261,6 @@
 <script src="js/toggleVis.js"></script>
 <script src="js/copy.js"></script>
 <script src="js/bigImageViewer.js"></script>
-<script src="js/lunr_index.min.js"></script>
-<script src="js/lunr.js"></script>
+<script src="js/search-highlight.js"></script>
   </body>
 </html>

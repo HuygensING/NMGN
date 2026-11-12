@@ -147,22 +147,21 @@ function generateHtml() {
         									
 									}
 
-                  // tables: first row/column cells become headers
+                  // tables: headers + optional caption from following "Tabel …" paragraph
                   if (block.type == 'table' && block.htmlRaw) {
                     block.htmlRaw = markTableHeaders(block.htmlRaw);
+                    const next = chapterJson.content[index + 1];
+                    if (next && next.type === 'p' && isTableCaptionParagraph(next.htmlRaw)) {
+                      block.caption = applyFootnoteMarkers(next.htmlRaw, next.footnotes);
+                      next.skipRender = true;
+                    }
                   }
                   
                   // paragraphs
                   if (block.type == 'p') {
                     let newHtml = block.htmlRaw
                     // markup notes: replace ref with button (note content is only in popup and in Noten section at bottom)
-                    if (block.footnotes !== undefined) {
-                      block.footnotes.forEach(note => {
-                        const originalHtmlNote = '<a href=\"#fn'+note.noteNumber+'\" class=\"footnote-ref\" id=\"fnref'+note.noteNumber+'\" role=\"doc-noteref\"><sup>'+note.noteNumber+'</sup></a>'
-                        const replacement = htmlVars.htmlinlineNoteMarker(note.noteNumber)
-                        newHtml = newHtml.replaceAll(originalHtmlNote, replacement)
-                      });
-                    }
+                    newHtml = applyFootnoteMarkers(newHtml, block.footnotes)
                     block.newHtml = newHtml
                   }
  
@@ -203,12 +202,40 @@ function generateHtml() {
 
     
 });
+
+    fs.readFile("./src/templates/nmgn-search.html", "utf-8", function ( error, source ) {
+        if (error) {
+            console.error('Error reading search template:', error);
+            return;
+        }
+        var template = handlebars.compile(source);
+        var html = template({
+            chapterMetadata: { title: 'Zoeken' },
+            chapters: sitedata
+        });
+        utilFunc.createFile('./output/html-site/search.html', html);
+    });
 }
 
 
 
 
 
+
+function isTableCaptionParagraph(html) {
+  if (!html || typeof html !== 'string') return false;
+  return /^Tabel\s*\d+/i.test(utilFunc.stripHtml(html));
+}
+
+function applyFootnoteMarkers(html, footnotes) {
+  let out = html || '';
+  if (!footnotes) return out;
+  footnotes.forEach(note => {
+    const originalHtmlNote = '<a href=\"#fn'+note.noteNumber+'\" class=\"footnote-ref\" id=\"fnref'+note.noteNumber+'\" role=\"doc-noteref\"><sup>'+note.noteNumber+'</sup></a>';
+    out = out.replaceAll(originalHtmlNote, htmlVars.htmlinlineNoteMarker(note.noteNumber));
+  });
+  return out;
+}
 
 function renderIMGbasic(imgObject, chapterCode, blockIsFirst, blockIsLast) {
 	

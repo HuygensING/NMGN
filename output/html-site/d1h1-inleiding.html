@@ -12,23 +12,20 @@
   <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-2 focus:left-2 focus:bg-white focus:text-nmgnBlue-900 focus:px-4 focus:py-2 focus:outline focus:outline-2 focus:outline-nmgnBlue-600">Ga naar de inhoud</a>
 
 
-<header id="page-top" tabindex="-1" class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
-    <div class="max-w-[1900px] mx-auto  flex justify-between">
-        <a href="index.html"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
-        <div class="flex gap-4">
-            
-            <button type="button" id="btnHoofdstukken" class="cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm" aria-expanded="false" aria-controls="topMenuPop" aria-haspopup="dialog" onclick="openHoofdstukkenMenu();">Hoofdstukken</button>
-            <div class="hidden relative">
-                <input type="text" name="" id="searchField" class="bg-white w-32 text-black rounded-l-lg text-sm py-1 px-2"  aria-label="type een zoekwoord">
-                <button class=" py-1 px-2 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm flex  rounded-r-lg" id="searchButton">Zoeken</button>
-                <div class="bg-nmgnBlue-100 text-nmgnBlue-950  shadow-2xl absolute w-96 p-4 top-10 right-4 hidden max-w-lg z-50" id="searchResults">
-                    <ul id="searchResultsList" class="flex flex-col gap-2 text-sm">
-                        <li>Searching...</li>
-                    </ul>
-                </div>
-            </div>        </div>
+<header id="site-header" class="fixed top-0 left-0 right-0 w-full bg-nmgnBlue-900 text-white p-3 z-50 transition-all duration-300 ease-out">
+    <div class="max-w-[1900px] mx-auto flex justify-between items-center gap-4">
+        <a href="index.html" class="page-top-title min-w-0 truncate transition-all duration-300"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
+        <div class="flex gap-4 shrink-0">
+            <a href="index.html" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white">Home</a>
+            <button type="button" id="btnHoofdstukken" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white" aria-expanded="false" aria-controls="topMenuPop" aria-haspopup="dialog" onclick="openHoofdstukkenMenu();">Hoofdstukken</button>
+            <a href="search.html" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white">Zoeken</a>
+        </div>
     </div>
 </header>
+<div id="page-top" tabindex="-1">
+    <span class="sr-only">Begin van de pagina</span>
+</div>
+
 <div id="chapterHeader" class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative z-30">
     <div class="col-start-2 xl:col-start-6 row-start-1 col-span-6 text-white items-start justify-center flex flex-col gap-2">
         <span class="">Deel 1 <em>Opkomst van de rivier- en zeehandel</em></span> 
@@ -39,7 +36,7 @@
     </div>
     <div class="col-start-2 xl:col-start-6 row-start-3 col-span-6 text-white items-center justify-start">Door </div>
     <!-- <div class="col-start-2 xl:col-start-2 row-start-4 text-white  absolute left-[20vw] hidden xl:flex"><img src="images/chapterImages/d1h1.png" class="w-24 h-24 2xl:w-36 2xl:h-36" alt=""></div> -->
-</div><div class="sticky top-0 z-40 xl:hidden flex justify-end py-2 pr-6 w-full" id="showInhoud"><button type="button" id="btnInhoudToggle" class="cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm"
+</div><div class="sticky top-[var(--page-header-height,3.25rem)] z-40 xl:hidden flex justify-end py-2 pr-6 w-full" id="showInhoud"><button type="button" id="btnInhoudToggle" class="cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm"
         onclick="openAsideNav();" aria-label="Toon inhoudsopgave">Inhoud</button></div>
 
 <div class="flex flex-col px-6 
@@ -50,7 +47,7 @@
     <!-- Nagivation -->
         <aside id="asideNavPanel" class="fixed inset-0 z-50 [@media(min-width:768px)_and_(orientation:landscape)]:right-0 [@media(min-width:768px)_and_(orientation:landscape)]:top-0 [@media(min-width:768px)_and_(orientation:landscape)]:bottom-0 [@media(min-width:768px)_and_(orientation:landscape)]:w-1/2 [@media(min-width:768px)_and_(orientation:landscape)]:left-auto xl:static xl:inset-auto xl:w-auto xl:min-w-[260px] pt-12 bg-nmgnBlue-50 pl-10 hidden xl:flex col-start-1 col-span-2">
             
-            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16 pr-2" aria-label="Inhoud van deze pagina">
+            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-[calc(var(--page-header-height,3.25rem)+1.5rem)] max-h-[calc(100vh-var(--page-header-height,3.25rem)-2rem)] overflow-y-auto pb-16 pr-2" aria-label="Inhoud van deze pagina">
                 <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:bg-white focus:text-nmgnBlue-900 focus:px-3 focus:py-2 focus:outline focus:outline-2 focus:outline-nmgnBlue-600">Ga naar de inhoud</a>
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
                 <div class="flex justify-between mb-4 border-b border-nmgnBlue-200 pb-2">
@@ -71,7 +68,7 @@
     <main id="main" tabindex="-1" class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30 sm:px-6">
        <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative" id="top">
     
-                   <p class="mb-4 font-merriweather font-light" id="paragraph0">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_12">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -79,7 +76,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP0">
-        <input type="text" name="" id="paragraphLink0" value="paragraph0" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink0" value="paragraph_12" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('0')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink0">
             Klik hier voor een link naar deze paragraaf.
@@ -89,10 +86,11 @@
             &#10006;
         </button>
     </span>Test profile</p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="test2">Test2</h2>
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="test2">Test2</h2>
                 </div>
                    <div class="table-scroll py-3 text-sm font-sans w-full overflow-x-auto" tabindex="0" role="region" aria-label="Horizontaal scrollbare tabel">
                       <table class="mx-auto min-w-xl 2xl:min-w-2xl w-xl 2xl:w-2xl">
+                         
                          <colgroup>
     <col style="width: 50%">
     <col style="width: 50%">
@@ -137,7 +135,7 @@
     
     
         
-        <div class="w-full min-h-screen sticky top-0 flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-screen">
+        <div class="w-full min-h-screen sticky top-[var(--page-header-height,3.25rem)] flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-[calc(100vh-var(--page-header-height,3.25rem))]">
     
              <figure class="flex flex-col min-h-0 w-full mb-4">
                 <img id="asideImg" src="images/d1h1/d1h1-600/" class="w-full shrink-0 object-center" alt=" " loading="lazy">
@@ -265,7 +263,7 @@
   </div>
 </div>
 
-<div class="bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop" role="dialog" aria-modal="true" aria-label="Hoofdstukken">
+<div class="bg-nmgnGreen-200 text-nmgnGreen-800 fixed top-[var(--page-header-height,3.25rem)] bottom-0 w-full px-10 pb-20 items-center flex-col hidden z-50 overflow-y-auto" id="topMenuPop" role="dialog" aria-modal="true" aria-label="Hoofdstukken">
 
     <div class="py-5 max-w-[1300px] w-full text-right">
         <button type="button" id="btnCloseHoofdstukken" class="p-2 hover:bg-nmgnGreen-100 rounded text-2xl cursor-pointer" onclick="closeHoofdstukkenMenu();" aria-label="Sluit menu hoofdstukken">&#10006;</button>
@@ -437,7 +435,6 @@
 <script src="js/toggleVis.js"></script>
 <script src="js/copy.js"></script>
 <script src="js/bigImageViewer.js"></script>
-<script src="js/lunr_index.min.js"></script>
-<script src="js/lunr.js"></script>
+<script src="js/search-highlight.js"></script>
   </body>
 </html>

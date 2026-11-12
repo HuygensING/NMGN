@@ -86,6 +86,17 @@ table {
   @apply mt-4 border border-nmgnBlue-300 table-fixed min-w-xl 2xl:min-w-2xl;
   }
 
+caption {
+  caption-side: bottom;
+  text-align: left;
+  font-style: italic;
+  font-family: var(--font-sans), sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 0.75rem 0 0;
+  color: theme('colors.neutral.700');
+}
+
 /* Ignore Word-exported col widths so columns share space evenly */
 table col {
   width: auto !important;
@@ -131,4 +142,28 @@ figure.zoom img {
   max-height: 70vh;
   object-fit: contain;
   object-position: center;
+}
+
+:root {
+  --page-header-height: 3.25rem;
+}
+
+#page-top {
+  height: var(--page-header-height);
+}
+
+#site-header.is-compact {
+  @apply py-0.5 px-2;
+}
+
+#site-header.is-compact .page-top-title {
+  @apply text-xs;
+}
+
+#site-header.is-compact .page-top-btn {
+  @apply py-0.5 px-1.5 text-xs;
+}
+
+#site-header.is-compact .noSmall {
+  display: none;
 }

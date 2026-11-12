@@ -12,23 +12,20 @@
   <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-2 focus:left-2 focus:bg-white focus:text-nmgnBlue-900 focus:px-4 focus:py-2 focus:outline focus:outline-2 focus:outline-nmgnBlue-600">Ga naar de inhoud</a>
 
 
-<header id="page-top" tabindex="-1" class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
-    <div class="max-w-[1900px] mx-auto  flex justify-between">
-        <a href="index.html"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
-        <div class="flex gap-4">
-            
-            <button type="button" id="btnHoofdstukken" class="cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm" aria-expanded="false" aria-controls="topMenuPop" aria-haspopup="dialog" onclick="openHoofdstukkenMenu();">Hoofdstukken</button>
-            <div class="hidden relative">
-                <input type="text" name="" id="searchField" class="bg-white w-32 text-black rounded-l-lg text-sm py-1 px-2"  aria-label="type een zoekwoord">
-                <button class=" py-1 px-2 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm flex  rounded-r-lg" id="searchButton">Zoeken</button>
-                <div class="bg-nmgnBlue-100 text-nmgnBlue-950  shadow-2xl absolute w-96 p-4 top-10 right-4 hidden max-w-lg z-50" id="searchResults">
-                    <ul id="searchResultsList" class="flex flex-col gap-2 text-sm">
-                        <li>Searching...</li>
-                    </ul>
-                </div>
-            </div>        </div>
+<header id="site-header" class="fixed top-0 left-0 right-0 w-full bg-nmgnBlue-900 text-white p-3 z-50 transition-all duration-300 ease-out">
+    <div class="max-w-[1900px] mx-auto flex justify-between items-center gap-4">
+        <a href="index.html" class="page-top-title min-w-0 truncate transition-all duration-300"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
+        <div class="flex gap-4 shrink-0">
+            <a href="index.html" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white">Home</a>
+            <button type="button" id="btnHoofdstukken" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white" aria-expanded="false" aria-controls="topMenuPop" aria-haspopup="dialog" onclick="openHoofdstukkenMenu();">Hoofdstukken</button>
+            <a href="search.html" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white">Zoeken</a>
+        </div>
     </div>
 </header>
+<div id="page-top" tabindex="-1">
+    <span class="sr-only">Begin van de pagina</span>
+</div>
+
 <div id="chapterHeader" class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative z-30">
     <div class="col-start-2 xl:col-start-6 row-start-1 col-span-6 text-white items-start justify-center flex flex-col gap-2">
         <span class="">Deel 1 <em>Opkomst van de rivier- en zeehandel</em></span> 
@@ -39,7 +36,7 @@
     </div>
     <div class="col-start-2 xl:col-start-6 row-start-3 col-span-6 text-white items-center justify-start">Door Richard W. Unger</div>
     <!-- <div class="col-start-2 xl:col-start-2 row-start-4 text-white  absolute left-[20vw] hidden xl:flex"><img src="images/chapterImages/d1h3.png" class="w-24 h-24 2xl:w-36 2xl:h-36" alt=""></div> -->
-</div><div class="sticky top-0 z-40 xl:hidden flex justify-end py-2 pr-6 w-full" id="showInhoud"><button type="button" id="btnInhoudToggle" class="cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm"
+</div><div class="sticky top-[var(--page-header-height,3.25rem)] z-40 xl:hidden flex justify-end py-2 pr-6 w-full" id="showInhoud"><button type="button" id="btnInhoudToggle" class="cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm"
         onclick="openAsideNav();" aria-label="Toon inhoudsopgave">Inhoud</button></div>
 
 <div class="flex flex-col px-6 
@@ -50,7 +47,7 @@
     <!-- Nagivation -->
         <aside id="asideNavPanel" class="fixed inset-0 z-50 [@media(min-width:768px)_and_(orientation:landscape)]:right-0 [@media(min-width:768px)_and_(orientation:landscape)]:top-0 [@media(min-width:768px)_and_(orientation:landscape)]:bottom-0 [@media(min-width:768px)_and_(orientation:landscape)]:w-1/2 [@media(min-width:768px)_and_(orientation:landscape)]:left-auto xl:static xl:inset-auto xl:w-auto xl:min-w-[260px] pt-12 bg-nmgnBlue-50 pl-10 hidden xl:flex col-start-1 col-span-2">
             
-            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16 pr-2" aria-label="Inhoud van deze pagina">
+            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-[calc(var(--page-header-height,3.25rem)+1.5rem)] max-h-[calc(100vh-var(--page-header-height,3.25rem)-2rem)] overflow-y-auto pb-16 pr-2" aria-label="Inhoud van deze pagina">
                 <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:bg-white focus:text-nmgnBlue-900 focus:px-3 focus:py-2 focus:outline focus:outline-2 focus:outline-nmgnBlue-600">Ga naar de inhoud</a>
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
                 <div class="flex justify-between mb-4 border-b border-nmgnBlue-200 pb-2">
@@ -82,7 +79,7 @@
     <main id="main" tabindex="-1" class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30 sm:px-6">
        <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative" id="top">
     
-                   <p class="mb-4 font-merriweather font-light" id="paragraph0">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_13">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP0', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (0)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -90,7 +87,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP0">
-        <input type="text" name="" id="paragraphLink0" value="paragraph0" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink0" value="paragraph_13" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('0')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink0">
             Klik hier voor een link naar deze paragraaf.
@@ -106,7 +103,7 @@
         1
         </button> De weg naar succes vertoont geen duidelijke en consistente lijn, maar was eerder het resultaat van een complexe wisselwerking tussen scheepsbouwers en hun afnemers, waarbij ontwerpen en vernieuwingen van elders werden overgenomen. Hierdoor ontstond in de loop van vier eeuwen een steeds breder scala aan schepen om te voorzien in de veranderende behoeften voor het vervoer op zee. Het patroon is soms lastig te volgen, maar de resultaten zijn duidelijk waarneembaar. Het succes op lange termijn heeft niet alleen geleid tot verdere vooruitgang op het gebied van scheepsbouw, maar heeft ook invloed gehad op de economische en culturele ontwikkeling van de Nederlanden. De mensen in de steden combineerden technologische vernieuwingen met een grotere efficiëntie om aan de veranderende behoeften van de verladers te voldoen. De schepen zelf vormden een belangrijk beginpunt in de indrukwekkende ontwikkeling van de Nederlandse scheepvaart. Tijdens de hoge en late middeleeuwen en vervolgens gedurende de zestiende eeuw ontstond een nieuwe koopvaardijvloot, die de maritieme expansie in de Gouden Eeuw mogelijk maakte. De evolutie van het zeilschip, de flexibiliteit van de scheepsbouwers om hun klanten te voorzien van schepen die aan hun eisen voldeden en bovendien de grotere duurzaamheid van die schepen waren uiteindelijk essentiële factoren voor het handelssucces van de Nederlanders aan het einde van de middeleeuwen en in de eeuwen daarna. Vanaf de dertiende tot en met zestiende eeuw legden scheepsbouwers de basis voor de zeer succesvolle Nederlandse scheepvaartsector van de Gouden Eeuw. De scheepsbouw en alles wat daarbij hoorde, van de productie op de werven tot de verspreiding van technische kennis, de opleiding van ambachtslieden en de financiering van de scheepsbouw, begon klein en eenvoudig maar bereikte omstreeks 1580 het hoogste niveau ter wereld.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Utrechts Psalter" data-caption="Links- en rechtsonder zijn op deze pagina van het Utrechts psalter eenvoudige scheepjes afgebeeld met een stuurriem langszij en gekrulde voor- en achtersteven. Het Karolingische psalter is vervaardigd in de abdij Hautvillers, niet ver van Reims in Frankrijk en dateert uit circa 830.<br>Universiteitsbibliotheek, Utrecht."data-src="images/d1h3/d1h3-600/1-12_UtrechtsPsalter92.jpg"><img src="images/d1h3/d1h3-170/1-12_UtrechtsPsalter92.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Utrechts Psalter Links- en rechtsonder zijn op deze pagina van het Utrechts psalter eenvoudige scheepjes afgebeeld met een stuurriem langszij en gekrulde voor- en achtersteven. Het Karolingische psalter is vervaardigd in de abdij Hautvillers, niet ver van Reims in Frankrijk en dateert uit circa 830. Universiteitsbibliotheek, Utrecht." id="img_1-12_UtrechtsPsalter92.jpg"><div>Utrechts Psalter</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph2">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_16">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP2', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (2)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -114,7 +111,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP2">
-        <input type="text" name="" id="paragraphLink2" value="paragraph2" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink2" value="paragraph_16" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('2')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink2">
             Klik hier voor een link naar deze paragraaf.
@@ -129,8 +126,8 @@
         role="doc-noteref" aria-label="Toon noot 2">
         2
         </button></p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="bronnen">Bronnen</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph4">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="bronnen">Bronnen</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_17">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP4', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (4)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -138,7 +135,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP4">
-        <input type="text" name="" id="paragraphLink4" value="paragraph4" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink4" value="paragraph_17" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('4')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink4">
             Klik hier voor een link naar deze paragraaf.
@@ -159,7 +156,7 @@
         4
         </button> Met vergelijkbare methoden heeft onderzoek in andere delen van Noord-Europa de kennis die in Nederland is opgedaan verder aangevuld. De resultaten laten zien hoe de ontwerpen en bouwmethoden in de Nederlanden vergelijkbaar waren met, maar ook verschilden van die elders in Europa. Dat leverde inzicht op in de Nederlandse scheepsbouwpraktijk en de voordelen die Nederlandse kooplieden hadden wanneer ze gebruik maakten van inheemse schepen.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Plattegronden van Medemblik, circa 1560 en 1599" data-caption="Deze manuscriptkaart van Medemblik aan de vooravond van de Opstand (onder) is vervaardigd door Jacob van Deventer. Als haven fungeert de gracht aan de oostzijde (boven). Aan de havenmond ligt ter bescherming kasteel Radboud. De plattegrond van Paulus Utenwaal, een gravure uit 1599, laat zien dat aan de westzijde (onder) een grote nieuwe haven is gegraven met scheepswerven. Een bolwerk naast het kasteel beschermt de havenmond.<br>Rijksmuseum, Amsterdam."data-src="images/d1h3/d1h3-600/2-8_Medemblik.jpg"><img src="images/d1h3/d1h3-170/2-8_Medemblik.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Plattegronden van Medemblik, circa 1560 en 1599 Deze manuscriptkaart van Medemblik aan de vooravond van de Opstand (onder) is vervaardigd door Jacob van Deventer. Als haven fungeert de gracht aan de oostzijde (boven). Aan de havenmond ligt ter bescherming kasteel Radboud. De plattegrond van Paulus Utenwaal, een gravure uit 1599, laat zien dat aan de westzijde (onder) een grote nieuwe haven is gegraven met scheepswerven. Een bolwerk naast het kasteel beschermt de havenmond. Rijksmuseum, Amsterdam." id="img_2-8_Medemblik.jpg"><div>Plattegronden van Medemblik, circa 1560 en 1599</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph6">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_20">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP6', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -167,7 +164,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP6">
-        <input type="text" name="" id="paragraphLink6" value="paragraph6" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink6" value="paragraph_20" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('6')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink6">
             Klik hier voor een link naar deze paragraaf.
@@ -178,7 +175,7 @@
         </button>
     </span>Havensteden stelden in de loop van de tijd steeds meer regels vast voor de scheepvaart. Belastingen en openbare verkopingen van schepen in de grootste havens werden vastgelegd in stedelijke registers. Geregistreerde hoeveelheden lading geven aan welke scheepstypen in de vaart waren en hoe groot ze waren. De afmetingen van schepen zijn ook af te leiden uit regels over beperkingen in de ruimte in en toegang tot de haven. In de zestiende eeuw hielden de steden vaak direct of indirect toezicht op de bouw van schepen of het laden en lossen ervan. De regels die daarbij werden gehanteerd, bieden – als ze tenminste zijn overgeleverd – inzicht in de gang van zaken op de kades, in de denkbeelden over het bouwen van doelmatige vaartuigen en zelfs in de dagelijkse praktijk in de haven. Gegevens over individuele scheepswerven en hun opdrachtgevers en over de mensen die de werven exploiteerden zijn zeldzaam. Ze zijn uiterst waardevol omdat ze ons een blik gunnen in de financiële transacties die aan de hele scheepvaartsector ten grondslag lagen.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Stadszegel van Grevelingen, eerste helft dertiende eeuw" data-caption="Op het oudste stadszegel van Grevelingen (Gravelines, tegenwoordig Frans-Vlaanderen) staat een eenvoudige open boot met gekromde voor- en achterstevens en een stuurriem langszij. Aan boord staat Sint-Willibrord, de patroonheilige van de stad.<br>Uit: H. Ewe, <em>Schiffe auf Siegeln</em> (Bielefeld 1972) 131."data-src="images/d1h3/d1h3-600/3-13_Grevelingen.jpg"><img src="images/d1h3/d1h3-170/3-13_Grevelingen.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Stadszegel van Grevelingen, eerste helft dertiende eeuw Op het oudste stadszegel van Grevelingen (Gravelines, tegenwoordig Frans-Vlaanderen) staat een eenvoudige open boot met gekromde voor- en achterstevens en een stuurriem langszij. Aan boord staat Sint-Willibrord, de patroonheilige van de stad. Uit: H. Ewe, Schiffe auf Siegeln (Bielefeld 1972) 131." id="img_3-13_Grevelingen.jpg"><div>Stadszegel van Grevelingen, eerste helft dertiende eeuw</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph8">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_23">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP8', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (8)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -186,7 +183,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP8">
-        <input type="text" name="" id="paragraphLink8" value="paragraph8" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink8" value="paragraph_23" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('8')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink8">
             Klik hier voor een link naar deze paragraaf.
@@ -206,8 +203,8 @@
         role="doc-noteref" aria-label="Toon noot 6">
         6
         </button></p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="scheepstypen-vóór-1200:-het-begin-van-een-ontwikkeling">Scheepstypen vóór 1200: het begin van een ontwikkeling</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph10">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="scheepstypen-vóór-1200:-het-begin-van-een-ontwikkeling">Scheepstypen vóór 1200: het begin van een ontwikkeling</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_24">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP10', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (10)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -215,7 +212,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP10">
-        <input type="text" name="" id="paragraphLink10" value="paragraph10" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink10" value="paragraph_24" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('10')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink10">
             Klik hier voor een link naar deze paragraaf.
@@ -235,7 +232,7 @@
         role="doc-noteref" aria-label="Toon noot 8">
         8
         </button> De bouw en reparatie van schepen vond plaats op eenvoudige en vaak, vanwege het ontbreken van financiële middelen, tijdelijke werven. Grondstoffen waren over het algemeen van lokale oorsprong, zoals hout uit nabijgelegen bossen. De benodigde grote hoeveelheden ijzer, voornamelijk spijkers, kon lokaal worden geproduceerd of, vanwege hun kleine omvang, eenvoudig van elders worden aangevoerd.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph11">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_25">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP11', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (11)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -243,7 +240,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP11">
-        <input type="text" name="" id="paragraphLink11" value="paragraph11" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink11" value="paragraph_25" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('11')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink11">
             Klik hier voor een link naar deze paragraaf.
@@ -253,7 +250,7 @@
             &#10006;
         </button>
     </span>In de elfde en vooral in de twaalfde eeuw groeide de bevolking en breidde de handel zich uit. Waterwegen maakten handel over steeds grotere afstanden mogelijk. Over water was er toegang tot de Noordzee en tot het Rijndal met zijn vele zijrivieren. Zo konden handelscontacten worden gelegd met de Duitse gebieden, Engeland en Scandinavië. De rivieren maakten ook handel mogelijk vanuit streken ten zuiden van Vlaanderen met de snel groeiende steden in dat graafschap. Vooral graan was daarbij een belangrijke lading. Vlaanderen was in de dertiende eeuw het belangrijkste centrum van de internationale handel in Noordwest-Europa. Vervoer met kleine schepen zorgde voor gemakkelijke lokale en regionale verspreiding van de producten van de Vlaamse industrie en van de invoer uit het hele Noorden. De groei van de handel bood zeevaarders uit de Nederlanden de kans om langere reizen te maken. Scheepsbouwers die zich tot dan toe grotendeels hadden beperkt tot de constructie van kleinere binnenschepen stonden voor de uitdaging om zeewaardiger vaartuigen te ontwikkelen.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph12">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_26">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP12', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (12)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -261,7 +258,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP12">
-        <input type="text" name="" id="paragraphLink12" value="paragraph12" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink12" value="paragraph_26" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('12')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink12">
             Klik hier voor een link naar deze paragraaf.
@@ -271,7 +268,7 @@
             &#10006;
         </button>
     </span>Schepen voor langere afstanden werden omstreeks 1200 nauwelijks gebouwd in de Nederlanden. Lokale bouwers en kooplieden waren voor zeewaardige koopvaardijschepen aangewezen op voorbeelden en sterk uiteenlopende ontwerptradities uit andere delen van Noord-Europa. In de handen van de scheepsbouwers van de Nederlanden dienden deze buitenlandse scheepstypes als uitgangspunt voor een steeds breder aanbod van zeegaande schepen; de basis voor lange-afstandshandel vanuit de Nederlanden. De voorbeelden waren afkomstig van de Britse eilanden, de Franse westkust en van de Duitse-, Deense- en Noorse kusten langs de Noordzee. In sommige gevallen gebruikten handelaars voor de zeevaart zeilschepen die ook op binnenlandse routes dienst deden. Deze schepen hadden zelden of nooit een dek of een apart ruim voor het vervoer van vracht. Om bruikbaar te zijn was een hele reeks veranderingen nodig om die kleine schepen tot zeewaardige vrachtvaarders te maken.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph13">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_27">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP13', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (13)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -279,7 +276,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP13">
-        <input type="text" name="" id="paragraphLink13" value="paragraph13" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink13" value="paragraph_27" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('13')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink13">
             Klik hier voor een link naar deze paragraaf.
@@ -295,7 +292,7 @@
         9
         </button> De drie types, het Vikingschip, de hulk en de kogge, deelden één gemeenschappelijk kenmerk: er was weinig variatie in het zeilplan. Ze hadden altijd één mast met één vierkant zeil. De belangrijkste vorm van de voortstuwing was dus min of meer gelijk. De vorm van de romp en de manier waarop de bouwers die romp waterdicht maakten, varieerde echter sterk tussen de drie types, evenals de stuurinrichting. Doordat al die kenmerken in de loop van de tijd voor elke categorie veranderden, ontstond er een nogal verwarrend typologisch beeld.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Skuldelev 1" data-caption="Knarr of Knörr, Scandinavisch overnaads vrachtschip met een stuurriem langszij, circa 1000. Het schip is opgegraven bij het plaatsje Skuldelev in Denemarken, vandaar de naam.<br>Foto Werner Karrasch.<br>Vikingeskibsmuseet, Roskilde."data-src="images/d1h3/d1h3-600/5-5_knarr.jpg"><img src="images/d1h3/d1h3-170/5-5_knarr.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Skuldelev 1 Knarr of Knörr, Scandinavisch overnaads vrachtschip met een stuurriem langszij, circa 1000. Het schip is opgegraven bij het plaatsje Skuldelev in Denemarken, vandaar de naam. Foto Werner Karrasch. Vikingeskibsmuseet, Roskilde." id="img_5-5_knarr.jpg"><div>Skuldelev 1</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph15">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_30">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP15', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (15)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -303,7 +300,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP15">
-        <input type="text" name="" id="paragraphLink15" value="paragraph15" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink15" value="paragraph_30" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('15')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink15">
             Klik hier voor een link naar deze paragraaf.
@@ -328,7 +325,7 @@
         role="doc-noteref" aria-label="Toon noot 12">
         12
         </button> </p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph16">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_31">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP16', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (16)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -336,7 +333,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP16">
-        <input type="text" name="" id="paragraphLink16" value="paragraph16" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink16" value="paragraph_31" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('16')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink16">
             Klik hier voor een link naar deze paragraaf.
@@ -356,7 +353,7 @@
         role="doc-noteref" aria-label="Toon noot 14">
         14
         </button> Het lijkt erop dat de bouwers en reders in de Nederlanden het Noordse type kenden en inzetten toen de handel met Noordoost-Europa toenam. Mogelijk nam het gebruik van deze schepen al in de dertiende eeuw sterk af, maar het bleef niettemin van invloed op de bouw van alle andere scheepstypen die later in de middeleeuwen in de Nederlanden bekend werden.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph17">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_32">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP17', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (17)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -364,7 +361,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP17">
-        <input type="text" name="" id="paragraphLink17" value="paragraph17" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink17" value="paragraph_32" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('17')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink17">
             Klik hier voor een link naar deze paragraaf.
@@ -394,7 +391,7 @@
         role="doc-noteref" aria-label="Toon noot 18">
         18
         </button> Schepen van dit type voldeden het beste op de binnenwateren. Naarmate de afmetingen toenamen en er betere methoden kwamen om planken vast te zetten, konden sommige varianten van dit scheepstype ook korte zeereizen maken, bijvoorbeeld naar Engeland.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph18">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_33">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP18', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (18)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -402,7 +399,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP18">
-        <input type="text" name="" id="paragraphLink18" value="paragraph18" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink18" value="paragraph_33" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('18')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink18">
             Klik hier voor een link naar deze paragraaf.
@@ -427,7 +424,7 @@
         role="doc-noteref" aria-label="Toon noot 21">
         21
         </button></p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph19">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_34">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP19', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (19)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -435,7 +432,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP19">
-        <input type="text" name="" id="paragraphLink19" value="paragraph19" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink19" value="paragraph_34" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('19')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink19">
             Klik hier voor een link naar deze paragraaf.
@@ -450,8 +447,8 @@
         role="doc-noteref" aria-label="Toon noot 22">
         22
         </button> Ondanks het ontbreken van een gedocumenteerd wrak zijn er daarentegen nog steeds onderzoekers die menen dat de hulk echt moet hebben bestaan aangezien de term immers in contemporaine bronnen wordt gebruikt.</p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="de-kogge">De kogge</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph21">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="de-kogge">De kogge</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_35">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP21', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (21)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -459,7 +456,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP21">
-        <input type="text" name="" id="paragraphLink21" value="paragraph21" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink21" value="paragraph_35" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('21')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink21">
             Klik hier voor een link naar deze paragraaf.
@@ -489,7 +486,7 @@
         role="doc-noteref" aria-label="Toon noot 26">
         26
         </button></p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph22">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_36">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP22', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (22)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -497,7 +494,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP22">
-        <input type="text" name="" id="paragraphLink22" value="paragraph22" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink22" value="paragraph_36" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('22')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink22">
             Klik hier voor een link naar deze paragraaf.
@@ -512,7 +509,7 @@
         role="doc-noteref" aria-label="Toon noot 27">
         27
         </button> Mogelijk hadden historici in de laatste 150 jaar politieke motieven om de rol van de kogge te benadrukken. De kogge stond in de Duitse nationalistische en liberale historiografie van de late negentiende- en vroege twintigste eeuw symbool voor herstel van het Duitse Rijk als een door burgers en kooplieden gedragen maritieme handelsmacht op de Noord- en Oostzee en geduchte concurrent van de koloniale heerschappij van Engeland.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph23">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_37">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP23', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (23)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -520,7 +517,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP23">
-        <input type="text" name="" id="paragraphLink23" value="paragraph23" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink23" value="paragraph_37" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('23')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink23">
             Klik hier voor een link naar deze paragraaf.
@@ -540,7 +537,7 @@
         role="doc-noteref" aria-label="Toon noot 29">
         29
         </button> Omdat ook de hulk aan het eind van de middeleeuwen in omvang toenam, hadden tegen die tijd ook die schepen kades nodig voor het laden en lossen.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph24">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_38">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP24', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (24)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -548,7 +545,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP24">
-        <input type="text" name="" id="paragraphLink24" value="paragraph24" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink24" value="paragraph_38" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('24')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink24">
             Klik hier voor een link naar deze paragraaf.
@@ -568,7 +565,7 @@
         role="doc-noteref" aria-label="Toon noot 31">
         31
         </button></p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph25">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_39">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP25', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -576,7 +573,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP25">
-        <input type="text" name="" id="paragraphLink25" value="paragraph25" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink25" value="paragraph_39" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('25')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink25">
             Klik hier voor een link naar deze paragraaf.
@@ -586,7 +583,7 @@
             &#10006;
         </button>
     </span>De gebruikelijke bouwmethode van koggen was dat de spanten met houten pennen werden vastgezet en de rompplanken daaraan met ijzeren krammen werden vastgespijkerd. Mogelijk boorde men eerst gaten voor de grote spijkers. Voor de overlappende rompplanken waren aanzienlijke hoeveelheden ijzeren krammen nodig. Daarom gebruikte men in veel gevallen houten pennen als bevestigingsmateriaal. Het gebruik van beide bevestigingsmethoden voor de romp, soms ook in combinatie, kwam in de vijftiende en zestiende eeuw steeds vaker voor. De vorm van de kogge leende zich goed voor het gebruik van gezaagde planken. Daarom lijkt het erop dat bouwers van koggen zelfs eerder dan de bouwers van Scandinavische vrachtschepen kozen voor gezaagde balken en planken. Bij koggen met een platte bodem, die in de middeleeuwen vooral in de kleinere versies voorkwamen, waren de bodemplanken niet met elkaar verbonden. Ze moesten tijdens de bouw op hun plaats worden gehouden totdat de zijkanten klaar waren, de vloerbalken hun vorm hadden gekregen en er bovenop waren geplaatst en tenslotte voorzien werden van houten pennen om de bodemplanken tegen de spanten te houden. Dat deed men door kleine klampen aan de buitenkant van die planken te nagelen. Als de houten pennen de bodemplanken eenmaal stevig op hun plaats hielden, verwijderden de bouwers deze klampen en vulden de gaten van de spijkers, die de klampen tijdelijk op hun plaats hadden gehouden, met zogenaamde ‘spijkerpennen’; kleine stukjes hout in de vorm van spijkers.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph26">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_40">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP26', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (26)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -594,7 +591,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP26">
-        <input type="text" name="" id="paragraphLink26" value="paragraph26" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink26" value="paragraph_40" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('26')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink26">
             Klik hier voor een link naar deze paragraaf.
@@ -619,7 +616,7 @@
         role="doc-noteref" aria-label="Toon noot 34">
         34
         </button> Dat gold overigens ook voor de hulk.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph27">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_41">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP27', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (27)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -627,7 +624,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP27">
-        <input type="text" name="" id="paragraphLink27" value="paragraph27" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink27" value="paragraph_41" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('27')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink27">
             Klik hier voor een link naar deze paragraaf.
@@ -642,7 +639,7 @@
         role="doc-noteref" aria-label="Toon noot 35">
         35
         </button></p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph28">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_42">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP28', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (28)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -650,7 +647,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP28">
-        <input type="text" name="" id="paragraphLink28" value="paragraph28" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink28" value="paragraph_42" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('28')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink28">
             Klik hier voor een link naar deze paragraaf.
@@ -670,8 +667,8 @@
         role="doc-noteref" aria-label="Toon noot 37">
         37
         </button></p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="verscheidenheid-en-vooruitgang-in-de-veertiende-en-vijftiende-eeuw">Verscheidenheid en vooruitgang in de veertiende en vijftiende eeuw</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph30">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="verscheidenheid-en-vooruitgang-in-de-veertiende-en-vijftiende-eeuw">Verscheidenheid en vooruitgang in de veertiende en vijftiende eeuw</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_43">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP30', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (30)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -679,7 +676,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP30">
-        <input type="text" name="" id="paragraphLink30" value="paragraph30" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink30" value="paragraph_43" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('30')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink30">
             Klik hier voor een link naar deze paragraaf.
@@ -694,7 +691,7 @@
         role="doc-noteref" aria-label="Toon noot 38">
         38
         </button> </p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph31">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_44">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP31', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (31)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -702,7 +699,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP31">
-        <input type="text" name="" id="paragraphLink31" value="paragraph31" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink31" value="paragraph_44" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('31')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink31">
             Klik hier voor een link naar deze paragraaf.
@@ -727,8 +724,8 @@
         role="doc-noteref" aria-label="Toon noot 41">
         41
         </button> </p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="een-omwenteling:-het-volgetuigde-schip">Een omwenteling: het volgetuigde schip</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph33">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="een-omwenteling:-het-volgetuigde-schip">Een omwenteling: het volgetuigde schip</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_45">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP33', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (33)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -736,7 +733,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP33">
-        <input type="text" name="" id="paragraphLink33" value="paragraph33" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink33" value="paragraph_45" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('33')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink33">
             Klik hier voor een link naar deze paragraaf.
@@ -748,7 +745,7 @@
     </span>Op de lange termijn werd het volgetuigde schip als aanvankelijke voortzetting van de kogge het koopvaardijschip bij uitstek. Geleidelijk aan waren koggen ook steeds zuidelijker langs de Atlantische kust van Europa te vinden. Al omstreeks 1300 deden ze dienst in het scheepvaartverkeer tussen Noord- en Zuid-Europa en drongen ze zelfs door tot in de Middellandse Zee. Scheepsbouwers in die streken onderkenden de mogelijkheden van deze schepen. Zij pasten ze aan de lokale omstandigheden aan en brachten veranderingen aan op basis van hun eigen kennis en ervaring. Op werven in het Middellandse Zeegebied bouwde men de rompen van de schepen namelijk anders dan bij hun noordelijke collega’s. Vanaf de vroege middeleeuwen had men in het zuiden de gewoonte om eerst de kiel te leggen en de stevens op te richten en pas daarna de spanten. Vervolgens bevestigde men de planken van de scheepshuid aan het skelet. De romp werd karveel gebouwd. Dat wil zeggen dat de planken met de zijkanten tegen elkaar aan lagen en elkaar niet overlapten zoals gebruikelijk in de overnaadse bouwwijze in Noord-Europa. Daar werden de kiel en de stevens eerst opgericht waarna men vervolgens de rompplanken van onderaf aan bij de kiel één voor één aan elkaar bevestigde. Pas nadat de hele romp voltooid was, plaatste men spanten in het schip. Deze huid-eerst methode week dus fundamenteel af van de Zuid-Europese spanten-eerst bouwwijze.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Beschilderd tongewelf" data-caption="Een karveel gebouwde driemaster, afgebeeld in het bijbelverhaal van Jonas en de walvis op een van de beschilderde tongewelven van de Sint Vituskerk in Naarden, circa 1535-1540.<br>Stichting Grote Kerk Naarden."data-src="images/d1h3/d1h3-600/6-14_Karveelbijbelverhaal.jpg"><img src="images/d1h3/d1h3-170/6-14_Karveelbijbelverhaal.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Beschilderd tongewelf Een karveel gebouwde driemaster, afgebeeld in het bijbelverhaal van Jonas en de walvis op een van de beschilderde tongewelven van de Sint Vituskerk in Naarden, circa 1535-1540. Stichting Grote Kerk Naarden." id="img_6-14_Karveelbijbelverhaal.jpg"><div>Beschilderd tongewelf</div></button></div>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De rede van Zierikzee (detail)" data-caption="Een karveel gebouwd schip wordt naar zijn ankerplaats geboegseerd op de rede van Zierikzee. De karveelbouw bereikte de Nederlanden vanuit het Middellandse zeegebied. In 1460 bouwde een Bretonse scheepsbouwer een dergelijk schip in Zierikzee, dat regelmatig door Bretonse schepen werd bezocht. <br>Detail van een anoniem schilderij, circa 1530-1545.<br>Stadhuismuseum, Zierikzee."data-src="images/d1h3/d1h3-600/7a-15a_KarveelredeZierikzee.jpg"><img src="images/d1h3/d1h3-170/7a-15a_KarveelredeZierikzee.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De rede van Zierikzee (detail) Een karveel gebouwd schip wordt naar zijn ankerplaats geboegseerd op de rede van Zierikzee. De karveelbouw bereikte de Nederlanden vanuit het Middellandse zeegebied. In 1460 bouwde een Bretonse scheepsbouwer een dergelijk schip in Zierikzee, dat regelmatig door Bretonse schepen werd bezocht. Detail van een anoniem schilderij, circa 1530-1545. Stadhuismuseum, Zierikzee." id="img_7a-15a_KarveelredeZierikzee.jpg"><div>De rede van Zierikzee (detail)</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph36">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_50">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP36', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (36)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -756,7 +753,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP36">
-        <input type="text" name="" id="paragraphLink36" value="paragraph36" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink36" value="paragraph_50" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('36')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink36">
             Klik hier voor een link naar deze paragraaf.
@@ -766,7 +763,7 @@
             &#10006;
         </button>
     </span>Scheepsbouwers in Zuid-Europa zetten een belangrijke stap voorwaarts toen ze rond 1400, waarschijnlijk ergens aan de kusten van het Iberisch schiereiland, een tuigage met drie masten uitprobeerden met aan elke mast een enkel zeil. In de tijd dat de kogge in de Middellandse Zee verscheen, trachtten lokale scheepsbouwers het totale zeiloppervlak en de wendbaarheid te vergroten door de daar gebouwde koggen, die ze <em>cochas</em> noemden, te voorzien van een bezaansmast op het achterschip. In plaats van nog een vierkant zeil tuigden ze deze mast met een driehoekig latijnzeil. Dat zeil was misschien moeilijker te bedienen dan een vierkant zeil, maar het maakte het wel mogelijk om scherper aan de wind te zeilen. De volgende en laatste stap in het ontstaan van het volgetuigde schip was het toevoegen van een kleine mast met zeil bij de boeg dat als tegenhanger van het latijnzeil achter diende en het schip de juiste balans gaf. Het grootzeil leverde nog steeds veruit de grootste voortstuwingskracht. De andere zeilen dienden als ondersteuning en hielpen de schipper vooral bij het aanhouden van de koers. Een driemaster zeilde niet alleen beter, ook kon hij in verhouding tot de omvang van de bemanning meer lading vervoeren dan zijn voorgangers. Dit scheepstype was doorgaans relatief groot en geschikt voor vaart over lange afstanden op volle zee.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph37">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_51">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP37', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (37)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -774,7 +771,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP37">
-        <input type="text" name="" id="paragraphLink37" value="paragraph37" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink37" value="paragraph_51" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('37')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink37">
             Klik hier voor een link naar deze paragraaf.
@@ -789,7 +786,7 @@
         role="doc-noteref" aria-label="Toon noot 42">
         42
         </button></p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph38">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_52">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP38', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (38)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -797,7 +794,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP38">
-        <input type="text" name="" id="paragraphLink38" value="paragraph38" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink38" value="paragraph_52" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('38')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink38">
             Klik hier voor een link naar deze paragraaf.
@@ -813,7 +810,7 @@
         43
         </button> Het karveel gebouwde volgetuigde schip was geschikt om naar meer en verder weggelegen bestemmingen te zeilen. Daardoor verdrong dit scheepstype geleidelijk aan andere schepen niet alleen uit de overzeese handelsvaart, maar ook uit de regionale scheepvaart. De eerder zo belangrijke schepen voor massagoed in de Oostzee en de Noordzee, zoals de kogge en de kraaijer, bleken te klein om met dit nieuwe type te kunnen concurreren. In de loop van de zestiende eeuw werden deze traditionele schepen voornamelijk ingezet voor de kust- en binnenvaart en verdwenen op den duur helemaal.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Karveel gebouwde driemasters" data-caption="Drie zwaarbewapende karveel gebouwde zeeschepen lopen weg voor de opstekende wind. Matrozen klimmen in het want om zeil te minderen. De twee grote schepen op de voorgrond hebben een vierde mast, bedoeld om meer zeiloppervlak toe te voegen, door middel van een extra, driehoekig zeil.<br>Gravure door Frans Huys naar Pieter Bruegel, circa 1565.<br>Rijksmuseum, Amsterdam."data-src="images/d1h3/d1h3-600/8-16_Karveelgebouwdedriemasters.jpg"><img src="images/d1h3/d1h3-170/8-16_Karveelgebouwdedriemasters.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Karveel gebouwde driemasters Drie zwaarbewapende karveel gebouwde zeeschepen lopen weg voor de opstekende wind. Matrozen klimmen in het want om zeil te minderen. De twee grote schepen op de voorgrond hebben een vierde mast, bedoeld om meer zeiloppervlak toe te voegen, door middel van een extra, driehoekig zeil. Gravure door Frans Huys naar Pieter Bruegel, circa 1565. Rijksmuseum, Amsterdam." id="img_8-16_Karveelgebouwdedriemasters.jpg"><div>Karveel gebouwde driemasters</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph40">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_55">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP40', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (40)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -821,7 +818,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP40">
-        <input type="text" name="" id="paragraphLink40" value="paragraph40" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink40" value="paragraph_55" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('40')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink40">
             Klik hier voor een link naar deze paragraaf.
@@ -836,7 +833,7 @@
         role="doc-noteref" aria-label="Toon noot 44">
         44
         </button> </p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph41">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_56">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP41', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (41)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -844,7 +841,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP41">
-        <input type="text" name="" id="paragraphLink41" value="paragraph41" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink41" value="paragraph_56" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('41')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink41">
             Klik hier voor een link naar deze paragraaf.
@@ -859,7 +856,7 @@
         role="doc-noteref" aria-label="Toon noot 45">
         45
         </button> Deze huid-eerst methode week dus fundamenteel af van de Zuid-Europese spanten-eerst bouwwijze. Het gebruik&nbsp;van de term karveel kan soms verwarring&nbsp; opleveren, omdat daarmee zowel het hele schip als de bouwwijze wordt&nbsp;bedoeld.&nbsp;&nbsp;</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph42">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_57">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP42', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (42)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -867,7 +864,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP42">
-        <input type="text" name="" id="paragraphLink42" value="paragraph42" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink42" value="paragraph_57" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('42')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink42">
             Klik hier voor een link naar deze paragraaf.
@@ -892,7 +889,7 @@
         role="doc-noteref" aria-label="Toon noot 48">
         48
         </button></p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph43">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_58">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP43', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (43)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -900,7 +897,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP43">
-        <input type="text" name="" id="paragraphLink43" value="paragraph43" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink43" value="paragraph_58" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('43')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink43">
             Klik hier voor een link naar deze paragraaf.
@@ -911,8 +908,8 @@
         </button>
     </span>Karveel gebouwde driemasters waren eenvoudiger te repareren dan hun overnaadse voorgangers. Beschadigde of verrotte planken konden zonder schade voor de planken eromheen worden verwijderd en vervangen. Ook was het gemakkelijker om deze gladboordige schepen te onderhouden. Periodieke reiniging van het oppervlak zorgde voor een sneller en duurzamer schip wat voor de reders voordeliger was. Een volgetuigd schip had minder bemanning nodig, vooral omdat de oppervlakte van het grootzeil op de hoofdmast afnam ten opzichte van de andere zeilen. Het enkele zeil op een kogge moest groot genoeg zijn om het schip vaart te geven en de bemanning moest voldoende koppen tellen om dat zware razeil te hijsen. Het gewicht van de tuigage stelde waarschijnlijk een grens aan de grootte van de kogge omdat die niet groter kon zijn dan wat de bemanning kon hijsen. Hoe zwaarder de ra en het zeil, des te meer mannen daarbij nodig waren. Dat betekende ook dat een deel van de bemanning alleen wat te doen had bij het hijsen en strijken van het zeil. Meer masten en dus meer zeilen maakten een groter schip mogelijk, zonder dat het aantal zeelieden hoefde te worden uitgebreid. Deze tuigage zorgde ook voor een meer effectievere besturing. Het wendbare volgetuigde schip kon op reizen naar de Oostzee gemakkelijker dan een kogge het Deense schiereiland ronden. Verladers in Spanje en Portugal gebruikten die schepen al en hun collega’s in de Nederlanden volgden hun voorbeeld. De rede van Arnemuiden die sedert het begin van de vijftiende eeuw fungeerde als voorhaven voor Antwerpen, de meest welvarende stad van de Nederlanden, lag vol met volgetuigde schepen. De goederen die in de Zeeuwse havens werden gelost, bereikten met kleinere schepen Antwerpen en andere handelscentra. Uit Zuid-Europa werden vooral luxegoederen aangevoerd, lading met een hoge waarde per volume-eenheid. Massagoed kwam uit het noorden en werd aangevoerd via de Noordelijke Nederlanden. Vooral in Antwerpen en het Scheldebekken ontstond zo een evenwichtige uitwisseling. Op al die routes werd steeds meer gebruik gemaakt van volgetuigde schepen.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De Walcherse rede" data-caption="De Walcherse rede met links Arnemuiden en rechts het fort Rammekens en de Westerschelde. De kronkelige Arne is niet meer in gebruik als toegang naar Middelburg. Een in 1535 gegraven kanaal verbindt de stad met de rede.<br>Detail van het Panorama van Walcheren, getekend door Antoon van den Wijngaerde, vermoedelijk in opdracht van Karel V, circa 1550.<br>Uit: <em>Zelandiae descriptio</em>, 1550.<br>Museum Plantin-Moretus, Antwerpen."data-src="images/d1h3/d1h3-600/9-18_WalcherseRede.jpg"><img src="images/d1h3/d1h3-170/9-18_WalcherseRede.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De Walcherse rede De Walcherse rede met links Arnemuiden en rechts het fort Rammekens en de Westerschelde. De kronkelige Arne is niet meer in gebruik als toegang naar Middelburg. Een in 1535 gegraven kanaal verbindt de stad met de rede. Detail van het Panorama van Walcheren, getekend door Antoon van den Wijngaerde, vermoedelijk in opdracht van Karel V, circa 1550. Uit: Zelandiae descriptio , 1550. Museum Plantin-Moretus, Antwerpen." id="img_9-18_WalcherseRede.jpg"><div>De Walcherse rede</div></button></div>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="vissersvaartuigen-uit-de-late-middeleeuwen:-bronnen-van-vernieuwing">Vissersvaartuigen uit de late middeleeuwen: bronnen van vernieuwing</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph46">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="vissersvaartuigen-uit-de-late-middeleeuwen:-bronnen-van-vernieuwing">Vissersvaartuigen uit de late middeleeuwen: bronnen van vernieuwing</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_61">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP46', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (46)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -920,7 +917,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP46">
-        <input type="text" name="" id="paragraphLink46" value="paragraph46" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink46" value="paragraph_61" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('46')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink46">
             Klik hier voor een link naar deze paragraaf.
@@ -941,7 +938,7 @@
         50
         </button> </p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Haringbuizen" data-caption="Haringbuizen halen hun vleet binnen. De vissers bedienen een kaapstander achter op het dek en de netten worden langszij binnengehaald en geschud.<br>Detail van het Panorama van Walcheren door Anthonie van Wijngaerde, circa 1550.<br>Uit: <em>Zelandiae descriptio</em>, 1550.<br>Museum Plantin-Moretus, Antwerpen."data-src="images/d1h3/d1h3-600/10-9_Haringbuizen.jpg"><img src="images/d1h3/d1h3-170/10-9_Haringbuizen.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Haringbuizen Haringbuizen halen hun vleet binnen. De vissers bedienen een kaapstander achter op het dek en de netten worden langszij binnengehaald en geschud. Detail van het Panorama van Walcheren door Anthonie van Wijngaerde, circa 1550. Uit: Zelandiae descriptio , 1550. Museum Plantin-Moretus, Antwerpen." id="img_10-9_Haringbuizen.jpg"><div>Haringbuizen</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph48">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_64">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP48', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (48)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -949,7 +946,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP48">
-        <input type="text" name="" id="paragraphLink48" value="paragraph48" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink48" value="paragraph_64" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('48')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink48">
             Klik hier voor een link naar deze paragraaf.
@@ -964,7 +961,7 @@
         role="doc-noteref" aria-label="Toon noot 51">
         51
         </button> De hoeker begon als een klein bootje met een vlakke bodem, gemaakt om op het strand te landen. Ze waren heel geschikt voor werk dicht bij de kust. Toen de hoeker groter werd, kreeg hij een kiel maar de bodem bleef vlak. Het tuig was licht. Het vierkante zeil aan de grote mast leverde de hoofdvoortstuwing en het kleine bezaanzeil op een mastje helemaal op de achtersteven zorgde er vooral voor dat het schip goed op koers bleef.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph49">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_65">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP49', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (49)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -972,7 +969,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP49">
-        <input type="text" name="" id="paragraphLink49" value="paragraph49" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink49" value="paragraph_65" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('49')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink49">
             Klik hier voor een link naar deze paragraaf.
@@ -982,7 +979,7 @@
             &#10006;
         </button>
     </span>Terwijl kleinere kustvaarders en binnenvaartschepen goederen over kortere afstanden bleven vervoeren, ontstond er in de vijftiende eeuw en daarna een tendens naar grotere ontwerpspecialisatie. Die trend gold niet alleen voor schepen op de grote vaart, maar in de periode tussen 1350 en 1550 evenzeer of meer nog voor kleine vaartuigen. Kleine schepen dienden als voorbeelden voor vernieuwingen die door de zeevaart werden overgenomen. In de tuigage van schepen voor de kust- en binnenwateren zien we een grote verscheidenheid ontstaan: meer zeilen van uiteenlopende vorm en in verschillende combinaties. Over het algemeen hadden ze één mast die dichter bij de boeg dan de achtersteven werd geplaatst. Op grotere binnenschepen werd hetzij vooraan bij de boeg of achterop bij de achtersteven een tweede mast met een extra zeil geplaatst. Het stagzeil was bevestigd aan de voorstag die van de top van de mast naar de boeg liep. Het groot- of gaffelzeil hing aan een korte gaffel die bovenin de mast werd gehesen. De zeilen waren respectievelijk driehoekig en trapeziumvormig. De gaffels verschilden in lengte en waren recht of licht gebogen. Wanneer het schip overstag ging, kon een gaffelzeil eenvoudig over een andere boeg worden gegooid. Een andere optie voor het grootzeil was het spriettuig. Aan de onderkant van de mast werd een lang rondhout, de spriet, bevestigd die diagonaal naar het hoogste punt van het trapeziumvormige zeil liep.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph50">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_66">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP50', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (50)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -990,7 +987,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP50">
-        <input type="text" name="" id="paragraphLink50" value="paragraph50" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink50" value="paragraph_66" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('50')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink50">
             Klik hier voor een link naar deze paragraaf.
@@ -1005,8 +1002,8 @@
         role="doc-noteref" aria-label="Toon noot 52">
         52
         </button> Die zware spriet diende ook als hefboom bij het laden en lossen. Grotere binnenvaartschepen konden nog extra worden getuigd met een vierkant topzeil boven het grootzeil. Die mogelijkheid bestond zowel bij een gaffel- als bij een sprietgetuigd schip. Doordat dit vierkante zeil zo hoog in de mast zat, kon het zeil daaronder zonder problemen in de juiste stand worden gedraaid. Met behulp van schoten kon de schipper zelf het grootzeil aanhalen of vieren vanaf zijn plaats aan de helmstok op het achterschip. Deze ontwikkelingen in uiteenlopende tuigages voor kleinere schepen hadden op de lange termijn ook invloed op het zeilplan van de grootste zeilschepen.</p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="verdere-ontwikkelingen-in-de-zestiende-eeuw">Verdere ontwikkelingen in de zestiende eeuw</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph52">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="verdere-ontwikkelingen-in-de-zestiende-eeuw">Verdere ontwikkelingen in de zestiende eeuw</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_67">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP52', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (52)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1014,7 +1011,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP52">
-        <input type="text" name="" id="paragraphLink52" value="paragraph52" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink52" value="paragraph_67" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('52')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink52">
             Klik hier voor een link naar deze paragraaf.
@@ -1026,7 +1023,7 @@
     </span>De jaren tot 1580 gaven een voortzetting en verfijning te zien van ontwikkelingen die begonnen in de veertiende en vijftiende eeuw. Zeeschepen werden groter, volgetuigde schepen van verschillende types moesten zwaardere ladingen vervoeren en de steeds grotere schepen voerden meer zeil voor de voortstuwing. Het ladingaanbod uit verre streken, van de oostelijke kusten van de Oostzee tot aan Frankrijk, het Iberisch schiereiland en het Middellandse Zeegebied vormde de drijvende kracht achter de toename van de omvang van zeeschepen. Bovendien werden in de zestiende eeuw voor de Europese scheepvaart nieuwe, overzeese verbindingen gevonden rond de zuidpunt van Afrika naar de Indische Oceaan en over de Atlantische Oceaan naar Amerika. Hoewel zeevaarders uit de Nederlanden niet degenen waren die deze nieuwe mogelijkheden als eersten ontdekten, maakten ze snel gebruik van hun bestaande verbindingen met de Iberische havens waar goederen uit nieuw ontdekte landen in Europa werden aangevoerd. Schepen uit de Nederlanden vervoerden tot 1580 die ladingen verder naar bestemmingen in Noord-Europa. Tegelijkertijd bleef het noorden van Europa een prominente rol spelen in het transport van massagoederen dat sinds de veertiende eeuw de basis van de Nederlandse handel vormde.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Timmermanswerktuigen" data-caption="Selectie van timmermanswerktuigen, afkomstig van de expeditie van Willem Barentsz en Jacob van Heemskerck in 1596-1597 en aangetroffen bij het Behouden Huys op Nova Zembla.<br>Rijksmuseum, Amsterdam."data-src="images/d1h3/d1h3-600/11-1_Timmermanswerktuigen.jpg"><img src="images/d1h3/d1h3-170/11-1_Timmermanswerktuigen.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Timmermanswerktuigen Selectie van timmermanswerktuigen, afkomstig van de expeditie van Willem Barentsz en Jacob van Heemskerck in 1596-1597 en aangetroffen bij het Behouden Huys op Nova Zembla. Rijksmuseum, Amsterdam." id="img_11-1_Timmermanswerktuigen.jpg"><div>Timmermanswerktuigen</div></button></div>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Caerte van het Oostlant, circa 1560" data-caption="Al in de middeleeuwen was de Oostzee een belangrijke bestemming voor de scheepvaart van de Lage Landen. Dat belang werd in de zestiende eeuw alleen maar groter. Amsterdam nam een vooraanstaande plaats in bij het vervoer van graan uit de Baltische landen. De Caerte van het Oostlant werd door Cornelis Anthonisz. vervaardigd voor de Amsterdamse vroedschap. Dit is een afbeelding van de derde druk van de kaart uit circa 1560 van de originele kaart van 1543, maar die ging verloren in de Tweede Wereldoorlog.<br>Uit: A.W. Lang, <em>Die “Caerte van Oostlant” des Cornelis Anthonisz. 1543. Die älteste gedrückte Seekarte Nordeuropas und ihre Segelanweisung</em> (Hamburg 1986)."data-src="images/d1h3/d1h3-600/12-6_CaerteOostlant.jpg"><img src="images/d1h3/d1h3-170/12-6_CaerteOostlant.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Caerte van het Oostlant, circa 1560 Al in de middeleeuwen was de Oostzee een belangrijke bestemming voor de scheepvaart van de Lage Landen. Dat belang werd in de zestiende eeuw alleen maar groter. Amsterdam nam een vooraanstaande plaats in bij het vervoer van graan uit de Baltische landen. De Caerte van het Oostlant werd door Cornelis Anthonisz. vervaardigd voor de Amsterdamse vroedschap. Dit is een afbeelding van de derde druk van de kaart uit circa 1560 van de originele kaart van 1543, maar die ging verloren in de Tweede Wereldoorlog. Uit: A.W. Lang, Die “Caerte van Oostlant” des Cornelis Anthonisz. 1543. Die älteste gedrückte Seekarte Nordeuropas und ihre Segelanweisung (Hamburg 1986)." id="img_12-6_CaerteOostlant.jpg"><div>Caerte van het Oostlant, circa 1560</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph55">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_72">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP55', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (55)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1034,7 +1031,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP55">
-        <input type="text" name="" id="paragraphLink55" value="paragraph55" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink55" value="paragraph_72" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('55')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink55">
             Klik hier voor een link naar deze paragraaf.
@@ -1048,7 +1045,7 @@
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Kamper kogge" data-caption="Met een enkel dwarsgetuigd zeil.<br>Stichting Kamper kogge, Kampen."data-src="images/d1h3/d1h3-600/13b-2b_Kamperkogge.jpg"><img src="images/d1h3/d1h3-170/13b-2b_Kamperkogge.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Kamper kogge Met een enkel dwarsgetuigd zeil. Stichting Kamper kogge, Kampen." id="img_13b-2b_Kamperkogge.jpg"><div>Kamper kogge</div></button></div>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="IJsselkogge" data-caption="De ‘IJsselkogge’ (20 x 8 meter) is de meest gave kogge die tot nu toe is aangetroffen. Het schip dateert uit 1415-1420. Het werd in 2016 nabij Kampen uit het water getild en naar Lelystad overgebracht voor conservering.<br>Rijksdienst voor het Cultureel Erfgoed, Amersfoort."data-src="images/d1h3/d1h3-600/14a-3a_IJsselkogge.jpg"><img src="images/d1h3/d1h3-170/14a-3a_IJsselkogge.jpg" class="imgFirstOfSet w-24 md:w-40" alt="IJsselkogge De ‘IJsselkogge’ (20 x 8 meter) is de meest gave kogge die tot nu toe is aangetroffen. Het schip dateert uit 1415-1420. Het werd in 2016 nabij Kampen uit het water getild en naar Lelystad overgebracht voor conservering. Rijksdienst voor het Cultureel Erfgoed, Amersfoort." id="img_14a-3a_IJsselkogge.jpg"><div>IJsselkogge</div></button></div>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="IJsselkogge" data-caption="Doorsnede.<br>Rijksdienst voor het Cultureel Erfgoed, Amersfoort."data-src="images/d1h3/d1h3-600/14b-3b_IJsselkogge.jpg"><img src="images/d1h3/d1h3-170/14b-3b_IJsselkogge.jpg" class="imgFirstOfSet w-24 md:w-40" alt="IJsselkogge Doorsnede. Rijksdienst voor het Cultureel Erfgoed, Amersfoort." id="img_14b-3b_IJsselkogge.jpg"><div>IJsselkogge</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph60">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_79">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP60', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (60)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1056,7 +1053,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP60">
-        <input type="text" name="" id="paragraphLink60" value="paragraph60" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink60" value="paragraph_79" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('60')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink60">
             Klik hier voor een link naar deze paragraaf.
@@ -1072,7 +1069,7 @@
         53
         </button> </p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Kraak" data-caption="Goed zichtbaar zijn de laadpoort in de romp en de serpentine of draaibas in het kraaiennest op de fokkemast, 1468.<br>Gravure door Meester W.A., van wie alleen de initialen bekend zijn.<br>Bibliothèque Nationale, Parijs."data-src="images/d1h3/d1h3-600/15-4_Kraak.jpg"><img src="images/d1h3/d1h3-170/15-4_Kraak.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Kraak Goed zichtbaar zijn de laadpoort in de romp en de serpentine of draaibas in het kraaiennest op de fokkemast, 1468. Gravure door Meester W.A., van wie alleen de initialen bekend zijn. Bibliothèque Nationale, Parijs." id="img_15-4_Kraak.jpg"><div>Kraak</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph62">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_82">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP62', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (62)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1080,7 +1077,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP62">
-        <input type="text" name="" id="paragraphLink62" value="paragraph62" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink62" value="paragraph_82" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('62')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink62">
             Klik hier voor een link naar deze paragraaf.
@@ -1097,7 +1094,7 @@
         </button> De tuigage op al die schepen was eenvoudig en gemakkelijk te bedienen. De zeilen waren min of meer van gelijke grootte waardoor er minder mannen nodig waren om deze apart van elkaar te hijsen. Naarmate de eeuw vorderde, voerden de schepen steeds meer zeil zonder dat het aantal masten toenam.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Scheepstypen" data-caption="Dit detail van een gedrukte wandkaart van de Nederlanden illustreert de enorme variëteit aan vaak lokale scheepstypen Gravure door Jodocus Hondius en Petrus Kaerius, 1602."data-src="images/d1h3/d1h3-600/16-11_WandkaartScheepstypen.jpg"><img src="images/d1h3/d1h3-170/16-11_WandkaartScheepstypen.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Scheepstypen Dit detail van een gedrukte wandkaart van de Nederlanden illustreert de enorme variëteit aan vaak lokale scheepstypen Gravure door Jodocus Hondius en Petrus Kaerius, 1602." id="img_16-11_WandkaartScheepstypen.jpg"><div>Scheepstypen</div></button></div>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Boeier" data-caption="De boeier (links) van de Zeeuwse admiraal Joos de Moor tijdens de zeeslag bij Sluis in 1603, in gevecht met twee galeien.<br>Prent naar ontwerp van Johannes Rem, na 1603.<br>Rijksmuseum, Amsterdam."data-src="images/d1h3/d1h3-600/17-10_BoeierSluis.jpg"><img src="images/d1h3/d1h3-170/17-10_BoeierSluis.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Boeier De boeier (links) van de Zeeuwse admiraal Joos de Moor tijdens de zeeslag bij Sluis in 1603, in gevecht met twee galeien. Prent naar ontwerp van Johannes Rem, na 1603. Rijksmuseum, Amsterdam." id="img_17-10_BoeierSluis.jpg"><div>Boeier</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph65">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_87">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP65', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (65)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1105,7 +1102,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP65">
-        <input type="text" name="" id="paragraphLink65" value="paragraph65" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink65" value="paragraph_87" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('65')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink65">
             Klik hier voor een link naar deze paragraaf.
@@ -1121,7 +1118,7 @@
         55
         </button> Bij de boeier was het zeil achter de mast een trapeziumvormig gaffelzeil dat aan een kleine ra aan de mast hing, in de lengterichting van het schip, dus niet dwars, zoals de ra’s met vierkante zeilen. De heude lijkt zwaarder te zijn gebouwd dan de boeier maar, hoewel gebruikt op volle zee, minder wendbaar. Hij lijkt later ook minder als inspiratiebron te hebben gediend bij de bouw van grotere vrachtschepen. Door variaties in uitvoering was het mogelijk om verschillende combinaties van zeilen te maken. De boeier was daar een voorbeeld van. Met een lengte/breedte-verhouding van meer dan 3:1 sloot dit schip aan bij de tendens naar relatief langere schepen. Naarmate het volume van de verscheepte bulkgoederen toenam, werd de boeier, en dan vooral in de grotere uitvoeringen, hoofdzakelijk een scheepstype voor de korte vaart.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Gezicht op Amsterdam" data-caption="Duidelijk te zien is dat aan oostzijde van de stad, links op het schilderij, een havenkwartier is ontstaan voor scheepsbouw en scheepsberging. Het schilderij is in circa 1538 vervaardigd door Cornelis Anthonisz,  in opdracht van het stadsbestuur.<br>Amsterdam Museum, Amsterdam."data-src="images/d1h3/d1h3-600/18-7_GezichtopAmsterdam.jpg"><img src="images/d1h3/d1h3-170/18-7_GezichtopAmsterdam.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Gezicht op Amsterdam Duidelijk te zien is dat aan oostzijde van de stad, links op het schilderij, een havenkwartier is ontstaan voor scheepsbouw en scheepsberging. Het schilderij is in circa 1538 vervaardigd door Cornelis Anthonisz, in opdracht van het stadsbestuur. Amsterdam Museum, Amsterdam." id="img_18-7_GezichtopAmsterdam.jpg"><div>Gezicht op Amsterdam</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph67">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_90">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP67', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (67)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1129,7 +1126,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP67">
-        <input type="text" name="" id="paragraphLink67" value="paragraph67" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink67" value="paragraph_90" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('67')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink67">
             Klik hier voor een link naar deze paragraaf.
@@ -1139,7 +1136,7 @@
             &#10006;
         </button>
     </span>De <em>vlieboot</em> had de standaardtuigage met drie masten. Dit schip was duidelijk ontworpen voor het vervoer van massagoederen en vooral van graan uit het Oostzeegebied naar de Nederlanden met Amsterdam als belangrijkste aanloophaven. De vlieboot had een geringe diepgang en zelden of nooit een doorlopend dek. Het ontbreken van een opbouw maakte het gemakkelijker om koers te houden bij wind van opzij. Deze relatief kleine schepen waren simpel van constructie en maten zelden meer dan 100 ton. Toch waren vlieboten zelfs in staat om de oceaan over te steken. De vorm van de romp maakte ze geschikt voor het vervoeren van ladingen in tonnen of los in het ruim dat dan met schotten in compartimenten was verdeeld. De vraag naar relatief langere schepen had grote invloed op de vorm van de vlieboot. Aan dit scheepstype dankt de Engelse taal de generieke naam <em>flyboat</em> voor Nederlandse schepen voor bulkvervoer. Het is ook de voorloper van het meest succesvolle Europese vrachtschip van de zeventiende eeuw, de fluit.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph68">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_91">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP68', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (68)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1147,7 +1144,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP68">
-        <input type="text" name="" id="paragraphLink68" value="paragraph68" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink68" value="paragraph_91" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('68')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink68">
             Klik hier voor een link naar deze paragraaf.
@@ -1162,7 +1159,7 @@
         role="doc-noteref" aria-label="Toon noot 56">
         56
         </button> Tegen het einde van de zestiende eeuw waren de voorlopers van de fluit duidelijk groter geworden dan boeiers en vlieboten.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph69">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_92">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP69', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (69)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1170,7 +1167,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP69">
-        <input type="text" name="" id="paragraphLink69" value="paragraph69" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink69" value="paragraph_92" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('69')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink69">
             Klik hier voor een link naar deze paragraaf.
@@ -1180,7 +1177,7 @@
             &#10006;
         </button>
     </span>De fluit staat symbool voor het succes van de scheepsbouw in de Nederlanden. Het was zeker niet de enige prestatie. De maritieme economie die in de loop van de zestiende eeuw in deze streken ontstond, was niet alleen afhankelijk van de algemeen bekende voorlopers van de fluit, maar ook van een breed scala aan andere schepen van groot tot klein. Naarmate de scheepvaartsector groeide, nam ook de productie van speciaal gebouwde schepen toe. Scheepsbouwers konden het zich veroorloven om vaartuigen te bouwen die volledig waren toegerust voor één specifieke tak in de vrachtvaart. De ontwikkelingen die we zagen bij vissersschepen en bulkschepen werden omstreeks 1580 meer dan ooit de norm voor de hele scheepsbouw.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph70">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_93">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP70', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (70)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1188,7 +1185,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP70">
-        <input type="text" name="" id="paragraphLink70" value="paragraph70" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink70" value="paragraph_93" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('70')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink70">
             Klik hier voor een link naar deze paragraaf.
@@ -1198,8 +1195,8 @@
             &#10006;
         </button>
     </span>Die trend omvatte ook een fenomeen dat zich in heel Europa voordeed: de bouw van schepen die geschikt waren om te vechten op zee. In de late middeleeuwen telden de Nederlanden nauwelijks oorlogsschepen. Veelzeggend is de term die de Fransen in de achttiende eeuw gebruikten voor een schip dat wel in staat was om kanonnen te voeren, maar ze niet daadwerkelijk aan boord had: <em>en flûte.</em> Die uitdrukking weerspiegelt de typische praktijk op Nederlandse schepen voor het transport van massagoed om te varen met lichte bewapening of zelfs helemaal zonder kanonnen. De Oostzee, waar deze schepen het eerst en het meest gebruikt werden, was een relatief vredige omgeving, zeker in vergelijking met de Middellandse Zee en de route naar het zuiden langs de kust van Frankrijk. Dat betekende dat op Nederlandse schepen kanonnen en geschutsporten ontbraken en er ook geen voorzieningen waren om het gewicht van zware kanonnen te dragen. De combinatie van lage bouw- en exploitatiekosten van het schip leverde een aanzienlijke besparing op. Kanonnen, kanonskogels en buskruit waren duur en dat gold ook voor de extra bemanningsleden die nodig waren om die kanonnen te bedienen.</p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="bouwmaterialen-voor-de-scheepsbouw">Bouwmaterialen voor de scheepsbouw</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph72">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="bouwmaterialen-voor-de-scheepsbouw">Bouwmaterialen voor de scheepsbouw</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_94">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP72', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (72)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1207,7 +1204,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP72">
-        <input type="text" name="" id="paragraphLink72" value="paragraph72" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink72" value="paragraph_94" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('72')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink72">
             Klik hier voor een link naar deze paragraaf.
@@ -1232,7 +1229,7 @@
         role="doc-noteref" aria-label="Toon noot 59">
         59
         </button> In de zestiende eeuw nam de import van hout in de Nederlanden vanuit het Baltische gebied en Noorwegen toe om de groeiende scheepsbouwindustrie te bevoorraden.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph73">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_95">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP73', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (73)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1240,7 +1237,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP73">
-        <input type="text" name="" id="paragraphLink73" value="paragraph73" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink73" value="paragraph_95" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('73')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink73">
             Klik hier voor een link naar deze paragraaf.
@@ -1250,7 +1247,7 @@
             &#10006;
         </button>
     </span>Eikenhout was het meest gebruikte hout voor scheepsrompen. Bossen op de zuidoevers van de Oostzee en later verder naar het noorden en oosten van het Oostzeegebied vormden aanvankelijk een aanvulling op de import uit de bossen in de Alpen die vervolgens vrijwel ophield te bestaan. Voor masten en ander rondhout gebruikte men vooral stammen van lange sparren uit Noorwegen. Het hout werd in ruwe vorm per schip naar de Nederlanden gebracht. Dennenhout was gemakkelijker te bewerken dan eikenhout en bovendien flexibeler. Het waren nuttige eigenschappen voor het vervaardigen van rondhouten. Voor het bewerken van ra’s en kleinere stukken rondhout gebruikte men op de werven draaibanken. Voor grotere stukken zoals masten moesten stammen handmatig worden bewerkt met dissels. Scheepsbouwers in de Nederlanden gebruikten het lichte en minder duurzame grenenhout voor de dekken en bovenbouw van vrachtschepen en dus voor de delen die niet voortdurend in contact stonden met water. Die keuze verminderde de kosten zonder al te veel in te boeten aan kwaliteit. Andere houtsoorten zoals iepen- en essenhout werden ook wel in schepen verwerkt maar eikenhout voerde de boventoon. De algemene groei van de economie en in het bijzonder die van de scheepsbouw bevorderde de ontwikkeling van de houthandel die in de jaren na 1580 een hoge vlucht nam. Hout voor schepen kon niet meteen worden gebruikt. Jong hout was sterk onderhevig aan vervorming en veroorzaakte op den duur zwakke plekken en lekkage. Scheepsbouwers moesten daarom een voorraad hout in opslag hebben of uitgewerkt hout kopen in de houthandel. In beide gevallen werd er kapitaal vastgelegd in hout voordat zagers en timmerlieden ermee konden werken.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph74">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_96">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP74', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (74)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1258,7 +1255,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP74">
-        <input type="text" name="" id="paragraphLink74" value="paragraph74" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink74" value="paragraph_96" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('74')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink74">
             Klik hier voor een link naar deze paragraaf.
@@ -1268,7 +1265,7 @@
             &#10006;
         </button>
     </span>Rompen werden bij elkaar gehouden door ijzeren spijkers. IJzer was daardoor waarschijnlijk de op één na belangrijkste grondstof voor de scheepsbouw. Voor koggen waren alle spijkers bij elkaar mogelijk zelfs zwaarder dan het hout van het schip. In elk geval bestond het gewicht van een schip voor een aanzienlijk deel uit ijzer. Smeedijzeren spijkers kwamen uit de Zuidelijke Nederlanden, Duitsland en Engeland. Door de ontwikkeling van de hoogoven in de vijftiende eeuw is zowel de kwaliteit als de kwantiteit van de ijzerproductie verhoogd. Dat zorgde in combinatie met andere verbeteringen in de metaalbewerking voor duurzamer en scherper gereedschap, zoals bijlen en dissels. Ook op die manier verbeterden de kwaliteit en efficiëntie van de scheepsbouw.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph75">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_97">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP75', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (75)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1276,7 +1273,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP75">
-        <input type="text" name="" id="paragraphLink75" value="paragraph75" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink75" value="paragraph_97" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('75')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink75">
             Klik hier voor een link naar deze paragraaf.
@@ -1286,8 +1283,8 @@
             &#10006;
         </button>
     </span>Zeildoek werd voornamelijk gemaakt van hennep. Dat kon worden geïmporteerd, hoewel deze snelgroeiende plant op grote schaal in heel Europa te vinden was. Er stonden hennepmolens in de Nederlanden en elders in Noord-Europa. In de Nederlanden wisten tal van ervaren wevers hoe ze van hennepgaren zeildoek moesten maken. Hennep was ook het hoofdbestanddeel van touw dat in grote hoeveelheden op schepen nodig was. In de zestiende eeuw ontstonden overdekte lijnbanen waar lange touwen van hennep werden geslagen. Het was voordelig om leveranciers van hout, ijzer, zeildoek en touw in de buurt van een scheepswerf te hebben. Die toeleveringsbedrijven waren vooral te vinden in grote havens waar ze een goede afzet konden verwachten. Zowel de touwslagerij als het breeuwen en kalefateren van schepen vereisten grote hoeveelheden teer en pek. Dit kleverige houtproduct diende als een beschermlaag voor touw, hout en vezels tegen de uitwerkingen van water en wind. Pek en teer werden in de middeleeuwen in grote hoeveelheden uit de Scandinavische landen geïmporteerd. In de zestiende eeuw ontwikkelden ook de Baltische landen zich tot belangrijke leveranciers. Teer en pek waren onmisbare invoerproducten op de lange lijst van grondstoffen bestemd voor de sterk groeiende scheepsbouw.</p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="de-scheepsbouw-verschuift-naar-het-noorden">De scheepsbouw verschuift naar het noorden</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph77">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="de-scheepsbouw-verschuift-naar-het-noorden">De scheepsbouw verschuift naar het noorden</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_98">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP77', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (77)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1295,7 +1292,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP77">
-        <input type="text" name="" id="paragraphLink77" value="paragraph77" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink77" value="paragraph_98" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('77')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink77">
             Klik hier voor een link naar deze paragraaf.
@@ -1305,7 +1302,7 @@
             &#10006;
         </button>
     </span>Sedert het midden van de zestiende eeuw verplaatsten de scheepvaart en de scheepsbouw zich steeds meer naar de Noordelijke Nederlanden. Die ontwikkeling, al merkbaar tijdens het herstel na de demografische crisis halverwege de veertiende eeuw, was deels een gevolg van de betere economische prestaties van het gewest Holland in de vijftiende eeuw. Tot aan de vijftiende eeuw hadden de Zuidelijke Nederlanden een aandeel in de groei van de scheepsbouw. Daarna werden de omstandigheden in sommige havens slechter of bleken ze minder goed toegankelijk voor de steeds grotere zeegaande schepen die werden ingezet in de lange afstandshandel. Ook innovaties, in de scheepsbouwnijverheid in het noorden, zoals de ontwikkeling van verschillende scheepstypen bestemd voor specifiek doeleinden, maakten verladers en kooplieden in Vlaanderen en Brabant steeds meer afhankelijk van schepen die elders, vooral in Holland en Zeeland, waren gebouwd. Waar het vervoer over water vooral over de binnenwateren ging, of over korte afstanden op open water, konden Vlaanderen en Brabant hun aandeel in scheepsbouw en de scheepvaart behouden. Naarmate de handelsnetwerken zich uitbreidden met langere reizen over zee naar uiteenlopende havens in Noord-Europa en daarbuiten, gingen de geografische voordelen van Noordelijke Nederlanden een doorslaggevende rol spelen. Hierdoor groeide de maritieme sector en in het bijzonder de scheepsbouw in die streken. De grotere vraag naar graan uit Noordoost-Europa ten gevolge van de groeiende bevolking in het westen en de toenemende graanproductie in Polen, was gunstig voor de havens in Holland en West-Friesland. Daar concentreerde de graanhandel zich met zijn grote ladingen van relatief lage waarde. In de steden in het zuiden, in Brabant en Vlaanderen, zien we het omgekeerde. Daar werden vooral luxe goederen uit Spanje en Portugal in kleine volumes aangeboden met een relatief hoge waarde per gewicht.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph78">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_99">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP78', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (78)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1313,7 +1310,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP78">
-        <input type="text" name="" id="paragraphLink78" value="paragraph78" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink78" value="paragraph_99" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('78')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink78">
             Klik hier voor een link naar deze paragraaf.
@@ -1328,7 +1325,7 @@
         role="doc-noteref" aria-label="Toon noot 60">
         60
         </button> </p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph79">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_100">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP79', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (79)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1336,7 +1333,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP79">
-        <input type="text" name="" id="paragraphLink79" value="paragraph79" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink79" value="paragraph_100" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('79')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink79">
             Klik hier voor een link naar deze paragraaf.
@@ -1346,7 +1343,7 @@
             &#10006;
         </button>
     </span>Holland en Zeeland hadden in de zestiende eeuw meer en beter bereikbare zeehavens dan Brabant en Vlaanderen en er waren goede verbindingen vanuit de delta naar de Rijn. Deze gewesten beschikten bovendien over meer kennis en ervaring op scheepsbouwgebied dan het zuiden. Als gevolg van de verschuivende handelsbalans tussen de Noordelijke- en Zuidelijke Nederlanden, slaagden Hollandse en Zeeuwse scheepswerven er in hun technologische voorsprong ten opzichte van Vlaanderen en Brabant te vergroten. In de zestiende eeuw werd Antwerpen steeds belangrijker als handelsknooppunt en als financieel centrum terwijl de actieve scheepvaart en de scheepsbouw daar terugliepen. Handelsactiviteiten met een hoge status, zoals financiering, het afsluiten van contracten en de in- en export van luxegoederen, bleven geconcentreerd in de Zuidelijk Nederlanden en in het bijzonder in Antwerpen. De meer alledaagse taken in de maritieme sector, waaronder de scheepsbouw, verplaatsten zich naar het noorden; een proces dat door de Nederlandse Opstand in een stroomversnelling raakte.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph80">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_101">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP80', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (80)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1354,7 +1351,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP80">
-        <input type="text" name="" id="paragraphLink80" value="paragraph80" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink80" value="paragraph_101" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('80')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink80">
             Klik hier voor een link naar deze paragraaf.
@@ -1364,7 +1361,7 @@
             &#10006;
         </button>
     </span>Scheepsbouw verschilde van de meeste andere takken van nijverheid door het complexe karakter. In vergelijking met andere industrieën was het een relatief grootschalige bedrijfstak. In 1200 vereiste het bouwen van een schip nog weinig vaardigheden op het gebied van management en organisatie. Tegen 1580 was het hebben van die talenten juist een belangrijke voorwaarde voor succes. Wat eerst een tijdelijke activiteit was, iets wat men erbij deed, werd in de loop van de tijd een gevestigd bedrijf op een vaste locatie. De scheepsbouw werd een georganiseerd ambacht, onderhevig aan allerlei maatregelen ter bescherming van het vak en de uitoefenaars daarvan. In de middeleeuwen waren scheepsbouwlocaties doorgaans niet veel meer dan een stuk grond aan het water, dat men kortstondig in gebruik had, dat wil zeggen totdat het schip gereed was. In de veertiende eeuw werden in de Noord-Duitse steden terreinen voor scheepswerven gereserveerd. Dat past in de algemene gewoonte om mensen met gelijke beroepen in bepaalde wijken bij elkaar te brengen. Ambachtslieden konden zo profiteren van de beschikbaarheid van grondstoffen en hun afnemers konden alle leveranciers op één plaats vinden. Door bedrijven samen te brengen werd het ook gemakkelijker toezicht te houden en kon iedereen controleren of concurrenten de regels niet ontdoken. Steden als Hamburg en Danzig hadden een ‘lastage’. Eerst was dat gewoon een plek waar schepen voor anker konden gaan, maar aan het eind van de middeleeuwen was het de ruimte waar schepen werden gebouwd. Amsterdam had nauwe handelsbetrekkingen met het Oostzeegebied. Mogelijk was dat de oorsprong van het ontstaan van de Amsterdamse havenwijk aan het einde van de vijftiende eeuw en die tot op de huidige dag de naam Lastage draagt.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph81">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_102">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP81', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (81)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1372,7 +1369,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP81">
-        <input type="text" name="" id="paragraphLink81" value="paragraph81" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink81" value="paragraph_102" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('81')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink81">
             Klik hier voor een link naar deze paragraaf.
@@ -1392,7 +1389,7 @@
         role="doc-noteref" aria-label="Toon noot 62">
         62
         </button> </p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph82">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_103">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP82', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (82)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1400,7 +1397,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP82">
-        <input type="text" name="" id="paragraphLink82" value="paragraph82" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink82" value="paragraph_103" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('82')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink82">
             Klik hier voor een link naar deze paragraaf.
@@ -1420,7 +1417,7 @@
         role="doc-noteref" aria-label="Toon noot 64">
         64
         </button> </p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph83">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_104">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP83', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (83)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1428,7 +1425,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP83">
-        <input type="text" name="" id="paragraphLink83" value="paragraph83" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink83" value="paragraph_104" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('83')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink83">
             Klik hier voor een link naar deze paragraaf.
@@ -1443,7 +1440,7 @@
         role="doc-noteref" aria-label="Toon noot 65">
         65
         </button> </p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph84">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_105">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP84', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (84)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1451,7 +1448,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP84">
-        <input type="text" name="" id="paragraphLink84" value="paragraph84" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink84" value="paragraph_105" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('84')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink84">
             Klik hier voor een link naar deze paragraaf.
@@ -1466,8 +1463,8 @@
         role="doc-noteref" aria-label="Toon noot 66">
         66
         </button> Bij scheepstimmerlieden moet dat ook zo zijn gegaan. Die mobiliteit onder aankomende ambachtslieden werd mede mogelijk gemaakt doordat de gilden de vakbekwaamheid waarborgden. Schriftelijke bewijsstukken van de opgedane ervaring dienden uiteindelijk als een garantie voor iemands vaardigheden.</p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="scheepsontwerp-en-efficientie-in-de-zestiende-eeuw:-tekenen-van-succes">Scheepsontwerp en efficiëntie in de zestiende eeuw: tekenen van succes</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph86">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="scheepsontwerp-en-efficientie-in-de-zestiende-eeuw:-tekenen-van-succes">Scheepsontwerp en efficiëntie in de zestiende eeuw: tekenen van succes</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_106">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP86', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (86)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1475,7 +1472,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP86">
-        <input type="text" name="" id="paragraphLink86" value="paragraph86" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink86" value="paragraph_106" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('86')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink86">
             Klik hier voor een link naar deze paragraaf.
@@ -1491,7 +1488,7 @@
         67
         </button> Die relatief kleine bemanning was mede het gevolg van de combinatie van grote en kleine zeilen waarmee schepen werden uitgerust. Door het naar verhouding kleine formaat van die zeilen en de mogelijkheid om ze met lopend want vanaf het dek te bedienen, kon een schip zelfs met een kleinere bemanning gemakkelijker manoeuvreren. Met de kolderstok, een draaibare stang, haaks scharnierend op de helmstok bevestigd, kon één man het roer bedienen. De kolderstok was in feite niets meer dan een hendel, waarmee de koers slechts in beperkte mate kon werden aangepast. Grote koerswijzigingen werden bereikt met de zeilen. Het gebruik van de kolderstok reduceerde het aantal mannen dat nodig was om het roer te bedienen. Het ontbreken van kanonnen op veel schepen uit de Nederlanden verminderde eveneens de behoefte aan arbeidskrachten. De voordelen voor Nederlandse schepen gingen verder dan de inzet van minder mankracht per ton. Voor zover valt na te gaan waren het de lagere kosten, zowel voor de bouw als voor de exploitatie, waardoor schepen van Nederlandse scheepswerven met succes konden concurreren met die uit andere delen van Noord-Europa en daarbuiten. Sommige in Nederland gebouwde schepen vonden zelfs afnemers in het Middellandse Zeegebied.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Eenvoudige scheepjes" data-caption="Scheepjes met een eenvoudige zeilvoering (sprietzeil en fok) op de binnenwateren bij Dordrecht tijdens de St. Elisabethvloed van 1421 (detail). Deze boten onderscheiden zich doordat ze voor- en achterzeilen hebben en door één persoon kunnen worden bestuurd.<br>Detail van een schilderij door de Meester van de Heilige Elisabeth-panelen, circa 1490.<br>Rijksmuseum, Amsterdam."data-src="images/d1h3/d1h3-600/18a-4-17_Scheepjeseenvoudigezeilvoering.jpg"><img src="images/d1h3/d1h3-170/18a-4-17_Scheepjeseenvoudigezeilvoering.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Eenvoudige scheepjes Scheepjes met een eenvoudige zeilvoering (sprietzeil en fok) op de binnenwateren bij Dordrecht tijdens de St. Elisabethvloed van 1421 (detail). Deze boten onderscheiden zich doordat ze voor- en achterzeilen hebben en door één persoon kunnen worden bestuurd. Detail van een schilderij door de Meester van de Heilige Elisabeth-panelen, circa 1490. Rijksmuseum, Amsterdam." id="img_18a-4-17_Scheepjeseenvoudigezeilvoering.jpg"><div>Eenvoudige scheepjes</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph88">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_109">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP88', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (88)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1499,7 +1496,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP88">
-        <input type="text" name="" id="paragraphLink88" value="paragraph88" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink88" value="paragraph_109" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('88')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink88">
             Klik hier voor een link naar deze paragraaf.
@@ -1509,7 +1506,7 @@
             &#10006;
         </button>
     </span>De beschikbaarheid van kapitaal, maar ook het vakmanschap, de inzet van de bouwers en de gunstige kosten van grondstoffen droegen allemaal bij aan het succes van de scheepsbouw in de Nederlanden. Naarmate het handelsvolume groeide werd financiering in de maritieme sector gemakkelijker en was kapitaal tegen lagere kosten te verkrijgen. In de premoderne economie werd een schip een zeer grote kapitaalsinvestering. Het vergaan van een schip betekende een ramp voor de eigenaren. De manier waarop scheepsbezit was georganiseerd had tot doel om de schade van zo’n catastrofe te verlichten. Dat kon bijvoorbeeld door geld te lenen voor de financiering van de bouw tegen het gangbare rentetarief, en die lening met de rente terug te betalen na terugkeer van het schip van de eerste reis. Als het schip om een of andere reden verloren ging, waren de leners niet langer aansprakelijk voor terugbetaling van de hoofdsom. Dit was een eenvoudige maar effectieve vorm van verzekering. Vermoedelijk genoot dit type financiering de voorkeur van schippers die niet over het kapitaal beschikten om een schip aan te schaffen maar wel optraden als reder. Steeds vaker was er sprake van partenrederij waarbij particulieren een deel van hun kapitaal investeerden in een schip. Dat deed men in het Middellandse Zeegebied al eerder en dit systeem werd al vroeg in de vijftiende eeuw overgenomen in de Nederlanden. Scheepsparten waren aandelen van een half tot een zestiende of een tweeëndertigste deel van een schip en soms nog veel kleinere fracties. De eventuele winst werden verdeeld in verhouding tot de omvang van de investering. Partenrederij maakte de mobilisatie van kapitaal uit brede lagen van de bevolking mogelijk en verminderde het eventuele verlies dat elke afzonderlijke aandeelhouder zou lijden bij een mislukte reis. Het eigendom van een scheepswerf was meestal minder ingewikkeld georganiseerd. Doorgaans was een meester-scheepstimmerman zowel eigenaar als exploitant van een scheepswerf, eventueel met deelname van een of meer familieleden.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph89">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_110">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP89', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (89)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1517,7 +1514,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP89">
-        <input type="text" name="" id="paragraphLink89" value="paragraph89" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink89" value="paragraph_110" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('89')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink89">
             Klik hier voor een link naar deze paragraaf.
@@ -1532,8 +1529,8 @@
         role="doc-noteref" aria-label="Toon noot 68">
         68
         </button> In de tweede helft van de zestiende eeuw werd de relatie tussen de bouwer en de koper van een nieuw schip steeds meer geregeld in een schriftelijk contract. Een klein aantal van deze documenten uit het einde van de zestiende eeuw is bewaard gebleven en hoewel ze weinig zeggen over het ontwerp of het werk op de werf, geven ze wel een algemene indruk van het scheepsbouwbedrijf. Zo’n overeenkomst was doorgaans kort en bevatte enkele summiere bepalingen over de afmetingen van het te bouwen schip en over betaling in termijnen die op vaste momenten van de bouw moesten worden voldaan. Door die termijnbedragen kon de scheepstimmerman materialen en lonen van de werknemers betalen zonder dat hij zich diep in de schulden hoefde te steken. De behoefte aan agenten en complexere contractuele regelingen kwam op toen de scheepvaart zich uitbreidde en reders verder weg gingen om scheepsbouwers en scheepswerven te vinden. In de middeleeuwen was het vermoedelijk gebruikelijk dat er ter plaatse werd gewerkt. Bouwer en koper kenden elkaar meestal en het toezicht was gemakkelijk. Dat bleef waarschijnlijk zo bij de bouw van kleine schepen en voor reparatie- en onderhoudswerkzaamheden aan bestaande schepen, de manier waarop scheepstimmerlieden tussen contracten voor nieuwbouw hun brood verdienden. Voor zeeschepen maakte de schaalvergroting in de scheepsbouw het kopen en bouwen van schepen ingewikkelder. Kopers konden verder weg gaan om een goed schip te vinden en hadden toegang tot een breder scala aan leveranciers. Sommigen daarvan hadden bijvoorbeeld ervaring met de bouw van bepaalde scheepstypes of kennis van specifieke ontwerpkenmerken. Die zouden mogelijk ook schepen kunnen leveren tegen lagere prijzen dan werven dichter bij huis. Tegen 1580 zorgde het complete juridische en financiële kader van de bedrijfstak voor soepele afstemming tussen de wensen van verladers en de mogelijkheden van de scheepswerven.</p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="het-schip-in-de-maatschappij-de-economie-en-wat-men-dacht-over-zeilschepen">Het schip in de maatschappij, de economie en wat men dacht over zeilschepen</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph91">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="het-schip-in-de-maatschappij-de-economie-en-wat-men-dacht-over-zeilschepen">Het schip in de maatschappij, de economie en wat men dacht over zeilschepen</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_111">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP91', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (91)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1541,7 +1538,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP91">
-        <input type="text" name="" id="paragraphLink91" value="paragraph91" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink91" value="paragraph_111" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('91')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink91">
             Klik hier voor een link naar deze paragraaf.
@@ -1556,7 +1553,7 @@
         role="doc-noteref" aria-label="Toon noot 69">
         69
         </button> Het is moeilijk te zeggen in welke mate het loon van zeelieden steeg en het is lastig te bewijzen dat toenemende loondruk en dalende kapitaalkosten hebben geleid tot de toepassing van arbeidsbesparende technologie aan boord en op de scheepswerven. Maar het is zeker zo dat nieuwe bouwmethoden en vooral verbeteringen in het tuigage uiteindelijk leidden tot een kleinere bemanning per ton lading.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph92">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_112">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP92', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (92)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1564,7 +1561,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP92">
-        <input type="text" name="" id="paragraphLink92" value="paragraph92" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink92" value="paragraph_112" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('92')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink92">
             Klik hier voor een link naar deze paragraaf.
@@ -1574,7 +1571,7 @@
             &#10006;
         </button>
     </span>Op de werf werd het werk van timmerlieden vergemakkelijkt door beter gereedschap. In de nieuwe scheepstypes die aan het einde van de middeleeuwen ontstonden waren minder spijkers nodig en dat verlaagde dus het gewicht van een schip. Ook de kwaliteit van het hout is wellicht verbeterd naarmate men beter hout van ver weg kon halen. Al deze veranderingen vormden waarschijnlijk een verlichting van het werk van de scheepstimmerlieden en daardoor een verhoging in de productiviteit en verkorting van de bouwtijden.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph93">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_113">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP93', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (93)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1582,7 +1579,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP93">
-        <input type="text" name="" id="paragraphLink93" value="paragraph93" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink93" value="paragraph_113" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('93')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink93">
             Klik hier voor een link naar deze paragraaf.
@@ -1597,8 +1594,8 @@
         role="doc-noteref" aria-label="Toon noot 70">
         70
         </button> </p>
-                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-8" id="1200-en-1580:-het-dramatische-verschil">1200 en 1580: het dramatische verschil</h2>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph95">
+                   <h2 class="text-2xl font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="1200-en-1580:-het-dramatische-verschil">1200 en 1580: het dramatische verschil</h2>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_114">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP95', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (95)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1606,7 +1603,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP95">
-        <input type="text" name="" id="paragraphLink95" value="paragraph95" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink95" value="paragraph_114" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('95')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink95">
             Klik hier voor een link naar deze paragraaf.
@@ -1621,7 +1618,7 @@
         role="doc-noteref" aria-label="Toon noot 71">
         71
         </button> Niet alleen bij de nieuwbouw van een schip, maar ook bij reparaties aan de romp hadden de scheepsbouwers een andere aanpak nodig bij het maken van vervangende stukken hout en het vastspijkeren daarvan. De spijkers waren wel gelijk van vorm maar ze waren wel harder, net als de metalen gereedschappen dankzij beter ijzererts van meer plaatsen in Noord-Europa en de bewerking in hoogovens. De scheepsbouwindustrie was in 1580 bovendien op een andere manier georganiseerd. Scheepsbouwgilden waren in grotere steden en zelfs in sommige kleinere centra de norm geworden.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph96">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_115">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP96', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (96)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1629,7 +1626,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP96">
-        <input type="text" name="" id="paragraphLink96" value="paragraph96" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink96" value="paragraph_115" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('96')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink96">
             Klik hier voor een link naar deze paragraaf.
@@ -1639,7 +1636,7 @@
             &#10006;
         </button>
     </span>Een zeeman of een kapitein op een zeegaand schip van rond het jaar 1200, zou zich op een schip uit 1580 geen raad weten. Zijn collega’s uit 1580 daarentegen zouden zich snel thuis voelen op een zeilschip uit de negentiende eeuw, de periode vlak voor het stoomtijdperk. Ze zouden weinig moeite hebben om het werk op zo’n schip naar behoren uit te voeren. De transformatie in de late middeleeuwen zorgde voor nieuwe verhoudingen in de zeescheepvaart met een nieuw type vaartuig, dat lading sneller, efficiënter en veiliger kon verplaatsen. De scheepsbouw in de Nederlanden volgde die transformatie niet alleen, maar had er ook een actief aandeel in. Schepen die van stapel liepen op werven in het hele kustgebied, van Friesland tot Vlaanderen, behoorden tot de meest geavanceerde ter wereld.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph97">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_116">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP97', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (97)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1647,7 +1644,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP97">
-        <input type="text" name="" id="paragraphLink97" value="paragraph97" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink97" value="paragraph_116" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('97')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink97">
             Klik hier voor een link naar deze paragraaf.
@@ -1657,7 +1654,7 @@
             &#10006;
         </button>
     </span>De groei van de handel in de Nederlanden sedert de hoge middeleeuwen was afhankelijk van de beschikbaarheid van schepen van hoogstaande kwaliteit. Technische verbeteringen in ontwerp en constructie kwamen de efficiëntie ten goede en verstrekten de concurrentiepositie van de schippers ten opzichte van de omringende landen. Het gedecentraliseerde karakter van de scheepsbouwnijverheid, tezamen met de grotere beschikbaarheid van grondstoffen en uitbreiding van het regionale en internationale handelsnetwerk, droegen bij aan enerzijds technische vooruitgang en anderzijds aan toenemende competities tussen de scheepswerven. Ook was de toenemende integratie tussen binnenvaart en vrachtvaart overzee een belangrijk winstpunt. De duurzame economische groei van de vijftiende en zestiende eeuw droeg bij aan de schaalvergroting van de scheepsbouw en opende de deur naar verdere specialisatie in ontwerp en constructie en afstemming op specifieke sectoren in handel en transport.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph98">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_117">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP98', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (98)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -1665,7 +1662,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP98">
-        <input type="text" name="" id="paragraphLink98" value="paragraph98" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink98" value="paragraph_117" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('98')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink98">
             Klik hier voor een link naar deze paragraaf.
@@ -2364,7 +2361,7 @@
     
     
         
-        <div class="w-full min-h-screen sticky top-0 flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-screen">
+        <div class="w-full min-h-screen sticky top-[var(--page-header-height,3.25rem)] flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-[calc(100vh-var(--page-header-height,3.25rem))]">
     
              <figure class="flex flex-col min-h-0 w-full mb-4">
                 <img id="asideImg" src="images/d1h3/d1h3-600/1-12_UtrechtsPsalter92.jpg" class="w-full shrink-0 object-center" alt="Utrechts Psalter Links- en rechtsonder zijn op deze pagina van het Utrechts psalter eenvoudige scheepjes afgebeeld met een stuurriem langszij en gekrulde voor- en achtersteven. Het Karolingische psalter is vervaardigd in de abdij Hautvillers, niet ver van Reims in Frankrijk en dateert uit circa 830." loading="lazy">
@@ -2492,7 +2489,7 @@
   </div>
 </div>
 
-<div class="bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop" role="dialog" aria-modal="true" aria-label="Hoofdstukken">
+<div class="bg-nmgnGreen-200 text-nmgnGreen-800 fixed top-[var(--page-header-height,3.25rem)] bottom-0 w-full px-10 pb-20 items-center flex-col hidden z-50 overflow-y-auto" id="topMenuPop" role="dialog" aria-modal="true" aria-label="Hoofdstukken">
 
     <div class="py-5 max-w-[1300px] w-full text-right">
         <button type="button" id="btnCloseHoofdstukken" class="p-2 hover:bg-nmgnGreen-100 rounded text-2xl cursor-pointer" onclick="closeHoofdstukkenMenu();" aria-label="Sluit menu hoofdstukken">&#10006;</button>
@@ -2664,7 +2661,6 @@
 <script src="js/toggleVis.js"></script>
 <script src="js/copy.js"></script>
 <script src="js/bigImageViewer.js"></script>
-<script src="js/lunr_index.min.js"></script>
-<script src="js/lunr.js"></script>
+<script src="js/search-highlight.js"></script>
   </body>
 </html>

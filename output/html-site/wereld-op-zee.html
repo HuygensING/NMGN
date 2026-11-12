@@ -12,23 +12,20 @@
   <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-2 focus:left-2 focus:bg-white focus:text-nmgnBlue-900 focus:px-4 focus:py-2 focus:outline focus:outline-2 focus:outline-nmgnBlue-600">Ga naar de inhoud</a>
 
 
-<header id="page-top" tabindex="-1" class="w-full bg-nmgnBlue-900 text-white p-3 z-50">
-    <div class="max-w-[1900px] mx-auto  flex justify-between">
-        <a href="index.html"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
-        <div class="flex gap-4">
-            
-            <button type="button" id="btnHoofdstukken" class="cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm" aria-expanded="false" aria-controls="topMenuPop" aria-haspopup="dialog" onclick="openHoofdstukkenMenu();">Hoofdstukken</button>
-            <div class="hidden relative">
-                <input type="text" name="" id="searchField" class="bg-white w-32 text-black rounded-l-lg text-sm py-1 px-2"  aria-label="type een zoekwoord">
-                <button class=" py-1 px-2 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm flex  rounded-r-lg" id="searchButton">Zoeken</button>
-                <div class="bg-nmgnBlue-100 text-nmgnBlue-950  shadow-2xl absolute w-96 p-4 top-10 right-4 hidden max-w-lg z-50" id="searchResults">
-                    <ul id="searchResultsList" class="flex flex-col gap-2 text-sm">
-                        <li>Searching...</li>
-                    </ul>
-                </div>
-            </div>        </div>
+<header id="site-header" class="fixed top-0 left-0 right-0 w-full bg-nmgnBlue-900 text-white p-3 z-50 transition-all duration-300 ease-out">
+    <div class="max-w-[1900px] mx-auto flex justify-between items-center gap-4">
+        <a href="index.html" class="page-top-title min-w-0 truncate transition-all duration-300"><em>Nieuwe</em> <strong>Maritieme Geschiedenis</strong> <span class="noSmall">van</span> <strong>Nederland</strong></a>
+        <div class="flex gap-4 shrink-0">
+            <a href="index.html" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white">Home</a>
+            <button type="button" id="btnHoofdstukken" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white" aria-expanded="false" aria-controls="topMenuPop" aria-haspopup="dialog" onclick="openHoofdstukkenMenu();">Hoofdstukken</button>
+            <a href="search.html" class="page-top-btn cursor-pointer py-1 px-2 bg-nmgnBlue-200 rounded-full text-nmgnBlue-900 text-sm transition-all duration-300 hover:bg-white focus-visible:bg-white">Zoeken</a>
+        </div>
     </div>
 </header>
+<div id="page-top" tabindex="-1">
+    <span class="sr-only">Begin van de pagina</span>
+</div>
+
 <div id="chapterHeader" class="grid grid-rows-[auto_auto_auto] content-around grid-cols-[auto_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_minmax(10px,_1fr)_auto] min-h-[30vh] xl:min-h-[50vh] bg-nmgnBlue-800 px-6 relative z-30">
     <div class="col-start-2 xl:col-start-6 row-start-1 col-span-6 text-white items-start justify-center flex flex-col gap-2">
         <span class="">Deel 2 <em>De vaart in en buiten Europa</em></span> 
@@ -39,7 +36,7 @@
     </div>
     <div class="col-start-2 xl:col-start-6 row-start-3 col-span-6 text-white items-center justify-start">Door Michiel van Groesen</div>
     <!-- <div class="col-start-2 xl:col-start-2 row-start-4 text-white  absolute left-[20vw] hidden xl:flex"><img src="images/chapterImages/d2h7.png" class="w-24 h-24 2xl:w-36 2xl:h-36" alt=""></div> -->
-</div><div class="sticky top-0 z-40 xl:hidden flex justify-end py-2 pr-6 w-full" id="showInhoud"><button type="button" id="btnInhoudToggle" class="cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm"
+</div><div class="sticky top-[var(--page-header-height,3.25rem)] z-40 xl:hidden flex justify-end py-2 pr-6 w-full" id="showInhoud"><button type="button" id="btnInhoudToggle" class="cursor-pointer py-1 px-3 bg-nmgnBlue-100 rounded-full text-nmgnBlue-900 text-sm"
         onclick="openAsideNav();" aria-label="Toon inhoudsopgave">Inhoud</button></div>
 
 <div class="flex flex-col px-6 
@@ -50,7 +47,7 @@
     <!-- Nagivation -->
         <aside id="asideNavPanel" class="fixed inset-0 z-50 [@media(min-width:768px)_and_(orientation:landscape)]:right-0 [@media(min-width:768px)_and_(orientation:landscape)]:top-0 [@media(min-width:768px)_and_(orientation:landscape)]:bottom-0 [@media(min-width:768px)_and_(orientation:landscape)]:w-1/2 [@media(min-width:768px)_and_(orientation:landscape)]:left-auto xl:static xl:inset-auto xl:w-auto xl:min-w-[260px] pt-12 bg-nmgnBlue-50 pl-10 hidden xl:flex col-start-1 col-span-2">
             
-            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-8 max-h-screen overflow-y-auto pb-16 pr-2" aria-label="Inhoud van deze pagina">
+            <nav class="text-sm flex flex-col gap-2 w-full *:no-underline *:text-nmgnBlue-800 sticky top-[calc(var(--page-header-height,3.25rem)+1.5rem)] max-h-[calc(100vh-var(--page-header-height,3.25rem)-2rem)] overflow-y-auto pb-16 pr-2" aria-label="Inhoud van deze pagina">
                 <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:bg-white focus:text-nmgnBlue-900 focus:px-3 focus:py-2 focus:outline focus:outline-2 focus:outline-nmgnBlue-600">Ga naar de inhoud</a>
                 <div class="mb-4"><a href="index.html" aria-label="Naar de homepage">&#8592; Home</a></div>   
                 <div class="flex justify-between mb-4 border-b border-nmgnBlue-200 pb-2">
@@ -74,8 +71,8 @@
     <main id="main" tabindex="-1" class="mt-16 xl:pt-12 lg:pt-32  md:col-start-2 md:col-span-3 xl:col-start-3 pb-32 z-30 sm:px-6">
        <div class="font-serif prose text-lg xl:max-w-xl 2xl:max-w-2xl mx-auto relative" id="top">
     
-                            <h3 class="font-merriweather font-bold scroll-mt-8" id="inleiding">Inleiding</h3>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph1">
+                            <h3 class="font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="inleiding">Inleiding</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_13">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP1', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (1)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -83,7 +80,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP1">
-        <input type="text" name="" id="paragraphLink1" value="paragraph1" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink1" value="paragraph_13" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('1')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink1">
             Klik hier voor een link naar deze paragraaf.
@@ -100,7 +97,7 @@
         </button></p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De slag bij Gibraltar, 25 april 1607" data-caption="De herinnering aan de slag bij Gibraltar kreeg weer politieke relevantie na de hervatting van de oorlog met Spanje in 1621.<br>Schilderij door Cornelis Claesz. van Wieringen, 1622.<br>Het Scheepvaartmuseum, Amsterdam."data-src="images/d2h7/d2h7-600/1_uitsnedSlag.jpg"><img src="images/d2h7/d2h7-170/1_uitsnedSlag.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De slag bij Gibraltar, 25 april 1607 De herinnering aan de slag bij Gibraltar kreeg weer politieke relevantie na de hervatting van de oorlog met Spanje in 1621. Schilderij door Cornelis Claesz. van Wieringen, 1622. Het Scheepvaartmuseum, Amsterdam." id="img_1_uitsnedSlag.jpg"><div>De slag bij Gibraltar, 25 april 1607</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Voorstudie van De slag bij Gibraltar, 25 april 1607" data-caption="<br>Schilderij door Cornelis Claesz. van Wieringen, 1622.<br>Het Scheepvaartmuseum, Amsterdam."data-src="images/d2h7/d2h7-600/2_uitsVoorstudie.jpg"><img src="images/d2h7/d2h7-170/2_uitsVoorstudie.jpg" class=" w-24 md:w-40" alt="Voorstudie van De slag bij Gibraltar, 25 april 1607 Schilderij door Cornelis Claesz. van Wieringen, 1622. Het Scheepvaartmuseum, Amsterdam." id="img_2_uitsVoorstudie.jpg"><div>Voorstudie van De slag bij Gibraltar, 25 april 1607</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph4">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_16">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP4', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (4)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -108,7 +105,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP4">
-        <input type="text" name="" id="paragraphLink4" value="paragraph4" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink4" value="paragraph_16" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('4')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink4">
             Klik hier voor een link naar deze paragraaf.
@@ -138,8 +135,8 @@
         role="doc-noteref" aria-label="Toon noot 5">
         5
         </button> De kunstenaar zette de werkelijkheid naar zijn hand door een jacht met het wapen van de stadhouder af te beelden, hoewel dat getuige de voorstudie niet de bedoeling was geweest. Maurits was weliswaar officieel admiraal-generaal van de Republiek, maar had zelf in Gibraltar geen enkele rol gespeeld. De admiraliteit beoogde echter het doek te schenken aan de prins, en in de nasleep van de Bestandstwisten gaf de suggestie van een actieve stadhouderlijke bijdrage aan de belangrijkste zeeslag van vóór de wapenstilstand het schilderij van Van Wieringen de gewenste politieke lading.</p>
-                            <h3 class="font-merriweather font-bold scroll-mt-8" id="wereldbeeld">Wereldbeeld</h3>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph6">
+                            <h3 class="font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="wereldbeeld">Wereldbeeld</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_17">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP6', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (6)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -147,7 +144,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP6">
-        <input type="text" name="" id="paragraphLink6" value="paragraph6" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink6" value="paragraph_17" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('6')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink6">
             Klik hier voor een link naar deze paragraaf.
@@ -173,7 +170,7 @@
         8
         </button> Die geleidelijke verandering in de manier waarop de mens de zee zag, was kenmerkend voor het prille begin van de zeventiende eeuw: juist als maritieme natie kon de jonge Republiek zich eenvoudig een eigen identiteit en reputatie verschaffen.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Walvis gestrand bij Berckhey, een inmiddels verdwenen dorpje tussen Katwijk en Scheveningen" data-caption="Hoewel de wetenschappelijke kennis over de zee in de zeventiende eeuw snel toenam, bleven oude vormen van geloof en bijgeloof nog lange tijd bestaan.<br>Kopergravure door Jacob Matham naar Hendrick Goltzius, 1598.<br>Rijksmuseum, Amsterdam."data-src="images/d2h7/d2h7-600/3_Walvis.jpg"><img src="images/d2h7/d2h7-170/3_Walvis.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Walvis gestrand bij Berckhey, een inmiddels verdwenen dorpje tussen Katwijk en Scheveningen Hoewel de wetenschappelijke kennis over de zee in de zeventiende eeuw snel toenam, bleven oude vormen van geloof en bijgeloof nog lange tijd bestaan. Kopergravure door Jacob Matham naar Hendrick Goltzius, 1598. Rijksmuseum, Amsterdam." id="img_3_Walvis.jpg"><div>Walvis gestrand bij Berckhey, een inmiddels verdwenen dorpje tussen Katwijk en Scheveningen</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph8">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_19">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP8', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (8)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -181,7 +178,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP8">
-        <input type="text" name="" id="paragraphLink8" value="paragraph8" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink8" value="paragraph_19" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('8')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink8">
             Klik hier voor een link naar deze paragraaf.
@@ -209,7 +206,7 @@
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De geograaf" data-caption="Wandkaarten werden in genreschilderijen regelmatig als achtergrondvulling gebruikt, maar gaven tevens blijk van een collectief en wijd verspreid wereldbeeld.<br>Schilderij door Johannes Vermeer, 1668-1669.<br>Städel Museum, Frankfurt.<br>Foto © Städel Museum – ARTOTHEK."data-src="images/d2h7/d2h7-600/4_uitsnGeograaf.jpg"><img src="images/d2h7/d2h7-170/4_uitsnGeograaf.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De geograaf Wandkaarten werden in genreschilderijen regelmatig als achtergrondvulling gebruikt, maar gaven tevens blijk van een collectief en wijd verspreid wereldbeeld. Schilderij door Johannes Vermeer, 1668-1669. Städel Museum, Frankfurt. Foto © Städel Museum – ARTOTHEK." id="img_4_uitsnGeograaf.jpg"><div>De geograaf</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Deksel van het Amsterdamse stadsklavecimbel, beschilderd met een voorstelling van Amsterdam als wereldhaven" data-caption="<br>Schildering door Pieter Isaacz, 1604-1607.<br>Rijksmuseum, Amsterdam."data-src="images/d2h7/d2h7-600/5_Deksel.jpg"><img src="images/d2h7/d2h7-170/5_Deksel.jpg" class=" w-24 md:w-40" alt="Deksel van het Amsterdamse stadsklavecimbel, beschilderd met een voorstelling van Amsterdam als wereldhaven Schildering door Pieter Isaacz, 1604-1607. Rijksmuseum, Amsterdam." id="img_5_Deksel.jpg"><div>Deksel van het Amsterdamse stadsklavecimbel, beschilderd met een voorstelling van Amsterdam als wereldhaven</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Gezicht op New York (Nieuw Amsterdam)" data-caption="De aanduiding van de Engelse naam New York geeft aan dat dit een voorstelling van het stadje op Manhattan is van kort na de geweldloze overname door de Engelsen.<br>Aquarel door Johannes Vingboons, c. 1665.<br>Nationaal Archief, Den Haag."data-src="images/d2h7/d2h7-600/6_uitsnNY.jpg"><img src="images/d2h7/d2h7-170/6_uitsnNY.jpg" class=" w-24 md:w-40" alt="Gezicht op New York (Nieuw Amsterdam) De aanduiding van de Engelse naam New York geeft aan dat dit een voorstelling van het stadje op Manhattan is van kort na de geweldloze overname door de Engelsen. Aquarel door Johannes Vingboons, c. 1665. Nationaal Archief, Den Haag." id="img_6_uitsnNY.jpg"><div>Gezicht op New York (Nieuw Amsterdam)</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph12">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_23">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP12', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (12)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -217,7 +214,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP12">
-        <input type="text" name="" id="paragraphLink12" value="paragraph12" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink12" value="paragraph_23" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('12')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink12">
             Klik hier voor een link naar deze paragraaf.
@@ -250,7 +247,7 @@
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Nova Zembla" data-caption="‘Het schip door het ijs omhoog gezet’.<br>Uit: Gerrit de Veer, <em>Reizen van Willem Barentsz, Jacob van Heemskerck, Jan Cornelisz. Rijp en anderen naar het noorden</em>, S.P. l’Honoré Naber (ed.) (Den Haag 1917). Het origineel is uitgegeven door Cornelis Claesz (Amsterdam 1598)."data-src="images/d2h7/d2h7-600/7a_schip_omhoog.jpg"><img src="images/d2h7/d2h7-170/7a_schip_omhoog.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Nova Zembla ‘Het schip door het ijs omhoog gezet’. Uit: Gerrit de Veer, Reizen van Willem Barentsz, Jacob van Heemskerck, Jan Cornelisz. Rijp en anderen naar het noorden , S.P. l’Honoré Naber (ed.) (Den Haag 1917). Het origineel is uitgegeven door Cornelis Claesz (Amsterdam 1598)." id="img_7a_schip_omhoog.jpg"><div>Nova Zembla</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Nova Zembla" data-caption="‘Het optimmeren eene der boten’.<br>Uit: Gerrit de Veer, <em>Reizen van Willem Barentsz, Jacob van Heemskerck, Jan Cornelisz. Rijp en anderen naar het noorden</em>, S.P. l’Honoré Naber (ed.) (Den Haag 1917). Het origineel is uitgegeven door Cornelis Claesz (Amsterdam 1598)."data-src="images/d2h7/d2h7-600/7b_optimmeren.jpg"><img src="images/d2h7/d2h7-170/7b_optimmeren.jpg" class=" w-24 md:w-40" alt="Nova Zembla ‘Het optimmeren eene der boten’. Uit: Gerrit de Veer, Reizen van Willem Barentsz, Jacob van Heemskerck, Jan Cornelisz. Rijp en anderen naar het noorden , S.P. l’Honoré Naber (ed.) (Den Haag 1917). Het origineel is uitgegeven door Cornelis Claesz (Amsterdam 1598)." id="img_7b_optimmeren.jpg"><div>Nova Zembla</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Nova Zembla" data-caption="‘Het huis van buiten, vossenvallen en jacht op een beer’.<br>Uit: Gerrit de Veer, <em>Reizen van Willem Barentsz, Jacob van Heemskerck, Jan Cornelisz. Rijp en anderen naar het noorden</em>, S.P. l’Honoré Naber (ed.) (Den Haag 1917). Het origineel is uitgegeven door Cornelis Claesz (Amsterdam 1598)."data-src="images/d2h7/d2h7-600/7c_huis.jpg"><img src="images/d2h7/d2h7-170/7c_huis.jpg" class=" w-24 md:w-40" alt="Nova Zembla ‘Het huis van buiten, vossenvallen en jacht op een beer’. Uit: Gerrit de Veer, Reizen van Willem Barentsz, Jacob van Heemskerck, Jan Cornelisz. Rijp en anderen naar het noorden , S.P. l’Honoré Naber (ed.) (Den Haag 1917). Het origineel is uitgegeven door Cornelis Claesz (Amsterdam 1598)." id="img_7c_huis.jpg"><div>Nova Zembla</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph16">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_27">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP16', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (16)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -258,7 +255,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP16">
-        <input type="text" name="" id="paragraphLink16" value="paragraph16" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink16" value="paragraph_27" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('16')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink16">
             Klik hier voor een link naar deze paragraaf.
@@ -279,8 +276,8 @@
         17
         </button></p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Reisverslag van Willem IJsbrantsz. Bontekoe" data-caption="Het reisverslag van Bontekoes rampzalige reis naar Azië vormde een canonieke tekst tot ver in de negentiende eeuw.<br>Willem IJsbrantsz. Bontekoe,  <em>Journael, ofte gedenckwaerdige beschrijvinghe van Oost-Indische Reyse</em> (Hoorn 1646). In de uitgave van 1648 werd het reisverhaal van Dirck Albertsz Raven over zijn schipbreuk bij Spitsbergen toegevoegd<br>Maritiem Museum Rotterdam."data-src="images/d2h7/d2h7-600/8_nwreisverslag.jpg"><img src="images/d2h7/d2h7-170/8_nwreisverslag.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Reisverslag van Willem IJsbrantsz. Bontekoe Het reisverslag van Bontekoes rampzalige reis naar Azië vormde een canonieke tekst tot ver in de negentiende eeuw. Willem IJsbrantsz. Bontekoe, Journael, ofte gedenckwaerdige beschrijvinghe van Oost-Indische Reyse (Hoorn 1646). In de uitgave van 1648 werd het reisverhaal van Dirck Albertsz Raven over zijn schipbreuk bij Spitsbergen toegevoegd Maritiem Museum Rotterdam." id="img_8_nwreisverslag.jpg"><div>Reisverslag van Willem IJsbrantsz. Bontekoe</div></button></div>
-                            <h3 class="font-merriweather font-bold scroll-mt-8" id="een-maritieme-wereldmacht">Een maritieme wereldmacht</h3>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph19">
+                            <h3 class="font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="een-maritieme-wereldmacht">Een maritieme wereldmacht</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_29">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP19', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (19)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -288,7 +285,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP19">
-        <input type="text" name="" id="paragraphLink19" value="paragraph19" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink19" value="paragraph_29" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('19')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink19">
             Klik hier voor een link naar deze paragraaf.
@@ -300,7 +297,7 @@
     </span>De tendens om de werkelijkheid positiever of spannender voor te stellen dan de feiten toelieten lag al sinds de late zestiende eeuw verankerd in de verbeelding van de wereld overzee, en beperkte zich niet tot tekstuele representaties. Ook voor de grondlegger van de maritieme schilderkunst in de Noordelijke Nederlanden, de Haarlemse zeeschilder Hendrick Cornelisz. Vroom, was de verleiding om de historische werkelijkheid te vervormen al onweerstaanbaar gebleken. Vrooms verbeelding van de thuiskomst van het schip <em>De Hollandtsche Tuyn</em> uit Brazilië in 1605 was niets minder dan een retorische nabootsing van de zes jaar eerder door hem vervaardigde terugkeer van de ‘Tweede Schipvaert uit de Oost’. Beide keren werden de schepen in de voorstellingen van Vroom vol geestdrift onthaald op het IJ door de lokale bevolking. Toch was er in werkelijkheid een belangrijk verschil. Terwijl de ‘Tweede Schipvaert’ een economische en politieke doorbraak had betekend waar de VOC nog bijna twee eeuwen op kon voortbouwen, was de reis naar Brazilië uitgelopen op een mislukking. De opdracht om een fort te bouwen op de Zuid-Amerikaanse kust was niet uitgevoerd, en onderweg naar huis had admiraal Paulus van Caerden een muiterij maar ternauwernood kunnen onderdrukken. Mede om deze reden besloot Van Oldenbarnevelt tijdens de onderhandelingen over het Bestand dat de oprichting van de West-Indische Compagnie (WIC) geen prioriteit had. Voor de achteloze beschouwer van beide schilderijen van Vroom werd deze relevante informatie echter achterwege gelaten. Dergelijke nuances lieten zich uiteraard niet eenvoudig op het doek vereeuwigen, maar terugkijkend moet worden vastgesteld dat de Nederlandse zeeschilderkunst van de zeventiende eeuw soms een nogal rooskleurig beeld van de Republiek als wereldmacht geeft. Zeges werden uitvergroot, nederlagen werden min of meer positief voorgesteld, of – vaker – in het geheel niet. Als dat wél gebeurde, zoals bij Vrooms voorstelling van de Slag op het Haarlemmermeer, dan beoogde een dergelijk schilderij waarschijnlijk een specifiek sentiment aan te wakkeren. Haarlemmers konden bijvoorbeeld glimmen van trots bij de herinnering aan de heldenmoed van hun voorouders, en bij het feit dat hun stad wél (en Amsterdam niet) meteen de ‘goede’ kant van de Opstand had gekozen.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Thuiskomst van de Amsterdamse viermaster <em>De Hollandtsche Tuyn</em>" data-caption="De Amsterdamse viermaster <em>De Hollandtsche Tuyn</em> en andere schepen na terugkeer uit Brazilië onder bevel van Paulus van Caerden (mei 1605). De compositie is nagenoeg identiek aan het schilderij van de thuiskomst van de <em>Tweede Schipvaert</em>, zes jaar eerder. De overeenkomst zou bewust door Vroom kunnen zijn aangebracht, om te appelleren aan het succes van de voorcompagnieën en de in 1602 opgerichte VOC.<br>Schilderij door Hendrick Cornelisz. Vroom, c. 1605-c. 1640.<br>Rijksmuseum, Amsterdam."data-src="images/d2h7/d2h7-600/9_thuiskomst.jpg"><img src="images/d2h7/d2h7-170/9_thuiskomst.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Thuiskomst van de Amsterdamse viermaster De Hollandtsche Tuyn De Amsterdamse viermaster De Hollandtsche Tuyn en andere schepen na terugkeer uit Brazilië onder bevel van Paulus van Caerden (mei 1605). De compositie is nagenoeg identiek aan het schilderij van de thuiskomst van de Tweede Schipvaert , zes jaar eerder. De overeenkomst zou bewust door Vroom kunnen zijn aangebracht, om te appelleren aan het succes van de voorcompagnieën en de in 1602 opgerichte VOC. Schilderij door Hendrick Cornelisz. Vroom, c. 1605-c. 1640. Rijksmuseum, Amsterdam." id="img_9_thuiskomst.jpg"><div>Thuiskomst van de Amsterdamse viermaster <em>De Hollandtsche Tuyn</em></div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Terugkomst in Amsterdam van de tweede expeditie naar Oost-Indië, 19 juli 1599" data-caption="<br>Schilderij door Hendrick Cornelisz. Vroom, 1599.<br>Rijksmuseum, Amsterdam."data-src="images/d2h7/d2h7-600/10_terug.jpg"><img src="images/d2h7/d2h7-170/10_terug.jpg" class=" w-24 md:w-40" alt="Terugkomst in Amsterdam van de tweede expeditie naar Oost-Indië, 19 juli 1599 Schilderij door Hendrick Cornelisz. Vroom, 1599. Rijksmuseum, Amsterdam." id="img_10_terug.jpg"><div>Terugkomst in Amsterdam van de tweede expeditie naar Oost-Indië, 19 juli 1599</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph22">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_32">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP22', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (22)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -308,7 +305,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP22">
-        <input type="text" name="" id="paragraphLink22" value="paragraph22" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink22" value="paragraph_32" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('22')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink22">
             Klik hier voor een link naar deze paragraaf.
@@ -330,7 +327,7 @@
         </button> Die discrepantie was in de ogen van tijdgenoten echter niet vanzelfsprekend, en in de maritieme cultuur van de Gouden Eeuw vallen vooral de overeenkomsten tussen Oost en West op. Stadsplattegronden van Recife (ca. 1643) en Batavia (1652) laten zien dat beide steden uit dezelfde gedachte waren voortgekomen, met de rug naar het binnenland gericht, en de ogen gefixeerd op het water waar de Nederlandse maritieme macht zich moest uitbetalen in militaire overwinningen en economische winst.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Paskaart van de haven van Recife, Pernambuco, in Brazilië " data-caption="De voorstelling van de stad laat elementen zien – met name de grachten in Mauritsstad – die nooit gerealiseerd zouden worden.<br>Stadsplattegrond door Johannes Vingboons, c. 1643.<br>Nationaal Archief, Den Haag."data-src="images/d2h7/d2h7-600/11_Paskaart.jpg"><img src="images/d2h7/d2h7-170/11_Paskaart.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Paskaart van de haven van Recife, Pernambuco, in Brazilië De voorstelling van de stad laat elementen zien – met name de grachten in Mauritsstad – die nooit gerealiseerd zouden worden. Stadsplattegrond door Johannes Vingboons, c. 1643. Nationaal Archief, Den Haag." id="img_11_Paskaart.jpg"><div>Paskaart van de haven van Recife, Pernambuco, in Brazilië </div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Plattegrond van Batavia" data-caption="Deze voorstelling van Batavia kende vele versies en edities, die telkens aan de meest recente stedelijke vernieuwingen waren aangepast.<br>Stadsplattegrond uit Clement de Jonghe, <em>Afbeeldinge van ’t Casteel en de Stadt Batavia</em> (Amsterdam 1669).<br>Wikimedia Commons."data-src="images/d2h7/d2h7-600/12_Batavia1669.jpg"><img src="images/d2h7/d2h7-170/12_Batavia1669.jpg" class=" w-24 md:w-40" alt="Plattegrond van Batavia Deze voorstelling van Batavia kende vele versies en edities, die telkens aan de meest recente stedelijke vernieuwingen waren aangepast. Stadsplattegrond uit Clement de Jonghe, Afbeeldinge van ’t Casteel en de Stadt Batavia (Amsterdam 1669). Wikimedia Commons." id="img_12_Batavia1669.jpg"><div>Plattegrond van Batavia</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph25">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_35">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP25', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (25)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -338,7 +335,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP25">
-        <input type="text" name="" id="paragraphLink25" value="paragraph25" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink25" value="paragraph_35" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('25')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink25">
             Klik hier voor een link naar deze paragraaf.
@@ -351,7 +348,7 @@
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="De slag bij Ter Heide waarin admiraal Maarten Harpertsz Tromp sneuvelde, 10 augustus 1653" data-caption="<br>Penschilderij door Willem van de Velde de Oude, 1657.<br>Rijksmuseum, Amsterdam."data-src="images/d2h7/d2h7-600/13_Heide.jpg"><img src="images/d2h7/d2h7-170/13_Heide.jpg" class="imgFirstOfSet w-24 md:w-40" alt="De slag bij Ter Heide waarin admiraal Maarten Harpertsz Tromp sneuvelde, 10 augustus 1653 Penschilderij door Willem van de Velde de Oude, 1657. Rijksmuseum, Amsterdam." id="img_13_Heide.jpg"><div>De slag bij Ter Heide waarin admiraal Maarten Harpertsz Tromp sneuvelde, 10 augustus 1653</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Het praalgraf van Michiel de Ruyter in het koor van de Nieuwe Kerk in Amsterdam" data-caption="<br>Schilderij door Emanuel de Witte, 1683.<br>Rijksmuseum, Amsterdam."data-src="images/d2h7/d2h7-600/14_Praalgraf.jpg"><img src="images/d2h7/d2h7-170/14_Praalgraf.jpg" class=" w-24 md:w-40" alt="Het praalgraf van Michiel de Ruyter in het koor van de Nieuwe Kerk in Amsterdam Schilderij door Emanuel de Witte, 1683. Rijksmuseum, Amsterdam." id="img_14_Praalgraf.jpg"><div>Het praalgraf van Michiel de Ruyter in het koor van de Nieuwe Kerk in Amsterdam</div></button>
                 <button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Michiel de Ruyter als luitenant-admiraal" data-caption="De afbeelding is geschilderd ter herinnering aan de overwinning in de Vierdaagse Zeeslag in 1666, waarna besloten werd dat identieke portretten van De Ruyter in alle admiraliteitscolleges zouden worden gehangen.<br>Schilderij door Ferdinand Bol, 1667.<br>Rijksmuseum, Amsterdam."data-src="images/d2h7/d2h7-600/15_Michiel.jpg"><img src="images/d2h7/d2h7-170/15_Michiel.jpg" class=" w-24 md:w-40" alt="Michiel de Ruyter als luitenant-admiraal De afbeelding is geschilderd ter herinnering aan de overwinning in de Vierdaagse Zeeslag in 1666, waarna besloten werd dat identieke portretten van De Ruyter in alle admiraliteitscolleges zouden worden gehangen. Schilderij door Ferdinand Bol, 1667. Rijksmuseum, Amsterdam." id="img_15_Michiel.jpg"><div>Michiel de Ruyter als luitenant-admiraal</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph29">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_39">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP29', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (29)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -359,7 +356,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP29">
-        <input type="text" name="" id="paragraphLink29" value="paragraph29" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink29" value="paragraph_39" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('29')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink29">
             Klik hier voor een link naar deze paragraaf.
@@ -380,7 +377,7 @@
         21
         </button> Vanaf het begin van de Derde Engelse Oorlog, in 1674, zou Willem van de Velde de Jonge zijn artistieke kwaliteiten aan de overzijde van Het Kanaal verder perfectioneren.</p>
                 <div class="flex flex-wrap gap-4 my-2 items-baseline py-4"><button class="inlineImage text-sm flex flex-col gap-2 text-left font-sans text-neutral-600 italic w-52 hover:bg-nmgnBlue-50 transition cursor-pointer" data-title="Willem van de Velde aan het werk, gezeten in een galjoot tijdens de zeeslag bij Ter Heide, 1653" data-caption="Prent door Willem van de Velde (detail rechterblad), 1653.<br>Rijksmuseum, Amsterdam."data-src="images/d2h7/d2h7-600/16_Veldewerkt.jpg"><img src="images/d2h7/d2h7-170/16_Veldewerkt.jpg" class="imgFirstOfSet w-24 md:w-40" alt="Willem van de Velde aan het werk, gezeten in een galjoot tijdens de zeeslag bij Ter Heide, 1653 Prent door Willem van de Velde (detail rechterblad), 1653. Rijksmuseum, Amsterdam." id="img_16_Veldewerkt.jpg"><div>Willem van de Velde aan het werk, gezeten in een galjoot tijdens de zeeslag bij Ter Heide, 1653</div></button></div>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph31">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_41">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP31', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (31)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -388,7 +385,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP31">
-        <input type="text" name="" id="paragraphLink31" value="paragraph31" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink31" value="paragraph_41" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('31')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink31">
             Klik hier voor een link naar deze paragraaf.
@@ -403,8 +400,8 @@
         role="doc-noteref" aria-label="Toon noot 22">
         22
         </button> Misschien was het vanwege Hollandse bescheidenheid dat de spiegels van Engelse en Franse schepen doorgaans veel rijker waren versierd dan die van Nederlandse oorlogsbodems.</p>
-                            <h3 class="font-merriweather font-bold scroll-mt-8" id="een-nationale-cultuur">Een ‘nationale’ cultuur</h3>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph33">
+                            <h3 class="font-merriweather font-bold scroll-mt-[calc(var(--page-header-height,3.25rem)+1rem)]" id="een-nationale-cultuur">Een ‘nationale’ cultuur</h3>
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_42">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP33', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (33)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -412,7 +409,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP33">
-        <input type="text" name="" id="paragraphLink33" value="paragraph33" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink33" value="paragraph_42" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('33')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink33">
             Klik hier voor een link naar deze paragraaf.
@@ -427,7 +424,7 @@
         role="doc-noteref" aria-label="Toon noot 23">
         23
         </button> Sterren als Vroom en de Van de Veldes werkten overwegend in opdracht, maar schilders die kwalitatief niet veel voor hen onderdeden, zoals Adam en Abraham Willaerts, Jan Porcellis, Reinier Nooms, Abraham Storck of de Duitse immigrant Ludolf Backhuysen, verkochten hun werk aan de middenklasse die in de Republiek relatief kapitaalkrachtig was geworden. Ook meer alledaagse thema’s, zoals schipbreuk, visserij en walvisvaart, alsmede zee- en strandgezichten verschenen zo gedurende de Gouden Eeuw vaker op paneel of doek.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph34">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_43">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP34', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (34)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -435,7 +432,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP34">
-        <input type="text" name="" id="paragraphLink34" value="paragraph34" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink34" value="paragraph_43" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('34')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink34">
             Klik hier voor een link naar deze paragraaf.
@@ -460,7 +457,7 @@
         role="doc-noteref" aria-label="Toon noot 26">
         26
         </button> Ook de producten die de Nederlandse maritieme cultuur voortbracht behielden soms hun oorspronkelijke naam – het beste voorbeeld is zonder twijfel het Engelse begrip ‘Waggonner’ voor zeekaarten en atlassen dat niets minder was dan een verbastering van de naam van Lucas Jansz. Waghenaer.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph35">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_44">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP35', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (35)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -468,7 +465,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP35">
-        <input type="text" name="" id="paragraphLink35" value="paragraph35" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink35" value="paragraph_44" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('35')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink35">
             Klik hier voor een link naar deze paragraaf.
@@ -478,7 +475,7 @@
             &#10006;
         </button>
     </span>De internationale uitstraling van de Nederlandse maritieme cultuur kon echter niet verhullen dat het intrinsieke belang ervan vooral nationaal bleef, iets wat steeds zichtbaarder werd naarmate de Gouden Eeuw op zijn einde liep. De relatieve en later absolute neergang van de Nederlandse dominantie op zee, in de late zeventiende en achttiende eeuw, leidde ertoe dat de meest vooraanstaande schilders naar het buitenland vertrokken, en de schrijvers en kunstenaars die achterbleven steeds vaker een specifiek Nederlands publiek beoogden voor hun werk. Een veelzeggend voorbeeld in dit verband is de Dordrechtse veelschrijver Lambert van den Bosch, die een belangrijk hagiografisch overzicht van Nederlandse vlootvoogden in de Gouden Eeuw componeerde. De eerste editie van dit werk, <em>Leeven en daden der doorluchtighste zee-helden</em> uit 1676, plaatste admiraals als Piet Hein en Michiel de Ruyter in een internationaal pantheon van vooraanstaande schippers, naast Christoffel Columbus en Amerigo Vespucci. Maar in de tweede editie uit 1683 waren de beroemdheden van over de grens uit het boek verwijderd ten faveure van tweederangs vlootvoogden uit de eigen recente geschiedenis. De eigen maritieme cultuur was zo weliswaar de zucht tot vergelijking ontgroeid, maar raakte als gevolg daarvan ook expliciet naar binnen gekeerd.</p>
-                   <p class="mb-4 font-merriweather font-light" id="paragraph36">
+                   <p class="mb-4 font-merriweather font-light" id="paragraph_45">
                       <button class="hidden md:flex px-2 absolute translate-x-8 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="toggleVis('popupP36', 'show');"  aria-label="klik om een link naar deze paragraaf in het klembord te zetten (36)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 stroke-neutral-300">
       <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
     </svg>
@@ -486,7 +483,7 @@
     
      </button>
     <span class="hidden p-4 bg-nmgnBlue-100 border-nmgnBlue-200 border absolute right-0 shadow-2xl font-sans text-sm rounded z-20" id="popupP36">
-        <input type="text" name="" id="paragraphLink36" value="paragraph36" class="hidden w-full">
+        <input type="text" name="" id="paragraphLink36" value="paragraph_45" class="hidden w-full">
         
         <button type="button" class="md:flex px-2 right-0 p-2 hover:bg-nmgnBlue-100 *:hover:stroke-nmgnBlue-600 rounded cursor-pointer" onclick="copyText('36')" aria-label="Kopieer link naar deze paragraaf" id="b_paragraphLink36">
             Klik hier voor een link naar deze paragraaf.
@@ -832,7 +829,7 @@
     
     
         
-        <div class="w-full min-h-screen sticky top-0 flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-screen">
+        <div class="w-full min-h-screen sticky top-[var(--page-header-height,3.25rem)] flex flex-col justify-center items-center px-6 bg-nmgnBlue-50 z-0 overflow-y-auto max-h-[calc(100vh-var(--page-header-height,3.25rem))]">
     
              <figure class="flex flex-col min-h-0 w-full mb-4">
                 <img id="asideImg" src="images/d2h7/d2h7-600/1_uitsnedSlag.jpg" class="w-full shrink-0 object-center" alt="De slag bij Gibraltar, 25 april 1607 De herinnering aan de slag bij Gibraltar kreeg weer politieke relevantie na de hervatting van de oorlog met Spanje in 1621." loading="lazy">
@@ -960,7 +957,7 @@
   </div>
 </div>
 
-<div class="bg-nmgnGreen-200 text-nmgnGreen-800 absolute top-12 w-full px-10 pb-20 items-center flex-col hidden z-50" id="topMenuPop" role="dialog" aria-modal="true" aria-label="Hoofdstukken">
+<div class="bg-nmgnGreen-200 text-nmgnGreen-800 fixed top-[var(--page-header-height,3.25rem)] bottom-0 w-full px-10 pb-20 items-center flex-col hidden z-50 overflow-y-auto" id="topMenuPop" role="dialog" aria-modal="true" aria-label="Hoofdstukken">
 
     <div class="py-5 max-w-[1300px] w-full text-right">
         <button type="button" id="btnCloseHoofdstukken" class="p-2 hover:bg-nmgnGreen-100 rounded text-2xl cursor-pointer" onclick="closeHoofdstukkenMenu();" aria-label="Sluit menu hoofdstukken">&#10006;</button>
@@ -1132,7 +1129,6 @@
 <script src="js/toggleVis.js"></script>
 <script src="js/copy.js"></script>
 <script src="js/bigImageViewer.js"></script>
-<script src="js/lunr_index.min.js"></script>
-<script src="js/lunr.js"></script>
+<script src="js/search-highlight.js"></script>
   </body>
 </html>

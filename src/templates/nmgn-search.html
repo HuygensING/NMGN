@@ -1,0 +1,33 @@
+{{> general/html-header}}
+
+{{> interface/page-header }}
+
+<main id="main" class="w-full max-w-3xl mx-auto px-6 py-10">
+    <h1 class="text-3xl font-bold mb-6">Zoeken</h1>
+
+    <form id="searchForm" class="flex flex-col sm:flex-row gap-2 mb-8" role="search" method="get" action="search.html">
+        <label for="searchField" class="sr-only">Zoekterm</label>
+        <input type="search" id="searchField" name="q" autocomplete="off"
+            class="bg-white border border-neutral-300 w-full text-black text-sm py-2 px-3"
+            placeholder="Typ een zoekwoord">
+        <button type="submit" id="searchButton"
+            class="py-2 px-4 bg-nmgnBlue-200 text-nmgnBlue-900 text-sm whitespace-nowrap rounded-full">
+            Zoeken
+        </button>
+    </form>
+
+    <div id="searchStatus" class="text-sm text-neutral-500 mb-4" aria-live="polite"></div>
+
+    <div id="searchResults" class="hidden" aria-live="polite">
+        <h2 class="text-xl font-bold mb-4">Resultaten</h2>
+        <ul id="searchResultsList" class="flex flex-col gap-6 text-sm"></ul>
+    </div>
+</main>
+
+{{> general/page-footer isHome=true}}
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="js/lunr_index.min.js"></script>
+<script src="js/lunr.js"></script>
+
+{{> general/html-footer}}
