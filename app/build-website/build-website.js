@@ -148,12 +148,26 @@ function generateHtml() {
 									}
 
                   // tables: headers + optional caption from following "Tabel …" paragraph
+                  // (+ following * / ** footnote lines)
                   if (block.type == 'table' && block.htmlRaw) {
                     block.htmlRaw = markTableHeaders(block.htmlRaw);
                     const next = chapterJson.content[index + 1];
                     if (next && next.type === 'p' && isTableCaptionParagraph(next.htmlRaw)) {
-                      block.caption = applyFootnoteMarkers(next.htmlRaw, next.footnotes);
+                      const captionParts = [applyFootnoteMarkers(next.htmlRaw, next.footnotes)];
                       next.skipRender = true;
+
+                      let noteIndex = index + 2;
+                      while (noteIndex < chapterJson.content.length) {
+                        const noteBlock = chapterJson.content[noteIndex];
+                        if (!noteBlock || noteBlock.type !== 'p' || !isTableFootnoteParagraph(noteBlock.htmlRaw)) {
+                          break;
+                        }
+                        captionParts.push(applyFootnoteMarkers(noteBlock.htmlRaw, noteBlock.footnotes));
+                        noteBlock.skipRender = true;
+                        noteIndex += 1;
+                      }
+
+                      block.caption = captionParts.join('<br>');
                     }
                   }
                   
@@ -225,6 +239,11 @@ function generateHtml() {
 function isTableCaptionParagraph(html) {
   if (!html || typeof html !== 'string') return false;
   return /^Tabel\s*\d+/i.test(utilFunc.stripHtml(html));
+}
+
+function isTableFootnoteParagraph(html) {
+  if (!html || typeof html !== 'string') return false;
+  return /^\*+/.test(utilFunc.stripHtml(html).trim());
 }
 
 function applyFootnoteMarkers(html, footnotes) {
